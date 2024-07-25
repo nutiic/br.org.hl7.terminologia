@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmTarja",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmTarja",
+  "version": "HEAD",
+  "name": "Brobmtarja",
+  "title": "Tarjas dos AMPPs",
+  "status": "active",
+  "experimental": false,
+  "description": "Tarjas dos AMPPs",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0004",
+    "display": "Medicamentos de tarja preta"
+  }, {
+    "code": "0001",
+    "display": "Medicamentos sem tarja / Medicamentos isentos de prescrição (MIP)"
+  }, {
+    "code": "0003",
+    "display": "Medicamentos de tarja vermelha com retenção de receita"
+  }, {
+    "code": "0005",
+    "display": "Não aplicável"
+  }, {
+    "code": "0002",
+    "display": "Medicamentos de tarja vermelha"
+  } ]
+}

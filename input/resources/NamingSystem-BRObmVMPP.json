@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmVMPP",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRObmVMPP",
+  "version": "HEAD",
+  "title": "Produtos Medicinais Virtuais com Apresentação (VMPPs)",
+  "experimental": false,
+  "name": "Brobmvmpp",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Produtos Medicinais Virtuais com Apresentação (VMPPs)",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMPP",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRObmVMPP",
+    "preferred": true
+  } ]
+}

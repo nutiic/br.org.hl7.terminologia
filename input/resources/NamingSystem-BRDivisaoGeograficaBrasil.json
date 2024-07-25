@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRDivisaoGeograficaBrasil",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRDivisaoGeograficaBrasil",
+  "version": "HEAD",
+  "title": "Divisão Geográfica do Brasil",
+  "experimental": false,
+  "name": "Brdivisaogeograficabrasil",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Divisão Geográfica do Brasil",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
+    "preferred": true
+  } ]
+}

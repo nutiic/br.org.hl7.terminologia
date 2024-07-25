@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRCategoriaDiagnostico",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRCategoriaDiagnostico",
+  "version": "HEAD",
+  "title": "Categoria do Diagnóstico",
+  "experimental": false,
+  "name": "Brcategoriadiagnostico",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Categoria do Diagnóstico",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCategoriaDiagnostico",
+    "preferred": true
+  } ]
+}

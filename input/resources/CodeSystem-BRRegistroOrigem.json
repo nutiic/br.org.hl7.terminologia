@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRRegistroOrigem",
+  "language": "por",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRRegistroOrigem",
+  "version": "HEAD",
+  "name": "Brregistroorigem",
+  "title": "BR Registro de Origem",
+  "status": "active",
+  "experimental": false,
+  "description": "BR Registro de Origem",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Previous vaccination record"
+  }, {
+    "code": "2",
+    "display": "Vaccination abroad"
+  } ]
+}

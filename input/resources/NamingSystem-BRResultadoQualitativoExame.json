@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRResultadoQualitativoExame",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRResultadoQualitativoExame",
+  "version": "HEAD",
+  "title": "Resultado qualitativo do Exame 2.0",
+  "experimental": false,
+  "name": "Brresultadoqualitativoexame",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Resultado qualitativo do Exame 2.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResultadoQualitativoExame",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRResultadoQualitativoExame",
+    "preferred": true
+  } ]
+}

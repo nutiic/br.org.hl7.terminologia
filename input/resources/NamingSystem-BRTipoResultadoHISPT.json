@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoResultadoHISPT",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoResultadoHISPT",
+  "version": "HEAD",
+  "title": "Tipo de Resultado HISPT 1.0",
+  "experimental": false,
+  "name": "Brtiporesultadohispt",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Resultado HISPT 1.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoHISPT",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoHISPT",
+    "preferred": true
+  } ]
+}

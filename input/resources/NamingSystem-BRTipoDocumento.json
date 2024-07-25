@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoDocumento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoDocumento",
+  "version": "HEAD",
+  "title": "Tipo de Documento",
+  "experimental": false,
+  "name": "Brtipodocumento",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Documento",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoDocumento",
+    "preferred": true
+  } ]
+}

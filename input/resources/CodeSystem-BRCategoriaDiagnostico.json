@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRCategoriaDiagnostico",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCategoriaDiagnostico",
+  "version": "HEAD",
+  "name": "Brcategoriadiagnostico",
+  "title": "Categoria do Diagnóstico",
+  "status": "active",
+  "experimental": false,
+  "description": "Categoria do Diagnóstico",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "01",
+    "display": "Principal"
+  }, {
+    "code": "02",
+    "display": "Secundário"
+  } ]
+}

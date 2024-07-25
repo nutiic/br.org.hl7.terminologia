@@ -1,0 +1,268 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRPopulacaoTradicional",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+  "version": "HEAD",
+  "name": "Brpopulacaotradicional",
+  "title": "Populacao Tradicional",
+  "status": "active",
+  "experimental": false,
+  "description": "Populacao Tradicional",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0000.00.0279",
+    "display": "RESEX Marinha de Cururupu"
+  }, {
+    "code": "0000.00.0121",
+    "display": "FLONA do Purus"
+  }, {
+    "code": "0000.00.0274",
+    "display": "RESEX do Alto Tarauacá"
+  }, {
+    "code": "0000.00.0280",
+    "display": "RESEX Rio Iriri"
+  }, {
+    "code": "0000.00.0123",
+    "display": "FLONA do Tapajós"
+  }, {
+    "code": "0000.00.0270",
+    "display": "FLONA do Crepori"
+  }, {
+    "code": "0000.00.0115",
+    "display": "FLONA do Araripe-Apodi"
+  }, {
+    "code": "0000.00.0260",
+    "display": "RESEX Verde para Sempre"
+  }, {
+    "code": "0000.00.0120",
+    "display": "FLONA do Macauã"
+  }, {
+    "code": "0000.00.0273",
+    "display": "RESEX Arióca Pruanã"
+  }, {
+    "code": "0000.00.0118",
+    "display": "FLONA do Jamari"
+  }, {
+    "code": "0000.00.0220",
+    "display": "RESEX Auatí-Paraná"
+  }, {
+    "code": "0000.00.0283",
+    "display": "RESEX Rio Unini"
+  }, {
+    "code": "0000.00.0218",
+    "display": "RDS de Itatupã-Baquiá"
+  }, {
+    "code": "0000.00.0282",
+    "display": "RESEX Terra Grande Pracuúba"
+  }, {
+    "code": "0000.00.0126",
+    "display": "FLONA Mapiá-Inauini"
+  }, {
+    "code": "0000.00.0221",
+    "display": "RESEX Barreiro das Antas"
+  }, {
+    "code": "0000.00.0286",
+    "display": "RESEX de Recanto das Araras de Terra Ronca"
+  }, {
+    "code": "0000.00.0285",
+    "display": "RESEX Arapixi"
+  }, {
+    "code": "0000.00.0287",
+    "display": "RESEX Lago do Cedro"
+  }, {
+    "code": "0000.00.0222",
+    "display": "RESEX Chico Mendes"
+  }, {
+    "code": "0000.00.0097",
+    "display": "FLONA de Jacundá"
+  }, {
+    "code": "0000.00.0253",
+    "display": "RESEX Marinha de Canavieiras"
+  }, {
+    "code": "0000.00.0092",
+    "display": "FLONA de Humaitá"
+  }, {
+    "code": "0000.00.0255",
+    "display": "RESEX Marinha do Pirajubaé"
+  }, {
+    "code": "0000.00.0254",
+    "display": "RESEX Marinha de Soure"
+  }, {
+    "code": "0000.00.0251",
+    "display": "RESEX Marinha do Arraial do Cabo"
+  }, {
+    "code": "0000.00.0085",
+    "display": "FLONA de Balata-Tufari"
+  }, {
+    "code": "0000.00.0250",
+    "display": "RESEX Marinha de Tracuateua"
+  }, {
+    "code": "0000.00.0089",
+    "display": "FLONA de Caxiuanã"
+  }, {
+    "code": "0000.00.0252",
+    "display": "RESEX Marinha do Corumbau"
+  }, {
+    "code": "0000.00.0088",
+    "display": "FLONA de Carajás"
+  }, {
+    "code": "0000.00.0257",
+    "display": "RESEX Riozinho da Liberdade"
+  }, {
+    "code": "0000.00.0108",
+    "display": "FLONA de São Francisco"
+  }, {
+    "code": "0000.00.0107",
+    "display": "FLONA de Santa Rosa do Purus"
+  }, {
+    "code": "0000.00.0256",
+    "display": "RESEX do Rio Ouro Preto"
+  }, {
+    "code": "0000.00.0104",
+    "display": "FLONA de Pau Rosa"
+  }, {
+    "code": "0000.00.0112",
+    "display": "FLONA de Tefé"
+  }, {
+    "code": "0000.00.0258",
+    "display": "RESEX Riozinho do Anfrisio"
+  }, {
+    "code": "0000.00.0109",
+    "display": "FLONA de Saracá-Taquera"
+  }, {
+    "code": "0000.00.0113",
+    "display": "FLONA do Amapá"
+  }, {
+    "code": "0000.00.0259",
+    "display": "RESEX Tapajós-Arapiuns"
+  }, {
+    "code": "0000.00.0232",
+    "display": "RESEX do Cazumbá-Iracema"
+  }, {
+    "code": "0000.00.1606",
+    "display": "RESEX do Médio Purus"
+  }, {
+    "code": "0000.00.0231",
+    "display": "RESEX Marinha do Batoque"
+  }, {
+    "code": "0000.00.1564",
+    "display": "RESEX Chapada Limpa"
+  }, {
+    "code": "0000.00.0230",
+    "display": "RESEX do Baixo Juruá"
+  }, {
+    "code": "0000.00.0234",
+    "display": "RESEX Marinha do Mandira"
+  }, {
+    "code": "0000.00.1612",
+    "display": "FLONA do Iquiri"
+  }, {
+    "code": "0000.00.0233",
+    "display": "RESEX do Lago do Cuniã"
+  }, {
+    "code": "0000.00.0235",
+    "display": "RESEX do Médio Juruá"
+  }, {
+    "code": "0000.00.1628",
+    "display": "RESEX Ituxí"
+  }, {
+    "code": "0000.00.1518",
+    "display": "RESEX do Rio Cajari"
+  }, {
+    "code": "0000.00.0226",
+    "display": "RESEX da Mata Grande"
+  }, {
+    "code": "0000.00.0225",
+    "display": "RESEX Marinha do Delta do Parnaíba"
+  }, {
+    "code": "0000.00.1517",
+    "display": "RESEX do Alto Juruá"
+  }, {
+    "code": "0000.00.0223",
+    "display": "RESEX Marinha Chocoaré-Mato Grosso"
+  }, {
+    "code": "0000.00.0288",
+    "display": "RESEX Gurupá-Melgaço"
+  }, {
+    "code": "0000.00.0228",
+    "display": "RESEX Marinha de São João da Ponta"
+  }, {
+    "code": "0000.00.0227",
+    "display": "RESEX Marinha Maracanã"
+  }, {
+    "code": "0000.00.1519",
+    "display": "RESEX do Ciriáco"
+  }, {
+    "code": "0000.00.1563",
+    "display": "RESEX Marinha Acaú-Goiana"
+  }, {
+    "code": "0000.00.1520",
+    "display": "RESEX do Quilombo Frexal"
+  }, {
+    "code": "0000.00.0241",
+    "display": "RESEX Ipaú-Anilzinho"
+  }, {
+    "code": "0000.00.3132",
+    "display": "RESEX Marinha Mocapajuba"
+  }, {
+    "code": "0000.00.0240",
+    "display": "RESEX do Extremo Norte do Estado do Tocantins"
+  }, {
+    "code": "0000.00.0242",
+    "display": "RESEX do Lago do Capanã Grande"
+  }, {
+    "code": "0000.00.3133",
+    "display": "RESEX Marinha Mestre Lucindo"
+  }, {
+    "code": "0000.00.0238",
+    "display": "RESEX do Rio do Cautário"
+  }, {
+    "code": "0000.00.1808",
+    "display": "RESEX Marinha de Cassurubá"
+  }, {
+    "code": "0000.00.1635",
+    "display": "RESEX Rio Xingu"
+  }, {
+    "code": "0000.00.1810",
+    "display": "RESEX Renascer"
+  }, {
+    "code": "0000.00.0239",
+    "display": "RESEX do Rio Jutaí"
+  }, {
+    "code": "0000.00.1809",
+    "display": "RESEX Marinha Prainha do Canto Verde"
+  }, {
+    "code": "0000.00.0245",
+    "display": "RESEX Marinha da Baia do Iguape"
+  }, {
+    "code": "0000.00.3135",
+    "display": "RDS Nascentes Geraizeiras"
+  }, {
+    "code": "0000.00.0244",
+    "display": "RESEX Mapuá"
+  }, {
+    "code": "0000.00.0243",
+    "display": "RESEX Marinha Mãe Grande Curuçá"
+  }, {
+    "code": "0000.00.3134",
+    "display": "RESEX Marinha Cuinarana"
+  }, {
+    "code": "0000.00.0248",
+    "display": "RESEX Marinha de Caeté-Taperaçu"
+  }, {
+    "code": "0000.00.0247",
+    "display": "RESEX Marinha de Araí-Peroba"
+  }, {
+    "code": "0000.00.0246",
+    "display": "RESEX Marinha da Lagoa do Jequiá"
+  }, {
+    "code": "Sem cadastro",
+    "display": "RESEX Marinha Itapetininga"
+  }, {
+    "code": "0000.00.0249",
+    "display": "RESEX Marinha de Gurupi-Piriá"
+  } ]
+}

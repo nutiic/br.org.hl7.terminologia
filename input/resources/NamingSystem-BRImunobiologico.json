@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRImunobiologico",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRImunobiologico",
+  "version": "HEAD",
+  "title": "Imunobiológico",
+  "experimental": false,
+  "name": "Brimunobiologico",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Imunobiológico",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRImunobiologico",
+    "preferred": true
+  } ]
+}

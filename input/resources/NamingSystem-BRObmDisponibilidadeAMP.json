@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmDisponibilidadeAMP",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmDisponibilidadeAMP",
+  "version": "HEAD",
+  "title": "Disponibilidade de AMP",
+  "experimental": false,
+  "name": "Brobmdisponibilidadeamp",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Disponibilidade de AMP",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmDisponibilidadeAMP",
+    "preferred": true
+  } ]
+}

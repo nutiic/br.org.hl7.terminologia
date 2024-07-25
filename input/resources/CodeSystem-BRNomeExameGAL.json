@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRNomeExameGAL",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRNomeExameGAL",
+  "version": "HEAD",
+  "name": "Brnomeexamegal",
+  "title": "Exames do GAL",
+  "status": "active",
+  "experimental": false,
+  "description": "Exames do GAL",
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "CVIDGG",
+    "display": "COVID-19, IgG"
+  }, {
+    "code": "coronavirusnCoV",
+    "display": "Novo coronavírus (2019-nCoV)"
+  }, {
+    "code": "CVIDGM",
+    "display": "COVID-19, IgM"
+  }, {
+    "code": "COVID",
+    "display": "COVID-19, Biologia Molecular"
+  } ]
+}

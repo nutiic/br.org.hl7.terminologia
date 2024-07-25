@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmFonteIngrediente",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmFonteIngrediente",
+  "version": "HEAD",
+  "name": "Brobmfonteingrediente",
+  "title": "Fonte Ingrediente",
+  "status": "active",
+  "experimental": false,
+  "description": "Fonte Ingrediente",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0000",
+    "display": "DCB"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRMedDRA",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRMedDRA",
+  "version": "HEAD",
+  "title": "MedDRA",
+  "experimental": false,
+  "name": "Brmeddra",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "MedDRA",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRMedDRA",
+    "preferred": true
+  } ]
+}

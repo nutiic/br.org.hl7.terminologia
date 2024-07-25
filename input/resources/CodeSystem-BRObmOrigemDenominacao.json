@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmOrigemDenominacao",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmOrigemDenominacao",
+  "version": "HEAD",
+  "name": "Brobmorigemdenominacao",
+  "title": "Origens de denominação",
+  "status": "active",
+  "experimental": false,
+  "description": "Origens de denominação",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0008",
+    "display": "DCB - Denominação Comum Brasileira"
+  }, {
+    "code": "1",
+    "display": "rINN - Denominação Comum Internacional Recomendada"
+  } ]
+}

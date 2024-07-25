@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmViaAdministracao",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmViaAdministracao",
+  "version": "HEAD",
+  "title": "Via de administração",
+  "experimental": false,
+  "name": "Brobmviaadministracao",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Via de administração",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmViaAdministracao",
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRCIAP2",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRCIAP2",
+  "version": "HEAD",
+  "title": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+  "experimental": false,
+  "name": "Brciap2",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCIAP2",
+    "preferred": true
+  } ]
+}

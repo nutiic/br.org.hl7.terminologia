@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoObservacao",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoObservacao",
+  "version": "HEAD",
+  "title": "Tipo de Observação",
+  "experimental": false,
+  "name": "Brtipoobservacao",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Observação",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
+    "preferred": true
+  } ]
+}

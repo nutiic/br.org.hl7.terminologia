@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmOntologiaViaAdministracao",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmOntologiaViaAdministracao",
+  "version": "HEAD",
+  "name": "Brobmontologiaviaadministracao",
+  "title": "Ontologia de Via de administração",
+  "status": "active",
+  "experimental": false,
+  "description": "Ontologia de Via de administração",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0001",
+    "display": "comprimido.oral"
+  }, {
+    "code": "0141",
+    "display": "xampu creme.capilar"
+  } ]
+}

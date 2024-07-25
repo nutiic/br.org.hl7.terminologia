@@ -1,0 +1,30 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "conselho-profissional-saude-br-ips",
+    "name": "NamingSystemCONSELHOPROFISSIONALSAUDEBRIPS",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2024-06-24T13:12:57-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "CLASSIFICAÇÃO NACIONAL DE CONSELHOS PROFISSIONAIS DA SAÚDE",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Responsável por definir o identificador da classificação nacional de conselhos profissionais do IPS Brasil",
+    "description": "CLASSIFICAÇÃO NACIONAL DE CONSELHOS PROFISSIONAIS DA SAÚDE",
+    "usage": "CLASSIFICAÇÃO NACIONAL DE CONSELHOS PROFISSIONAIS DA SAÚDE",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://terminologia.saude.gov.br/CodeSystem/conselho-profissional-saude-br-ips",
+            "preferred": true
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoResultadoRGNR",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoResultadoRGNR",
+  "version": "HEAD",
+  "title": "Tipo de Resultado RGNR 1.0",
+  "experimental": false,
+  "name": "Brtiporesultadorgnr",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Resultado RGNR 1.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRGNR",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRGNR",
+    "preferred": true
+  } ]
+}

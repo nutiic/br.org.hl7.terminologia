@@ -1,0 +1,21 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoIntoleranciaAlergia",
+  "language": "por",
+  "url": "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+  "version": "HEAD",
+  "name": "Brtipointoleranciaalergia",
+  "title": "AllergyIntoleranceType",
+  "status": "active",
+  "experimental": false,
+  "description": "AllergyIntoleranceType",
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "allergy",
+    "display": "alergia"
+  }, {
+    "code": "intolerance",
+    "display": "intolerancia"
+  } ]
+}

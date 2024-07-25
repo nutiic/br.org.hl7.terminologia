@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoLogradouro",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoLogradouro",
+  "version": "HEAD",
+  "name": "Brtipologradouro",
+  "title": "Tipo de Logradouro",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Tipo de Logradouro",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "008",
+    "display": "Avenida"
+  }, {
+    "code": "081",
+    "display": "Rua"
+  } ]
+}

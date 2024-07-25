@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmAmp",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmAmp",
+  "version": "HEAD",
+  "name": "Brobmamp",
+  "title": "Produtos Medicinais Comercial (AMP)",
+  "status": "active",
+  "experimental": false,
+  "description": "Produtos Medicinais Comercial (AMP)",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "@brasil55101",
+    "display": "Cloridrato de Metformina"
+  } ]
+}

@@ -1,0 +1,88 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRLocalAplicacao",
+  "language": "por",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAplicacao",
+  "version": "HEAD",
+  "name": "Brlocalaplicacao",
+  "title": "Local de Aplicação",
+  "status": "active",
+  "experimental": false,
+  "description": "Local de Aplicação",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "11",
+    "display": "Left gluteal region"
+  }, {
+    "code": "14",
+    "display": "Right upper limb structure"
+  }, {
+    "code": "12",
+    "display": "Right forearm structure"
+  }, {
+    "code": "2",
+    "display": "Left deltoid muscle"
+  }, {
+    "code": "5",
+    "display": "Right gluteal region"
+  }, {
+    "code": "4",
+    "display": "Left lower limb structure"
+  }, {
+    "code": "21",
+    "display": "Right forearm structure"
+  }, {
+    "code": "0",
+    "display": "Sem registro no sistema de informação de origem"
+  }, {
+    "code": "20",
+    "display": "Left upper arm structure"
+  }, {
+    "code": "3",
+    "display": "Right lower limb structure"
+  }, {
+    "code": "7",
+    "display": "Gluteal region"
+  }, {
+    "code": "13",
+    "display": "Left forearm structure"
+  }, {
+    "code": "8",
+    "display": "Local wound"
+  }, {
+    "code": "17",
+    "display": "Structure of right lower limb"
+  }, {
+    "code": "15",
+    "display": "Left upper arm structure"
+  }, {
+    "code": "6",
+    "display": "Left gluteal region"
+  }, {
+    "code": "1",
+    "display": "Right deltoid muscle"
+  }, {
+    "code": "19",
+    "display": "Right upper limb structure"
+  }, {
+    "code": "18",
+    "display": "Structure of left lower limb"
+  }, {
+    "code": "22",
+    "display": "Left forearm structure"
+  }, {
+    "code": "9",
+    "display": "Mouth"
+  }, {
+    "code": "10",
+    "display": "Right gluteal region"
+  }, {
+    "code": "16",
+    "display": "Venous system"
+  }, {
+    "code": "99",
+    "display": "Other"
+  } ]
+}

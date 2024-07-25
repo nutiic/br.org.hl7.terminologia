@@ -1,0 +1,115 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRDivisaoGeograficaBrasil",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
+  "version": "HEAD",
+  "name": "Brdivisaogeograficabrasil",
+  "title": "Divisão Geográfica do Brasil",
+  "status": "active",
+  "experimental": false,
+  "description": "Divisão Geográfica do Brasil",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": false,
+  "content": "complete",
+  "concept": [ {
+    "code": "15",
+    "display": "Pará"
+  }, {
+    "code": "34",
+    "display": "São Paulo"
+  }, {
+    "code": "14",
+    "display": "Roraima"
+  }, {
+    "code": "33",
+    "display": "Rio de Janeiro"
+  }, {
+    "code": "4",
+    "display": "Sul"
+  }, {
+    "code": "16",
+    "display": "Amapá"
+  }, {
+    "code": "17",
+    "display": "Tocantins"
+  }, {
+    "code": "41",
+    "display": "Paraná"
+  }, {
+    "code": "11",
+    "display": "Rondônia"
+  }, {
+    "code": "31",
+    "display": "Minas Gerais"
+  }, {
+    "code": "29",
+    "display": "Bahia"
+  }, {
+    "code": "1",
+    "display": "Norte"
+  }, {
+    "code": "3",
+    "display": "Sudeste"
+  }, {
+    "code": "315780",
+    "display": "Santa Luzia"
+  }, {
+    "code": "12",
+    "display": "Acre"
+  }, {
+    "code": "13",
+    "display": "Amazonas"
+  }, {
+    "code": "32",
+    "display": "Espírito Santo"
+  }, {
+    "code": "5",
+    "display": "Centro-Oeste"
+  }, {
+    "code": "22",
+    "display": "Piauí"
+  }, {
+    "code": "23",
+    "display": "Ceará"
+  }, {
+    "code": "50",
+    "display": "Mato Grosso do Sul"
+  }, {
+    "code": "42",
+    "display": "Santa Catarina"
+  }, {
+    "code": "2",
+    "display": "Nordeste"
+  }, {
+    "code": "21",
+    "display": "Maranhão"
+  }, {
+    "code": "43",
+    "display": "Rio Grande do Sul"
+  }, {
+    "code": "25",
+    "display": "Paraíba"
+  }, {
+    "code": "52",
+    "display": "Goiás"
+  }, {
+    "code": "24",
+    "display": "Rio Grande do Norte"
+  }, {
+    "code": "51",
+    "display": "Mato Grosso"
+  }, {
+    "code": "53",
+    "display": "Distrito Federal"
+  }, {
+    "code": "26",
+    "display": "Pernambuco"
+  }, {
+    "code": "27",
+    "display": "Alagoas"
+  }, {
+    "code": "28",
+    "display": "Sergipe"
+  } ]
+}

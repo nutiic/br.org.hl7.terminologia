@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoEstabelecimentoSaude",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoEstabelecimentoSaude",
+  "version": "HEAD",
+  "title": "Tipo de Estabelecimento de Saúde",
+  "experimental": false,
+  "name": "Brtipoestabelecimentosaude",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Estabelecimento de Saúde",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoEstabelecimentoSaude",
+    "preferred": true
+  } ]
+}

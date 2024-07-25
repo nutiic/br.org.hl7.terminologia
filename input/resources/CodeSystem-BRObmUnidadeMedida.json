@@ -1,0 +1,214 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmUnidadeMedida",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmUnidadeMedida",
+  "version": "HEAD",
+  "name": "Brobmunidademedida",
+  "title": "Unidades de Medida",
+  "status": "active",
+  "experimental": false,
+  "description": "Unidades de Medida",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "@brasil3836583088",
+    "display": "frasco"
+  }, {
+    "code": "@brasil5136136646",
+    "display": "blíster"
+  }, {
+    "code": "@brasil5819277896",
+    "display": "cartucho"
+  }, {
+    "code": "@brasil2515400313",
+    "display": "cápsula"
+  }, {
+    "code": "@brasil1289059844",
+    "display": "bolsa"
+  }, {
+    "code": "@brasil2972116813",
+    "display": "ampola"
+  }, {
+    "code": "@brasil1281169744",
+    "display": "barra"
+  }, {
+    "code": "@brasil4913006298",
+    "display": "bandagem"
+  }, {
+    "code": "@brasil6745099566",
+    "display": "Pastilha dura"
+  }, {
+    "code": "@brasil0984099919",
+    "display": "filme"
+  }, {
+    "code": "@brasil8499995791",
+    "display": "dose"
+  }, {
+    "code": "@brasil7899328762",
+    "display": "catéter"
+  }, {
+    "code": "@brasil9045935118",
+    "display": "adesivo"
+  }, {
+    "code": "@brasil6963621433",
+    "display": "Pastilha gomosa"
+  }, {
+    "code": "@brasil2332494943",
+    "display": "pílula"
+  }, {
+    "code": "@brasil0148593770",
+    "display": "óvulo"
+  }, {
+    "code": "@brasil4155444157",
+    "display": "L (Litro)"
+  }, {
+    "code": "@brasil0646719448",
+    "display": "kg (Quilograma)"
+  }, {
+    "code": "@brasil4999723367",
+    "display": "mg (Miligrama)"
+  }, {
+    "code": "@brasil3446713022",
+    "display": "m (Metro)"
+  }, {
+    "code": "@brasil9460964682",
+    "display": "g (Grama)"
+  }, {
+    "code": "@brasil8557154384",
+    "display": "cm (Centímetro)"
+  }, {
+    "code": "@brasil8140277253",
+    "display": "aplicação"
+  }, {
+    "code": "@brasil4543704185",
+    "display": "UI (Unidade Internacional)"
+  }, {
+    "code": "@brasil8359343096",
+    "display": "hora"
+  }, {
+    "code": "@brasil7173257293",
+    "display": "mm (Milímetro)"
+  }, {
+    "code": "@brasil9065035386",
+    "display": "mL (Mililitro)"
+  }, {
+    "code": "@brasil7975634664",
+    "display": "microlitro"
+  }, {
+    "code": "@brasil7814942308",
+    "display": "micrograma"
+  }, {
+    "code": "@brasil0462861918",
+    "display": "nL (Nanolitro)"
+  }, {
+    "code": "@brasil9807750064",
+    "display": "ng (Nanograma)"
+  }, {
+    "code": "@brasil9966978072",
+    "display": "atomização"
+  }, {
+    "code": "@brasil6071006720",
+    "display": "unidade"
+  }, {
+    "code": "@brasil4559577863",
+    "display": "enema"
+  }, {
+    "code": "@brasil0022242280",
+    "display": "aplicador"
+  }, {
+    "code": "@brasil2080130101",
+    "display": "implante"
+  }, {
+    "code": "@brasil1557005723",
+    "display": "desconhecido"
+  }, {
+    "code": "@brasil1937371882",
+    "display": "pastilha"
+  }, {
+    "code": "@brasil0494289792",
+    "display": "mEq (Miliequivalente)"
+  }, {
+    "code": "259022006",
+    "display": "cm² (Centímetro Quadrado)"
+  }, {
+    "code": "@brasil8331526680",
+    "display": "MUI (Milhões de unidades internacionais)"
+  }, {
+    "code": "@brasil9468708357",
+    "display": "frasco-ampola"
+  }, {
+    "code": "@brasil4021661739",
+    "display": "comprimido"
+  }, {
+    "code": "@brasil6961512258",
+    "display": "seringa"
+  }, {
+    "code": "@brasil3991003037",
+    "display": "supositório"
+  }, {
+    "code": "@brasil4627412487",
+    "display": "dispositivo de injeção pré-carregado"
+  }, {
+    "code": "@brasil7899258977",
+    "display": "carpule"
+  }, {
+    "code": "@brasil3160154641",
+    "display": "bisnaga"
+  }, {
+    "code": "@brasil1616338554",
+    "display": "flaconete"
+  }, {
+    "code": "@brasil2106218724",
+    "display": "envelope"
+  }, {
+    "code": "@brasil8436493656",
+    "display": "anel"
+  }, {
+    "code": "@brasil3704153059",
+    "display": "goma"
+  }, {
+    "code": "@brasil5445129331",
+    "display": "dispositivo"
+  }, {
+    "code": "@brasil3445023571",
+    "display": "UIC (Unidade Inibidora de Calicreína)"
+  }, {
+    "code": "@brasil2851809881",
+    "display": "endosporos"
+  }, {
+    "code": "@brasil2099377606",
+    "display": "UTR (Unidade Redutora da Turbidez)"
+  }, {
+    "code": "@brasil1637955118",
+    "display": "emplastro"
+  }, {
+    "code": "@brasil2187798777",
+    "display": "milhões"
+  }, {
+    "code": "@brasil3210018246",
+    "display": "saco"
+  }, {
+    "code": "@brasil3525851125",
+    "display": "lata"
+  }, {
+    "code": "@brasil1333937788",
+    "display": "estojo"
+  }, {
+    "code": "@brasil6803495074",
+    "display": "caixa"
+  }, {
+    "code": "@brasil1447787332",
+    "display": "gota"
+  }, {
+    "code": "@brasil8021368830",
+    "display": "strip"
+  }, {
+    "code": "@brasil69869485261",
+    "display": "bisnaga"
+  }, {
+    "code": "@brasil4773934727",
+    "display": "% (porcento)"
+  } ]
+}

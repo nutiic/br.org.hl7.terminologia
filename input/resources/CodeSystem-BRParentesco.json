@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRParentesco",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRParentesco",
+  "version": "HEAD",
+  "name": "Brparentesco",
+  "title": "Parentesco",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Parentesco",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "mother",
+    "display": "Mãe"
+  }, {
+    "code": "father",
+    "display": "Pai"
+  } ]
+}

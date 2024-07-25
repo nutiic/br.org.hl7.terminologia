@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTerminologiaPatogeno",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTerminologiaPatogeno",
+  "version": "HEAD",
+  "name": "Brterminologiapatogeno",
+  "title": "Patógeno",
+  "status": "active",
+  "experimental": false,
+  "description": "Patógeno",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "Orthopoxvirus não-varíola"
+  }, {
+    "code": "06",
+    "display": "Vírus Pseudovaríola"
+  }, {
+    "code": "05",
+    "display": "Vírus Orf"
+  }, {
+    "code": "01",
+    "display": "Orthopoxvirus (nome do gênero do vírus)"
+  }, {
+    "code": "07",
+    "display": "SARS-CoV-2"
+  }, {
+    "code": "03",
+    "display": "Vírus Monkeypox"
+  }, {
+    "code": "04",
+    "display": "Parapoxvirus (nome do gênero do vírus)"
+  } ]
+}

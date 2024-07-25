@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoResultadoDTNT",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoResultadoDTNT",
+  "version": "HEAD",
+  "title": "Tipo de Resultado DTNT 1.0",
+  "experimental": false,
+  "name": "Brtiporesultadodtnt",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Resultado DTNT 1.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoDTNT",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoDTNT",
+    "preferred": true
+  } ]
+}

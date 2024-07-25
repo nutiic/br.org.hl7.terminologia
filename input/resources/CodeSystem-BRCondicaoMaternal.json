@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRCondicaoMaternal",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCondicaoMaternal",
+  "version": "HEAD",
+  "name": "Brcondicaomaternal",
+  "title": "Condição  Maternal",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Minist&#233;rio da Sa&#250;de do Brasil",
+  "description": "Condição  Maternal",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Nenhuma"
+  }, {
+    "code": "2",
+    "display": "Gestante"
+  }, {
+    "code": "3",
+    "display": "Puérpera"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoResultadoPSNG",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoPSNG",
+  "version": "HEAD",
+  "name": "Brtiporesultadopsng",
+  "title": "Tipo de Resultado PSNG 1.0",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Resultado PSNG 1.0",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Positivo"
+  }, {
+    "code": "3",
+    "display": "Inconclusivo"
+  }, {
+    "code": "2",
+    "display": "Negativo"
+  } ]
+}

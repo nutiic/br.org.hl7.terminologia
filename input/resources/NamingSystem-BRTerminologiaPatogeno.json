@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTerminologiaPatogeno",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTerminologiaPatogeno",
+  "version": "HEAD",
+  "title": "Patógeno",
+  "experimental": false,
+  "name": "Brterminologiapatogeno",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Patógeno",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTerminologiaPatogeno",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTerminologiaPatogeno",
+    "preferred": true
+  } ]
+}

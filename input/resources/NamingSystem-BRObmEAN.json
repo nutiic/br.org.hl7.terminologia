@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmEAN",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRObmEAN",
+  "version": "HEAD",
+  "title": "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
+  "experimental": false,
+  "name": "Brobmean",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRObmEAN",
+    "preferred": true
+  } ]
+}

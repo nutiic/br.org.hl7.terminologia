@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRModalidadeFinanceira",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRModalidadeFinanceira",
+  "version": "HEAD",
+  "title": "Modalidade Financeira",
+  "experimental": false,
+  "name": "Brmodalidadefinanceira",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Modalidade Financeira",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeFinanceira",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRModalidadeFinanceira",
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "rne",
+    "name": "NamingSystemRNE",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2024-06-24T13:12:56-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "REGISTRO NACIONAL DE ESTRANGEIRO",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Responsável por definir o identificador do registro nacional de estrangeiro",
+    "description": "REGISTRO NACIONAL DE ESTRANGEIRO",
+    "usage": "REGISTRO NACIONAL DE ESTRANGEIRO",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://saude.gov.br/fhir/sid/rne",
+            "preferred": true
+        },
+        {
+            "type": "uri",
+            "value": "http://rnds.saude.gov.br/fhir/r4/NamingSystem/rne",
+            "preferred": false
+        }
+    ]
+}

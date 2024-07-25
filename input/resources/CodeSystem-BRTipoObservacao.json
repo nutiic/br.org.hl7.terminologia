@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoObservacao",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
+  "version": "HEAD",
+  "name": "Brtipoobservacao",
+  "title": "Tipo de Observação",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Observação",
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "CA",
+    "display": "Circunferência Abdominal"
+  }, {
+    "code": "PC",
+    "display": "Perímetro Cefálico"
+  }, {
+    "code": "A",
+    "display": "Altura"
+  }, {
+    "code": "P",
+    "display": "Peso"
+  }, {
+    "code": "PA",
+    "display": "Pressão Arterial"
+  }, {
+    "code": "DSIA",
+    "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+  }, {
+    "code": "DF",
+    "display": "Dados do desfecho"
+  }, {
+    "code": "RECIDI",
+    "display": "Resumo da evolução clínica do indivíduo durante a internação"
+  }, {
+    "code": "IAC",
+    "display": "Informações Adicionais/Complementares"
+  } ]
+}

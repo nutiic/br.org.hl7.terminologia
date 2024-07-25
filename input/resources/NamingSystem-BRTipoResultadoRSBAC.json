@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoResultadoRSBAC",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoResultadoRSBAC",
+  "version": "HEAD",
+  "title": "Tipo de Resultado RSBAC 1.0",
+  "experimental": false,
+  "name": "Brtiporesultadorsbac",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Resultado RSBAC 1.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSBAC",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSBAC",
+    "preferred": true
+  } ]
+}

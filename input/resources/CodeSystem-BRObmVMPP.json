@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmVMPP",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmVMPP",
+  "version": "HEAD",
+  "name": "Brobmvmpp",
+  "title": "Produtos Medicinais Virtuais com Apresentação (VMPPs)",
+  "status": "active",
+  "experimental": false,
+  "description": "Produtos Medicinais Virtuais com Apresentação (VMPPs)",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "@brasil49346033141",
+    "display": "Abacavir 300 mg comprimido x 60 comprimidos"
+  }, {
+    "code": "@brasil50685134139",
+    "display": "Paracetamol 500 mg + Codeína 7,5 mg comprimido x 96 comprimidos"
+  } ]
+}

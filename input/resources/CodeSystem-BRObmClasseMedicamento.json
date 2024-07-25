@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmClasseMedicamento",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmClasseMedicamento",
+  "version": "HEAD",
+  "name": "Brobmclassemedicamento",
+  "title": "Classes de Medicamentos",
+  "status": "active",
+  "experimental": false,
+  "description": "Classes de Medicamentos",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0004",
+    "display": "Não informado"
+  }, {
+    "code": "0001",
+    "display": "Referência"
+  }, {
+    "code": "0006",
+    "display": "Específico"
+  }, {
+    "code": "0007",
+    "display": "Novo"
+  }, {
+    "code": "0003",
+    "display": "Similar"
+  }, {
+    "code": "0002",
+    "display": "Genérico"
+  }, {
+    "code": "103329007",
+    "display": "Não disponível"
+  }, {
+    "code": "0005",
+    "display": "Biológico"
+  } ]
+}

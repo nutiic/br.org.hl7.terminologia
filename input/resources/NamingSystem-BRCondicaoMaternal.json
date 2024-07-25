@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRCondicaoMaternal",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRCondicaoMaternal",
+  "version": "HEAD",
+  "title": "Condição  Maternal",
+  "experimental": false,
+  "name": "Brcondicaomaternal",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Minist&#233;rio da Sa&#250;de do Brasil",
+  "responsible": "Minist&#233;rio da Sa&#250;de do Brasil",
+  "description": "Condição  Maternal",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCondicaoMaternal",
+    "preferred": true
+  } ]
+}

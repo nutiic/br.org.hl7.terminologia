@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoResultadoRSCUL",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoResultadoRSCUL",
+  "version": "HEAD",
+  "title": "Tipo de Resultado RSCUL 1.0",
+  "experimental": false,
+  "name": "Brtiporesultadorscul",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tipo de Resultado RSCUL 1.0",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSCUL",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSCUL",
+    "preferred": true
+  } ]
+}

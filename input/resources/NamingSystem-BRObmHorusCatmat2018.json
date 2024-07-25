@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmHorusCatmat2018",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmHorusCatmat2018/",
+  "version": "HEAD",
+  "title": "Horus Catmat 2018",
+  "experimental": false,
+  "name": "Brobmhoruscatmat2018",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Horus Catmat 2018",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmHorusCatmat2018/",
+    "preferred": true
+  } ]
+}

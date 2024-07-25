@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRJustificativaIndividuoNaoIdentificado",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRJustificativaIndividuoNaoIdentificado",
+  "version": "HEAD",
+  "title": "Justificativa da Impossibilidade de Identificação do Indivíduo",
+  "experimental": false,
+  "name": "Brjustificativaindividuonaoidentificado",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Justificativa da Impossibilidade de Identificação do Indivíduo",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+    "preferred": true
+  } ]
+}

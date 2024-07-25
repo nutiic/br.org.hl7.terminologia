@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoResultadoRSBAC",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSBAC",
+  "version": "HEAD",
+  "name": "Brtiporesultadorsbac",
+  "title": "Tipo de Resultado RSBAC 1.0",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Resultado RSBAC 1.0",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "3",
+    "display": "Inconclusivo"
+  }, {
+    "code": "2",
+    "display": "Não Foram visualizados"
+  }, {
+    "code": "1",
+    "display": "Foram visualizados"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmIndicadorDose",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmIndicadorDose",
+  "version": "HEAD",
+  "name": "Brobmindicadordose",
+  "title": "Indicadores das Doses",
+  "status": "active",
+  "experimental": false,
+  "description": "Indicadores das Doses",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0003",
+    "display": "Não aplicável"
+  }, {
+    "code": "0002",
+    "display": "Contínuo"
+  }, {
+    "code": "0001",
+    "display": "Discreto"
+  } ]
+}

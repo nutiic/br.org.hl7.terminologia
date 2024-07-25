@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRPosicaoIndividuo",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRPosicaoIndividuo",
+  "version": "HEAD",
+  "title": "Posição do Indivíduo",
+  "experimental": false,
+  "name": "Brposicaoindividuo",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "Posição do Indivíduo",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRPosicaoIndividuo",
+    "preferred": true
+  } ]
+}

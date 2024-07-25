@@ -1,0 +1,35 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "cns",
+    "name": "NamingSystemCNS",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2024-06-24T13:12:57-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "CARTÃO NACIONAL DE SAÚDE",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Responsável por definir o cadastro nacional de saúde",
+    "description": "CARTÃO NACIONAL DE SAÚDE",
+    "usage": "CARTÃO NACIONAL DE SAÚDE",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://saude.gov.br/fhir/sid/cns",
+            "preferred": true
+        },
+        {
+            "type": "uri",
+            "value": "http://rnds.saude.gov.br/fhir/r4/NamingSystem/cns",
+            "preferred": false
+        }
+    ]
+}

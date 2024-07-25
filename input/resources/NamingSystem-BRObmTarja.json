@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmTarja",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmTarja",
+  "version": "HEAD",
+  "title": "Tarjas dos AMPPs",
+  "experimental": false,
+  "name": "Brobmtarja",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tarjas dos AMPPs",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmTarja",
+    "preferred": true
+  } ]
+}

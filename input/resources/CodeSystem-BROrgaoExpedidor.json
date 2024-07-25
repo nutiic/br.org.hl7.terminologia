@@ -1,0 +1,143 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BROrgaoExpedidor",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BROrgaoExpedidor",
+  "version": "HEAD",
+  "name": "Brorgaoexpedidor",
+  "title": "Órgão Expedidor",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Órgão Expedidor",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "COREN",
+    "display": "Conselho Regional de Enfermagem (COREn)"
+  }, {
+    "code": "DETRAN",
+    "display": "Departamento Estadual de Trânsito"
+  }, {
+    "code": "CRTR",
+    "display": "Conselho Regional de Técnicos em Radiologia (CRTR)"
+  }, {
+    "code": "CORE",
+    "display": "Conselho Regional de Representantes Comerciais (CORE)"
+  }, {
+    "code": "CORECON",
+    "display": "Conselho Regional de Economia (CORECON)"
+  }, {
+    "code": "FAB",
+    "display": "Força Aérea Brasileira"
+  }, {
+    "code": "CRA",
+    "display": "Conselho Regional de Administração (CRA)"
+  }, {
+    "code": "EB",
+    "display": "Exército Brasileiro"
+  }, {
+    "code": "II",
+    "display": "Instituto de Identificação"
+  }, {
+    "code": "CRB",
+    "display": "Conselho Regional de Biblioteconomia (CRB)"
+  }, {
+    "code": "CRO",
+    "display": "Conselho Regional de Odontologia (CRO)"
+  }, {
+    "code": "CAU",
+    "display": "Conselho Regional de Arquitetura e Urbanismo (CAU)"
+  }, {
+    "code": "CBM",
+    "display": "Corpo de Bombeiros Militar"
+  }, {
+    "code": "CRMV",
+    "display": "Conselho Regional de Medicina Veterinária (CRMV)"
+  }, {
+    "code": "CARTORIO",
+    "display": "Cartório de Registro Civil"
+  }, {
+    "code": "CRN",
+    "display": "Conselho Regional de Nutrição (CRN)"
+  }, {
+    "code": "CRQ",
+    "display": "Conselho Regional de Química (CRQ)"
+  }, {
+    "code": "CONFRE",
+    "display": "Conselho Regional de Estatística (CONRE)"
+  }, {
+    "code": "CRP",
+    "display": "Conselho Regional de Psicologia (CRP)"
+  }, {
+    "code": "CRT",
+    "display": "Conselho Regional dos Técnicos Industriais (CRT)"
+  }, {
+    "code": "CONRERP",
+    "display": "Conselho Regional de Reçações Públicas (CONRERP)"
+  }, {
+    "code": "PCE",
+    "display": "Polícia Civil do Estado"
+  }, {
+    "code": "CREA",
+    "display": "Conselho Regional de Engenharia e Agronomia (CREA)"
+  }, {
+    "code": "OAB",
+    "display": "Ordem dos Advogados do BRAasil (OAB)"
+  }, {
+    "code": "PF",
+    "display": "Polícia Federal"
+  }, {
+    "code": "CRECI",
+    "display": "Conselho Regional de Corretores de Imóveis (CRECI)"
+  }, {
+    "code": "CRBM",
+    "display": "Conselho Regional de Biomedicina (CRBM)"
+  }, {
+    "code": "MB",
+    "display": "Marinha do Brasil"
+  }, {
+    "code": "CRBIO",
+    "display": "Conselho Regional de Biologia (CRBio)"
+  }, {
+    "code": "MS",
+    "display": "Ministério da Saúde"
+  }, {
+    "code": "MC",
+    "display": "Ministério da Cidadania"
+  }, {
+    "code": "CRC",
+    "display": "Conselho Regional de Contabilidade (CRC)"
+  }, {
+    "code": "CRESS",
+    "display": "Conselho Regional de Serviço Social (CRESS)"
+  }, {
+    "code": "RFB",
+    "display": "Receita Federal do Brasil"
+  }, {
+    "code": "PM",
+    "display": "Polícia Militar"
+  }, {
+    "code": "CREF",
+    "display": "Conselho Regional de Educação Física (CREF)"
+  }, {
+    "code": "CREFITO",
+    "display": "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+  }, {
+    "code": "other",
+    "display": "Outro órgão não listado"
+  }, {
+    "code": "CRF",
+    "display": "Conselho Regional de Farmácia (CRF)"
+  }, {
+    "code": "SSP",
+    "display": "Serviço de Segurança Pública"
+  }, {
+    "code": "CRM",
+    "display": "Conselho Regional de Medicina (CRM)"
+  }, {
+    "code": "CRFA",
+    "display": "Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+  } ]
+}

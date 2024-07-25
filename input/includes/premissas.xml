@@ -1,0 +1,40 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <a name="premissas"> </a>
+  
+  <p align="justify">
+    Este guia seguiu as recomendações do HL7 e Joint Initiative Council
+    (http://jointinitiativecouncil.org) entidade que congrega as principais organizações
+    desenvolvedoras de padrões em informática em saúde no mundo, conforme Figura 2 abaixo:
+  </p>
+
+  <img src="ips-organizacoes.png" alt="Organizações" width="100%" height="100%" />
+
+  <p align="justify">As premissas e princípios para a construção do Guia de Implementação IPS Brasil
+    foram:</p>
+
+  <ul>
+    <li>ser mínimo</li>
+    <li>ser extensível</li>
+    <li>independente de especialidades médicas</li>
+    <li>independente de condições clínicas</li>
+    <li>mas, clinicamente relevante.</li>
+  </ul>
+
+  <p align="justify">Ao mesmo tempo, o guia deve ser</p>
+
+  <ul>
+    <li>implementável</li>
+    <li>de aplicabilidade internacional</li>
+    <li>extensível e aberto</li>
+    <li>sustentável.</li>
+  </ul>
+
+  <p align="justify">
+    O Guia BR IPS atende todos os requisitos para ser o Guia de Implementação BR CORE de tal forma
+    que este seja o Guia de maior hierarquia onde os demais guias de casos de uso específicos no
+    País herdam criam extensões quando necessário. O Guia de Implementação do Projeto de
+    Padronização e Qualificação dos Dados Assistenciais da Saúde Suplementar (PQDAS) pode ser um
+    exemplo de Guia que fica no primeiro nível abaixo do Guia IPS Brasil.
+  </p>  
+</div>

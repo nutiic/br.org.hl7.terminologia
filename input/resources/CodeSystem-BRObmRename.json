@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmRename",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmRename",
+  "version": "HEAD",
+  "name": "Brobmrename",
+  "title": "RENAME",
+  "status": "active",
+  "experimental": false,
+  "description": "RENAME",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "abatacepte",
+    "display": "abatacepte"
+  } ]
+}

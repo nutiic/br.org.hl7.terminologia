@@ -1,0 +1,62 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRDadoAusenteOuDesconhecido",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRDadoAusenteOuDesconhecido",
+  "version": "HEAD",
+  "name": "Brdadoausenteoudesconhecido",
+  "title": "Classificação de dados ausentes ou desconhecidos - IPS",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Classificação de dados ausentes ou desconhecidos - IPS",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "no-known-food-allergies",
+    "display": "Sem alergias alimentares conhecidas"
+  }, {
+    "code": "no-problem-info",
+    "display": "Nenhuma informação sobre problemas."
+  }, {
+    "code": "no-known-immunizations",
+    "display": "Sem imunizações conhecidas"
+  }, {
+    "code": "no-known-environmental-allergies",
+    "display": "Sem alergias ambientai conhecidas"
+  }, {
+    "code": "no-known-allergies",
+    "display": "Nenhuma alergia conhecida."
+  }, {
+    "code": "no-known-procedures",
+    "display": "Nenhum procedimento conhecido."
+  }, {
+    "code": "no-immunization-info",
+    "display": "Nenhuma informação sobre imunizaçôes"
+  }, {
+    "code": "no-known-devices",
+    "display": "Nenhum dispositivo em uso conhecido"
+  }, {
+    "code": "no-known-problems",
+    "display": "Nenhum problema conhecido."
+  }, {
+    "code": "no-device-info",
+    "display": "Nenhuma informação sobre dispositivos."
+  }, {
+    "code": "no-procedure-info",
+    "display": "Nenhuma informação sobre procedimentos."
+  }, {
+    "code": "no-medication-info",
+    "display": "Sem informação sobre medicamentos."
+  }, {
+    "code": "no-allergy-info",
+    "display": "Nenhuma informação sobre alergias"
+  }, {
+    "code": "no-known-medications",
+    "display": "Sem medicamentos conhecidos."
+  }, {
+    "code": "no-known-medication-allergies",
+    "display": "Nenhuma informação sobre alergias a medicamentos"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmVTM",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRObmVTM",
+  "version": "HEAD",
+  "title": "Princípios Ativos Virtuais (VTMs)",
+  "experimental": false,
+  "name": "Brobmvtm",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Princípios Ativos Virtuais (VTMs)",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVTM",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRObmVTM",
+    "preferred": true
+  } ]
+}

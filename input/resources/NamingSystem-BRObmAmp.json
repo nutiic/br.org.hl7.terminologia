@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmAmp",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRObmAmp",
+  "version": "HEAD",
+  "title": "Produtos Medicinais Comercial (AMP)",
+  "experimental": false,
+  "name": "Brobmamp",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Produtos Medicinais Comercial (AMP)",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAmp",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRObmAmp",
+    "preferred": true
+  } ]
+}

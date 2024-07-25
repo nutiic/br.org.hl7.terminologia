@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRCBHPMTUSS",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRCBHPMTUSS",
+  "version": "HEAD",
+  "title": "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS",
+  "experimental": false,
+  "name": "Brcbhpmtuss",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCBHPMTUSS",
+    "preferred": true
+  } ]
+}

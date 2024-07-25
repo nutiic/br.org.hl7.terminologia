@@ -1,0 +1,35 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "cnes",
+    "name": "NamingSystemCNES",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2024-06-24T13:12:57-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "CADASTRO NACIONAL DE ESTABELECIMENTOS DE SAÚDE",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Responsável por definir o cadastro nacional de estabelecimento de saúde",
+    "description": "CADASTRO NACIONAL DE ESTABELECIMENTOS DE SAÚDE",
+    "usage": "CADASTRO NACIONAL DE ESTABELECIMENTOS DE SAÚDE",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://saude.gov.br/fhir/sid/cnes",
+            "preferred": true
+        },
+        {
+            "type": "uri",
+            "value": "http://rnds.saude.gov.br/fhir/r4/NamingSystem/cnes",
+            "preferred": false
+        }
+    ]
+}

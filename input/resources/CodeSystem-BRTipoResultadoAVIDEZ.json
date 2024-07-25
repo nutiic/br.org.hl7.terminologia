@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoResultadoAVIDEZ",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoAVIDEZ",
+  "version": "HEAD",
+  "name": "Brtiporesultadoavidez",
+  "title": "Tipo de Resultado AVIDEZ 1.0",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Resultado AVIDEZ 1.0",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Baixa Avidez"
+  }, {
+    "code": "2",
+    "display": "Alta Avidez"
+  }, {
+    "code": "3",
+    "display": "Indeterminado"
+  } ]
+}

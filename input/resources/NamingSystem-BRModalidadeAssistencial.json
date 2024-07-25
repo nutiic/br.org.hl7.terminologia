@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRModalidadeAssistencial",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRModalidadeAssistencial",
+  "version": "HEAD",
+  "title": "Modalidade Assistencial",
+  "experimental": false,
+  "name": "Brmodalidadeassistencial",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Modalidade Assistencial",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRModalidadeAssistencial",
+    "preferred": true
+  } ]
+}

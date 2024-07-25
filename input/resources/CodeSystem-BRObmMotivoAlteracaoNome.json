@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRObmMotivoAlteracaoNome",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmMotivoAlteracaoNome",
+  "version": "HEAD",
+  "name": "Brobmmotivoalteracaonome",
+  "title": "Motivo de alteração de nome",
+  "status": "active",
+  "experimental": false,
+  "description": "Motivo de alteração de nome",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "0003",
+    "display": "Nome alterado"
+  }, {
+    "code": "0001",
+    "display": "Substituição de um nome temporário"
+  }, {
+    "code": "0004",
+    "display": "Outros"
+  }, {
+    "code": "0002",
+    "display": "Novo nome genérico aprovado"
+  } ]
+}

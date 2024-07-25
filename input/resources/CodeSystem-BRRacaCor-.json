@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRRacaCor-",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRRacaCor",
+  "version": "HEAD",
+  "name": "Brracacor",
+  "title": "Raça/Cor",
+  "status": "active",
+  "experimental": false,
+  "description": "Raça/Cor",
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "Preta"
+  }, {
+    "code": "01",
+    "display": "Branca"
+  }, {
+    "code": "04",
+    "display": "Amarela"
+  }, {
+    "code": "99",
+    "display": "Sem Informação"
+  }, {
+    "code": "03",
+    "display": "Parda"
+  }, {
+    "code": "05",
+    "display": "Indígena"
+  } ]
+}

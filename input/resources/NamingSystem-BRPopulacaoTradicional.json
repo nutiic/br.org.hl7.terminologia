@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRPopulacaoTradicional",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+  "version": "HEAD",
+  "title": "Populacao Tradicional",
+  "experimental": false,
+  "name": "Brpopulacaotradicional",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Populacao Tradicional",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+    "preferred": true
+  } ]
+}

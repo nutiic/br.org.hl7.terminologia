@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoLogradouro",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTipoLogradouro",
+  "version": "HEAD",
+  "title": "Tipo de Logradouro",
+  "experimental": false,
+  "name": "Brtipologradouro",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "Tipo de Logradouro",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoLogradouro",
+    "preferred": true
+  } ]
+}

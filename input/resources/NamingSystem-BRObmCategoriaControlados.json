@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmCategoriaControlados",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmCategoriaControlados",
+  "version": "HEAD",
+  "title": "BROBM Categoria Controlados",
+  "experimental": false,
+  "name": "Brobmcategoriacontrolados",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "BROBM Categoria Controlados",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmCategoriaControlados",
+    "preferred": true
+  } ]
+}

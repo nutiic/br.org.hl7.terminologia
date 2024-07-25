@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTabelaSUS",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRTabelaSUS",
+  "version": "HEAD",
+  "title": "Tabela de procedimentos, medicamentos e OPM do SUS",
+  "experimental": false,
+  "name": "Brtabelasus",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Tabela de procedimentos, medicamentos e OPM do SUS",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTabelaSUS",
+    "preferred": true
+  } ]
+}

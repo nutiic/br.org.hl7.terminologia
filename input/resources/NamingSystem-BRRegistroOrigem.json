@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRRegistroOrigem",
+  "language": "por",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRRegistroOrigem",
+  "version": "HEAD",
+  "title": "BR Registro de Origem",
+  "experimental": false,
+  "name": "Brregistroorigem",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "BR Registro de Origem",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRRegistroOrigem",
+    "preferred": true
+  } ]
+}

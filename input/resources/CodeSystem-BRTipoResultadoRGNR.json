@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoResultadoRGNR",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRGNR",
+  "version": "HEAD",
+  "name": "Brtiporesultadorgnr",
+  "title": "Tipo de Resultado RGNR 1.0",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Resultado RGNR 1.0",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Reagente"
+  }, {
+    "code": "2",
+    "display": "Não Reagente"
+  }, {
+    "code": "3",
+    "display": "Indeterminado"
+  } ]
+}

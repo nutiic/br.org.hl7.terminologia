@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRViaAdministracao",
+  "language": "por",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRViaAdministracao",
+  "version": "HEAD",
+  "title": "Via de Administração",
+  "experimental": false,
+  "name": "Brviaadministracao",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Via de Administração",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRViaAdministracao",
+    "preferred": true
+  } ]
+}

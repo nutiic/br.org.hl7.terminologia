@@ -1,0 +1,22 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "esus-via-administracao",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/esus-via-administracao",
+  "version": "HEAD",
+  "title": "esus Via Administração",
+  "experimental": false,
+  "name": "Esusviaadministracao",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "esus Via Administração",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/esus-via-administracao",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/esus-via-administracao",
+    "preferred": true
+  } ]
+}

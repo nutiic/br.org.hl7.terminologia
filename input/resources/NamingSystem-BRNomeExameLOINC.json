@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRNomeExameLOINC",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRNomeExameLOINC",
+  "version": "HEAD",
+  "title": "Exames LOINC",
+  "experimental": false,
+  "name": "Brnomeexameloinc",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "Exames LOINC",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRNomeExameLOINC",
+    "preferred": true
+  } ]
+}

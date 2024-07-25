@@ -1,0 +1,24 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRLocalAfericao",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/NamingSystem/BRLocalAfericao",
+  "version": "HEAD",
+  "title": "Local de Aferição",
+  "experimental": false,
+  "name": "Brlocalafericao",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "Local de Aferição",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAfericao",
+    "preferred": true
+  } ]
+}

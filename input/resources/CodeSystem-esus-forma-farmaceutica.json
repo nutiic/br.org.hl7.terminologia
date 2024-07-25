@@ -1,0 +1,361 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "esus-forma-farmaceutica",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/esus-forma-farmaceutica",
+  "version": "HEAD",
+  "name": "Esusformafarmaceutica",
+  "title": "esus Forma Farmacêutico",
+  "status": "active",
+  "experimental": false,
+  "description": "esus Forma Farmacêutico",
+  "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
+  "content": "complete",
+  "concept": [ {
+    "code": "16",
+    "display": "Comprimido"
+  }, {
+    "code": "70",
+    "display": "Pomada retal"
+  }, {
+    "code": "15",
+    "display": "Comp rev"
+  }, {
+    "code": "72",
+    "display": "Sistema intrauterino"
+  }, {
+    "code": "17",
+    "display": "Comprimido de liberação controlada"
+  }, {
+    "code": "71",
+    "display": "Sabonete"
+  }, {
+    "code": "13",
+    "display": "Carpule"
+  }, {
+    "code": "68",
+    "display": "Pomada oftalmica"
+  }, {
+    "code": "12",
+    "display": "Cápsula vaginal"
+  }, {
+    "code": "67",
+    "display": "Pomada"
+  }, {
+    "code": "7",
+    "display": "Bisnaga"
+  }, {
+    "code": "14",
+    "display": "Comp"
+  }, {
+    "code": "69",
+    "display": "Pomada oftálmica"
+  }, {
+    "code": "75",
+    "display": "Sol inj (fr-amp)"
+  }, {
+    "code": "2",
+    "display": "Aerossol"
+  }, {
+    "code": "74",
+    "display": "Sol inj (fr-amp ou ser preenc)"
+  }, {
+    "code": "19",
+    "display": "Comprimido efervescente"
+  }, {
+    "code": "73",
+    "display": "Sol inj (amp)"
+  }, {
+    "code": "18",
+    "display": "Comprimido de liberação prolongada"
+  }, {
+    "code": "77",
+    "display": "Sol inj (ser preenc)"
+  }, {
+    "code": "20",
+    "display": "Comprimido mastigável"
+  }, {
+    "code": "76",
+    "display": "Sol inj (fr)"
+  }, {
+    "code": "22",
+    "display": "Comprimido sublingual"
+  }, {
+    "code": "78",
+    "display": "Sol inj ou pó liof inj (fr-amp)"
+  }, {
+    "code": "21",
+    "display": "Comprimido para suspensão"
+  }, {
+    "code": "108",
+    "display": "Suspensão para nebulização"
+  }, {
+    "code": "59",
+    "display": "Pó liofilizado para suspensão injetável"
+  }, {
+    "code": "107",
+    "display": "Suspensão para instilação"
+  }, {
+    "code": "60",
+    "display": "Pó liófilo para injetável com sistema de aplicação"
+  }, {
+    "code": "109",
+    "display": "Suspensão tópica"
+  }, {
+    "code": "6",
+    "display": "Bastão"
+  }, {
+    "code": "56",
+    "display": "Pó liof inj (fr)"
+  }, {
+    "code": "105",
+    "display": "Suspensão otológica"
+  }, {
+    "code": "55",
+    "display": "Pó liof inj (fr-amp)"
+  }, {
+    "code": "104",
+    "display": "Suspensão oral"
+  }, {
+    "code": "58",
+    "display": "Pó liofilizado para solução injetável"
+  }, {
+    "code": "57",
+    "display": "Pó liof inj (ser preenc)"
+  }, {
+    "code": "106",
+    "display": "Suspensão para aerossolterapia"
+  }, {
+    "code": "63",
+    "display": "Pó para solução"
+  }, {
+    "code": "111",
+    "display": "Tintura"
+  }, {
+    "code": "62",
+    "display": "Pó para inalação oral"
+  }, {
+    "code": "110",
+    "display": "Tablete"
+  }, {
+    "code": "61",
+    "display": "Pó para dispersão oral"
+  }, {
+    "code": "11",
+    "display": "Cápsula dura de liberação prolongada"
+  }, {
+    "code": "113",
+    "display": "Xarope"
+  }, {
+    "code": "64",
+    "display": "Pó para solução injetável"
+  }, {
+    "code": "112",
+    "display": "Xampu"
+  }, {
+    "code": "114",
+    "display": "Xpe (fr)"
+  }, {
+    "code": "66",
+    "display": "Pó para suspensão injetável"
+  }, {
+    "code": "65",
+    "display": "Pó para suspensão"
+  }, {
+    "code": "87",
+    "display": "Solução nasal"
+  }, {
+    "code": "30",
+    "display": "Emulsão injetável"
+  }, {
+    "code": "86",
+    "display": "Solução injetável intra-ocular"
+  }, {
+    "code": "3",
+    "display": "Aerossol nasal"
+  }, {
+    "code": "85",
+    "display": "Solução injetável im"
+  }, {
+    "code": "29",
+    "display": "Emulsão dermatológica"
+  }, {
+    "code": "32",
+    "display": "Emulsão oral"
+  }, {
+    "code": "88",
+    "display": "Solução oftálmica"
+  }, {
+    "code": "31",
+    "display": "Emulsão oftálmica"
+  }, {
+    "code": "9",
+    "display": "Cap liberação controlada"
+  }, {
+    "code": "33",
+    "display": "Enema"
+  }, {
+    "code": "89",
+    "display": "Solução oral"
+  }, {
+    "code": "81",
+    "display": "Solução"
+  }, {
+    "code": "25",
+    "display": "Creme vaginal + comprimido"
+  }, {
+    "code": "80",
+    "display": "Sol oral (fr)"
+  }, {
+    "code": "24",
+    "display": "Creme vaginal"
+  }, {
+    "code": "8",
+    "display": "Cap"
+  }, {
+    "code": "23",
+    "display": "Creme"
+  }, {
+    "code": "79",
+    "display": "Sol oft (fr)"
+  }, {
+    "code": "27",
+    "display": "Elixir"
+  }, {
+    "code": "82",
+    "display": "Solução injetável"
+  }, {
+    "code": "26",
+    "display": "Drágea"
+  }, {
+    "code": "84",
+    "display": "Solução injetável ev"
+  }, {
+    "code": "28",
+    "display": "Emulsão"
+  }, {
+    "code": "83",
+    "display": "Solução injetável com sistema de aplicação"
+  }, {
+    "code": "38",
+    "display": "Gel percutâneo"
+  }, {
+    "code": "94",
+    "display": "Solução tópica"
+  }, {
+    "code": "37",
+    "display": "Gel oftálmico"
+  }, {
+    "code": "96",
+    "display": "Spray tópico"
+  }, {
+    "code": "39",
+    "display": "Gel vaginal"
+  }, {
+    "code": "95",
+    "display": "Spray nasal"
+  }, {
+    "code": "35",
+    "display": "Gel"
+  }, {
+    "code": "91",
+    "display": "Solução otológica"
+  }, {
+    "code": "34",
+    "display": "Esmalte"
+  }, {
+    "code": "90",
+    "display": "Solução oto-oftálmica"
+  }, {
+    "code": "93",
+    "display": "Solução para nebulização"
+  }, {
+    "code": "36",
+    "display": "Gel creme"
+  }, {
+    "code": "92",
+    "display": "Solução para inalação"
+  }, {
+    "code": "99",
+    "display": "Susp oft (fr)"
+  }, {
+    "code": "41",
+    "display": "Goma de mascar"
+  }, {
+    "code": "98",
+    "display": "Susp inj (fr-amp)"
+  }, {
+    "code": "40",
+    "display": "Geléia"
+  }, {
+    "code": "97",
+    "display": "Supositório"
+  }, {
+    "code": "4",
+    "display": "Aerossol oral"
+  }, {
+    "code": "44",
+    "display": "Inj (fr)"
+  }, {
+    "code": "43",
+    "display": "Implante biodegradável para uso oftálmico (intravítreo)"
+  }, {
+    "code": "42",
+    "display": "Granulado"
+  }, {
+    "code": "47",
+    "display": "Orabase"
+  }, {
+    "code": "46",
+    "display": "Loção"
+  }, {
+    "code": "45",
+    "display": "Liquido inalante"
+  }, {
+    "code": "10",
+    "display": "Cápsula"
+  }, {
+    "code": "5",
+    "display": "Amp"
+  }, {
+    "code": "50",
+    "display": "Pastilha"
+  }, {
+    "code": "100",
+    "display": "Susp oral (fr)"
+  }, {
+    "code": "0",
+    "display": "Adesivo transdérmico"
+  }, {
+    "code": "48",
+    "display": "Óvulo"
+  }, {
+    "code": "49",
+    "display": "Pasta"
+  }, {
+    "code": "1",
+    "display": "Aer bucal (fr de 200 doses)"
+  }, {
+    "code": "52",
+    "display": "Pó + diluente"
+  }, {
+    "code": "102",
+    "display": "Suspensão nasal"
+  }, {
+    "code": "51",
+    "display": "Pó"
+  }, {
+    "code": "101",
+    "display": "Suspensão injetável"
+  }, {
+    "code": "103",
+    "display": "Suspensão oftálmica"
+  }, {
+    "code": "53",
+    "display": "Pó liof inj (amp)"
+  }, {
+    "code": "54",
+    "display": "Pó liof inj (fr-amp ou ser preenc)"
+  } ]
+}

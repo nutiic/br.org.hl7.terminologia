@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmSabor",
+  "language": "pt",
+  "url": "http://www.saude.gov.br/fhir/r4/BRObmSabor",
+  "version": "HEAD",
+  "title": "Sabores",
+  "experimental": false,
+  "name": "Brobmsabor",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Sabores",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/BRObmSabor",
+    "preferred": true
+  } ]
+}
