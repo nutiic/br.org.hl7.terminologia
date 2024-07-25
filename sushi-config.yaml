@@ -191,15 +191,6 @@ pages:
     title: Histórico de mudanças
   downloads.xml:
     title: Baixar
-  premissas.xml:
-    title: Princípios, Premissas
-  design.xml:
-    title: Convenções de design
-  estrutura.xml:
-    title: Estrutura
-  modelos.xml:
-    title: Especificação    
-
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and
 # should follow the format defined in ImplementationGuide:
