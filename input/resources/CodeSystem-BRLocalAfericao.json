@@ -4,29 +4,29 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAfericao",
   "version": "HEAD",
-  "name": "Brlocalafericao",
-  "title": "Local de Aferi√ß√£o",
+  "name": "BRLocalAfericao",
+  "title": "Local de AferiÁ„o",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist√©rio da Sa√∫de do Brasil",
-  "description": "Local de Aferi√ß√£o",
+  "publisher": "MinistÈrio da Sa˙de do Brasil",
+  "description": "Local de AferiÁ„o",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
     "code": "2",
-    "display": "Bra√ßo esquerdo"
+    "display": "Braco esquerdo"
   }, {
     "code": "7",
     "display": "Tornozelo direito"
   }, {
     "code": "10",
-    "display": "Dedo do p√©"
+    "display": "Dedo do pe"
   }, {
     "code": "5",
     "display": "Pulso direito"
   }, {
     "code": "1",
-    "display": "Bra√ßo direito"
+    "display": "Braco direito"
   }, {
     "code": "8",
     "display": "Tornozelo esquerdo"
@@ -41,6 +41,6 @@
     "display": "Coxa esquerda"
   }, {
     "code": "9",
-    "display": "Dedo da m√£o"
+    "display": "Dedo da mao"
   } ]
 }

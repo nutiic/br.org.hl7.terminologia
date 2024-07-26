@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Tipo de Resultado PRAU 1.0",
   "experimental": false,
-  "name": "Brtiporesultadoprau",
+  "name": "BRTipoResultadoPRAU",
   "status": "active",
   "kind": "codesystem",
   "description": "Tipo de Resultado PRAU 1.0",

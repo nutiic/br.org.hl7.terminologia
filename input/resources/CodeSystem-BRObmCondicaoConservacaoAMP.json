@@ -4,16 +4,16 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmCondicaoConservacaoAMP",
   "version": "HEAD",
-  "name": "Brobmcondicaoconservacaoamp",
-  "title": "CondiÃ§Ãµes de ConservaÃ§Ã£o dos AMPs",
+  "name": "BRObmCondicaoConservacaoAMP",
+  "title": "Condições de Conservação dos AMPs",
   "status": "active",
   "experimental": false,
-  "description": "CondiÃ§Ãµes de ConservaÃ§Ã£o dos AMPs",
+  "description": "Condições de Conservação dos AMPs",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "024",
-    "display": "Conservar a temperatura de 2Â°C a 25Â°C."
+    "display": "Conservar a temperatura de 2°C a 25°C."
   } ]
 }

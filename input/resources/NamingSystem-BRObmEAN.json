@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
   "experimental": false,
-  "name": "Brobmean",
+  "name": "BRObmEAN",
   "status": "active",
   "kind": "codesystem",
   "description": "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",

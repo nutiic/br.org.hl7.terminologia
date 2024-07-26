@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmFonteIngrediente",
   "version": "HEAD",
-  "name": "Brobmfonteingrediente",
+  "name": "BRObmFonteIngrediente",
   "title": "Fonte Ingrediente",
   "status": "active",
   "experimental": false,

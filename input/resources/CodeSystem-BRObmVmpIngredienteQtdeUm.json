@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObm/BRObmVmpIngredienteQtdeUm",
   "version": "HEAD",
-  "name": "Brobmvmpingredienteqtdeum",
+  "name": "BRObmVmpIngredienteQtdeUm",
   "title": "BRObm VPM Ingrediente Quantidade Unidade de Medida",
   "status": "active",
   "experimental": false,

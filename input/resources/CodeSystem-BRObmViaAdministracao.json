@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmViaAdministracao",
   "version": "HEAD",
-  "name": "Brobmviaadministracao",
+  "name": "BRObmViaAdministracao",
   "title": "Via de administração",
   "status": "active",
   "experimental": false,
@@ -17,13 +17,13 @@
     "display": "Retrobulbar"
   }, {
     "code": "@brasil8941230921",
-    "display": "Perfusão regional"
+    "display": "Perfusao regional"
   }, {
     "code": "@brasil9734592702",
     "display": "Intraocular"
   }, {
     "code": "@brasil9532590843",
-    "display": "Intralinfática"
+    "display": "Intralinfatica"
   }, {
     "code": "@brasil0329735987",
     "display": "Mucosa oral"
@@ -38,10 +38,10 @@
     "display": "Espinhal"
   }, {
     "code": "@brasil1759483719",
-    "display": "Via de administração não aplicável"
+    "display": "Via de administracao nao aplicavel"
   }, {
     "code": "@brasil7193897322",
-    "display": "Intraóssea"
+    "display": "Intraossea"
   }, {
     "code": "@brasil9663526429",
     "display": "Intrapleural"
@@ -62,7 +62,7 @@
     "display": "Intraesternal"
   }, {
     "code": "@brasil2254488981",
-    "display": "Intravítreal"
+    "display": "Intravitreal"
   }, {
     "code": "@brasil2906981054",
     "display": "Intratecal"
@@ -77,10 +77,10 @@
     "display": "Subtenoniana"
   }, {
     "code": "@brasil6963385146",
-    "display": "Infiltração"
+    "display": "Infiltracao"
   }, {
     "code": "@brasil2340440995",
-    "display": "Otológica"
+    "display": "Otologica"
   }, {
     "code": "@brasil8994358413",
     "display": "Parenteral"
@@ -98,7 +98,7 @@
     "display": "Sublingual"
   }, {
     "code": "@brasil6961505112",
-    "display": "Subcutânea"
+    "display": "Subcutanea"
   }, {
     "code": "@brasil5330312303",
     "display": "Vaginal"
@@ -110,10 +110,10 @@
     "display": "Tecidos moles"
   }, {
     "code": "@brasil6222530350",
-    "display": "Não disponível"
+    "display": "Nao disponivel"
   }, {
     "code": "@brasil5660932449",
-    "display": "Transdérmica"
+    "display": "Transdermica"
   }, {
     "code": "@brasil6586893097",
     "display": "Subcapsular"
@@ -122,7 +122,7 @@
     "display": "Capilar"
   }, {
     "code": "@brasil6900342014",
-    "display": "Dermatológica"
+    "display": "Dermatologica"
   }, {
     "code": "@brasil5773714303",
     "display": "Gastroenteral"
@@ -137,10 +137,10 @@
     "display": "Endosinusial"
   }, {
     "code": "@brasil5638368708",
-    "display": "Intra-amniótica"
+    "display": "Intra-amniotica"
   }, {
     "code": "@brasil0811028305",
-    "display": "Extra-amniótica"
+    "display": "Extra-amniotica"
   }, {
     "code": "@brasil0397739618",
     "display": "Intracameral"
@@ -149,7 +149,7 @@
     "display": "Intra-arterial"
   }, {
     "code": "@brasil0554905150",
-    "display": "Inalatória por Via Nasal"
+    "display": "Inalatoria por Via Nasal"
   }, {
     "code": "@brasil8664563583",
     "display": "Lontoforese"
@@ -161,13 +161,13 @@
     "display": "Intravesical"
   }, {
     "code": "@brasil6756585763",
-    "display": "Intraventricular cardíaca"
+    "display": "Intraventricular cardiaca"
   }, {
     "code": "@brasil4692409026",
-    "display": "Irrigação"
+    "display": "Irrigacao"
   }, {
     "code": "@brasil4454619970",
-    "display": "Oftálmica"
+    "display": "Oftalmica"
   }, {
     "code": "@brasil5429113185",
     "display": "Endocervical"
@@ -191,10 +191,10 @@
     "display": "Intra-articular"
   }, {
     "code": "@brasil4295689956",
-    "display": "Intracardíaca"
+    "display": "Intracardiaca"
   }, {
     "code": "@brasil0795567151",
-    "display": "Inalatória"
+    "display": "Inalatoria"
   }, {
     "code": "@brasil7093364084",
     "display": "Intracerebroventricular"
@@ -206,13 +206,13 @@
     "display": "Intrabursal"
   }, {
     "code": "@brasil3546899451",
-    "display": "Inalatória por Via Oral"
+    "display": "Inalatoria por Via Oral"
   }, {
     "code": "@brasil7774269598",
     "display": "Nasal"
   }, {
     "code": "@brasil8735120911",
-    "display": "Intradérmica"
+    "display": "Intradermica"
   }, {
     "code": "@brasil3202277154",
     "display": "Periarticular"

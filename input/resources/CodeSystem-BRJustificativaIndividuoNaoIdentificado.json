@@ -4,31 +4,31 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
   "version": "HEAD",
-  "name": "Brjustificativaindividuonaoidentificado",
-  "title": "Justificativa da Impossibilidade de Identificação do Indivíduo",
+  "name": "BRJustificativaIndividuoNaoIdentificado",
+  "title": "Justificativa da Impossibilidade de Identifica��o do Indiv�duo",
   "status": "active",
   "experimental": false,
-  "description": "Justificativa da Impossibilidade de Identificação do Indivíduo",
+  "description": "Justificativa da Impossibilidade de Identifica��o do Indiv�duo",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "5",
-    "display": "Indivíduo doador de órgãos falecido"
+    "display": "Individuo doador de orgaos falecido"
   }, {
     "code": "1",
-    "display": "Indivíduo acidentado grave"
+    "display": "Individuo acidentado grave"
   }, {
     "code": "4",
-    "display": "Indivíduo incapacitado por motivos sociais e/ou culturais"
+    "display": "Individuo incapacitado por motivos sociais e/ou culturais"
   }, {
     "code": "3",
-    "display": "Indivíduo com problema neurológico grave ou comatoso"
+    "display": "Individuo com problema neurologico grave ou comatoso"
   }, {
     "code": "2",
-    "display": "Indivíduo em sofrimento mental encontrado em via pública"
+    "display": "Individuo em sofrimento mental encontrado em via publica"
   }, {
     "code": "99",
-    "display": "Sem registro no modelo de informação de origem"
+    "display": "Sem registro no modelo de informacao de origem"
   } ]
 }

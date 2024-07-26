@@ -4,12 +4,12 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BROrgaoExpedidor",
   "version": "HEAD",
-  "name": "Brorgaoexpedidor",
-  "title": "Órgão Expedidor",
+  "name": "BROrgaoExpedidor",
+  "title": "�rg�o Expedidor",
   "status": "active",
   "experimental": false,
-  "publisher": "Ministério da Saúde do Brasil",
-  "description": "Órgão Expedidor",
+  "publisher": "Minist�rio da Sa�de do Brasil",
+  "description": "�rg�o Expedidor",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -18,10 +18,10 @@
     "display": "Conselho Regional de Enfermagem (COREn)"
   }, {
     "code": "DETRAN",
-    "display": "Departamento Estadual de Trânsito"
+    "display": "Departamento Estadual de Transito"
   }, {
     "code": "CRTR",
-    "display": "Conselho Regional de Técnicos em Radiologia (CRTR)"
+    "display": "Conselho Regional de Tecnicos em Radiologia (CRTR)"
   }, {
     "code": "CORE",
     "display": "Conselho Regional de Representantes Comerciais (CORE)"
@@ -30,16 +30,16 @@
     "display": "Conselho Regional de Economia (CORECON)"
   }, {
     "code": "FAB",
-    "display": "Força Aérea Brasileira"
+    "display": "Forca Aerea Brasileira"
   }, {
     "code": "CRA",
-    "display": "Conselho Regional de Administração (CRA)"
+    "display": "Conselho Regional de Administracao (CRA)"
   }, {
     "code": "EB",
-    "display": "Exército Brasileiro"
+    "display": "Exercito Brasileiro"
   }, {
     "code": "II",
-    "display": "Instituto de Identificação"
+    "display": "Instituto de Identificacao"
   }, {
     "code": "CRB",
     "display": "Conselho Regional de Biblioteconomia (CRB)"
@@ -54,31 +54,31 @@
     "display": "Corpo de Bombeiros Militar"
   }, {
     "code": "CRMV",
-    "display": "Conselho Regional de Medicina Veterinária (CRMV)"
+    "display": "Conselho Regional de Medicina Veterinaria (CRMV)"
   }, {
     "code": "CARTORIO",
-    "display": "Cartório de Registro Civil"
+    "display": "Cartorio de Registro Civil"
   }, {
     "code": "CRN",
-    "display": "Conselho Regional de Nutrição (CRN)"
+    "display": "Conselho Regional de Nutricao (CRN)"
   }, {
     "code": "CRQ",
-    "display": "Conselho Regional de Química (CRQ)"
+    "display": "Conselho Regional de Quimica (CRQ)"
   }, {
     "code": "CONFRE",
-    "display": "Conselho Regional de Estatística (CONRE)"
+    "display": "Conselho Regional de Estatistica (CONRE)"
   }, {
     "code": "CRP",
     "display": "Conselho Regional de Psicologia (CRP)"
   }, {
     "code": "CRT",
-    "display": "Conselho Regional dos Técnicos Industriais (CRT)"
+    "display": "Conselho Regional dos Tecnicos Industriais (CRT)"
   }, {
     "code": "CONRERP",
-    "display": "Conselho Regional de Reçações Públicas (CONRERP)"
+    "display": "Conselho Regional de Recacoes Publicas (CONRERP)"
   }, {
     "code": "PCE",
-    "display": "Polícia Civil do Estado"
+    "display": "Policia Civil do Estado"
   }, {
     "code": "CREA",
     "display": "Conselho Regional de Engenharia e Agronomia (CREA)"
@@ -87,10 +87,10 @@
     "display": "Ordem dos Advogados do BRAasil (OAB)"
   }, {
     "code": "PF",
-    "display": "Polícia Federal"
+    "display": "Policia Federal"
   }, {
     "code": "CRECI",
-    "display": "Conselho Regional de Corretores de Imóveis (CRECI)"
+    "display": "Conselho Regional de Corretores de Imoveis (CRECI)"
   }, {
     "code": "CRBM",
     "display": "Conselho Regional de Biomedicina (CRBM)"
@@ -102,37 +102,37 @@
     "display": "Conselho Regional de Biologia (CRBio)"
   }, {
     "code": "MS",
-    "display": "Ministério da Saúde"
+    "display": "Ministerio da Saude"
   }, {
     "code": "MC",
-    "display": "Ministério da Cidadania"
+    "display": "Ministerio da Cidadania"
   }, {
     "code": "CRC",
     "display": "Conselho Regional de Contabilidade (CRC)"
   }, {
     "code": "CRESS",
-    "display": "Conselho Regional de Serviço Social (CRESS)"
+    "display": "Conselho Regional de Servico Social (CRESS)"
   }, {
     "code": "RFB",
     "display": "Receita Federal do Brasil"
   }, {
     "code": "PM",
-    "display": "Polícia Militar"
+    "display": "Policia Militar"
   }, {
     "code": "CREF",
-    "display": "Conselho Regional de Educação Física (CREF)"
+    "display": "Conselho Regional de Educacao Fisica (CREF)"
   }, {
     "code": "CREFITO",
     "display": "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
   }, {
     "code": "other",
-    "display": "Outro órgão não listado"
+    "display": "Outro orgao nao listado"
   }, {
     "code": "CRF",
-    "display": "Conselho Regional de Farmácia (CRF)"
+    "display": "Conselho Regional de Farmacia (CRF)"
   }, {
     "code": "SSP",
-    "display": "Serviço de Segurança Pública"
+    "display": "Servico de Seguranca Publica"
   }, {
     "code": "CRM",
     "display": "Conselho Regional de Medicina (CRM)"

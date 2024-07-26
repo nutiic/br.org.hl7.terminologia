@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmCategoriaAnvisa",
   "version": "HEAD",
-  "name": "Brobmcategoriaanvisa",
+  "name": "BRObmCategoriaAnvisa",
   "title": "Categorias Anvisa",
   "status": "active",
   "experimental": false,
@@ -17,6 +17,6 @@
     "display": "MONOVITAMINAS EXCETO VITAMINA K"
   }, {
     "code": "107034",
-    "display": "Adsorventes e antisépticos intestinais simples"
+    "display": "Adsorventes e antisepticos intestinais simples"
   } ]
 }

@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSCUL",
   "version": "HEAD",
-  "name": "Brtiporesultadorscul",
+  "name": "BRTipoResultadoRSCUL",
   "title": "Tipo de Resultado RSCUL 1.0",
   "status": "active",
   "experimental": false,
@@ -14,7 +14,7 @@
   "content": "complete",
   "concept": [ {
     "code": "1",
-    "display": "Não houve crescimento"
+    "display": "Nao houve crescimento"
   }, {
     "code": "2",
     "display": "Houve crescimento"

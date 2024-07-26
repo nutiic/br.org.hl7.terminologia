@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRCIAP2",
   "version": "HEAD",
-  "name": "Brciap2",
-  "title": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+  "name": "BRCIAP2",
+  "title": "Classifica��o Internacional de Aten��o Prim�ria - Segunda Edi��o - CIAP2",
   "status": "active",
   "experimental": false,
-  "description": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+  "description": "Classifica��o Internacional de Aten��o Prim�ria - Segunda Edi��o - CIAP2",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,37 +17,37 @@
     "display": "Meningite/encefalite"
   }, {
     "code": "Z01",
-    "display": "Pobreza/problemas econômicos"
+    "display": "Pobreza/problemas economicos"
   }, {
     "code": "N70",
     "display": "Poliomielite"
   }, {
     "code": "Z03",
-    "display": "Problemas de habitação/vizinhança"
+    "display": "Problemas de habitacao/vizinhanca"
   }, {
     "code": "N72",
-    "display": "Tétano"
+    "display": "Tetano"
   }, {
     "code": "Z02",
-    "display": "Problemas relacionados a água/alimentação"
+    "display": "Problemas relacionados a agua/alimentacao"
   }, {
     "code": "N28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "Y85",
-    "display": "Hipertrofia benigna da próstata/ hiperplasia prostática benigna"
+    "display": "Hipertrofia benigna da prostata/ hiperplasia prostatica benigna"
   }, {
     "code": "N27",
-    "display": "Medo de outras doenças neurológicas"
+    "display": "Medo de outras doencas neurologicas"
   }, {
     "code": "Y84",
-    "display": "Malformação genital congénita masculina, outra"
+    "display": "Malformacao genital congenita masculina, outra"
   }, {
     "code": "Y99",
-    "display": "Doença genital masculina, outra"
+    "display": "Doenca genital masculina, outra"
   }, {
     "code": "N29",
-    "display": "Sinais/sintomas do sistema neurológico, outros"
+    "display": "Sinais/sintomas do sistema neurologico, outros"
   }, {
     "code": "Y86",
     "display": "Hidrocele"
@@ -56,70 +56,70 @@
     "display": "Problemas de desemprego"
   }, {
     "code": "N75",
-    "display": "Neoplasia benigna do sistema neurológico"
+    "display": "Neoplasia benigna do sistema neurologico"
   }, {
     "code": "Z05",
-    "display": "Problemas com condições de trabalho"
+    "display": "Problemas com condicoes de trabalho"
   }, {
     "code": "N74",
-    "display": "Neoplasia maligna do sistema neurológico"
+    "display": "Neoplasia maligna do sistema neurologico"
   }, {
     "code": "Z04",
     "display": "Problema socio-cultural"
   }, {
     "code": "N73",
-    "display": "Outra infecção neurológica"
+    "display": "Outra infeccao neurologica"
   }, {
     "code": "N79",
-    "display": "Concussão"
+    "display": "Concussao"
   }, {
     "code": "Z07",
-    "display": "Problemas relacionados com educação"
+    "display": "Problemas relacionados com educacao"
   }, {
     "code": "N76",
-    "display": "Neoplasia do sistema neurológico de natureza incerta"
+    "display": "Neoplasia do sistema neurologico de natureza incerta"
   }, {
     "code": "N81",
-    "display": "Outra lesão do sistema neurológico"
+    "display": "Outra lesao do sistema neurologico"
   }, {
     "code": "N80",
-    "display": "Outras lesões cranianas"
+    "display": "Outras lesoes cranianas"
   }, {
     "code": "Z08",
-    "display": "Problema relacionado com sistema de segurança social"
+    "display": "Problema relacionado com sistema de seguranca social"
   }, {
     "code": "Y76",
     "display": "Condiloma acuminado"
   }, {
     "code": "N05",
-    "display": "Formigamento/ parestesia nos dedos das mãos/pés"
+    "display": "Formigamento/ parestesia nos dedos das maos/pes"
   }, {
     "code": "Y75",
     "display": "Balanite/ Balanopostite"
   }, {
     "code": "N07",
-    "display": "Convulsões/ataques"
+    "display": "Convulsoes/ataques"
   }, {
     "code": "Y77",
-    "display": "Neoplasia maligna da próstata"
+    "display": "Neoplasia maligna da prostata"
   }, {
     "code": "N06",
-    "display": "Outras alterações da sensibilidade"
+    "display": "Outras alteracoes da sensibilidade"
   }, {
     "code": "Y73",
     "display": "Prostatite/vesiculite seminal"
   }, {
     "code": "N01",
-    "display": "Cefaléia"
+    "display": "Cefaleia"
   }, {
     "code": "Y72",
     "display": "Herpes genital"
   }, {
     "code": "L99",
-    "display": "Outra doença do aparelho músculo-esquelético"
+    "display": "Outra doenca do aparelho musculo-esqueletico"
   }, {
     "code": "N04",
-    "display": "Síndrome das pernas inquietas"
+    "display": "Sindrome das pernas inquietas"
   }, {
     "code": "Y74",
     "display": "Orquite/epididimite"
@@ -134,67 +134,67 @@
     "display": "Traumatismo genital masculino, outro"
   }, {
     "code": "N16",
-    "display": "Alterações do olfato/gosto"
+    "display": "Alteracoes do olfato/gosto"
   }, {
     "code": "Y79",
     "display": "Neoplasia benigna genital masculina NE"
   }, {
     "code": "N08",
-    "display": "Movimentos involuntários anormais"
+    "display": "Movimentos involuntarios anormais"
   }, {
     "code": "Y78",
     "display": "Neoplasia maligna genital masculina, outra"
   }, {
     "code": "Y82",
-    "display": "Hipospádias"
+    "display": "Hipospadias"
   }, {
     "code": "N18",
     "display": "Paralisia/fraqueza"
   }, {
     "code": "Y81",
-    "display": "Fimose/prepúcio redundante"
+    "display": "Fimose/prepucio redundante"
   }, {
     "code": "N26",
-    "display": "Medo de câncer do sistema neurológico"
+    "display": "Medo de cancer do sistema neurologico"
   }, {
     "code": "Y83",
-    "display": "Testículo não descido/ Criptorquidia/ Testículo ectópico"
+    "display": "Testiculo nao descido/ Criptorquidia/ Testiculo ectopico"
   }, {
     "code": "N19",
-    "display": "Perturbações da fala"
+    "display": "Perturbacoes da fala"
   }, {
     "code": "Z19",
-    "display": "Perda ou falecimento de criança"
+    "display": "Perda ou falecimento de crianca"
   }, {
     "code": "N93",
-    "display": "Síndrome do túnel do carpo/ Síndrome do canal cárpico"
+    "display": "Sindrome do tunel do carpo/ Sindrome do canal carpico"
   }, {
     "code": "Z18",
-    "display": "Problema com criança doente"
+    "display": "Problema com crianca doente"
   }, {
     "code": "N92",
-    "display": "Nevralgia do trigémio"
+    "display": "Nevralgia do trigemio"
   }, {
     "code": "Z16",
-    "display": "Problema de relacionamento com criança"
+    "display": "Problema de relacionamento com crianca"
   }, {
     "code": "N91",
     "display": "Paralisia facial/paralisia de Bell"
   }, {
     "code": "N95",
-    "display": "Cefaléia tensional"
+    "display": "Cefaleia tensional"
   }, {
     "code": "Z20",
     "display": "Problema de relacionamento com familiares"
   }, {
     "code": "N94",
-    "display": "Neurite/ Nevrite/neuropatia periférica"
+    "display": "Neurite/ Nevrite/neuropatia periferica"
   }, {
     "code": "Z22",
-    "display": "Problema por doença familiar"
+    "display": "Problema por doenca familiar"
   }, {
     "code": "N99",
-    "display": "Outras doenças do sistema neurológico"
+    "display": "Outras doencas do sistema neurologico"
   }, {
     "code": "Z21",
     "display": "Problema comportamental de familiar"
@@ -209,13 +209,13 @@
     "display": "Problema relacionado com estar doente"
   }, {
     "code": "N86",
-    "display": "Esclerose múltipla"
+    "display": "Esclerose multipla"
   }, {
     "code": "Z10",
-    "display": "Problema relacionado com sistema de saúde"
+    "display": "Problema relacionado com sistema de saude"
   }, {
     "code": "N85",
-    "display": "Malformações congênitas"
+    "display": "Malformacoes congenitas"
   }, {
     "code": "Z09",
     "display": "Problema de ordem legal"
@@ -233,103 +233,103 @@
     "display": "Perda ou falecimento do parceiro/ companheiro"
   }, {
     "code": "N90",
-    "display": "Cefaléia de cluster"
+    "display": "Cefaleia de cluster"
   }, {
     "code": "Z14",
-    "display": "Problema por doença do parceiro/ companheiro"
+    "display": "Problema por doenca do parceiro/ companheiro"
   }, {
     "code": "Z28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "P05",
-    "display": "Sensação/comportamento senil"
+    "display": "Sensacao/comportamento senil"
   }, {
     "code": "Z27",
     "display": "Medo de problema social"
   }, {
     "code": "P07",
-    "display": "Diminuição do desejo sexual"
+    "display": "Diminuicao do desejo sexual"
   }, {
     "code": "Z29",
     "display": "Problema social NE"
   }, {
     "code": "P06",
-    "display": "Perturbação do sono"
+    "display": "Perturbacao do sono"
   }, {
     "code": "Z24",
     "display": "Problema de relacionamento com amigos"
   }, {
     "code": "P02",
-    "display": "Reação aguda ao estresse"
+    "display": "Reacao aguda ao estresse"
   }, {
     "code": "Z23",
     "display": "Perda/falecimento de familiar"
   }, {
     "code": "P01",
-    "display": "Sensação de ansiedade/nervosismo/tensão"
+    "display": "Sensacao de ansiedade/nervosismo/tensao"
   }, {
     "code": "P04",
-    "display": "Sentir/comportar-se de forma irritável/zangada"
+    "display": "Sentir/comportar-se de forma irritavel/zangada"
   }, {
     "code": "Z25",
     "display": "Ato ou acontecimento violento"
   }, {
     "code": "P03",
-    "display": "Tristeza/ Sensação de depressão"
+    "display": "Tristeza/ Sensacao de depressao"
   }, {
     "code": "P13",
-    "display": "Encoprese/outros problemas de incontinência fecal"
+    "display": "Encoprese/outros problemas de incontinencia fecal"
   }, {
     "code": "P12",
     "display": "Molhar a cama/enurese"
   }, {
     "code": "P11",
-    "display": "Problemas de alimentação da criança"
+    "display": "Problemas de alimentacao da crianca"
   }, {
     "code": "P10",
     "display": "Gaguejar/balbuciar/tiques"
   }, {
     "code": "P09",
-    "display": "Preocupação com a preferência sexual"
+    "display": "Preocupacao com a preferencia sexual"
   }, {
     "code": "P08",
-    "display": "Diminuição da satisfação sexual"
+    "display": "Diminuicao da satisfacao sexual"
   }, {
     "code": "A99",
-    "display": "Outras doenças gerais NE"
+    "display": "Outras doencas gerais NE"
   }, {
     "code": "P16",
-    "display": "Abuso agudo de álcool"
+    "display": "Abuso agudo de alcool"
   }, {
     "code": "P15",
-    "display": "Abuso crônico de álcool"
+    "display": "Abuso cronico de alcool"
   }, {
     "code": "K86",
-    "display": "Hipertensão sem complicações"
+    "display": "Hipertensao sem complicacoes"
   }, {
     "code": "A98",
-    "display": "Medicina preventiva/manutenção da saúde"
+    "display": "Medicina preventiva/manutencao da saude"
   }, {
     "code": "A93",
-    "display": "Recém nascido prematuro"
+    "display": "Recem nascido prematuro"
   }, {
     "code": "X80",
     "display": "Neoplasia benigna genital"
   }, {
     "code": "L26",
-    "display": "Medo de câncer no aparelho músculo-esquelético"
+    "display": "Medo de cancer no aparelho musculo-esqueletico"
   }, {
     "code": "X79",
     "display": "Neoplasia benigna da mama feminina/ fibroadenoma"
   }, {
     "code": "L28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "X81",
     "display": "Neoplasia genital feminina, outra/NE"
   }, {
     "code": "L27",
-    "display": "Medo de doença no aparelho músculo-esquelético, outro"
+    "display": "Medo de doenca no aparelho musculo-esqueletico, outro"
   }, {
     "code": "X77",
     "display": "Neoplasia maligna genital feminina, outra"
@@ -341,10 +341,10 @@
     "display": "Neoplasia maligna da mama feminina"
   }, {
     "code": "L17",
-    "display": "Sinais/sintomas do pé/dedos pé"
+    "display": "Sinais/sintomas do pe/dedos pe"
   }, {
     "code": "L20",
-    "display": "Sinais/sintomas das articulações NE"
+    "display": "Sinais/sintomas das articulacoes NE"
   }, {
     "code": "X78",
     "display": "Fibromioma uterino"
@@ -353,46 +353,46 @@
     "display": "Sinais/sintomas musculares NE"
   }, {
     "code": "L71",
-    "display": "Neoplasia maligna do aparelho músculo-esquelético"
+    "display": "Neoplasia maligna do aparelho musculo-esqueletico"
   }, {
     "code": "X84",
     "display": "Vaginite/vulvite NE"
   }, {
     "code": "L70",
-    "display": "Infecções do aparelho músculo-esquelético"
+    "display": "Infeccoes do aparelho musculo-esqueletico"
   }, {
     "code": "X83",
-    "display": "Malformações congênitas genitais"
+    "display": "Malformacoes congenitas genitais"
   }, {
     "code": "L29",
-    "display": "Outros sinais/sintomas do aparelho músculo-esquelético"
+    "display": "Outros sinais/sintomas do aparelho musculo-esqueletico"
   }, {
     "code": "X82",
-    "display": "Lesão traumática genital feminina"
+    "display": "Lesao traumatica genital feminina"
   }, {
     "code": "X86",
-    "display": "Esfregaço de Papanicolau/colpocitologia oncótica anormal"
+    "display": "Esfregaco de Papanicolau/colpocitologia oncotica anormal"
   }, {
     "code": "L72",
-    "display": "Fratura: rádio/cúbito"
+    "display": "Fratura: radio/cubito"
   }, {
     "code": "X85",
-    "display": "Doença do colo NE"
+    "display": "Doenca do colo NE"
   }, {
     "code": "L74",
-    "display": "Fratura: osso da mão/pé"
+    "display": "Fratura: osso da mao/pe"
   }, {
     "code": "X87",
     "display": "Prolapso utero-vaginal"
   }, {
     "code": "L73",
-    "display": "Fratura: tíbia/perônio/ fíbula"
+    "display": "Fratura: tibia/peronio/ fibula"
   }, {
     "code": "L09",
-    "display": "Sinais/sintomas dos braços"
+    "display": "Sinais/sintomas dos bracos"
   }, {
     "code": "X27",
-    "display": "Medo de outra doença genital/mama"
+    "display": "Medo de outra doenca genital/mama"
   }, {
     "code": "L08",
     "display": "Sinais/sintomas dos ombros"
@@ -404,43 +404,43 @@
     "display": "Sinais/sintomas dos cotovelos"
   }, {
     "code": "X28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "L05",
     "display": "Sinais/sintomas da axila"
   }, {
     "code": "X24",
-    "display": "Medo de disfunção sexual"
+    "display": "Medo de disfuncao sexual"
   }, {
     "code": "L04",
-    "display": "Sinais/sintomas do tórax"
+    "display": "Sinais/sintomas do torax"
   }, {
     "code": "X23",
-    "display": "Medo de doença de transmissão sexual"
+    "display": "Medo de doenca de transmissao sexual"
   }, {
     "code": "X26",
-    "display": "Medo de câncer na mama"
+    "display": "Medo de cancer na mama"
   }, {
     "code": "L07",
-    "display": "Sinais/sintomas da mandíbula"
+    "display": "Sinais/sintomas da mandibula"
   }, {
     "code": "X25",
-    "display": "Medo de câncer genital"
+    "display": "Medo de cancer genital"
   }, {
     "code": "X72",
-    "display": "Candidíase genital feminina"
+    "display": "Candidiase genital feminina"
   }, {
     "code": "L13",
     "display": "Sinais/sintomas do quadril"
   }, {
     "code": "X71",
-    "display": "Gonorréia feminina"
+    "display": "Gonorreia feminina"
   }, {
     "code": "L12",
-    "display": "Sinais/sintomas das mãos e dedos"
+    "display": "Sinais/sintomas das maos e dedos"
   }, {
     "code": "X70",
-    "display": "Sífilis feminina"
+    "display": "Sifilis feminina"
   }, {
     "code": "L11",
     "display": "Sinais/sintomas dos punhos"
@@ -449,7 +449,7 @@
     "display": "Sinais/sintomas do joelho"
   }, {
     "code": "X73",
-    "display": "Tricomoníase genital feminina"
+    "display": "Tricomoniase genital feminina"
   }, {
     "code": "L14",
     "display": "Sinais/sintomas da coxa/perna"
@@ -461,49 +461,49 @@
     "display": "Sinais/sintomas do tornozelo"
   }, {
     "code": "X74",
-    "display": "Doença inflamatória pélvica"
+    "display": "Doenca inflamatoria pelvica"
   }, {
     "code": "Y04",
-    "display": "Sinais/sintomas do pênis, outros"
+    "display": "Sinais/sintomas do penis, outros"
   }, {
     "code": "L83",
-    "display": "Doenças ou síndromes da coluna cervical"
+    "display": "Doencas ou sindromes da coluna cervical"
   }, {
     "code": "Y03",
-    "display": "Secreção uretral"
+    "display": "Secrecao uretral"
   }, {
     "code": "L82",
-    "display": "Malformações congênitas do aparelho músculo-esquelético"
+    "display": "Malformacoes congenitas do aparelho musculo-esqueletico"
   }, {
     "code": "Y02",
-    "display": "Dor no escroto/testículos"
+    "display": "Dor no escroto/testiculos"
   }, {
     "code": "L81",
-    "display": "Traumatismos do aparelho musculoesquelético NE"
+    "display": "Traumatismos do aparelho musculoesqueletico NE"
   }, {
     "code": "L85",
-    "display": "Deformação adquirida da coluna"
+    "display": "Deformacao adquirida da coluna"
   }, {
     "code": "L84",
-    "display": "Doenças ou síndromes da coluna sem irradiação de dor"
+    "display": "Doencas ou sindromes da coluna sem irradiacao de dor"
   }, {
     "code": "Y05",
-    "display": "Sinais/sintomas do escroto/testículos, outros"
+    "display": "Sinais/sintomas do escroto/testiculos, outros"
   }, {
     "code": "L86",
-    "display": "Síndrome vertebral com irradiação dor"
+    "display": "Sindrome vertebral com irradiacao dor"
   }, {
     "code": "Y07",
-    "display": "Impotência NE"
+    "display": "Impotencia NE"
   }, {
     "code": "Y06",
-    "display": "Sinais/sintomas da próstata"
+    "display": "Sinais/sintomas da prostata"
   }, {
     "code": "X91",
     "display": "Condiloma acuminado feminino"
   }, {
     "code": "L77",
-    "display": "Entorses e distensões do tornozelo"
+    "display": "Entorses e distensoes do tornozelo"
   }, {
     "code": "X90",
     "display": "Herpes genital feminino"
@@ -512,31 +512,31 @@
     "display": "Outras fraturas"
   }, {
     "code": "X89",
-    "display": "Síndrome da tensão pré-menstrual"
+    "display": "Sindrome da tensao pre-menstrual"
   }, {
     "code": "L75",
-    "display": "Fratura: fémur"
+    "display": "Fratura: femur"
   }, {
     "code": "X88",
-    "display": "Doença fibrocística da mama"
+    "display": "Doenca fibrocistica da mama"
   }, {
     "code": "L79",
-    "display": "Entorses e distensões das articulações NE"
+    "display": "Entorses e distensoes das articulacoes NE"
   }, {
     "code": "X92",
-    "display": "Infecção por clamídia"
+    "display": "Infeccao por clamidia"
   }, {
     "code": "L78",
-    "display": "Entorses e distensões do joelho"
+    "display": "Entorses e distensoes do joelho"
   }, {
     "code": "Y01",
-    "display": "Dor no pênis"
+    "display": "Dor no penis"
   }, {
     "code": "L80",
-    "display": "Luxação/subluxação"
+    "display": "Luxacao/subluxacao"
   }, {
     "code": "X99",
-    "display": "Doença genital feminina, outra"
+    "display": "Doenca genital feminina, outra"
   }, {
     "code": "L91",
     "display": "Outras osteoartroses"
@@ -548,16 +548,16 @@
     "display": "Osteoartrose do joelho"
   }, {
     "code": "Y25",
-    "display": "Medo de doença sexualmente transmissível"
+    "display": "Medo de doenca sexualmente transmissivel"
   }, {
     "code": "L92",
-    "display": "Síndrome do ombro doloroso"
+    "display": "Sindrome do ombro doloroso"
   }, {
     "code": "Y24",
-    "display": "Medo de disfunção sexual masculina"
+    "display": "Medo de disfuncao sexual masculina"
   }, {
     "code": "L88",
-    "display": "Artrite reumatóide/seropositiva"
+    "display": "Artrite reumatoide/seropositiva"
   }, {
     "code": "Y10",
     "display": "Infertilidade/subfertildade masculina"
@@ -566,7 +566,7 @@
     "display": "Bursite/tendinite/sinovite NE"
   }, {
     "code": "Y08",
-    "display": "Sinais/sintomas da função sexual masculina, outros"
+    "display": "Sinais/sintomas da funcao sexual masculina, outros"
   }, {
     "code": "Y14",
     "display": "Planejamento familiar, outros"
@@ -575,22 +575,22 @@
     "display": "Osteoartrose do quadril"
   }, {
     "code": "Y13",
-    "display": "Esterilização masculina"
+    "display": "Esterilizacao masculina"
   }, {
     "code": "Y28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "L95",
     "display": "Osteoporose"
   }, {
     "code": "Y27",
-    "display": "Medo de doença genital masculina, outra"
+    "display": "Medo de doenca genital masculina, outra"
   }, {
     "code": "L94",
     "display": "Osteocondrose"
   }, {
     "code": "Y26",
-    "display": "Medo de câncer genital masculino"
+    "display": "Medo de cancer genital masculino"
   }, {
     "code": "L93",
     "display": "Cotovelo de tenista"
@@ -602,25 +602,25 @@
     "display": "Sinais/sintomas, outros"
   }, {
     "code": "L96",
-    "display": "Lesão interna aguda do joelho"
+    "display": "Lesao interna aguda do joelho"
   }, {
     "code": "Y71",
-    "display": "Gonorréia masculina"
+    "display": "Gonorreia masculina"
   }, {
     "code": "L98",
-    "display": "Malformação adquirida de um membro"
+    "display": "Malformacao adquirida de um membro"
   }, {
     "code": "Y70",
-    "display": "Sífilis masculina"
+    "display": "Sifilis masculina"
   }, {
     "code": "W82",
-    "display": "Aborto espontâneo"
+    "display": "Aborto espontaneo"
   }, {
     "code": "K27",
-    "display": "Medo de outra doença cardiovascular"
+    "display": "Medo de outra doenca cardiovascular"
   }, {
     "code": "W81",
-    "display": "Toxemia gravídica/ DHEG"
+    "display": "Toxemia gravidica/ DHEG"
   }, {
     "code": "K29",
     "display": "Outros sinais/sintomas cardiovasculares"
@@ -629,130 +629,130 @@
     "display": "Aborto provocado"
   }, {
     "code": "K28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "W79",
-    "display": "Gravidez não desejada"
+    "display": "Gravidez nao desejada"
   }, {
     "code": "W78",
     "display": "Gravidez"
   }, {
     "code": "K22",
-    "display": "Fator de risco para doença cardiovascular"
+    "display": "Fator de risco para doenca cardiovascular"
   }, {
     "code": "W76",
-    "display": "Malformação congénita que complica a gravidez"
+    "display": "Malformacao congenita que complica a gravidez"
   }, {
     "code": "K25",
-    "display": "Medo de hipertensão"
+    "display": "Medo de hipertensao"
   }, {
     "code": "W80",
-    "display": "Gravidez ectópica"
+    "display": "Gravidez ectopica"
   }, {
     "code": "K24",
-    "display": "Medo de doença cardíaca"
+    "display": "Medo de doenca cardiaca"
   }, {
     "code": "K72",
-    "display": "Neoplasia do aparelho circulatório"
+    "display": "Neoplasia do aparelho circulatorio"
   }, {
     "code": "W90",
-    "display": "Parto sem complicações de nascido vivo"
+    "display": "Parto sem complicacoes de nascido vivo"
   }, {
     "code": "K71",
-    "display": "Febre reumática/cardiopatia"
+    "display": "Febre reumatica/cardiopatia"
   }, {
     "code": "W85",
     "display": "Diabetes gestacional"
   }, {
     "code": "K70",
-    "display": "Doença infecciosa do aparelho circulatório"
+    "display": "Doenca infecciosa do aparelho circulatorio"
   }, {
     "code": "W84",
     "display": "Gravidez de alto risco"
   }, {
     "code": "W92",
-    "display": "Parto com complicações de nascido vivo"
+    "display": "Parto com complicacoes de nascido vivo"
   }, {
     "code": "K73",
-    "display": "Malformações congênitas do aparelho circulatório"
+    "display": "Malformacoes congenitas do aparelho circulatorio"
   }, {
     "code": "W91",
-    "display": "Parto sem complicações de natimorto"
+    "display": "Parto sem complicacoes de natimorto"
   }, {
     "code": "K75",
-    "display": "Infarto ou Enfarte agudo miocárdio"
+    "display": "Infarto ou Enfarte agudo miocardio"
   }, {
     "code": "W93",
-    "display": "Parto com complicações de natimorto"
+    "display": "Parto com complicacoes de natimorto"
   }, {
     "code": "K74",
-    "display": "Doença cardíaca isquémica com angina"
+    "display": "Doenca cardiaca isquemica com angina"
   }, {
     "code": "H86",
     "display": "Surdez"
   }, {
     "code": "W27",
-    "display": "Medo de complicações na gravidez"
+    "display": "Medo de complicacoes na gravidez"
   }, {
     "code": "H85",
-    "display": "Lesão acústica"
+    "display": "Lesao acustica"
   }, {
     "code": "W29",
     "display": "Sinais/sintomas da gravidez, outros"
   }, {
     "code": "H99",
-    "display": "Outra doença do ouvido/mastóide"
+    "display": "Outra doenca do ouvido/mastoide"
   }, {
     "code": "W28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "W18",
-    "display": "Sinais/sintomas pós-parto"
+    "display": "Sinais/sintomas pos-parto"
   }, {
     "code": "H83",
     "display": "Otoesclerose"
   }, {
     "code": "W17",
-    "display": "Hemorragia pós-parto"
+    "display": "Hemorragia pos-parto"
   }, {
     "code": "H82",
-    "display": "Síndrome vertiginosa"
+    "display": "Sindrome vertiginosa"
   }, {
     "code": "W21",
-    "display": "Preocupação com a imagem corporal na gravidez"
+    "display": "Preocupacao com a imagem corporal na gravidez"
   }, {
     "code": "H84",
     "display": "Presbiacusia"
   }, {
     "code": "W19",
-    "display": "Sinais/sintomas da mama/lactação"
+    "display": "Sinais/sintomas da mama/lactacao"
   }, {
     "code": "W72",
     "display": "Neoplasia maligna relacionada com gravidez"
   }, {
     "code": "K03",
-    "display": "Dores atribuídas ao aparelho circulatório NE"
+    "display": "Dores atribuidas ao aparelho circulatorio NE"
   }, {
     "code": "W71",
-    "display": "Infecções que complicam a gravidez"
+    "display": "Infeccoes que complicam a gravidez"
   }, {
     "code": "K02",
-    "display": "Sensação de pressão/aperto atribuída ao coração"
+    "display": "Sensacao de pressao/aperto atribuida ao coracao"
   }, {
     "code": "W70",
-    "display": "Sepsis/infecção puerperal"
+    "display": "Sepsis/infeccao puerperal"
   }, {
     "code": "K01",
-    "display": "Dor atribuída ao coração"
+    "display": "Dor atribuida ao coracao"
   }, {
     "code": "K05",
-    "display": "Outras irregularidades dos batimentos cardíacos"
+    "display": "Outras irregularidades dos batimentos cardiacos"
   }, {
     "code": "W73",
     "display": "Neoplasia benigna/incerta relacionada com a gravidez"
   }, {
     "code": "K04",
-    "display": "Palpitações/percepção dos batimentos cardíacos"
+    "display": "Palpitacoes/percepcao dos batimentos cardiacos"
   }, {
     "code": "K07",
     "display": "Tornozelos inchados/edema"
@@ -761,79 +761,79 @@
     "display": "Veias proeminentes"
   }, {
     "code": "W75",
-    "display": "Lesões traumáticas que complicam a gravidez"
+    "display": "Lesoes traumaticas que complicam a gravidez"
   }, {
     "code": "X06",
-    "display": "Menstruação excessiva"
+    "display": "Menstruacao excessiva"
   }, {
     "code": "K84",
-    "display": "Outras doenças cardíacas"
+    "display": "Outras doencas cardiacas"
   }, {
     "code": "X05",
-    "display": "Menstruação escassa/ausente"
+    "display": "Menstruacao escassa/ausente"
   }, {
     "code": "K83",
-    "display": "Doença valvular cardíaca NE"
+    "display": "Doenca valvular cardiaca NE"
   }, {
     "code": "X04",
-    "display": "Relação sexual dolorosa na mulher"
+    "display": "Relacao sexual dolorosa na mulher"
   }, {
     "code": "K82",
-    "display": "Doença cardiopulmonar"
+    "display": "Doenca cardiopulmonar"
   }, {
     "code": "X08",
     "display": "Hemorragia intermenstrual"
   }, {
     "code": "X07",
-    "display": "Menstruação irregular/frequente"
+    "display": "Menstruacao irregular/frequente"
   }, {
     "code": "K85",
-    "display": "Pressão arterial elevada"
+    "display": "Pressao arterial elevada"
   }, {
     "code": "X10",
-    "display": "Desejo de alterar a data menstruação"
+    "display": "Desejo de alterar a data menstruacao"
   }, {
     "code": "K87",
-    "display": "Hipertensão com complicações"
+    "display": "Hipertensao com complicacoes"
   }, {
     "code": "X09",
-    "display": "Sinais/sintomas pré-menstruais"
+    "display": "Sinais/sintomas pre-menstruais"
   }, {
     "code": "W99",
     "display": "Outros problemas da gravidez/parto"
   }, {
     "code": "K78",
-    "display": "Fibrilação/flutter auricular/ atrial"
+    "display": "Fibrilacao/flutter auricular/ atrial"
   }, {
     "code": "W96",
-    "display": "Outras complicações do puerpério"
+    "display": "Outras complicacoes do puerperio"
   }, {
     "code": "K77",
-    "display": "Insuficiência cardíaca"
+    "display": "Insuficiencia cardiaca"
   }, {
     "code": "W95",
-    "display": "Outros problemas da mama durante gravidez/puerpério"
+    "display": "Outros problemas da mama durante gravidez/puerperio"
   }, {
     "code": "K76",
-    "display": "Doença cardíaca isquémica sem angina"
+    "display": "Doenca cardiaca isquemica sem angina"
   }, {
     "code": "W94",
     "display": "Mastite puerperal"
   }, {
     "code": "K80",
-    "display": "Arritmia cardíaca NE"
+    "display": "Arritmia cardiaca NE"
   }, {
     "code": "X01",
     "display": "Dor genital"
   }, {
     "code": "K79",
-    "display": "Taquicardia Paroxística"
+    "display": "Taquicardia Paroxistica"
   }, {
     "code": "X03",
     "display": "Dores intermenstruais"
   }, {
     "code": "K81",
-    "display": "Sopro cardíaco/arterial NE"
+    "display": "Sopro cardiaco/arterial NE"
   }, {
     "code": "X02",
     "display": "Dores menstruais"
@@ -842,10 +842,10 @@
     "display": "Sinais/sintomas da vagina"
   }, {
     "code": "K92",
-    "display": "Aterosclerose/doença vascular periférica"
+    "display": "Aterosclerose/doenca vascular periferica"
   }, {
     "code": "X14",
-    "display": "Secreção vaginal"
+    "display": "Secrecao vaginal"
   }, {
     "code": "K94",
     "display": "Flebite/tromboflebite"
@@ -857,34 +857,34 @@
     "display": "Embolia pulmonar"
   }, {
     "code": "X12",
-    "display": "Hemorragia pós-menopausa"
+    "display": "Hemorragia pos-menopausa"
   }, {
     "code": "K89",
-    "display": "Isquêmia/ acidente cerebral transitória(o)"
+    "display": "Isquemia/ acidente cerebral transitoria(o)"
   }, {
     "code": "X11",
-    "display": "Sinais/sintomas da menopausa/ climatério"
+    "display": "Sinais/sintomas da menopausa/ climaterio"
   }, {
     "code": "K88",
-    "display": "Hipotensão postural"
+    "display": "Hipotensao postural"
   }, {
     "code": "K91",
-    "display": "Doença vascular cerebral"
+    "display": "Doenca vascular cerebral"
   }, {
     "code": "X13",
-    "display": "Hemorragia pós-coital"
+    "display": "Hemorragia pos-coital"
   }, {
     "code": "K90",
     "display": "Trombose/acidente vascular cerebral"
   }, {
     "code": "K99",
-    "display": "Outras doenças do aparelho circulatório"
+    "display": "Outras doencas do aparelho circulatorio"
   }, {
     "code": "X19",
-    "display": "Tumor ou nódulo na mama feminina"
+    "display": "Tumor ou nodulo na mama feminina"
   }, {
     "code": "K96",
-    "display": "Hemorróidas"
+    "display": "Hemorroidas"
   }, {
     "code": "X18",
     "display": "Dor na mama feminina"
@@ -893,67 +893,67 @@
     "display": "Veias varicosas da perna"
   }, {
     "code": "X17",
-    "display": "Sinais/sintomas da pélvis feminina"
+    "display": "Sinais/sintomas da pelvis feminina"
   }, {
     "code": "X21",
     "display": "Sinais/sintomas da mama feminina, outros"
   }, {
     "code": "L01",
-    "display": "Sinais/sintomas do pescoço"
+    "display": "Sinais/sintomas do pescoco"
   }, {
     "code": "X20",
     "display": "Sinais/sintomas do mamilo da mulher"
   }, {
     "code": "L03",
-    "display": "Sinais/sintomas da região lombar"
+    "display": "Sinais/sintomas da regiao lombar"
   }, {
     "code": "X22",
-    "display": "Preocupação com a aparência da mama feminina"
+    "display": "Preocupacao com a aparencia da mama feminina"
   }, {
     "code": "L02",
-    "display": "Sinais/sintomas da região dorsal"
+    "display": "Sinais/sintomas da regiao dorsal"
   }, {
     "code": "U06",
-    "display": "Hematúria"
+    "display": "Hematuria"
   }, {
     "code": "F82",
     "display": "Descolamento da retina"
   }, {
     "code": "U05",
-    "display": "Outros problemas com a micção"
+    "display": "Outros problemas com a miccao"
   }, {
     "code": "U08",
-    "display": "Retenção urinária"
+    "display": "Retencao urinaria"
   }, {
     "code": "U07",
-    "display": "Outros sinais/sintomas urinários"
+    "display": "Outros sinais/sintomas urinarios"
   }, {
     "code": "F83",
     "display": "Retinopatia"
   }, {
     "code": "U02",
-    "display": "Micção frequente/urgência urinária/ polaciúria"
+    "display": "Miccao frequente/urgencia urinaria/ polaciuria"
   }, {
     "code": "U01",
-    "display": "Disúria/micção dolorosa"
+    "display": "Disuria/miccao dolorosa"
   }, {
     "code": "F79",
-    "display": "Outras lesões traumáticas oculares"
+    "display": "Outras lesoes traumaticas oculares"
   }, {
     "code": "T99",
-    "display": "Outras doenças endocrinológica/metabólica/nutricionais"
+    "display": "Outras doencas endocrinologica/metabolica/nutricionais"
   }, {
     "code": "F81",
-    "display": "Outras malformações congênitas do olho"
+    "display": "Outras malformacoes congenitas do olho"
   }, {
     "code": "U04",
-    "display": "Incontinência urinária"
+    "display": "Incontinencia urinaria"
   }, {
     "code": "F80",
-    "display": "Obstrução canal lacrimal da criança"
+    "display": "Obstrucao canal lacrimal da crianca"
   }, {
     "code": "U26",
-    "display": "Medo de câncer no aparelho urinário"
+    "display": "Medo de cancer no aparelho urinario"
   }, {
     "code": "F86",
     "display": "Tracoma"
@@ -962,40 +962,40 @@
     "display": "Sinais/sintomas dos rins"
   }, {
     "code": "F85",
-    "display": "Ulcera da córnea"
+    "display": "Ulcera da cornea"
   }, {
     "code": "U13",
     "display": "Sinais/sintomas da bexiga, outros"
   }, {
     "code": "F84",
-    "display": "Degeneração macular"
+    "display": "Degeneracao macular"
   }, {
     "code": "F92",
     "display": "Catarata"
   }, {
     "code": "U27",
-    "display": "Medo de outra doença urinária"
+    "display": "Medo de outra doenca urinaria"
   }, {
     "code": "F91",
-    "display": "Erro de refração"
+    "display": "Erro de refracao"
   }, {
     "code": "U29",
-    "display": "Sinais/sintomas aparelho urinário, outros"
+    "display": "Sinais/sintomas aparelho urinario, outros"
   }, {
     "code": "F93",
     "display": "Glaucoma"
   }, {
     "code": "U28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "F28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "T85",
     "display": "Hipertiroidismo/tireotoxicose"
   }, {
     "code": "F27",
-    "display": "Medo de doença ocular"
+    "display": "Medo de doenca ocular"
   }, {
     "code": "T87",
     "display": "Hipoglicemia"
@@ -1007,16 +1007,16 @@
     "display": "Hipotiroidismo/mixedema"
   }, {
     "code": "F17",
-    "display": "Sinais/sintomas relacionados a óculos"
+    "display": "Sinais/sintomas relacionados a oculos"
   }, {
     "code": "T81",
-    "display": "Bócio"
+    "display": "Bocio"
   }, {
     "code": "F16",
-    "display": "Sinais/sintomas das pálpebras"
+    "display": "Sinais/sintomas das palpebras"
   }, {
     "code": "T80",
-    "display": "Malformação congénita endócrina/metabólica"
+    "display": "Malformacao congenita endocrina/metabolica"
   }, {
     "code": "T83",
     "display": "Excesso de peso"
@@ -1028,16 +1028,16 @@
     "display": "Obesidade"
   }, {
     "code": "T91",
-    "display": "Deficiência vitamínica/nutricional"
+    "display": "Deficiencia vitaminica/nutricional"
   }, {
     "code": "F72",
-    "display": "Blefarite/hordéolo/calázio"
+    "display": "Blefarite/hordeolo/calazio"
   }, {
     "code": "T90",
-    "display": "Diabetes não insulino-dependente"
+    "display": "Diabetes nao insulino-dependente"
   }, {
     "code": "F71",
-    "display": "Conjuntivite alérgica"
+    "display": "Conjuntivite alergica"
   }, {
     "code": "T89",
     "display": "Diabetes insulino-dependente"
@@ -1052,52 +1052,52 @@
     "display": "Gota"
   }, {
     "code": "F73",
-    "display": "Outras infecções/inflamações oculares"
+    "display": "Outras infeccoes/inflamacoes oculares"
   }, {
     "code": "F76",
     "display": "Corpo estranho ocular"
   }, {
     "code": "T93",
-    "display": "Alteração no metabolismo dos lípidos"
+    "display": "Alteracao no metabolismo dos lipidos"
   }, {
     "code": "F75",
-    "display": "Contusão/hemorragia ocular"
+    "display": "Contusao/hemorragia ocular"
   }, {
     "code": "H15",
-    "display": "Preocupação com a aparência das orelhas"
+    "display": "Preocupacao com a aparencia das orelhas"
   }, {
     "code": "U80",
-    "display": "Lesões traumáticas do aparelho urinário"
+    "display": "Lesoes traumaticas do aparelho urinario"
   }, {
     "code": "H13",
-    "display": "Sensação de ouvido tapado"
+    "display": "Sensacao de ouvido tapado"
   }, {
     "code": "U79",
-    "display": "Neoplasia do aparelho urinário NE"
+    "display": "Neoplasia do aparelho urinario NE"
   }, {
     "code": "H05",
     "display": "Hemorragia no ouvido"
   }, {
     "code": "U78",
-    "display": "Neoplasia benigna do aparelho urinário"
+    "display": "Neoplasia benigna do aparelho urinario"
   }, {
     "code": "U88",
-    "display": "Glomerulonefrite/ sindrome nefrótica"
+    "display": "Glomerulonefrite/ sindrome nefrotica"
   }, {
     "code": "H27",
-    "display": "Medo de doença do ouvido"
+    "display": "Medo de doenca do ouvido"
   }, {
     "code": "U85",
-    "display": "Malformação congénita do aparelho urinário"
+    "display": "Malformacao congenita do aparelho urinario"
   }, {
     "code": "H29",
     "display": "Outros sinais/sintomas ouvido"
   }, {
     "code": "U90",
-    "display": "Albuminúria/proteinúria ortostática"
+    "display": "Albuminuria/proteinuria ortostatica"
   }, {
     "code": "H28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "H01",
     "display": "Dor de ouvidos"
@@ -1106,10 +1106,10 @@
     "display": "Uretrite"
   }, {
     "code": "F99",
-    "display": "Outra doenças oculares/anexos"
+    "display": "Outra doencas oculares/anexos"
   }, {
     "code": "U71",
-    "display": "Cistite/outra infecção urinária"
+    "display": "Cistite/outra infeccao urinaria"
   }, {
     "code": "F95",
     "display": "Estrabismo"
@@ -1124,31 +1124,31 @@
     "display": "Neoplasia benigna do rim"
   }, {
     "code": "H02",
-    "display": "Problemas de audição"
+    "display": "Problemas de audicao"
   }, {
     "code": "U75",
     "display": "Neoplasia maligna do rim"
   }, {
     "code": "H04",
-    "display": "Secreção no ouvido"
+    "display": "Secrecao no ouvido"
   }, {
     "code": "U77",
-    "display": "Neoplasia maligna do aparelho urinário, outra"
+    "display": "Neoplasia maligna do aparelho urinario, outra"
   }, {
     "code": "H03",
-    "display": "Acufeno, zumbidos, ruído, assobios"
+    "display": "Acufeno, zumbidos, ruido, assobios"
   }, {
     "code": "H74",
-    "display": "Otite media crónica"
+    "display": "Otite media cronica"
   }, {
     "code": "H73",
-    "display": "Infecção da Trompa de Eustáquio"
+    "display": "Infeccao da Trompa de Eustaquio"
   }, {
     "code": "W02",
-    "display": "Medo de estar grávida"
+    "display": "Medo de estar gravida"
   }, {
     "code": "W05",
-    "display": "Vómitos/náuseas durante a gravidez"
+    "display": "Vomitos/nauseas durante a gravidez"
   }, {
     "code": "H75",
     "display": "Neoplasia do ouvido"
@@ -1160,73 +1160,73 @@
     "display": "Otite media aguda/miringite"
   }, {
     "code": "U98",
-    "display": "Análise de urina anormal NE"
+    "display": "Analise de urina anormal NE"
   }, {
     "code": "H70",
     "display": "Otite externa"
   }, {
     "code": "U95",
-    "display": "Cálculo urinário"
+    "display": "Calculo urinario"
   }, {
     "code": "H72",
-    "display": "Otite média serosa"
+    "display": "Otite media serosa"
   }, {
     "code": "W01",
-    "display": "Questão sobre gravidez"
+    "display": "Questao sobre gravidez"
   }, {
     "code": "U99",
-    "display": "Outras doenças urinárias"
+    "display": "Outras doencas urinarias"
   }, {
     "code": "W12",
-    "display": "Contracepção intra-uterina/ Dispositivo Intrauterino/ DIU"
+    "display": "Contracepcao intra-uterina/ Dispositivo Intrauterino/ DIU"
   }, {
     "code": "H78",
     "display": "Traumatismo superficial do ouvido"
   }, {
     "code": "W11",
-    "display": "Contracepção oral"
+    "display": "Contracepcao oral"
   }, {
     "code": "H77",
-    "display": "Perfuração do tímpano"
+    "display": "Perfuracao do timpano"
   }, {
     "code": "W10",
-    "display": "Contracepção pós-coital"
+    "display": "Contracepcao pos-coital"
   }, {
     "code": "H76",
     "display": "Corpo estranho do ouvido"
   }, {
     "code": "W14",
-    "display": "Contracepção/outros"
+    "display": "Contracepcao/outros"
   }, {
     "code": "H79",
     "display": "Outros traumatismos do ouvido"
   }, {
     "code": "W13",
-    "display": "Esterilização"
+    "display": "Esterilizacao"
   }, {
     "code": "W15",
     "display": "Infertilidade/subfertildade"
   }, {
     "code": "H81",
-    "display": "Cerúmen no ouvido em excesso"
+    "display": "Cerumen no ouvido em excesso"
   }, {
     "code": "H80",
-    "display": "Malformações congênitas do ouvido"
+    "display": "Malformacoes congenitas do ouvido"
   }, {
     "code": "D75",
-    "display": "Neoplasia maligna do cólon/reto"
+    "display": "Neoplasia maligna do colon/reto"
   }, {
     "code": "S84",
     "display": "Impetigo"
   }, {
     "code": "D74",
-    "display": "Neoplasia maligna do estômago"
+    "display": "Neoplasia maligna do estomago"
   }, {
     "code": "S86",
     "display": "Dermatite seborreica"
   }, {
     "code": "D76",
-    "display": "Neoplasia maligna do pâncreas"
+    "display": "Neoplasia maligna do pancreas"
   }, {
     "code": "S85",
     "display": "Cisto pilonidal/fistula"
@@ -1238,16 +1238,16 @@
     "display": "Hemangioma/linfangioma"
   }, {
     "code": "D71",
-    "display": "Caxumba/parotidite epidêmica"
+    "display": "Caxumba/parotidite epidemica"
   }, {
     "code": "S80",
     "display": "Ceratose/ Queratose solar/queimadura solar"
   }, {
     "code": "S83",
-    "display": "Lesões da pele congênitas, outras"
+    "display": "Lesoes da pele congenitas, outras"
   }, {
     "code": "D73",
-    "display": "Gastroenterite, presumível infecção"
+    "display": "Gastroenterite, presumivel infeccao"
   }, {
     "code": "S82",
     "display": "Nevos/sinais da pele"
@@ -1259,7 +1259,7 @@
     "display": "Corpo estranho no aparelho digestivo"
   }, {
     "code": "S88",
-    "display": "Dermatite de contato/alérgica"
+    "display": "Dermatite de contato/alergica"
   }, {
     "code": "D78",
     "display": "Neoplasia benigna do aparelho digestivo/incerta"
@@ -1268,31 +1268,31 @@
     "display": "Neoplasia maligna do aparelho digestivo NE"
   }, {
     "code": "S87",
-    "display": "Dermatite/eczema atópico"
+    "display": "Dermatite/eczema atopico"
   }, {
     "code": "D81",
-    "display": "Malformações congênitas do aparelho digestivo"
+    "display": "Malformacoes congenitas do aparelho digestivo"
   }, {
     "code": "S90",
-    "display": "Pitiríase rosada"
+    "display": "Pitiriase rosada"
   }, {
     "code": "D80",
-    "display": "Outras lesões traumáticas"
+    "display": "Outras lesoes traumaticas"
   }, {
     "code": "D82",
-    "display": "Doença dos dentes/gengivas"
+    "display": "Doenca dos dentes/gengivas"
   }, {
     "code": "S92",
-    "display": "Doença das glândulas sudoríparas"
+    "display": "Doenca das glandulas sudoriparas"
   }, {
     "code": "S91",
-    "display": "Psoríase"
+    "display": "Psoriase"
   }, {
     "code": "S72",
-    "display": "Escabiose/outras acaríases"
+    "display": "Escabiose/outras acariases"
   }, {
     "code": "D21",
-    "display": "Problemas de deglutição"
+    "display": "Problemas de degluticao"
   }, {
     "code": "S71",
     "display": "Herpes simples"
@@ -1301,7 +1301,7 @@
     "display": "Massa abdominal NE"
   }, {
     "code": "S73",
-    "display": "Pediculose/outras infecções da pele"
+    "display": "Pediculose/outras infeccoes da pele"
   }, {
     "code": "D23",
     "display": "Hepatomegalia"
@@ -1310,16 +1310,16 @@
     "display": "Sinais/sintomas da pele, outros"
   }, {
     "code": "D18",
-    "display": "Alterações nas fezes/mov. intestinais"
+    "display": "Alteracoes nas fezes/mov. intestinais"
   }, {
     "code": "S28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "D17",
-    "display": "Incontinência fecal"
+    "display": "Incontinencia fecal"
   }, {
     "code": "D20",
-    "display": "Sinais/sintomas da boca/língua/lábios"
+    "display": "Sinais/sintomas da boca/lingua/labios"
   }, {
     "code": "S70",
     "display": "Herpes zoster"
@@ -1328,19 +1328,19 @@
     "display": "Sinais/sintomas dos dentes/gengivas"
   }, {
     "code": "D27",
-    "display": "Medo de outras doenças aparelho digestivo"
+    "display": "Medo de outras doencas aparelho digestivo"
   }, {
     "code": "S76",
-    "display": "Outras infecções da pele"
+    "display": "Outras infeccoes da pele"
   }, {
     "code": "D26",
-    "display": "Medo de câncer no aparelho digestivo"
+    "display": "Medo de cancer no aparelho digestivo"
   }, {
     "code": "S75",
-    "display": "Monilíase oral/candidíase na pele"
+    "display": "Moniliase oral/candidiase na pele"
   }, {
     "code": "D25",
-    "display": "Distensão abdominal"
+    "display": "Distensao abdominal"
   }, {
     "code": "S74",
     "display": "Dermatofitose"
@@ -1349,16 +1349,16 @@
     "display": "Lipoma"
   }, {
     "code": "D28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "S77",
     "display": "Neoplasias malignas da pele"
   }, {
     "code": "D70",
-    "display": "Infecção gastrointestinal"
+    "display": "Infeccao gastrointestinal"
   }, {
     "code": "S79",
-    "display": "Neoplasia cutânea benigna/incerta"
+    "display": "Neoplasia cutanea benigna/incerta"
   }, {
     "code": "D29",
     "display": "Outros sinais/sintomas digestivos"
@@ -1367,34 +1367,34 @@
     "display": "Perda de apetite"
   }, {
     "code": "D91",
-    "display": "Hérnia abdominal, outras"
+    "display": "Hernia abdominal, outras"
   }, {
     "code": "T02",
     "display": "Apetite excessivo"
   }, {
     "code": "D90",
-    "display": "Hérnia de hiato /diafragmática"
+    "display": "Hernia de hiato /diafragmatica"
   }, {
     "code": "T01",
     "display": "Sede excessiva"
   }, {
     "code": "D89",
-    "display": "Hérnia inguinal"
+    "display": "Hernia inguinal"
   }, {
     "code": "D93",
-    "display": "Síndrome do cólon irritável"
+    "display": "Sindrome do colon irritavel"
   }, {
     "code": "T04",
-    "display": "Problemas alimentares de lactente/criança"
+    "display": "Problemas alimentares de lactente/crianca"
   }, {
     "code": "D92",
-    "display": "Doença diverticular intestinal"
+    "display": "Doenca diverticular intestinal"
   }, {
     "code": "T07",
     "display": "Aumento de peso"
   }, {
     "code": "D94",
-    "display": "Enterite crónica/colite ulcerosa"
+    "display": "Enterite cronica/colite ulcerosa"
   }, {
     "code": "T05",
     "display": "Problemas alimentares do adulto"
@@ -1403,55 +1403,55 @@
     "display": "Acne"
   }, {
     "code": "D85",
-    "display": "Úlcera do duodeno"
+    "display": "Ulcera do duodeno"
   }, {
     "code": "S95",
     "display": "Molusco contagioso"
   }, {
     "code": "D84",
-    "display": "Doença do esôfago"
+    "display": "Doenca do esofago"
   }, {
     "code": "S94",
     "display": "Unha encravada"
   }, {
     "code": "S93",
-    "display": "Cisto sebáceo"
+    "display": "Cisto sebaceo"
   }, {
     "code": "D83",
-    "display": "Doença da boca/língua/lábios"
+    "display": "Doenca da boca/lingua/labios"
   }, {
     "code": "D87",
-    "display": "Alterações funcionais estômago"
+    "display": "Alteracoes funcionais estomago"
   }, {
     "code": "S97",
-    "display": "Úlcera crónica da pele"
+    "display": "Ulcera cronica da pele"
   }, {
     "code": "D86",
-    "display": "Úlcera péptica, outra"
+    "display": "Ulcera peptica, outra"
   }, {
     "code": "S99",
-    "display": "Outras doenças da pele"
+    "display": "Outras doencas da pele"
   }, {
     "code": "D88",
     "display": "Apendicite"
   }, {
     "code": "S98",
-    "display": "Urticária"
+    "display": "Urticaria"
   }, {
     "code": "T27",
-    "display": "Medo de outra doença endócrina/metabólica"
+    "display": "Medo de outra doenca endocrina/metabolica"
   }, {
     "code": "D99",
-    "display": "Outra doença do aparelho digestivo"
+    "display": "Outra doenca do aparelho digestivo"
   }, {
     "code": "T26",
-    "display": "Medo de câncer do sistema endócrino"
+    "display": "Medo de cancer do sistema endocrino"
   }, {
     "code": "F02",
     "display": "Olho vermelho"
   }, {
     "code": "T28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "F01",
     "display": "Dor no olho"
@@ -1472,40 +1472,40 @@
     "display": "Colecistite, colelitiase"
   }, {
     "code": "T11",
-    "display": "Desidratação"
+    "display": "Desidratacao"
   }, {
     "code": "D97",
-    "display": "Doenças do fígado /NE"
+    "display": "Doencas do figado /NE"
   }, {
     "code": "F05",
-    "display": "Outras perturbações visuais"
+    "display": "Outras perturbacoes visuais"
   }, {
     "code": "T71",
-    "display": "Neoplasia maligna da tiróide"
+    "display": "Neoplasia maligna da tiroide"
   }, {
     "code": "F04",
     "display": "Moscas volantes/pontos luminosos/escotomas/ manchas"
   }, {
     "code": "T70",
-    "display": "Infecção endócrina"
+    "display": "Infeccao endocrina"
   }, {
     "code": "F03",
-    "display": "Secreção ocular"
+    "display": "Secrecao ocular"
   }, {
     "code": "T29",
-    "display": "Sinais/sintomas endocrinológicos/metabolicos/nutricionais, outros"
+    "display": "Sinais/sintomas endocrinologicos/metabolicos/nutricionais, outros"
   }, {
     "code": "T73",
-    "display": "Outra neoplasia endócrina NE"
+    "display": "Outra neoplasia endocrina NE"
   }, {
     "code": "F13",
-    "display": "Sensações oculares anormais"
+    "display": "Sensacoes oculares anormais"
   }, {
     "code": "T72",
-    "display": "Neoplasia benigna da tiróide"
+    "display": "Neoplasia benigna da tiroide"
   }, {
     "code": "F15",
-    "display": "Aparência anormal nos olhos"
+    "display": "Aparencia anormal nos olhos"
   }, {
     "code": "T78",
     "display": "Cisto do canal tiroglosso"
@@ -1514,46 +1514,46 @@
     "display": "Movimentos oculares anormais"
   }, {
     "code": "R89",
-    "display": "Malformação congénita do aparelho respiratório"
+    "display": "Malformacao congenita do aparelho respiratorio"
   }, {
     "code": "B71",
-    "display": "Linfadenite crónica NE"
+    "display": "Linfadenite cronica NE"
   }, {
     "code": "R88",
-    "display": "Outra lesão respiratória"
+    "display": "Outra lesao respiratoria"
   }, {
     "code": "B73",
     "display": "Leucemia"
   }, {
     "code": "R90",
-    "display": "Hipertrofia das amígdalas/adenóides"
+    "display": "Hipertrofia das amigdalas/adenoides"
   }, {
     "code": "B72",
-    "display": "Doença de Hodgkin/linfomas"
+    "display": "Doenca de Hodgkin/linfomas"
   }, {
     "code": "R86",
-    "display": "Neoplasia benigna respiratória"
+    "display": "Neoplasia benigna respiratoria"
   }, {
     "code": "B28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "R85",
-    "display": "Outra neoplasia respiratória maligna"
+    "display": "Outra neoplasia respiratoria maligna"
   }, {
     "code": "B27",
-    "display": "Medo de outras doenças do sangue /vasos linfáticos"
+    "display": "Medo de outras doencas do sangue /vasos linfaticos"
   }, {
     "code": "B70",
     "display": "Linfadenite aguda"
   }, {
     "code": "R87",
-    "display": "Corpo estranho nariz/laringe/brônquios"
+    "display": "Corpo estranho nariz/laringe/bronquios"
   }, {
     "code": "B29",
-    "display": "Outros sinais/ sintomas do sangue/ sistema linfático/ baço NE"
+    "display": "Outros sinais/ sintomas do sangue/ sistema linfatico/ baco NE"
   }, {
     "code": "B76",
-    "display": "Rotura traumática do baço"
+    "display": "Rotura traumatica do baco"
   }, {
     "code": "R96",
     "display": "Asma"
@@ -1562,67 +1562,67 @@
     "display": "Neoplasia benigna NE"
   }, {
     "code": "R95",
-    "display": "Doença pulmonar obstrutiva crónica"
+    "display": "Doenca pulmonar obstrutiva cronica"
   }, {
     "code": "B74",
     "display": "Outra neoplasia maligna no sangue"
   }, {
     "code": "R92",
-    "display": "Neoplasia respiratória NE"
+    "display": "Neoplasia respiratoria NE"
   }, {
     "code": "R98",
-    "display": "Síndrome de hiperventilação"
+    "display": "Sindrome de hiperventilacao"
   }, {
     "code": "B77",
-    "display": "Outras lesões traumáticas do sangue/linfa/baço"
+    "display": "Outras lesoes traumaticas do sangue/linfa/baco"
   }, {
     "code": "R97",
-    "display": "Rinite alérgica"
+    "display": "Rinite alergica"
   }, {
     "code": "S01",
     "display": "Dor/sensibilidade dolorosa da pele"
   }, {
     "code": "B78",
-    "display": "Anemia hemolítica hereditária"
+    "display": "Anemia hemolitica hereditaria"
   }, {
     "code": "R99",
-    "display": "Outras doenças respiratórias"
+    "display": "Outras doencas respiratorias"
   }, {
     "code": "R74",
-    "display": "Infecção aguda do aparelho respiratório superior (IVAS)"
+    "display": "Infeccao aguda do aparelho respiratorio superior (IVAS)"
   }, {
     "code": "A96",
     "display": "Morte"
   }, {
     "code": "R73",
-    "display": "Abcesso/furúnculo no nariz"
+    "display": "Abcesso/furunculo no nariz"
   }, {
     "code": "R76",
     "display": "Amigdalite aguda"
   }, {
     "code": "R75",
-    "display": "Sinusite crónica/aguda"
+    "display": "Sinusite cronica/aguda"
   }, {
     "code": "A97",
-    "display": "Sem doença"
+    "display": "Sem doenca"
   }, {
     "code": "R71",
     "display": "Tosse convulsa/ pertussis"
   }, {
     "code": "R29",
-    "display": "Sinais/sintomas do aparelho respiratório, outros"
+    "display": "Sinais/sintomas do aparelho respiratorio, outros"
   }, {
     "code": "A92",
-    "display": "Alergia/reação alérgica NE"
+    "display": "Alergia/reacao alergica NE"
   }, {
     "code": "R28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "A95",
     "display": "Mortalidade perinatal"
   }, {
     "code": "R72",
-    "display": "Infecção estreptocócica da orofaringe"
+    "display": "Infeccao estreptococica da orofaringe"
   }, {
     "code": "A94",
     "display": "Morbidade perinatal, outra"
@@ -1634,16 +1634,16 @@
     "display": "Sinais/sintomas sangue"
   }, {
     "code": "R79",
-    "display": "Bronquite crônica"
+    "display": "Bronquite cronica"
   }, {
     "code": "B02",
-    "display": "Gânglio linfático aumentado/doloroso"
+    "display": "Ganglio linfatico aumentado/doloroso"
   }, {
     "code": "R78",
     "display": "Bronquite/bronquiolite aguda"
   }, {
     "code": "R77",
-    "display": "Laringite/traqueíte aguda"
+    "display": "Laringite/traqueite aguda"
   }, {
     "code": "R82",
     "display": "Pleurite/derrame pleural"
@@ -1655,40 +1655,40 @@
     "display": "Pneumonia"
   }, {
     "code": "R84",
-    "display": "Neoplasia maligna dos brônquios/pulmão"
+    "display": "Neoplasia maligna dos bronquios/pulmao"
   }, {
     "code": "B26",
-    "display": "Medo de câncer no sangue/linfático"
+    "display": "Medo de cancer no sangue/linfatico"
   }, {
     "code": "R83",
-    "display": "Outra infecção respiratória"
+    "display": "Outra infeccao respiratoria"
   }, {
     "code": "D01",
-    "display": "Dor abdominal generalizada/cólicas"
+    "display": "Dor abdominal generalizada/colicas"
   }, {
     "code": "S10",
-    "display": "Furúnculo/carbúnculo"
+    "display": "Furunculo/carbunculo"
   }, {
     "code": "B99",
-    "display": "Outra doença do sangue/linfáticos/baço"
+    "display": "Outra doenca do sangue/linfaticos/baco"
   }, {
     "code": "S09",
-    "display": "Infecção dos dedos das mãos/pés"
+    "display": "Infeccao dos dedos das maos/pes"
   }, {
     "code": "B90",
-    "display": "Infecção por VIH/ HIV/SIDA/ AIDS"
+    "display": "Infeccao por VIH/ HIV/SIDA/ AIDS"
   }, {
     "code": "S08",
-    "display": "Alterações da cor da pele"
+    "display": "Alteracoes da cor da pele"
   }, {
     "code": "S12",
     "display": "Picada ou mordedura de inseto"
   }, {
     "code": "D02",
-    "display": "Dores abdominais, epigástricas"
+    "display": "Dores abdominais, epigastricas"
   }, {
     "code": "S11",
-    "display": "Infecção pós-traumática da pele"
+    "display": "Infeccao pos-traumatica da pele"
   }, {
     "code": "D04",
     "display": "Dor anal/retal"
@@ -1697,55 +1697,55 @@
     "display": "Mordedura animal/humana"
   }, {
     "code": "D03",
-    "display": "Azia/ Queimação"
+    "display": "Azia/ Queimacao"
   }, {
     "code": "B82",
     "display": "Outras anemias NE"
   }, {
     "code": "S04",
-    "display": "Tumor/inchaço localizado"
+    "display": "Tumor/inchaco localizado"
   }, {
     "code": "B81",
-    "display": "Anemia perniciosa/deficiência de folatos"
+    "display": "Anemia perniciosa/deficiencia de folatos"
   }, {
     "code": "S03",
     "display": "Verrugas"
   }, {
     "code": "B80",
-    "display": "Anemia por deficiência de ferro"
+    "display": "Anemia por deficiencia de ferro"
   }, {
     "code": "S02",
     "display": "Prurido"
   }, {
     "code": "B79",
-    "display": "Outra malformação congênita do sangue/linfática"
+    "display": "Outra malformacao congenita do sangue/linfatica"
   }, {
     "code": "S06",
-    "display": "Erupção cutânea localizada"
+    "display": "Erupcao cutanea localizada"
   }, {
     "code": "B83",
-    "display": "Púrpura/defeitos de coagulação"
+    "display": "Purpura/defeitos de coagulacao"
   }, {
     "code": "S05",
-    "display": "Tumores/inchaços generalizados"
+    "display": "Tumores/inchacos generalizados"
   }, {
     "code": "B87",
     "display": "Esplenomegalia"
   }, {
     "code": "S07",
-    "display": "Erupção cutânea generalizada"
+    "display": "Erupcao cutanea generalizada"
   }, {
     "code": "B84",
-    "display": "Glóbulos brancos anormais"
+    "display": "Globulos brancos anormais"
   }, {
     "code": "D09",
-    "display": "Náusea"
+    "display": "Nausea"
   }, {
     "code": "S18",
-    "display": "Laceração/corte"
+    "display": "Laceracao/corte"
   }, {
     "code": "D08",
-    "display": "Flatulência /gases/eructações"
+    "display": "Flatulencia /gases/eructacoes"
   }, {
     "code": "S20",
     "display": "Calos/calosidades"
@@ -1754,7 +1754,7 @@
     "display": "Vomito"
   }, {
     "code": "S19",
-    "display": "Outra lesão cutânea"
+    "display": "Outra lesao cutanea"
   }, {
     "code": "D06",
     "display": "Outras dores abdominais localizadas"
@@ -1763,28 +1763,28 @@
     "display": "Corpo estranho na pele"
   }, {
     "code": "D05",
-    "display": "Irritação perianal"
+    "display": "Irritacao perianal"
   }, {
     "code": "S14",
-    "display": "Queimadura/escaldão"
+    "display": "Queimadura/escaldao"
   }, {
     "code": "S17",
-    "display": "Abrasão/arranhão/bolhas"
+    "display": "Abrasao/arranhao/bolhas"
   }, {
     "code": "D07",
-    "display": "Dispepsia/indigestão"
+    "display": "Dispepsia/indigestao"
   }, {
     "code": "S16",
-    "display": "Traumatismo/contusão"
+    "display": "Traumatismo/contusao"
   }, {
     "code": "D13",
-    "display": "Icterícia"
+    "display": "Ictericia"
   }, {
     "code": "S23",
-    "display": "Queda de cabelo/calvície"
+    "display": "Queda de cabelo/calvicie"
   }, {
     "code": "D12",
-    "display": "Obstipação"
+    "display": "Obstipacao"
   }, {
     "code": "S22",
     "display": "Sinais/sintomas das unhas"
@@ -1799,106 +1799,106 @@
     "display": "Melena"
   }, {
     "code": "D14",
-    "display": "Hematêmese/vómito sangue"
+    "display": "Hematemese/vomito sangue"
   }, {
     "code": "S24",
     "display": "Sinais/sintomas do cabelo/couro cabeludo"
   }, {
     "code": "S27",
-    "display": "Medo de outra doença da pele"
+    "display": "Medo de outra doenca da pele"
   }, {
     "code": "D16",
     "display": "Hemorragia retal"
   }, {
     "code": "S26",
-    "display": "Medo de câncer de pele"
+    "display": "Medo de cancer de pele"
   }, {
     "code": "P74",
-    "display": "Distúrbio ansioso/estado de ansiedade"
+    "display": "Disturbio ansioso/estado de ansiedade"
   }, {
     "code": "A20",
-    "display": "Pedido/discussão eutanásia"
+    "display": "Pedido/discussao eutanasia"
   }, {
     "code": "P73",
     "display": "Psicose afetiva"
   }, {
     "code": "P75",
-    "display": "Somatização"
+    "display": "Somatizacao"
   }, {
     "code": "A21",
     "display": "Fator de risco de malignidade"
   }, {
     "code": "P71",
-    "display": "Outras psicoses orgânicas NE"
+    "display": "Outras psicoses organicas NE"
   }, {
     "code": "P70",
-    "display": "Demência"
+    "display": "Demencia"
   }, {
     "code": "A13",
     "display": "Receio/Medo do tratamento"
   }, {
     "code": "A18",
-    "display": "Preocupação com aparência"
+    "display": "Preocupacao com aparencia"
   }, {
     "code": "P72",
     "display": "Esquizofrenia"
   }, {
     "code": "A16",
-    "display": "Criança irritável"
+    "display": "Crianca irritavel"
   }, {
     "code": "A26",
-    "display": "Medo de câncer NE"
+    "display": "Medo de cancer NE"
   }, {
     "code": "P77",
-    "display": "Suicídio/tentativa de suicídio"
+    "display": "Suicidio/tentativa de suicidio"
   }, {
     "code": "A25",
     "display": "Medo de morrer/medo da morte"
   }, {
     "code": "P76",
-    "display": "Perturbações depressivas"
+    "display": "Perturbacoes depressivas"
   }, {
     "code": "A23",
     "display": "Fator de risco NE"
   }, {
     "code": "P79",
-    "display": "Fobia/perturbação compulsiva"
+    "display": "Fobia/perturbacao compulsiva"
   }, {
     "code": "A27",
-    "display": "Medo de outra doença NE"
+    "display": "Medo de outra doenca NE"
   }, {
     "code": "P78",
     "display": "Neurastenia"
   }, {
     "code": "P80",
-    "display": "Perturbações de personalidade"
+    "display": "Perturbacoes de personalidade"
   }, {
     "code": "A28",
-    "display": "Limitação funcional/incapacidade NE"
+    "display": "Limitacao funcional/incapacidade NE"
   }, {
     "code": "A05",
     "display": "Sentir-se doente"
   }, {
     "code": "A04",
-    "display": "Debilidade/cansaço geral/fadiga"
+    "display": "Debilidade/cansaco geral/fadiga"
   }, {
     "code": "P20",
-    "display": "Alterações da memória"
+    "display": "Alteracoes da memoria"
   }, {
     "code": "A06",
-    "display": "Desmaio/síncope"
+    "display": "Desmaio/sincope"
   }, {
     "code": "P22",
-    "display": "Sinais/sintomas relacionados ao comportamento da criança"
+    "display": "Sinais/sintomas relacionados ao comportamento da crianca"
   }, {
     "code": "P18",
-    "display": "Abuso de medicação"
+    "display": "Abuso de medicacao"
   }, {
     "code": "P17",
     "display": "Abuso do tabaco"
   }, {
     "code": "A01",
-    "display": "Dor generalizada /múltipla"
+    "display": "Dor generalizada /multipla"
   }, {
     "code": "A03",
     "display": "Febre"
@@ -1916,7 +1916,7 @@
     "display": "Problemas da fase de vida de adulto"
   }, {
     "code": "A08",
-    "display": "Inchaço"
+    "display": "Inchaco"
   }, {
     "code": "P24",
     "display": "Dificuldades especificas de aprendizagem"
@@ -1928,52 +1928,52 @@
     "display": "Sinais/sintomas relacionados ao comportamento do adolescente"
   }, {
     "code": "P28",
-    "display": "Limitação funcional/incapacidade"
+    "display": "Limitacao funcional/incapacidade"
   }, {
     "code": "A10",
     "display": "Sangramento/Hemorragia NE"
   }, {
     "code": "P27",
-    "display": "Medo de perturbações mentais"
+    "display": "Medo de perturbacoes mentais"
   }, {
     "code": "A11",
-    "display": "Dores torácicas NE"
+    "display": "Dores toracicas NE"
   }, {
     "code": "P29",
-    "display": "Sinais/sintomas psicológicos, outros"
+    "display": "Sinais/sintomas psicologicos, outros"
   }, {
     "code": "A77",
-    "display": "Dengue e outras doenças virais NE"
+    "display": "Dengue e outras doencas virais NE"
   }, {
     "code": "R02",
-    "display": "Dificuldade respiratória, dispneia"
+    "display": "Dificuldade respiratoria, dispneia"
   }, {
     "code": "A76",
     "display": "Outro exantema viral"
   }, {
     "code": "R01",
-    "display": "Dor atribuída ao aparelho respiratório"
+    "display": "Dor atribuida ao aparelho respiratorio"
   }, {
     "code": "A75",
     "display": "Mononucleose infecciosa"
   }, {
     "code": "P99",
-    "display": "Outras perturbações psicológicas"
+    "display": "Outras perturbacoes psicologicas"
   }, {
     "code": "R04",
-    "display": "Outros problemas respiratórios"
+    "display": "Outros problemas respiratorios"
   }, {
     "code": "A78",
-    "display": "Hanseníase e outras doenças infecciosas NE"
+    "display": "Hanseniase e outras doencas infecciosas NE"
   }, {
     "code": "R03",
-    "display": "Respiração ruidosa"
+    "display": "Respiracao ruidosa"
   }, {
     "code": "R05",
     "display": "Tosse"
   }, {
     "code": "A79",
-    "display": "Carcinomatose (localização primária desconhecida)"
+    "display": "Carcinomatose (localizacao primaria desconhecida)"
   }, {
     "code": "P85",
     "display": "Retardo/ Atraso mental"
@@ -1982,19 +1982,19 @@
     "display": "Sarampo"
   }, {
     "code": "P82",
-    "display": "Estresse pós traumático"
+    "display": "Estresse pos traumatico"
   }, {
     "code": "A70",
     "display": "Tuberculose"
   }, {
     "code": "P81",
-    "display": "Perturbação hipercinética"
+    "display": "Perturbacao hipercinetica"
   }, {
     "code": "A29",
     "display": "Outros sinais/sintomas gerais"
   }, {
     "code": "A73",
-    "display": "Malária"
+    "display": "Malaria"
   }, {
     "code": "P86",
     "display": "Anorexia nervosa, bulimia"
@@ -2003,72 +2003,72 @@
     "display": "Varicela"
   }, {
     "code": "A74",
-    "display": "Rubéola"
+    "display": "Rubeola"
   }, {
     "code": "P98",
     "display": "Outras psicoses NE"
   }, {
     "code": "A85",
-    "display": "Efeito adverso de fármaco dose correta"
+    "display": "Efeito adverso de farmaco dose correta"
   }, {
     "code": "R09",
     "display": "Sinais/sintomas dos seios paranasais"
   }, {
     "code": "A84",
-    "display": "Intoxicação por medicamento"
+    "display": "Intoxicacao por medicamento"
   }, {
     "code": "A86",
-    "display": "Efeito tóxico de substância não medicinal"
+    "display": "Efeito toxico de substancia nao medicinal"
   }, {
     "code": "R21",
     "display": "Sinais/sintomas da garganta"
   }, {
     "code": "A81",
-    "display": "Politraumatismos/ferimentos múltiplos"
+    "display": "Politraumatismos/ferimentos multiplos"
   }, {
     "code": "R06",
     "display": "Hemorragia nasal/epistaxe"
   }, {
     "code": "A80",
-    "display": "Lesão traumática/acidente NE"
+    "display": "Lesao traumatica/acidente NE"
   }, {
     "code": "R08",
     "display": "Outros sinais/sintomas nasais"
   }, {
     "code": "A82",
-    "display": "Efeito secundário de lesão traumática"
+    "display": "Efeito secundario de lesao traumatica"
   }, {
     "code": "R07",
-    "display": "Espirro/congestão nasal"
+    "display": "Espirro/congestao nasal"
   }, {
     "code": "R25",
-    "display": "Expectoração/mucosidade anormal"
+    "display": "Expectoracao/mucosidade anormal"
   }, {
     "code": "A88",
-    "display": "Efeito adverso de fator físico"
+    "display": "Efeito adverso de fator fisico"
   }, {
     "code": "R24",
     "display": "Hemoptise"
   }, {
     "code": "A87",
-    "display": "Complicações de tratamento médico"
+    "display": "Complicacoes de tratamento medico"
   }, {
     "code": "R23",
     "display": "Sinais/sintomas da voz"
   }, {
     "code": "A90",
-    "display": "Malformação congênita NE/múltiplas"
+    "display": "Malformacao congenita NE/multiplas"
   }, {
     "code": "R26",
-    "display": "Medo de câncer do aparelho respiratório"
+    "display": "Medo de cancer do aparelho respiratorio"
   }, {
     "code": "A89",
-    "display": "Efeito da prótese"
+    "display": "Efeito da protese"
   }, {
     "code": "A91",
-    "display": "Investigação com resultado anormal NE"
+    "display": "Investigacao com resultado anormal NE"
   }, {
     "code": "R27",
-    "display": "Medo de outras doenças respiratórias"
+    "display": "Medo de outras doencas respiratorias"
   } ]
 }

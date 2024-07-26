@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Tipo de Documento",
   "experimental": false,
-  "name": "Brtipodocumento",
+  "name": "BRTipoDocumento",
   "status": "active",
   "kind": "codesystem",
   "description": "Tipo de Documento",

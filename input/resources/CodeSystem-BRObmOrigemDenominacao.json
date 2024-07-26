@@ -4,19 +4,19 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmOrigemDenominacao",
   "version": "HEAD",
-  "name": "Brobmorigemdenominacao",
-  "title": "Origens de denominação",
+  "name": "BRObmOrigemDenominacao",
+  "title": "Origens de denomina��o",
   "status": "active",
   "experimental": false,
-  "description": "Origens de denominação",
+  "description": "Origens de denomina��o",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "0008",
-    "display": "DCB - Denominação Comum Brasileira"
+    "display": "DCB - Denominacao Comum Brasileira"
   }, {
     "code": "1",
-    "display": "rINN - Denominação Comum Internacional Recomendada"
+    "display": "rINN - Denominacao Comum Internacional Recomendada"
   } ]
 }

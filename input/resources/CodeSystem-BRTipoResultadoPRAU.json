@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoPRAU",
   "version": "HEAD",
-  "name": "Brtiporesultadoprau",
+  "name": "BRTipoResultadoPRAU",
   "title": "Tipo de Resultado PRAU 1.0",
   "status": "active",
   "experimental": false,
@@ -14,10 +14,10 @@
   "content": "complete",
   "concept": [ {
     "code": "1",
-    "display": "Presença"
+    "display": "Presenca"
   }, {
     "code": "2",
-    "display": "Ausência"
+    "display": "Ausencia"
   }, {
     "code": "3",
     "display": "Inconclusivo"

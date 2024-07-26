@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRNomeExameGAL",
   "version": "HEAD",
-  "name": "Brnomeexamegal",
+  "name": "BRNomeExameGAL",
   "title": "Exames do GAL",
   "status": "active",
   "experimental": false,
@@ -16,7 +16,7 @@
     "display": "COVID-19, IgG"
   }, {
     "code": "coronavirusnCoV",
-    "display": "Novo coronavírus (2019-nCoV)"
+    "display": "Novo coronavirus (2019-nCoV)"
   }, {
     "code": "CVIDGM",
     "display": "COVID-19, IgM"

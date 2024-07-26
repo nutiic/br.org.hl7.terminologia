@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Tipo de Resultado DTNT 1.0",
   "experimental": false,
-  "name": "Brtiporesultadodtnt",
+  "name": "BRTipoResultadoDTNT",
   "status": "active",
   "kind": "codesystem",
   "description": "Tipo de Resultado DTNT 1.0",

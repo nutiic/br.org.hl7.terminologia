@@ -4,20 +4,20 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
   "version": "HEAD",
-  "name": "Brdivisaogeograficabrasil",
-  "title": "Divisão Geográfica do Brasil",
+  "name": "BRDivisaoGeograficaBrasil",
+  "title": "Divis�o Geogr�fica do Brasil",
   "status": "active",
   "experimental": false,
-  "description": "Divisão Geográfica do Brasil",
+  "description": "Divis�o Geogr�fica do Brasil",
   "hierarchyMeaning": "is-a",
   "versionNeeded": false,
   "content": "complete",
   "concept": [ {
     "code": "15",
-    "display": "Pará"
+    "display": "Para"
   }, {
     "code": "34",
-    "display": "São Paulo"
+    "display": "Sao Paulo"
   }, {
     "code": "14",
     "display": "Roraima"
@@ -29,16 +29,16 @@
     "display": "Sul"
   }, {
     "code": "16",
-    "display": "Amapá"
+    "display": "Amapa"
   }, {
     "code": "17",
     "display": "Tocantins"
   }, {
     "code": "41",
-    "display": "Paraná"
+    "display": "Parana"
   }, {
     "code": "11",
-    "display": "Rondônia"
+    "display": "Rondonia"
   }, {
     "code": "31",
     "display": "Minas Gerais"
@@ -62,16 +62,16 @@
     "display": "Amazonas"
   }, {
     "code": "32",
-    "display": "Espírito Santo"
+    "display": "Espirito Santo"
   }, {
     "code": "5",
     "display": "Centro-Oeste"
   }, {
     "code": "22",
-    "display": "Piauí"
+    "display": "Piaui"
   }, {
     "code": "23",
-    "display": "Ceará"
+    "display": "Ceara"
   }, {
     "code": "50",
     "display": "Mato Grosso do Sul"
@@ -83,16 +83,16 @@
     "display": "Nordeste"
   }, {
     "code": "21",
-    "display": "Maranhão"
+    "display": "Maranhao"
   }, {
     "code": "43",
     "display": "Rio Grande do Sul"
   }, {
     "code": "25",
-    "display": "Paraíba"
+    "display": "Paraiba"
   }, {
     "code": "52",
-    "display": "Goiás"
+    "display": "Goias"
   }, {
     "code": "24",
     "display": "Rio Grande do Norte"

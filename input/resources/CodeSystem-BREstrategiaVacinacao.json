@@ -4,18 +4,18 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BREstrategiaVacinacao",
   "version": "HEAD",
-  "name": "Brestrategiavacinacao",
-  "title": "Estratégia de Vacinação",
+  "name": "BREstrategiaVacinacao",
+  "title": "Estrat�gia de Vacina��o",
   "status": "active",
   "experimental": false,
-  "publisher": "Ministério da Saúde do Brasil",
-  "description": "Estratégia de Vacinação",
+  "publisher": "Minist�rio da Sa�de do Brasil",
+  "description": "Estrat�gia de Vacina��o",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "11",
-    "display": "Pré-exposição"
+    "display": "Pre-exposicao"
   }, {
     "code": "6",
     "display": "Campanha seletiva"
@@ -24,7 +24,7 @@
     "display": "Soroterapia"
   }, {
     "code": "4",
-    "display": "Intensificação"
+    "display": "Intensificacao"
   }, {
     "code": "1",
     "display": "Rotina"
@@ -36,19 +36,19 @@
     "display": "Pesquisa"
   }, {
     "code": "13",
-    "display": "Reexposição"
+    "display": "Reexposicao"
   }, {
     "code": "12",
-    "display": "Pós-exposição"
+    "display": "Pos-exposicao"
   }, {
     "code": "8",
-    "display": "Serviço Privado"
+    "display": "Servico Privado"
   }, {
     "code": "2",
     "display": "Especial"
   }, {
     "code": "9",
-    "display": "Monitoramento rápido de cobertura vacinal"
+    "display": "Monitoramento rapido de cobertura vacinal"
   }, {
     "code": "3",
     "display": "Bloqueio"

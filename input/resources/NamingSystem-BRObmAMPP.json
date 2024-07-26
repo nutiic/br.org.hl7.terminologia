@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",
   "experimental": false,
-  "name": "Brobmampp",
+  "name": "BRObmAMPP",
   "status": "active",
   "kind": "codesystem",
   "description": "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",

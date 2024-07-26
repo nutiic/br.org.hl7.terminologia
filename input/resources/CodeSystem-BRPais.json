@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRPais",
   "version": "HEAD",
-  "name": "Brpais",
-  "title": "Países",
+  "name": "BRPais",
+  "title": "Pa�ses",
   "status": "active",
   "experimental": false,
-  "description": "Países",
+  "description": "Pa�ses",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -457,7 +457,7 @@
     "display": "GAZA"
   }, {
     "code": "352",
-    "display": "REPÚBLICA DO SUDÃO DO SUL"
+    "display": "REPUBLICA DO SUDAO DO SUL"
   }, {
     "code": "181",
     "display": "CAMAROES"

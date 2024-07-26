@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoHISPT",
   "version": "HEAD",
-  "name": "Brtiporesultadohispt",
+  "name": "BRTipoResultadoHISPT",
   "title": "Tipo de Resultado HISPT 1.0",
   "status": "active",
   "experimental": false,
@@ -14,10 +14,10 @@
   "content": "complete",
   "concept": [ {
     "code": "1",
-    "display": "Compatível"
+    "display": "Compativel"
   }, {
     "code": "2",
-    "display": "Não Compatível"
+    "display": "Nao Compativel"
   }, {
     "code": "3",
     "display": "Inconclusivo"

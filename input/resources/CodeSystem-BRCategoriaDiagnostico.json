@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRCategoriaDiagnostico",
   "version": "HEAD",
-  "name": "Brcategoriadiagnostico",
-  "title": "Categoria do Diagn√≥stico",
+  "name": "BRCategoriaDiagnostico",
+  "title": "Categoria do DiagnÛstico",
   "status": "active",
   "experimental": false,
-  "description": "Categoria do Diagn√≥stico",
+  "description": "Categoria do DiagnÛstico",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,6 +17,6 @@
     "display": "Principal"
   }, {
     "code": "02",
-    "display": "Secund√°rio"
+    "display": "Secundario"
   } ]
 }

@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Indicadores das Doses",
   "experimental": false,
-  "name": "Brobmindicadordose",
+  "name": "BRObmIndicadorDose",
   "status": "active",
   "kind": "codesystem",
   "description": "Indicadores das Doses",

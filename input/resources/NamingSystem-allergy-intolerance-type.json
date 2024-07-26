@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "AllergyIntoleranceType",
   "experimental": false,
-  "name": "Allergyintolerancetype",
+  "name": "allergyintolerancetype",
   "status": "active",
   "kind": "codesystem",
   "description": "AllergyIntoleranceType",

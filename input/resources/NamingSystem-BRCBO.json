@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Classificação Brasileira de Ocupações - CBO",
   "experimental": false,
-  "name": "Brcbo",
+  "name": "BRCBO",
   "status": "active",
   "kind": "codesystem",
   "description": "Classificação Brasileira de Ocupações - CBO",

@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmAmp",
   "version": "HEAD",
-  "name": "Brobmamp",
+  "name": "BRObmAmp",
   "title": "Produtos Medicinais Comercial (AMP)",
   "status": "active",
   "experimental": false,

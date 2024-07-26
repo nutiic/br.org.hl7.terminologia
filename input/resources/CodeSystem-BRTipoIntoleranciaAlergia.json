@@ -4,7 +4,7 @@
   "language": "por",
   "url": "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
   "version": "HEAD",
-  "name": "Brtipointoleranciaalergia",
+  "name": "BRTipoIntoleranciaAlergia",
   "title": "AllergyIntoleranceType",
   "status": "active",
   "experimental": false,

@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Classificação Internacional de Doenças - Décima Revisão - CID-10",
   "experimental": false,
-  "name": "Brcid10",
+  "name": "BRCID10",
   "status": "active",
   "kind": "codesystem",
   "description": "Classificação Internacional de Doenças - Décima Revisão - CID-10",

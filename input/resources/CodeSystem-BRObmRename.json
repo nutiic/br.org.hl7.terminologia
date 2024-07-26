@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmRename",
   "version": "HEAD",
-  "name": "Brobmrename",
+  "name": "BRObmRename",
   "title": "RENAME",
   "status": "active",
   "experimental": false,

@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmDisponibilidadeAMP",
   "version": "HEAD",
-  "name": "Brobmdisponibilidadeamp",
+  "name": "BRObmDisponibilidadeAMP",
   "title": "Disponibilidade de AMP",
   "status": "active",
   "experimental": false,

@@ -4,47 +4,47 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/esus-via-administracao",
   "version": "HEAD",
-  "name": "Esusviaadministracao",
-  "title": "esus Via Administração",
+  "name": "esusviaadministracao",
+  "title": "esus Via Administra��o",
   "status": "active",
   "experimental": false,
-  "description": "esus Via Administração",
+  "description": "esus Via Administra��o",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "25",
-    "display": "Transdérmica"
+    "display": "Transdermica"
   }, {
     "code": "12",
     "display": "Intra-articular"
   }, {
     "code": "18",
-    "display": "Irrigação"
+    "display": "Irrigacao"
   }, {
     "code": "4",
     "display": "Bucal"
   }, {
     "code": "13",
-    "display": "Intradérmica"
+    "display": "Intradermica"
   }, {
     "code": "24",
     "display": "Sublingual"
   }, {
     "code": "10",
-    "display": "Inalatória por via oral"
+    "display": "Inalatoria por via oral"
   }, {
     "code": "20",
-    "display": "Oftálmica"
+    "display": "Oftalmica"
   }, {
     "code": "2",
     "display": "Local"
   }, {
     "code": "9",
-    "display": "Inalatória por via nasal"
+    "display": "Inalatoria por via nasal"
   }, {
     "code": "8",
-    "display": "Inalatória"
+    "display": "Inalatoria"
   }, {
     "code": "16",
     "display": "Intrauterina"
@@ -56,7 +56,7 @@
     "display": "Intratecal"
   }, {
     "code": "23",
-    "display": "Subcutânea"
+    "display": "Subcutanea"
   }, {
     "code": "11",
     "display": "Intra-arterial"
@@ -86,10 +86,10 @@
     "display": "Capilar"
   }, {
     "code": "6",
-    "display": "Dermatológica"
+    "display": "Dermatologica"
   }, {
     "code": "21",
-    "display": "Otológica"
+    "display": "Otologica"
   }, {
     "code": "0",
     "display": "Oral"

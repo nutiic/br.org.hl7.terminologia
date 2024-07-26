@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Modalidade Assistencial",
   "experimental": false,
-  "name": "Brmodalidadeassistencial",
+  "name": "BRModalidadeAssistencial",
   "status": "active",
   "kind": "codesystem",
   "description": "Modalidade Assistencial",

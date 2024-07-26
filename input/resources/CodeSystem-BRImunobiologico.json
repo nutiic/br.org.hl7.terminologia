@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRImunobiologico",
   "version": "HEAD",
-  "name": "Brimunobiologico",
-  "title": "Imunobiológico",
+  "name": "BRImunobiologico",
+  "title": "Imunobiol�gico",
   "status": "active",
   "experimental": false,
-  "description": "Imunobiológico",
+  "description": "Imunobiol�gico",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -110,7 +110,7 @@
     "display": "HPV9"
   }, {
     "code": "99",
-    "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
+    "display": "COVID-19 PFIZER - COMIRNATY PEDIATRICA"
   }, {
     "code": "34",
     "display": "VAR"
@@ -260,7 +260,7 @@
     "display": "dTpa"
   }, {
     "code": "102",
-    "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
+    "display": "COVID-19 PFIZER - COMIRNATY PEDIATRICA MENOR DE 5 ANOS"
   }, {
     "code": "100",
     "display": "VVBN"

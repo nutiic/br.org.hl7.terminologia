@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmLocaisDestino",
   "version": "HEAD",
-  "name": "Brobmlocaisdestino",
+  "name": "BRObmLocaisDestino",
   "title": "Locais de Destino",
   "status": "active",
   "experimental": false,
@@ -14,19 +14,19 @@
   "content": "complete",
   "concept": [ {
     "code": "@brasil14174903084",
-    "display": "fáscia ilíaca"
+    "display": "fascia iliaca"
   }, {
     "code": "@brasil14506343056",
-    "display": "Ramos escrotais posteriores da artéria pudenda interna"
+    "display": "Ramos escrotais posteriores da arteria pudenda interna"
   }, {
     "code": "@brasil16118937502",
-    "display": "Melanócito"
+    "display": "Melanocito"
   }, {
     "code": "@brasil19197159919",
-    "display": "Submucosa da amígdala"
+    "display": "Submucosa da amigdala"
   }, {
     "code": "@brasil14252723858",
-    "display": "Tendão inteiro do dedo indicador"
+    "display": "Tendao inteiro do dedo indicador"
   }, {
     "code": "@brasil17355486560",
     "display": "pulso direito"
@@ -35,7 +35,7 @@
     "display": "Linfonodo infraclavicular"
   }, {
     "code": "@brasil16527720312",
-    "display": "Glândula mucosa gástrica"
+    "display": "Glandula mucosa gastrica"
   }, {
     "code": "@brasil14729151570",
     "display": "Todo o ligamento escapular transverso superior"
@@ -44,79 +44,79 @@
     "display": "Veia cava superior esquerda"
   }, {
     "code": "@brasil12029448254",
-    "display": "Cabeça do segundo osso metatarso"
+    "display": "Cabeca do segundo osso metatarso"
   }, {
     "code": "@brasil18009434692",
-    "display": "Músculo ciliar"
+    "display": "Musculo ciliar"
   }, {
     "code": "@brasil12672575173",
-    "display": "Tecido subcutâneo da margem inferior do septo nasal"
+    "display": "Tecido subcutaneo da margem inferior do septo nasal"
   }, {
     "code": "@brasil15710806114",
-    "display": "Fibra muscular esquelética, tipo IIb"
+    "display": "Fibra muscular esqueletica, tipo IIb"
   }, {
     "code": "@brasil18909448419",
     "display": "Sistema venoso profundo da extremidade inferior"
   }, {
     "code": "@brasil19612145430",
-    "display": "Linfáticos superficiais do tórax"
+    "display": "Linfaticos superficiais do torax"
   }, {
     "code": "@brasil13050426348",
     "display": "Forma distinta das cristas mitocondriais"
   }, {
     "code": "@brasil18546662206",
-    "display": "Seio carotídeo esquerdo"
+    "display": "Seio carotideo esquerdo"
   }, {
     "code": "@brasil13227628331",
-    "display": "Tubérculo genital"
+    "display": "Tuberculo genital"
   }, {
     "code": "@brasil14502993824",
-    "display": "Ramos perfurantes da artéria torácica interna"
+    "display": "Ramos perfurantes da arteria toracica interna"
   }, {
     "code": "@brasil11996010076",
-    "display": "Falange proximal do dedo mínimo"
+    "display": "Falange proximal do dedo minimo"
   }, {
     "code": "@brasil11825685622",
-    "display": "Fáscia da extremidade superior"
+    "display": "Fascia da extremidade superior"
   }, {
     "code": "@brasil16047756946",
     "display": "Rim direito"
   }, {
     "code": "@brasil19125714848",
-    "display": "Músculos interespinhais do tórax"
+    "display": "Musculos interespinhais do torax"
   }, {
     "code": "@brasil16526939202",
-    "display": "Diâmetro biparietal da cabeça"
+    "display": "Diametro biparietal da cabeca"
   }, {
     "code": "@brasil16908382517",
-    "display": "Estrutura dos linfáticos cervicais profundos"
+    "display": "Estrutura dos linfaticos cervicais profundos"
   }, {
     "code": "@brasil15874766962",
-    "display": "Superfície plantar do quarto dedo"
+    "display": "Superficie plantar do quarto dedo"
   }, {
     "code": "@brasil14155150868",
-    "display": "Linfáticos do estômago"
+    "display": "Linfaticos do estomago"
   }, {
     "code": "@brasil18561728267",
-    "display": "Estrutura da célula amácrina da retina (estrutura do corpo)"
+    "display": "Estrutura da celula amacrina da retina (estrutura do corpo)"
   }, {
     "code": "@brasil13862912796",
-    "display": "Estrutura da lâmina cartilaginosa medial da tuba auditiva (estrutura do corpo)"
+    "display": "Estrutura da lamina cartilaginosa medial da tuba auditiva (estrutura do corpo)"
   }, {
     "code": "@brasil16917612007",
-    "display": "Veia sub-clávica"
+    "display": "Veia sub-clavica"
   }, {
     "code": "@brasil15078443403",
-    "display": "Pele da superfície medial do dedo médio"
+    "display": "Pele da superficie medial do dedo medio"
   }, {
     "code": "@brasil11729572769",
-    "display": "Ligamento lateral da articulação temporomandibular"
+    "display": "Ligamento lateral da articulacao temporomandibular"
   }, {
     "code": "@brasil17856473583",
     "display": "Papila interdental da gengiva"
   }, {
     "code": "@brasil12517598486",
-    "display": "Cauda do epidídimo"
+    "display": "Cauda do epididimo"
   }, {
     "code": "@brasil18300329229",
     "display": "veia lombar"
@@ -128,28 +128,28 @@
     "display": "Todos os dentes permanentes"
   }, {
     "code": "@brasil11789314114",
-    "display": "Pirâmide da medula oblonga"
+    "display": "Piramide da medula oblonga"
   }, {
     "code": "@brasil18847914260",
     "display": "ligamento calcaneocuboidal"
   }, {
     "code": "@brasil10816752500",
-    "display": "depressão coronal do dente"
+    "display": "depressao coronal do dente"
   }, {
     "code": "@brasil18411949515",
-    "display": "Cabeça do osso metacarpo"
+    "display": "Cabeca do osso metacarpo"
   }, {
     "code": "@brasil10414331796",
     "display": "ligamento pulmonar"
   }, {
     "code": "@brasil11219903258",
-    "display": "Arteríola glomerular aferente"
+    "display": "Arteriola glomerular aferente"
   }, {
     "code": "@brasil16022508222",
-    "display": "Tecido subcutâneo da aréola"
+    "display": "Tecido subcutaneo da areola"
   }, {
     "code": "@brasil16646198439",
-    "display": "lúmen duodenal"
+    "display": "lumen duodenal"
   }, {
     "code": "@brasil12402828094",
     "display": "Faceta inteira para a quinta cartilagem costal do esterno"
@@ -170,40 +170,40 @@
     "display": "Base da falange do dedo indicador"
   }, {
     "code": "@brasil12150724177",
-    "display": "Base do pulmão"
+    "display": "Base do pulmao"
   }, {
     "code": "@brasil10677843065",
-    "display": "Menisco lateral da articulação do joelho"
+    "display": "Menisco lateral da articulacao do joelho"
   }, {
     "code": "@brasil17079497152",
     "display": "Ampola duodenal"
   }, {
     "code": "@brasil14906547668",
-    "display": "Processo articular superior da sexta vértebra torácica"
+    "display": "Processo articular superior da sexta vertebra toracica"
   }, {
     "code": "@brasil13561274672",
-    "display": "pulmão transplantado"
+    "display": "pulmao transplantado"
   }, {
     "code": "@brasil16460952763",
-    "display": "Forame intervertebral da quinta vértebra torácica"
+    "display": "Forame intervertebral da quinta vertebra toracica"
   }, {
     "code": "@brasil19581163150",
-    "display": "Núcleo pulposo do disco intervertebral da oitava vértebra torácica"
+    "display": "Nucleo pulposo do disco intervertebral da oitava vertebra toracica"
   }, {
     "code": "@brasil11898220098",
-    "display": "Músculo levantador do lábio superior"
+    "display": "Musculo levantador do labio superior"
   }, {
     "code": "@brasil11433753185",
-    "display": "nervo oftálmico"
+    "display": "nervo oftalmico"
   }, {
     "code": "@brasil18423515377",
     "display": "Macho"
   }, {
     "code": "@brasil19047476404",
-    "display": "Fibra nervosa mielinizada do nervo periférico"
+    "display": "Fibra nervosa mielinizada do nervo periferico"
   }, {
     "code": "@brasil15889656901",
-    "display": "Tubérculo da tireóide"
+    "display": "Tuberculo da tireoide"
   }, {
     "code": "@brasil16800269470",
     "display": "Veia apendicular inteira"
@@ -215,58 +215,58 @@
     "display": "Carunculae hymenales"
   }, {
     "code": "@brasil16164931929",
-    "display": "Fórnix do saco lacrimal"
+    "display": "Fornix do saco lacrimal"
   }, {
     "code": "@brasil12861640491",
-    "display": "Hilo da glândula adrenal"
+    "display": "Hilo da glandula adrenal"
   }, {
     "code": "@brasil10792911592",
     "display": "nervo etmoidal posterior"
   }, {
     "code": "@brasil10699629233",
-    "display": "Lóbulo paracentral"
+    "display": "Lobulo paracentral"
   }, {
     "code": "@brasil17568411627",
-    "display": "Músculo aritenóideo transverso"
+    "display": "Musculo aritenoideo transverso"
   }, {
     "code": "@brasil19151080499",
-    "display": "Músculo romboideus cervicis"
+    "display": "Musculo romboideus cervicis"
   }, {
     "code": "@brasil16949618379",
-    "display": "óstio ileocecal"
+    "display": "ostio ileocecal"
   }, {
     "code": "@brasil11865670569",
-    "display": "Processo primário do pé"
+    "display": "Processo primario do pe"
   }, {
     "code": "@brasil15991727201",
-    "display": "Região supraóptica do hipotálamo"
+    "display": "Regiao supraoptica do hipotalamo"
   }, {
     "code": "@brasil16388891688",
-    "display": "Toda a superfície interna da décima primeira costela"
+    "display": "Toda a superficie interna da decima primeira costela"
   }, {
     "code": "@brasil15317577182",
-    "display": "Parte média da porção cartilaginosa do canal auditivo"
+    "display": "Parte media da porcao cartilaginosa do canal auditivo"
   }, {
     "code": "@brasil17547241370",
-    "display": "Linfonodo parotídeo"
+    "display": "Linfonodo parotideo"
   }, {
     "code": "@brasil15984624963",
-    "display": "pelve ginecóide"
+    "display": "pelve ginecoide"
   }, {
     "code": "@brasil10791961252",
-    "display": "Fígado"
+    "display": "Figado"
   }, {
     "code": "@brasil17752400362",
-    "display": "Nervo zigomático"
+    "display": "Nervo zigomatico"
   }, {
     "code": "@brasil15703207751",
-    "display": "Superfície medial do terceiro dedo"
+    "display": "Superficie medial do terceiro dedo"
   }, {
     "code": "@brasil10254546235",
-    "display": "Ligamento sacrococcígeo dorsal profundo"
+    "display": "Ligamento sacrococcigeo dorsal profundo"
   }, {
     "code": "@brasil15189841243",
-    "display": "Arco volar profundo da artéria radial"
+    "display": "Arco volar profundo da arteria radial"
   }, {
     "code": "@brasil10066331512",
     "display": "celular de Merkel"
@@ -275,76 +275,76 @@
     "display": "Sulco costal inteiro da quinta costela"
   }, {
     "code": "@brasil11652378868",
-    "display": "Plexo faríngeo do nervo vago"
+    "display": "Plexo faringeo do nervo vago"
   }, {
     "code": "@brasil16439803116",
-    "display": "Cápsula da articulação calcaneocuboidal"
+    "display": "Capsula da articulacao calcaneocuboidal"
   }, {
     "code": "@brasil10010147037",
-    "display": "Artéria perfurante anteromedial inteira"
+    "display": "Arteria perfurante anteromedial inteira"
   }, {
     "code": "@brasil11203644126",
-    "display": "Urópode"
+    "display": "Uropode"
   }, {
     "code": "@brasil12002691301",
-    "display": "Artéria ilíaca"
+    "display": "Arteria iliaca"
   }, {
     "code": "@brasil16269937562",
-    "display": "Comissura anterior completa da valva aórtica"
+    "display": "Comissura anterior completa da valva aortica"
   }, {
     "code": "@brasil19782332272",
-    "display": "Músculo abdutor do dedo mínimo do pé"
+    "display": "Musculo abdutor do dedo minimo do pe"
   }, {
     "code": "@brasil11111600277",
     "display": "Camada pigmentada do corpo ciliar"
   }, {
     "code": "@brasil11523464862",
-    "display": "Glândula sudorípara"
+    "display": "Glandula sudoripara"
   }, {
     "code": "@brasil12168574781",
-    "display": "Anulus fibrosus do disco intervertebral da décima vértebra torácica"
+    "display": "Anulus fibrosus do disco intervertebral da decima vertebra toracica"
   }, {
     "code": "@brasil11740431106",
-    "display": "Bainha do tendão do músculo poplíteo"
+    "display": "Bainha do tendao do musculo popliteo"
   }, {
     "code": "@brasil11603235025",
-    "display": "área pulmonar"
+    "display": "area pulmonar"
   }, {
     "code": "@brasil10987607110",
-    "display": "Incisura ciática menor"
+    "display": "Incisura ciatica menor"
   }, {
     "code": "@brasil17762425873",
-    "display": "Corpo do átrio direito"
+    "display": "Corpo do atrio direito"
   }, {
     "code": "@brasil17603729363",
     "display": "Todos os dedos"
   }, {
     "code": "@brasil13418740417",
-    "display": "vacúolo de glicogênio"
+    "display": "vacuolo de glicogenio"
   }, {
     "code": "@brasil15584328643",
     "display": "Ductos sublinguais menores inteiros"
   }, {
     "code": "@brasil16717430618",
-    "display": "Forame intervertebral da segunda vértebra lombar"
+    "display": "Forame intervertebral da segunda vertebra lombar"
   }, {
     "code": "@brasil16000941586",
-    "display": "Giro olfatório lateral"
+    "display": "Giro olfatorio lateral"
   }, {
     "code": "@brasil19579143372",
-    "display": "Região zigomática da face"
+    "display": "Regiao zigomatica da face"
   }, {
     "code": "@brasil19699827849",
-    "display": "Margem direita do coração"
+    "display": "Margem direita do coracao"
   }, {
     "code": "@brasil16306665394",
     "display": "Medula oblonga fasciculus cuneatus"
   }, {
     "code": "@brasil13944499811",
-    "display": "Músculo adutor do hálux"
+    "display": "Musculo adutor do halux"
   }, {
     "code": "@brasil19829991010",
-    "display": "Ramos coróides da artéria espinhal posterior"
+    "display": "Ramos coroides da arteria espinhal posterior"
   }, {
     "code": "@brasil15243738315",
     "display": "Veia pulmonar superior direita"
@@ -353,100 +353,100 @@
     "display": "Ureter transplantado"
   }, {
     "code": "@brasil12087861821",
-    "display": "Junção corticomedular da glândula adrenal"
+    "display": "Juncao corticomedular da glandula adrenal"
   }, {
     "code": "@brasil16131208524",
-    "display": "Corpo intranuclear, granular com cápsula filamentosa"
+    "display": "Corpo intranuclear, granular com capsula filamentosa"
   }, {
     "code": "@brasil19522727036",
     "display": "Arco tendinoso"
   }, {
     "code": "@brasil17160808989",
-    "display": "Porção cavernosa da artéria carótida interna"
+    "display": "Porcao cavernosa da arteria carotida interna"
   }, {
     "code": "@brasil12093772739",
-    "display": "Tecido subcutâneo do espaço interdigital da mão"
+    "display": "Tecido subcutaneo do espaco interdigital da mao"
   }, {
     "code": "@brasil17769351672",
     "display": "Tecidos periodontais"
   }, {
     "code": "@brasil13687119066",
-    "display": "Pedículo da décima primeira vértebra torácica"
+    "display": "Pediculo da decima primeira vertebra toracica"
   }, {
     "code": "@brasil13964834057",
-    "display": "Espaços tenar e hipotenar"
+    "display": "Espacos tenar e hipotenar"
   }, {
     "code": "@brasil12045683842",
-    "display": "Tuberosidade ilíaca"
+    "display": "Tuberosidade iliaca"
   }, {
     "code": "@brasil18597272221",
-    "display": "Retículo endoplasmático agranular, conexão com outras organelas"
+    "display": "Reticulo endoplasmatico agranular, conexao com outras organelas"
   }, {
     "code": "@brasil11644110465",
-    "display": "Eixo da falange do dedo médio"
+    "display": "Eixo da falange do dedo medio"
   }, {
     "code": "@brasil16541093471",
-    "display": "Artéria fibular"
+    "display": "Arteria fibular"
   }, {
     "code": "@brasil11192932724",
-    "display": "Fossa ilíaca"
+    "display": "Fossa iliaca"
   }, {
     "code": "@brasil10095766586",
     "display": "Canal de nascimento"
   }, {
     "code": "@brasil19761966837",
-    "display": "Lâmina da oitava vértebra torácica"
+    "display": "Lamina da oitava vertebra toracica"
   }, {
     "code": "@brasil17008022819",
-    "display": "Ligamento da articulação sacroilíaca e sínfise púbica"
+    "display": "Ligamento da articulacao sacroiliaca e sinfise pubica"
   }, {
     "code": "@brasil14808023006",
-    "display": "Articulação da vértebra lombar"
+    "display": "Articulacao da vertebra lombar"
   }, {
     "code": "@brasil15677364174",
-    "display": "Superfície renal da glândula adrenal"
+    "display": "Superficie renal da glandula adrenal"
   }, {
     "code": "@brasil15105514604",
     "display": "Linfonodo lombar"
   }, {
     "code": "@brasil16345240505",
-    "display": "Fontanela mastóidea do crânio"
+    "display": "Fontanela mastoidea do cranio"
   }, {
     "code": "@brasil12206896078",
-    "display": "Artérias interlobulares do fígado"
+    "display": "Arterias interlobulares do figado"
   }, {
     "code": "@brasil18229746731",
-    "display": "Abaixo da região do joelho"
+    "display": "Abaixo da regiao do joelho"
   }, {
     "code": "@brasil16238022637",
-    "display": "Jugum do osso esfenóide"
+    "display": "Jugum do osso esfenoide"
   }, {
     "code": "@brasil17142715552",
-    "display": "Músculo esfíncter pupilar"
+    "display": "Musculo esfincter pupilar"
   }, {
     "code": "@brasil16491851811",
-    "display": "Linfonodo cólico"
+    "display": "Linfonodo colico"
   }, {
     "code": "@brasil15396047722",
-    "display": "Gota lipídica"
+    "display": "Gota lipidica"
   }, {
     "code": "@brasil14676098137",
     "display": "Seio intercavernoso posterior"
   }, {
     "code": "@brasil15994814424",
-    "display": "Processo articular inferior da décima segunda vértebra torácica"
+    "display": "Processo articular inferior da decima segunda vertebra toracica"
   }, {
     "code": "@brasil18432658097",
-    "display": "Músculo oblíquo da cabeça"
+    "display": "Musculo obliquo da cabeca"
   }, {
     "code": "@brasil12056158791",
-    "display": "Superfície mesial do dente"
+    "display": "Superficie mesial do dente"
   }, {
     "code": "@brasil10616045388",
-    "display": "Ramo do nó sinoatrial da artéria coronária direita"
+    "display": "Ramo do no sinoatrial da arteria coronaria direita"
   }, {
     "code": "@brasil14002065213",
-    "display": "Ambos os pés"
+    "display": "Ambos os pes"
   }, {
     "code": "@brasil18571579685",
     "display": "ligamento interclavicular"
@@ -464,211 +464,211 @@
     "display": "plexo de Meissner"
   }, {
     "code": "@brasil18902459672",
-    "display": "Articulação da coluna vertebral"
+    "display": "Articulacao da coluna vertebral"
   }, {
     "code": "@brasil16986126764",
     "display": "Olho esquerdo"
   }, {
     "code": "@brasil15342724820",
-    "display": "Estrato zonal dos corpos quadrigêmeos"
+    "display": "Estrato zonal dos corpos quadrigemeos"
   }, {
     "code": "@brasil19909165881",
-    "display": "ligamento trapezóide"
+    "display": "ligamento trapezoide"
   }, {
     "code": "@brasil14734368299",
     "display": "meninges cerebrais"
   }, {
     "code": "@brasil11254225308",
-    "display": "Processo coracóide da escápula"
+    "display": "Processo coracoide da escapula"
   }, {
     "code": "@brasil14649311083",
-    "display": "pedúnculo cerebelar"
+    "display": "pedunculo cerebelar"
   }, {
     "code": "@brasil11062213182",
-    "display": "veia hepática"
+    "display": "veia hepatica"
   }, {
     "code": "@brasil13553918378",
-    "display": "Parte marginal do músculo orbicular da boca"
+    "display": "Parte marginal do musculo orbicular da boca"
   }, {
     "code": "@brasil11578491563",
     "display": "Dois pontos ascendentes"
   }, {
     "code": "@brasil16351647958",
-    "display": "Veia cólica média inteira"
+    "display": "Veia colica media inteira"
   }, {
     "code": "@brasil10059916180",
     "display": "Lobo parietal esquerdo"
   }, {
     "code": "@brasil19572733228",
-    "display": "Superfície diafragmática do pulmão"
+    "display": "Superficie diafragmatica do pulmao"
   }, {
     "code": "@brasil16239986842",
-    "display": "veia braquiocefálica"
+    "display": "veia braquiocefalica"
   }, {
     "code": "@brasil13875733765",
-    "display": "Segundo dente pré-molar inferior direito"
+    "display": "Segundo dente pre-molar inferior direito"
   }, {
     "code": "@brasil17712894096",
-    "display": "Superfície palmar do dedo médio"
+    "display": "Superficie palmar do dedo medio"
   }, {
     "code": "@brasil18229579009",
     "display": "Crista galli"
   }, {
     "code": "@brasil14478333753",
-    "display": "Fascículo adequado"
+    "display": "Fasciculo adequado"
   }, {
     "code": "@brasil18054030021",
-    "display": "Bursa pré-patelar subtendínea inteira"
+    "display": "Bursa pre-patelar subtendinea inteira"
   }, {
     "code": "@brasil17570533757",
-    "display": "Artéria ulnar esquerda inteira"
+    "display": "Arteria ulnar esquerda inteira"
   }, {
     "code": "@brasil17000330244",
-    "display": "Prega glossoepiglótica lateral"
+    "display": "Prega glossoepiglotica lateral"
   }, {
     "code": "@brasil19143705924",
-    "display": "Glândula gástrica cardíaca inteira (estrutura do corpo)"
+    "display": "Glandula gastrica cardiaca inteira (estrutura do corpo)"
   }, {
     "code": "@brasil17178919515",
     "display": "Linfonodo inguinal"
   }, {
     "code": "@brasil11546790860",
-    "display": "Endocárdio inteiro do ventrículo direito"
+    "display": "Endocardio inteiro do ventriculo direito"
   }, {
     "code": "@brasil16851678364",
-    "display": "Todo o ligamento transverso inferior da escápula"
+    "display": "Todo o ligamento transverso inferior da escapula"
   }, {
     "code": "@brasil19499561141",
-    "display": "Filamentos do aparelho contrátil"
+    "display": "Filamentos do aparelho contratil"
   }, {
     "code": "@brasil17092892597",
-    "display": "Cápsula da articulação metatarsofalângica do quinto dedo"
+    "display": "Capsula da articulacao metatarsofalangica do quinto dedo"
   }, {
     "code": "@brasil18654967385",
-    "display": "Estrutura do estágio 1 do embrião"
+    "display": "Estrutura do estagio 1 do embriao"
   }, {
     "code": "@brasil14327405684",
     "display": "Eixo do quinto osso metatarso"
   }, {
     "code": "@brasil12596958010",
-    "display": "centríolo"
+    "display": "centriolo"
   }, {
     "code": "@brasil16219128225",
-    "display": "Disco intervertebral da oitava vértebra torácica"
+    "display": "Disco intervertebral da oitava vertebra toracica"
   }, {
     "code": "@brasil15383418960",
-    "display": "Veia laríngea superior"
+    "display": "Veia laringea superior"
   }, {
     "code": "@brasil10747941843",
-    "display": "sinusóide esplênico"
+    "display": "sinusoide esplenico"
   }, {
     "code": "@brasil19452096854",
-    "display": "substância branca da ínsula"
+    "display": "substancia branca da insula"
   }, {
     "code": "@brasil18837514246",
-    "display": "Ambos os antebraços"
+    "display": "Ambos os antebracos"
   }, {
     "code": "@brasil12060648212",
     "display": "Dobras transversais do palato"
   }, {
     "code": "@brasil17216091328",
-    "display": "Veia da rampa do tímpano"
+    "display": "Veia da rampa do timpano"
   }, {
     "code": "@brasil14673269580",
-    "display": "Arco do pé"
+    "display": "Arco do pe"
   }, {
     "code": "@brasil19505660391",
-    "display": "Tendão e bainha do tendão do segundo dedo do pé"
+    "display": "Tendao e bainha do tendao do segundo dedo do pe"
   }, {
     "code": "@brasil19766689965",
-    "display": "útero gravídico"
+    "display": "utero gravidico"
   }, {
     "code": "@brasil19775929914",
-    "display": "Segmento posterior do lobo direito do fígado"
+    "display": "Segmento posterior do lobo direito do figado"
   }, {
     "code": "@brasil19704319972",
-    "display": "célula de Niemann-Pick"
+    "display": "celula de Niemann-Pick"
   }, {
     "code": "@brasil16248556752",
     "display": "Veia pudenda externa inteira"
   }, {
     "code": "@brasil13846154699",
-    "display": "Estrutura do músculo rotador lombar (estrutura do corpo)"
+    "display": "Estrutura do musculo rotador lombar (estrutura do corpo)"
   }, {
     "code": "@brasil18436208177",
     "display": "Sincondrose intraoccipital posterior"
   }, {
     "code": "@brasil12624180997",
-    "display": "Corpo cavernoso do pênis"
+    "display": "Corpo cavernoso do penis"
   }, {
     "code": "@brasil18228232372",
-    "display": "Fáscia pélvica"
+    "display": "Fascia pelvica"
   }, {
     "code": "@brasil18243839718",
-    "display": "Bursa ilíaca subtendínea"
+    "display": "Bursa iliaca subtendinea"
   }, {
     "code": "@brasil16233866805",
-    "display": "Disco tátil de Merkel"
+    "display": "Disco tatil de Merkel"
   }, {
     "code": "@brasil14308498206",
     "display": "veias labiais"
   }, {
     "code": "@brasil19897195191",
-    "display": "Pele da superfície medial do quinto dedo"
+    "display": "Pele da superficie medial do quinto dedo"
   }, {
     "code": "@brasil11388432737",
-    "display": "Espaço subdural da região espinhal"
+    "display": "Espaco subdural da regiao espinhal"
   }, {
     "code": "@brasil12348322934",
-    "display": "Porção pontina do fascículo longitudinal medial"
+    "display": "Porcao pontina do fasciculo longitudinal medial"
   }, {
     "code": "@brasil18596991260",
-    "display": "Apêndice da pele"
+    "display": "Apendice da pele"
   }, {
     "code": "@brasil16911805025",
     "display": "ducto palatino"
   }, {
     "code": "@brasil15320678058",
-    "display": "Artéria coróide posterior"
+    "display": "Arteria coroide posterior"
   }, {
     "code": "@brasil17019296814",
-    "display": "Tubérculo intervenoso do átrio direito"
+    "display": "Tuberculo intervenoso do atrio direito"
   }, {
     "code": "@brasil17222961797",
-    "display": "Trato talamoolivário"
+    "display": "Trato talamoolivario"
   }, {
     "code": "@brasil16365170827",
-    "display": "Décima vértebra torácica"
+    "display": "Decima vertebra toracica"
   }, {
     "code": "@brasil11534297550",
-    "display": "Conexão"
+    "display": "Conexao"
   }, {
     "code": "@brasil10117727414",
-    "display": "Bursa subtendínea do músculo tríceps braquial"
+    "display": "Bursa subtendinea do musculo triceps braquial"
   }, {
     "code": "@brasil16080104815",
-    "display": "Artéria femoral"
+    "display": "Arteria femoral"
   }, {
     "code": "@brasil13427598990",
-    "display": "frênulo labial"
+    "display": "frenulo labial"
   }, {
     "code": "@brasil10684988721",
-    "display": "Núcleo lateral posterior do tálamo"
+    "display": "Nucleo lateral posterior do talamo"
   }, {
     "code": "@brasil19920016431",
-    "display": "Ramo do nervo espinal do tronco simpático"
+    "display": "Ramo do nervo espinal do tronco simpatico"
   }, {
     "code": "@brasil16305031249",
-    "display": "Pé direito"
+    "display": "Pe direito"
   }, {
     "code": "@brasil10535046709",
-    "display": "Artéria estriada inteira"
+    "display": "Arteria estriada inteira"
   }, {
     "code": "@brasil15456734200",
-    "display": "Lâmina da terceira vértebra torácica"
+    "display": "Lamina da terceira vertebra toracica"
   }, {
     "code": "@brasil12249541534",
-    "display": "Margem mesovariana do ovário"
+    "display": "Margem mesovariana do ovario"
   }, {
     "code": "@brasil10352852632",
     "display": "Margem posterior do septo nasal"
@@ -677,28 +677,28 @@
     "display": "Aorta abdominal"
   }, {
     "code": "@brasil13664894618",
-    "display": "Superfície anterior do manúbrio"
+    "display": "Superficie anterior do manubrio"
   }, {
     "code": "@brasil19733531146",
-    "display": "Articulação esternoclavicular"
+    "display": "Articulacao esternoclavicular"
   }, {
     "code": "@brasil13720151225",
-    "display": "Eritrócito macrocítico normocrômico"
+    "display": "Eritrocito macrocitico normocromico"
   }, {
     "code": "@brasil12955741762",
-    "display": "Tecido subcutâneo da área submentoniana"
+    "display": "Tecido subcutaneo da area submentoniana"
   }, {
     "code": "@brasil14451660106",
     "display": "Ligamento calcaneocuboidal plantar inteiro"
   }, {
     "code": "@brasil19499940925",
-    "display": "Núcleo paraventricular do tálamo"
+    "display": "Nucleo paraventricular do talamo"
   }, {
     "code": "@brasil17682681610",
-    "display": "Margem esquerda inteira do útero"
+    "display": "Margem esquerda inteira do utero"
   }, {
     "code": "@brasil15911617664",
-    "display": "Superfície lateral da glândula sublingual"
+    "display": "Superficie lateral da glandula sublingual"
   }, {
     "code": "@brasil15437410309",
     "display": "ligamento ovariano"
@@ -707,19 +707,19 @@
     "display": "Ducto semicircular anterior"
   }, {
     "code": "@brasil19873116824",
-    "display": "Superfície anterior do braço"
+    "display": "Superficie anterior do braco"
   }, {
     "code": "@brasil15580428553",
     "display": "anel inguinal profundo"
   }, {
     "code": "@brasil12676342084",
-    "display": "Músculo do períneo"
+    "display": "Musculo do perineo"
   }, {
     "code": "@brasil15933760725",
-    "display": "Muscular própria do apêndice"
+    "display": "Muscular propria do apendice"
   }, {
     "code": "@brasil19637822478",
-    "display": "Linfático da cabeça"
+    "display": "Linfatico da cabeca"
   }, {
     "code": "@brasil13502143697",
     "display": "processos ciliares"
@@ -731,106 +731,106 @@
     "display": "Vasa vasorum inteiro"
   }, {
     "code": "@brasil12744804463",
-    "display": "Ligamento anterior inteiro da cabeça da fíbula"
+    "display": "Ligamento anterior inteiro da cabeca da fibula"
   }, {
     "code": "@brasil18189724652",
     "display": "Ligamento tarsal plantar inteiro"
   }, {
     "code": "@brasil12734606369",
-    "display": "Núcleo lenticular cerebelar"
+    "display": "Nucleo lenticular cerebelar"
   }, {
     "code": "@brasil18494435834",
     "display": "Trato iliotibial"
   }, {
     "code": "@brasil13245857704",
-    "display": "lipídico, cristalino"
+    "display": "lipidico, cristalino"
   }, {
     "code": "@brasil18553537546",
-    "display": "Célula mitótica em anáfase"
+    "display": "Celula mitotica em anafase"
   }, {
     "code": "@brasil10234605603",
-    "display": "Cabeça profunda do músculo flexor curto do polegar"
+    "display": "Cabeca profunda do musculo flexor curto do polegar"
   }, {
     "code": "@brasil17539830259",
-    "display": "Fibras parassimpáticas do nervo vago"
+    "display": "Fibras parassimpaticas do nervo vago"
   }, {
     "code": "@brasil17102105743",
-    "display": "Tecido subcutâneo do vértice"
+    "display": "Tecido subcutaneo do vertice"
   }, {
     "code": "@brasil14658743825",
-    "display": "Espaço do disco intervertebral da décima primeira vértebra torácica"
+    "display": "Espaco do disco intervertebral da decima primeira vertebra toracica"
   }, {
     "code": "@brasil12063871231",
     "display": "Dedo"
   }, {
     "code": "@brasil16065303966",
-    "display": "Membrana mucosa da língua"
+    "display": "Membrana mucosa da lingua"
   }, {
     "code": "@brasil10950529845",
-    "display": "Articulações dos ossículos auditivos"
+    "display": "Articulacoes dos ossiculos auditivos"
   }, {
     "code": "@brasil16229115188",
-    "display": "Pele da glande do pênis"
+    "display": "Pele da glande do penis"
   }, {
     "code": "@brasil10065015469",
-    "display": "Porção abdominopélvica do sistema nervoso simpático"
+    "display": "Porcao abdominopelvica do sistema nervoso simpatico"
   }, {
     "code": "@brasil11365320822",
-    "display": "Todo o primeiro arco aórtico esquerdo"
+    "display": "Todo o primeiro arco aortico esquerdo"
   }, {
     "code": "@brasil12253862983",
-    "display": "Lâmina própria do seio etmoidal"
+    "display": "Lamina propria do seio etmoidal"
   }, {
     "code": "@brasil13468915738",
-    "display": "núcleo limitante"
+    "display": "nucleo limitante"
   }, {
     "code": "@brasil19178741450",
-    "display": "Via de entrada do ventrículo direito"
+    "display": "Via de entrada do ventriculo direito"
   }, {
     "code": "@brasil17474930608",
-    "display": "Artéria comunicante anterior"
+    "display": "Arteria comunicante anterior"
   }, {
     "code": "@brasil13750067997",
-    "display": "Grânulo revestido por membrana, amorfo"
+    "display": "Granulo revestido por membrana, amorfo"
   }, {
     "code": "@brasil18635026325",
-    "display": "Tendão flexor superficial do dedo mínimo"
+    "display": "Tendao flexor superficial do dedo minimo"
   }, {
     "code": "@brasil19808354645",
-    "display": "Bursa acromial subcutânea"
+    "display": "Bursa acromial subcutanea"
   }, {
     "code": "@brasil18999797792",
-    "display": "Manguito rotador, incluindo músculos e tendões"
+    "display": "Manguito rotador, incluindo musculos e tendoes"
   }, {
     "code": "@brasil19633617687",
-    "display": "corpúsculo corneano"
+    "display": "corpusculo corneano"
   }, {
     "code": "@brasil16389430318",
-    "display": "vesícula rofeocítica"
+    "display": "vesicula rofeocitica"
   }, {
     "code": "@brasil10771178071",
-    "display": "Região escapular das costas"
+    "display": "Regiao escapular das costas"
   }, {
     "code": "@brasil19155486782",
-    "display": "Miocárdio do ventrículo"
+    "display": "Miocardio do ventriculo"
   }, {
     "code": "@brasil18335418716",
     "display": "canal mandibular"
   }, {
     "code": "@brasil17507202369",
-    "display": "Espaço subdural intracraniano"
+    "display": "Espaco subdural intracraniano"
   }, {
     "code": "@brasil19162031530",
     "display": "Fibras Olivocerebelares"
   }, {
     "code": "@brasil13491287969",
-    "display": "Ângulo occipital do osso parietal"
+    "display": "Angulo occipital do osso parietal"
   }, {
     "code": "@brasil16098136207",
     "display": "Submucosa do canal anal"
   }, {
     "code": "@brasil19967998133",
-    "display": "célula auxiliar"
+    "display": "celula auxiliar"
   }, {
     "code": "@brasil19195375998",
     "display": "Ligamento do diafragma"
@@ -848,31 +848,31 @@
     "display": "cristal intranuclear"
   }, {
     "code": "@brasil14574255750",
-    "display": "veia da cabeça"
+    "display": "veia da cabeca"
   }, {
     "code": "@brasil15167413375",
-    "display": "Veia anastomótica superior"
+    "display": "Veia anastomotica superior"
   }, {
     "code": "@brasil10420937146",
-    "display": "Área da válvula supra-aórtica"
+    "display": "Area da valvula supra-aortica"
   }, {
     "code": "@brasil12795346343",
-    "display": "Estrato lemnisci dos corpos quadrigêmeos"
+    "display": "Estrato lemnisci dos corpos quadrigemeos"
   }, {
     "code": "@brasil16344730960",
-    "display": "Veia ilíaca circunflexa superficial inteira"
+    "display": "Veia iliaca circunflexa superficial inteira"
   }, {
     "code": "@brasil12976102923",
-    "display": "veias pancreáticas"
+    "display": "veias pancreaticas"
   }, {
     "code": "@brasil12845261321",
-    "display": "Núcleos laterais do globo pálido"
+    "display": "Nucleos laterais do globo palido"
   }, {
     "code": "@brasil16805667825",
-    "display": "Infundíbulo da trompa de Falópio"
+    "display": "Infundibulo da trompa de Falopio"
   }, {
     "code": "@brasil16326656988",
-    "display": "Espaço do disco intervertebral da décima segunda vértebra torácica"
+    "display": "Espaco do disco intervertebral da decima segunda vertebra toracica"
   }, {
     "code": "@brasil14942539141",
     "display": "Nervo radial"
@@ -881,43 +881,43 @@
     "display": "Pulso"
   }, {
     "code": "@brasil10274072968",
-    "display": "Processo articular superior da quinta vértebra torácica"
+    "display": "Processo articular superior da quinta vertebra toracica"
   }, {
     "code": "@brasil18157827813",
-    "display": "nervo infraorbitário"
+    "display": "nervo infraorbitario"
   }, {
     "code": "@brasil13505022136",
-    "display": "Artéria estriada lateral inteira"
+    "display": "Arteria estriada lateral inteira"
   }, {
     "code": "@brasil13122427725",
-    "display": "Colículo superior dos corpos quadrigêmeos"
+    "display": "Coliculo superior dos corpos quadrigemeos"
   }, {
     "code": "@brasil17369038933",
-    "display": "Ducto interlobar do pâncreas"
+    "display": "Ducto interlobar do pancreas"
   }, {
     "code": "@brasil17114955033",
-    "display": "Porção óssea da trompa de Eustáquio"
+    "display": "Porcao ossea da trompa de Eustaquio"
   }, {
     "code": "@brasil17620304912",
-    "display": "Ramo apical da artéria pulmonar direita"
+    "display": "Ramo apical da arteria pulmonar direita"
   }, {
     "code": "@brasil13662189945",
-    "display": "Feixe atrioventricular acessório"
+    "display": "Feixe atrioventricular acessorio"
   }, {
     "code": "@brasil12980612629",
     "display": "serosa do intestino delgado"
   }, {
     "code": "@brasil12224438908",
-    "display": "Superfície articular, metacarpo, da falange da mão"
+    "display": "Superficie articular, metacarpo, da falange da mao"
   }, {
     "code": "@brasil12713860740",
-    "display": "Túnica interna do globo ocular"
+    "display": "Tunica interna do globo ocular"
   }, {
     "code": "@brasil15105057464",
-    "display": "Base da falange do dedo médio"
+    "display": "Base da falange do dedo medio"
   }, {
     "code": "@brasil15808648070",
-    "display": "hemisfério cerebelar"
+    "display": "hemisferio cerebelar"
   }, {
     "code": "@brasil11312727732",
     "display": "Margem medial da sola"
@@ -932,7 +932,7 @@
     "display": "nervo lingual"
   }, {
     "code": "@brasil16729433922",
-    "display": "Ligamento gastro-hepático"
+    "display": "Ligamento gastro-hepatico"
   }, {
     "code": "@brasil17056230823",
     "display": "Comissura anterior completa da valva mitral"
@@ -941,16 +941,16 @@
     "display": "Tronco tireocervical"
   }, {
     "code": "@brasil16843323442",
-    "display": "Hautra colônico"
+    "display": "Hautra colonico"
   }, {
     "code": "@brasil13584996966",
     "display": "Corneto nasal inferior"
   }, {
     "code": "@brasil12204085803",
-    "display": "artéria do polegar"
+    "display": "arteria do polegar"
   }, {
     "code": "@brasil12478477453",
-    "display": "Incisura angular do estômago"
+    "display": "Incisura angular do estomago"
   }, {
     "code": "@brasil11664152257",
     "display": "subserosa uterina"
@@ -959,25 +959,25 @@
     "display": "Fossa anterior da cavidade craniana"
   }, {
     "code": "@brasil11625011703",
-    "display": "Artéria cerebral anterior direita inteira"
+    "display": "Arteria cerebral anterior direita inteira"
   }, {
     "code": "@brasil10939073804",
-    "display": "Artéria cerebral posterior direita inteira"
+    "display": "Arteria cerebral posterior direita inteira"
   }, {
     "code": "@brasil17690119208",
-    "display": "Músculo esternal"
+    "display": "Musculo esternal"
   }, {
     "code": "@brasil12503840849",
-    "display": "cutícula da unha"
+    "display": "cuticula da unha"
   }, {
     "code": "@brasil17777203922",
     "display": "Tornozelo direito"
   }, {
     "code": "@brasil16993790338",
-    "display": "Face articular da cabeça da fíbula"
+    "display": "Face articular da cabeca da fibula"
   }, {
     "code": "@brasil12397249360",
-    "display": "Lóbulo central do cerebelo"
+    "display": "Lobulo central do cerebelo"
   }, {
     "code": "@brasil17244218974",
     "display": "recesso pleural"
@@ -986,31 +986,31 @@
     "display": "Ramos musculares laterais do nervo femoral"
   }, {
     "code": "@brasil17904648907",
-    "display": "Arco da segunda vértebra lombar"
+    "display": "Arco da segunda vertebra lombar"
   }, {
     "code": "@brasil12779171021",
     "display": "Medula capilar"
   }, {
     "code": "@brasil17190540689",
-    "display": "Folículo linfóide do estômago"
+    "display": "Foliculo linfoide do estomago"
   }, {
     "code": "@brasil17724510911",
-    "display": "Estrutura da articulação atlóide fetal"
+    "display": "Estrutura da articulacao atloide fetal"
   }, {
     "code": "@brasil19445570118",
-    "display": "nervo coccígeo"
+    "display": "nervo coccigeo"
   }, {
     "code": "@brasil13283653968",
-    "display": "Porção cavernosa da uretra"
+    "display": "Porcao cavernosa da uretra"
   }, {
     "code": "@brasil12324233344",
-    "display": "Linfáticos da glândula tireóide"
+    "display": "Linfaticos da glandula tireoide"
   }, {
     "code": "@brasil14644736659",
-    "display": "Tecido subcutâneo do couro cabeludo"
+    "display": "Tecido subcutaneo do couro cabeludo"
   }, {
     "code": "@brasil11375343231",
-    "display": "Nervos frênicos acessórios"
+    "display": "Nervos frenicos acessorios"
   }, {
     "code": "@brasil17410659934",
     "display": "Sulcus terminalis cordis"
@@ -1019,34 +1019,34 @@
     "display": "os lacrimale"
   }, {
     "code": "@brasil10477338060",
-    "display": "músculo ariepiglótico"
+    "display": "musculo ariepiglotico"
   }, {
     "code": "@brasil11554059898",
-    "display": "Ramo basal posterior da artéria pulmonar esquerda"
+    "display": "Ramo basal posterior da arteria pulmonar esquerda"
   }, {
     "code": "@brasil19097653913",
-    "display": "Pele da superfície dorsal do dedo"
+    "display": "Pele da superficie dorsal do dedo"
   }, {
     "code": "@brasil13610261373",
     "display": "Mastro"
   }, {
     "code": "@brasil15160153464",
-    "display": "Estrutura da porção radiante do lóbulo cortical do rim"
+    "display": "Estrutura da porcao radiante do lobulo cortical do rim"
   }, {
     "code": "@brasil17396835419",
-    "display": "Músculo supraespinal"
+    "display": "Musculo supraespinal"
   }, {
     "code": "@brasil10608007981",
-    "display": "maléolo medial"
+    "display": "maleolo medial"
   }, {
     "code": "@brasil18547734931",
-    "display": "Linfonodo pré-sinfisário"
+    "display": "Linfonodo pre-sinfisario"
   }, {
     "code": "@brasil17376888995",
     "display": "ligamento nucal"
   }, {
     "code": "@brasil12404710418",
-    "display": "Aspecto medial do ovário"
+    "display": "Aspecto medial do ovario"
   }, {
     "code": "@brasil12023450090",
     "display": "Citotrofoblasto"
@@ -1055,28 +1055,28 @@
     "display": "Tronco vagal posterior"
   }, {
     "code": "@brasil14899792450",
-    "display": "Folheto da válvula cardíaca"
+    "display": "Folheto da valvula cardiaca"
   }, {
     "code": "@brasil12551879706",
-    "display": "Porção distal do ramo circunflexo da artéria coronária esquerda"
+    "display": "Porcao distal do ramo circunflexo da arteria coronaria esquerda"
   }, {
     "code": "@brasil15953202130",
     "display": "Glande clitoridis"
   }, {
     "code": "@brasil11627966082",
-    "display": "Superfície medial do braço"
+    "display": "Superficie medial do braco"
   }, {
     "code": "@brasil12581681982",
-    "display": "pericárdio visceral"
+    "display": "pericardio visceral"
   }, {
     "code": "@brasil10426814713",
-    "display": "comissura habênular"
+    "display": "comissura habenular"
   }, {
     "code": "@brasil16517463964",
     "display": "Folha da epiglote"
   }, {
     "code": "@brasil17386835138",
-    "display": "Processo do pé secundário"
+    "display": "Processo do pe secundario"
   }, {
     "code": "@brasil16805570679",
     "display": "cristal de esporo"
@@ -1085,10 +1085,10 @@
     "display": "Mucosa do rebordo alveolar inferior"
   }, {
     "code": "@brasil17090025912",
-    "display": "Tecido subcutâneo da superfície medial do terceiro dedo do pé"
+    "display": "Tecido subcutaneo da superficie medial do terceiro dedo do pe"
   }, {
     "code": "@brasil10394784770",
-    "display": "região poplítea"
+    "display": "regiao poplitea"
   }, {
     "code": "@brasil17306976807",
     "display": "Arco jugular inteiro"
@@ -1097,40 +1097,40 @@
     "display": "Extremidade superior direita"
   }, {
     "code": "@brasil10058800381",
-    "display": "espaço perivascular"
+    "display": "espaco perivascular"
   }, {
     "code": "@brasil15166449540",
-    "display": "Mácula do utrículo"
+    "display": "Macula do utriculo"
   }, {
     "code": "@brasil18648354054",
-    "display": "espermatozóides"
+    "display": "espermatozoides"
   }, {
     "code": "@brasil12691773680",
-    "display": "Estrutura do tendão e bainha do tendão da mão"
+    "display": "Estrutura do tendao e bainha do tendao da mao"
   }, {
     "code": "@brasil18270171551",
     "display": "Joelho direito"
   }, {
     "code": "@brasil19553028128",
-    "display": "inclusão mitocondrial"
+    "display": "inclusao mitocondrial"
   }, {
     "code": "@brasil16498323133",
-    "display": "Todo o ramo calosomarginal da artéria cerebral anterior"
+    "display": "Todo o ramo calosomarginal da arteria cerebral anterior"
   }, {
     "code": "@brasil17646195949",
     "display": "Chorda tympani"
   }, {
     "code": "@brasil10021347430",
-    "display": "Ligamento da articulação lombossacral"
+    "display": "Ligamento da articulacao lombossacral"
   }, {
     "code": "@brasil13936580934",
     "display": "ramo anterior do nervo obturador"
   }, {
     "code": "@brasil19887185849",
-    "display": "Todo o tecido intersticial do baço"
+    "display": "Todo o tecido intersticial do baco"
   }, {
     "code": "@brasil12213672856",
-    "display": "Junção corticomedular do rim"
+    "display": "Juncao corticomedular do rim"
   }, {
     "code": "@brasil11420931304",
     "display": "Esqueleto axial"
@@ -1139,40 +1139,40 @@
     "display": "Pars ciliaris da retina"
   }, {
     "code": "@brasil15652472939",
-    "display": "Artéria cólica direita"
+    "display": "Arteria colica direita"
   }, {
     "code": "@brasil19822790117",
-    "display": "Tecido subcutâneo da genitália externa"
+    "display": "Tecido subcutaneo da genitalia externa"
   }, {
     "code": "@brasil14487159320",
     "display": "Membrana mucosa do ducto biliar"
   }, {
     "code": "@brasil18680790091",
-    "display": "Núcleo póstero-lateral ventral do tálamo"
+    "display": "Nucleo postero-lateral ventral do talamo"
   }, {
     "code": "@brasil17012554747",
-    "display": "Falange média do dedo indicador"
+    "display": "Falange media do dedo indicador"
   }, {
     "code": "@brasil18793994650",
-    "display": "Tecido intersticial do miocárdio"
+    "display": "Tecido intersticial do miocardio"
   }, {
     "code": "@brasil12001026822",
-    "display": "Núcleo hipotalâmico posterior"
+    "display": "Nucleo hipotalamico posterior"
   }, {
     "code": "@brasil19382220522",
-    "display": "miocárdio anterior"
+    "display": "miocardio anterior"
   }, {
     "code": "@brasil18303358700",
-    "display": "Tecido linfocítico"
+    "display": "Tecido linfocitico"
   }, {
     "code": "@brasil14044857763",
     "display": "Veia labial anterior inteira"
   }, {
     "code": "@brasil10871002264",
-    "display": "Tecido subcutâneo da mandíbula"
+    "display": "Tecido subcutaneo da mandibula"
   }, {
     "code": "@brasil13289284102",
-    "display": "Região toracolombar das costas"
+    "display": "Regiao toracolombar das costas"
   }, {
     "code": "@brasil11858472852",
     "display": "sulco colateral"
@@ -1181,19 +1181,19 @@
     "display": "Base do osso metacarpo"
   }, {
     "code": "@brasil13786051005",
-    "display": "Raiz sensorial do gânglio trigêmeo"
+    "display": "Raiz sensorial do ganglio trigemeo"
   }, {
     "code": "@brasil11865082569",
     "display": "costela falsa"
   }, {
     "code": "@brasil11846454050",
-    "display": "Anulus fibrosus do disco intervertebral da vértebra torácica"
+    "display": "Anulus fibrosus do disco intervertebral da vertebra toracica"
   }, {
     "code": "@brasil15789062664",
-    "display": "Local de implantação fetal"
+    "display": "Local de implantacao fetal"
   }, {
     "code": "@brasil12366286526",
-    "display": "Placa de fixação do desmossomo ou hemidesmossomo"
+    "display": "Placa de fixacao do desmossomo ou hemidesmossomo"
   }, {
     "code": "@brasil16946366797",
     "display": "poro gustativo"
@@ -1205,34 +1205,34 @@
     "display": "recesso paraduodenal"
   }, {
     "code": "@brasil15664153950",
-    "display": "Veia coróide inferior inteira"
+    "display": "Veia coroide inferior inteira"
   }, {
     "code": "@brasil14129003111",
-    "display": "Nervo hipoglosso ramo intrínseco do músculo da língua"
+    "display": "Nervo hipoglosso ramo intrinseco do musculo da lingua"
   }, {
     "code": "@brasil14993620639",
-    "display": "Istmo timpânico póstico"
+    "display": "Istmo timpanico postico"
   }, {
     "code": "@brasil16118258232",
-    "display": "Porção muscular do septo interventricular"
+    "display": "Porcao muscular do septo interventricular"
   }, {
     "code": "@brasil12769855625",
     "display": "Pleura visceral direita"
   }, {
     "code": "@brasil12577006734",
-    "display": "Faceta navicular do osso cuneiforme intermediário"
+    "display": "Faceta navicular do osso cuneiforme intermediario"
   }, {
     "code": "@brasil18424069496",
-    "display": "Toda a superfície interna da sétima costela"
+    "display": "Toda a superficie interna da setima costela"
   }, {
     "code": "@brasil13053848595",
     "display": "Face P da membrana fraturada"
   }, {
     "code": "@brasil12281724597",
-    "display": "Canal do estômago"
+    "display": "Canal do estomago"
   }, {
     "code": "@brasil18776043724",
-    "display": "Sétima cartilagem costal"
+    "display": "Setima cartilagem costal"
   }, {
     "code": "@brasil19146754087",
     "display": "Singleto"
@@ -1241,28 +1241,28 @@
     "display": "Membrana mucosa da crista alveolar"
   }, {
     "code": "@brasil14149819307",
-    "display": "Camada longitudinal da muscularis própria do duodeno"
+    "display": "Camada longitudinal da muscularis propria do duodeno"
   }, {
     "code": "@brasil10038392784",
-    "display": "Anulus fibrosus do disco intervertebral da quinta vértebra cervical"
+    "display": "Anulus fibrosus do disco intervertebral da quinta vertebra cervical"
   }, {
     "code": "@brasil15871652498",
     "display": "Retina do olho direito"
   }, {
     "code": "@brasil16439956673",
-    "display": "Tendão do músculo supraespinal"
+    "display": "Tendao do musculo supraespinal"
   }, {
     "code": "@brasil11158420154",
-    "display": "Músculos multífidos"
+    "display": "Musculos multifidos"
   }, {
     "code": "@brasil19290251356",
-    "display": "Pele da superfície lateral do dedo"
+    "display": "Pele da superficie lateral do dedo"
   }, {
     "code": "@brasil15097612313",
-    "display": "Parte articular inteira do tubérculo da nona costela"
+    "display": "Parte articular inteira do tuberculo da nona costela"
   }, {
     "code": "@brasil18732603505",
-    "display": "Tecido subcutâneo da extremidade superior"
+    "display": "Tecido subcutaneo da extremidade superior"
   }, {
     "code": "@brasil19521801841",
     "display": "Trato digestivo inferior"
@@ -1271,19 +1271,19 @@
     "display": "Retina"
   }, {
     "code": "@brasil16893333741",
-    "display": "Tendão e bainha do tendão da perna e tornozelo"
+    "display": "Tendao e bainha do tendao da perna e tornozelo"
   }, {
     "code": "@brasil16131474892",
     "display": "fossa temporal"
   }, {
     "code": "@brasil17921347009",
-    "display": "Triângulo submandibular"
+    "display": "Triangulo submandibular"
   }, {
     "code": "@brasil10189371229",
-    "display": "Tecido subcutâneo da porção anterior do pescoço"
+    "display": "Tecido subcutaneo da porcao anterior do pescoco"
   }, {
     "code": "@brasil19681220788",
-    "display": "Pele do antebraço"
+    "display": "Pele do antebraco"
   }, {
     "code": "@brasil16072244340",
     "display": "Linfonodo cervical anterior"
@@ -1292,16 +1292,16 @@
     "display": "Ligamento arqueado mediano do diafragma"
   }, {
     "code": "@brasil16439261906",
-    "display": "Especialização sináptica, citoplasmática"
+    "display": "Especializacao sinaptica, citoplasmatica"
   }, {
     "code": "@brasil11769665247",
     "display": "giro frontal inferior"
   }, {
     "code": "@brasil19303562405",
-    "display": "Fáscia superior do períneo"
+    "display": "Fascia superior do perineo"
   }, {
     "code": "@brasil14931983475",
-    "display": "Muscular própria do intestino delgado"
+    "display": "Muscular propria do intestino delgado"
   }, {
     "code": "@brasil15118785093",
     "display": "Hipocampo"
@@ -1310,34 +1310,34 @@
     "display": "forame singular"
   }, {
     "code": "@brasil13625321222",
-    "display": "Pele da porção lateral do pescoço"
+    "display": "Pele da porcao lateral do pescoco"
   }, {
     "code": "@brasil13153052853",
-    "display": "Disco intervertebral da vértebra torácica"
+    "display": "Disco intervertebral da vertebra toracica"
   }, {
     "code": "@brasil10713314450",
-    "display": "Mucosa da vesícula biliar"
+    "display": "Mucosa da vesicula biliar"
   }, {
     "code": "@brasil14136354879",
-    "display": "Quarta vértebra cervical"
+    "display": "Quarta vertebra cervical"
   }, {
     "code": "@brasil16304036485",
-    "display": "Pólo superior do rim"
+    "display": "Polo superior do rim"
   }, {
     "code": "@brasil12461275952",
     "display": "Linfonodo mediastinal anterior"
   }, {
     "code": "@brasil15006057129",
-    "display": "Artéria profunda do clitóris"
+    "display": "Arteria profunda do clitoris"
   }, {
     "code": "@brasil12726274255",
-    "display": "Ducto intraepidérmico apócrino"
+    "display": "Ducto intraepidermico apocrino"
   }, {
     "code": "@brasil19541771484",
     "display": "Cromossomo sexual Y"
   }, {
     "code": "@brasil18327527825",
-    "display": "Processo articular da terceira vértebra lombar"
+    "display": "Processo articular da terceira vertebra lombar"
   }, {
     "code": "@brasil10698622650",
     "display": "Almofada de gordura normal"
@@ -1346,49 +1346,49 @@
     "display": "Linfonodo paracervical uterino"
   }, {
     "code": "@brasil15641335140",
-    "display": "Articulação metacarpofalângica do dedo mínimo"
+    "display": "Articulacao metacarpofalangica do dedo minimo"
   }, {
     "code": "@brasil19239144881",
-    "display": "Parte lacrimal do músculo orbicular dos olhos"
+    "display": "Parte lacrimal do musculo orbicular dos olhos"
   }, {
     "code": "@brasil16851463192",
-    "display": "Incisura cardíaca do estômago"
+    "display": "Incisura cardiaca do estomago"
   }, {
     "code": "@brasil16143284835",
-    "display": "Porção tegmentar da ponte"
+    "display": "Porcao tegmentar da ponte"
   }, {
     "code": "@brasil15522201726",
-    "display": "Tecido subcutâneo do queixo"
+    "display": "Tecido subcutaneo do queixo"
   }, {
     "code": "@brasil10489241368",
-    "display": "Dúctulo aberrante superior do epidídimo"
+    "display": "Ductulo aberrante superior do epididimo"
   }, {
     "code": "@brasil12929591826",
-    "display": "Miótomo"
+    "display": "Miotomo"
   }, {
     "code": "@brasil16616403781",
-    "display": "Recesso superior da membrana timpânica"
+    "display": "Recesso superior da membrana timpanica"
   }, {
     "code": "@brasil16717475796",
-    "display": "Células posteriores do seio etmoidal"
+    "display": "Celulas posteriores do seio etmoidal"
   }, {
     "code": "@brasil12323658504",
-    "display": "Superfície articular, terceiro metacarpo, do quarto osso metacarpo"
+    "display": "Superficie articular, terceiro metacarpo, do quarto osso metacarpo"
   }, {
     "code": "@brasil11633605677",
     "display": "Placa crivada endotelial"
   }, {
     "code": "@brasil18614790063",
-    "display": "Tuberosidade da falange distal da mão"
+    "display": "Tuberosidade da falange distal da mao"
   }, {
     "code": "@brasil11628582561",
-    "display": "Grande veia cardíaca"
+    "display": "Grande veia cardiaca"
   }, {
     "code": "@brasil15204965307",
-    "display": "Lúmen brônquico"
+    "display": "Lumen bronquico"
   }, {
     "code": "@brasil14798748095",
-    "display": "Processo articular da décima segunda vértebra torácica"
+    "display": "Processo articular da decima segunda vertebra toracica"
   }, {
     "code": "@brasil11187641657",
     "display": "Arco palatino posterior"
@@ -1397,19 +1397,19 @@
     "display": "veia vestibular"
   }, {
     "code": "@brasil12528017192",
-    "display": "Músculo tensor do tímpano"
+    "display": "Musculo tensor do timpano"
   }, {
     "code": "@brasil13009440099",
     "display": "Dobra duodenal"
   }, {
     "code": "@brasil17263259557",
-    "display": "Músculo reto superior"
+    "display": "Musculo reto superior"
   }, {
     "code": "@brasil14435619332",
-    "display": "Ângulo inteiro da sétima costela"
+    "display": "Angulo inteiro da setima costela"
   }, {
     "code": "@brasil18304945804",
-    "display": "neurônio de tamanho médio"
+    "display": "neuronio de tamanho medio"
   }, {
     "code": "@brasil19029703333",
     "display": "Diafragma"
@@ -1418,46 +1418,46 @@
     "display": "Paradidymis"
   }, {
     "code": "@brasil11903194087",
-    "display": "Epitélio endocervical"
+    "display": "Epitelio endocervical"
   }, {
     "code": "@brasil16521687269",
     "display": "articular superior"
   }, {
     "code": "@brasil17258790671",
-    "display": "Cordão posterior do plexo braquial"
+    "display": "Cordao posterior do plexo braquial"
   }, {
     "code": "@brasil13257422132",
-    "display": "Substância própria da esclera"
+    "display": "Substancia propria da esclera"
   }, {
     "code": "@brasil10480114984",
-    "display": "Tecido subcutâneo da borda lateral da sola do pé"
+    "display": "Tecido subcutaneo da borda lateral da sola do pe"
   }, {
     "code": "@brasil14595261721",
-    "display": "Serosa da bexiga urinária"
+    "display": "Serosa da bexiga urinaria"
   }, {
     "code": "@brasil10832064645",
-    "display": "Lâmina orbitária do osso etmóide"
+    "display": "Lamina orbitaria do osso etmoide"
   }, {
     "code": "@brasil13559107456",
-    "display": "Mesentério do cólon ascendente"
+    "display": "Mesenterio do colon ascendente"
   }, {
     "code": "@brasil10190401448",
-    "display": "Camada circular da muscular própria do duodeno"
+    "display": "Camada circular da muscular propria do duodeno"
   }, {
     "code": "@brasil19130966697",
-    "display": "Disco intervertebral da segunda vértebra torácica"
+    "display": "Disco intervertebral da segunda vertebra toracica"
   }, {
     "code": "@brasil15548721397",
-    "display": "Célula epitelial colunar"
+    "display": "Celula epitelial colunar"
   }, {
     "code": "@brasil15444344164",
     "display": "Heterolisossoma"
   }, {
     "code": "@brasil17224333244",
-    "display": "Artérias peniciliares"
+    "display": "Arterias peniciliares"
   }, {
     "code": "@brasil15758979184",
-    "display": "Tecido subcutâneo da pálpebra"
+    "display": "Tecido subcutaneo da palpebra"
   }, {
     "code": "@brasil11039619501",
     "display": "oitava costela"
@@ -1466,40 +1466,40 @@
     "display": "Pulso esquerdo"
   }, {
     "code": "@brasil12675192841",
-    "display": "Cápsula da articulação interfalângica distal do terceiro dedo do pé"
+    "display": "Capsula da articulacao interfalangica distal do terceiro dedo do pe"
   }, {
     "code": "@brasil18488144116",
-    "display": "Músculo quadrado lombar"
+    "display": "Musculo quadrado lombar"
   }, {
     "code": "@brasil11103251399",
     "display": "Cromossomos, grupo D"
   }, {
     "code": "@brasil15676037728",
-    "display": "artéria episcleral"
+    "display": "arteria episcleral"
   }, {
     "code": "@brasil14330659790",
-    "display": "Cápsula da articulação temporomandibular"
+    "display": "Capsula da articulacao temporomandibular"
   }, {
     "code": "@brasil15539533415",
     "display": "Ligamento da veia cava superior esquerda"
   }, {
     "code": "@brasil17789002532",
-    "display": "Dente canino inferior direito decíduo"
+    "display": "Dente canino inferior direito deciduo"
   }, {
     "code": "@brasil17801826517",
-    "display": "Articulação metacarpofalângica do dedo médio"
+    "display": "Articulacao metacarpofalangica do dedo medio"
   }, {
     "code": "@brasil10406710122",
     "display": "veia lacrimal"
   }, {
     "code": "@brasil11410574801",
-    "display": "Toda a superfície externa da terceira nervura"
+    "display": "Toda a superficie externa da terceira nervura"
   }, {
     "code": "@brasil15803483318",
-    "display": "Corpo da quinta vértebra torácica"
+    "display": "Corpo da quinta vertebra toracica"
   }, {
     "code": "@brasil12181516011",
-    "display": "nervo subclávio"
+    "display": "nervo subclavio"
   }, {
     "code": "@brasil15034699014",
     "display": "Subserosa gastrointestinal"
@@ -1508,13 +1508,13 @@
     "display": "recesso piriforme"
   }, {
     "code": "@brasil14953894702",
-    "display": "Vênula pós-capilar inteira"
+    "display": "Venula pos-capilar inteira"
   }, {
     "code": "@brasil12472868870",
-    "display": "Fibras parassimpáticas do nervo facial"
+    "display": "Fibras parassimpaticas do nervo facial"
   }, {
     "code": "@brasil12712288891",
-    "display": "Glândula sinusal acessória"
+    "display": "Glandula sinusal acessoria"
   }, {
     "code": "@brasil13958176060",
     "display": "arco dental"
@@ -1523,37 +1523,37 @@
     "display": "Canal arterial"
   }, {
     "code": "@brasil16427833339",
-    "display": "Lâmina medular interna do tálamo"
+    "display": "Lamina medular interna do talamo"
   }, {
     "code": "@brasil10297716557",
-    "display": "Articulação da extremidade inferior"
+    "display": "Articulacao da extremidade inferior"
   }, {
     "code": "@brasil11686916584",
-    "display": "plexo subclávio"
+    "display": "plexo subclavio"
   }, {
     "code": "@brasil18794502268",
-    "display": "Superfície articular anterior para o tálus"
+    "display": "Superficie articular anterior para o talus"
   }, {
     "code": "@brasil19302661760",
     "display": "Escala vestibular"
   }, {
     "code": "@brasil19239602281",
-    "display": "Núcleo parafascicular do tálamo"
+    "display": "Nucleo parafascicular do talamo"
   }, {
     "code": "@brasil18965116652",
-    "display": "Incisura da porção cartilaginosa do conduto auditivo"
+    "display": "Incisura da porcao cartilaginosa do conduto auditivo"
   }, {
     "code": "@brasil11502047926",
     "display": "Clivus ossis sphenoidalis"
   }, {
     "code": "@brasil13939125344",
-    "display": "Célula"
+    "display": "Celula"
   }, {
     "code": "@brasil16064526368",
     "display": "Submucosa traqueal"
   }, {
     "code": "@brasil16039171697",
-    "display": "Tronco médio do plexo braquial"
+    "display": "Tronco medio do plexo braquial"
   }, {
     "code": "@brasil17688627490",
     "display": "Pele da face posterior da coxa"
@@ -1562,43 +1562,43 @@
     "display": "Desmossoma"
   }, {
     "code": "@brasil10994883198",
-    "display": "Tentório do cerebelo"
+    "display": "Tentorio do cerebelo"
   }, {
     "code": "@brasil16946586980",
-    "display": "Fibras parassimpáticas inteiras do nervo vago para o fígado, vesícula biliar, ductos biliares e pâncreas"
+    "display": "Fibras parassimpaticas inteiras do nervo vago para o figado, vesicula biliar, ductos biliares e pancreas"
   }, {
     "code": "@brasil11246017338",
-    "display": "Grânulo lamelado, como na célula secretora de surfactante"
+    "display": "Granulo lamelado, como na celula secretora de surfactante"
   }, {
     "code": "@brasil16271905558",
-    "display": "Tubérculo da oitava costela"
+    "display": "Tuberculo da oitava costela"
   }, {
     "code": "@brasil17532366845",
-    "display": "Base da falange do pé"
+    "display": "Base da falange do pe"
   }, {
     "code": "@brasil17129976325",
     "display": "Laringe"
   }, {
     "code": "@brasil18694824917",
-    "display": "Gotícula lipídica, homogênea"
+    "display": "Goticula lipidica, homogenea"
   }, {
     "code": "@brasil14996421461",
-    "display": "cordão medular"
+    "display": "cordao medular"
   }, {
     "code": "@brasil18762427565",
-    "display": "Tuberosidade menor do úmero"
+    "display": "Tuberosidade menor do umero"
   }, {
     "code": "@brasil10455310157",
-    "display": "Cabeça da segunda costela"
+    "display": "Cabeca da segunda costela"
   }, {
     "code": "@brasil11463126568",
     "display": "Celula epitelial"
   }, {
     "code": "@brasil18953440996",
-    "display": "célula Türk"
+    "display": "celula Turk"
   }, {
     "code": "@brasil16688120108",
-    "display": "Processo articular inferior da sétima vértebra cervical"
+    "display": "Processo articular inferior da setima vertebra cervical"
   }, {
     "code": "@brasil18069926794",
     "display": "Veias tibiais posteriores"
@@ -1607,49 +1607,49 @@
     "display": "Primeiro osso metacarpo"
   }, {
     "code": "@brasil12999511306",
-    "display": "Plexo aórtico abdominal"
+    "display": "Plexo aortico abdominal"
   }, {
     "code": "@brasil13290690250",
-    "display": "plexo celíaco"
+    "display": "plexo celiaco"
   }, {
     "code": "@brasil14484646751",
-    "display": "Superfície palmar do dedo mínimo"
+    "display": "Superficie palmar do dedo minimo"
   }, {
     "code": "@brasil16377514605",
-    "display": "Artéria da extremidade"
+    "display": "Arteria da extremidade"
   }, {
     "code": "@brasil17768026241",
-    "display": "Todo o tendão extensor e a bainha do tendão do quinto dedo"
+    "display": "Todo o tendao extensor e a bainha do tendao do quinto dedo"
   }, {
     "code": "@brasil16628896840",
     "display": "Ambas as extremidades inferiores"
   }, {
     "code": "@brasil15125486090",
-    "display": "Brônquios hipoarteriais"
+    "display": "Bronquios hipoarteriais"
   }, {
     "code": "@brasil19920816233",
-    "display": "Astrócitos protoplásmicos"
+    "display": "Astrocitos protoplasmicos"
   }, {
     "code": "@brasil19291378797",
-    "display": "músculo espinhal"
+    "display": "musculo espinhal"
   }, {
     "code": "@brasil15512026021",
-    "display": "Linha média anterior do abdome"
+    "display": "Linha media anterior do abdome"
   }, {
     "code": "@brasil12756250539",
     "display": "canal de cartilagem"
   }, {
     "code": "@brasil16089742327",
-    "display": "Área paracortical do linfonodo"
+    "display": "Area paracortical do linfonodo"
   }, {
     "code": "@brasil19230820468",
-    "display": "Porção média do íleo"
+    "display": "Porcao media do ileo"
   }, {
     "code": "@brasil19246550199",
-    "display": "Superfície lateral do dedo mínimo"
+    "display": "Superficie lateral do dedo minimo"
   }, {
     "code": "@brasil18887277028",
-    "display": "espaço subcoriônico"
+    "display": "espaco subcorionico"
   }, {
     "code": "@brasil11729945084",
     "display": "Maxilar superior"
@@ -1667,7 +1667,7 @@
     "display": "Ampola membranosa"
   }, {
     "code": "@brasil15993704315",
-    "display": "Tecido subcutâneo do dedo anelar"
+    "display": "Tecido subcutaneo do dedo anelar"
   }, {
     "code": "@brasil12715966367",
     "display": "canal femoral"
@@ -1682,10 +1682,10 @@
     "display": "cela de Deiter"
   }, {
     "code": "@brasil17374688410",
-    "display": "Núcleos tegmentais dorsais do mesencéfalo"
+    "display": "Nucleos tegmentais dorsais do mesencefalo"
   }, {
     "code": "@brasil10148138393",
-    "display": "Músculo constritor da faringe"
+    "display": "Musculo constritor da faringe"
   }, {
     "code": "@brasil11122001288",
     "display": "Tuberculum impar"
@@ -1697,79 +1697,79 @@
     "display": "Veia sublingual inteira"
   }, {
     "code": "@brasil16429027183",
-    "display": "Lâmina espiral do modíolo"
+    "display": "Lamina espiral do modiolo"
   }, {
     "code": "@brasil17173827425",
-    "display": "Ligamento sacrococcígeo ventral"
+    "display": "Ligamento sacrococcigeo ventral"
   }, {
     "code": "@brasil14804497829",
-    "display": "Todo o plexo venoso do forame oval base do crânio"
+    "display": "Todo o plexo venoso do forame oval base do cranio"
   }, {
     "code": "@brasil12282887344",
-    "display": "mielócito neutrofílico"
+    "display": "mielocito neutrofilico"
   }, {
     "code": "@brasil12203313066",
     "display": "veia cardinal"
   }, {
     "code": "@brasil16244559431",
-    "display": "Lâmina basal, inclusão em localização subepitelial"
+    "display": "Lamina basal, inclusao em localizacao subepitelial"
   }, {
     "code": "@brasil16339828134",
-    "display": "Pele da região nucal"
+    "display": "Pele da regiao nucal"
   }, {
     "code": "@brasil18484860515",
-    "display": "Túnica albugínea do corpo esponjoso"
+    "display": "Tunica albuginea do corpo esponjoso"
   }, {
     "code": "@brasil14416757359",
     "display": "veia supracardinal"
   }, {
     "code": "@brasil15756737779",
-    "display": "músculo gêmeo"
+    "display": "musculo gemeo"
   }, {
     "code": "@brasil11455643950",
-    "display": "Superfície medial do dedão do pé"
+    "display": "Superficie medial do dedao do pe"
   }, {
     "code": "@brasil19647264273",
-    "display": "Núcleo ventral posterior inferior"
+    "display": "Nucleo ventral posterior inferior"
   }, {
     "code": "@brasil10817597051",
-    "display": "Ramo pericárdico do nervo frênico"
+    "display": "Ramo pericardico do nervo frenico"
   }, {
     "code": "@brasil14813573763",
     "display": "nervo perineal"
   }, {
     "code": "@brasil15196504195",
-    "display": "medula óssea amarela"
+    "display": "medula ossea amarela"
   }, {
     "code": "@brasil11302203824",
     "display": "Sulco temporal superior"
   }, {
     "code": "@brasil17104838411",
-    "display": "Núcleo amigdaloide"
+    "display": "Nucleo amigdaloide"
   }, {
     "code": "@brasil17722454830",
-    "display": "Bursa isquiática do músculo obturador interno"
+    "display": "Bursa isquiatica do musculo obturador interno"
   }, {
     "code": "@brasil14790036793",
-    "display": "Veias dorsais superficiais do clitóris"
+    "display": "Veias dorsais superficiais do clitoris"
   }, {
     "code": "@brasil12075909814",
-    "display": "Superfície posterior da próstata"
+    "display": "Superficie posterior da prostata"
   }, {
     "code": "@brasil18668760728",
-    "display": "Lóbulo grácil cerebelar"
+    "display": "Lobulo gracil cerebelar"
   }, {
     "code": "@brasil16345327500",
-    "display": "antro timpânico"
+    "display": "antro timpanico"
   }, {
     "code": "@brasil17685959027",
     "display": "Plexo uterovaginal"
   }, {
     "code": "@brasil14028155982",
-    "display": "Membrana celular, procariótica"
+    "display": "Membrana celular, procariotica"
   }, {
     "code": "@brasil14740662847",
-    "display": "Tecido subcutâneo das costas"
+    "display": "Tecido subcutaneo das costas"
   }, {
     "code": "@brasil15532825378",
     "display": "Incisura radial da ulna"
@@ -1778,19 +1778,19 @@
     "display": "Linfonodo de membro inferior"
   }, {
     "code": "@brasil10756876617",
-    "display": "Forame intervertebral da décima segunda vértebra torácica"
+    "display": "Forame intervertebral da decima segunda vertebra toracica"
   }, {
     "code": "@brasil14145521998",
     "display": "Ligamento suspensor da lente"
   }, {
     "code": "@brasil13323577895",
-    "display": "Ângulo inteiro da primeira costela"
+    "display": "Angulo inteiro da primeira costela"
   }, {
     "code": "@brasil17490789262",
     "display": "veia auricular posterior"
   }, {
     "code": "@brasil18043456241",
-    "display": "Ângulo infraesternal"
+    "display": "Angulo infraesternal"
   }, {
     "code": "@brasil14242164085",
     "display": "coluna Rugal"
@@ -1799,16 +1799,16 @@
     "display": "Recesso ileocecal superior"
   }, {
     "code": "@brasil14468457440",
-    "display": "Artéria carótida externa direita"
+    "display": "Arteria carotida externa direita"
   }, {
     "code": "@brasil11347817396",
-    "display": "Epitélio da lente"
+    "display": "Epitelio da lente"
   }, {
     "code": "@brasil13471173236",
-    "display": "hemisfério cerebral direito"
+    "display": "hemisferio cerebral direito"
   }, {
     "code": "@brasil15547517346",
-    "display": "Óstio uterino da trompa de Falópio"
+    "display": "Ostio uterino da trompa de Falopio"
   }, {
     "code": "@brasil18088804600",
     "display": "veias frontais"
@@ -1817,100 +1817,100 @@
     "display": "veias talamostriadas"
   }, {
     "code": "@brasil18890273465",
-    "display": "Linfáticos profundos da extremidade superior"
+    "display": "Linfaticos profundos da extremidade superior"
   }, {
     "code": "@brasil18592618514",
-    "display": "músculos rotadores"
+    "display": "musculos rotadores"
   }, {
     "code": "@brasil17225608886",
-    "display": "Comissura da válvula tricúspide"
+    "display": "Comissura da valvula tricuspide"
   }, {
     "code": "@brasil17463165945",
-    "display": "Núcleo anterodorsal do tálamo"
+    "display": "Nucleo anterodorsal do talamo"
   }, {
     "code": "@brasil16696740384",
-    "display": "ovócito penetrado"
+    "display": "ovocito penetrado"
   }, {
     "code": "@brasil10244506978",
     "display": "Arco palpebral superior"
   }, {
     "code": "@brasil12250564117",
-    "display": "Diâmetro suboccipitobregmático da cabeça"
+    "display": "Diametro suboccipitobregmatico da cabeca"
   }, {
     "code": "@brasil17002771306",
-    "display": "basófilo não segmentado"
+    "display": "basofilo nao segmentado"
   }, {
     "code": "@brasil14254430907",
     "display": "rima oris"
   }, {
     "code": "@brasil14690939805",
-    "display": "Margem lateral do antebraço"
+    "display": "Margem lateral do antebraco"
   }, {
     "code": "@brasil11620693607",
-    "display": "Célula de osso"
+    "display": "Celula de osso"
   }, {
     "code": "@brasil14470842846",
-    "display": "Mesogástrio"
+    "display": "Mesogastrio"
   }, {
     "code": "@brasil14020611767",
     "display": "Parede lateral do antro mastoideo"
   }, {
     "code": "@brasil19767189107",
-    "display": "Tecido subcutâneo da região suboccipital"
+    "display": "Tecido subcutaneo da regiao suboccipital"
   }, {
     "code": "@brasil18271778026",
-    "display": "Lamela anular, lúmen cisternal"
+    "display": "Lamela anular, lumen cisternal"
   }, {
     "code": "@brasil13863900445",
-    "display": "testículo embrionário"
+    "display": "testiculo embrionario"
   }, {
     "code": "@brasil17015908169",
-    "display": "Músculo vasto medial"
+    "display": "Musculo vasto medial"
   }, {
     "code": "@brasil13738546904",
-    "display": "Linha média posterior do tronco"
+    "display": "Linha media posterior do tronco"
   }, {
     "code": "@brasil17323645395",
-    "display": "Cápsula da tireoide"
+    "display": "Capsula da tireoide"
   }, {
     "code": "@brasil11945624109",
-    "display": "Artéria metatarsal dorsal"
+    "display": "Arteria metatarsal dorsal"
   }, {
     "code": "@brasil10801491820",
-    "display": "Cápsula da articulação tibiofibular proximal"
+    "display": "Capsula da articulacao tibiofibular proximal"
   }, {
     "code": "@brasil17335130018",
-    "display": "Corpo da vértebra"
+    "display": "Corpo da vertebra"
   }, {
     "code": "@brasil11935838917",
     "display": "Muscular do ureter"
   }, {
     "code": "@brasil10781354959",
-    "display": "Núcleo dorsal do corpo trapezoidal"
+    "display": "Nucleo dorsal do corpo trapezoidal"
   }, {
     "code": "@brasil19134809204",
-    "display": "área papilar"
+    "display": "area papilar"
   }, {
     "code": "@brasil15436207683",
     "display": "Linfonodo parametrial"
   }, {
     "code": "@brasil16015409840",
-    "display": "Segmento posterior do lobo superior direito do pulmão"
+    "display": "Segmento posterior do lobo superior direito do pulmao"
   }, {
     "code": "@brasil19017175991",
-    "display": "Núcleo ventral anterior"
+    "display": "Nucleo ventral anterior"
   }, {
     "code": "@brasil19422689105",
-    "display": "Pedículo da terceira vértebra cervical"
+    "display": "Pediculo da terceira vertebra cervical"
   }, {
     "code": "@brasil19365423281",
     "display": "canal radicular do dente"
   }, {
     "code": "@brasil16467444034",
-    "display": "Glândula sublingual monostomática"
+    "display": "Glandula sublingual monostomatica"
   }, {
     "code": "@brasil19891821888",
-    "display": "Endocárdio do átrio direito"
+    "display": "Endocardio do atrio direito"
   }, {
     "code": "@brasil10997221907",
     "display": "Rafe do palato mole"
@@ -1919,145 +1919,145 @@
     "display": "Nervo espinhal"
   }, {
     "code": "@brasil11546947276",
-    "display": "Tronco principal da artéria coronária esquerda"
+    "display": "Tronco principal da arteria coronaria esquerda"
   }, {
     "code": "@brasil13906442283",
-    "display": "Todas as grandes artérias"
+    "display": "Todas as grandes arterias"
   }, {
     "code": "@brasil12661754816",
-    "display": "Tecido subcutâneo da região nucal"
+    "display": "Tecido subcutaneo da regiao nucal"
   }, {
     "code": "@brasil15276017862",
-    "display": "Pulmão direito"
+    "display": "Pulmao direito"
   }, {
     "code": "@brasil18590377687",
     "display": "canal de Havers"
   }, {
     "code": "@brasil12558623627",
-    "display": "Diâmetro occipitofrontal da cabeça"
+    "display": "Diametro occipitofrontal da cabeca"
   }, {
     "code": "@brasil14734246920",
     "display": "Trato vestibuloespinal"
   }, {
     "code": "@brasil17037537093",
-    "display": "Ramos esplênicos da artéria esplênica"
+    "display": "Ramos esplenicos da arteria esplenica"
   }, {
     "code": "@brasil16817812952",
     "display": "Fibras tectopontinas"
   }, {
     "code": "@brasil14256778259",
-    "display": "Músculo papilar anterior do ventrículo esquerdo"
+    "display": "Musculo papilar anterior do ventriculo esquerdo"
   }, {
     "code": "@brasil17216729526",
     "display": "incisura intertragal"
   }, {
     "code": "@brasil10608956561",
-    "display": "Comissura direita inteira da válvula pulmonar"
+    "display": "Comissura direita inteira da valvula pulmonar"
   }, {
     "code": "@brasil18089794512",
     "display": "Agger nasi"
   }, {
     "code": "@brasil15398180655",
-    "display": "Espermatócito secundário"
+    "display": "Espermatocito secundario"
   }, {
     "code": "@brasil19633703024",
     "display": "Tecido de suporte do reto"
   }, {
     "code": "@brasil11993423850",
-    "display": "ápice do cóccix"
+    "display": "apice do coccix"
   }, {
     "code": "@brasil19607084353",
     "display": "Cartilagem do septo nasal"
   }, {
     "code": "@brasil12013999410",
-    "display": "células argentafins"
+    "display": "celulas argentafins"
   }, {
     "code": "@brasil16820971001",
-    "display": "Segmento superior do lobo inferior direito do pulmão"
+    "display": "Segmento superior do lobo inferior direito do pulmao"
   }, {
     "code": "@brasil10696951970",
     "display": "Ligamento metacarpiano dorsal inteiro"
   }, {
     "code": "@brasil18887929717",
-    "display": "Tecido subcutâneo da extremidade inferior"
+    "display": "Tecido subcutaneo da extremidade inferior"
   }, {
     "code": "@brasil15307706979",
-    "display": "Superfície dorsal do dedão do pé"
+    "display": "Superficie dorsal do dedao do pe"
   }, {
     "code": "@brasil19749061230",
-    "display": "Região interescapular das costas"
+    "display": "Regiao interescapular das costas"
   }, {
     "code": "@brasil11145866494",
-    "display": "fígado transplantado"
+    "display": "figado transplantado"
   }, {
     "code": "@brasil10794130498",
-    "display": "Tecido subcutâneo da superfície lateral do quarto dedo"
+    "display": "Tecido subcutaneo da superficie lateral do quarto dedo"
   }, {
     "code": "@brasil10533636947",
-    "display": "Plexo carotídeo comum"
+    "display": "Plexo carotideo comum"
   }, {
     "code": "@brasil17291351515",
-    "display": "Tecido subcutâneo da região femoral"
+    "display": "Tecido subcutaneo da regiao femoral"
   }, {
     "code": "@brasil14890342776",
-    "display": "Lamelipódio"
+    "display": "Lamelipodio"
   }, {
     "code": "@brasil17710855869",
-    "display": "Ramo occipital da artéria auricular posterior"
+    "display": "Ramo occipital da arteria auricular posterior"
   }, {
     "code": "@brasil14554645626",
-    "display": "Músculo isquiococcígeo"
+    "display": "Musculo isquiococcigeo"
   }, {
     "code": "@brasil18354124190",
-    "display": "Parte reta do músculo longus colli"
+    "display": "Parte reta do musculo longus colli"
   }, {
     "code": "@brasil19071991878",
-    "display": "Arco da décima vértebra torácica"
+    "display": "Arco da decima vertebra toracica"
   }, {
     "code": "@brasil12335278504",
-    "display": "ligamento gastrofrênico"
+    "display": "ligamento gastrofrenico"
   }, {
     "code": "@brasil10868133650",
-    "display": "corpo da vesícula biliar"
+    "display": "corpo da vesicula biliar"
   }, {
     "code": "@brasil15666085056",
-    "display": "Linfonodo subpilórico inteiro"
+    "display": "Linfonodo subpilorico inteiro"
   }, {
     "code": "@brasil11924704900",
-    "display": "parede pélvica"
+    "display": "parede pelvica"
   }, {
     "code": "@brasil11319146584",
-    "display": "Óstio timpânico da trompa de Eustáquio"
+    "display": "Ostio timpanico da trompa de Eustaquio"
   }, {
     "code": "@brasil11247565643",
-    "display": "Núcleo pulposo do disco intervertebral da primeira vértebra torácica"
+    "display": "Nucleo pulposo do disco intervertebral da primeira vertebra toracica"
   }, {
     "code": "@brasil15783299602",
-    "display": "Artéria torácica lateral"
+    "display": "Arteria toracica lateral"
   }, {
     "code": "@brasil12556310893",
-    "display": "grande embarcação"
+    "display": "grande embarcacao"
   }, {
     "code": "@brasil10553489243",
-    "display": "giro do cérebro"
+    "display": "giro do cerebro"
   }, {
     "code": "@brasil11827049432",
     "display": "Trato olfativo"
   }, {
     "code": "@brasil16193919409",
-    "display": "Músculo reto da cabeça"
+    "display": "Musculo reto da cabeca"
   }, {
     "code": "@brasil11996224150",
-    "display": "Veias profundas do clitóris"
+    "display": "Veias profundas do clitoris"
   }, {
     "code": "@brasil14771023702",
-    "display": "Tecido subcutâneo da concha"
+    "display": "Tecido subcutaneo da concha"
   }, {
     "code": "@brasil17286298224",
-    "display": "Todo o ramo parietal da artéria cerebral anterior"
+    "display": "Todo o ramo parietal da arteria cerebral anterior"
   }, {
     "code": "@brasil12712881659",
-    "display": "Cabeça da décima costela"
+    "display": "Cabeca da decima costela"
   }, {
     "code": "@brasil10222367429",
     "display": "janela vestibular"
@@ -2075,34 +2075,34 @@
     "display": "Saco lacrimal"
   }, {
     "code": "@brasil12897306318",
-    "display": "córtex entorrinal"
+    "display": "cortex entorrinal"
   }, {
     "code": "@brasil16401047375",
-    "display": "Cápsula da articulação interfalângica proximal do dedo indicador"
+    "display": "Capsula da articulacao interfalangica proximal do dedo indicador"
   }, {
     "code": "@brasil19308585512",
-    "display": "Parede lateral da órbita"
+    "display": "Parede lateral da orbita"
   }, {
     "code": "@brasil16713960166",
-    "display": "Promielócito eosinofílico"
+    "display": "Promielocito eosinofilico"
   }, {
     "code": "@brasil14753738542",
-    "display": "Comissura posterior dos grandes lábios"
+    "display": "Comissura posterior dos grandes labios"
   }, {
     "code": "@brasil12351577618",
     "display": "Cromossomos, grupo A"
   }, {
     "code": "@brasil15668049952",
-    "display": "Núcleos mediais do globo pálido"
+    "display": "Nucleos mediais do globo palido"
   }, {
     "code": "@brasil13732865482",
-    "display": "Ramos brônquicos do nervo vago"
+    "display": "Ramos bronquicos do nervo vago"
   }, {
     "code": "@brasil11194261424",
     "display": "Veia lingual dorsal inteira"
   }, {
     "code": "@brasil14079480648",
-    "display": "Quarta vértebra coccígea"
+    "display": "Quarta vertebra coccigea"
   }, {
     "code": "@brasil15800975527",
     "display": "Sulco frontal superior"
@@ -2111,64 +2111,64 @@
     "display": "Canal central da medula espinhal lombossacral"
   }, {
     "code": "@brasil15081543450",
-    "display": "mácula de sáculo"
+    "display": "macula de saculo"
   }, {
     "code": "@brasil10388655838",
-    "display": "Músculo semiespinal da cabeça"
+    "display": "Musculo semiespinal da cabeca"
   }, {
     "code": "@brasil15785898923",
-    "display": "Radiação talâmica posterior da cápsula interna"
+    "display": "Radiacao talamica posterior da capsula interna"
   }, {
     "code": "@brasil16180279696",
-    "display": "Tecido neuroendócrino"
+    "display": "Tecido neuroendocrino"
   }, {
     "code": "@brasil15052984304",
-    "display": "Nervo dorsal do pênis"
+    "display": "Nervo dorsal do penis"
   }, {
     "code": "@brasil11761946436",
-    "display": "Artéria etmoidal anterior"
+    "display": "Arteria etmoidal anterior"
   }, {
     "code": "@brasil14585582728",
-    "display": "Ramo cutâneo anterior do plexo lombossacral"
+    "display": "Ramo cutaneo anterior do plexo lombossacral"
   }, {
     "code": "@brasil18618198397",
     "display": "Plasmablast"
   }, {
     "code": "@brasil17328641764",
-    "display": "músculo grácil"
+    "display": "musculo gracil"
   }, {
     "code": "@brasil12675003578",
     "display": "falange do polegar"
   }, {
     "code": "@brasil15348792144",
-    "display": "Faceta articular cúbica do quarto osso metatarso"
+    "display": "Faceta articular cubica do quarto osso metatarso"
   }, {
     "code": "@brasil15038499956",
-    "display": "Disco intervertebral da terceira vértebra torácica"
+    "display": "Disco intervertebral da terceira vertebra toracica"
   }, {
     "code": "@brasil19670740130",
-    "display": "Tendão do músculo flexor longo do polegar"
+    "display": "Tendao do musculo flexor longo do polegar"
   }, {
     "code": "@brasil11105067003",
     "display": "Todas as extremidades"
   }, {
     "code": "@brasil13173660693",
-    "display": "Cápsula da articulação do tornozelo"
+    "display": "Capsula da articulacao do tornozelo"
   }, {
     "code": "@brasil11344262538",
-    "display": "Artéria calcarina inteira"
+    "display": "Arteria calcarina inteira"
   }, {
     "code": "@brasil14515884102",
     "display": "Seio maxilar esquerdo"
   }, {
     "code": "@brasil13745052760",
-    "display": "espaço de Bowman"
+    "display": "espaco de Bowman"
   }, {
     "code": "@brasil14736460003",
-    "display": "giro olfatório medial"
+    "display": "giro olfatorio medial"
   }, {
     "code": "@brasil19979082520",
-    "display": "Membrana mucosa da bexiga urinária"
+    "display": "Membrana mucosa da bexiga urinaria"
   }, {
     "code": "@brasil12776446986",
     "display": "Veia vitelina inteira da placenta"
@@ -2180,70 +2180,70 @@
     "display": "Forame apical do dente"
   }, {
     "code": "@brasil16426936234",
-    "display": "Camada circular da muscular gástrica"
+    "display": "Camada circular da muscular gastrica"
   }, {
     "code": "@brasil16232850071",
     "display": "Giro occipitotemporal medial"
   }, {
     "code": "@brasil14912438144",
-    "display": "Endométrio"
+    "display": "Endometrio"
   }, {
     "code": "@brasil14809298741",
-    "display": "Artéria facial transversa"
+    "display": "Arteria facial transversa"
   }, {
     "code": "@brasil11035839849",
-    "display": "Margem superior da glândula adrenal"
+    "display": "Margem superior da glandula adrenal"
   }, {
     "code": "@brasil16789966938",
-    "display": "Músculos papilares do ventrículo direito"
+    "display": "Musculos papilares do ventriculo direito"
   }, {
     "code": "@brasil18517959049",
-    "display": "dorso do pé"
+    "display": "dorso do pe"
   }, {
     "code": "@brasil10266976430",
-    "display": "Primeiro dente pré-molar inferior esquerdo"
+    "display": "Primeiro dente pre-molar inferior esquerdo"
   }, {
     "code": "@brasil10938974469",
     "display": "Primeira faceta metatarsal do osso cuneiforme medial"
   }, {
     "code": "@brasil13440639061",
-    "display": "metencéfalo do feto"
+    "display": "metencefalo do feto"
   }, {
     "code": "@brasil11755899815",
-    "display": "Ramos brônquicos segmentares"
+    "display": "Ramos bronquicos segmentares"
   }, {
     "code": "@brasil11779620107",
-    "display": "Glândula seromucosa salivar inteira (estrutura do corpo)"
+    "display": "Glandula seromucosa salivar inteira (estrutura do corpo)"
   }, {
     "code": "@brasil15714067010",
     "display": "Base do terceiro osso metacarpo"
   }, {
     "code": "@brasil10971331717",
-    "display": "Superfície medial do dedo do pé"
+    "display": "Superficie medial do dedo do pe"
   }, {
     "code": "@brasil19355563984",
-    "display": "Sutura nasal do crânio"
+    "display": "Sutura nasal do cranio"
   }, {
     "code": "@brasil11935496172",
-    "display": "Cálice"
+    "display": "Calice"
   }, {
     "code": "@brasil16869042976",
-    "display": "Pele do frênulo do clitóris"
+    "display": "Pele do frenulo do clitoris"
   }, {
     "code": "@brasil14028012661",
-    "display": "Superfície articular, terceiro metacarpo, do segundo osso metacarpo"
+    "display": "Superficie articular, terceiro metacarpo, do segundo osso metacarpo"
   }, {
     "code": "@brasil17757006879",
-    "display": "Tecido subcutâneo da face posterior do antebraço"
+    "display": "Tecido subcutaneo da face posterior do antebraco"
   }, {
     "code": "@brasil11585674016",
-    "display": "Túnica íntima da veia"
+    "display": "Tunica intima da veia"
   }, {
     "code": "@brasil13390454502",
-    "display": "Tendão digital e bainha do tendão do pé"
+    "display": "Tendao digital e bainha do tendao do pe"
   }, {
     "code": "@brasil11788866268",
-    "display": "gânglio submaxilar"
+    "display": "ganglio submaxilar"
   }, {
     "code": "@brasil16710255793",
     "display": "Membrana do lisossomo"
@@ -2252,154 +2252,154 @@
     "display": "Cisterna pontis inteira"
   }, {
     "code": "@brasil12261177209",
-    "display": "Ligamento de verificação medial do olho"
+    "display": "Ligamento de verificacao medial do olho"
   }, {
     "code": "@brasil11356319151",
-    "display": "Artéria retal superior"
+    "display": "Arteria retal superior"
   }, {
     "code": "@brasil17144267973",
-    "display": "triângulo femoral"
+    "display": "triangulo femoral"
   }, {
     "code": "@brasil11455007009",
-    "display": "Plexo pancreático"
+    "display": "Plexo pancreatico"
   }, {
     "code": "@brasil12537656716",
-    "display": "Porção posterior da face diafragmática do fígado"
+    "display": "Porcao posterior da face diafragmatica do figado"
   }, {
     "code": "@brasil13621723868",
-    "display": "Ligamento anterior do útero"
+    "display": "Ligamento anterior do utero"
   }, {
     "code": "@brasil18523654310",
     "display": "Epiglote posterior"
   }, {
     "code": "@brasil16332182664",
-    "display": "Glândula inteira (órgão)"
+    "display": "Glandula inteira (orgao)"
   }, {
     "code": "@brasil17712419774",
-    "display": "veia cefálica acessória"
+    "display": "veia cefalica acessoria"
   }, {
     "code": "@brasil14076638838",
-    "display": "Artéria epigástrica superficial"
+    "display": "Arteria epigastrica superficial"
   }, {
     "code": "@brasil12043621382",
-    "display": "Tecido subcutâneo da área supraorbitária"
+    "display": "Tecido subcutaneo da area supraorbitaria"
   }, {
     "code": "@brasil11502591585",
-    "display": "Músculo papilar posterior do ventrículo esquerdo"
+    "display": "Musculo papilar posterior do ventriculo esquerdo"
   }, {
     "code": "@brasil11823112285",
     "display": "Ramo motor do nervo facial"
   }, {
     "code": "@brasil14972995299",
-    "display": "Faceta talar do osso navicular do pé"
+    "display": "Faceta talar do osso navicular do pe"
   }, {
     "code": "@brasil12420798475",
     "display": "osso cuneiforme medial"
   }, {
     "code": "@brasil15710332462",
-    "display": "Estrutura espacial anatômica (estrutura do corpo)"
+    "display": "Estrutura espacial anatomica (estrutura do corpo)"
   }, {
     "code": "@brasil12776007616",
-    "display": "cabeça do fêmur"
+    "display": "cabeca do femur"
   }, {
     "code": "@brasil17599460124",
-    "display": "fáscia cremastérica"
+    "display": "fascia cremasterica"
   }, {
     "code": "@brasil13700898571",
-    "display": "Pars tensa da membrana timpânica"
+    "display": "Pars tensa da membrana timpanica"
   }, {
     "code": "@brasil12254687352",
-    "display": "glândula apócrina"
+    "display": "glandula apocrina"
   }, {
     "code": "@brasil19190846166",
-    "display": "Lâmina própria do ureter"
+    "display": "Lamina propria do ureter"
   }, {
     "code": "@brasil17899847930",
-    "display": "Glândula écrina"
+    "display": "Glandula ecrina"
   }, {
     "code": "@brasil13436131265",
     "display": "Medula espinhal"
   }, {
     "code": "@brasil12156363931",
-    "display": "Nervos digitais dorsais do hálux lateral e segundo dedo medial"
+    "display": "Nervos digitais dorsais do halux lateral e segundo dedo medial"
   }, {
     "code": "@brasil17080267532",
-    "display": "Lâmina da quarta vértebra lombar"
+    "display": "Lamina da quarta vertebra lombar"
   }, {
     "code": "@brasil11081658014",
-    "display": "Processo espinhoso da quarta vértebra torácica"
+    "display": "Processo espinhoso da quarta vertebra toracica"
   }, {
     "code": "@brasil17556924909",
-    "display": "Epitélio respiratório"
+    "display": "Epitelio respiratorio"
   }, {
     "code": "@brasil11235995339",
-    "display": "Artéria renal"
+    "display": "Arteria renal"
   }, {
     "code": "@brasil19541017364",
-    "display": "Tecidos perivesiculares das vesículas seminais"
+    "display": "Tecidos perivesiculares das vesiculas seminais"
   }, {
     "code": "@brasil16000482183",
     "display": "Nervo"
   }, {
     "code": "@brasil12382324702",
-    "display": "Núcleo anteroventral do tálamo"
+    "display": "Nucleo anteroventral do talamo"
   }, {
     "code": "@brasil18637047211",
-    "display": "Medula óssea do corpo vertebral"
+    "display": "Medula ossea do corpo vertebral"
   }, {
     "code": "@brasil12812385737",
-    "display": "Lúmen da vesícula seminal"
+    "display": "Lumen da vesicula seminal"
   }, {
     "code": "@brasil16275739357",
-    "display": "Aracnóide espinhal"
+    "display": "Aracnoide espinhal"
   }, {
     "code": "@brasil12855437119",
-    "display": "Sistema nervoso periférico"
+    "display": "Sistema nervoso periferico"
   }, {
     "code": "@brasil14027549813",
-    "display": "Célula epitelial de transição"
+    "display": "Celula epitelial de transicao"
   }, {
     "code": "@brasil12661862681",
     "display": "Fibrocartilagem branca"
   }, {
     "code": "@brasil13093921301",
-    "display": "Ramo anterior da cápsula interna"
+    "display": "Ramo anterior da capsula interna"
   }, {
     "code": "@brasil17602581377",
-    "display": "Margem direita inteira do útero"
+    "display": "Margem direita inteira do utero"
   }, {
     "code": "@brasil16934303888",
-    "display": "Superfície articular, metacarpo, da falange do polegar"
+    "display": "Superficie articular, metacarpo, da falange do polegar"
   }, {
     "code": "@brasil18678157512",
-    "display": "Pólo urinário glomerular"
+    "display": "Polo urinario glomerular"
   }, {
     "code": "@brasil12152161328",
-    "display": "Tecido subcutâneo da coxa"
+    "display": "Tecido subcutaneo da coxa"
   }, {
     "code": "@brasil12294087736",
-    "display": "Trabécula cárnea do ventrículo esquerdo"
+    "display": "Trabecula carnea do ventriculo esquerdo"
   }, {
     "code": "@brasil19466870042",
-    "display": "Superfície dorsal do dedo indicador"
+    "display": "Superficie dorsal do dedo indicador"
   }, {
     "code": "@brasil11680087596",
-    "display": "espaço supracoroidal"
+    "display": "espaco supracoroidal"
   }, {
     "code": "@brasil12977856082",
-    "display": "Coroa clínica do dente"
+    "display": "Coroa clinica do dente"
   }, {
     "code": "@brasil17736397707",
-    "display": "Arco tendíneo da fáscia pélvica"
+    "display": "Arco tendineo da fascia pelvica"
   }, {
     "code": "@brasil15234710922",
-    "display": "Mitocôndria em divisão"
+    "display": "Mitocondria em divisao"
   }, {
     "code": "@brasil13124920764",
-    "display": "Tecido ósseo"
+    "display": "Tecido osseo"
   }, {
     "code": "@brasil18466881407",
-    "display": "Cabeça do quarto osso metatarso"
+    "display": "Cabeca do quarto osso metatarso"
   }, {
     "code": "@brasil13069828862",
     "display": "Pleura"
@@ -2408,91 +2408,91 @@
     "display": "Tronco costocervical"
   }, {
     "code": "@brasil11745037548",
-    "display": "Artéria obturadora"
+    "display": "Arteria obturadora"
   }, {
     "code": "@brasil10223959907",
     "display": "trato olivococlear"
   }, {
     "code": "@brasil18320673439",
-    "display": "Músculo esplênio da cabeça"
+    "display": "Musculo esplenio da cabeca"
   }, {
     "code": "@brasil16423492696",
-    "display": "Sínfise inteira"
+    "display": "Sinfise inteira"
   }, {
     "code": "@brasil11265596784",
-    "display": "Artérias ileais"
+    "display": "Arterias ileais"
   }, {
     "code": "@brasil16513467482",
-    "display": "Linfonodo paramamário inteiro"
+    "display": "Linfonodo paramamario inteiro"
   }, {
     "code": "@brasil16702427086",
-    "display": "Otocônia"
+    "display": "Otoconia"
   }, {
     "code": "@brasil12332889419",
     "display": "histioblasto"
   }, {
     "code": "@brasil14782683340",
-    "display": "Disco intervertebral da décima primeira vértebra torácica"
+    "display": "Disco intervertebral da decima primeira vertebra toracica"
   }, {
     "code": "@brasil14157375183",
-    "display": "Lâmina da quarta vértebra torácica"
+    "display": "Lamina da quarta vertebra toracica"
   }, {
     "code": "@brasil12001397629",
-    "display": "Diâmetro frontomental da cabeça"
+    "display": "Diametro frontomental da cabeca"
   }, {
     "code": "@brasil15283204422",
-    "display": "Duto ejaculatório"
+    "display": "Duto ejaculatorio"
   }, {
     "code": "@brasil19968163844",
-    "display": "Núcleo ventral lateral do tálamo"
+    "display": "Nucleo ventral lateral do talamo"
   }, {
     "code": "@brasil12858407582",
-    "display": "Núcleo pulposo do disco intervertebral da terceira vértebra lombar"
+    "display": "Nucleo pulposo do disco intervertebral da terceira vertebra lombar"
   }, {
     "code": "@brasil11441291459",
-    "display": "Plexo coccígeo"
+    "display": "Plexo coccigeo"
   }, {
     "code": "@brasil17674933807",
     "display": "intestino anterior"
   }, {
     "code": "@brasil19824897831",
-    "display": "veia supraorbitária"
+    "display": "veia supraorbitaria"
   }, {
     "code": "@brasil13816518552",
-    "display": "Ligamento colateral medial da articulação do joelho"
+    "display": "Ligamento colateral medial da articulacao do joelho"
   }, {
     "code": "@brasil16419231746",
-    "display": "Terceira vértebra torácica"
+    "display": "Terceira vertebra toracica"
   }, {
     "code": "@brasil12759880164",
-    "display": "Núcleo metafásico"
+    "display": "Nucleo metafasico"
   }, {
     "code": "@brasil12460056460",
-    "display": "laringe intrínseca"
+    "display": "laringe intrinseca"
   }, {
     "code": "@brasil10675463527",
-    "display": "Núcleo dorsomedial do tálamo"
+    "display": "Nucleo dorsomedial do talamo"
   }, {
     "code": "@brasil11475078156",
-    "display": "Núcleo do trato peduncular transverso"
+    "display": "Nucleo do trato peduncular transverso"
   }, {
     "code": "@brasil18899975853",
-    "display": "Hilo do pulmão esquerdo"
+    "display": "Hilo do pulmao esquerdo"
   }, {
     "code": "@brasil16813885369",
-    "display": "Grupo nuclear ventral do tálamo"
+    "display": "Grupo nuclear ventral do talamo"
   }, {
     "code": "@brasil12734027096",
-    "display": "lóbulo tímico"
+    "display": "lobulo timico"
   }, {
     "code": "@brasil18952083473",
-    "display": "Ligamento redondo do fígado"
+    "display": "Ligamento redondo do figado"
   }, {
     "code": "@brasil11476528896",
     "display": "Nervos digitais dorsais do nervo radial"
   }, {
     "code": "@brasil14201383602",
-    "display": "Processo articular inferior da sexta vértebra cervical"
+    "display": "Processo articular inferior da sexta vertebra cervical"
   }, {
     "code": "@brasil16510129808",
     "display": "Duodenal serosa"
@@ -2504,7 +2504,7 @@
     "display": "nervo vertebral"
   }, {
     "code": "@brasil14778493981",
-    "display": "Disposição distinta dos microtúbulos"
+    "display": "Disposicao distinta dos microtubulos"
   }, {
     "code": "@brasil12512490387",
     "display": "Cromossomos, grupo E"
@@ -2513,7 +2513,7 @@
     "display": "nervo mandibular"
   }, {
     "code": "@brasil17005184455",
-    "display": "Processo odontóide do áxis"
+    "display": "Processo odontoide do axis"
   }, {
     "code": "@brasil12773437966",
     "display": "Frenulum linguae"
@@ -2525,7 +2525,7 @@
     "display": "sinostose"
   }, {
     "code": "@brasil12445626176",
-    "display": "músculo redondo maior"
+    "display": "musculo redondo maior"
   }, {
     "code": "@brasil15457996766",
     "display": "Linfonodo paravesicular"
@@ -2534,28 +2534,28 @@
     "display": "Ramo posterior do estribo"
   }, {
     "code": "@brasil11463055899",
-    "display": "músculo vasto lateral"
+    "display": "musculo vasto lateral"
   }, {
     "code": "@brasil18448615657",
-    "display": "Serosa gástrica"
+    "display": "Serosa gastrica"
   }, {
     "code": "@brasil13593340899",
-    "display": "Tendão flexor profundo do dedo indicador"
+    "display": "Tendao flexor profundo do dedo indicador"
   }, {
     "code": "@brasil16506029716",
-    "display": "cabelo telógeno"
+    "display": "cabelo telogeno"
   }, {
     "code": "@brasil18527134644",
-    "display": "Ramo parietal da artéria temporal superficial"
+    "display": "Ramo parietal da arteria temporal superficial"
   }, {
     "code": "@brasil10534438257",
     "display": "Fibrocartilagem amarela"
   }, {
     "code": "@brasil11381685650",
-    "display": "Ventrículo da laringe"
+    "display": "Ventriculo da laringe"
   }, {
     "code": "@brasil14804874931",
-    "display": "Artéria cecal anterior"
+    "display": "Arteria cecal anterior"
   }, {
     "code": "@brasil19580390180",
     "display": "Tecidos moles do tronco"
@@ -2570,67 +2570,67 @@
     "display": "Pele da orelha externa"
   }, {
     "code": "@brasil19094265938",
-    "display": "Veia musculofrênica inteira"
+    "display": "Veia musculofrenica inteira"
   }, {
     "code": "@brasil14639314248",
-    "display": "Linfonodo ilíaco comum promontório inteiro"
+    "display": "Linfonodo iliaco comum promontorio inteiro"
   }, {
     "code": "@brasil18034101870",
-    "display": "músculos supra-hióideos"
+    "display": "musculos supra-hioideos"
   }, {
     "code": "@brasil15177065137",
-    "display": "recesso faríngeo"
+    "display": "recesso faringeo"
   }, {
     "code": "@brasil13469634663",
     "display": "Porus acusticus internus"
   }, {
     "code": "@brasil17350246361",
-    "display": "Toda a região do cotovelo esquerdo"
+    "display": "Toda a regiao do cotovelo esquerdo"
   }, {
     "code": "@brasil17760532485",
     "display": "aorta suprarrenal"
   }, {
     "code": "@brasil14499041748",
-    "display": "Artéria torácica superior"
+    "display": "Arteria toracica superior"
   }, {
     "code": "@brasil16078269010",
-    "display": "Face clavicular da escápula"
+    "display": "Face clavicular da escapula"
   }, {
     "code": "@brasil15297434538",
     "display": "Cingulum dentis"
   }, {
     "code": "@brasil16096214488",
-    "display": "pré-melanossomo"
+    "display": "pre-melanossomo"
   }, {
     "code": "@brasil15891543425",
-    "display": "Linfático do tórax"
+    "display": "Linfatico do torax"
   }, {
     "code": "@brasil17787167649",
-    "display": "Duto torácico"
+    "display": "Duto toracico"
   }, {
     "code": "@brasil17681431710",
     "display": "Trato tegmental central"
   }, {
     "code": "@brasil16873330404",
-    "display": "amígdala direita"
+    "display": "amigdala direita"
   }, {
     "code": "@brasil18895073539",
     "display": "cupula ampullaris"
   }, {
     "code": "@brasil15867345867",
-    "display": "região periorbital"
+    "display": "regiao periorbital"
   }, {
     "code": "@brasil10298518956",
-    "display": "Circulus arteriosus maior da íris"
+    "display": "Circulus arteriosus maior da iris"
   }, {
     "code": "@brasil15743569213",
     "display": "Naris"
   }, {
     "code": "@brasil12806442474",
-    "display": "região sacroilíaca"
+    "display": "regiao sacroiliaca"
   }, {
     "code": "@brasil19283741374",
-    "display": "Músculos eretores do pelo"
+    "display": "Musculos eretores do pelo"
   }, {
     "code": "@brasil10413880682",
     "display": "conjuntiva bulbar"
@@ -2639,58 +2639,58 @@
     "display": "Raiz inteira do nariz"
   }, {
     "code": "@brasil16141169820",
-    "display": "seio acessório"
+    "display": "seio acessorio"
   }, {
     "code": "@brasil10112209784",
-    "display": "Núcleo ambíguo"
+    "display": "Nucleo ambiguo"
   }, {
     "code": "@brasil11473293137",
-    "display": "Cabeça da falange da mão"
+    "display": "Cabeca da falange da mao"
   }, {
     "code": "@brasil16005295826",
-    "display": "célula glial"
+    "display": "celula glial"
   }, {
     "code": "@brasil13422591138",
-    "display": "Célula epitelial transicional do trato urinário"
+    "display": "Celula epitelial transicional do trato urinario"
   }, {
     "code": "@brasil10369220058",
-    "display": "Núcleo Tuberomamilar"
+    "display": "Nucleo Tuberomamilar"
   }, {
     "code": "@brasil17801444880",
-    "display": "amígdala lingual"
+    "display": "amigdala lingual"
   }, {
     "code": "@brasil16243220003",
     "display": "nervos vaginais"
   }, {
     "code": "@brasil17804885148",
-    "display": "Trompa de falópio direita"
+    "display": "Trompa de falopio direita"
   }, {
     "code": "@brasil14260402017",
     "display": "Fissura mediana ventral da medula espinhal"
   }, {
     "code": "@brasil19084752068",
-    "display": "Formação reticular da medula espinhal"
+    "display": "Formacao reticular da medula espinhal"
   }, {
     "code": "@brasil17983489172",
-    "display": "Pele do lóbulo da orelha"
+    "display": "Pele do lobulo da orelha"
   }, {
     "code": "@brasil10277564701",
-    "display": "vilosidades coriônicas"
+    "display": "vilosidades corionicas"
   }, {
     "code": "@brasil16824790812",
-    "display": "Superfície basal cerebral"
+    "display": "Superficie basal cerebral"
   }, {
     "code": "@brasil19801492036",
-    "display": "Lâmina da quinta vértebra torácica"
+    "display": "Lamina da quinta vertebra toracica"
   }, {
     "code": "@brasil10727556561",
-    "display": "Parte clavicular do músculo peitoral maior"
+    "display": "Parte clavicular do musculo peitoral maior"
   }, {
     "code": "@brasil14612097025",
-    "display": "Zona basal do endométrio"
+    "display": "Zona basal do endometrio"
   }, {
     "code": "@brasil10777642959",
-    "display": "cavidade faríngea"
+    "display": "cavidade faringea"
   }, {
     "code": "@brasil19758706025",
     "display": "Ligamentum arteriosum"
@@ -2699,22 +2699,22 @@
     "display": "subserosa"
   }, {
     "code": "@brasil13123019162",
-    "display": "Célula ciliada tipo I"
+    "display": "Celula ciliada tipo I"
   }, {
     "code": "@brasil14719478258",
-    "display": "Pelve óssea menor"
+    "display": "Pelve ossea menor"
   }, {
     "code": "@brasil12263571751",
-    "display": "Processo espinhoso da vértebra cervical"
+    "display": "Processo espinhoso da vertebra cervical"
   }, {
     "code": "@brasil15201264017",
     "display": "veias do joelho"
   }, {
     "code": "@brasil17914249548",
-    "display": "Glândula nasofaríngea"
+    "display": "Glandula nasofaringea"
   }, {
     "code": "@brasil14459850734",
-    "display": "cório reticular"
+    "display": "corio reticular"
   }, {
     "code": "@brasil14538667875",
     "display": "Feixe atrioventricular"
@@ -2726,31 +2726,31 @@
     "display": "Veia diploica temporal posterior inteira"
   }, {
     "code": "@brasil10036699891",
-    "display": "Ramos dentários da artéria alveolar inferior"
+    "display": "Ramos dentarios da arteria alveolar inferior"
   }, {
     "code": "@brasil18683250357",
-    "display": "Parede da bexiga urinária"
+    "display": "Parede da bexiga urinaria"
   }, {
     "code": "@brasil19357929432",
     "display": "Quinto osso metatarso"
   }, {
     "code": "@brasil14063094782",
-    "display": "Articulação metacarpofalângica do dedo indicador"
+    "display": "Articulacao metacarpofalangica do dedo indicador"
   }, {
     "code": "@brasil10319181596",
-    "display": "Todo tendão flexor e bainha do tendão do quarto dedo"
+    "display": "Todo tendao flexor e bainha do tendao do quarto dedo"
   }, {
     "code": "@brasil15844271168",
     "display": "Linfonodo axilar central"
   }, {
     "code": "@brasil10839049117",
-    "display": "Impressão cardíaca do fígado"
+    "display": "Impressao cardiaca do figado"
   }, {
     "code": "@brasil14928027636",
     "display": "Pele do umbigo"
   }, {
     "code": "@brasil14600363125",
-    "display": "Superfície plantar do dedão do pé"
+    "display": "Superficie plantar do dedao do pe"
   }, {
     "code": "@brasil11104139545",
     "display": "Trato corticoespinhal lateral"
@@ -2759,148 +2759,148 @@
     "display": "ligamento colateral"
   }, {
     "code": "@brasil10243784709",
-    "display": "bolsa trocantérica"
+    "display": "bolsa trocanterica"
   }, {
     "code": "@brasil10283941728",
-    "display": "Superfície inferior da língua"
+    "display": "Superficie inferior da lingua"
   }, {
     "code": "@brasil10391974746",
-    "display": "Anastomose heterocládica"
+    "display": "Anastomose heterocladica"
   }, {
     "code": "@brasil10558644104",
-    "display": "fundo gástrico"
+    "display": "fundo gastrico"
   }, {
     "code": "@brasil10664753047",
-    "display": "Músculo flexor longo do hálux"
+    "display": "Musculo flexor longo do halux"
   }, {
     "code": "@brasil18784591757",
     "display": "giro frontal ascendente"
   }, {
     "code": "@brasil14419402017",
-    "display": "Normoblasto basofílico"
+    "display": "Normoblasto basofilico"
   }, {
     "code": "@brasil13368492081",
-    "display": "Superfície costal do pulmão"
+    "display": "Superficie costal do pulmao"
   }, {
     "code": "@brasil12855692516",
-    "display": "Cólon transverso"
+    "display": "Colon transverso"
   }, {
     "code": "@brasil16969990269",
-    "display": "Sistema circulatório cardiopulmonar"
+    "display": "Sistema circulatorio cardiopulmonar"
   }, {
     "code": "@brasil16342381522",
     "display": "Parte supraclavicular do plexo braquial"
   }, {
     "code": "@brasil17494826396",
-    "display": "Artéria circunflexa profunda do ílio"
+    "display": "Arteria circunflexa profunda do ilio"
   }, {
     "code": "@brasil10377250257",
-    "display": "Par central de microtúbulos, cílio ou flagelo, não bacteriano"
+    "display": "Par central de microtubulos, cilio ou flagelo, nao bacteriano"
   }, {
     "code": "@brasil17867711117",
-    "display": "Músculo glúteo máximo"
+    "display": "Musculo gluteo maximo"
   }, {
     "code": "@brasil17109999400",
-    "display": "Comissura esquerda inteira da valva aórtica"
+    "display": "Comissura esquerda inteira da valva aortica"
   }, {
     "code": "@brasil19227428731",
-    "display": "Divisão anterior da artéria renal"
+    "display": "Divisao anterior da arteria renal"
   }, {
     "code": "@brasil19781319990",
-    "display": "Camada visceral da cápsula de Bowman"
+    "display": "Camada visceral da capsula de Bowman"
   }, {
     "code": "@brasil17895377768",
-    "display": "Veia emissária condilar inteira"
+    "display": "Veia emissaria condilar inteira"
   }, {
     "code": "@brasil19898523052",
     "display": "Parte fetal da placenta"
   }, {
     "code": "@brasil10532412602",
-    "display": "Região posterior do carpo"
+    "display": "Regiao posterior do carpo"
   }, {
     "code": "@brasil18130475064",
-    "display": "Processo coronoide da mandíbula"
+    "display": "Processo coronoide da mandibula"
   }, {
     "code": "@brasil16758375125",
-    "display": "Tecido subcutâneo da superfície medial do dedo indicador"
+    "display": "Tecido subcutaneo da superficie medial do dedo indicador"
   }, {
     "code": "@brasil15220466957",
-    "display": "Glândula paratireoide"
+    "display": "Glandula paratireoide"
   }, {
     "code": "@brasil11380164995",
-    "display": "Mesotímpano"
+    "display": "Mesotimpano"
   }, {
     "code": "@brasil13202466444",
-    "display": "Núcleo vestibular lateral"
+    "display": "Nucleo vestibular lateral"
   }, {
     "code": "@brasil11544055845",
-    "display": "Artéria labial superior"
+    "display": "Arteria labial superior"
   }, {
     "code": "@brasil18172604363",
-    "display": "Ligamento hepatocólico"
+    "display": "Ligamento hepatocolico"
   }, {
     "code": "@brasil16439655427",
     "display": "Canal de Hering"
   }, {
     "code": "@brasil18008557694",
-    "display": "Superfície articular, falanges, do quarto osso metacarpo"
+    "display": "Superficie articular, falanges, do quarto osso metacarpo"
   }, {
     "code": "@brasil19752897878",
-    "display": "nervo torácico"
+    "display": "nervo toracico"
   }, {
     "code": "@brasil12326635085",
-    "display": "célula de Kupffer"
+    "display": "celula de Kupffer"
   }, {
     "code": "@brasil17293425952",
-    "display": "região peitoral"
+    "display": "regiao peitoral"
   }, {
     "code": "@brasil12967391518",
-    "display": "miocárdio lateral"
+    "display": "miocardio lateral"
   }, {
     "code": "@brasil19664228910",
-    "display": "Processo articular superior da vértebra lombar"
+    "display": "Processo articular superior da vertebra lombar"
   }, {
     "code": "@brasil11784584448",
-    "display": "Lobo inferior direito do pulmão"
+    "display": "Lobo inferior direito do pulmao"
   }, {
     "code": "@brasil17141018216",
-    "display": "Aspecto visceral do fígado"
+    "display": "Aspecto visceral do figado"
   }, {
     "code": "@brasil15572612512",
-    "display": "Estrutura da cabeça e pescoço"
+    "display": "Estrutura da cabeca e pescoco"
   }, {
     "code": "@brasil10240681552",
-    "display": "Feixes de filamentos intermediários densos"
+    "display": "Feixes de filamentos intermediarios densos"
   }, {
     "code": "@brasil15210265185",
-    "display": "corpo do ísquio"
+    "display": "corpo do isquio"
   }, {
     "code": "@brasil15270214894",
     "display": "Submucosa do intestino delgado"
   }, {
     "code": "@brasil13713603198",
-    "display": "Artéria hialóide fetal"
+    "display": "Arteria hialoide fetal"
   }, {
     "code": "@brasil10604313415",
-    "display": "Condrocrânio fetal"
+    "display": "Condrocranio fetal"
   }, {
     "code": "@brasil13513214934",
-    "display": "Artérias intercostais posteriores"
+    "display": "Arterias intercostais posteriores"
   }, {
     "code": "@brasil18987253854",
     "display": "Veia temporal profunda inteira"
   }, {
     "code": "@brasil15537597438",
-    "display": "Região oral da face"
+    "display": "Regiao oral da face"
   }, {
     "code": "@brasil10596672975",
-    "display": "Processo espinhoso da quinta vértebra torácica"
+    "display": "Processo espinhoso da quinta vertebra toracica"
   }, {
     "code": "@brasil12481922582",
     "display": "Raiz nervosa da medula espinhal cervical posterior"
   }, {
     "code": "@brasil13839245487",
-    "display": "Tecido subcutâneo do filtro"
+    "display": "Tecido subcutaneo do filtro"
   }, {
     "code": "@brasil11534755211",
     "display": "Fissura palpebral"
@@ -2909,70 +2909,70 @@
     "display": "septo interventricular"
   }, {
     "code": "@brasil13840932187",
-    "display": "Cápsula da articulação interfalângica proximal do terceiro dedo do pé"
+    "display": "Capsula da articulacao interfalangica proximal do terceiro dedo do pe"
   }, {
     "code": "@brasil11531050317",
-    "display": "Cabeça da falange do dedão do pé"
+    "display": "Cabeca da falange do dedao do pe"
   }, {
     "code": "@brasil11271439902",
-    "display": "Espaço do disco intervertebral da quinta vértebra lombar"
+    "display": "Espaco do disco intervertebral da quinta vertebra lombar"
   }, {
     "code": "@brasil18275383167",
-    "display": "Fibras parassimpáticas inteiras do nervo vago para o plexo cardíaco"
+    "display": "Fibras parassimpaticas inteiras do nervo vago para o plexo cardiaco"
   }, {
     "code": "@brasil13434485990",
-    "display": "Processo articular superior da sétima vértebra torácica"
+    "display": "Processo articular superior da setima vertebra toracica"
   }, {
     "code": "@brasil11442074403",
-    "display": "Tuberosidade da falange distal do dedo mínimo"
+    "display": "Tuberosidade da falange distal do dedo minimo"
   }, {
     "code": "@brasil14591962111",
-    "display": "Corpo multivesicular, vesículas internas"
+    "display": "Corpo multivesicular, vesiculas internas"
   }, {
     "code": "@brasil11099267136",
-    "display": "estrutura embrionária"
+    "display": "estrutura embrionaria"
   }, {
     "code": "@brasil13927577596",
-    "display": "Mandíbula"
+    "display": "Mandibula"
   }, {
     "code": "@brasil12846207051",
     "display": "Membrana mucosa traqueal"
   }, {
     "code": "@brasil13888465028",
-    "display": "Porção fibrosa do pericárdio"
+    "display": "Porcao fibrosa do pericardio"
   }, {
     "code": "@brasil12757386799",
-    "display": "Linfonodo diafragmático inteiro"
+    "display": "Linfonodo diafragmatico inteiro"
   }, {
     "code": "@brasil16632823091",
-    "display": "Ramos meníngeos da artéria occipital"
+    "display": "Ramos meningeos da arteria occipital"
   }, {
     "code": "@brasil17416657615",
-    "display": "Bursa vesicular do músculo esterno-hióideo"
+    "display": "Bursa vesicular do musculo esterno-hioideo"
   }, {
     "code": "@brasil14185430493",
-    "display": "Glândula sebácea"
+    "display": "Glandula sebacea"
   }, {
     "code": "@brasil11170165054",
     "display": "tecido peritonsilar"
   }, {
     "code": "@brasil14825592230",
-    "display": "Ramo tireo-hióideo da alça cervical"
+    "display": "Ramo tireo-hioideo da alca cervical"
   }, {
     "code": "@brasil16691348901",
-    "display": "Abertura laríngea superior"
+    "display": "Abertura laringea superior"
   }, {
     "code": "@brasil12877050863",
-    "display": "Ligamento cruzado anterior da articulação do joelho"
+    "display": "Ligamento cruzado anterior da articulacao do joelho"
   }, {
     "code": "@brasil15897968573",
-    "display": "Lâmina muscular da mucosa colônica"
+    "display": "Lamina muscular da mucosa colonica"
   }, {
     "code": "@brasil16802242989",
     "display": "veia ovariana"
   }, {
     "code": "@brasil15792797388",
-    "display": "Brônquio"
+    "display": "Bronquio"
   }, {
     "code": "@brasil14053914754",
     "display": "Crus do diafragma"
@@ -2981,36 +2981,36 @@
     "display": "giro occipital superior"
   }, {
     "code": "@brasil17794351359",
-    "display": "Músculo esternotireóideo"
+    "display": "Musculo esternotireoideo"
   }, {
     "code": "@brasil10565311917",
-    "display": "Fêmea"
+    "display": "Femea"
   }, {
     "code": "@brasil18344069511",
-    "display": "Bursa pré-patelar subcutânea inteira"
+    "display": "Bursa pre-patelar subcutanea inteira"
   }, {
     "code": "@brasil10385011983",
-    "display": "promonócito"
+    "display": "promonocito"
   }, {
     "code": "@brasil14526996904",
-    "display": "Sutura frontozigomática do crânio"
+    "display": "Sutura frontozigomatica do cranio"
   }, {
     "code": "@brasil16775847864",
-    "display": "Cálice maior inteiro"
+    "display": "Calice maior inteiro"
   }, {
     "code": "@brasil13152801321",
     "display": "Cavidade craniana"
   }, {
     "code": "@brasil12996053017",
-    "display": "córtex tímico"
+    "display": "cortex timico"
   }, {
     "code": "@brasil15620668562",
     "display": "Septo aortopulmonar"
   }, {
     "code": "@brasil11776635051",
-    "display": "Músculo longitudinal inferior da língua"
+    "display": "Musculo longitudinal inferior da lingua"
   }, {
     "code": "@brasil14420835667",
-    "display": "Glândula tarsal"
+    "display": "Glandula tarsal"
   } ]
 }

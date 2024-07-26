@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoDocumento",
   "version": "HEAD",
-  "name": "Brtipodocumento",
+  "name": "BRTipoDocumento",
   "title": "Tipo de Documento",
   "status": "active",
   "experimental": false,
@@ -13,30 +13,30 @@
   "content": "complete",
   "concept": [ {
     "code": "RIA",
-    "display": "Registro de Imunobiológico Administrado"
+    "display": "Registro de Imunobiologico Administrado"
   }, {
     "code": "RPM",
-    "display": "Registro de Prescrição de Medicamento"
+    "display": "Registro de Prescricao de Medicamento"
   }, {
     "code": "SA",
-    "display": "Sumário de Alta"
+    "display": "Sumario de Alta"
   }, {
     "code": "CMD",
-    "display": "Conjunto Mínimo de Dados"
+    "display": "Conjunto Minimo de Dados"
   }, {
     "code": "RAC",
-    "display": "Registro de Atendimento Clínico"
+    "display": "Registro de Atendimento Clinico"
   }, {
     "code": "REL",
     "display": "Resultado de Exame(s) Laboratoriais(s)"
   }, {
     "code": "RDM",
-    "display": "Registro de Dispensação de Medicamento"
+    "display": "Registro de Dispensacao de Medicamento"
   }, {
     "code": "RA",
-    "display": "Regulação Assistencial"
+    "display": "Regulacao Assistencial"
   }, {
     "code": "ATM",
-    "display": "Atestado Médico/Odontológico"
+    "display": "Atestado Medico/Odontologico"
   } ]
 }

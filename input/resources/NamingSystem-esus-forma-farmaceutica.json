@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "esus Forma Farmacêutico",
   "experimental": false,
-  "name": "Esusformafarmaceutica",
+  "name": "esusformafarmaceutica",
   "status": "active",
   "kind": "codesystem",
   "description": "esus Forma Farmacêutico",

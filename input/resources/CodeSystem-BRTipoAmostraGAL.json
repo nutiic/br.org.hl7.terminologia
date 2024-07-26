@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoAmostraGAL",
   "version": "HEAD",
-  "name": "Brtipoamostragal",
-  "title": "Tipo de Amostra Biológica",
+  "name": "BRTipoAmostraGAL",
+  "title": "Tipo de Amostra Biol�gica",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Amostra Biológica",
+  "description": "Tipo de Amostra Biol�gica",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -20,34 +20,34 @@
     "display": "Swab"
   }, {
     "code": "FRAMOR",
-    "display": "Fragmentos de múltiplos órgãos"
+    "display": "Fragmentos de multiplos orgaos"
   }, {
     "code": "SNOF",
-    "display": "Swab Naso-Orofaríngeo"
+    "display": "Swab Naso-Orofaringeo"
   }, {
     "code": "SWOCU",
     "display": "Swab Ocular"
   }, {
     "code": "SWNAFA",
-    "display": "Swab Nasofaríngeo"
+    "display": "Swab Nasofaringeo"
   }, {
     "code": "SWLES",
-    "display": "Swab de lesão"
+    "display": "Swab de lesao"
   }, {
     "code": "SWBAN",
     "display": "Swab Anal"
   }, {
     "code": "FRAPAN",
-    "display": "Fragmentos de pâncreas"
+    "display": "Fragmentos de pancreas"
   }, {
     "code": "FRAGT",
     "display": "Fragmento de tecido"
   }, {
     "code": "FRATRA",
-    "display": "Fragmentos de traquéia"
+    "display": "Fragmentos de traqueia"
   }, {
     "code": "FRBRON",
-    "display": "Fragmentos de brônquio"
+    "display": "Fragmentos de bronquio"
   }, {
     "code": "SWORA",
     "display": "Swab Oral"
@@ -59,28 +59,28 @@
     "display": "Swab retal"
   }, {
     "code": "LAVTBR",
-    "display": "Lavado Traqueo-Brônquico"
+    "display": "Lavado Traqueo-Bronquico"
   }, {
     "code": "TECPM",
-    "display": "Tecido pós-mortem"
+    "display": "Tecido pos-mortem"
   }, {
     "code": "SWORO",
-    "display": "Swab Orofaríngeo"
+    "display": "Swab Orofaringeo"
   }, {
     "code": "INODER",
-    "display": "Inoculação intradérmica"
+    "display": "Inoculacao intradermica"
   }, {
     "code": "LAVBRO",
-    "display": "Lavado Brônquico"
+    "display": "Lavado Bronquico"
   }, {
     "code": "LAVBRA",
-    "display": "Lavado Brônquico Alveolar"
+    "display": "Lavado Bronquico Alveolar"
   }, {
     "code": "SWNAS",
     "display": "Swab Nasal"
   }, {
     "code": "SWLSP",
-    "display": "Swab de lesão de pele"
+    "display": "Swab de lesao de pele"
   }, {
     "code": "INFP",
     "display": "Infiltrado pulmonar"
@@ -92,13 +92,13 @@
     "display": "Coriza"
   }, {
     "code": "SECBRO",
-    "display": "Secreção brônquica"
+    "display": "Secrecao bronquica"
   }, {
     "code": "FGMT",
     "display": "Fragmento"
   }, {
     "code": "SECPEN",
-    "display": "Secreção peniana"
+    "display": "Secrecao peniana"
   }, {
     "code": "RASPEL",
     "display": "Raspado de pele"
@@ -107,22 +107,22 @@
     "display": "Exsudato de Nasofaringe"
   }, {
     "code": "SECOC",
-    "display": "Secreção ocular"
+    "display": "Secrecao ocular"
   }, {
     "code": "SNCCEB",
-    "display": "Fragmento do tecido do SNC - cérebro"
+    "display": "Fragmento do tecido do SNC - cerebro"
   }, {
     "code": "SECONF",
-    "display": "Secreção Orofaríngea e Nasofaríngea"
+    "display": "Secrecao Orofaringea e Nasofaringea"
   }, {
     "code": "SECNAS",
-    "display": "Secreção Nasofaríngea"
+    "display": "Secrecao Nasofaringea"
   }, {
     "code": "FGMP",
-    "display": "Fragmentos do pulmão"
+    "display": "Fragmentos do pulmao"
   }, {
     "code": "FRABAC",
-    "display": "Fragmentos de baço"
+    "display": "Fragmentos de baco"
   }, {
     "code": "SGEDT",
     "display": "Sangue com EDTA"
@@ -131,30 +131,30 @@
     "display": "Fluido oral"
   }, {
     "code": "ASPBRO",
-    "display": "Aspirado Brônquico"
+    "display": "Aspirado Bronquico"
   }, {
     "code": "FRAAMI",
     "display": "Fragmentos de ampigdalas"
   }, {
     "code": "SECTRA",
-    "display": "Secreção Traqueal"
+    "display": "Secrecao Traqueal"
   }, {
     "code": "MTBIO",
-    "display": "Material Não Biológico"
+    "display": "Material Nao Biologico"
   }, {
     "code": "FRACOR",
-    "display": "Fragmentos de coração"
+    "display": "Fragmentos de coracao"
   }, {
     "code": "FRAFIG",
-    "display": "Fragmentos de fígado"
+    "display": "Fragmentos de figado"
   }, {
     "code": "SGHEM",
     "display": "Sangue"
   }, {
     "code": "ASNAFA",
-    "display": "Aspirado Nasofaríngeo"
+    "display": "Aspirado Nasofaringeo"
   }, {
     "code": "SECORF",
-    "display": "Secreção Orofaríngea"
+    "display": "Secrecao Orofaringea"
   } ]
 }

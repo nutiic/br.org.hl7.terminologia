@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmFormaFarmaceutica",
   "version": "HEAD",
-  "name": "Brobmformafarmaceutica",
-  "title": "Formas Farmacêuticas",
+  "name": "BRObmFormaFarmaceutica",
+  "title": "Formas Farmac�uticas",
   "status": "active",
   "experimental": false,
-  "description": "Formas Farmacêuticas",
+  "description": "Formas Farmac�uticas",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -20,115 +20,115 @@
     "display": "Goma de mascar"
   }, {
     "code": "422353003",
-    "display": "Suspensão de liberação prolongada"
+    "display": "Suspensao de liberacao prolongada"
   }, {
     "code": "@brasil44682603366",
-    "display": "Cápsula mole de liberação retardada"
+    "display": "Capsula mole de liberacao retardada"
   }, {
     "code": "@brasil37603518364",
     "display": "Anel"
   }, {
     "code": "447079001",
-    "display": "Comprimido orodispersível"
+    "display": "Comprimido orodispersivel"
   }, {
     "code": "421382000",
-    "display": "Suspensão otológica"
+    "display": "Suspensao otologica"
   }, {
     "code": "421374000",
-    "display": "Comprimido de liberação retardada"
+    "display": "Comprimido de liberacao retardada"
   }, {
     "code": "421221008",
-    "display": "Suspensão para inalação"
+    "display": "Suspensao para inalacao"
   }, {
     "code": "421104008",
-    "display": "Pó aerossol"
+    "display": "Po aerossol"
   }, {
     "code": "422336005",
-    "display": "Solução nasal"
+    "display": "Solucao nasal"
   }, {
     "code": "421890007",
-    "display": "Óleo"
+    "display": "Oleo"
   }, {
     "code": "421713001",
-    "display": "Solução otológica"
+    "display": "Solucao otologica"
   }, {
     "code": "@brasil15821021611",
     "display": "Rasura"
   }, {
     "code": "@brasil63942867859",
-    "display": "Pó para suspensão para injeção de liberação prolongada"
+    "display": "Po para suspensao para injecao de liberacao prolongada"
   }, {
     "code": "@brasil58247603773",
-    "display": "Pó para colutório"
+    "display": "Po para colutorio"
   }, {
     "code": "@brasil81237140067",
-    "display": "Comprimido para colutório"
+    "display": "Comprimido para colutorio"
   }, {
     "code": "@brasil36136653465",
-    "display": "Colutório spray"
+    "display": "Colutorio spray"
   }, {
     "code": "@brasil70300988445",
-    "display": "Cápsula para inalação"
+    "display": "Capsula para inalacao"
   }, {
     "code": "@brasil63807663945",
-    "display": "Solução aerossol"
+    "display": "Solucao aerossol"
   }, {
     "code": "@brasil25602625035",
-    "display": "Sabonete líquido"
+    "display": "Sabonete liquido"
   }, {
     "code": "@brasil90534427806",
     "display": "Sabonete"
   }, {
     "code": "@brasil18206528741",
-    "display": "Solução concentrada para infusão"
+    "display": "Solucao concentrada para infusao"
   }, {
     "code": "@brasil96699270294",
-    "display": "Solução concentrada para colutório"
+    "display": "Solucao concentrada para colutorio"
   }, {
     "code": "@brasil80799640150",
-    "display": "Solução concentrada"
+    "display": "Solucao concentrada"
   }, {
     "code": "385220007",
-    "display": "Suspensão para injeção"
+    "display": "Suspensao para injecao"
   }, {
     "code": "385219001",
-    "display": "Solução para injeção"
+    "display": "Solucao para injecao"
   }, {
     "code": "385217004",
-    "display": "Gás"
+    "display": "Gas"
   }, {
     "code": "385224003",
-    "display": "Pó para suspensão para injeção"
+    "display": "Po para suspensao para injecao"
   }, {
     "code": "385223009",
-    "display": "Pó para solução para injeção"
+    "display": "Po para solucao para injecao"
   }, {
     "code": "385221006",
-    "display": "Emulsão para injeção"
+    "display": "Emulsao para injecao"
   }, {
     "code": "385178005",
     "display": "Comprimido vaginal"
   }, {
     "code": "385174007",
-    "display": "Óvulo"
+    "display": "Ovulo"
   }, {
     "code": "385172006",
-    "display": "Emulsão vaginal"
+    "display": "Emulsao vaginal"
   }, {
     "code": "385171004",
-    "display": "Suspensão vaginal"
+    "display": "Suspensao vaginal"
   }, {
     "code": "385207009",
-    "display": "Pó para inalação"
+    "display": "Po para inalacao"
   }, {
     "code": "385194003",
-    "display": "Supositório"
+    "display": "Supositorio"
   }, {
     "code": "385187001",
-    "display": "Solução retal"
+    "display": "Solucao retal"
   }, {
     "code": "420641004",
-    "display": "Solução para inalação"
+    "display": "Solucao para inalacao"
   }, {
     "code": "420460001",
     "display": "Filme"
@@ -140,31 +140,31 @@
     "display": "Implante"
   }, {
     "code": "385231004",
-    "display": "Pó para solução para infusão"
+    "display": "Po para solucao para infusao"
   }, {
     "code": "385229008",
-    "display": "Solução para infusão"
+    "display": "Solucao para infusao"
   }, {
     "code": "420954008",
-    "display": "Glóbulo"
+    "display": "Globulo"
   }, {
     "code": "420757007",
-    "display": "Granulado de liberação retardada"
+    "display": "Granulado de liberacao retardada"
   }, {
     "code": "420699003",
-    "display": "Líquido"
+    "display": "Liquido"
   }, {
     "code": "421080003",
-    "display": "Pó para suspensão"
+    "display": "Po para suspensao"
   }, {
     "code": "421079001",
     "display": "Pastilha gomosa"
   }, {
     "code": "421027002",
-    "display": "Cápsula de liberação retardada"
+    "display": "Capsula de liberacao retardada"
   }, {
     "code": "385432009",
-    "display": "Não aplicável"
+    "display": "Nao aplicavel"
   }, {
     "code": "385186005",
     "display": "Enema"
@@ -173,52 +173,52 @@
     "display": "Pomada vaginal"
   }, {
     "code": "385123004",
-    "display": "Pomada oftálmica"
+    "display": "Pomada oftalmica"
   }, {
     "code": "385116000",
     "display": "Esmalte"
   }, {
     "code": "385061003",
-    "display": "Comprimido de liberação modificada"
+    "display": "Comprimido de liberacao modificada"
   }, {
     "code": "421166008",
     "display": "Espuma"
   }, {
     "code": "420955009",
-    "display": "Pó para solução"
+    "display": "Po para solucao"
   }, {
     "code": "420386007",
-    "display": "Emulsão"
+    "display": "Emulsao"
   }, {
     "code": "1,49551110000011E+",
-    "display": "Emulsão para infusão"
+    "display": "Emulsao para infusao"
   }, {
     "code": "@brasil72847338954",
-    "display": "Solução oftálmica"
+    "display": "Solucao oftalmica"
   }, {
     "code": "@brasil29920873591",
-    "display": "Emulsão spray"
+    "display": "Emulsao spray"
   }, {
     "code": "@brasil31420910599",
-    "display": "Suspensão para injeção de liberação prolongada"
+    "display": "Suspensao para injecao de liberacao prolongada"
   }, {
     "code": "@brasil18398321796",
-    "display": "Suspensão para infusão"
+    "display": "Suspensao para infusao"
   }, {
     "code": "@brasil81634663837",
-    "display": "Suspensão de liberação retardada"
+    "display": "Suspensao de liberacao retardada"
   }, {
     "code": "@brasil23943043621",
-    "display": "Suspensão aerossol"
+    "display": "Suspensao aerossol"
   }, {
     "code": "@brasil81119980070",
-    "display": "Solução spray"
+    "display": "Solucao spray"
   }, {
     "code": "@brasil42624365486",
-    "display": "Solução de liberação prolongada"
+    "display": "Solucao de liberacao prolongada"
   }, {
     "code": "@brasil63043596776",
-    "display": "Solução concentrada para injeção"
+    "display": "Solucao concentrada para injecao"
   }, {
     "code": "@brasil9696576021",
     "display": "Dispositivo intra-uterino"
@@ -227,43 +227,43 @@
     "display": "Tablete"
   }, {
     "code": "@brasil20082225321",
-    "display": "Suspensão spray"
+    "display": "Suspensao spray"
   }, {
     "code": "385054002",
-    "display": "Cápsula de liberação modificada"
+    "display": "Capsula de liberacao modificada"
   }, {
     "code": "103329007",
-    "display": "Não disponível"
+    "display": "Nao disponivel"
   }, {
     "code": "37937005",
     "display": "Pasta"
   }, {
     "code": "@brasil6125846235",
-    "display": "Gel de liberação prolongada"
+    "display": "Gel de liberacao prolongada"
   }, {
     "code": "420736004",
-    "display": "suspensão oftálmica"
+    "display": "suspensao oftalmica"
   }, {
     "code": "385052003",
-    "display": "Cápsula gastrorresistente"
+    "display": "Capsula gastrorresistente"
   }, {
     "code": "@brasil63256923",
-    "display": "pó e diluente para injeção"
+    "display": "po e diluente para injecao"
   }, {
     "code": "385222004",
-    "display": "pó para injeção"
+    "display": "po para injecao"
   }, {
     "code": "385122009",
-    "display": "Gel oftálmico"
+    "display": "Gel oftalmico"
   }, {
     "code": "7376011000001109",
-    "display": "Pó e diluente para suspensão para injeção"
+    "display": "Po e diluente para suspensao para injecao"
   }, {
     "code": "7375911000001101",
-    "display": "Pó e diluente para solução para injeção"
+    "display": "Po e diluente para solucao para injecao"
   }, {
     "code": "422080000",
-    "display": "Suspensão nasal"
+    "display": "Suspensao nasal"
   }, {
     "code": "385166006",
     "display": "Gel vaginal"
@@ -272,7 +272,7 @@
     "display": "Comprimido gastrorresistente"
   }, {
     "code": "17519006",
-    "display": "Loção"
+    "display": "Locao"
   }, {
     "code": "3095111000001104",
     "display": "Tintura"
@@ -284,94 +284,94 @@
     "display": "linimento"
   }, {
     "code": "@brasil671309453",
-    "display": "implante de liberação prolongada"
+    "display": "implante de liberacao prolongada"
   }, {
     "code": "@brasil87965832",
-    "display": "solução para injeção de liberação prolongada"
+    "display": "solucao para injecao de liberacao prolongada"
   }, {
     "code": "@brasil6596565",
     "display": "pastilha"
   }, {
     "code": "@brasil9666",
-    "display": "emulsão oftálmica"
+    "display": "emulsao oftalmica"
   }, {
     "code": "426837007",
     "display": "Inalante"
   }, {
     "code": "385025008",
-    "display": "emulsão oral"
+    "display": "emulsao oral"
   }, {
     "code": "385188006",
-    "display": "suspensão retal"
+    "display": "suspensao retal"
   }, {
     "code": "385055001",
     "display": "Comprimido"
   }, {
     "code": "@brasil256977325",
-    "display": "pó e diluente para suspensão para injeção de liberação prolongada"
+    "display": "po e diluente para suspensao para injecao de liberacao prolongada"
   }, {
     "code": "@brasil43029831",
-    "display": "Bálsamo"
+    "display": "Balsamo"
   }, {
     "code": "385027000",
-    "display": "Pó para suspensão oral"
+    "display": "Po para suspensao oral"
   }, {
     "code": "385028005",
-    "display": "Granulado para solução"
+    "display": "Granulado para solucao"
   }, {
     "code": "385024007",
-    "display": "Suspensão oral"
+    "display": "Suspensao oral"
   }, {
     "code": "385026009",
-    "display": "Pó para solução oral"
+    "display": "Po para solucao oral"
   }, {
     "code": "385032004",
     "display": "Xarope"
   }, {
     "code": "385029002",
-    "display": "Granulado para suspensão"
+    "display": "Granulado para suspensao"
   }, {
     "code": "385035002",
-    "display": "Comprimido para solução"
+    "display": "Comprimido para solucao"
   }, {
     "code": "385036001",
-    "display": "Comprimido para suspensão"
+    "display": "Comprimido para suspensao"
   }, {
     "code": "11190007",
-    "display": "Bastão"
+    "display": "Bastao"
   }, {
     "code": "66076007",
-    "display": "Comprimido mastigável"
+    "display": "Comprimido mastigavel"
   }, {
     "code": "385049006",
-    "display": "cápsula"
+    "display": "capsula"
   }, {
     "code": "@brasil93552987144",
-    "display": "cápsula mole de liberação prolongada"
+    "display": "capsula mole de liberacao prolongada"
   }, {
     "code": "7946007",
-    "display": "Suspensão"
+    "display": "Suspensao"
   }, {
     "code": "77899000",
-    "display": "Solução"
+    "display": "Solucao"
   }, {
     "code": "70409003",
-    "display": "Colutório"
+    "display": "Colutorio"
   }, {
     "code": "85581007",
-    "display": "Pó"
+    "display": "Po"
   }, {
     "code": "385023001",
-    "display": "Solução oral"
+    "display": "Solucao oral"
   }, {
     "code": "385058004",
     "display": "Comprimido efervescente"
   }, {
     "code": "385053008",
-    "display": "Cápsula de liberação prolongada"
+    "display": "Capsula de liberacao prolongada"
   }, {
     "code": "385060002",
-    "display": "Comprimido de liberação prolongada"
+    "display": "Comprimido de liberacao prolongada"
   }, {
     "code": "385084005",
     "display": "Comprimido sublingual"
@@ -380,16 +380,16 @@
     "display": "Granulado efervescente"
   }, {
     "code": "385042002",
-    "display": "Pó efervescente"
+    "display": "Po efervescente"
   }, {
     "code": "385043007",
     "display": "Granulado"
   }, {
     "code": "385046004",
-    "display": "Granulado de liberação prolongada"
+    "display": "Granulado de liberacao prolongada"
   }, {
     "code": "385051005",
-    "display": "Cápsula mole"
+    "display": "Capsula mole"
   }, {
     "code": "385101003",
     "display": "Pomada"
@@ -407,12 +407,12 @@
     "display": "Emplastro"
   }, {
     "code": "385114002",
-    "display": "Adesivo Transdérmico"
+    "display": "Adesivo Transdermico"
   }, {
     "code": "385165005",
     "display": "Creme vaginal"
   }, {
     "code": "385170003",
-    "display": "Solução vaginal"
+    "display": "Solucao vaginal"
   } ]
 }

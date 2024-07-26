@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Tipo de Resultado RSBAC 1.0",
   "experimental": false,
-  "name": "Brtiporesultadorsbac",
+  "name": "BRTipoResultadoRSBAC",
   "status": "active",
   "kind": "codesystem",
   "description": "Tipo de Resultado RSBAC 1.0",

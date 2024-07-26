@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmCategoriaControlados",
   "version": "HEAD",
-  "name": "Brobmcategoriacontrolados",
+  "name": "BRObmCategoriaControlados",
   "title": "BROBM Categoria Controlados",
   "status": "active",
   "experimental": false,
@@ -13,67 +13,67 @@
   "content": "complete",
   "concept": [ {
     "code": "0016",
-    "display": "Lista C3 (Substâncias Imunossupressoras) - ADENDO"
+    "display": "Lista C3 (Substancias Imunossupressoras) - ADENDO"
   }, {
     "code": "0012",
-    "display": "Lista C1 (Substâncias Sujeitas à Controle Especial) - ADENDO"
+    "display": "Lista C1 (Substancias Sujeitas a Controle Especial) - ADENDO"
   }, {
     "code": "0014",
-    "display": "Lista C2 (Substâncias Retinóicas) - ADENDO"
+    "display": "Lista C2 (Substancias Retinoicas) - ADENDO"
   }, {
     "code": "0018",
-    "display": "Lista C5 (Substâncias Anabolizantes) - ADENDO"
+    "display": "Lista C5 (Substancias Anabolizantes) - ADENDO"
   }, {
     "code": "0019",
-    "display": "Lista D1 (Substâncias precursoras de entorpecentes e/ou psicotrópicos)"
+    "display": "Lista D1 (Substancias precursoras de entorpecentes e/ou psicotropicos)"
   }, {
     "code": "0004",
-    "display": "Lista A2 (Substâncias Entorpecentes de uso permitido em concentrações especiais) - ADENDO"
+    "display": "Lista A2 (Substancias Entorpecentes de uso permitido em concentracoes especiais) - ADENDO"
   }, {
     "code": "0000",
     "display": "Sem Status de Controle Especial"
   }, {
     "code": "0002",
-    "display": "Lista A1 (Substâncias Entorpecentes) - ADENDO"
+    "display": "Lista A1 (Substancias Entorpecentes) - ADENDO"
   }, {
     "code": "0008",
-    "display": "Lista B1 (Substâncias Psicotrópicas) - ADENDO"
+    "display": "Lista B1 (Substancias Psicotropicas) - ADENDO"
   }, {
     "code": "0006",
-    "display": "Lista A3 (Substâncias Psicotrópicas) - ADENDO"
+    "display": "Lista A3 (Substancias Psicotropicas) - ADENDO"
   }, {
     "code": "0010",
-    "display": "Lista B2 (Substâncias Psicotrópicas Anorexígenas) - ADENDO"
+    "display": "Lista B2 (Substancias Psicotropicas Anorexigenas) - ADENDO"
   }, {
     "code": "00007",
-    "display": "Lista B1 (Substâncias Psicotrópicas)"
+    "display": "Lista B1 (Substancias Psicotropicas)"
   }, {
     "code": "00005",
-    "display": "Lista A3 (Substâncias Psicotrópicas)"
+    "display": "Lista A3 (Substancias Psicotropicas)"
   }, {
     "code": "00009",
-    "display": "Lista B2 (Substâncias Psicotrópicas Anorexígenas)"
+    "display": "Lista B2 (Substancias Psicotropicas Anorexigenas)"
   }, {
     "code": "00001",
-    "display": "Lista A1 (Substâncias Entorpecentes)"
+    "display": "Lista A1 (Substancias Entorpecentes)"
   }, {
     "code": "103329007",
-    "display": "Não disponível"
+    "display": "Nao disponivel"
   }, {
     "code": "00003",
-    "display": "Lista A2 (Substâncias Entorpecentes de uso permitido em concentrações especiais)"
+    "display": "Lista A2 (Substancias Entorpecentes de uso permitido em concentracoes especiais)"
   }, {
     "code": "00015",
-    "display": "Lista C3 (Substâncias Imunossupressoras)"
+    "display": "Lista C3 (Substancias Imunossupressoras)"
   }, {
     "code": "00011",
-    "display": "Lista C1 (Substâncias Sujeitas à Controle Especial)"
+    "display": "Lista C1 (Substancias Sujeitas a Controle Especial)"
   }, {
     "code": "00013",
-    "display": "Lista C2 (Substâncias Retinóicas)"
+    "display": "Lista C2 (Substancias Retinoicas)"
   }, {
     "code": "00017",
-    "display": "Lista C5 (Substâncias Anabolizantes)"
+    "display": "Lista C5 (Substancias Anabolizantes)"
   }, {
     "code": "00020",
     "display": "Antimicrobianos"

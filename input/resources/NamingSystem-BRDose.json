@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Dose de Vacina",
   "experimental": false,
-  "name": "Brdose",
+  "name": "BRDose",
   "status": "active",
   "kind": "codesystem",
   "description": "Dose de Vacina",

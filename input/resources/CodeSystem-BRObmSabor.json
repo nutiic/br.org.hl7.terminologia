@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmSabor",
   "version": "HEAD",
-  "name": "Brobmsabor",
+  "name": "BRObmSabor",
   "title": "Sabores",
   "status": "active",
   "experimental": false,
@@ -17,7 +17,7 @@
     "display": "uva"
   }, {
     "code": "0072",
-    "display": "limão e erva"
+    "display": "limao e erva"
   }, {
     "code": "0071",
     "display": "laranja e baunilha"
@@ -29,16 +29,16 @@
     "display": "sortido"
   }, {
     "code": "0074",
-    "display": "alcaçuz e anis"
+    "display": "alcacuz e anis"
   }, {
     "code": "0067",
     "display": "banana e baunilha"
   }, {
     "code": "0066",
-    "display": "mel e limão"
+    "display": "mel e limao"
   }, {
     "code": "0065",
-    "display": "maracujá"
+    "display": "maracuja"
   }, {
     "code": "0064",
     "display": "banana e morango"
@@ -56,19 +56,19 @@
     "display": "amora preta"
   }, {
     "code": "0081",
-    "display": "alcaçuz"
+    "display": "alcacuz"
   }, {
     "code": "0080",
-    "display": "gengibre e limão"
+    "display": "gengibre e limao"
   }, {
     "code": "0079",
-    "display": "limão e creme"
+    "display": "limao e creme"
   }, {
     "code": "0078",
     "display": "original"
   }, {
     "code": "0077",
-    "display": "morango e hortelã"
+    "display": "morango e hortela"
   }, {
     "code": "0085",
     "display": "morango silvestre"
@@ -77,7 +77,7 @@
     "display": "rosa mosqueta e groselha"
   }, {
     "code": "0083",
-    "display": "cenoura e maça"
+    "display": "cenoura e maca"
   }, {
     "code": "0088",
     "display": "menta fresca"
@@ -86,10 +86,10 @@
     "display": "pera e gengibre"
   }, {
     "code": "0086",
-    "display": "maçã e canela"
+    "display": "maca e canela"
   }, {
     "code": "0048",
-    "display": "não aromatizado"
+    "display": "nao aromatizado"
   }, {
     "code": "0047",
     "display": "tutti frutti"
@@ -98,7 +98,7 @@
     "display": "frutas tropicais"
   }, {
     "code": "0051",
-    "display": "baunilha e limão"
+    "display": "baunilha e limao"
   }, {
     "code": "0050",
     "display": "creme vegetal"
@@ -122,16 +122,16 @@
     "display": "caramelo"
   }, {
     "code": "0044",
-    "display": "frutas do verão"
+    "display": "frutas do verao"
   }, {
     "code": "0043",
     "display": "morango e framboesa"
   }, {
     "code": "0057",
-    "display": "hortelã-pimenta"
+    "display": "hortela-pimenta"
   }, {
     "code": "0056",
-    "display": "avelã"
+    "display": "avela"
   }, {
     "code": "0055",
     "display": "erva"
@@ -146,16 +146,16 @@
     "display": "tomate"
   }, {
     "code": "0060",
-    "display": "chá"
+    "display": "cha"
   }, {
     "code": "0059",
-    "display": "hortelã-verde"
+    "display": "hortela-verde"
   }, {
     "code": "0058",
     "display": "abacaxi e baunilha"
   }, {
     "code": "0063",
-    "display": "limão e anis"
+    "display": "limao e anis"
   }, {
     "code": "0062",
     "display": "chiclete"
@@ -170,16 +170,16 @@
     "display": "milho doce"
   }, {
     "code": "0105",
-    "display": "erva balsâmica"
+    "display": "erva balsamica"
   }, {
     "code": "0104",
-    "display": "gengibre e limão"
+    "display": "gengibre e limao"
   }, {
     "code": "0103",
     "display": "pralina"
   }, {
     "code": "0102",
-    "display": "damasco e pêssego"
+    "display": "damasco e pessego"
   }, {
     "code": "0110",
     "display": "oxicoco e groselha"
@@ -197,7 +197,7 @@
     "display": "jaca"
   }, {
     "code": "0111",
-    "display": "chá branco"
+    "display": "cha branco"
   }, {
     "code": "0095",
     "display": "laranja e mentol"
@@ -215,16 +215,16 @@
     "display": "fruta fresca"
   }, {
     "code": "0090",
-    "display": "arroz e limão"
+    "display": "arroz e limao"
   }, {
     "code": "0089",
     "display": "mel"
   }, {
     "code": "0098",
-    "display": "mação e morango"
+    "display": "macao e morango"
   }, {
     "code": "0097",
-    "display": "maçã e pêssego"
+    "display": "maca e pessego"
   }, {
     "code": "0096",
     "display": "toque tropical"
@@ -242,22 +242,22 @@
     "display": "coco"
   }, {
     "code": "0122",
-    "display": "hortelã e gengibre"
+    "display": "hortela e gengibre"
   }, {
     "code": "0121",
     "display": "menta"
   }, {
     "code": "0126",
-    "display": "limão"
+    "display": "limao"
   }, {
     "code": "0125",
     "display": "laranja e acerola"
   }, {
     "code": "0124",
-    "display": "guaraná"
+    "display": "guarana"
   }, {
     "code": "0117",
-    "display": "maçã e groselha"
+    "display": "maca e groselha"
   }, {
     "code": "0116",
     "display": "manga"
@@ -266,7 +266,7 @@
     "display": "oxicoco e chocolate"
   }, {
     "code": "0114",
-    "display": "manga e maracujá"
+    "display": "manga e maracuja"
   }, {
     "code": "0120",
     "display": "tangerina"
@@ -287,13 +287,13 @@
     "display": "pina colada"
   }, {
     "code": "0130",
-    "display": "abacaxi e hortelã"
+    "display": "abacaxi e hortela"
   }, {
     "code": "0129",
     "display": "camomila e erva-cidreira"
   }, {
     "code": "0127",
-    "display": "água de coco"
+    "display": "agua de coco"
   }, {
     "code": "0137",
     "display": "tradicional"
@@ -308,7 +308,7 @@
     "display": "menta e anis"
   }, {
     "code": "0139",
-    "display": "mamão-cassis"
+    "display": "mamao-cassis"
   }, {
     "code": "0138",
     "display": "acerola"
@@ -329,7 +329,7 @@
     "display": "caramelo"
   }, {
     "code": "0017",
-    "display": "cítrico"
+    "display": "citrico"
   }, {
     "code": "0015",
     "display": "choclolate"
@@ -338,19 +338,19 @@
     "display": "chocolate e menta"
   }, {
     "code": "0018",
-    "display": "café"
+    "display": "cafe"
   }, {
     "code": "0019",
     "display": "oxicoco"
   }, {
     "code": "0003",
-    "display": "maça"
+    "display": "maca"
   }, {
     "code": "0004",
-    "display": "maçã e pera"
+    "display": "maca e pera"
   }, {
     "code": "0001",
-    "display": "amêndoa"
+    "display": "amendoa"
   }, {
     "code": "0135",
     "display": "mel e eucalipto"
@@ -371,19 +371,19 @@
     "display": "groselha"
   }, {
     "code": "0009",
-    "display": "groselha e maçã"
+    "display": "groselha e maca"
   }, {
     "code": "0027",
-    "display": "hortelã"
+    "display": "hortela"
   }, {
     "code": "0025",
-    "display": "melão"
+    "display": "melao"
   }, {
     "code": "0026",
     "display": "mentol"
   }, {
     "code": "0028",
-    "display": "ágata"
+    "display": "agata"
   }, {
     "code": "0029",
     "display": "natural"
@@ -398,13 +398,13 @@
     "display": "Fruta"
   }, {
     "code": "0023",
-    "display": "batata e alho poró"
+    "display": "batata e alho poro"
   }, {
     "code": "0024",
-    "display": "limão Ginger"
+    "display": "limao Ginger"
   }, {
     "code": "0033",
-    "display": "laranja e limão"
+    "display": "laranja e limao"
   }, {
     "code": "0034",
     "display": "laranja e abacaxi"
@@ -419,10 +419,10 @@
     "display": "laranja"
   }, {
     "code": "0036",
-    "display": "pêssego e laranja"
+    "display": "pessego e laranja"
   }, {
     "code": "0035",
-    "display": "pêssego"
+    "display": "pessego"
   }, {
     "code": "0037",
     "display": "pera e cereja"

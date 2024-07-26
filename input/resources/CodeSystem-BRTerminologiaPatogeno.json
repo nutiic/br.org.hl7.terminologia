@@ -4,34 +4,34 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTerminologiaPatogeno",
   "version": "HEAD",
-  "name": "Brterminologiapatogeno",
-  "title": "Patógeno",
+  "name": "BRTerminologiaPatogeno",
+  "title": "Pat�geno",
   "status": "active",
   "experimental": false,
-  "description": "Patógeno",
+  "description": "Pat�geno",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "02",
-    "display": "Orthopoxvirus não-varíola"
+    "display": "Orthopoxvirus nao-variola"
   }, {
     "code": "06",
-    "display": "Vírus Pseudovaríola"
+    "display": "Virus Pseudovariola"
   }, {
     "code": "05",
-    "display": "Vírus Orf"
+    "display": "Virus Orf"
   }, {
     "code": "01",
-    "display": "Orthopoxvirus (nome do gênero do vírus)"
+    "display": "Orthopoxvirus (nome do genero do virus)"
   }, {
     "code": "07",
     "display": "SARS-CoV-2"
   }, {
     "code": "03",
-    "display": "Vírus Monkeypox"
+    "display": "Virus Monkeypox"
   }, {
     "code": "04",
-    "display": "Parapoxvirus (nome do gênero do vírus)"
+    "display": "Parapoxvirus (nome do genero do virus)"
   } ]
 }

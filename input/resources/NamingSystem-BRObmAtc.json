@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Categorias ATC",
   "experimental": false,
-  "name": "Brobmatc",
+  "name": "BRObmAtc",
   "status": "active",
   "kind": "codesystem",
   "description": "Categorias ATC",

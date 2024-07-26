@@ -4,23 +4,23 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmIndustriaFarmaceutica",
   "version": "HEAD",
-  "name": "Brobmindustriafarmaceutica",
-  "title": "Indústrias Farmacêuticas",
+  "name": "BRObmIndustriaFarmaceutica",
+  "title": "Ind�strias Farmac�uticas",
   "status": "active",
   "experimental": false,
-  "description": "Indústrias Farmacêuticas",
+  "description": "Ind�strias Farmac�uticas",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "@brasil71926802183",
-    "display": "DFL INDÚSTRIA E COMÉRCIO S.A."
+    "display": "DFL INDUSTRIA E COMERCIO S.A."
   }, {
     "code": "@brasil71393030448",
     "display": "SPECIALTY PHARMA GOIAS LTDA"
   }, {
     "code": "@brasil71926689292",
-    "display": "MAPPEL INDÚSTRIA DE EMBALAGENS S.A."
+    "display": "MAPPEL INDUSTRIA DE EMBALAGENS S.A."
   }, {
     "code": "@brasil71397273740",
     "display": "FRESENIUS KABI BRASIL LTDA"
@@ -35,10 +35,10 @@
     "display": "FERINHA FABRICACAO DE FRALDAS DESCARTAVEIS E PRODUTOS HIGIENICOS EIRELI"
   }, {
     "code": "@brasil71388641612",
-    "display": "UCI - FARMA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "UCI - FARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71917821800",
-    "display": "SECRETARIA DE ESTADO DA SAÚDE"
+    "display": "SECRETARIA DE ESTADO DA SAUDE"
   }, {
     "code": "@brasil71388528411",
     "display": "INSTITUTO VITAL BRAZIL S.A."
@@ -56,22 +56,22 @@
     "display": "DLA PHARMACEUTICAL LTDA"
   }, {
     "code": "@brasil71948233121",
-    "display": "LIBBS FARMACÊUTICA LTDA"
+    "display": "LIBBS FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71402476538",
-    "display": "HYPOFARMA - INSTITUTO DE HYPODERMIA E FARMÁCIA LTDA"
+    "display": "HYPOFARMA - INSTITUTO DE HYPODERMIA E FARMACIA LTDA"
   }, {
     "code": "@brasil71947062999",
     "display": "IFAL INDUSTRIA E COMERCIO DE PRODUTOS FARMAC LTDA"
   }, {
     "code": "@brasil71400062471",
-    "display": "PRODUTOS FARMACÊUTICOS GUNTHER DO BRASIL LTDA"
+    "display": "PRODUTOS FARMACEUTICOS GUNTHER DO BRASIL LTDA"
   }, {
     "code": "@brasil71945862409",
     "display": "BIOWELL AMERICA LTDA"
   }, {
     "code": "@brasil71950813239",
-    "display": "AUROBINDO PHARMA INDÚSTRIA FARMACÊUTICA LIMITADA"
+    "display": "AUROBINDO PHARMA INDUSTRIA FARMACEUTICA LIMITADA"
   }, {
     "code": "@brasil71405381250",
     "display": "LABORATORIOS PFIZER LTDA"
@@ -89,7 +89,7 @@
     "display": "REM INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71365745102",
-    "display": "BRACCO IMAGING DO BRASIL IMPORTAÇÃO E DISTRIBUIÇÃO DE MEDICAMENTOS LTDA"
+    "display": "BRACCO IMAGING DO BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71890130749",
     "display": "JP INDUSTRIA FARMACEUTICA S.A."
@@ -104,7 +104,7 @@
     "display": "LABORATORIO SIMOES LTDA"
   }, {
     "code": "@brasil71893866119",
-    "display": "BL INDÚSTRIA OTICA LTDA"
+    "display": "BL INDUSTRIA OTICA LTDA"
   }, {
     "code": "@brasil71886204544",
     "display": "QUIMICA FARMACEUTICA NIKKHO DO BRASIL LTDA"
@@ -113,7 +113,7 @@
     "display": "ERIOCHEM ZENITEC LTDA - ME"
   }, {
     "code": "@brasil71885432986",
-    "display": "GEOLAB INDÚSTRIA FARMACÊUTICA S.A."
+    "display": "GEOLAB INDUSTRIA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71350155664",
     "display": "WASSER FARMA LTDA"
@@ -128,31 +128,31 @@
     "display": "CELLTRION HEALTHCARE DISTRIBUICAO DE PRODUTOS FARMACEUTICOS DOS BRASIL LTDA"
   }, {
     "code": "@brasil71900047869",
-    "display": "TÉ GUARANI DO BRASIL LTDA"
+    "display": "TE GUARANI DO BRASIL LTDA"
   }, {
     "code": "@brasil71380073820",
     "display": "BAYER S.A."
   }, {
     "code": "@brasil71897638705",
-    "display": "BOIRON MEDICAMENTOS HOMEOPÁTICOS LTDA"
+    "display": "BOIRON MEDICAMENTOS HOMEOPATICOS LTDA"
   }, {
     "code": "@brasil71376014929",
-    "display": "BRASTERAPICA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "BRASTERAPICA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71896942403",
-    "display": "LABORATÓRIO INDUSTRIAL FARMACÊUTICO ROCHA LTDA"
+    "display": "LABORATORIO INDUSTRIAL FARMACEUTICO ROCHA LTDA"
   }, {
     "code": "@brasil71370291589",
-    "display": "PANAMERICAN MEDICAL SUPPLY SUPRIMENTOS MÉDICOS LTDA"
+    "display": "PANAMERICAN MEDICAL SUPPLY SUPRIMENTOS MEDICOS LTDA"
   }, {
     "code": "@brasil71383811025",
-    "display": "BLISFARMA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "BLISFARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71900825714",
     "display": "OPHTHALMOS S.A."
   }, {
     "code": "@brasil71380672987",
-    "display": "PHARMEDIC PHARMACEUTICALS IMPORTAÇÃO, DISTRIBUIÇÃO, COMÉRCIO E REPRESENTAÇÕES LTDA"
+    "display": "PHARMEDIC PHARMACEUTICALS IMPORTACAO, DISTRIBUICAO, COMERCIO E REPRESENTACOES LTDA"
   }, {
     "code": "@brasil71904117841",
     "display": "LEO PHARMA LTDA"
@@ -161,7 +161,7 @@
     "display": "EVER GREEN INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71902944978",
-    "display": "NOVA QUIMICA FARMACÊUTICA S.A."
+    "display": "NOVA QUIMICA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71969800567",
     "display": "LAPON INDUSTRIA FARMACEUTICA LTDA - EPP"
@@ -173,19 +173,19 @@
     "display": "MASTERS SPECIALITY PHARMA LTDA"
   }, {
     "code": "@brasil71427629934",
-    "display": "Aurobindo Pharma Produtos Farmacêuticos Ltda"
+    "display": "Aurobindo Pharma Produtos Farmaceuticos Ltda"
   }, {
     "code": "@brasil71965287222",
     "display": "GERMED FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71425766570",
-    "display": "ZODIAC PRODUTOS FARMACÊUTICOS S.A."
+    "display": "ZODIAC PRODUTOS FARMACEUTICOS S.A."
   }, {
     "code": "@brasil71432039779",
     "display": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
   }, {
     "code": "@brasil71970471463",
-    "display": "ARRAYANES PRODUTOS HIGIÊNICOS INDÚSTRIA E COMÉRCIO EIRELI"
+    "display": "ARRAYANES PRODUTOS HIGIENICOS INDUSTRIA E COMERCIO EIRELI"
   }, {
     "code": "@brasil71429449662",
     "display": "PINT PHARMA PRODUTOS MEDICO-HOSPITALARES E FARMACEUTICOS LTDA"
@@ -194,16 +194,16 @@
     "display": "EMBRAFRAL INDUSTRIA E COMERCIO DE FRALDAS LTDA"
   }, {
     "code": "@brasil71433940070",
-    "display": "VALEANT FARMACÊUTICA DO BRASIL LTDA"
+    "display": "VALEANT FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71971196053",
-    "display": "DR. REDDYS FARMACÊUTICA DO BRASIL LTDA"
+    "display": "DR. REDDYS FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71957841708",
     "display": "MERCK SHARP & DOHME FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71414661047",
-    "display": "SUPERA FARMA LABORATÓRIOS S.A."
+    "display": "SUPERA FARMA LABORATORIOS S.A."
   }, {
     "code": "@brasil71957379421",
     "display": "TORRENT DO BRASIL LTDA"
@@ -215,28 +215,28 @@
     "display": "GILEAD SCIENCES FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71413291649",
-    "display": "MINÂNCORA & CIA LTDA"
+    "display": "MINANCORA & CIA LTDA"
   }, {
     "code": "@brasil71954255577",
-    "display": "ZYDUS NIKKHO FARMACÊUTICA LTDA"
+    "display": "ZYDUS NIKKHO FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71422543569",
-    "display": "BIOGEN BRASIL PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "BIOGEN BRASIL PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71958985213",
-    "display": "R2 SOLUÇÕES EM RADIOFARMÁCIA LTDA."
+    "display": "R2 SOLUCOES EM RADIOFARMACIA LTDA."
   }, {
     "code": "@brasil71416372359",
-    "display": "LABORATÓRIO TEUTO BRASILEIRO S.A."
+    "display": "LABORATORIO TEUTO BRASILEIRO S.A."
   }, {
     "code": "@brasil71962404208",
-    "display": "MABRA FARMACÊUTICA LTDA"
+    "display": "MABRA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71425699964",
     "display": "WF INDUSTRIA E COMERCIO DE FRALDAS EIRELI"
   }, {
     "code": "@brasil71959557319",
-    "display": "CHRON EPIGEN INDÚSTRIA E COMÉRCIO LTDA"
+    "display": "CHRON EPIGEN INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71987143894",
     "display": "MIDFARMA PRODUTOS FARMACEUTICOS LTDA"
@@ -245,16 +245,16 @@
     "display": "FRALDAS CK INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71986964044",
-    "display": "MANDALA BRASIL IMPORTAÇÃO E DISTRIBUIÇÃO DE PRODUTO MÉDICO HOSPITALAR LTDA"
+    "display": "MANDALA BRASIL IMPORTACAO E DISTRIBUICAO DE PRODUTO MEDICO HOSPITALAR LTDA"
   }, {
     "code": "@brasil71451374139",
     "display": "CLIN OFF DO BRASIL S.A."
   }, {
     "code": "@brasil71989005996",
-    "display": "LABORATÓRIOS PIERRE FABRE DO BRASIL LTDA"
+    "display": "LABORATORIOS PIERRE FABRE DO BRASIL LTDA"
   }, {
     "code": "@brasil71451287190",
-    "display": "VIDORA FARMACÊUTICA LTDA"
+    "display": "VIDORA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71975894101",
     "display": "ALKO DO BRASIL INDUSTRIA E COMERCIO LTDA"
@@ -263,7 +263,7 @@
     "display": "ONEFARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71975486938",
-    "display": "INDÚSTRIA FARMACÊUTICA ESTERLINA LTDA"
+    "display": "INDUSTRIA FARMACEUTICA ESTERLINA LTDA"
   }, {
     "code": "@brasil71438380534",
     "display": "MAFRA IMPORTACAO, INDUSTRIA E COMERCIO DE PRODUTOS HIGIENICOS LTDA"
@@ -272,22 +272,22 @@
     "display": "BELFAR LTDA"
   }, {
     "code": "@brasil71982357177",
-    "display": "MANTECORP INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A."
+    "display": "MANTECORP INDUSTRIA QUIMICA E FARMACEUTICA S.A."
   }, {
     "code": "@brasil71440971791",
-    "display": "LABORATÓRIO BRASILEIRO DE BIOLOGIA LTDA"
+    "display": "LABORATORIO BRASILEIRO DE BIOLOGIA LTDA"
   }, {
     "code": "@brasil71454076875",
-    "display": "GLENMARK FARMACÊUTICA LTDA"
+    "display": "GLENMARK FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71997805306",
     "display": "BIOMM SA"
   }, {
     "code": "@brasil71453515464",
-    "display": "NEOLATINA COMÉRCIO E INDÚSTRIA FARMACEUTICA S.A."
+    "display": "NEOLATINA COMERCIO E INDUSTRIA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71994816764",
-    "display": "SALBEGO LABORATÓRIO FARMACÊUTICO LTDA"
+    "display": "SALBEGO LABORATORIO FARMACEUTICO LTDA"
   }, {
     "code": "@brasil71451915325",
     "display": "THEODORO F SOBRAL & CIA LTDA"
@@ -296,22 +296,22 @@
     "display": "CAMBER FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71456659566",
-    "display": "FUNDAÇÃO ATAULPHO DE PAIVA"
+    "display": "FUNDACAO ATAULPHO DE PAIVA"
   }, {
     "code": "@brasil71455709985",
     "display": "UPJOHN BRASIL IMPORTADORA E DISTRIBUIDORA DE MEDICAMENTOS LTDA."
   }, {
     "code": "@brasil71999909201",
-    "display": "FBM INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "FBM INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71468292973",
     "display": "EMS S.A."
   }, {
     "code": "@brasil71461316129",
-    "display": "JOHNSON & JOHNSON DO BRASIL INDÚSTRIA E COMÉRCIO DE PRODUTOS PARA SAÚDE LTDA"
+    "display": "JOHNSON & JOHNSON DO BRASIL INDUSTRIA E COMERCIO DE PRODUTOS PARA SAUDE LTDA"
   }, {
     "code": "@brasil71456688467",
-    "display": "Mundipharma Brasil Produtos Médicos E Farmacêuticos Ltda"
+    "display": "Mundipharma Brasil Produtos Medicos E Farmaceuticos Ltda"
   }, {
     "code": "@brasil71285361888",
     "display": "MJM PRODUTOS FARMACEUTICOS E DE RADIOPROTECAO S.A."
@@ -326,10 +326,10 @@
     "display": "BIOPAS BRASIL PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71285716095",
-    "display": "BLANVER FARMOQUÍMICA LTDA"
+    "display": "BLANVER FARMOQUIMICA LTDA"
   }, {
     "code": "@brasil71787702929",
-    "display": "INSTITUTO BIOCHIMICO INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "INSTITUTO BIOCHIMICO INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71277095526",
     "display": "MEGAFRAL INDUSTRIA E COMERCIO LTDA"
@@ -344,19 +344,19 @@
     "display": "MULTILAB INDUSTRIA E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71774817529",
-    "display": "LABORATÓRIOS LIBRA DO BRASIL LTDA"
+    "display": "LABORATORIOS LIBRA DO BRASIL LTDA"
   }, {
     "code": "@brasil71278417126",
     "display": "GEDEON RICHTER DO BRASIL IMPORTADORA, EXPORTADORA E DISTRIBUIDORA"
   }, {
     "code": "@brasil71774479592",
-    "display": "BLISFARMA INDÚSTRIA FARMACÊUTICA LTDA - ME"
+    "display": "BLISFARMA INDUSTRIA FARMACEUTICA LTDA - ME"
   }, {
     "code": "@brasil71794825270",
-    "display": "INDÚSTRIA QUÍMICA DO ESTADO DE GOIÁS S/A - IQUEGO"
+    "display": "INDUSTRIA QUIMICA DO ESTADO DE GOIAS S/A - IQUEGO"
   }, {
     "code": "@brasil71292369872",
-    "display": "LABORATÓRIO HEPACHOLAN S.A."
+    "display": "LABORATORIO HEPACHOLAN S.A."
   }, {
     "code": "@brasil71793462884",
     "display": "BLANVER FARMOQUIMICA LTDA"
@@ -365,49 +365,49 @@
     "display": "QUIMIOTERAPICA BRASILEIRA LTDA"
   }, {
     "code": "@brasil71788115506",
-    "display": "MYRALIS INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "MYRALIS INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71287112227",
     "display": "AMRYT BRASIL COMERCIO E IMPORTACAO DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71295969912",
-    "display": "ABBOTT LABORATÓRIOS DO BRASIL LTDA"
+    "display": "ABBOTT LABORATORIOS DO BRASIL LTDA"
   }, {
     "code": "@brasil71795843106",
-    "display": "LABORATÓRIO GROSS S.A."
+    "display": "LABORATORIO GROSS S.A."
   }, {
     "code": "@brasil71294209411",
-    "display": "FUNDAÇÃO EZEQUIEL DIAS - FUNED"
+    "display": "FUNDACAO EZEQUIEL DIAS - FUNED"
   }, {
     "code": "@brasil71807301604",
-    "display": "SOCIEDADE FARMACÊUTICA HENFER LTDA"
+    "display": "SOCIEDADE FARMACEUTICA HENFER LTDA"
   }, {
     "code": "@brasil71300173361",
     "display": "APIS FLORA INDUSTRIAL E COMERCIAL LTDA"
   }, {
     "code": "@brasil71804480376",
-    "display": "SHIRE FARMACÊUTICA BRASIL LTDA"
+    "display": "SHIRE FARMACEUTICA BRASIL LTDA"
   }, {
     "code": "@brasil71257350235",
-    "display": "LABORATÓRIOS BALDACCI LTDA"
+    "display": "LABORATORIOS BALDACCI LTDA"
   }, {
     "code": "@brasil71749302497",
-    "display": "ANTIBIÓTICOS DO BRASIL LTDA"
+    "display": "ANTIBIOTICOS DO BRASIL LTDA"
   }, {
     "code": "@brasil71256784938",
-    "display": "ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A."
+    "display": "ACHE LABORATORIOS FARMACEUTICOS S.A."
   }, {
     "code": "@brasil71752710117",
     "display": "UCB BIOPHARMA S.A."
   }, {
     "code": "@brasil71259463895",
-    "display": "UNICHEM FARMACÊUTICA DO BRASIL LTDA"
+    "display": "UNICHEM FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71751533880",
     "display": "SS WHITE ARTIGOS DENTARIOS LTDA"
   }, {
     "code": "@brasil71249493692",
-    "display": "LABORATÓRIO NEO QUÍMICA COMÉRCIO E INDÚSTRIA LTDA"
+    "display": "LABORATORIO NEO QUIMICA COMERCIO E INDUSTRIA LTDA"
   }, {
     "code": "@brasil71733723635",
     "display": "BAXTER HOSPITALAR LTDA"
@@ -416,7 +416,7 @@
     "display": "LATINOFARMA INDUSTRIAS FARMACEUTICAS LTDA"
   }, {
     "code": "@brasil71733546983",
-    "display": "BALM-LABOR INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "BALM-LABOR INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71746465482",
     "display": "HOMEOPATIA WALDEMIRO PEREIRA LABORATORIO INDUSTRIAL FARMACEUTICO LTDA"
@@ -446,28 +446,28 @@
     "display": "CARINHO INDUSTRIA COMERCIO IMPORTACAO E EXPORTACAO LTDA"
   }, {
     "code": "@brasil71762291773",
-    "display": "IMEC - INDÚSTRIA DE MEDICAMENTOS CUSTÓDIA LTDA"
+    "display": "IMEC - INDUSTRIA DE MEDICAMENTOS CUSTODIA LTDA"
   }, {
     "code": "@brasil71270347893",
-    "display": "ACCORD FARMACÊUTICA LTDA"
+    "display": "ACCORD FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71760639381",
     "display": "LABORATIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71274780951",
-    "display": "ISOFARMA INDUSTRIAL FARMACÊUTICA LTDA"
+    "display": "ISOFARMA INDUSTRIAL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71763996169",
-    "display": "LABORATÓRIO QUÍMICO FARMACÊUTICO BERGAMO LTDA"
+    "display": "LABORATORIO QUIMICO FARMACEUTICO BERGAMO LTDA"
   }, {
     "code": "@brasil71272553100",
     "display": "ELANCO SAUDE ANIMAL LTDA"
   }, {
     "code": "@brasil71321688260",
-    "display": "LABORATÓRIO WESP LTDA"
+    "display": "LABORATORIO WESP LTDA"
   }, {
     "code": "@brasil71845611846",
-    "display": "MEDA PHARMA IMPORTAÇÃO E EXPORTAÇÃO DE PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "MEDA PHARMA IMPORTACAO E EXPORTACAO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71318866606",
     "display": "CIPLA BRASIL IMPORTADORA E DISTRIBUIDORA DE MEDICAMENTOS LTDA"
@@ -482,31 +482,31 @@
     "display": "JOHAN & STEFANI LTDA"
   }, {
     "code": "@brasil71849769287",
-    "display": "SCHERING DO BRASIL QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "SCHERING DO BRASIL QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71322021664",
     "display": "BELA FORTE INDUSTRIA E COMERCIO DE COSMETICOS LTDA"
   }, {
     "code": "@brasil71847753225",
-    "display": "NOVO NORDISK FARMACÊUTICA DO BRASIL LTDA"
+    "display": "NOVO NORDISK FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71329696151",
     "display": "FRESENIUS MEDICAL CARE LTDA"
   }, {
     "code": "@brasil71854267816",
-    "display": "INDÚSTRIA FARMACÊUTICA SANTA TEREZINHA LTDA - EPP"
+    "display": "INDUSTRIA FARMACEUTICA SANTA TEREZINHA LTDA - EPP"
   }, {
     "code": "@brasil71329490639",
-    "display": "LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "LEGRAND PHARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71303741688",
-    "display": "ALTHAIA S.A. INDÚSTRIA FARMACÊUTICA"
+    "display": "ALTHAIA S.A. INDUSTRIA FARMACEUTICA"
   }, {
     "code": "@brasil71816885103",
-    "display": "INSTITUTO DE TECNOLOGIA DO PARANÁ"
+    "display": "INSTITUTO DE TECNOLOGIA DO PARANA"
   }, {
     "code": "@brasil71302691104",
-    "display": "LABORATÓRIO INDUSTRIAL FARMACÊUTICO DO ESTADO DA PARAÍBA S.A."
+    "display": "LABORATORIO INDUSTRIAL FARMACEUTICO DO ESTADO DA PARAIBA S.A."
   }, {
     "code": "@brasil71814656095",
     "display": "ASTRAZENECA DO BRASIL LTDA"
@@ -518,31 +518,31 @@
     "display": "GALDERMA BRASIL LTDA"
   }, {
     "code": "@brasil71301872771",
-    "display": "SANVAL COMÉRCIO E INDÚSTRIA LTDA"
+    "display": "SANVAL COMERCIO E INDUSTRIA LTDA"
   }, {
     "code": "@brasil71825982946",
     "display": "IBF - INDUSTRIA BRASILEIRA DE FARMOQUIMICOS S.A."
   }, {
     "code": "@brasil71304739063",
-    "display": "EISAI LABORATÓRIOS LTDA"
+    "display": "EISAI LABORATORIOS LTDA"
   }, {
     "code": "@brasil71821372752",
-    "display": "SANOFI-AVENTIS FARMACÊUTICA LTDA"
+    "display": "SANOFI-AVENTIS FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71314239271",
-    "display": "BIONCOL FARMACÊUTICA LTDA."
+    "display": "BIONCOL FARMACEUTICA LTDA."
   }, {
     "code": "@brasil71828411757",
     "display": "1FARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71313187762",
-    "display": "LABORATÓRIO FARMACÊUTICO DA MARINHA"
+    "display": "LABORATORIO FARMACEUTICO DA MARINHA"
   }, {
     "code": "@brasil71340441838",
     "display": "COSMED INDUSTRIA DE COSMETICOS E MEDICAMENTOS S.A."
   }, {
     "code": "@brasil71867280172",
-    "display": "COMANDO DO EXÉRCITO"
+    "display": "COMANDO DO EXERCITO"
   }, {
     "code": "@brasil71338113916",
     "display": "HOSPIRA PRODUTOS HOSPITALARES LTDA"
@@ -551,37 +551,37 @@
     "display": "UNITHER INDUSTRIA FARMACEUTICA LTDA."
   }, {
     "code": "@brasil71343228159",
-    "display": "SCHERING-PLOUGH INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "SCHERING-PLOUGH INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71869068653",
-    "display": "HISAMITSU FARMACÊUTICA DO BRASIL LTDA"
+    "display": "HISAMITSU FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71335743128",
     "display": "HIPOLABOR FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71858506427",
-    "display": "PRODUTOS FARMACÊUTICOS MILLET ROUX"
+    "display": "PRODUTOS FARMACEUTICOS MILLET ROUX"
   }, {
     "code": "@brasil71333829564",
     "display": "EUROFRAL INDUSTRIA DE PRODUTOS HIGIENICOS E TERMOPLASTICOS LTDA"
   }, {
     "code": "@brasil71858456304",
-    "display": "CELGENE BRASIL PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "CELGENE BRASIL PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71867037487",
-    "display": "NOVAMED FABRICAÇÃO DE PRODUTOS FARMACEUTICOS LTDA"
+    "display": "NOVAMED FABRICACAO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71335870194",
-    "display": "LASA INDÚSTRIA FARMACÊUTICA LTDA."
+    "display": "LASA INDUSTRIA FARMACEUTICA LTDA."
   }, {
     "code": "@brasil71863454131",
     "display": "LONGEVITA PRODUTOS HIGIENICOS LTDA"
   }, {
     "code": "@brasil71873758202",
-    "display": "ERMON LABORATÓRIO FARMACÊUTICO LTDA"
+    "display": "ERMON LABORATORIO FARMACEUTICO LTDA"
   }, {
     "code": "@brasil71345966761",
-    "display": "LABORATÓRIOS OSÓRIO DE MORAES LTDA"
+    "display": "LABORATORIOS OSORIO DE MORAES LTDA"
   }, {
     "code": "@brasil71873581046",
     "display": "VIC PHARMA INDUSTRIA E COMERCIO LTDA"
@@ -593,7 +593,7 @@
     "display": "CAHE PRODUTOS DESCARTAVEIS LTDA"
   }, {
     "code": "@brasil71344577981",
-    "display": "LABORATÓORIO QUÍMICO E FARMACÊUTICO DA AERONÁUTICA"
+    "display": "LABORATOORIO QUIMICO E FARMACEUTICO DA AERONAUTICA"
   }, {
     "code": "@brasil71349493510",
     "display": "3M DO BRASIL LTDA"
@@ -605,16 +605,16 @@
     "display": "BESINS HEALTHCARE BRASIL COMERCIAL E DISTRIBUIDORA DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71879369039",
-    "display": "LUPER INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "LUPER INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71350005162",
     "display": "MILI S/A"
   }, {
     "code": "@brasil71879358985",
-    "display": "FARMA VISION IMPORTAÇÃO E EXPORTAÇÃO DE MEDICAMENTOS LTDA"
+    "display": "FARMA VISION IMPORTACAO E EXPORTACAO DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71183676650",
-    "display": "GE HEALTHCARE DO BRASIL COMÉRCIO E SERVIÇOS PARA EQUIPAMENTOS MEDICO-HOSPITALARES LTDA"
+    "display": "GE HEALTHCARE DO BRASIL COMERCIO E SERVICOS PARA EQUIPAMENTOS MEDICO-HOSPITALARES LTDA"
   }, {
     "code": "@brasil71656367897",
     "display": "KIMBERLY-CLARK BRASIL INDUSTRIA E COMERCIO DE PRODUTOS DE HIGIENE LTDA"
@@ -623,10 +623,10 @@
     "display": "HYGIMAX DO BRASIL INDUSTRIA E COMERCIO DE PRODUTOS HIGIENICOS LTDA"
   }, {
     "code": "@brasil71184555199",
-    "display": "SANDOZ DO BRASIL INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71664774737",
-    "display": "ASTELLAS FARMA BRASIL IMPORTAÇÃO E DISTRIBUIÇÃO DE MEDICAMENTOS LTDA."
+    "display": "ASTELLAS FARMA BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS LTDA."
   }, {
     "code": "@brasil71661006565",
     "display": "LABORATORIO QUIMICO FARMACEUTICO TIARAJU LTDA."
@@ -641,64 +641,64 @@
     "display": "HIGI-PLUS INDUSTRIA DE PRODUTOS HIGIENICOS EIRELI"
   }, {
     "code": "@brasil71646760920",
-    "display": "ROYTON QUÍMICA FARMACÊUTICA LTDA"
+    "display": "ROYTON QUIMICA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71654815820",
     "display": "JOHNSON & JOHNSON INDUSTRIAL LTDA"
   }, {
     "code": "@brasil71181432991",
-    "display": "TEVA FARMACÊUTICA LTDA"
+    "display": "TEVA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71654333413",
-    "display": "RECORDATI RARE DISEASES COMÉRCIO DE MEDICAMENTOS LTDA - ME"
+    "display": "RECORDATI RARE DISEASES COMERCIO DE MEDICAMENTOS LTDA - ME"
   }, {
     "code": "@brasil71193630876",
     "display": "EMS S.A."
   }, {
     "code": "@brasil71669730772",
-    "display": "ABBOTT PRODUTOS PARA SAÚDE LTDA."
+    "display": "ABBOTT PRODUTOS PARA SAUDE LTDA."
   }, {
     "code": "@brasil71192933155",
-    "display": "MOMENTA FARMACÊUTICA LTDA"
+    "display": "MOMENTA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71669558515",
     "display": "VIVER BEM INDUSTRIA E COMERCIO DE PLASTICOS LTDA"
   }, {
     "code": "@brasil71192366521",
-    "display": "LABORATÓRIO MADREVITA LTDA"
+    "display": "LABORATORIO MADREVITA LTDA"
   }, {
     "code": "@brasil71665319686",
-    "display": "COLBRÁS INDÚSTRIA E COMÉRCIO LTDA"
+    "display": "COLBRAS INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71677413381",
-    "display": "LABORATÓRIOS STIEFEL LTDA"
+    "display": "LABORATORIOS STIEFEL LTDA"
   }, {
     "code": "@brasil71194881042",
-    "display": "FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA"
+    "display": "FARMACE INDUSTRIA QUIMICO-FARMACEUTICA CEARENSE LTDA"
   }, {
     "code": "@brasil71671855471",
-    "display": "LABORATÓRIO FARMACÊUTICO VITAMED LTDA"
+    "display": "LABORATORIO FARMACEUTICO VITAMED LTDA"
   }, {
     "code": "@brasil71196074017",
-    "display": "SUN FARMACÊUTICA DO BRASIL LTDA"
+    "display": "SUN FARMACEUTICA DO BRASIL LTDA"
   }, {
     "code": "@brasil71683654856",
     "display": "ARESE PHARMA LTDA"
   }, {
     "code": "@brasil71195534323",
-    "display": "ALTHAIA S.A INDÚSTRIA FARMACÊUTICA"
+    "display": "ALTHAIA S.A INDUSTRIA FARMACEUTICA"
   }, {
     "code": "@brasil71634029438",
-    "display": "PHARMASCIENCE INDÚSTRIA FARMACÊUTICA EIRELI"
+    "display": "PHARMASCIENCE INDUSTRIA FARMACEUTICA EIRELI"
   }, {
     "code": "@brasil71153546248",
     "display": "ROGER DO BRASIL LTDA"
   }, {
     "code": "@brasil71629627489",
-    "display": "ORGANON FARMACÊUTICA LTDA."
+    "display": "ORGANON FARMACEUTICA LTDA."
   }, {
     "code": "@brasil71154178532",
-    "display": "NOVAFARMA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "NOVAFARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71634212423",
     "display": "EMPRESA DE TESTE LTDA. (VS01)"
@@ -707,46 +707,46 @@
     "display": "QUIMICA HALLER LTDA"
   }, {
     "code": "@brasil71622713739",
-    "display": "FUNDAÇÃO PARA O REMÉDIO POPULAR - FURP"
+    "display": "FUNDACAO PARA O REMEDIO POPULAR - FURP"
   }, {
     "code": "@brasil71150174363",
-    "display": "LABORATÓRIO DE EXTRATOS ALERGÊNICOS LTDA"
+    "display": "LABORATORIO DE EXTRATOS ALERGENICOS LTDA"
   }, {
     "code": "@brasil71621796717",
-    "display": "MEDLEY INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "MEDLEY INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71148980835",
-    "display": "PHARLAB INDÚSTRIA FARMACÊUTICA S.A."
+    "display": "PHARLAB INDUSTRIA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71153106097",
-    "display": "CLARIS PRODUTOS FARMACÊUTICOS DO BRASIL LTDA"
+    "display": "CLARIS PRODUTOS FARMACEUTICOS DO BRASIL LTDA"
   }, {
     "code": "@brasil71624737436",
     "display": "PARENTEX INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71152742164",
-    "display": "LABORATÓRIO FARMACÊUTICO CARESSE LTDA ME"
+    "display": "LABORATORIO FARMACEUTICO CARESSE LTDA ME"
   }, {
     "code": "@brasil71166832964",
-    "display": "SCHERING-PLOUGH PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "SCHERING-PLOUGH PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71639695425",
-    "display": "BIONATUS LABORATÓRIO BOTÂNICO LTDA."
+    "display": "BIONATUS LABORATORIO BOTANICO LTDA."
   }, {
     "code": "@brasil71165385715",
-    "display": "VOLPHARMA DISTRIBUIDORA DE PRODUTOS HOSPITALARES E FARMACÊUTICOS LTDA"
+    "display": "VOLPHARMA DISTRIBUIDORA DE PRODUTOS HOSPITALARES E FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71638288845",
-    "display": "UNO HEALTHCARE COMÉRCIO DE MEDICAMENTOS LTDA."
+    "display": "UNO HEALTHCARE COMERCIO DE MEDICAMENTOS LTDA."
   }, {
     "code": "@brasil71160301727",
-    "display": "HEARST LABORATÓRIOS DO BRASIL LTDA"
+    "display": "HEARST LABORATORIOS DO BRASIL LTDA"
   }, {
     "code": "@brasil71634638841",
-    "display": "ENGEFARMA PRODS. FARMACÊUTICOS LTDA."
+    "display": "ENGEFARMA PRODS. FARMACEUTICOS LTDA."
   }, {
     "code": "@brasil71643665438",
-    "display": "DROXTER INDUSTRIA, COMÉRCIO E PARTICIPAÇÕES LTDA"
+    "display": "DROXTER INDUSTRIA, COMERCIO E PARTICIPACOES LTDA"
   }, {
     "code": "@brasil71169606318",
     "display": "MARDAM INDUSTRIA E COMERCIO DE PRODUTOS DE HIGIENE LTDA"
@@ -770,40 +770,40 @@
     "display": "FRESENIUS KABI BRASIL LTDA"
   }, {
     "code": "@brasil71700070277",
-    "display": "CIMED INDÚSTRIA DE MEDICAMENTOS LTDA"
+    "display": "CIMED INDUSTRIA DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71218612871",
-    "display": "MEDLEY FARMACÊUTICA LTDA"
+    "display": "MEDLEY FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71217254952",
-    "display": "JARRELL FARMACÊUTICA LTDA EPP"
+    "display": "JARRELL FARMACEUTICA LTDA EPP"
   }, {
     "code": "@brasil71699916712",
     "display": "CARTA GOIAS INDUSTRIA E COMERCIO DE PAPEIS S.A."
   }, {
     "code": "@brasil71222642634",
-    "display": "VILLAS BOAS RADIOFÁRMACOS BRASIL S/A"
+    "display": "VILLAS BOAS RADIOFARMACOS BRASIL S/A"
   }, {
     "code": "@brasil71710224849",
     "display": "CCM INDUSTRIA E COMERCIO DE PRODUTOS DESCARTAVEIS S.A."
   }, {
     "code": "@brasil71220642490",
-    "display": "TOMMASI IMPORTAÇÃO E EXPORTAÇÃO LTDA"
+    "display": "TOMMASI IMPORTACAO E EXPORTACAO LTDA"
   }, {
     "code": "@brasil71713935320",
     "display": "PROCTER & GAMBLE DO BRASIL S.A."
   }, {
     "code": "@brasil71222972546",
-    "display": "GERAIS, COMÉRCIO E IMPORTAÇÃO DE MATERIAIS E EQUIPAMENTOS MÉDICOS LTDA"
+    "display": "GERAIS, COMERCIO E IMPORTACAO DE MATERIAIS E EQUIPAMENTOS MEDICOS LTDA"
   }, {
     "code": "@brasil71712153394",
-    "display": "SECRETARIA DE ESTADO DA SAÚDE"
+    "display": "SECRETARIA DE ESTADO DA SAUDE"
   }, {
     "code": "@brasil71691529260",
-    "display": "UNIÃO BRASILEIRA DE EDUCAÇÃO E ASSISTÊNCIA"
+    "display": "UNIAO BRASILEIRA DE EDUCACAO E ASSISTENCIA"
   }, {
     "code": "@brasil71205504383",
-    "display": "LABORATÓRIO INDUSTRIAL E FARMACÊUTICO BUCAR LTDA"
+    "display": "LABORATORIO INDUSTRIAL E FARMACEUTICO BUCAR LTDA"
   }, {
     "code": "@brasil71687364393",
     "display": "INNOVATIVE MEDICINES BRASIL SP DISTRIBUICAO DE MEDICAMENTOS LTDA"
@@ -818,58 +818,58 @@
     "display": "DIVINA DAMA IND E COM LTDA"
   }, {
     "code": "@brasil71685077739",
-    "display": "UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S.A."
+    "display": "UNIAO QUIMICA FARMACEUTICA NACIONAL S.A."
   }, {
     "code": "@brasil71208319554",
-    "display": "JANSSEN-CILAG FARMACÊUTICA LTDA"
+    "display": "JANSSEN-CILAG FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71696949577",
     "display": "MAIS CONFORTO PRODUTOS DESCARTAVEIS EIRELI"
   }, {
     "code": "@brasil71207159097",
-    "display": "LABORATÓRIO REGIUS LTDA."
+    "display": "LABORATORIO REGIUS LTDA."
   }, {
     "code": "@brasil71698783056",
     "display": "BIODONT INDUSTRIA, COMERCIO, IMPORTACAO E EXPORTACAO EIRELI"
   }, {
     "code": "@brasil71216663567",
-    "display": "LACLEDE DO BRASIL PRODUTOS MÉDICOS, ODONTOLÓGICOS E VETERINÁRIOS LTDA"
+    "display": "LACLEDE DO BRASIL PRODUTOS MEDICOS, ODONTOLOGICOS E VETERINARIOS LTDA"
   }, {
     "code": "@brasil71698704429",
     "display": "INSTITUTO BUTANTAN"
   }, {
     "code": "@brasil71720964916",
-    "display": "BOEHRINGER INGELHEIM DO BRASIL QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "BOEHRINGER INGELHEIM DO BRASIL QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71231916418",
-    "display": "LABORATÓRIO MELPOEJO"
+    "display": "LABORATORIO MELPOEJO"
   }, {
     "code": "@brasil71719965127",
     "display": "PROTDESC DO BRASIL IMPORTACAO E EXPORTACAO LTDA"
   }, {
     "code": "@brasil71235484870",
-    "display": "EQUIPLEX INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71723204720",
     "display": "PRATI DONADUZZI & CIA LTDA"
   }, {
     "code": "@brasil71232393532",
-    "display": "FARMOQUÍMICA S/A"
+    "display": "FARMOQUIMICA S/A"
   }, {
     "code": "@brasil71715277686",
     "display": "THERASKIN FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71225289249",
-    "display": "BIOTEST FARMACÊUTICA LTDA"
+    "display": "BIOTEST FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71714293718",
     "display": "PHYTOLAB INDUSTRIA FARMACEUTICA EIRELI - EPP"
   }, {
     "code": "@brasil71224643319",
-    "display": "ALLERGAN PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "ALLERGAN PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71227346064",
-    "display": "CHIESI FARMACÊUTICA LTDA"
+    "display": "CHIESI FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71719704793",
     "display": "OCTAPHARMA BRASIL LTDA"
@@ -881,31 +881,31 @@
     "display": "INDUSTRIA DE FRALDAS GBI LTDA"
   }, {
     "code": "@brasil71731534944",
-    "display": "EVOLABIS PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "EVOLABIS PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71240282094",
     "display": "CAZI QUIMICA FARMACEUTICA INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71728886267",
-    "display": "LABORATÓRIOS SERVIER DO BRASIL LTDA"
+    "display": "LABORATORIOS SERVIER DO BRASIL LTDA"
   }, {
     "code": "@brasil71238035752",
     "display": "LABORATORIO VITALAB LTDA"
   }, {
     "code": "@brasil71724790857",
-    "display": "MULTILAB INDÚSTRIA E COMÉRCIO DE PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "MULTILAB INDUSTRIA E COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71733271126",
-    "display": "INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A."
+    "display": "INDUSTRIA FARMACEUTICA MELCON DO BRASIL S.A."
   }, {
     "code": "@brasil71241610282",
-    "display": "LABORATÓRIO AMERICANO DE FARMACOTERAPIA S/A"
+    "display": "LABORATORIO AMERICANO DE FARMACOTERAPIA S/A"
   }, {
     "code": "@brasil71732447713",
-    "display": "GRÜNENTHAL DO BRASIL FARMACÊUTICA LTDA"
+    "display": "GRUNENTHAL DO BRASIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71244034483",
-    "display": "BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A."
+    "display": "BRAINFARMA INDUSTRIA QUIMICA E FARMACEUTICA S.A."
   }, {
     "code": "@brasil71733486989",
     "display": "PTC FARMACEUTICA DO BRASIL LTDA."
@@ -920,10 +920,10 @@
     "display": "CATALENT BRASIL LTDA."
   }, {
     "code": "@brasil71556228844",
-    "display": "MEDQUIMICA INDÚSTRIA FARMACÊUTICA S.A."
+    "display": "MEDQUIMICA INDUSTRIA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71077526720",
-    "display": "BIOSINTÉTICA FARMACÊUTICA LTDA"
+    "display": "BIOSINTETICA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71557084309",
     "display": "BABY MANIA FRALDAS DESCARTAVEIS LTDA"
@@ -932,22 +932,22 @@
     "display": "LABORATORIO INDUSTRIAL FARMACEUTICO DE ALAGOAS S.A."
   }, {
     "code": "@brasil71553687211",
-    "display": "MR LABORATÓRIOS FARMACÊUTICOS LTDA"
+    "display": "MR LABORATORIOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71071206131",
     "display": "SAMSUNG BIOEPIS BR PHARMACEUTICAL LTDA."
   }, {
     "code": "@brasil71553198199",
-    "display": "SANTISA LABORATÓRIO FARMACÊUTICO S.A."
+    "display": "SANTISA LABORATORIO FARMACEUTICO S.A."
   }, {
     "code": "@brasil71070796932",
-    "display": "ORIENT MIX FITOTERÁPICOS DO BRASIL LTDA."
+    "display": "ORIENT MIX FITOTERAPICOS DO BRASIL LTDA."
   }, {
     "code": "@brasil71071525738",
-    "display": "INDÚSTRIA FARMACÊUTICA TEXON LTDA"
+    "display": "INDUSTRIA FARMACEUTICA TEXON LTDA"
   }, {
     "code": "@brasil71555953712",
-    "display": "CELLERA FARMACÊUTICA S.A"
+    "display": "CELLERA FARMACEUTICA S.A"
   }, {
     "code": "@brasil71071499804",
     "display": "Laboratorio Sanobiol Limitada"
@@ -956,31 +956,31 @@
     "display": "HYPERMARCAS S.A."
   }, {
     "code": "@brasil71560111756",
-    "display": "GUERBET PRODUTOS RADIOLÓGICOS LTDA"
+    "display": "GUERBET PRODUTOS RADIOLOGICOS LTDA"
   }, {
     "code": "@brasil71078956299",
-    "display": "ATIVUS FARMACÊUTICA LTDA"
+    "display": "ATIVUS FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71559369887",
-    "display": "DIFFUCAP - CHEMOBRÁS QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "DIFFUCAP - CHEMOBRAS QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71078334567",
-    "display": "UNIVERSIDADE ESTADUAL DE MARINGÁ"
+    "display": "UNIVERSIDADE ESTADUAL DE MARINGA"
   }, {
     "code": "@brasil71557852561",
     "display": "BAYER S.A."
   }, {
     "code": "@brasil71562281898",
-    "display": "LABORATÓRIO GLOBO LTDA"
+    "display": "LABORATORIO GLOBO LTDA"
   }, {
     "code": "@brasil71084044257",
-    "display": "FUNDAÇÃO BAIANA DE PESQ. CIENTIFICA E DESENV. TECNOLOGICO, FORNECIMENTO E DISTRIBUIÇÃO DE MEDICAMENTOS-BAHIAFARMA"
+    "display": "FUNDACAO BAIANA DE PESQ. CIENTIFICA E DESENV. TECNOLOGICO, FORNECIMENTO E DISTRIBUICAO DE MEDICAMENTOS-BAHIAFARMA"
   }, {
     "code": "@brasil71561419321",
     "display": "MONSANTO DO BRASIL LTDA"
   }, {
     "code": "@brasil71092344759",
-    "display": "PRODUTOS ROCHE QUÍMICOS E FARMACÊUTICOS S.A."
+    "display": "PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S.A."
   }, {
     "code": "@brasil71563275493",
     "display": "EMS SIGMA PHARMA LTDA"
@@ -995,13 +995,13 @@
     "display": "LABORATORIO ODALY SOARES LTDA"
   }, {
     "code": "@brasil71054114794",
-    "display": "BIOMARIN BRASIL FARMACÊUTICA LTDA"
+    "display": "BIOMARIN BRASIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71535886027",
     "display": "CYCLOPET RADIOFARMACOS LTDA"
   }, {
     "code": "@brasil71058192435",
-    "display": "ZAMBON LABORATÓRIOS FARMACÊUTICOS LTDA"
+    "display": "ZAMBON LABORATORIOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71534950578",
     "display": "ORIGINAL MASTER FABRICA DE FRALDAS E MATERIAIS DESCARTAVEIS LTDA"
@@ -1010,19 +1010,19 @@
     "display": "NATIVITA IND. COM. LTDA"
   }, {
     "code": "@brasil71530159930",
-    "display": "MERZ FARMACÊUTICA COMERCIAL LTDA"
+    "display": "MERZ FARMACEUTICA COMERCIAL LTDA"
   }, {
     "code": "@brasil71049278008",
     "display": "EMPRESA BRASILEIRA DE HEMODERIVADOS E BIOTECNOLOGIA"
   }, {
     "code": "@brasil71530078018",
-    "display": "Laboratórios Bagó Do Brasil S.A"
+    "display": "Laboratorios Bago Do Brasil S.A"
   }, {
     "code": "@brasil71532709894",
-    "display": "LABORATÓRIO DAUDT OLIVEIRA LTDA"
+    "display": "LABORATORIO DAUDT OLIVEIRA LTDA"
   }, {
     "code": "@brasil71052592888",
-    "display": "NUNESFARMA DISTRIBUIDORA DE PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "NUNESFARMA DISTRIBUIDORA DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71532117322",
     "display": "LFB - HEMODERIVADOS E BIOTECNOLOGIA LTDA"
@@ -1031,10 +1031,10 @@
     "display": "COMISSAO NACIONAL DE ENERGIA NUCLEAR"
   }, {
     "code": "@brasil71064349094",
-    "display": "BIOLAB SANUS FARMACÊUTICA LTDA"
+    "display": "BIOLAB SANUS FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71541724190",
-    "display": "FORMIL FARMACÊUTICA LTDA"
+    "display": "FORMIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71062057758",
     "display": "NOVARTIS BIOCIENCIAS S.A."
@@ -1043,34 +1043,34 @@
     "display": "HERBARIUM LABORATORIO BOTANICO LTDA"
   }, {
     "code": "@brasil71059057678",
-    "display": "CHEMICALTECH IMPORTAÇÃO, EXPORTAÇÃO E COMÉRCIO DE PRODUTOS MÉDICOS, FARMACÊUTICOS E HOSPITALARES LTDA"
+    "display": "CHEMICALTECH IMPORTACAO, EXPORTACAO E COMERCIO DE PRODUTOS MEDICOS, FARMACEUTICOS E HOSPITALARES LTDA"
   }, {
     "code": "@brasil71065866541",
-    "display": "DAIICHI SANKYO BRASIL FARMACÊUTICA LTDA"
+    "display": "DAIICHI SANKYO BRASIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71547915647",
-    "display": "Laboratórios Pfizer Ltda"
+    "display": "Laboratorios Pfizer Ltda"
   }, {
     "code": "@brasil71065510544",
-    "display": "LABORATÓRIO SANOBIOL LTDA"
+    "display": "LABORATORIO SANOBIOL LTDA"
   }, {
     "code": "@brasil71551940289",
-    "display": "BEAUFOUR IPSEN FARMACÊUTICA LTDA"
+    "display": "BEAUFOUR IPSEN FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71066085053",
-    "display": "VIDFARMA INDÚSTRIA DE MEDICAMENTOS LTDA"
+    "display": "VIDFARMA INDUSTRIA DE MEDICAMENTOS LTDA"
   }, {
     "code": "@brasil71551609074",
-    "display": "AIRELA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "AIRELA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71592699033",
     "display": "ELI LILLY DO BRASIL LTDA"
   }, {
     "code": "@brasil71113053341",
-    "display": "LABORATÓRIO SAÚDE LTDA"
+    "display": "LABORATORIO SAUDE LTDA"
   }, {
     "code": "@brasil71592459188",
-    "display": "LABORATÓRIOS BAGÓ DO BRASIL S.A."
+    "display": "LABORATORIOS BAGO DO BRASIL S.A."
   }, {
     "code": "@brasil71111328785",
     "display": "QUIMIFAR LTDA"
@@ -1079,10 +1079,10 @@
     "display": "LABORATORIO GENOMA INDUSTRIA COM EXP E IMPORTACAO LTDA"
   }, {
     "code": "@brasil71107712350",
-    "display": "LABORATÓRIO FARMACÊUTICO DO ESTADO DE PERNAMBUCO - LAFEPE"
+    "display": "LABORATORIO FARMACEUTICO DO ESTADO DE PERNAMBUCO - LAFEPE"
   }, {
     "code": "@brasil71115748441",
-    "display": "CIFARMA CIENTÍFICA FARMACÊUTICA LTDA"
+    "display": "CIFARMA CIENTIFICA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71594050434",
     "display": "ACTELION PHARMACEUTICALS DO BRASIL LTDA"
@@ -1103,28 +1103,28 @@
     "display": "DELFIN FARMACOS E DERIVADOS LTDA"
   }, {
     "code": "@brasil71100368705",
-    "display": "CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA"
+    "display": "CRISTALIA PRODUTOS QUIMICOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71573083857",
     "display": "HERUS IND FTCA LTDA"
   }, {
     "code": "@brasil71098424347",
-    "display": "ALOÉS INDÚSTRIA E COMÉRCIO LTDA"
+    "display": "ALOES INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71569958217",
-    "display": "GADOR DO BRASIL - COMÉRCIO DE PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "GADOR DO BRASIL - COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71094678524",
-    "display": "RANBAXY FARMACÊUTICA LTDA"
+    "display": "RANBAXY FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71568315246",
-    "display": "LABORATÓRIOS B. BRAUN S.A."
+    "display": "LABORATORIOS B. BRAUN S.A."
   }, {
     "code": "@brasil71101068388",
-    "display": "FUNDAÇÃO OSWALDO CRUZ"
+    "display": "FUNDACAO OSWALDO CRUZ"
   }, {
     "code": "@brasil71576638740",
-    "display": "LABORATÓRIO KINDER LTDA"
+    "display": "LABORATORIO KINDER LTDA"
   }, {
     "code": "@brasil71100405611",
     "display": "KNOLL PRODS QUIMS FARMACEUTICOS LTDA."
@@ -1133,13 +1133,13 @@
     "display": "LABORSIL IND FTCA LTDA"
   }, {
     "code": "@brasil71101484127",
-    "display": "CSL BEHRING COMÉRCIO DE PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "CSL BEHRING COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71578578091",
     "display": "ULTRAGENYX BRASIL FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71605373279",
-    "display": "INTEGRAÇÃO MÉDICO-HOSPITALAR FARMACÊUTICA S/A."
+    "display": "INTEGRACAO MEDICO-HOSPITALAR FARMACEUTICA S/A."
   }, {
     "code": "@brasil71126196182",
     "display": "CONFECCOES CAPRICHO LTDA"
@@ -1151,7 +1151,7 @@
     "display": "LABORATORIO CLIMAX SA"
   }, {
     "code": "@brasil71607124363",
-    "display": "ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A"
+    "display": "ACHE LABORATORIOS FARMACEUTICOS S.A"
   }, {
     "code": "@brasil71127597225",
     "display": "FARMABRAZ BETA ATALAIA FARMACEUTICA LTDA"
@@ -1160,10 +1160,10 @@
     "display": "GLOBAL REGULATORY PARTNERS BRASIL EIRELI"
   }, {
     "code": "@brasil71121544125",
-    "display": "NATULAB LABORATÓRIO S.A."
+    "display": "NATULAB LABORATORIO S.A."
   }, {
     "code": "@brasil71598998498",
-    "display": "LABORATÓRIO FARMACÊUTICO ELOFAR LTDA"
+    "display": "LABORATORIO FARMACEUTICO ELOFAR LTDA"
   }, {
     "code": "@brasil71119824305",
     "display": "DESCART TOP PLUS SERVICOS DE MANUTENCAO LTDA"
@@ -1172,13 +1172,13 @@
     "display": "MERCK S.A."
   }, {
     "code": "@brasil71603215672",
-    "display": "HALEX ISTAR INDÚSTRIA FARMACÊUTICA S.A."
+    "display": "HALEX ISTAR INDUSTRIA FARMACEUTICA S.A."
   }, {
     "code": "@brasil71124969670",
-    "display": "TRB PHARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "TRB PHARMA INDUSTRIA QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71615143238",
-    "display": "CASULA & VASCONCELOS INDÚSTRIA FARMACÊUTICA E COMÉRCIO LTDA ME"
+    "display": "CASULA & VASCONCELOS INDUSTRIA FARMACEUTICA E COMERCIO LTDA ME"
   }, {
     "code": "@brasil71139190956",
     "display": "LUPER INDUSTRIA FARMACEUTICA LTDA"
@@ -1187,7 +1187,7 @@
     "display": "DKT DO BRASIL PRODUTOS DE USO PESSOAL LTDA"
   }, {
     "code": "@brasil71611811376",
-    "display": "CASA GRANADO LABORATÓRIOS, FARMÁCIAS E DROGARIAS S.A."
+    "display": "CASA GRANADO LABORATORIOS, FARMACIAS E DROGARIAS S.A."
   }, {
     "code": "@brasil71130413394",
     "display": "INSTITUTO TERAPEUTICO DELTA LTDA"
@@ -1205,13 +1205,13 @@
     "display": "RECKITT BENCKISER (BRASIL) LTDA"
   }, {
     "code": "@brasil71621731879",
-    "display": "WYETH INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "WYETH INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71147971226",
-    "display": "BRISTOL-MYERS SQUIBB FARMACÊUTICA LTDA"
+    "display": "BRISTOL-MYERS SQUIBB FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71619480018",
-    "display": "BEKER PRODUTOS FÁRMACO HOSPITALARES LTDA"
+    "display": "BEKER PRODUTOS FARMACO HOSPITALARES LTDA"
   }, {
     "code": "@brasil71017736014",
     "display": "M.T. INDUSTRIA E COMERCIO DE PRODUTOS PARA HIGIENE LTDA"
@@ -1220,7 +1220,7 @@
     "display": "GENZYME DO BRASIL LTDA"
   }, {
     "code": "@brasil71487597904",
-    "display": "EUROFARMA LABORATÓRIOS S.A."
+    "display": "EUROFARMA LABORATORIOS S.A."
   }, {
     "code": "@brasil71486206320",
     "display": "KLEY HERTZ FARMACEUTICA S.A."
@@ -1229,25 +1229,25 @@
     "display": "HOSPITAL DAS CLINICAS DA FACULDADE DE MEDICINA DA USP"
   }, {
     "code": "@brasil71016442917",
-    "display": "DISMÉDICA DISTRIBUIDORA DE PRODUTOS HOSPITALARES E FARMACÊUTICOS LTDA"
+    "display": "DISMEDICA DISTRIBUIDORA DE PRODUTOS HOSPITALARES E FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71022332369",
     "display": "KEDRION BRASIL DISTRIBUIDORA DE PRODUTOS HOSPITALARES LTDA"
   }, {
     "code": "@brasil71491674522",
-    "display": "AURANTIS INDUSTRIA FARMACÊUTICA LTDA"
+    "display": "AURANTIS INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71018964151",
-    "display": "COLLECT IMPORTAÇÃO E COMÉRCIO LTDA"
+    "display": "COLLECT IMPORTACAO E COMERCIO LTDA"
   }, {
     "code": "@brasil71024880355",
-    "display": "DENTSPLY INDÚSTRIA E COMÉRCIO LTDA"
+    "display": "DENTSPLY INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71493978213",
     "display": "Unavailable"
   }, {
     "code": "@brasil71494490775",
-    "display": "LABORATORIO INDUSTRIAL FARMACÊUTICO LIFAR LTDA"
+    "display": "LABORATORIO INDUSTRIAL FARMACEUTICO LIFAR LTDA"
   }, {
     "code": "@brasil71004176823",
     "display": "HEMAFARMA COM. E IND. FARM. LTDA"
@@ -1256,7 +1256,7 @@
     "display": "ADIUM S.A."
   }, {
     "code": "@brasil71479219840",
-    "display": "SANOFI MEDLEY FARMACÊUTICA LTDA."
+    "display": "SANOFI MEDLEY FARMACEUTICA LTDA."
   }, {
     "code": "@brasil71470006129",
     "display": "GERIATEX INDUSTRIA E COMERCIO LTDA"
@@ -1265,7 +1265,7 @@
     "display": "LABORATORIOS GEMBALLA LTDA"
   }, {
     "code": "@brasil71003148799",
-    "display": "MARJAN INDÚSTRIA E COMÉRCIO LTDA"
+    "display": "MARJAN INDUSTRIA E COMERCIO LTDA"
   }, {
     "code": "@brasil71472881043",
     "display": "ACTAVIS FARMACEUTICA LTDA"
@@ -1274,7 +1274,7 @@
     "display": "DIGUINHO INDUSTRIA E COMERCIO DE FRALDAS LTDA"
   }, {
     "code": "@brasil71479254575",
-    "display": "GREENPHARMA QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "GREENPHARMA QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71004367189",
     "display": "PINUS INDUSTRIA QUIMICA E FARMACEUTICA LTDA"
@@ -1283,13 +1283,13 @@
     "display": "GODOY & BAPTISTELLA INDUSTRIA E COMERCIO DE PRODUTOS DE HIGIENE LTDA"
   }, {
     "code": "@brasil71480518042",
-    "display": "CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA"
+    "display": "CRISTALIA PRODUTOS QUIMICOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71485083220",
     "display": "TAKEDA PHARMA LTDA."
   }, {
     "code": "@brasil71507216767",
-    "display": "ACTIVE INDÚSTRIA DE COSMÉTICOS S.A."
+    "display": "ACTIVE INDUSTRIA DE COSMETICOS S.A."
   }, {
     "code": "@brasil71033801092",
     "display": "SAMTEC BIOTECNOLOGIA LIMITADA"
@@ -1298,16 +1298,16 @@
     "display": "LABORATORIO SINTERAPICO INDUSTRIAL FARMACEUTICO LTDA"
   }, {
     "code": "@brasil71509373640",
-    "display": "LABORATÓRIOS FERRING LTDA"
+    "display": "LABORATORIOS FERRING LTDA"
   }, {
     "code": "@brasil71034042281",
     "display": "GRIFOLS BRASIL LTDA"
   }, {
     "code": "@brasil71034462647",
-    "display": "CYCLOBRAS INDUSTRIA COMERCIO E SERVIÇOS LABORATORIAIS LTDA"
+    "display": "CYCLOBRAS INDUSTRIA COMERCIO E SERVICOS LABORATORIAIS LTDA"
   }, {
     "code": "@brasil71029360301",
-    "display": "LOTUSFARMA PRODUTOS FARMACÊUTICOS LTDA"
+    "display": "LOTUSFARMA PRODUTOS FARMACEUTICOS LTDA"
   }, {
     "code": "@brasil71498317709",
     "display": "MABESA DO BRASIL PARTICIPACOES LTDA"
@@ -1316,19 +1316,19 @@
     "display": "GREENPHARMA QUIMICA E FARMACEUTICA EM RECUPERACAO JUDICIAL LTDA"
   }, {
     "code": "@brasil71031651520",
-    "display": "ABBVIE FARMACÊUTICA LTDA"
+    "display": "ABBVIE FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71500951772",
-    "display": "PHARMUS QUÍMICA E FARMACÊUTICA S/A"
+    "display": "PHARMUS QUIMICA E FARMACEUTICA S/A"
   }, {
     "code": "@brasil71503072541",
-    "display": "ASPEN PHARMA INDÚSTRIA FARMACÊUTICA LTDA"
+    "display": "ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71043319226",
     "display": "QUIMPHARMA INDUSTRIA QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71039651280",
-    "display": "HEEL DO BRASIL BIOMÉDICA LTDA"
+    "display": "HEEL DO BRASIL BIOMEDICA LTDA"
   }, {
     "code": "@brasil71518835481",
     "display": "PLENA INDUSTRIA DE FRALDAS EIRELI"
@@ -1337,22 +1337,22 @@
     "display": "IRIS INDUSTRIA DE PRODUTOS DESCARTAVEIS E HIGIENICOS LTDA"
   }, {
     "code": "@brasil71038625422",
-    "display": "WELEDA DO BRASIL LABORATÓRIO E FARMÁCIA LTDA"
+    "display": "WELEDA DO BRASIL LABORATORIO E FARMACIA LTDA"
   }, {
     "code": "@brasil71517197334",
-    "display": "AVERT LABORATÓRIOS LTDA"
+    "display": "AVERT LABORATORIOS LTDA"
   }, {
     "code": "@brasil71045154854",
     "display": "MYLAN LABORATORIOS LTDA"
   }, {
     "code": "@brasil71521903023",
-    "display": "SILVESTRE LABS QUÍMICA E FARMACÊUTICA LTDA"
+    "display": "SILVESTRE LABS QUIMICA E FARMACEUTICA LTDA"
   }, {
     "code": "@brasil71044612339",
-    "display": "OPEM REPRESENTAÇÃO IMPORTADORA EXPORTADORA E DISTRIBUIDORA LTDA"
+    "display": "OPEM REPRESENTACAO IMPORTADORA EXPORTADORA E DISTRIBUIDORA LTDA"
   }, {
     "code": "@brasil71048191856",
-    "display": "BLAU FARMACÊUTICA S.A."
+    "display": "BLAU FARMACEUTICA S.A."
   }, {
     "code": "@brasil71525199239",
     "display": "PFIZER BRASIL LTDA"

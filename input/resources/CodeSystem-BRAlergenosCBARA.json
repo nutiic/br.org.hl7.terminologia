@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRAlergenosCBARA",
   "version": "HEAD",
-  "name": "Bralergenoscbara",
-  "title": "BR Alérgenos CBARA",
+  "name": "BRAlergenosCBARA",
+  "title": "BR Al�rgenos CBARA",
   "status": "active",
   "experimental": false,
-  "description": "BR Alérgenos CBARA",
+  "description": "BR Al�rgenos CBARA",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -32,7 +32,7 @@
     "display": "Carne de aves"
   }, {
     "code": "resina-arvore",
-    "display": "Resina de árvore"
+    "display": "Resina de arvore"
   }, {
     "code": "pelo-animal",
     "display": "Pelo de animais"
@@ -41,7 +41,7 @@
     "display": "Castanha de caju"
   }, {
     "code": "pelo-cao",
-    "display": "Pelo de cão"
+    "display": "Pelo de cao"
   }, {
     "code": "kiwi",
     "display": "Kiwi"
@@ -56,7 +56,7 @@
     "display": "Caracol"
   }, {
     "code": "outro-agente-substancia",
-    "display": "Outros agentes ou substâncias"
+    "display": "Outros agentes ou substancias"
   }, {
     "code": "caranguejo",
     "display": "Caranguejo"
@@ -68,10 +68,10 @@
     "display": "Carbaril"
   }, {
     "code": "paprica",
-    "display": "Páprica"
+    "display": "Paprica"
   }, {
     "code": "camarao",
-    "display": "Camarão"
+    "display": "Camarao"
   }, {
     "code": "canela",
     "display": "Canela"
@@ -83,7 +83,7 @@
     "display": "Leguminosas"
   }, {
     "code": "limao",
-    "display": "Limão"
+    "display": "Limao"
   }, {
     "code": "organofosfato",
     "display": "Organofosfatos"
@@ -119,13 +119,13 @@
     "display": "Pesticida organoclorado"
   }, {
     "code": "peroxido-benzoila",
-    "display": "Peróxido de Benzoíla"
+    "display": "Peroxido de Benzoila"
   }, {
     "code": "cloreto-metilbenzetonio",
-    "display": "Cloreto de Metilbenzetônio"
+    "display": "Cloreto de Metilbenzetonio"
   }, {
     "code": "pessego",
-    "display": "Pêssego"
+    "display": "Pessego"
   }, {
     "code": "cenoura",
     "display": "Cenoura"
@@ -164,10 +164,10 @@
     "display": "Ostra"
   }, {
     "code": "acaro",
-    "display": "Ácaros"
+    "display": "Acaros"
   }, {
     "code": "aluminio",
-    "display": "Alumínio"
+    "display": "Aluminio"
   }, {
     "code": "lula",
     "display": "Lula"
@@ -185,7 +185,7 @@
     "display": "Marisco"
   }, {
     "code": "ambrosia",
-    "display": "Ambrósia"
+    "display": "Ambrosia"
   }, {
     "code": "manga",
     "display": "Manga"
@@ -194,7 +194,7 @@
     "display": "Material de sutura"
   }, {
     "code": "maca",
-    "display": "Maçã"
+    "display": "Maca"
   }, {
     "code": "manteiga-cacau",
     "display": "Manteiga de cacau"
@@ -203,28 +203,28 @@
     "display": "Banana"
   }, {
     "code": "latex",
-    "display": "Látex"
+    "display": "Latex"
   }, {
     "code": "avela",
-    "display": "Avelã"
+    "display": "Avela"
   }, {
     "code": "mostarda",
     "display": "Mostarda"
   }, {
     "code": "agente-fisico",
-    "display": "Agentes físicos"
+    "display": "Agentes fisicos"
   }, {
     "code": "acido-azelaico",
-    "display": "Ácido azelaico"
+    "display": "Acido azelaico"
   }, {
     "code": "aveia",
     "display": "Aveia"
   }, {
     "code": "alcool-polivinilico",
-    "display": "Álcool polivinílico"
+    "display": "Alcool polivinilico"
   }, {
     "code": "niquel",
-    "display": "Níquel"
+    "display": "Niquel"
   }, {
     "code": "baunilha",
     "display": "Baunilha"
@@ -233,7 +233,7 @@
     "display": "Batata"
   }, {
     "code": "laticinio",
-    "display": "Laticínios"
+    "display": "Laticinios"
   }, {
     "code": "aipo",
     "display": "Aipo"
@@ -248,7 +248,7 @@
     "display": "Antralina"
   }, {
     "code": "latao",
-    "display": "Latão"
+    "display": "Latao"
   }, {
     "code": "mirtilo",
     "display": "Mirtilos"
@@ -260,7 +260,7 @@
     "display": "Areia"
   }, {
     "code": "material-dentario-policarboneto",
-    "display": "Material dentário em policarboneto"
+    "display": "Material dentario em policarboneto"
   }, {
     "code": "aranha",
     "display": "Aranha"
@@ -269,10 +269,10 @@
     "display": "Amendoim"
   }, {
     "code": "arvore",
-    "display": "Árvores"
+    "display": "Arvores"
   }, {
     "code": "melao",
-    "display": "Melão"
+    "display": "Melao"
   }, {
     "code": "arroz",
     "display": "Arroz"
@@ -299,10 +299,10 @@
     "display": "Laranja"
   }, {
     "code": "mexilhao",
-    "display": "Mexilhão"
+    "display": "Mexilhao"
   }, {
     "code": "oleo-eucalipto",
-    "display": "Óleo de eucalipto"
+    "display": "Oleo de eucalipto"
   }, {
     "code": "barata",
     "display": "Barata"
@@ -311,13 +311,13 @@
     "display": "Borracha"
   }, {
     "code": "oleo-peixe",
-    "display": "Óleo de Peixe"
+    "display": "Oleo de Peixe"
   }, {
     "code": "framboesa",
     "display": "Framboesa"
   }, {
     "code": "fruta-citrica",
-    "display": "Frutas cítricas"
+    "display": "Frutas citricas"
   }, {
     "code": "semente",
     "display": "Semente"
@@ -329,13 +329,13 @@
     "display": "Sulfitos"
   }, {
     "code": "sepia",
-    "display": "Sépia"
+    "display": "Sepia"
   }, {
     "code": "silicone-derivado",
     "display": "Silicone e seus derivados"
   }, {
     "code": "veneno-escorpiao",
-    "display": "Veneno de escorpião"
+    "display": "Veneno de escorpiao"
   }, {
     "code": "seda",
     "display": "Seda"
@@ -350,13 +350,13 @@
     "display": "Samambaia"
   }, {
     "code": "feijao",
-    "display": "Feijão"
+    "display": "Feijao"
   }, {
     "code": "toxina-botulinica",
-    "display": "Toxina botulínica"
+    "display": "Toxina botulinica"
   }, {
     "code": "la",
-    "display": "Lã"
+    "display": "La"
   }, {
     "code": "tomate",
     "display": "Tomate"
@@ -374,13 +374,13 @@
     "display": "Lagosta"
   }, {
     "code": "grao",
-    "display": "Grão"
+    "display": "Grao"
   }, {
     "code": "grao-soja",
-    "display": "Grãos de soja"
+    "display": "Graos de soja"
   }, {
     "code": "tinta-textil",
-    "display": "Tintas para têxteis"
+    "display": "Tintas para texteis"
   }, {
     "code": "terpeno",
     "display": "Terpeno"
@@ -401,16 +401,16 @@
     "display": "Prata"
   }, {
     "code": "crustaceo",
-    "display": "Crustáceos"
+    "display": "Crustaceos"
   }, {
     "code": "curry",
     "display": "Curry"
   }, {
     "code": "polen-grama",
-    "display": "Pólen de grama"
+    "display": "Polen de grama"
   }, {
     "code": "proteina-ovo",
-    "display": "Proteína do ovo"
+    "display": "Proteina do ovo"
   }, {
     "code": "etanolamina",
     "display": "Etanolamina"
@@ -422,13 +422,13 @@
     "display": "Farinha"
   }, {
     "code": "proteina-leite-vaca",
-    "display": "Proteína do leite de vaca"
+    "display": "Proteina do leite de vaca"
   }, {
     "code": "erva-daninha",
     "display": "Ervas daninhas"
   }, {
     "code": "erva-aromatica-especiaria",
-    "display": "Ervas aromáticas e especiarias"
+    "display": "Ervas aromaticas e especiarias"
   }, {
     "code": "pelo-coelho",
     "display": "Pelo de coelho"
@@ -443,13 +443,13 @@
     "display": "Polvo"
   }, {
     "code": "cravo-india",
-    "display": "Cravo-da- Índia"
+    "display": "Cravo-da- India"
   }, {
     "code": "cosmetico",
-    "display": "Cosméticos"
+    "display": "Cosmeticos"
   }, {
     "code": "polen",
-    "display": "Pólen"
+    "display": "Polen"
   }, {
     "code": "cola",
     "display": "Cola"
@@ -464,7 +464,7 @@
     "display": "Cogumelos"
   }, {
     "code": "pinhao",
-    "display": "Pinhão"
+    "display": "Pinhao"
   }, {
     "code": "pimenta",
     "display": "Pimenta"

@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRCBO",
   "version": "HEAD",
-  "name": "Brcbo",
+  "name": "BRCBO",
   "title": "Classificação Brasileira de Ocupações - CBO",
   "status": "active",
   "experimental": false,
@@ -32,7 +32,7 @@
     "display": "TECNICO OPERACIONAL DE SERVICOS DE CORREIOS"
   }, {
     "code": "391140",
-    "display": "Analista de manutenção (equipamentos aéreos)"
+    "display": "Analista de manutencao (equipamentos aereos)"
   }, {
     "code": "391135",
     "display": "TECNICO DE MATERIAPRIMA E MATERIAL"
@@ -50,7 +50,7 @@
     "display": "INSPETOR DE QUALIDADE"
   }, {
     "code": "391145",
-    "display": "Analista de planejamento de manutenção"
+    "display": "Analista de planejamento de manutencao"
   }, {
     "code": "410225",
     "display": "SUPERVISOR DE CREDITO E COBRANCA"
@@ -71,7 +71,7 @@
     "display": "SUPERVISOR ADMINISTRATIVO"
   }, {
     "code": "410240",
-    "display": "Supervisor de logística"
+    "display": "Supervisor de logistica"
   }, {
     "code": "410235",
     "display": "SUPERVISOR DE TESOURARIA"
@@ -284,10 +284,10 @@
     "display": "SUPERVISOR DE CAIXAS E BILHETEIROS (EXCETO CAIXA DE BANCO)"
   }, {
     "code": "415310",
-    "display": "Analista de informação em saúde"
+    "display": "Analista de informacao em saude"
   }, {
     "code": "415305",
-    "display": "Registrador de câncer"
+    "display": "Registrador de cancer"
   }, {
     "code": "415215",
     "display": "ENTREGADOR DE PUBLICACOES"
@@ -371,13 +371,13 @@
     "display": "RADIOTELEGRAFISTA"
   }, {
     "code": "373140",
-    "display": "Coordenador de programação"
+    "display": "Coordenador de programacao"
   }, {
     "code": "373135",
     "display": "Operador de controle mestre"
   }, {
     "code": "373130",
-    "display": "Técnico de sistemas audiovisuais"
+    "display": "Tecnico de sistemas audiovisuais"
   }, {
     "code": "373210",
     "display": "TECNICO EM OPERACAO DE EQUIPAMENTO DE EXIBICAO DE TELEVISAO"
@@ -386,7 +386,7 @@
     "display": "TECNICO EM OPERACAO DE EQUIPAMENTOS DE PRODUCAO PARA TELEVISAO E PRODUTORAS DE VIDEO"
   }, {
     "code": "373145",
-    "display": "Assistente de operações audiovisuais"
+    "display": "Assistente de operacoes audiovisuais"
   }, {
     "code": "354145",
     "display": "VENDEDOR PRACISTA"
@@ -452,7 +452,7 @@
     "display": "REPRESENTANTE COMERCIAL AUTONOMO"
   }, {
     "code": "354610",
-    "display": "Corretor de grãos"
+    "display": "Corretor de graos"
   }, {
     "code": "354820",
     "display": "ORGANIZADOR DE EVENTO"
@@ -509,10 +509,10 @@
     "display": "TECNICO EM GRAVACAO DE AUDIO"
   }, {
     "code": "373230",
-    "display": "Supervisor técnico (mídias audiovisuais)"
+    "display": "Supervisor tecnico (midias audiovisuais)"
   }, {
     "code": "373225",
-    "display": "Supervisor de operações (mídias audiovisuais)"
+    "display": "Supervisor de operacoes (midias audiovisuais)"
   }, {
     "code": "373220",
     "display": "SUPERVISOR TECNICO OPERACIONAL DE SISTEMAS DE TELEVISAO E PRODUTORAS DE VIDEO"
@@ -572,7 +572,7 @@
     "display": "DANCARINO TRADICIONAL"
   }, {
     "code": "375130",
-    "display": "Profissional de organização (personal organizer)"
+    "display": "Profissional de organizacao (personal organizer)"
   }, {
     "code": "375125",
     "display": "Produtor de moda"
@@ -758,7 +758,7 @@
     "display": "ELETRICISTA DE INSTALACOES (AERONAVES)"
   }, {
     "code": "342560",
-    "display": "Operador de rampa ( transporte aéreo)"
+    "display": "Operador de rampa ( transporte aereo)"
   }, {
     "code": "951320",
     "display": "MONITOR DE SISTEMAS ELETRONICOS DE SEGURANCA EXTERNO"
@@ -824,7 +824,7 @@
     "display": "TECNICO EM SECRETARIADO"
   }, {
     "code": "351440",
-    "display": "Árbitro extrajudicial"
+    "display": "Arbitro extrajudicial"
   }, {
     "code": "991315",
     "display": "PINTOR DE VEICULOS (REPARACAO)"
@@ -1103,19 +1103,19 @@
     "display": "MECANICO DE MANUTENCAO DE APARELHOS DE LEVANTAMENTO"
   }, {
     "code": "341245",
-    "display": "Técnico em sinais navais"
+    "display": "Tecnico em sinais navais"
   }, {
     "code": "911325",
     "display": "MECANICO DE MANUTENCAO DE MAQUINASFERRAMENTAS (USINAGEM DE METAIS)"
   }, {
     "code": "341240",
-    "display": "Técnicos em manobras em equipamentos de convés"
+    "display": "Tecnicos em manobras em equipamentos de conves"
   }, {
     "code": "911320",
     "display": "MECANICO DE MANUTENCAO DE MAQUINAS TEXTEIS"
   }, {
     "code": "341235",
-    "display": "Técnico em sinalização náutica"
+    "display": "Tecnico em sinalizacao nautica"
   }, {
     "code": "911315",
     "display": "MECANICO DE MANUTENCAO DE MAQUINAS OPERATRIZES (LAVRA DE MADEIRA)"
@@ -1127,7 +1127,7 @@
     "display": "MECANICO DE MANUTENCAO DE EQUIPAMENTO DE MINERACAO"
   }, {
     "code": "341250",
-    "display": "Auxiliar técnico de sinalização nautica"
+    "display": "Auxiliar tecnico de sinalizacao nautica"
   }, {
     "code": "341310",
     "display": "CONDUTOR MAQUINISTA MARITIMO"
@@ -1154,7 +1154,7 @@
     "display": "RESTAURADOR DE INSTRUMENTOS MUSICAIS (EXCETO CORDAS ARCADAS)"
   }, {
     "code": "342215",
-    "display": "Analista de desembaraço aduaneiro"
+    "display": "Analista de desembaraco aduaneiro"
   }, {
     "code": "914425",
     "display": "MECANICO DE VEICULOS AUTOMOTORES A DIESEL (EXCETO TRATORES)"
@@ -1232,7 +1232,7 @@
     "display": "SALSICHEIRO (FABRICACAO DE LINGICA, SALSICHA E PRODUTOS SIMILARES)"
   }, {
     "code": "322255",
-    "display": "Técnico em agente comunitário de saúde"
+    "display": "Tecnico em agente comunitario de saude"
   }, {
     "code": "842230",
     "display": "CHARUTEIRO A MAO"
@@ -1370,7 +1370,7 @@
     "display": "TRABALHADOR DO BENEFICIAMENTO DE FUMO"
   }, {
     "code": "324135",
-    "display": "Técnico em polissonografia"
+    "display": "Tecnico em polissonografia"
   }, {
     "code": "848525",
     "display": "RETALHADOR DE CARNE"
@@ -1379,7 +1379,7 @@
     "display": "MAGAREFE"
   }, {
     "code": "324130",
-    "display": "Técnico em espirometria"
+    "display": "Tecnico em espirometria"
   }, {
     "code": "860110",
     "display": "SUPERVISOR DE OPERACAO DE FLUIDOS (DISTRIBUICAO, CAPTACAO, TRATAMENTO DE AGUA, GASES, VAPOR)"
@@ -1883,7 +1883,7 @@
     "display": "PREPARADOR DE BARBOTINA"
   }, {
     "code": "314810",
-    "display": "Inspetor de fabricação"
+    "display": "Inspetor de fabricacao"
   }, {
     "code": "823115",
     "display": "PREPARADOR DE MASSA DE ARGILA"
@@ -2018,10 +2018,10 @@
     "display": "PREPARADOR DE ESMALTES (CERAMICA)"
   }, {
     "code": "314815",
-    "display": "Inspetor de ensaios não destrutivos"
+    "display": "Inspetor de ensaios nao destrutivos"
   }, {
     "code": "314840",
-    "display": "Inspetor de manutenção"
+    "display": "Inspetor de manutencao"
   }, {
     "code": "823215",
     "display": "FORNEIRO NA FUNDICAO DE VIDRO"
@@ -2534,13 +2534,13 @@
     "display": "MUSICO ARRANJADOR"
   }, {
     "code": "783240",
-    "display": "Amarrador e desamarrado de embarcações"
+    "display": "Amarrador e desamarrado de embarcacoes"
   }, {
     "code": "262605",
     "display": "COMPOSITOR"
   }, {
     "code": "783235",
-    "display": "Trabalhador portuário de capatazia"
+    "display": "Trabalhador portuario de capatazia"
   }, {
     "code": "262505",
     "display": "ATOR"
@@ -2855,7 +2855,7 @@
     "display": "CONDUTOR DE PROCESSOS ROBOTIZADOS DE PINTURA"
   }, {
     "code": "781310",
-    "display": "Operador de aeronaves não tripuladas"
+    "display": "Operador de aeronaves nao tripuladas"
   }, {
     "code": "261610",
     "display": "EDITOR DE LIVRO"
@@ -2900,7 +2900,7 @@
     "display": "TECNOLOGO EM PRODUCAO AUDIOVISUAL"
   }, {
     "code": "261910",
-    "display": "Assistente de direção (tv)"
+    "display": "Assistente de direcao (tv)"
   }, {
     "code": "782320",
     "display": "CONDUTOR DE AMBULANCIA"
@@ -2942,19 +2942,19 @@
     "display": "MOCO DE MAQUINAS (MARITIMO E FLUVIARIO)"
   }, {
     "code": "262225",
-    "display": "Diretor de programação"
+    "display": "Diretor de programacao"
   }, {
     "code": "782715",
     "display": "MOCO DE CONVES (MARITIMO E FLUVIARIO)"
   }, {
     "code": "262235",
-    "display": "Diretor artistíco"
+    "display": "Diretor artistico"
   }, {
     "code": "782725",
     "display": "MARINHEIRO DE ESPORTE E RECREIO"
   }, {
     "code": "262230",
-    "display": "Diretor de produção"
+    "display": "Diretor de producao"
   }, {
     "code": "262215",
     "display": "DIRETOR DE PROGRAMAS DE TELEVISAO"
@@ -3053,7 +3053,7 @@
     "display": "CLASSIFICADOR DE MADEIRA"
   }, {
     "code": "253405",
-    "display": "Analista de mídias sociais"
+    "display": "Analista de midias sociais"
   }, {
     "code": "773125",
     "display": "SERRADOR DE MADEIRA (SERRA CIRCULAR MULTIPLA)"
@@ -3125,7 +3125,7 @@
     "display": "LINOTIPISTA"
   }, {
     "code": "252705",
-    "display": "Analista de pcp (programação e controle da produção)"
+    "display": "Analista de pcp (programacao e controle da producao)"
   }, {
     "code": "770105",
     "display": "MESTRE (INDUSTRIA DE MADEIRA E MOBILIARIO)"
@@ -3143,7 +3143,7 @@
     "display": "GRAVADOR, A MAO (ENCADERNACAO)"
   }, {
     "code": "252725",
-    "display": "Analista de gestão de estoque"
+    "display": "Analista de gestao de estoque"
   }, {
     "code": "253125",
     "display": "Diretor de arte (publicidade)"
@@ -3152,7 +3152,7 @@
     "display": "MESTRE CARPINTEIRO"
   }, {
     "code": "253120",
-    "display": "Diretor de mídia (publicidade)"
+    "display": "Diretor de midia (publicidade)"
   }, {
     "code": "253130",
     "display": "DIRETOR DE CRIACAO"
@@ -4577,7 +4577,7 @@
     "display": "MECANICO MONTADOR DE TURBOALIMENTADORES"
   }, {
     "code": "225355",
-    "display": "Médico radiologista intervencionista"
+    "display": "Medico radiologista intervencionista"
   }, {
     "code": "725510",
     "display": "OPERADOR DE TIME DE MONTAGEM"
@@ -4652,7 +4652,7 @@
     "display": "MEDICO CIRURGIAO DA MAO"
   }, {
     "code": "725030",
-    "display": "Operador de manutenção e recarga de extintor de incêndio"
+    "display": "Operador de manutencao e recarga de extintor de incendio"
   }, {
     "code": "725210",
     "display": "MONTADOR DE MAQUINAS GRAFICAS"
@@ -5411,7 +5411,7 @@
     "display": "OPERADOR DE ACABAMENTO DE PECAS FUNDIDAS"
   }, {
     "code": "224140",
-    "display": "Profissional de educação física na saúde"
+    "display": "Profissional de educacao fisica na saude"
   }, {
     "code": "223224",
     "display": "CIRURGIAO DENTISTA IMPLANTODONTISTA"
@@ -5513,7 +5513,7 @@
     "display": "TRACADOR DE PEDRAS"
   }, {
     "code": "222125",
-    "display": "Tecnólogo em agronegócio"
+    "display": "Tecnologo em agronegocio"
   }, {
     "code": "712225",
     "display": "TORNEIRO (LAVRA DE PEDRA)"
@@ -6221,7 +6221,7 @@
     "display": "TECNOLOGO EM ELETRICIDADE"
   }, {
     "code": "214380",
-    "display": "Engenheiro biomédico"
+    "display": "Engenheiro biomedico"
   }, {
     "code": "632315",
     "display": "TRABALHADOR DA EXPLORACAO DE BACABA"
@@ -6278,7 +6278,7 @@
     "display": "ENGENHEIRO QUIMICO (INDUSTRIA QUIMICA)"
   }, {
     "code": "214540",
-    "display": "Engenheiro têxtil"
+    "display": "Engenheiro textil"
   }, {
     "code": "632520",
     "display": "TRABALHADOR DA EXPLORACAO DE RAIZES PRODUTORAS DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS"
@@ -6401,7 +6401,7 @@
     "display": "TRABALHADOR NO CULTIVO DE FLORES E FOLHAGENS DE CORTE"
   }, {
     "code": "212425",
-    "display": "Arquiteto de soluções de tecnologia da informação"
+    "display": "Arquiteto de solucoes de tecnologia da informacao"
   }, {
     "code": "622320",
     "display": "TRABALHADOR NA OLERICULTURA (TALOS, FOLHAS E FLORES)"
@@ -6440,7 +6440,7 @@
     "display": "TRABALHADOR NO CULTIVO DE FORRACOES"
   }, {
     "code": "212430",
-    "display": "Analista de testes de tecnologia da informação"
+    "display": "Analista de testes de tecnologia da informacao"
   }, {
     "code": "622410",
     "display": "TRABALHADOR NO CULTIVO DE FLORES EM VASO"
@@ -6989,7 +6989,7 @@
     "display": "CBO NIVEL MEDIO NAO TEM CORRESPONDENCIA CBO 2002"
   }, {
     "code": "142345",
-    "display": "Profissional de relações institucionais e governamentais"
+    "display": "Profissional de relacoes institucionais e governamentais"
   }, {
     "code": "519210",
     "display": "SELECIONADOR DE MATERIAL RECICLAVEL"
@@ -7001,7 +7001,7 @@
     "display": "AUXILIAR DE VETERINARIO"
   }, {
     "code": "142350",
-    "display": "Profissonal de relações internacionais"
+    "display": "Profissonal de relacoes internacionais"
   }, {
     "code": "519215",
     "display": "OPERADOR DE PRENSA DE MATERIAL RECICLAVEL"
@@ -7079,7 +7079,7 @@
     "display": "MAJOR DA POLICIA MILITAR"
   }, {
     "code": "523125",
-    "display": "Estampador de placa de identificação veicular (epiv)"
+    "display": "Estampador de placa de identificacao veicular (epiv)"
   }, {
     "code": "201215",
     "display": "ESPECIALISTA EM ENSAIOS METROLOGICOS"
@@ -7163,7 +7163,7 @@
     "display": "CAPITAO DA POLICIA MILITAR"
   }, {
     "code": "524315",
-    "display": "Baiana de acarajé"
+    "display": "Baiana de acaraje"
   }, {
     "code": "201225",
     "display": "ESPECIALISTA EM MATERIAIS DE REFERENCIA METROLOGICA"
@@ -7310,7 +7310,7 @@
     "display": "BARBEIRO"
   }, {
     "code": "515330",
-    "display": "Monitor de ressocialização prisional"
+    "display": "Monitor de ressocializacao prisional"
   }, {
     "code": "131320",
     "display": "GERENTE DE SERVICOS EDUCACIONAIS DA AREA PUBLICA"
@@ -7364,19 +7364,19 @@
     "display": "LAVADEIRO, EM GERAL"
   }, {
     "code": "141825",
-    "display": "Gerente de segurança da aviação civil"
+    "display": "Gerente de seguranca da aviacao civil"
   }, {
     "code": "517210",
     "display": "POLICIAL RODOVIARIO FEDERAL"
   }, {
     "code": "141820",
-    "display": "Gerente de operações de cargas"
+    "display": "Gerente de operacoes de cargas"
   }, {
     "code": "517205",
     "display": "AGENTE DE POLICIA FEDERAL"
   }, {
     "code": "141815",
-    "display": "Gerente de operações em aeroportos"
+    "display": "Gerente de operacoes em aeroportos"
   }, {
     "code": "517125",
     "display": "Chefe de brigada"
@@ -7385,7 +7385,7 @@
     "display": "AGENTE DE TRANSITO"
   }, {
     "code": "141830",
-    "display": "Gerente de segurança operacional (aviação civil)"
+    "display": "Gerente de seguranca operacional (aviacao civil)"
   }, {
     "code": "517215",
     "display": "GUARDACIVIL MUNICIPAL"
@@ -7421,7 +7421,7 @@
     "display": "GERENTE DE CREDITO E COBRANCA"
   }, {
     "code": "141805",
-    "display": "Gerente de administração em aeroportos"
+    "display": "Gerente de administracao em aeroportos"
   }, {
     "code": "517110",
     "display": "BOMBEIRO DE SEGURANCA DO TRABALHO"
@@ -7433,7 +7433,7 @@
     "display": "Brigadista florestal"
   }, {
     "code": "141810",
-    "display": "Gerente de empresa aérea e empresa de serviços auxiliares ao transporte aéreo (esata) em aeroportos"
+    "display": "Gerente de empresa aerea e empresa de servicos auxiliares ao transporte aereo (esata) em aeroportos"
   }, {
     "code": "517115",
     "display": "SALVAVIDAS"
@@ -7454,7 +7454,7 @@
     "display": "VIGIA PORTUARIO"
   }, {
     "code": "142135",
-    "display": "Oficial de proteção de dados pessoais (dpo)"
+    "display": "Oficial de protecao de dados pessoais (dpo)"
   }, {
     "code": "517305",
     "display": "AGENTE DE PROTECAO DE AEROPORTO"
@@ -7463,7 +7463,7 @@
     "display": "GERENTE FINANCEIRO"
   }, {
     "code": "517235",
-    "display": "Guarda portuário"
+    "display": "Guarda portuario"
   }, {
     "code": "142110",
     "display": "GERENTE DE RISCOS"
@@ -7850,7 +7850,7 @@
     "display": "VICEGOVERNADOR DE ESTADO"
   }, {
     "code": "422330",
-    "display": "Teleatendente de emergência"
+    "display": "Teleatendente de emergencia"
   }, {
     "code": "111315",
     "display": "MINISTRO DO SUPERIOR TRIBUNAL MILITAR"
@@ -7883,7 +7883,7 @@
     "display": "JUIZ FEDERAL"
   }, {
     "code": "424205",
-    "display": "Coordenador de provas (concurso, avaliação, exame)"
+    "display": "Coordenador de provas (concurso, avaliacao, exame)"
   }, {
     "code": "111325",
     "display": "JUIZ DE DIREITO"
@@ -8018,7 +8018,7 @@
     "display": "JUIZ AUDITOR FEDERAL JUSTICA MILITAR"
   }, {
     "code": "424210",
-    "display": "Aplicador de provas (concurso, avaliação,exame)"
+    "display": "Aplicador de provas (concurso, avaliacao,exame)"
   }, {
     "code": "510130",
     "display": "CHEFE DE BAR"

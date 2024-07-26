@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRSubgrupoTabelaSUS",
   "version": "HEAD",
-  "name": "Brsubgrupotabelasus",
+  "name": "BRSubgrupoTabelaSUS",
   "title": "Subgrupo da Tabela SUS 1.1.0",
   "status": "active",
   "experimental": false,
@@ -17,31 +17,31 @@
     "display": "Processamento de tecidos para transplante"
   }, {
     "code": "0603",
-    "display": "Medicamentos de âmbito hospitalar e urgência"
+    "display": "Medicamentos de ambito hospitalar e urgencia"
   }, {
     "code": "0402",
-    "display": "Cirurgia de glândulas endócrinas"
+    "display": "Cirurgia de glandulas endocrinas"
   }, {
     "code": "0604",
     "display": "Componente Especializado da Assitencia Farmaceutica"
   }, {
     "code": "0602",
-    "display": "Medicamentos estratégicos"
+    "display": "Medicamentos estrategicos"
   }, {
     "code": "0601",
-    "display": "Medicamentos de dispensação excepcional"
+    "display": "Medicamentos de dispensacao excepcional"
   }, {
     "code": "0308",
-    "display": "Tratamento de lesões, envenenamentos e outros, decorrentes de causas externas"
+    "display": "Tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas"
   }, {
     "code": "0307",
-    "display": "Tratamentos odontológicos"
+    "display": "Tratamentos odontologicos"
   }, {
     "code": "0205",
-    "display": "Diagnóstico por ultrasonografia"
+    "display": "Diagnostico por ultrasonografia"
   }, {
     "code": "0412",
-    "display": "Cirurgia torácica"
+    "display": "Cirurgia toracica"
   }, {
     "code": "0302",
     "display": "Fisioterapia"
@@ -50,94 +50,94 @@
     "display": "Hemoterapia"
   }, {
     "code": "0204",
-    "display": "Diagnóstico por radiologia"
+    "display": "Diagnostico por radiologia"
   }, {
     "code": "0410",
     "display": "Cirurgia de mama"
   }, {
     "code": "0206",
-    "display": "Diagnóstico por tomografia"
+    "display": "Diagnostico por tomografia"
   }, {
     "code": "0310",
     "display": "Parto e nascimento"
   }, {
     "code": "0401",
-    "display": "Pequenas cirurgias e cirurgias de pele, tecido subcutâneo e mucosa"
+    "display": "Pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa"
   }, {
     "code": "0802",
-    "display": "Ações relacionadas ao atendimento"
+    "display": "Acoes relacionadas ao atendimento"
   }, {
     "code": "0309",
     "display": "Terapias especializadas"
   }, {
     "code": "0803",
-    "display": "Autorização / Regulação"
+    "display": "Autorizacao / Regulacao"
   }, {
     "code": "0404",
-    "display": "Cirurgia das vias aéreas superiores, da face, da cabeça e do pescoço"
+    "display": "Cirurgia das vias aereas superiores, da face, da cabeca e do pescoco"
   }, {
     "code": "0701",
-    "display": "Órteses, próteses e materiais especiais não relacionados ao ato cirúrgico"
+    "display": "Orteses, proteses e materiais especiais nao relacionados ao ato cirurgico"
   }, {
     "code": "0702",
-    "display": "Órteses, próteses e materiais especiais relacionados ao ato cirúrgico"
+    "display": "Orteses, proteses e materiais especiais relacionados ao ato cirurgico"
   }, {
     "code": "0505",
-    "display": "Transplante de orgãos, tecidos e células"
+    "display": "Transplante de orgaos, tecidos e celulas"
   }, {
     "code": "0305",
     "display": "Tratamento em nefrologia"
   }, {
     "code": "0801",
-    "display": "Ações relacionadas ao estabelecimento"
+    "display": "Acoes relacionadas ao estabelecimento"
   }, {
     "code": "0403",
-    "display": "Cirurgia do sistema nervoso central e periférico"
+    "display": "Cirurgia do sistema nervoso central e periferico"
   }, {
     "code": "0304",
     "display": "Tratamento em oncologia"
   }, {
     "code": "0303",
-    "display": "Tratamentos clínicos (outras especialidades)"
+    "display": "Tratamentos clinicos (outras especialidades)"
   }, {
     "code": "0506",
-    "display": "Acompanhamento e intercorrências no pré e pós-transplante"
+    "display": "Acompanhamento e intercorrencias no pre e pos-transplante"
   }, {
     "code": "0211",
-    "display": "Métodos diagnósticos em especialidades"
+    "display": "Metodos diagnosticos em especialidades"
   }, {
     "code": "0212",
-    "display": "Diagnóstico e procedimentos especiais em hemoterapia"
+    "display": "Diagnostico e procedimentos especiais em hemoterapia"
   }, {
     "code": "0210",
-    "display": "Diagnóstico por radiologia intervencionista"
+    "display": "Diagnostico por radiologia intervencionista"
   }, {
     "code": "0417",
     "display": "Anestesiologia"
   }, {
     "code": "0501",
-    "display": "Coleta e exames para fins de doação de orgãos, tecidos e células e de transplante"
+    "display": "Coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante"
   }, {
     "code": "0213",
-    "display": "Diagnóstico em vigilância epidemiológica e ambiental"
+    "display": "Diagnostico em vigilancia epidemiologica e ambiental"
   }, {
     "code": "0418",
     "display": "Cirurgia em nefrologia"
   }, {
     "code": "0409",
-    "display": "Cirurgia do aparelho geniturinário"
+    "display": "Cirurgia do aparelho geniturinario"
   }, {
     "code": "0411",
-    "display": "Cirurgia obstétrica"
+    "display": "Cirurgia obstetrica"
   }, {
     "code": "0207",
-    "display": "Diagnóstico por ressonância magnética"
+    "display": "Diagnostico por ressonancia magnetica"
   }, {
     "code": "0413",
     "display": "Cirurgia reparadora"
   }, {
     "code": "0209",
-    "display": "Diagnóstico por endoscopia"
+    "display": "Diagnostico por endoscopia"
   }, {
     "code": "0416",
     "display": "Cirurgia em oncologia"
@@ -146,48 +146,48 @@
     "display": "Outras cirurgias"
   }, {
     "code": "0208",
-    "display": "Diagnóstico por medicina nuclear in vivo"
+    "display": "Diagnostico por medicina nuclear in vivo"
   }, {
     "code": "0102",
-    "display": "Vigilância em saúde"
+    "display": "Vigilancia em saude"
   }, {
     "code": "0301",
     "display": "Consultas / Atendimentos / Acompanhamentos"
   }, {
     "code": "0101",
-    "display": "Ações coletivas/individuais em saúde"
+    "display": "Acoes coletivas/individuais em saude"
   }, {
     "code": "0214",
-    "display": "Diagnóstico por teste rápido"
+    "display": "Diagnostico por teste rapido"
   }, {
     "code": "0502",
-    "display": "Avaliação de morte encefálica"
+    "display": "Avaliacao de morte encefalica"
   }, {
     "code": "0414",
     "display": "Bucomaxilofacial"
   }, {
     "code": "0503",
-    "display": "Ações relacionadas à doação de orgãos e tecidos para transplante"
+    "display": "Acoes relacionadas a doacao de orgaos e tecidos para transplante"
   }, {
     "code": "0407",
-    "display": "Cirurgia do aparelho digestivo, orgãos anexos e parede abdominal"
+    "display": "Cirurgia do aparelho digestivo, orgaos anexos e parede abdominal"
   }, {
     "code": "0201",
     "display": "Coleta de material"
   }, {
     "code": "0405",
-    "display": "Cirurgia do aparelho da visão"
+    "display": "Cirurgia do aparelho da visao"
   }, {
     "code": "0406",
-    "display": "Cirurgia do aparelho circulatório"
+    "display": "Cirurgia do aparelho circulatorio"
   }, {
     "code": "0203",
-    "display": "Diagnóstico por anatomia patológica e citopatologia"
+    "display": "Diagnostico por anatomia patologica e citopatologia"
   }, {
     "code": "0408",
     "display": "Cirurgia do sistema osteomuscular"
   }, {
     "code": "0202",
-    "display": "Diagnóstico em laboratório clínico"
+    "display": "Diagnostico em laboratorio clinico"
   } ]
 }

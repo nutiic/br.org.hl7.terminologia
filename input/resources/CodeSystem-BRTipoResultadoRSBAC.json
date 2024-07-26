@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSBAC",
   "version": "HEAD",
-  "name": "Brtiporesultadorsbac",
+  "name": "BRTipoResultadoRSBAC",
   "title": "Tipo de Resultado RSBAC 1.0",
   "status": "active",
   "experimental": false,
@@ -17,7 +17,7 @@
     "display": "Inconclusivo"
   }, {
     "code": "2",
-    "display": "Não Foram visualizados"
+    "display": "Nao Foram visualizados"
   }, {
     "code": "1",
     "display": "Foram visualizados"

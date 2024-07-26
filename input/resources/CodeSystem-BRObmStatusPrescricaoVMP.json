@@ -4,22 +4,22 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmStatusPrescricaoVMP",
   "version": "HEAD",
-  "name": "Brobmstatusprescricaovmp",
-  "title": "Status de prescrição do VMP",
+  "name": "BRObmStatusPrescricaoVMP",
+  "title": "Status de prescri��o do VMP",
   "status": "active",
   "experimental": false,
-  "description": "Status de prescrição do VMP",
+  "description": "Status de prescri��o do VMP",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "103329007",
-    "display": "Não disponível"
+    "display": "Nao disponivel"
   }, {
     "code": "0002",
-    "display": "Produto não disponível para prescrição na atenção primária"
+    "display": "Produto nao disponivel para prescricao na atencao primaria"
   }, {
     "code": "0001",
-    "display": "Produto disponível para prescrição"
+    "display": "Produto disponivel para prescricao"
   } ]
 }

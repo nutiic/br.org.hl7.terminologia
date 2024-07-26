@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRModalidadeAssistencial",
   "version": "HEAD",
-  "name": "Brmodalidadeassistencial",
+  "name": "BRModalidadeAssistencial",
   "title": "Modalidade Assistencial",
   "status": "active",
   "experimental": false,
@@ -13,30 +13,30 @@
   "content": "complete",
   "concept": [ {
     "code": "03",
-    "display": "Atenção Intermediária"
+    "display": "Atencao Intermediaria"
   }, {
     "code": "02",
-    "display": "Atenção Domiciliar"
+    "display": "Atencao Domiciliar"
   }, {
     "code": "04",
-    "display": "Atenção Hospitalar"
+    "display": "Atencao Hospitalar"
   }, {
     "code": "09",
-    "display": "Assistência Ambulatorial"
+    "display": "Assistencia Ambulatorial"
   }, {
     "code": "08",
-    "display": "Assistência Farmacêutica"
+    "display": "Assistencia Farmaceutica"
   }, {
     "code": "06",
-    "display": "Atenção à Urgência/Emergência"
+    "display": "Atencao a Urgencia/Emergencia"
   }, {
     "code": "07",
     "display": "Ambulatorial Especializada"
   }, {
     "code": "01",
-    "display": "Atenção Básica"
+    "display": "Atencao Basica"
   }, {
     "code": "05",
-    "display": "Atenção Psicossocial"
+    "display": "Atencao Psicossocial"
   } ]
 }

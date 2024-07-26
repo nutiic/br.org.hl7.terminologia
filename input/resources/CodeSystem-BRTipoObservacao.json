@@ -4,19 +4,19 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
   "version": "HEAD",
-  "name": "Brtipoobservacao",
-  "title": "Tipo de Observação",
+  "name": "BRTipoObservacao",
+  "title": "Tipo de Observa��o",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Observação",
+  "description": "Tipo de Observa��o",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
     "code": "CA",
-    "display": "Circunferência Abdominal"
+    "display": "Circunferencia Abdominal"
   }, {
     "code": "PC",
-    "display": "Perímetro Cefálico"
+    "display": "Perimetro Cefalico"
   }, {
     "code": "A",
     "display": "Altura"
@@ -25,18 +25,18 @@
     "display": "Peso"
   }, {
     "code": "PA",
-    "display": "Pressão Arterial"
+    "display": "Pressao Arterial"
   }, {
     "code": "DSIA",
-    "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+    "display": "Declaracao Subjetiva do Indiviudo para o Atendimento"
   }, {
     "code": "DF",
     "display": "Dados do desfecho"
   }, {
     "code": "RECIDI",
-    "display": "Resumo da evolução clínica do indivíduo durante a internação"
+    "display": "Resumo da evolucao clinica do individuo durante a internacao"
   }, {
     "code": "IAC",
-    "display": "Informações Adicionais/Complementares"
+    "display": "Informacoes Adicionais/Complementares"
   } ]
 }

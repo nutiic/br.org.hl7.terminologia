@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmUnidadeMedida",
   "version": "HEAD",
-  "name": "Brobmunidademedida",
+  "name": "BRObmUnidadeMedida",
   "title": "Unidades de Medida",
   "status": "active",
   "experimental": false,
@@ -17,13 +17,13 @@
     "display": "frasco"
   }, {
     "code": "@brasil5136136646",
-    "display": "blíster"
+    "display": "blister"
   }, {
     "code": "@brasil5819277896",
     "display": "cartucho"
   }, {
     "code": "@brasil2515400313",
-    "display": "cápsula"
+    "display": "capsula"
   }, {
     "code": "@brasil1289059844",
     "display": "bolsa"
@@ -47,7 +47,7 @@
     "display": "dose"
   }, {
     "code": "@brasil7899328762",
-    "display": "catéter"
+    "display": "cateter"
   }, {
     "code": "@brasil9045935118",
     "display": "adesivo"
@@ -56,10 +56,10 @@
     "display": "Pastilha gomosa"
   }, {
     "code": "@brasil2332494943",
-    "display": "pílula"
+    "display": "pilula"
   }, {
     "code": "@brasil0148593770",
-    "display": "óvulo"
+    "display": "ovulo"
   }, {
     "code": "@brasil4155444157",
     "display": "L (Litro)"
@@ -77,10 +77,10 @@
     "display": "g (Grama)"
   }, {
     "code": "@brasil8557154384",
-    "display": "cm (Centímetro)"
+    "display": "cm (Centimetro)"
   }, {
     "code": "@brasil8140277253",
-    "display": "aplicação"
+    "display": "aplicacao"
   }, {
     "code": "@brasil4543704185",
     "display": "UI (Unidade Internacional)"
@@ -89,7 +89,7 @@
     "display": "hora"
   }, {
     "code": "@brasil7173257293",
-    "display": "mm (Milímetro)"
+    "display": "mm (Milimetro)"
   }, {
     "code": "@brasil9065035386",
     "display": "mL (Mililitro)"
@@ -107,7 +107,7 @@
     "display": "ng (Nanograma)"
   }, {
     "code": "@brasil9966978072",
-    "display": "atomização"
+    "display": "atomizacao"
   }, {
     "code": "@brasil6071006720",
     "display": "unidade"
@@ -131,10 +131,10 @@
     "display": "mEq (Miliequivalente)"
   }, {
     "code": "259022006",
-    "display": "cm² (Centímetro Quadrado)"
+    "display": "cm� (Centimetro Quadrado)"
   }, {
     "code": "@brasil8331526680",
-    "display": "MUI (Milhões de unidades internacionais)"
+    "display": "MUI (Milhoes de unidades internacionais)"
   }, {
     "code": "@brasil9468708357",
     "display": "frasco-ampola"
@@ -146,10 +146,10 @@
     "display": "seringa"
   }, {
     "code": "@brasil3991003037",
-    "display": "supositório"
+    "display": "supositorio"
   }, {
     "code": "@brasil4627412487",
-    "display": "dispositivo de injeção pré-carregado"
+    "display": "dispositivo de injecao pre-carregado"
   }, {
     "code": "@brasil7899258977",
     "display": "carpule"
@@ -173,7 +173,7 @@
     "display": "dispositivo"
   }, {
     "code": "@brasil3445023571",
-    "display": "UIC (Unidade Inibidora de Calicreína)"
+    "display": "UIC (Unidade Inibidora de Calicreina)"
   }, {
     "code": "@brasil2851809881",
     "display": "endosporos"
@@ -185,7 +185,7 @@
     "display": "emplastro"
   }, {
     "code": "@brasil2187798777",
-    "display": "milhões"
+    "display": "milhoes"
   }, {
     "code": "@brasil3210018246",
     "display": "saco"

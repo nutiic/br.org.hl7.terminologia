@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRResultadoQualitativoExame",
   "version": "HEAD",
-  "name": "Brresultadoqualitativoexame",
+  "name": "BRResultadoQualitativoExame",
   "title": "Resultado qualitativo do Exame 2.0",
   "status": "active",
   "experimental": false,
@@ -17,9 +17,9 @@
     "display": "Inconclusivo"
   }, {
     "code": "2",
-    "display": "Não Detectável"
+    "display": "Nao Detectavel"
   }, {
     "code": "1",
-    "display": "Detectável"
+    "display": "Detectavel"
   } ]
 }

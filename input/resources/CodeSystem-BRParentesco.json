@@ -4,18 +4,18 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRParentesco",
   "version": "HEAD",
-  "name": "Brparentesco",
+  "name": "BRParentesco",
   "title": "Parentesco",
   "status": "active",
   "experimental": false,
-  "publisher": "MinistÃ©rio da SaÃºde do Brasil",
+  "publisher": "Ministério da Saúde do Brasil",
   "description": "Parentesco",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "mother",
-    "display": "MÃ£e"
+    "display": "Mae"
   }, {
     "code": "father",
     "display": "Pai"

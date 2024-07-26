@@ -4,17 +4,17 @@
   "language": "por",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRViaAdministracao",
   "version": "HEAD",
-  "name": "Brviaadministracao",
-  "title": "Via de Administração",
+  "name": "brviaadministracao",
+  "title": "Via de Administra��o",
   "status": "active",
   "experimental": false,
-  "description": "Via de Administração",
+  "description": "Via de Administra��o",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "10889",
-    "display": "Intralinfática"
+    "display": "Intralinfatica"
   }, {
     "code": "459531",
     "display": "Intratraqueal"
@@ -41,7 +41,7 @@
     "display": "Subtenoniana"
   }, {
     "code": "10913",
-    "display": "Perfusão Regional"
+    "display": "Perfusao Regional"
   }, {
     "code": "10876",
     "display": "Intra-arterial"
@@ -50,10 +50,10 @@
     "display": "Retal"
   }, {
     "code": "10874",
-    "display": "Inalatória"
+    "display": "Inalatoria"
   }, {
     "code": "10875",
-    "display": "Intra-aminiótica"
+    "display": "Intra-aminiotica"
   }, {
     "code": "10877",
     "display": "Intra-articular"
@@ -62,7 +62,7 @@
     "display": "Perineural"
   }, {
     "code": "10916",
-    "display": "Subcutânea"
+    "display": "Subcutanea"
   }, {
     "code": "10894",
     "display": "Intrapleural"
@@ -98,13 +98,13 @@
     "display": "Tecidos Moles"
   }, {
     "code": "10892",
-    "display": "Intraóssea"
+    "display": "Intraossea"
   }, {
     "code": "608808",
-    "display": "Infiltração"
+    "display": "Infiltracao"
   }, {
     "code": "10885",
-    "display": "Intradérmica"
+    "display": "Intradermica"
   }, {
     "code": "10888",
     "display": "Intralesional"
@@ -131,22 +131,22 @@
     "display": "Bucal"
   }, {
     "code": "10908",
-    "display": "Inalatória por Via Oral"
+    "display": "Inalatoria por Via Oral"
   }, {
     "code": "10902",
     "display": "Iontoforese"
   }, {
     "code": "10862",
-    "display": "Otológica"
+    "display": "Otologica"
   }, {
     "code": "10910",
     "display": "Periarticular"
   }, {
     "code": "10880",
-    "display": "Intracardíaca"
+    "display": "Intracardiaca"
   }, {
     "code": "10919",
-    "display": "Transdérmica"
+    "display": "Transdermica"
   }, {
     "code": "10871",
     "display": "Gastroenteral"
@@ -155,7 +155,7 @@
     "display": "Intrabursal"
   }, {
     "code": "10870",
-    "display": "Extraminiótica"
+    "display": "Extraminiotica"
   }, {
     "code": "10917",
     "display": "Sublingual"
@@ -167,19 +167,19 @@
     "display": "Intracerebroventricular"
   }, {
     "code": "10903",
-    "display": "Irrigação"
+    "display": "Irrigacao"
   }, {
     "code": "10900",
     "display": "Intravesical"
   }, {
     "code": "10906",
-    "display": "Oftálmica"
+    "display": "Oftalmica"
   }, {
     "code": "10905",
-    "display": "Inalatória por Via Nasal"
+    "display": "Inalatoria por Via Nasal"
   }, {
     "code": "10899",
-    "display": "Intraventricular cardíaca"
+    "display": "Intraventricular cardiaca"
   }, {
     "code": "10901",
     "display": "Intravitreal"
@@ -188,7 +188,7 @@
     "display": "Nasal"
   }, {
     "code": "10864",
-    "display": "Dermatológica"
+    "display": "Dermatologica"
   }, {
     "code": "10898",
     "display": "Intravenosa"
@@ -212,9 +212,9 @@
     "display": "Epilesional"
   }, {
     "code": "0",
-    "display": "Sem registro no sistema de informação de origem"
+    "display": "Sem registro no sistema de informacao de origem"
   }, {
     "code": "10923",
-    "display": "Não disponível"
+    "display": "Nao disponivel"
   } ]
 }

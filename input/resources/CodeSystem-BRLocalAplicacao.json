@@ -4,11 +4,11 @@
   "language": "por",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAplicacao",
   "version": "HEAD",
-  "name": "Brlocalaplicacao",
-  "title": "Local de Aplica√ß√£o",
+  "name": "BRLocalAplicacao",
+  "title": "Local de AplicaÁ„o",
   "status": "active",
   "experimental": false,
-  "description": "Local de Aplica√ß√£o",
+  "description": "Local de AplicaÁ„o",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -35,7 +35,7 @@
     "display": "Right forearm structure"
   }, {
     "code": "0",
-    "display": "Sem registro no sistema de informa√ß√£o de origem"
+    "display": "Sem registro no sistema de informacao de origem"
   }, {
     "code": "20",
     "display": "Left upper arm structure"

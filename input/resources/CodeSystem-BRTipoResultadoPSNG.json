@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoPSNG",
   "version": "HEAD",
-  "name": "Brtiporesultadopsng",
+  "name": "BRTipoResultadoPSNG",
   "title": "Tipo de Resultado PSNG 1.0",
   "status": "active",
   "experimental": false,

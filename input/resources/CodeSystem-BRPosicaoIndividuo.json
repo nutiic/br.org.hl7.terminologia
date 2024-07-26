@@ -4,12 +4,12 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRPosicaoIndividuo",
   "version": "HEAD",
-  "name": "Brposicaoindividuo",
-  "title": "Posi√ß√£o do Indiv√≠duo",
+  "name": "BRPosicaoIndividuo",
+  "title": "PosiÁ„o do IndivÌduo",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist√©rio da Sa√∫de do Brasil",
-  "description": "Posi√ß√£o do Indiv√≠duo",
+  "publisher": "MinistÈrio da Sa˙de do Brasil",
+  "description": "PosiÁ„o do IndivÌduo",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -20,12 +20,12 @@
     "display": "Deitado"
   }, {
     "code": "1",
-    "display": "Em p√©"
+    "display": "Em pe"
   }, {
     "code": "3",
     "display": "Reclinado"
   }, {
     "code": "5",
-    "display": "Deitado com inclina√ß√£o para esquerda"
+    "display": "Deitado com inclinacao para esquerda"
   } ]
 }

@@ -4,7 +4,7 @@
   "language": "por",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRRegistroOrigem",
   "version": "HEAD",
-  "name": "Brregistroorigem",
+  "name": "BRRegistroOrigem",
   "title": "BR Registro de Origem",
   "status": "active",
   "experimental": false,

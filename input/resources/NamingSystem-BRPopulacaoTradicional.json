@@ -6,7 +6,7 @@
   "version": "HEAD",
   "title": "Populacao Tradicional",
   "experimental": false,
-  "name": "Brpopulacaotradicional",
+  "name": "BRPopulacaoTradicional",
   "status": "active",
   "kind": "codesystem",
   "description": "Populacao Tradicional",

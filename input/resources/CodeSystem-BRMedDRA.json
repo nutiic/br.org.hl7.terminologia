@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRMedDRA",
   "version": "HEAD",
-  "name": "Brmeddra",
+  "name": "BRMedDRA",
   "title": "MedDRA",
   "status": "active",
   "experimental": false,
-  "publisher": "Ministério da Saúde do Brasil",
+  "publisher": "Minist�rio da Sa�de do Brasil",
   "description": "MedDRA",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
@@ -24,7 +24,7 @@
     "display": "Dermatite de contato"
   }, {
     "code": "10044223",
-    "display": "Síndrome de Lyell"
+    "display": "Sindrome de Lyell"
   }, {
     "code": "10039083",
     "display": "Rinite"
@@ -33,16 +33,16 @@
     "display": "Prurido"
   }, {
     "code": "10046735",
-    "display": "Urticária"
+    "display": "Urticaria"
   }, {
     "code": "10013968",
-    "display": "Dispnéia"
+    "display": "Dispneia"
   }, {
     "code": "10012735",
-    "display": "Diarréia"
+    "display": "Diarreia"
   }, {
     "code": "10047700",
-    "display": "Vômito"
+    "display": "Vomito"
   }, {
     "code": "10014184",
     "display": "Eczema"
@@ -51,13 +51,13 @@
     "display": "Exantema bolhoso"
   }, {
     "code": "10073508",
-    "display": "Síndrome de DRESS"
+    "display": "Sindrome de DRESS"
   }, {
     "code": "10047115",
     "display": "Vasculite"
   }, {
     "code": "10003639",
-    "display": "Dermatite atópica"
+    "display": "Dermatite atopica"
   }, {
     "code": "10003553",
     "display": "Asma"
@@ -66,10 +66,10 @@
     "display": "Fotossensibilidade"
   }, {
     "code": "10007617",
-    "display": "Parada Cardiorespiratória"
+    "display": "Parada Cardiorespiratoria"
   }, {
     "code": "10042033",
-    "display": "Síndrome de Stevens-Johnson"
+    "display": "Sindrome de Stevens-Johnson"
   }, {
     "code": "10029117",
     "display": "Nefrite"

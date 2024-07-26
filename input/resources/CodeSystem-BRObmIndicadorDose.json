@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "http://www.saude.gov.br/fhir/r4/BRObmIndicadorDose",
   "version": "HEAD",
-  "name": "Brobmindicadordose",
+  "name": "BRObmIndicadorDose",
   "title": "Indicadores das Doses",
   "status": "active",
   "experimental": false,
@@ -14,10 +14,10 @@
   "content": "complete",
   "concept": [ {
     "code": "0003",
-    "display": "Não aplicável"
+    "display": "Nao aplicavel"
   }, {
     "code": "0002",
-    "display": "Contínuo"
+    "display": "Continuo"
   }, {
     "code": "0001",
     "display": "Discreto"

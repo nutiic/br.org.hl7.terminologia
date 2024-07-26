@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoIdentificador",
   "version": "HEAD",
-  "name": "Brtipoidentificador",
+  "name": "BRTipoIdentificador",
   "title": "Tipo de Identificador",
   "status": "active",
   "experimental": false,
@@ -14,87 +14,87 @@
   "content": "complete",
   "concept": [ {
     "code": "BRACONRERP",
-    "display": "Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)"
+    "display": "Numero de inscricao no Conselho Regional de Recacoes Publicas (CONRERP)"
   }, {
     "code": "BRACRMV",
-    "display": "Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)"
+    "display": "Numero de inscricao no Conselho Regional de Medicina Veterinaria (CRMV)"
   }, {
     "code": "BRACONFRE",
-    "display": "Número de inscrição no Conselho Regional de Estatística (CONRE)"
+    "display": "Numero de inscricao no Conselho Regional de Estatistica (CONRE)"
   }, {
     "code": "BRACRFA",
-    "display": "Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+    "display": "Numero da inscricao no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
   }, {
     "code": "BRACRN",
-    "display": "Número de inscrição no Conselho Regional de Nutrição (CRN)"
+    "display": "Numero de inscricao no Conselho Regional de Nutricao (CRN)"
   }, {
     "code": "BRACORE",
-    "display": "Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)"
+    "display": "Numero de inscricao no Conselho Regional de Representantes Comerciais (CORE)"
   }, {
     "code": "BRACORECON",
-    "display": "Número de inscrição no Conselho Regional de Economia (CORECON)"
+    "display": "Numero de inscricao no Conselho Regional de Economia (CORECON)"
   }, {
     "code": "BRACREFITO",
-    "display": "Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+    "display": "Numero de inscricao no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
   }, {
     "code": "BRACAU",
-    "display": "Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)"
+    "display": "Numero de inscricao no Conselho Regional de Arquitetura e Urbanismo (CAU)"
   }, {
     "code": "BRACREF",
-    "display": "Número de inscrição no Conselho Regional de Educação Física (CREF)"
+    "display": "Numero de inscricao no Conselho Regional de Educacao Fisica (CREF)"
   }, {
     "code": "AUTH",
-    "display": "Código de Autorização"
+    "display": "Codigo de Autorizacao"
   }, {
     "code": "BRACNPJ",
-    "display": "Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)"
+    "display": "Numero de inscricao no Cadastro Nacional da Pessoa Juridica (CNPJ)"
   }, {
     "code": "BRACRESS",
-    "display": "Número de inscrição no Conselho Regional de Serviço Social (CRESS)"
+    "display": "Numero de inscricao no Conselho Regional de Servico Social (CRESS)"
   }, {
     "code": "BRACRF",
-    "display": "Número de inscrição no Conselho Regional de Farmácia (CRF)"
+    "display": "Numero de inscricao no Conselho Regional de Farmacia (CRF)"
   }, {
     "code": "BRACRBIO",
-    "display": "Número de inscrição no Conselho Regional de Biologia (CRBio)"
+    "display": "Numero de inscricao no Conselho Regional de Biologia (CRBio)"
   }, {
     "code": "BRACRT",
-    "display": "Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)"
+    "display": "Numero da inscricao no Conselho Regional dos Tecnicos Industriais (CRT)"
   }, {
     "code": "BRACRTR",
-    "display": "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"
+    "display": "Numero da inscricao no Conselho Regional de Tecnicos em Radiologia (CRTR)"
   }, {
     "code": "BRACRA",
-    "display": "Número de inscrição no Conselho Regional de Administração (CRA)"
+    "display": "Numero de inscricao no Conselho Regional de Administracao (CRA)"
   }, {
     "code": "BRACRP",
-    "display": "Número de inscrição no Conselho Regional de Psicologia (CRP)"
+    "display": "Numero de inscricao no Conselho Regional de Psicologia (CRP)"
   }, {
     "code": "BRACRQ",
-    "display": "Número de inscrição no Conselho Regional de Química (CRQ)"
+    "display": "Numero de inscricao no Conselho Regional de Quimica (CRQ)"
   }, {
     "code": "BRACRB",
-    "display": "Número de inscrição no Conselho Regional de Biblioteconomia (CRB)"
+    "display": "Numero de inscricao no Conselho Regional de Biblioteconomia (CRB)"
   }, {
     "code": "BRAIDMIL",
-    "display": "Número da Identidade Militar"
+    "display": "Numero da Identidade Militar"
   }, {
     "code": "BRACRC",
-    "display": "Número de inscrição no Conselho Regional de Contabilidade (CRC)"
+    "display": "Numero de inscricao no Conselho Regional de Contabilidade (CRC)"
   }, {
     "code": "BRAIDFUNC",
-    "display": "Número da Identidade Funcional"
+    "display": "Numero da Identidade Funcional"
   }, {
     "code": "BRACRBM",
-    "display": "Número da inscrição no Conselho Regional de Biomedicina (CRBM)"
+    "display": "Numero da inscricao no Conselho Regional de Biomedicina (CRBM)"
   }, {
     "code": "BRACREA",
-    "display": "Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)"
+    "display": "Numero de inscricao no Conselho Regional de Engenharia e Agronomia (CREA)"
   }, {
     "code": "BRAOAB",
-    "display": "Número de inscrição na Ordem dos Advogados do BRAasil (OAB)"
+    "display": "Numero de inscricao na Ordem dos Advogados do BRAasil (OAB)"
   }, {
     "code": "BRACRECI",
-    "display": "Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)"
+    "display": "Numero de inscricao no Conselho Regional de Corretores de Imoveis (CRECI)"
   } ]
 }

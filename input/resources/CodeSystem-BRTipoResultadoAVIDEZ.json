@@ -4,7 +4,7 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoAVIDEZ",
   "version": "HEAD",
-  "name": "Brtiporesultadoavidez",
+  "name": "BRTipoResultadoAVIDEZ",
   "title": "Tipo de Resultado AVIDEZ 1.0",
   "status": "active",
   "experimental": false,

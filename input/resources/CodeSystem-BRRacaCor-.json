@@ -4,11 +4,11 @@
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRRacaCor",
   "version": "HEAD",
-  "name": "Brracacor",
-  "title": "Raça/Cor",
+  "name": "BRRacaCor",
+  "title": "Ra�a/Cor",
   "status": "active",
   "experimental": false,
-  "description": "Raça/Cor",
+  "description": "Ra�a/Cor",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -22,12 +22,12 @@
     "display": "Amarela"
   }, {
     "code": "99",
-    "display": "Sem Informação"
+    "display": "Sem Informacao"
   }, {
     "code": "03",
     "display": "Parda"
   }, {
     "code": "05",
-    "display": "Indígena"
+    "display": "Indigena"
   } ]
 }
