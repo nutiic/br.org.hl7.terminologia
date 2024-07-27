@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRRacaCor",
   "version": "HEAD",
   "name": "BRRacaCor",
-  "title": "Raça/Cor",
+  "title": "Raca/Cor",
   "status": "active",
   "experimental": false,
-  "description": "Raça/Cor",
+  "description": "Raca/Cor",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

@@ -5,10 +5,10 @@
   "url": "https://www.ips.saude.gov.br/CodeSystem/conselho-profissional-saude-br-ips",
   "version": "HEAD",
   "name": "conselhosprofissionaissaude",
-  "title": "Conselhos Regionais de Profissionais da Saúde",
+  "title": "Conselhos Regionais de Profissionais da Saude",
   "status": "active",
   "experimental": false,
-  "description": "Conselhos Regionais de Profissionais da Saúde",
+  "description": "Conselhos Regionais de Profissionais da Saude",
   "hierarchyMeaning": "is-a",
   "content": "complete"
 }

@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAfericao",
   "version": "HEAD",
   "name": "BRLocalAfericao",
-  "title": "Local de Aferição",
+  "title": "Local de Afericao",
   "status": "active",
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
-  "description": "Local de Aferição",
+  "description": "Local de Afericao",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

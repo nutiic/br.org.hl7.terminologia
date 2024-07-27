@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRPais",
   "version": "HEAD",
   "name": "BRPais",
-  "title": "Países",
+  "title": "Paises",
   "status": "active",
   "experimental": false,
-  "description": "Países",
+  "description": "Paises",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

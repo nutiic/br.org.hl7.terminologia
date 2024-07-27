@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRPosicaoIndividuo",
   "version": "HEAD",
   "name": "BRPosicaoIndividuo",
-  "title": "Posição do Indivíduo",
+  "title": "Posicao do Individuo",
   "status": "active",
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
-  "description": "Posição do Indivíduo",
+  "description": "Posicao do Individuo",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

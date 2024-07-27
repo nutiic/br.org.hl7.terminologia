@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
   "version": "HEAD",
   "name": "BRTipoObservacao",
-  "title": "Tipo de Observação",
+  "title": "Tipo de Observacao",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Observação",
+  "description": "Tipo de Observacao",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

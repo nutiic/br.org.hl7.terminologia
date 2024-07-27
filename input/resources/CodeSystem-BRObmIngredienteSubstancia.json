@@ -5,10 +5,10 @@
   "url": "http://www.saude.gov.br/fhir/r4/BRObmIngredienteSubstancia",
   "version": "HEAD",
   "name": "BRObmIngredienteSubstancia",
-  "title": "Ingrediente SubstÃ¢ncia",
+  "title": "Ingrediente Substancia",
   "status": "active",
   "experimental": false,
-  "description": "Ingrediente SubstÃ¢ncia",
+  "description": "Ingrediente Substancia",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -1940,7 +1940,7 @@
     "display": "solidago chilensis meyen"
   }, {
     "code": "@brasil14550895190",
-    "display": "phyllanthus niruri subsp.Â lathyroidesÂ (kunth) g.l.webster"
+    "display": "phyllanthus niruri subsp. lathyroides (kunth) g.l.webster"
   }, {
     "code": "@brasil13880766706",
     "display": "myroxylon balsamum (l.) harms var. pereirae (royle) harms"
@@ -2282,7 +2282,7 @@
     "display": "psidium guajava l."
   }, {
     "code": "@brasil13160643625",
-    "display": "quillajaÂ saponariaÂ molina"
+    "display": "quillaja saponaria molina"
   }, {
     "code": "@brasil15147775023",
     "display": "quercus glandium spiritus"
@@ -2504,7 +2504,7 @@
     "display": "ledum palustre"
   }, {
     "code": "@brasil13098405480",
-    "display": "lavandula angustifoliaÂ mill."
+    "display": "lavandula angustifolia mill."
   }, {
     "code": "@brasil12945492343",
     "display": "lactobacillus casei subespecie rhamnosus doderlein"
@@ -2720,7 +2720,7 @@
     "display": "hedeoma pulegioides"
   }, {
     "code": "@brasil11825025659",
-    "display": "hebantheÂ erianthosÂ (poir.) pedersen"
+    "display": "hebanthe erianthos (poir.) pedersen"
   }, {
     "code": "@brasil18043522849",
     "display": "helleborus niger"
@@ -2747,7 +2747,7 @@
     "display": "harpagophytum zeyheri decne"
   }, {
     "code": "@brasil11759897768",
-    "display": "handroanthusÂ impetiginosusÂ (mart. ex dc.) mattos"
+    "display": "handroanthus impetiginosus (mart. ex dc.) mattos"
   }, {
     "code": "@brasil10290570276",
     "display": "guatteria gaumeri"
@@ -3548,7 +3548,7 @@
     "display": "cloridrato de trolamina"
   }, {
     "code": "@brasil19229901346",
-    "display": "coffea canephoraÂ pierre ex a. froehner"
+    "display": "coffea canephora pierre ex a. froehner"
   }, {
     "code": "@brasil14787396875",
     "display": "cochlearia armoracia"
@@ -3767,7 +3767,7 @@
     "display": "trillium pendulum"
   }, {
     "code": "@brasil10115806589",
-    "display": "triticumÂ aestivumÂ l."
+    "display": "triticum aestivum l."
   }, {
     "code": "@brasil17609137739",
     "display": "triticum repens"
@@ -4160,7 +4160,7 @@
     "display": "veratrum viride"
   }, {
     "code": "@brasil19899969797",
-    "display": "vanillaÂ planifoliaÂ jacks. ex andrews"
+    "display": "vanilla planifolia jacks. ex andrews"
   }, {
     "code": "@brasil15243453610",
     "display": "vangatalcita"
@@ -5270,7 +5270,7 @@
     "display": "baryta carbonica"
   }, {
     "code": "@brasil16497274511",
-    "display": "bacopa monnieriÂ (l.) wettst."
+    "display": "bacopa monnieri (l.) wettst."
   }, {
     "code": "@brasil13494316294",
     "display": "avena sativa"
@@ -5471,7 +5471,7 @@
     "display": "parafina solida"
   }, {
     "code": "@brasil14792997830",
-    "display": "estearilÂ eterÂ polioxietileno"
+    "display": "estearil eter polioxietileno"
   }, {
     "code": "@brasil18624103401",
     "display": "sorbitol dimetilpolisiloxana"
@@ -5483,10 +5483,10 @@
     "display": "alcool etilico absoluto"
   }, {
     "code": "@brasil17838920677",
-    "display": "alcool etilico 96Â° gl"
+    "display": "alcool etilico 96° gl"
   }, {
     "code": "@brasil18832175095",
-    "display": "alcool etilico 95Â° gl"
+    "display": "alcool etilico 95° gl"
   }, {
     "code": "@brasil17277417970",
     "display": "copolimero acrilatovinilacetato"
