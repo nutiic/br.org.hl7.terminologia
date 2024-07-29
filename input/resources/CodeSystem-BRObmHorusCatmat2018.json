@@ -471,14 +471,32 @@
     "code": "BR355031",
     "display": "HIDROXIDO DE ALUMINIO"
   }, {
-    "code": "BR355023",
-    "display": "EXTRATO MEDICINAL"
+    "code": "BR358449",
+    "display": "DARIFENACINA"
   }, {
-    "code": "BR354953",
-    "display": "SOMATOSTATINA"
+    "code": "BR358123",
+    "display": "RANIBIZUMABE"
   }, {
-    "code": "BR354633",
-    "display": "OLOPATADINA CLORIDRATO"
+    "code": "BR357880",
+    "display": "GLICOSE"
+  }, {
+    "code": "BR357062",
+    "display": "ANLODIPINO BESILATO"
+  }, {
+    "code": "BR357061",
+    "display": "ANLODIPINO BESILATO"
+  }, {
+    "code": "BR357060",
+    "display": "ACIDO ACETILSALICILICO"
+  }, {
+    "code": "BR357119",
+    "display": "BETAGALSIDASE"
+  }, {
+    "code": "BR357071",
+    "display": "CITRATO DE CALCIO"
+  }, {
+    "code": "BR357063",
+    "display": "ANLODIPINO BESILATO"
   }, {
     "code": "BR356051",
     "display": "ACIDO ZOLEDRONICO"
@@ -489,6 +507,18 @@
     "code": "BR355786",
     "display": "ACETILCISTEINA"
   }, {
+    "code": "BR356935",
+    "display": "VENLAFAXINA"
+  }, {
+    "code": "BR356705",
+    "display": "MERCAPTAMINA"
+  }, {
+    "code": "BR356701",
+    "display": "DESOGESTREL"
+  }, {
+    "code": "BR356602",
+    "display": "ESTROGENIOS CONJUGADOS"
+  }, {
     "code": "BR356452",
     "display": "TRAVOPROSTA"
   }, {
@@ -497,6 +527,69 @@
   }, {
     "code": "BR356170",
     "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR355023",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR354953",
+    "display": "SOMATOSTATINA"
+  }, {
+    "code": "BR354633",
+    "display": "OLOPATADINA CLORIDRATO"
+  }, {
+    "code": "BR357059",
+    "display": "IBANDRONATO DE SODIO"
+  }, {
+    "code": "BR357058",
+    "display": "PAROXETINA CLORIDRATO"
+  }, {
+    "code": "BR356952",
+    "display": "ACETILCISTEINA"
+  }, {
+    "code": "BR358753",
+    "display": "MISOPROSTOL"
+  }, {
+    "code": "BR358569",
+    "display": "METILCELULOSE"
+  }, {
+    "code": "BR358450",
+    "display": "DARIFENACINA"
+  }, {
+    "code": "BR358811",
+    "display": "VACINA HUMANA"
+  }, {
+    "code": "BR358755",
+    "display": "MISOPROSTOL"
+  }, {
+    "code": "BR358754",
+    "display": "MISOPROSTOL"
+  }, {
+    "code": "BR357788",
+    "display": "MEPIVACAINA CLORIDRATO"
+  }, {
+    "code": "BR357657",
+    "display": "ETRAVIRINA"
+  }, {
+    "code": "BR357213",
+    "display": "METOCLOPRAMIDA CLORIDRATO"
+  }, {
+    "code": "BR354414",
+    "display": "INDOCIANINA VERDE"
+  }, {
+    "code": "BR354317",
+    "display": "ACARBOSE"
+  }, {
+    "code": "BR354315",
+    "display": "AMOXICILINA"
+  }, {
+    "code": "BR354632",
+    "display": "OLOPATADINA CLORIDRATO"
+  }, {
+    "code": "BR354515",
+    "display": "ESOMEPRAZOL"
+  }, {
+    "code": "BR354498",
+    "display": "LERCANIDIPINO"
   }, {
     "code": "BR354314",
     "display": "CIMETIDINA"
@@ -518,99 +611,6 @@
   }, {
     "code": "BR353564",
     "display": "GLICOSE"
-  }, {
-    "code": "BR354414",
-    "display": "INDOCIANINA VERDE"
-  }, {
-    "code": "BR354317",
-    "display": "ACARBOSE"
-  }, {
-    "code": "BR354315",
-    "display": "AMOXICILINA"
-  }, {
-    "code": "BR354632",
-    "display": "OLOPATADINA CLORIDRATO"
-  }, {
-    "code": "BR354515",
-    "display": "ESOMEPRAZOL"
-  }, {
-    "code": "BR354498",
-    "display": "LERCANIDIPINO"
-  }, {
-    "code": "BR357062",
-    "display": "ANLODIPINO BESILATO"
-  }, {
-    "code": "BR357061",
-    "display": "ANLODIPINO BESILATO"
-  }, {
-    "code": "BR357060",
-    "display": "ACIDO ACETILSALICILICO"
-  }, {
-    "code": "BR357119",
-    "display": "BETAGALSIDASE"
-  }, {
-    "code": "BR357071",
-    "display": "CITRATO DE CALCIO"
-  }, {
-    "code": "BR357063",
-    "display": "ANLODIPINO BESILATO"
-  }, {
-    "code": "BR356935",
-    "display": "VENLAFAXINA"
-  }, {
-    "code": "BR356705",
-    "display": "MERCAPTAMINA"
-  }, {
-    "code": "BR356701",
-    "display": "DESOGESTREL"
-  }, {
-    "code": "BR356602",
-    "display": "ESTROGENIOS CONJUGADOS"
-  }, {
-    "code": "BR357059",
-    "display": "IBANDRONATO DE SODIO"
-  }, {
-    "code": "BR357058",
-    "display": "PAROXETINA CLORIDRATO"
-  }, {
-    "code": "BR356952",
-    "display": "ACETILCISTEINA"
-  }, {
-    "code": "BR358449",
-    "display": "DARIFENACINA"
-  }, {
-    "code": "BR358123",
-    "display": "RANIBIZUMABE"
-  }, {
-    "code": "BR357880",
-    "display": "GLICOSE"
-  }, {
-    "code": "BR357788",
-    "display": "MEPIVACAINA CLORIDRATO"
-  }, {
-    "code": "BR357657",
-    "display": "ETRAVIRINA"
-  }, {
-    "code": "BR357213",
-    "display": "METOCLOPRAMIDA CLORIDRATO"
-  }, {
-    "code": "BR358753",
-    "display": "MISOPROSTOL"
-  }, {
-    "code": "BR358569",
-    "display": "METILCELULOSE"
-  }, {
-    "code": "BR358450",
-    "display": "DARIFENACINA"
-  }, {
-    "code": "BR358811",
-    "display": "VACINA HUMANA"
-  }, {
-    "code": "BR358755",
-    "display": "MISOPROSTOL"
-  }, {
-    "code": "BR358754",
-    "display": "MISOPROSTOL"
   }, {
     "code": "BR450558",
     "display": "GONADORRELINA"
@@ -705,6 +705,15 @@
     "code": "BR450290",
     "display": "COMPLEXO PROTROMBINICO"
   }, {
+    "code": "BR347577",
+    "display": "TRICLOSANA"
+  }, {
+    "code": "BR347527",
+    "display": "ALANILGLUTAMINA"
+  }, {
+    "code": "BR347116",
+    "display": "PAPAINA"
+  }, {
     "code": "BR450166",
     "display": "LURASIDONA"
   }, {
@@ -717,60 +726,6 @@
     "code": "BR342738",
     "display": "HEPARINA SODICA"
   }, {
-    "code": "BR342751",
-    "display": "HIDRATO DE CLORAL"
-  }, {
-    "code": "BR450167",
-    "display": "IVACAFTOR"
-  }, {
-    "code": "BR342742",
-    "display": "METFORMINA CLORIDRATO"
-  }, {
-    "code": "BR343089",
-    "display": "IMUNOGLOBULINA ANTITIMOCITOS HUMANOS"
-  }, {
-    "code": "BR450499",
-    "display": "DORAMECTINA"
-  }, {
-    "code": "BR342981",
-    "display": "OCTREOTIDA"
-  }, {
-    "code": "BR450410",
-    "display": "ACIDO SALICILICO"
-  }, {
-    "code": "BR342980",
-    "display": "OCTREOTIDA"
-  }, {
-    "code": "BR450409",
-    "display": "ACIDO SALICILICO"
-  }, {
-    "code": "BR450511",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR343125",
-    "display": "ANLODIPINO BESILATO"
-  }, {
-    "code": "BR450500",
-    "display": "CLORFENVINFOS"
-  }, {
-    "code": "BR343212",
-    "display": "OCITOCINA"
-  }, {
-    "code": "BR450528",
-    "display": "CONCENTRADO DE FATOR DE COAGULACAO"
-  }, {
-    "code": "BR343126",
-    "display": "ANLODIPINO BESILATO"
-  }, {
-    "code": "BR347577",
-    "display": "TRICLOSANA"
-  }, {
-    "code": "BR347527",
-    "display": "ALANILGLUTAMINA"
-  }, {
-    "code": "BR347116",
-    "display": "PAPAINA"
-  }, {
     "code": "BR347115",
     "display": "PAPAINA"
   }, {
@@ -779,6 +734,15 @@
   }, {
     "code": "BR346317",
     "display": "ACIDO ASCORBICO"
+  }, {
+    "code": "BR342751",
+    "display": "HIDRATO DE CLORAL"
+  }, {
+    "code": "BR450167",
+    "display": "IVACAFTOR"
+  }, {
+    "code": "BR342742",
+    "display": "METFORMINA CLORIDRATO"
   }, {
     "code": "BR347991",
     "display": "COLESTIRAMINA"
@@ -798,14 +762,29 @@
     "code": "BR347992",
     "display": "CLINDAMICINA"
   }, {
+    "code": "BR343089",
+    "display": "IMUNOGLOBULINA ANTITIMOCITOS HUMANOS"
+  }, {
+    "code": "BR450499",
+    "display": "DORAMECTINA"
+  }, {
+    "code": "BR342981",
+    "display": "OCTREOTIDA"
+  }, {
     "code": "BR345754",
     "display": "NITROGLICERINA"
   }, {
     "code": "BR345638",
     "display": "CLORANFENICOL"
   }, {
-    "code": "BR345629",
-    "display": "ANTIGENO"
+    "code": "BR450410",
+    "display": "ACIDO SALICILICO"
+  }, {
+    "code": "BR342980",
+    "display": "OCTREOTIDA"
+  }, {
+    "code": "BR450409",
+    "display": "ACIDO SALICILICO"
   }, {
     "code": "BR345300",
     "display": "METRONIDAZOL"
@@ -819,6 +798,15 @@
     "code": "BR345240",
     "display": "HIDROCORTISONA"
   }, {
+    "code": "BR450511",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR343125",
+    "display": "ANLODIPINO BESILATO"
+  }, {
+    "code": "BR450500",
+    "display": "CLORFENVINFOS"
+  }, {
     "code": "BR345866",
     "display": "LEVODOPA"
   }, {
@@ -827,6 +815,15 @@
   }, {
     "code": "BR345783",
     "display": "UREIA"
+  }, {
+    "code": "BR343212",
+    "display": "OCITOCINA"
+  }, {
+    "code": "BR450528",
+    "display": "CONCENTRADO DE FATOR DE COAGULACAO"
+  }, {
+    "code": "BR343126",
+    "display": "ANLODIPINO BESILATO"
   }, {
     "code": "BR346238",
     "display": "HIDROQUINONA"
@@ -885,15 +882,6 @@
     "code": "BR348659",
     "display": "SORO"
   }, {
-    "code": "BR348654",
-    "display": "SORO"
-  }, {
-    "code": "BR348387",
-    "display": "SULFATO DE ZINCO"
-  }, {
-    "code": "BR348385",
-    "display": "ACIDO CITRICO"
-  }, {
     "code": "BR349319",
     "display": "PAPAINA"
   }, {
@@ -902,6 +890,15 @@
   }, {
     "code": "BR348672",
     "display": "SORO"
+  }, {
+    "code": "BR348654",
+    "display": "SORO"
+  }, {
+    "code": "BR348387",
+    "display": "SULFATO DE ZINCO"
+  }, {
+    "code": "BR348385",
+    "display": "ACIDO CITRICO"
   }, {
     "code": "BR349403",
     "display": "NAFAZOLINA"
@@ -1005,6 +1002,15 @@
     "code": "BR449343",
     "display": "AMINOACIDOS"
   }, {
+    "code": "BR342178",
+    "display": "ETOPOSIDO"
+  }, {
+    "code": "BR449783",
+    "display": "BISGLICINATO FERROSO"
+  }, {
+    "code": "BR342138",
+    "display": "HALOPERIDOL"
+  }, {
     "code": "BR340194",
     "display": "CITARABINA"
   }, {
@@ -1026,51 +1032,6 @@
     "code": "BR449340",
     "display": "AMINOACIDOS"
   }, {
-    "code": "BR340419",
-    "display": "DIPIRONA SODICA"
-  }, {
-    "code": "BR449347",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR340347",
-    "display": "BICARBONATO DE SODIO"
-  }, {
-    "code": "BR449346",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR340208",
-    "display": "PROCARBAZINA CLORIDRATO"
-  }, {
-    "code": "BR449345",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR449368",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR340482",
-    "display": "IODOPOVIDONA (PVPI)"
-  }, {
-    "code": "BR449365",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR340783",
-    "display": "HIDROXIDO DE ALUMINIO"
-  }, {
-    "code": "BR449377",
-    "display": "ETEPLIRSEN"
-  }, {
-    "code": "BR340758",
-    "display": "DIPIRONA SODICA"
-  }, {
-    "code": "BR342178",
-    "display": "ETOPOSIDO"
-  }, {
-    "code": "BR449783",
-    "display": "BISGLICINATO FERROSO"
-  }, {
-    "code": "BR342138",
-    "display": "HALOPERIDOL"
-  }, {
     "code": "BR449719",
     "display": "MULTIVITAMINAS"
   }, {
@@ -1089,6 +1050,15 @@
     "code": "BR449803",
     "display": "RITONAVIR"
   }, {
+    "code": "BR340419",
+    "display": "DIPIRONA SODICA"
+  }, {
+    "code": "BR449347",
+    "display": "AMINOACIDOS"
+  }, {
+    "code": "BR340347",
+    "display": "BICARBONATO DE SODIO"
+  }, {
     "code": "BR342259",
     "display": "IMIPENEM"
   }, {
@@ -1098,14 +1068,32 @@
     "code": "BR342258",
     "display": "IMIPENEM"
   }, {
+    "code": "BR449346",
+    "display": "AMINOACIDOS"
+  }, {
+    "code": "BR340208",
+    "display": "PROCARBAZINA CLORIDRATO"
+  }, {
+    "code": "BR449345",
+    "display": "AMINOACIDOS"
+  }, {
     "code": "BR342108",
     "display": "PROGESTERONA"
   }, {
     "code": "BR449650",
     "display": "EXTRATO MEDICINAL"
   }, {
+    "code": "BR449368",
+    "display": "AMINOACIDOS"
+  }, {
     "code": "BR341978",
     "display": "CARBONATO DE CALCIO"
+  }, {
+    "code": "BR340482",
+    "display": "IODOPOVIDONA (PVPI)"
+  }, {
+    "code": "BR449365",
+    "display": "AMINOACIDOS"
   }, {
     "code": "BR449593",
     "display": "SOLUCAO PARA DIALISE PERITONEAL"
@@ -1113,8 +1101,14 @@
     "code": "BR341882",
     "display": "CIANOCOBALAMINA"
   }, {
+    "code": "BR340783",
+    "display": "HIDROXIDO DE ALUMINIO"
+  }, {
     "code": "BR449592",
     "display": "SOLUCAO PARA DIALISE PERITONEAL"
+  }, {
+    "code": "BR449377",
+    "display": "ETEPLIRSEN"
   }, {
     "code": "BR341874",
     "display": "ACIDO ZOLEDRONICO"
@@ -1137,45 +1131,6 @@
     "code": "BR342133",
     "display": "HIDROCORTISONA"
   }, {
-    "code": "BR342469",
-    "display": "FENILBUTAZONA"
-  }, {
-    "code": "BR450102",
-    "display": "IMUNOGLOBULINA HUMANA"
-  }, {
-    "code": "BR342445",
-    "display": "INSULINA"
-  }, {
-    "code": "BR450104",
-    "display": "IMUNOGLOBULINA HUMANA"
-  }, {
-    "code": "BR342501",
-    "display": "FENOFIBRATO"
-  }, {
-    "code": "BR450103",
-    "display": "IMUNOGLOBULINA HUMANA"
-  }, {
-    "code": "BR342328",
-    "display": "VARFARINA SODICA"
-  }, {
-    "code": "BR450073",
-    "display": "DEXLANSOPRAZOL"
-  }, {
-    "code": "BR342270",
-    "display": "IMUNOGLOBULINA ANTITIMOCITOS HUMANOS"
-  }, {
-    "code": "BR449866",
-    "display": "ATEZOLIZUMABE"
-  }, {
-    "code": "BR450101",
-    "display": "IMUNOGLOBULINA HUMANA"
-  }, {
-    "code": "BR342334",
-    "display": "VIGABATRINA"
-  }, {
-    "code": "BR450100",
-    "display": "IMUNOGLOBULINA HUMANA"
-  }, {
     "code": "BR450108",
     "display": "IMUNOGLOBULINA HUMANA"
   }, {
@@ -1194,6 +1149,15 @@
     "code": "BR342526",
     "display": "TIOTROPIO BROMETO"
   }, {
+    "code": "BR342469",
+    "display": "FENILBUTAZONA"
+  }, {
+    "code": "BR450102",
+    "display": "IMUNOGLOBULINA HUMANA"
+  }, {
+    "code": "BR342445",
+    "display": "INSULINA"
+  }, {
     "code": "BR342734",
     "display": "HEPARINA SODICA"
   }, {
@@ -1211,6 +1175,36 @@
   }, {
     "code": "BR450159",
     "display": "CARBONATO DE CALCIO"
+  }, {
+    "code": "BR342328",
+    "display": "VARFARINA SODICA"
+  }, {
+    "code": "BR450073",
+    "display": "DEXLANSOPRAZOL"
+  }, {
+    "code": "BR342270",
+    "display": "IMUNOGLOBULINA ANTITIMOCITOS HUMANOS"
+  }, {
+    "code": "BR449866",
+    "display": "ATEZOLIZUMABE"
+  }, {
+    "code": "BR450104",
+    "display": "IMUNOGLOBULINA HUMANA"
+  }, {
+    "code": "BR342501",
+    "display": "FENOFIBRATO"
+  }, {
+    "code": "BR450103",
+    "display": "IMUNOGLOBULINA HUMANA"
+  }, {
+    "code": "BR450101",
+    "display": "IMUNOGLOBULINA HUMANA"
+  }, {
+    "code": "BR342334",
+    "display": "VIGABATRINA"
+  }, {
+    "code": "BR450100",
+    "display": "IMUNOGLOBULINA HUMANA"
   }, {
     "code": "BR339576",
     "display": "RADIOFARMACO - REAGENTE"
@@ -1251,117 +1245,6 @@
     "code": "BR449031",
     "display": "PROBIOTICO"
   }, {
-    "code": "BR449105",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR339592",
-    "display": "RADIOFARMACO - REAGENTE"
-  }, {
-    "code": "BR449104",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR339591",
-    "display": "RADIOFARMACO - REAGENTE"
-  }, {
-    "code": "BR449103",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR339587",
-    "display": "RADIOFARMACO - REAGENTE"
-  }, {
-    "code": "BR339845",
-    "display": "CEFEPIMA CLORIDRATO"
-  }, {
-    "code": "BR449106",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR339609",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR449109",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR339846",
-    "display": "CEFEPIMA CLORIDRATO"
-  }, {
-    "code": "BR449107",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR338264",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR449016",
-    "display": "ALFAEPOETINA"
-  }, {
-    "code": "BR338182",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR338284",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR449018",
-    "display": "DICLOFENACO"
-  }, {
-    "code": "BR449017",
-    "display": "ALCAFTADINA"
-  }, {
-    "code": "BR338134",
-    "display": "ESPIRONOLACTONA"
-  }, {
-    "code": "BR449013",
-    "display": "ALFAEPOETINA"
-  }, {
-    "code": "BR338043",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR449012",
-    "display": "ALFAEPOETINA"
-  }, {
-    "code": "BR449015",
-    "display": "ALFAEPOETINA"
-  }, {
-    "code": "BR338136",
-    "display": "MEPIVACAINA CLORIDRATO"
-  }, {
-    "code": "BR449014",
-    "display": "ALFAEPOETINA"
-  }, {
-    "code": "BR338298",
-    "display": "VORICONAZOL"
-  }, {
-    "code": "BR449023",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR338297",
-    "display": "VORICONAZOL"
-  }, {
-    "code": "BR449022",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR449021",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR338288",
-    "display": "TESTOSTERONA"
-  }, {
-    "code": "BR449025",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR338411",
-    "display": "ACIDO ZOLEDRONICO"
-  }, {
-    "code": "BR449024",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR338882",
-    "display": "CALCITONINA SINTETICA"
-  }, {
-    "code": "BR449026",
-    "display": "PROBIOTICO"
-  }, {
-    "code": "BR338413",
-    "display": "DACTINOMICINA"
-  }, {
     "code": "BR449118",
     "display": "MULTIVITAMINAS"
   }, {
@@ -1369,6 +1252,15 @@
     "display": "EXTRATO MEDICINAL"
   }, {
     "code": "BR449117",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR449105",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR339592",
+    "display": "RADIOFARMACO - REAGENTE"
+  }, {
+    "code": "BR449104",
     "display": "MULTIVITAMINAS"
   }, {
     "code": "BR340128",
@@ -1380,22 +1272,49 @@
     "code": "BR340118",
     "display": "VARENICLINA TARTARATO"
   }, {
+    "code": "BR339591",
+    "display": "RADIOFARMACO - REAGENTE"
+  }, {
+    "code": "BR449103",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR339587",
+    "display": "RADIOFARMACO - REAGENTE"
+  }, {
     "code": "BR340149",
     "display": "CICLOFOSFAMIDA"
   }, {
     "code": "BR449119",
     "display": "MULTIVITAMINAS"
   }, {
+    "code": "BR339845",
+    "display": "CEFEPIMA CLORIDRATO"
+  }, {
     "code": "BR340148",
     "display": "CICLOFOSFAMIDA"
   }, {
+    "code": "BR449106",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR339609",
+    "display": "CONTRASTE RADIOLOGICO"
+  }, {
     "code": "BR449121",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR449109",
     "display": "MULTIVITAMINAS"
   }, {
     "code": "BR340152",
     "display": "CICLOPIROX OLAMINA"
   }, {
+    "code": "BR339846",
+    "display": "CEFEPIMA CLORIDRATO"
+  }, {
     "code": "BR449120",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR449107",
     "display": "MULTIVITAMINAS"
   }, {
     "code": "BR340101",
@@ -1419,11 +1338,32 @@
     "code": "BR339847",
     "display": "CEFEPIMA CLORIDRATO"
   }, {
-    "code": "BR449114",
-    "display": "MULTIVITAMINAS"
+    "code": "BR338264",
+    "display": "CONTRASTE RADIOLOGICO"
   }, {
-    "code": "BR340105",
-    "display": "CETOPROFENO"
+    "code": "BR449016",
+    "display": "ALFAEPOETINA"
+  }, {
+    "code": "BR338182",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR338284",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR449018",
+    "display": "DICLOFENACO"
+  }, {
+    "code": "BR449017",
+    "display": "ALCAFTADINA"
+  }, {
+    "code": "BR449185",
+    "display": "BETAMETASONA"
+  }, {
+    "code": "BR340177",
+    "display": "CISATRACURIO BESILATO"
+  }, {
+    "code": "BR449181",
+    "display": "MULTIVITAMINAS"
   }, {
     "code": "BR449113",
     "display": "MULTIVITAMINAS"
@@ -1437,15 +1377,6 @@
     "code": "BR340107",
     "display": "CETOPROFENO"
   }, {
-    "code": "BR449185",
-    "display": "BETAMETASONA"
-  }, {
-    "code": "BR340177",
-    "display": "CISATRACURIO BESILATO"
-  }, {
-    "code": "BR449181",
-    "display": "MULTIVITAMINAS"
-  }, {
     "code": "BR449187",
     "display": "TROMETAMOL"
   }, {
@@ -1454,6 +1385,18 @@
   }, {
     "code": "BR449186",
     "display": "BETAMETASONA"
+  }, {
+    "code": "BR338134",
+    "display": "ESPIRONOLACTONA"
+  }, {
+    "code": "BR449013",
+    "display": "ALFAEPOETINA"
+  }, {
+    "code": "BR338043",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR449012",
+    "display": "ALFAEPOETINA"
   }, {
     "code": "BR449137",
     "display": "VITAMINAS DO COMPLEXO B"
@@ -1466,6 +1409,15 @@
   }, {
     "code": "BR340153",
     "display": "CICLOPIROX OLAMINA"
+  }, {
+    "code": "BR449015",
+    "display": "ALFAEPOETINA"
+  }, {
+    "code": "BR338136",
+    "display": "MEPIVACAINA CLORIDRATO"
+  }, {
+    "code": "BR449014",
+    "display": "ALFAEPOETINA"
   }, {
     "code": "BR340174",
     "display": "CIPROFLOXACINO CLORIDRATO"
@@ -1494,6 +1446,15 @@
     "code": "BR340182",
     "display": "CISPLATINA"
   }, {
+    "code": "BR338298",
+    "display": "VORICONAZOL"
+  }, {
+    "code": "BR449023",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR338297",
+    "display": "VORICONAZOL"
+  }, {
     "code": "BR449335",
     "display": "AMINOACIDOS"
   }, {
@@ -1511,6 +1472,33 @@
   }, {
     "code": "BR340186",
     "display": "CISPLATINA"
+  }, {
+    "code": "BR449022",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR449021",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR338288",
+    "display": "TESTOSTERONA"
+  }, {
+    "code": "BR449025",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR338411",
+    "display": "ACIDO ZOLEDRONICO"
+  }, {
+    "code": "BR449024",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR338882",
+    "display": "CALCITONINA SINTETICA"
+  }, {
+    "code": "BR449026",
+    "display": "PROBIOTICO"
+  }, {
+    "code": "BR338413",
+    "display": "DACTINOMICINA"
   }, {
     "code": "BR448840",
     "display": "AMOXICILINA"
@@ -1587,11 +1575,20 @@
     "code": "BR335088",
     "display": "FOSFATO DE SODIO"
   }, {
+    "code": "BR335969",
+    "display": "VARDENAFILA"
+  }, {
     "code": "BR333241",
     "display": "SALICILATO DE METILA"
   }, {
+    "code": "BR448980",
+    "display": "DALTEPARINA"
+  }, {
     "code": "BR448798",
     "display": "ESTRADIOL"
+  }, {
+    "code": "BR335313",
+    "display": "AMINOLEVULINATO DE METILA"
   }, {
     "code": "BR333240",
     "display": "DIFENIDRAMINA CLORIDRATO"
@@ -1604,6 +1601,15 @@
   }, {
     "code": "BR448799",
     "display": "ESTRADIOL"
+  }, {
+    "code": "BR448883",
+    "display": "FOSFATO TRICALCICO"
+  }, {
+    "code": "BR335311",
+    "display": "LISINA CLONIXINATO"
+  }, {
+    "code": "BR448871",
+    "display": "SUMATRIPTANA"
   }, {
     "code": "BR333130",
     "display": "CEFUROXIMA"
@@ -1626,60 +1632,6 @@
     "code": "BR448794",
     "display": "DROSPIRENONA"
   }, {
-    "code": "BR448804",
-    "display": "LEVONORGESTREL"
-  }, {
-    "code": "BR333496",
-    "display": "SOTALOL CLORIDRATO"
-  }, {
-    "code": "BR333494",
-    "display": "ALTEPLASE"
-  }, {
-    "code": "BR448803",
-    "display": "ESTROGENIOS CONJUGADOS"
-  }, {
-    "code": "BR333447",
-    "display": "INFLIXIMABE"
-  }, {
-    "code": "BR448802",
-    "display": "ESTRADIOL"
-  }, {
-    "code": "BR333569",
-    "display": "TACROLIMO"
-  }, {
-    "code": "BR448805",
-    "display": "LEVONORGESTREL"
-  }, {
-    "code": "BR333568",
-    "display": "TACROLIMO"
-  }, {
-    "code": "BR448809",
-    "display": "RITONAVIR"
-  }, {
-    "code": "BR333660",
-    "display": "HIDRATO DE CLORAL"
-  }, {
-    "code": "BR448808",
-    "display": "NORETISTERONA"
-  }, {
-    "code": "BR335969",
-    "display": "VARDENAFILA"
-  }, {
-    "code": "BR448980",
-    "display": "DALTEPARINA"
-  }, {
-    "code": "BR335313",
-    "display": "AMINOLEVULINATO DE METILA"
-  }, {
-    "code": "BR448883",
-    "display": "FOSFATO TRICALCICO"
-  }, {
-    "code": "BR335311",
-    "display": "LISINA CLONIXINATO"
-  }, {
-    "code": "BR448871",
-    "display": "SUMATRIPTANA"
-  }, {
     "code": "BR448982",
     "display": "ENOXAPARINA"
   }, {
@@ -1698,14 +1650,29 @@
     "code": "BR336431",
     "display": "OLANZAPINA"
   }, {
+    "code": "BR448804",
+    "display": "LEVONORGESTREL"
+  }, {
+    "code": "BR333496",
+    "display": "SOTALOL CLORIDRATO"
+  }, {
+    "code": "BR333494",
+    "display": "ALTEPLASE"
+  }, {
     "code": "BR335100",
     "display": "CLORANFENICOL"
   }, {
-    "code": "BR448859",
-    "display": "MESALAZINA"
+    "code": "BR448803",
+    "display": "ESTROGENIOS CONJUGADOS"
+  }, {
+    "code": "BR333447",
+    "display": "INFLIXIMABE"
   }, {
     "code": "BR335098",
     "display": "CLORANFENICOL"
+  }, {
+    "code": "BR448802",
+    "display": "ESTRADIOL"
   }, {
     "code": "BR448857",
     "display": "FLUCONAZOL"
@@ -1718,6 +1685,24 @@
   }, {
     "code": "BR448850",
     "display": "ESTIRIPENTOL"
+  }, {
+    "code": "BR333569",
+    "display": "TACROLIMO"
+  }, {
+    "code": "BR448805",
+    "display": "LEVONORGESTREL"
+  }, {
+    "code": "BR333568",
+    "display": "TACROLIMO"
+  }, {
+    "code": "BR448809",
+    "display": "RITONAVIR"
+  }, {
+    "code": "BR333660",
+    "display": "HIDRATO DE CLORAL"
+  }, {
+    "code": "BR448808",
+    "display": "NORETISTERONA"
   }, {
     "code": "BR448862",
     "display": "SAQUINAVIR"
@@ -1746,23 +1731,23 @@
     "code": "BR337457",
     "display": "MOMETASONA FUROATO"
   }, {
-    "code": "BR448990",
-    "display": "INTERFERONA"
-  }, {
-    "code": "BR337472",
-    "display": "INSULINA"
-  }, {
-    "code": "BR448989",
-    "display": "INTERFERONA"
-  }, {
     "code": "BR337442",
     "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR448990",
+    "display": "INTERFERONA"
   }, {
     "code": "BR448985",
     "display": "IMUNOGLOBULINA HUMANA"
   }, {
+    "code": "BR337472",
+    "display": "INSULINA"
+  }, {
     "code": "BR336738",
     "display": "MEDICAMENTO HOMEOPATICO"
+  }, {
+    "code": "BR448989",
+    "display": "INTERFERONA"
   }, {
     "code": "BR448984",
     "display": "IMUNOGLOBULINA HUMANA"
@@ -1794,15 +1779,6 @@
     "code": "BR337473",
     "display": "INSULINA"
   }, {
-    "code": "BR337856",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR449010",
-    "display": "CARBOCISTEINA"
-  }, {
-    "code": "BR337679",
-    "display": "ACIDO ACETILSALICILICO"
-  }, {
     "code": "BR338042",
     "display": "ANTIGENO"
   }, {
@@ -1811,6 +1787,15 @@
   }, {
     "code": "BR337948",
     "display": "HIDROXIDO DE ALUMINIO"
+  }, {
+    "code": "BR337856",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR449010",
+    "display": "CARBOCISTEINA"
+  }, {
+    "code": "BR337679",
+    "display": "ACIDO ACETILSALICILICO"
   }, {
     "code": "BR331160",
     "display": "PRANOPROFENO"
@@ -1905,6 +1890,15 @@
     "code": "BR448655",
     "display": "CICLOPIROX OLAMINA"
   }, {
+    "code": "BR332761",
+    "display": "SUMATRIPTANA"
+  }, {
+    "code": "BR448756",
+    "display": "MESALAZINA"
+  }, {
+    "code": "BR332755",
+    "display": "IBUPROFENO"
+  }, {
     "code": "BR329507",
     "display": "RETINOL"
   }, {
@@ -1926,51 +1920,6 @@
     "code": "BR448642",
     "display": "TIORIDAZINA CLORIDRATO"
   }, {
-    "code": "BR448659",
-    "display": "RISPERIDONA"
-  }, {
-    "code": "BR330537",
-    "display": "GALSULFASE"
-  }, {
-    "code": "BR448658",
-    "display": "RISPERIDONA"
-  }, {
-    "code": "BR330335",
-    "display": "SORAFENIBE TOSILATO"
-  }, {
-    "code": "BR448657",
-    "display": "ETANERCEPTE"
-  }, {
-    "code": "BR330115",
-    "display": "GANCICLOVIR SODICO"
-  }, {
-    "code": "BR330734",
-    "display": "DILUENTE SEMEN"
-  }, {
-    "code": "BR448660",
-    "display": "RISPERIDONA"
-  }, {
-    "code": "BR330732",
-    "display": "DILUENTE SEMEN"
-  }, {
-    "code": "BR331153",
-    "display": "ALCOOL POLIVINILICO"
-  }, {
-    "code": "BR448663",
-    "display": "ACIDO ASCORBICO"
-  }, {
-    "code": "BR330829",
-    "display": "CLOREXIDINA DIGLUCONATO"
-  }, {
-    "code": "BR332761",
-    "display": "SUMATRIPTANA"
-  }, {
-    "code": "BR448756",
-    "display": "MESALAZINA"
-  }, {
-    "code": "BR332755",
-    "display": "IBUPROFENO"
-  }, {
     "code": "BR448755",
     "display": "MESALAZINA"
   }, {
@@ -1989,6 +1938,15 @@
     "code": "BR448758",
     "display": "METRONIDAZOL"
   }, {
+    "code": "BR448659",
+    "display": "RISPERIDONA"
+  }, {
+    "code": "BR330537",
+    "display": "GALSULFASE"
+  }, {
+    "code": "BR448658",
+    "display": "RISPERIDONA"
+  }, {
     "code": "BR332794",
     "display": "GESTODENO"
   }, {
@@ -1997,6 +1955,24 @@
   }, {
     "code": "BR332789",
     "display": "SALMETEROL XINAFOATO"
+  }, {
+    "code": "BR330335",
+    "display": "SORAFENIBE TOSILATO"
+  }, {
+    "code": "BR448657",
+    "display": "ETANERCEPTE"
+  }, {
+    "code": "BR330115",
+    "display": "GANCICLOVIR SODICO"
+  }, {
+    "code": "BR330734",
+    "display": "DILUENTE SEMEN"
+  }, {
+    "code": "BR448660",
+    "display": "RISPERIDONA"
+  }, {
+    "code": "BR330732",
+    "display": "DILUENTE SEMEN"
   }, {
     "code": "BR448709",
     "display": "GLATIRAMER"
@@ -2018,63 +1994,6 @@
   }, {
     "code": "BR448706",
     "display": "FOLITROPINA"
-  }, {
-    "code": "BR332382",
-    "display": "CIDOFOVIR"
-  }, {
-    "code": "BR448711",
-    "display": "HILANO"
-  }, {
-    "code": "BR332372",
-    "display": "LACTULOSE"
-  }, {
-    "code": "BR448746",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR332383",
-    "display": "IDURSULFASE"
-  }, {
-    "code": "BR448712",
-    "display": "ISOCONAZOL NITRATO"
-  }, {
-    "code": "BR332887",
-    "display": "ANFOTERICINA B"
-  }, {
-    "code": "BR448765",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR332849",
-    "display": "CALCIPOTRIOL"
-  }, {
-    "code": "BR448767",
-    "display": "TENECTEPLASE"
-  }, {
-    "code": "BR332888",
-    "display": "ANFOTERICINA B"
-  }, {
-    "code": "BR448766",
-    "display": "TENECTEPLASE"
-  }, {
-    "code": "BR332796",
-    "display": "METILTIONINIO CLORETO"
-  }, {
-    "code": "BR448762",
-    "display": "PROPOFOL"
-  }, {
-    "code": "BR332795",
-    "display": "GESTODENO"
-  }, {
-    "code": "BR448761",
-    "display": "PROPOFOL"
-  }, {
-    "code": "BR448764",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR332848",
-    "display": "CALCIPOTRIOL"
-  }, {
-    "code": "BR448763",
-    "display": "SOMATROPINA"
   }, {
     "code": "BR448771",
     "display": "TRIPTORRELINA"
@@ -2111,6 +2030,69 @@
   }, {
     "code": "BR332987",
     "display": "LEVOFLOXACINO"
+  }, {
+    "code": "BR331153",
+    "display": "ALCOOL POLIVINILICO"
+  }, {
+    "code": "BR448663",
+    "display": "ACIDO ASCORBICO"
+  }, {
+    "code": "BR330829",
+    "display": "CLOREXIDINA DIGLUCONATO"
+  }, {
+    "code": "BR448746",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR332383",
+    "display": "IDURSULFASE"
+  }, {
+    "code": "BR448712",
+    "display": "ISOCONAZOL NITRATO"
+  }, {
+    "code": "BR332382",
+    "display": "CIDOFOVIR"
+  }, {
+    "code": "BR448711",
+    "display": "HILANO"
+  }, {
+    "code": "BR332372",
+    "display": "LACTULOSE"
+  }, {
+    "code": "BR332887",
+    "display": "ANFOTERICINA B"
+  }, {
+    "code": "BR448765",
+    "display": "SOMATROPINA"
+  }, {
+    "code": "BR332849",
+    "display": "CALCIPOTRIOL"
+  }, {
+    "code": "BR332796",
+    "display": "METILTIONINIO CLORETO"
+  }, {
+    "code": "BR448762",
+    "display": "PROPOFOL"
+  }, {
+    "code": "BR332795",
+    "display": "GESTODENO"
+  }, {
+    "code": "BR448761",
+    "display": "PROPOFOL"
+  }, {
+    "code": "BR448767",
+    "display": "TENECTEPLASE"
+  }, {
+    "code": "BR332888",
+    "display": "ANFOTERICINA B"
+  }, {
+    "code": "BR448766",
+    "display": "TENECTEPLASE"
+  }, {
+    "code": "BR332848",
+    "display": "CALCIPOTRIOL"
+  }, {
+    "code": "BR448763",
+    "display": "SOMATROPINA"
   }, {
     "code": "BR326611",
     "display": "TRISGLICINATO DE FERRO"
@@ -2187,8 +2169,23 @@
     "code": "BR327324",
     "display": "AZUL DE TRYPAN"
   }, {
-    "code": "BR325836",
-    "display": "DEFERASIROX"
+    "code": "BR448615",
+    "display": "HIDROXIDO DE FERRO III"
+  }, {
+    "code": "BR328530",
+    "display": "VALPROATO DE SODIO"
+  }, {
+    "code": "BR448614",
+    "display": "HIDROXIDO DE FERRO III"
+  }, {
+    "code": "BR328529",
+    "display": "VALPROATO DE SODIO"
+  }, {
+    "code": "BR448613",
+    "display": "DICLOFENACO"
+  }, {
+    "code": "BR327794",
+    "display": "CIPROFLOXACINO CLORIDRATO"
   }, {
     "code": "BR448577",
     "display": "MICOFENOLATO"
@@ -2204,6 +2201,24 @@
   }, {
     "code": "BR448578",
     "display": "MICOFENOLATO"
+  }, {
+    "code": "BR448617",
+    "display": "HIDROXIDO DE FERRO III"
+  }, {
+    "code": "BR328531",
+    "display": "VALPROATO DE SODIO"
+  }, {
+    "code": "BR448616",
+    "display": "HIDROXIDO DE FERRO III"
+  }, {
+    "code": "BR328535",
+    "display": "VALPROATO DE SODIO"
+  }, {
+    "code": "BR448618",
+    "display": "HIDROXIDO DE FERRO III"
+  }, {
+    "code": "BR328532",
+    "display": "VALPROATO DE SODIO"
   }, {
     "code": "BR448571",
     "display": "FLUTICASONA"
@@ -2225,78 +2240,6 @@
   }, {
     "code": "BR448572",
     "display": "FLUTICASONA"
-  }, {
-    "code": "BR448584",
-    "display": "PIRIDOXINA"
-  }, {
-    "code": "BR326122",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR448583",
-    "display": "PIRIDOXINA"
-  }, {
-    "code": "BR448582",
-    "display": "PIRIDOXINA"
-  }, {
-    "code": "BR326118",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR325838",
-    "display": "DEFERASIROX"
-  }, {
-    "code": "BR326124",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR448585",
-    "display": "PIRIDOXINA"
-  }, {
-    "code": "BR326123",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR326132",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR326131",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR448586",
-    "display": "PIRIDOXINA"
-  }, {
-    "code": "BR448615",
-    "display": "HIDROXIDO DE FERRO III"
-  }, {
-    "code": "BR328530",
-    "display": "VALPROATO DE SODIO"
-  }, {
-    "code": "BR448614",
-    "display": "HIDROXIDO DE FERRO III"
-  }, {
-    "code": "BR328529",
-    "display": "VALPROATO DE SODIO"
-  }, {
-    "code": "BR448613",
-    "display": "DICLOFENACO"
-  }, {
-    "code": "BR327794",
-    "display": "CIPROFLOXACINO CLORIDRATO"
-  }, {
-    "code": "BR448617",
-    "display": "HIDROXIDO DE FERRO III"
-  }, {
-    "code": "BR328531",
-    "display": "VALPROATO DE SODIO"
-  }, {
-    "code": "BR448616",
-    "display": "HIDROXIDO DE FERRO III"
-  }, {
-    "code": "BR328535",
-    "display": "VALPROATO DE SODIO"
-  }, {
-    "code": "BR448618",
-    "display": "HIDROXIDO DE FERRO III"
-  }, {
-    "code": "BR328532",
-    "display": "VALPROATO DE SODIO"
   }, {
     "code": "BR448608",
     "display": "CARBONATO DE CALCIO"
@@ -2337,6 +2280,15 @@
     "code": "BR448610",
     "display": "CARBONATO DE CALCIO"
   }, {
+    "code": "BR448584",
+    "display": "PIRIDOXINA"
+  }, {
+    "code": "BR326122",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR448583",
+    "display": "PIRIDOXINA"
+  }, {
     "code": "BR448625",
     "display": "FOLITROPINA"
   }, {
@@ -2355,26 +2307,14 @@
     "code": "BR328922",
     "display": "CONTRASTE RADIOLOGICO"
   }, {
-    "code": "BR448621",
-    "display": "ZIPRASIDONA"
+    "code": "BR448582",
+    "display": "PIRIDOXINA"
   }, {
-    "code": "BR328596",
-    "display": "ALCOOL ETILICO"
+    "code": "BR326118",
+    "display": "ANTIGENO"
   }, {
-    "code": "BR328536",
-    "display": "VALPROATO DE SODIO"
-  }, {
-    "code": "BR448620",
-    "display": "IBANDRONATO DE SODIO"
-  }, {
-    "code": "BR328627",
-    "display": "NITRITO DE SODIO"
-  }, {
-    "code": "BR448622",
-    "display": "ZIPRASIDONA"
-  }, {
-    "code": "BR328626",
-    "display": "TIOSSULFATO DE SODIO"
+    "code": "BR325838",
+    "display": "DEFERASIROX"
   }, {
     "code": "BR329336",
     "display": "EMULSAO DE LIPIDIOS"
@@ -2394,6 +2334,36 @@
     "code": "BR448634",
     "display": "BIPERIDENO"
   }, {
+    "code": "BR448621",
+    "display": "ZIPRASIDONA"
+  }, {
+    "code": "BR328596",
+    "display": "ALCOOL ETILICO"
+  }, {
+    "code": "BR328536",
+    "display": "VALPROATO DE SODIO"
+  }, {
+    "code": "BR448620",
+    "display": "IBANDRONATO DE SODIO"
+  }, {
+    "code": "BR326124",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR448585",
+    "display": "PIRIDOXINA"
+  }, {
+    "code": "BR326123",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR328627",
+    "display": "NITRITO DE SODIO"
+  }, {
+    "code": "BR448622",
+    "display": "ZIPRASIDONA"
+  }, {
+    "code": "BR328626",
+    "display": "TIOSSULFATO DE SODIO"
+  }, {
     "code": "BR448638",
     "display": "ISOSSORBIDA"
   }, {
@@ -2411,6 +2381,15 @@
   }, {
     "code": "BR329341",
     "display": "TADALAFILA"
+  }, {
+    "code": "BR326132",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR326131",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR448586",
+    "display": "PIRIDOXINA"
   }, {
     "code": "BR447270",
     "display": "FLURALANER"
@@ -2526,42 +2505,6 @@
     "code": "BR318970",
     "display": "DIPIRIDAMOL"
   }, {
-    "code": "BR319022",
-    "display": "MONOSSULFIRAM"
-  }, {
-    "code": "BR446832",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR319004",
-    "display": "DEXAMETASONA"
-  }, {
-    "code": "BR446831",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR319000",
-    "display": "BRIMONIDINA TARTARATO"
-  }, {
-    "code": "BR446793",
-    "display": "BACLOFENO"
-  }, {
-    "code": "BR319128",
-    "display": "PRIMIDONA"
-  }, {
-    "code": "BR447190",
-    "display": "FIROCOXIBE"
-  }, {
-    "code": "BR447188",
-    "display": "IMIDACLOPRIDO"
-  }, {
-    "code": "BR447192",
-    "display": "COUMAFOS"
-  }, {
-    "code": "BR319763",
-    "display": "FENILEFRINA CLORIDRATO"
-  }, {
-    "code": "BR447191",
-    "display": "IMIDACLOPRIDO"
-  }, {
     "code": "BR322441",
     "display": "GLICOSAMINA"
   }, {
@@ -2598,6 +2541,15 @@
     "code": "BR323004",
     "display": "ISOXSUPRINA CLORIDRATO"
   }, {
+    "code": "BR319022",
+    "display": "MONOSSULFIRAM"
+  }, {
+    "code": "BR446832",
+    "display": "SOMATROPINA"
+  }, {
+    "code": "BR319004",
+    "display": "DEXAMETASONA"
+  }, {
     "code": "BR322079",
     "display": "METOTREXATO"
   }, {
@@ -2606,6 +2558,33 @@
   }, {
     "code": "BR322033",
     "display": "ALFALUTROPINA"
+  }, {
+    "code": "BR446831",
+    "display": "SOMATROPINA"
+  }, {
+    "code": "BR319000",
+    "display": "BRIMONIDINA TARTARATO"
+  }, {
+    "code": "BR446793",
+    "display": "BACLOFENO"
+  }, {
+    "code": "BR319128",
+    "display": "PRIMIDONA"
+  }, {
+    "code": "BR447190",
+    "display": "FIROCOXIBE"
+  }, {
+    "code": "BR447188",
+    "display": "IMIDACLOPRIDO"
+  }, {
+    "code": "BR447192",
+    "display": "COUMAFOS"
+  }, {
+    "code": "BR319763",
+    "display": "FENILEFRINA CLORIDRATO"
+  }, {
+    "code": "BR447191",
+    "display": "IMIDACLOPRIDO"
   }, {
     "code": "BR448040",
     "display": "PIRVINIO"
@@ -2628,15 +2607,6 @@
     "code": "BR448042",
     "display": "PIRVINIO"
   }, {
-    "code": "BR322136",
-    "display": "DEXAMETASONA"
-  }, {
-    "code": "BR448159",
-    "display": "ALPRAZOLAM"
-  }, {
-    "code": "BR322081",
-    "display": "METOTREXATO"
-  }, {
     "code": "BR323359",
     "display": "ATOSIBANA ACETATO"
   }, {
@@ -2646,14 +2616,14 @@
     "code": "BR323260",
     "display": "DOXORRUBICINA CLORIDRATO"
   }, {
-    "code": "BR448563",
-    "display": "FLUTICASONA"
+    "code": "BR322136",
+    "display": "DEXAMETASONA"
   }, {
-    "code": "BR323437",
-    "display": "ESTRADIOL"
+    "code": "BR448159",
+    "display": "ALPRAZOLAM"
   }, {
-    "code": "BR448505",
-    "display": "AMINOACIDOS"
+    "code": "BR322081",
+    "display": "METOTREXATO"
   }, {
     "code": "BR323096",
     "display": "BROMAZEPAM"
@@ -2667,15 +2637,6 @@
     "code": "BR448289",
     "display": "PONATINIBE"
   }, {
-    "code": "BR448358",
-    "display": "MARBOFLOXACINA"
-  }, {
-    "code": "BR323152",
-    "display": "ROSA BENGALA"
-  }, {
-    "code": "BR448319",
-    "display": "NIFURTIMOX"
-  }, {
     "code": "BR448566",
     "display": "FLUTICASONA"
   }, {
@@ -2685,23 +2646,29 @@
     "code": "BR448565",
     "display": "FLUTICASONA"
   }, {
+    "code": "BR448563",
+    "display": "FLUTICASONA"
+  }, {
+    "code": "BR323437",
+    "display": "ESTRADIOL"
+  }, {
+    "code": "BR448505",
+    "display": "AMINOACIDOS"
+  }, {
     "code": "BR323713",
     "display": "FOSFATO TRICALCICO"
   }, {
     "code": "BR448564",
     "display": "FLUTICASONA"
   }, {
-    "code": "BR323548",
-    "display": "SULPIRIDA"
+    "code": "BR448358",
+    "display": "MARBOFLOXACINA"
   }, {
-    "code": "BR324414",
-    "display": "LAMOTRIGINA"
+    "code": "BR323152",
+    "display": "ROSA BENGALA"
   }, {
-    "code": "BR448567",
-    "display": "FLUTICASONA"
-  }, {
-    "code": "BR324358",
-    "display": "ANFOTERICINA B"
+    "code": "BR448319",
+    "display": "NIFURTIMOX"
   }, {
     "code": "BR448569",
     "display": "FLUTICASONA"
@@ -2711,6 +2678,15 @@
   }, {
     "code": "BR448568",
     "display": "FLUTICASONA"
+  }, {
+    "code": "BR324414",
+    "display": "LAMOTRIGINA"
+  }, {
+    "code": "BR448567",
+    "display": "FLUTICASONA"
+  }, {
+    "code": "BR324358",
+    "display": "ANFOTERICINA B"
   }, {
     "code": "BR312860",
     "display": "FLUORMETOLONA ACETATO"
@@ -2760,108 +2736,6 @@
     "code": "BR446034",
     "display": "DDVP"
   }, {
-    "code": "BR313591",
-    "display": "POLICRESULENO"
-  }, {
-    "code": "BR445955",
-    "display": "ALOGLIPTINA"
-  }, {
-    "code": "BR313186",
-    "display": "CLOTRIMAZOL"
-  }, {
-    "code": "BR313689",
-    "display": "FOSFATO DE POTASSIO"
-  }, {
-    "code": "BR313595",
-    "display": "POLICRESULENO"
-  }, {
-    "code": "BR446081",
-    "display": "DICLORFENTION"
-  }, {
-    "code": "BR446088",
-    "display": "GATIFLOXACINO"
-  }, {
-    "code": "BR314367",
-    "display": "CLOSTEBOL ACETATO"
-  }, {
-    "code": "BR446087",
-    "display": "LIDOCAINA CLORIDRATO"
-  }, {
-    "code": "BR311390",
-    "display": "BEVACIZUMABE"
-  }, {
-    "code": "BR445486",
-    "display": "FOSFATO TRICALCICO"
-  }, {
-    "code": "BR311143",
-    "display": "BENZOATO DE BENZILA"
-  }, {
-    "code": "BR445514",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR311423",
-    "display": "LISOZIMA"
-  }, {
-    "code": "BR445513",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR310452",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR445430",
-    "display": "VALSARTANA"
-  }, {
-    "code": "BR310212",
-    "display": "LISOZIMA"
-  }, {
-    "code": "BR445427",
-    "display": "OLARATUMABE"
-  }, {
-    "code": "BR445432",
-    "display": "VALSARTANA"
-  }, {
-    "code": "BR310761",
-    "display": "LARONIDASE"
-  }, {
-    "code": "BR445431",
-    "display": "VALSARTANA"
-  }, {
-    "code": "BR445752",
-    "display": "ITRACONAZOL"
-  }, {
-    "code": "BR311637",
-    "display": "PRAZOSINA CLORIDRATO"
-  }, {
-    "code": "BR445704",
-    "display": "CLORETO DE MAGNESIO"
-  }, {
-    "code": "BR311465",
-    "display": "SULFATO DE ZINCO"
-  }, {
-    "code": "BR445578",
-    "display": "ALCOOL ETILICO"
-  }, {
-    "code": "BR311442",
-    "display": "SALICILATO DE METILA"
-  }, {
-    "code": "BR311639",
-    "display": "PRAZOSINA CLORIDRATO"
-  }, {
-    "code": "BR445753",
-    "display": "ITRACONAZOL"
-  }, {
-    "code": "BR311638",
-    "display": "PRAZOSINA CLORIDRATO"
-  }, {
-    "code": "BR445915",
-    "display": "CEFALOTINA SODICA"
-  }, {
-    "code": "BR311640",
-    "display": "ALMITRINA BISMESILATO"
-  }, {
-    "code": "BR445797",
-    "display": "BECLOMETASONA DIPROPIONATO"
-  }, {
     "code": "BR316335",
     "display": "CONTRASTE RADIOLOGICO"
   }, {
@@ -2879,6 +2753,15 @@
   }, {
     "code": "BR446132",
     "display": "ALTRENOGEST"
+  }, {
+    "code": "BR313591",
+    "display": "POLICRESULENO"
+  }, {
+    "code": "BR445955",
+    "display": "ALOGLIPTINA"
+  }, {
+    "code": "BR313186",
+    "display": "CLOTRIMAZOL"
   }, {
     "code": "BR446138",
     "display": "CLOREXIDINA"
@@ -2937,6 +2820,15 @@
     "code": "BR315734",
     "display": "GALANTAMINA"
   }, {
+    "code": "BR313689",
+    "display": "FOSFATO DE POTASSIO"
+  }, {
+    "code": "BR313595",
+    "display": "POLICRESULENO"
+  }, {
+    "code": "BR446081",
+    "display": "DICLORFENTION"
+  }, {
     "code": "BR318324",
     "display": "VACINA HUMANA"
   }, {
@@ -2954,6 +2846,15 @@
   }, {
     "code": "BR446251",
     "display": "CARVAO ATIVADO"
+  }, {
+    "code": "BR446088",
+    "display": "GATIFLOXACINO"
+  }, {
+    "code": "BR314367",
+    "display": "CLOSTEBOL ACETATO"
+  }, {
+    "code": "BR446087",
+    "display": "LIDOCAINA CLORIDRATO"
   }, {
     "code": "BR318291",
     "display": "ACIDO SALICILICO"
@@ -2985,6 +2886,15 @@
     "code": "BR318668",
     "display": "VACINA HUMANA"
   }, {
+    "code": "BR445752",
+    "display": "ITRACONAZOL"
+  }, {
+    "code": "BR311637",
+    "display": "PRAZOSINA CLORIDRATO"
+  }, {
+    "code": "BR445704",
+    "display": "CLORETO DE MAGNESIO"
+  }, {
     "code": "BR446264",
     "display": "AMBROXOL"
   }, {
@@ -2993,6 +2903,15 @@
   }, {
     "code": "BR446263",
     "display": "AMBROXOL"
+  }, {
+    "code": "BR311465",
+    "display": "SULFATO DE ZINCO"
+  }, {
+    "code": "BR445578",
+    "display": "ALCOOL ETILICO"
+  }, {
+    "code": "BR311442",
+    "display": "SALICILATO DE METILA"
   }, {
     "code": "BR446296",
     "display": "TIROTROPINA ALFA"
@@ -3011,6 +2930,63 @@
   }, {
     "code": "BR318906",
     "display": "AMBROXOL"
+  }, {
+    "code": "BR311639",
+    "display": "PRAZOSINA CLORIDRATO"
+  }, {
+    "code": "BR445753",
+    "display": "ITRACONAZOL"
+  }, {
+    "code": "BR311638",
+    "display": "PRAZOSINA CLORIDRATO"
+  }, {
+    "code": "BR445915",
+    "display": "CEFALOTINA SODICA"
+  }, {
+    "code": "BR311640",
+    "display": "ALMITRINA BISMESILATO"
+  }, {
+    "code": "BR445797",
+    "display": "BECLOMETASONA DIPROPIONATO"
+  }, {
+    "code": "BR310452",
+    "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR445430",
+    "display": "VALSARTANA"
+  }, {
+    "code": "BR310212",
+    "display": "LISOZIMA"
+  }, {
+    "code": "BR445427",
+    "display": "OLARATUMABE"
+  }, {
+    "code": "BR311390",
+    "display": "BEVACIZUMABE"
+  }, {
+    "code": "BR445486",
+    "display": "FOSFATO TRICALCICO"
+  }, {
+    "code": "BR311143",
+    "display": "BENZOATO DE BENZILA"
+  }, {
+    "code": "BR445432",
+    "display": "VALSARTANA"
+  }, {
+    "code": "BR310761",
+    "display": "LARONIDASE"
+  }, {
+    "code": "BR445431",
+    "display": "VALSARTANA"
+  }, {
+    "code": "BR445514",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR311423",
+    "display": "LISOZIMA"
+  }, {
+    "code": "BR445513",
+    "display": "EXTRATO MEDICINAL"
   }, {
     "code": "BR444211",
     "display": "PACLITAXEL"
@@ -3087,6 +3063,15 @@
     "code": "BR308736",
     "display": "CETOCONAZOL"
   }, {
+    "code": "BR445108",
+    "display": "IPRATROPIO BROMETO"
+  }, {
+    "code": "BR309040",
+    "display": "ACIDO URSODESOXICOLICO"
+  }, {
+    "code": "BR445107",
+    "display": "HIDROCLOROTIAZIDA"
+  }, {
     "code": "BR307372",
     "display": "CETOCONAZOL"
   }, {
@@ -3162,81 +3147,6 @@
     "code": "BR443773",
     "display": "LEVAMISOL"
   }, {
-    "code": "BR445108",
-    "display": "IPRATROPIO BROMETO"
-  }, {
-    "code": "BR309040",
-    "display": "ACIDO URSODESOXICOLICO"
-  }, {
-    "code": "BR445107",
-    "display": "HIDROCLOROTIAZIDA"
-  }, {
-    "code": "BR308890",
-    "display": "ZIDOVUDINA"
-  }, {
-    "code": "BR445060",
-    "display": "TOCOFEROL"
-  }, {
-    "code": "BR308885",
-    "display": "SULFAMETOXAZOL"
-  }, {
-    "code": "BR445135",
-    "display": "LEVODOPA"
-  }, {
-    "code": "BR445134",
-    "display": "HIALURONATO DE SODIO"
-  }, {
-    "code": "BR309041",
-    "display": "FOLINATO DE CALCIO"
-  }, {
-    "code": "BR445215",
-    "display": "VACINA HUMANA"
-  }, {
-    "code": "BR309044",
-    "display": "FOLINATO DE CALCIO"
-  }, {
-    "code": "BR309042",
-    "display": "FOLINATO DE CALCIO"
-  }, {
-    "code": "BR445014",
-    "display": "PIDOLATO DE MAGNESIO"
-  }, {
-    "code": "BR308877",
-    "display": "SEVOFLURANO"
-  }, {
-    "code": "BR445013",
-    "display": "IODETO DE POTASSIO"
-  }, {
-    "code": "BR308874",
-    "display": "PENTAMIDINA ISETIONATO"
-  }, {
-    "code": "BR445011",
-    "display": "TOCOFEROL"
-  }, {
-    "code": "BR308804",
-    "display": "CONCENTRADO DE FATOR DE COAGULACAO"
-  }, {
-    "code": "BR444963",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR308883",
-    "display": "SULFAMETOXAZOL"
-  }, {
-    "code": "BR445018",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR308882",
-    "display": "SULFAMETOXAZOL"
-  }, {
-    "code": "BR445035",
-    "display": "SULFATO DE MAGNESIO"
-  }, {
-    "code": "BR308884",
-    "display": "SULFAMETOXAZOL"
-  }, {
-    "code": "BR445034",
-    "display": "FOSFATO DE SODIO"
-  }, {
     "code": "BR445282",
     "display": "FLUAZUROM"
   }, {
@@ -3245,36 +3155,6 @@
   }, {
     "code": "BR445281",
     "display": "CIPERMETRINA"
-  }, {
-    "code": "BR309436",
-    "display": "TRAMADOL CLORIDRATO"
-  }, {
-    "code": "BR445283",
-    "display": "GLICONATO DE CALCIO"
-  }, {
-    "code": "BR309097",
-    "display": "FORMOTEROL FUMARATO"
-  }, {
-    "code": "BR445279",
-    "display": "DIAZINONA"
-  }, {
-    "code": "BR445238",
-    "display": "MENOTROPINA"
-  }, {
-    "code": "BR309045",
-    "display": "ACIDO AMINOCAPROICO"
-  }, {
-    "code": "BR445217",
-    "display": "VACINA HUMANA"
-  }, {
-    "code": "BR309094",
-    "display": "FORMOTEROL FUMARATO"
-  }, {
-    "code": "BR445280",
-    "display": "CIPERMETRINA"
-  }, {
-    "code": "BR309062",
-    "display": "EXTRATO MEDICINAL"
   }, {
     "code": "BR309441",
     "display": "TRAMADOL CLORIDRATO"
@@ -3311,6 +3191,102 @@
   }, {
     "code": "BR309443",
     "display": "TRAMADOL CLORIDRATO"
+  }, {
+    "code": "BR445279",
+    "display": "DIAZINONA"
+  }, {
+    "code": "BR445238",
+    "display": "MENOTROPINA"
+  }, {
+    "code": "BR309045",
+    "display": "ACIDO AMINOCAPROICO"
+  }, {
+    "code": "BR445217",
+    "display": "VACINA HUMANA"
+  }, {
+    "code": "BR309094",
+    "display": "FORMOTEROL FUMARATO"
+  }, {
+    "code": "BR445280",
+    "display": "CIPERMETRINA"
+  }, {
+    "code": "BR309062",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR445014",
+    "display": "PIDOLATO DE MAGNESIO"
+  }, {
+    "code": "BR308877",
+    "display": "SEVOFLURANO"
+  }, {
+    "code": "BR445013",
+    "display": "IODETO DE POTASSIO"
+  }, {
+    "code": "BR308874",
+    "display": "PENTAMIDINA ISETIONATO"
+  }, {
+    "code": "BR445011",
+    "display": "TOCOFEROL"
+  }, {
+    "code": "BR308804",
+    "display": "CONCENTRADO DE FATOR DE COAGULACAO"
+  }, {
+    "code": "BR444963",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR309436",
+    "display": "TRAMADOL CLORIDRATO"
+  }, {
+    "code": "BR445283",
+    "display": "GLICONATO DE CALCIO"
+  }, {
+    "code": "BR309097",
+    "display": "FORMOTEROL FUMARATO"
+  }, {
+    "code": "BR308883",
+    "display": "SULFAMETOXAZOL"
+  }, {
+    "code": "BR445018",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR308882",
+    "display": "SULFAMETOXAZOL"
+  }, {
+    "code": "BR445035",
+    "display": "SULFATO DE MAGNESIO"
+  }, {
+    "code": "BR308884",
+    "display": "SULFAMETOXAZOL"
+  }, {
+    "code": "BR445034",
+    "display": "FOSFATO DE SODIO"
+  }, {
+    "code": "BR445135",
+    "display": "LEVODOPA"
+  }, {
+    "code": "BR445134",
+    "display": "HIALURONATO DE SODIO"
+  }, {
+    "code": "BR309041",
+    "display": "FOLINATO DE CALCIO"
+  }, {
+    "code": "BR445215",
+    "display": "VACINA HUMANA"
+  }, {
+    "code": "BR309044",
+    "display": "FOLINATO DE CALCIO"
+  }, {
+    "code": "BR309042",
+    "display": "FOLINATO DE CALCIO"
+  }, {
+    "code": "BR308890",
+    "display": "ZIDOVUDINA"
+  }, {
+    "code": "BR445060",
+    "display": "TOCOFEROL"
+  }, {
+    "code": "BR308885",
+    "display": "SULFAMETOXAZOL"
   }, {
     "code": "BR305413",
     "display": "EXTRATO MEDICINAL"
@@ -3405,6 +3381,15 @@
     "code": "BR442665",
     "display": "MARBOFLOXACINA"
   }, {
+    "code": "BR305707",
+    "display": "NISTATINA"
+  }, {
+    "code": "BR443166",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR305698",
+    "display": "NIMODIPINO"
+  }, {
     "code": "BR305236",
     "display": "CONTRASTE RADIOLOGICO"
   }, {
@@ -3426,6 +3411,15 @@
     "code": "BR442650",
     "display": "CONTRASTE RADIOLOGICO"
   }, {
+    "code": "BR443165",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR305493",
+    "display": "PIOGLITAZONA CLORIDRATO"
+  }, {
+    "code": "BR443164",
+    "display": "EXTRATO MEDICINAL"
+  }, {
     "code": "BR305261",
     "display": "LEUPRORRELINA ACETATO"
   }, {
@@ -3435,6 +3429,15 @@
     "code": "BR442693",
     "display": "CEFAZOLINA SODICA"
   }, {
+    "code": "BR443191",
+    "display": "SOMATROPINA"
+  }, {
+    "code": "BR305708",
+    "display": "NISTATINA"
+  }, {
+    "code": "BR443167",
+    "display": "EXTRATO MEDICINAL"
+  }, {
     "code": "BR305260",
     "display": "LEUPRORRELINA ACETATO"
   }, {
@@ -3443,6 +3446,15 @@
   }, {
     "code": "BR305259",
     "display": "LEUPRORRELINA ACETATO"
+  }, {
+    "code": "BR305725",
+    "display": "OCTREOTIDA"
+  }, {
+    "code": "BR443209",
+    "display": "SOMATROPINA"
+  }, {
+    "code": "BR305714",
+    "display": "NITROFURANTOINA"
   }, {
     "code": "BR442702",
     "display": "CEFTRIAXONA SODICA"
@@ -3461,42 +3473,6 @@
   }, {
     "code": "BR305270",
     "display": "LEVOFLOXACINO"
-  }, {
-    "code": "BR305707",
-    "display": "NISTATINA"
-  }, {
-    "code": "BR443166",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR305698",
-    "display": "NIMODIPINO"
-  }, {
-    "code": "BR443165",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR305493",
-    "display": "PIOGLITAZONA CLORIDRATO"
-  }, {
-    "code": "BR443164",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR443191",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR305708",
-    "display": "NISTATINA"
-  }, {
-    "code": "BR443167",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR305725",
-    "display": "OCTREOTIDA"
-  }, {
-    "code": "BR443209",
-    "display": "SOMATROPINA"
-  }, {
-    "code": "BR305714",
-    "display": "NITROFURANTOINA"
   }, {
     "code": "BR305489",
     "display": "METILFENIDATO CLORIDRATO"
@@ -3528,15 +3504,6 @@
     "code": "BR442892",
     "display": "CITARABINA"
   }, {
-    "code": "BR305492",
-    "display": "PIOGLITAZONA CLORIDRATO"
-  }, {
-    "code": "BR442925",
-    "display": "LEVONORGESTREL"
-  }, {
-    "code": "BR305491",
-    "display": "PIOGLITAZONA CLORIDRATO"
-  }, {
     "code": "BR443375",
     "display": "EXTRATO MEDICINAL"
   }, {
@@ -3545,6 +3512,15 @@
   }, {
     "code": "BR443374",
     "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR305492",
+    "display": "PIOGLITAZONA CLORIDRATO"
+  }, {
+    "code": "BR442925",
+    "display": "LEVONORGESTREL"
+  }, {
+    "code": "BR305491",
+    "display": "PIOGLITAZONA CLORIDRATO"
   }, {
     "code": "BR305936",
     "display": "PROPOFOL"
@@ -3780,24 +3756,6 @@
     "code": "BR303153",
     "display": "PARACETAMOL"
   }, {
-    "code": "BR304148",
-    "display": "MULTIVITAMINAS"
-  }, {
-    "code": "BR442259",
-    "display": "PANTOPRAZOL"
-  }, {
-    "code": "BR303885",
-    "display": "GLICINA"
-  }, {
-    "code": "BR442392",
-    "display": "CARMELOSE SODICA"
-  }, {
-    "code": "BR304181",
-    "display": "TIMOMODULINA"
-  }, {
-    "code": "BR442308",
-    "display": "ALANTOINA"
-  }, {
     "code": "BR442011",
     "display": "INSULINA"
   }, {
@@ -3806,6 +3764,15 @@
   }, {
     "code": "BR441769",
     "display": "METFORMINA CLORIDRATO"
+  }, {
+    "code": "BR304148",
+    "display": "MULTIVITAMINAS"
+  }, {
+    "code": "BR442259",
+    "display": "PANTOPRAZOL"
+  }, {
+    "code": "BR303885",
+    "display": "GLICINA"
   }, {
     "code": "BR302443",
     "display": "DULOXETINA"
@@ -3818,6 +3785,24 @@
   }, {
     "code": "BR302441",
     "display": "DULOXETINA"
+  }, {
+    "code": "BR442392",
+    "display": "CARMELOSE SODICA"
+  }, {
+    "code": "BR304181",
+    "display": "TIMOMODULINA"
+  }, {
+    "code": "BR442308",
+    "display": "ALANTOINA"
+  }, {
+    "code": "BR442445",
+    "display": "LIDOCAINA"
+  }, {
+    "code": "BR304790",
+    "display": "CINACALCETE"
+  }, {
+    "code": "BR442444",
+    "display": "AMINOACIDOS"
   }, {
     "code": "BR302748",
     "display": "PIRAZINAMIDA"
@@ -3835,15 +3820,6 @@
     "display": "CICLOSPORINA"
   }, {
     "code": "BR442051",
-    "display": "AMINOACIDOS"
-  }, {
-    "code": "BR442445",
-    "display": "LIDOCAINA"
-  }, {
-    "code": "BR304790",
-    "display": "CINACALCETE"
-  }, {
-    "code": "BR442444",
     "display": "AMINOACIDOS"
   }, {
     "code": "BR304845",
@@ -3875,33 +3851,6 @@
   }, {
     "code": "BR304788",
     "display": "CINACALCETE"
-  }, {
-    "code": "BR304872",
-    "display": "MORFINA"
-  }, {
-    "code": "BR442566",
-    "display": "SOLUCAO PARA HEMODIALISE"
-  }, {
-    "code": "BR304871",
-    "display": "MORFINA"
-  }, {
-    "code": "BR442527",
-    "display": "IODO"
-  }, {
-    "code": "BR304870",
-    "display": "MORFINA"
-  }, {
-    "code": "BR442521",
-    "display": "DULAGLUTIDA"
-  }, {
-    "code": "BR442584",
-    "display": "NOREPINEFRINA"
-  }, {
-    "code": "BR304873",
-    "display": "DIGOXINA"
-  }, {
-    "code": "BR442581",
-    "display": "METARAMINOL"
   }, {
     "code": "BR305106",
     "display": "GLUCAGON"
@@ -4080,63 +4029,6 @@
     "code": "BR440056",
     "display": "AFATINIBE DIMALEATO"
   }, {
-    "code": "BR299196",
-    "display": "DESOXIMETASONA"
-  }, {
-    "code": "BR440195",
-    "display": "COLECALCIFEROL"
-  }, {
-    "code": "BR298769",
-    "display": "PAROXETINA CLORIDRATO"
-  }, {
-    "code": "BR440214",
-    "display": "ACIDO SALICILICO"
-  }, {
-    "code": "BR299235",
-    "display": "DEXPANTENOL"
-  }, {
-    "code": "BR440199",
-    "display": "ESCINA"
-  }, {
-    "code": "BR298548",
-    "display": "RETINOL"
-  }, {
-    "code": "BR440008",
-    "display": "FLURALANER"
-  }, {
-    "code": "BR298530",
-    "display": "ESTRADIOL"
-  }, {
-    "code": "BR439938",
-    "display": "AMOXICILINA"
-  }, {
-    "code": "BR298454",
-    "display": "DEXCLORFENIRAMINA MALEATO"
-  }, {
-    "code": "BR439843",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR298447",
-    "display": "CROMOGLICATO DE SODIO"
-  }, {
-    "code": "BR440054",
-    "display": "MUCOPOLISSACARIDEO"
-  }, {
-    "code": "BR298574",
-    "display": "BAMBUTEROL CLORIDRATO"
-  }, {
-    "code": "BR440053",
-    "display": "MUCOPOLISSACARIDEO"
-  }, {
-    "code": "BR298616",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR440055",
-    "display": "MUCOPOLISSACARIDEO"
-  }, {
-    "code": "BR298582",
-    "display": "PINAVERIO BROMETO"
-  }, {
     "code": "BR440270",
     "display": "GLICOSE"
   }, {
@@ -4155,17 +4047,26 @@
     "code": "BR299690",
     "display": "METILPREDNISOLONA"
   }, {
+    "code": "BR299196",
+    "display": "DESOXIMETASONA"
+  }, {
+    "code": "BR440195",
+    "display": "COLECALCIFEROL"
+  }, {
+    "code": "BR298769",
+    "display": "PAROXETINA CLORIDRATO"
+  }, {
     "code": "BR440264",
     "display": "RAMUCIRUMABE"
   }, {
-    "code": "BR299248",
-    "display": "DIDANOSINA"
+    "code": "BR440214",
+    "display": "ACIDO SALICILICO"
   }, {
-    "code": "BR440255",
-    "display": "INSULINA"
-  }, {
-    "code": "BR299236",
+    "code": "BR299235",
     "display": "DEXPANTENOL"
+  }, {
+    "code": "BR440199",
+    "display": "ESCINA"
   }, {
     "code": "BR299656",
     "display": "LIDOCAINA CLORIDRATO"
@@ -4176,8 +4077,14 @@
     "code": "BR299317",
     "display": "FENTANILA"
   }, {
-    "code": "BR300253",
-    "display": "BICARBONATO DE SODIO"
+    "code": "BR298548",
+    "display": "RETINOL"
+  }, {
+    "code": "BR440008",
+    "display": "FLURALANER"
+  }, {
+    "code": "BR298530",
+    "display": "ESTRADIOL"
   }, {
     "code": "BR440317",
     "display": "AFLIBERCEPTE"
@@ -4194,6 +4101,9 @@
     "code": "BR440312",
     "display": "ALFADARBEPOETINA"
   }, {
+    "code": "BR298447",
+    "display": "CROMOGLICATO DE SODIO"
+  }, {
     "code": "BR440455",
     "display": "ALFADARBEPOETINA"
   }, {
@@ -4203,6 +4113,9 @@
     "code": "BR300257",
     "display": "LEVODROPROPIZINA"
   }, {
+    "code": "BR440054",
+    "display": "MUCOPOLISSACARIDEO"
+  }, {
     "code": "BR300407",
     "display": "FENTOLAMINA MESILATO"
   }, {
@@ -4211,6 +4124,15 @@
   }, {
     "code": "BR300259",
     "display": "LEVODROPROPIZINA"
+  }, {
+    "code": "BR298616",
+    "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR440055",
+    "display": "MUCOPOLISSACARIDEO"
+  }, {
+    "code": "BR298582",
+    "display": "PINAVERIO BROMETO"
   }, {
     "code": "BR438633",
     "display": "COLISTIMETATO DE SODIO"
@@ -4689,6 +4611,9 @@
     "code": "BR292400",
     "display": "ALFACALCIDOL"
   }, {
+    "code": "BR292427",
+    "display": "DEXAMETASONA"
+  }, {
     "code": "BR438040",
     "display": "ENROFLOXACINO"
   }, {
@@ -4697,54 +4622,6 @@
   }, {
     "code": "BR438039",
     "display": "ALOGLIPTINA"
-  }, {
-    "code": "BR437940",
-    "display": "CAFEINA"
-  }, {
-    "code": "BR292345",
-    "display": "SULFATO FERROSO"
-  }, {
-    "code": "BR437908",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR437903",
-    "display": "LISINOPRIL"
-  }, {
-    "code": "BR292344",
-    "display": "SULFATO FERROSO"
-  }, {
-    "code": "BR437870",
-    "display": "FUMARATO DE DIMETILA"
-  }, {
-    "code": "BR292343",
-    "display": "SULFADIAZINA"
-  }, {
-    "code": "BR292373",
-    "display": "TOXINA BOTULINICA"
-  }, {
-    "code": "BR437970",
-    "display": "ROTIGOTINA"
-  }, {
-    "code": "BR292372",
-    "display": "TOXINA BOTULINICA"
-  }, {
-    "code": "BR437990",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR292379",
-    "display": "TRAMADOL CLORIDRATO"
-  }, {
-    "code": "BR437989",
-    "display": "INDACATEROL MALEATO"
-  }, {
-    "code": "BR292427",
-    "display": "DEXAMETASONA"
-  }, {
-    "code": "BR438093",
-    "display": "COLECALCIFEROL"
-  }, {
-    "code": "BR292419",
-    "display": "CLINDAMICINA"
   }, {
     "code": "BR292468",
     "display": "SUMATRIPTANA"
@@ -4776,6 +4653,18 @@
     "code": "BR438083",
     "display": "BETAINA"
   }, {
+    "code": "BR437903",
+    "display": "LISINOPRIL"
+  }, {
+    "code": "BR292344",
+    "display": "SULFATO FERROSO"
+  }, {
+    "code": "BR437870",
+    "display": "FUMARATO DE DIMETILA"
+  }, {
+    "code": "BR292343",
+    "display": "SULFADIAZINA"
+  }, {
     "code": "BR292732",
     "display": "FUROSEMIDA"
   }, {
@@ -4793,6 +4682,24 @@
   }, {
     "code": "BR438102",
     "display": "LUGOL"
+  }, {
+    "code": "BR292373",
+    "display": "TOXINA BOTULINICA"
+  }, {
+    "code": "BR437970",
+    "display": "ROTIGOTINA"
+  }, {
+    "code": "BR292372",
+    "display": "TOXINA BOTULINICA"
+  }, {
+    "code": "BR437990",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR292379",
+    "display": "TRAMADOL CLORIDRATO"
+  }, {
+    "code": "BR437989",
+    "display": "INDACATEROL MALEATO"
   }, {
     "code": "BR292765",
     "display": "PROPRANOLOL CLORIDRATO"
@@ -4998,6 +4905,15 @@
     "code": "BR437082",
     "display": "RIOCIGUATE"
   }, {
+    "code": "BR437192",
+    "display": "CLOREXIDINA"
+  }, {
+    "code": "BR291157",
+    "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR437162",
+    "display": "SEBELIPASE"
+  }, {
     "code": "BR437006",
     "display": "EXTRATO MEDICINAL"
   }, {
@@ -5019,33 +4935,6 @@
     "code": "BR436943",
     "display": "BENZILPENICILINA"
   }, {
-    "code": "BR288637",
-    "display": "DELTAMETRINA"
-  }, {
-    "code": "BR437051",
-    "display": "LACOSAMIDA"
-  }, {
-    "code": "BR288636",
-    "display": "METRONIDAZOL"
-  }, {
-    "code": "BR288785",
-    "display": "LEVOBUPIVACAINA CLORIDRATO"
-  }, {
-    "code": "BR437076",
-    "display": "GLICOPIRRONIO"
-  }, {
-    "code": "BR437074",
-    "display": "CLORETO DE SODIO"
-  }, {
-    "code": "BR437192",
-    "display": "CLOREXIDINA"
-  }, {
-    "code": "BR291157",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR437162",
-    "display": "SEBELIPASE"
-  }, {
     "code": "BR291231",
     "display": "ESTREPTOMICINA SULFATO"
   }, {
@@ -5054,6 +4943,15 @@
   }, {
     "code": "BR291172",
     "display": "GENTAMICINA"
+  }, {
+    "code": "BR288637",
+    "display": "DELTAMETRINA"
+  }, {
+    "code": "BR437051",
+    "display": "LACOSAMIDA"
+  }, {
+    "code": "BR288636",
+    "display": "METRONIDAZOL"
   }, {
     "code": "BR290992",
     "display": "HIALURONIDASE"
@@ -5262,81 +5160,6 @@
     "code": "BR283358",
     "display": "FLUDROXICORTIDA"
   }, {
-    "code": "BR436433",
-    "display": "FENTICONAZOL NITRATO"
-  }, {
-    "code": "BR285065",
-    "display": "FELODIPINO"
-  }, {
-    "code": "BR436418",
-    "display": "ALTEPLASE"
-  }, {
-    "code": "BR285063",
-    "display": "FELODIPINO"
-  }, {
-    "code": "BR436417",
-    "display": "ALTEPLASE"
-  }, {
-    "code": "BR285055",
-    "display": "ACIDO ACETILSALICILICO"
-  }, {
-    "code": "BR285686",
-    "display": "EZETIMIBA"
-  }, {
-    "code": "BR436461",
-    "display": "VEDOLIZUMABE"
-  }, {
-    "code": "BR285081",
-    "display": "TANSULOSINA"
-  }, {
-    "code": "BR436467",
-    "display": "SILTUXIMABE"
-  }, {
-    "code": "BR285687",
-    "display": "EZETIMIBA"
-  }, {
-    "code": "BR436462",
-    "display": "VACINA HUMANA"
-  }, {
-    "code": "BR436347",
-    "display": "IDURSULFASE"
-  }, {
-    "code": "BR284465",
-    "display": "ALPRAZOLAM"
-  }, {
-    "code": "BR436345",
-    "display": "NINTEDANIBE"
-  }, {
-    "code": "BR284461",
-    "display": "CLOBETASOL"
-  }, {
-    "code": "BR436332",
-    "display": "HIALURONATO DE SODIO"
-  }, {
-    "code": "BR284460",
-    "display": "CLOBETASOL"
-  }, {
-    "code": "BR436331",
-    "display": "HIALURONATO DE SODIO"
-  }, {
-    "code": "BR285007",
-    "display": "ACIDO ACETILSALICILICO"
-  }, {
-    "code": "BR436384",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR284839",
-    "display": "FOLITROPINA"
-  }, {
-    "code": "BR436416",
-    "display": "ALTEPLASE"
-  }, {
-    "code": "BR285015",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR436403",
-    "display": "CIANOCOBALAMINA"
-  }, {
     "code": "BR285953",
     "display": "TEOFILINA"
   }, {
@@ -5411,6 +5234,78 @@
   }, {
     "code": "BR436612",
     "display": "ESCITALOPRAM OXALATO"
+  }, {
+    "code": "BR436433",
+    "display": "FENTICONAZOL NITRATO"
+  }, {
+    "code": "BR285065",
+    "display": "FELODIPINO"
+  }, {
+    "code": "BR436418",
+    "display": "ALTEPLASE"
+  }, {
+    "code": "BR285063",
+    "display": "FELODIPINO"
+  }, {
+    "code": "BR436417",
+    "display": "ALTEPLASE"
+  }, {
+    "code": "BR285055",
+    "display": "ACIDO ACETILSALICILICO"
+  }, {
+    "code": "BR285686",
+    "display": "EZETIMIBA"
+  }, {
+    "code": "BR436461",
+    "display": "VEDOLIZUMABE"
+  }, {
+    "code": "BR285081",
+    "display": "TANSULOSINA"
+  }, {
+    "code": "BR436467",
+    "display": "SILTUXIMABE"
+  }, {
+    "code": "BR285687",
+    "display": "EZETIMIBA"
+  }, {
+    "code": "BR436462",
+    "display": "VACINA HUMANA"
+  }, {
+    "code": "BR436347",
+    "display": "IDURSULFASE"
+  }, {
+    "code": "BR284465",
+    "display": "ALPRAZOLAM"
+  }, {
+    "code": "BR436345",
+    "display": "NINTEDANIBE"
+  }, {
+    "code": "BR284461",
+    "display": "CLOBETASOL"
+  }, {
+    "code": "BR285007",
+    "display": "ACIDO ACETILSALICILICO"
+  }, {
+    "code": "BR436332",
+    "display": "HIALURONATO DE SODIO"
+  }, {
+    "code": "BR436384",
+    "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR284839",
+    "display": "FOLITROPINA"
+  }, {
+    "code": "BR436331",
+    "display": "HIALURONATO DE SODIO"
+  }, {
+    "code": "BR436416",
+    "display": "ALTEPLASE"
+  }, {
+    "code": "BR285015",
+    "display": "PARACETAMOL"
+  }, {
+    "code": "BR436403",
+    "display": "CIANOCOBALAMINA"
   }, {
     "code": "BR282040",
     "display": "GEFITINIBE"
@@ -5655,6 +5550,15 @@
     "code": "BR434955",
     "display": "ACIDO ACETILSALICILICO"
   }, {
+    "code": "BR435062",
+    "display": "LIXISENATIDA"
+  }, {
+    "code": "BR283156",
+    "display": "ORFENADRINA CITRATO"
+  }, {
+    "code": "BR435044",
+    "display": "PARACETAMOL"
+  }, {
     "code": "BR283038",
     "display": "RADIOFARMACO - REAGENTE"
   }, {
@@ -5667,42 +5571,6 @@
     "code": "BR434824",
     "display": "VITAMINAS DO COMPLEXO B"
   }, {
-    "code": "BR434889",
-    "display": "LIDOCAINA CLORIDRATO"
-  }, {
-    "code": "BR283039",
-    "display": "RADIOFARMACO - REAGENTE"
-  }, {
-    "code": "BR434874",
-    "display": "EMPAGLIFLOZINA"
-  }, {
-    "code": "BR435062",
-    "display": "LIXISENATIDA"
-  }, {
-    "code": "BR283156",
-    "display": "ORFENADRINA CITRATO"
-  }, {
-    "code": "BR435044",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR283061",
-    "display": "CARVAO ATIVADO"
-  }, {
-    "code": "BR434999",
-    "display": "CONTRASTE RADIOLOGICO"
-  }, {
-    "code": "BR283058",
-    "display": "TETRACAINA CLORIDRATO"
-  }, {
-    "code": "BR283211",
-    "display": "RADIOFARMACO - RADIOISOTOPO"
-  }, {
-    "code": "BR435063",
-    "display": "LIXISENATIDA"
-  }, {
-    "code": "BR283157",
-    "display": "ORFENADRINA CITRATO"
-  }, {
     "code": "BR435175",
     "display": "ALGINATO DE SODIO"
   }, {
@@ -5711,6 +5579,15 @@
   }, {
     "code": "BR435158",
     "display": "LIXISENATIDA"
+  }, {
+    "code": "BR434889",
+    "display": "LIDOCAINA CLORIDRATO"
+  }, {
+    "code": "BR283039",
+    "display": "RADIOFARMACO - REAGENTE"
+  }, {
+    "code": "BR434874",
+    "display": "EMPAGLIFLOZINA"
   }, {
     "code": "BR278393",
     "display": "TRETINOINA"
@@ -8376,24 +8253,6 @@
     "code": "BR272411",
     "display": "NAFAZOLINA"
   }, {
-    "code": "BR272426",
-    "display": "CLOTRIMAZOL"
-  }, {
-    "code": "BR272425",
-    "display": "CLOTRIMAZOL"
-  }, {
-    "code": "BR412387",
-    "display": "CEFALEXINA"
-  }, {
-    "code": "BR412385",
-    "display": "CEFALEXINA"
-  }, {
-    "code": "BR272424",
-    "display": "CLOTRIMAZOL"
-  }, {
-    "code": "BR272423",
-    "display": "CLOTRIMAZOL"
-  }, {
     "code": "BR412414",
     "display": "UREIA"
   }, {
@@ -8403,6 +8262,15 @@
     "code": "BR412413",
     "display": "RADIOFARMACO - RADIOISOTOPO"
   }, {
+    "code": "BR272426",
+    "display": "CLOTRIMAZOL"
+  }, {
+    "code": "BR272425",
+    "display": "CLOTRIMAZOL"
+  }, {
+    "code": "BR412387",
+    "display": "CEFALEXINA"
+  }, {
     "code": "BR412416",
     "display": "NATAMICINA"
   }, {
@@ -8411,6 +8279,12 @@
   }, {
     "code": "BR272429",
     "display": "CLOZAPINA"
+  }, {
+    "code": "BR272424",
+    "display": "CLOTRIMAZOL"
+  }, {
+    "code": "BR272423",
+    "display": "CLOTRIMAZOL"
   }, {
     "code": "BR272027",
     "display": "BAMIFILINA CLORIDRATO"
@@ -8694,15 +8568,6 @@
     "code": "BR272190",
     "display": "DOBUTAMINA CLORIDRATO"
   }, {
-    "code": "BR272200",
-    "display": "ETILEFRINA CLORIDRATO"
-  }, {
-    "code": "BR411388",
-    "display": "ALBENDAZOL"
-  }, {
-    "code": "BR272198",
-    "display": "ETILEFRINA CLORIDRATO"
-  }, {
     "code": "BR411393",
     "display": "LIDOCAINA"
   }, {
@@ -8711,6 +8576,15 @@
   }, {
     "code": "BR411391",
     "display": "IODO"
+  }, {
+    "code": "BR272200",
+    "display": "ETILEFRINA CLORIDRATO"
+  }, {
+    "code": "BR411388",
+    "display": "ALBENDAZOL"
+  }, {
+    "code": "BR272198",
+    "display": "ETILEFRINA CLORIDRATO"
   }, {
     "code": "BR409233",
     "display": "CETOPROFENO"
@@ -9576,15 +9450,6 @@
     "code": "BR271092",
     "display": "AMOXICILINA"
   }, {
-    "code": "BR271102",
-    "display": "CARBONATO DE LITIO"
-  }, {
-    "code": "BR407619",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR271101",
-    "display": "CALCITRIOL"
-  }, {
     "code": "BR407522",
     "display": "IVERMECTINA"
   }, {
@@ -9593,6 +9458,12 @@
   }, {
     "code": "BR407520",
     "display": "IVERMECTINA"
+  }, {
+    "code": "BR407619",
+    "display": "EXTRATO MEDICINAL"
+  }, {
+    "code": "BR271101",
+    "display": "CALCITRIOL"
   }, {
     "code": "BR407624",
     "display": "SOLUCAO PARA CRIOPRESERVACAO"
@@ -9846,6 +9717,15 @@
     "code": "BR406081",
     "display": "LORNOXICAM"
   }, {
+    "code": "BR270906",
+    "display": "PARACETAMOL"
+  }, {
+    "code": "BR406358",
+    "display": "DENOSUMABE"
+  }, {
+    "code": "BR406309",
+    "display": "GENTAMICINA"
+  }, {
     "code": "BR270889",
     "display": "ESCINA"
   }, {
@@ -9855,11 +9735,14 @@
     "code": "BR406230",
     "display": "SOLIFENACINA"
   }, {
-    "code": "BR405998",
-    "display": "INSULINA"
+    "code": "BR270895",
+    "display": "CARBONATO DE CALCIO"
   }, {
-    "code": "BR270873",
-    "display": "PAPAVERINA"
+    "code": "BR270893",
+    "display": "CARBONATO DE CALCIO"
+  }, {
+    "code": "BR406308",
+    "display": "GENTAMICINA"
   }, {
     "code": "BR405997",
     "display": "BIMATOPROSTA"
@@ -9875,24 +9758,6 @@
   }, {
     "code": "BR270875",
     "display": "PAPAVERINA"
-  }, {
-    "code": "BR270906",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR406358",
-    "display": "DENOSUMABE"
-  }, {
-    "code": "BR406309",
-    "display": "GENTAMICINA"
-  }, {
-    "code": "BR270895",
-    "display": "CARBONATO DE CALCIO"
-  }, {
-    "code": "BR270893",
-    "display": "CARBONATO DE CALCIO"
-  }, {
-    "code": "BR406308",
-    "display": "GENTAMICINA"
   }, {
     "code": "BR270908",
     "display": "PARACETAMOL"
@@ -10155,27 +10020,6 @@
     "code": "BR402991",
     "display": "SAXAGLIPTINA"
   }, {
-    "code": "BR270556",
-    "display": "AMPICILINA"
-  }, {
-    "code": "BR402617",
-    "display": "RADIOFARMACO - RADIOISOTOPO"
-  }, {
-    "code": "BR270550",
-    "display": "ACIDO ACETILSALICILICO"
-  }, {
-    "code": "BR402512",
-    "display": "RADIOFARMACO - RADIOISOTOPO"
-  }, {
-    "code": "BR402888",
-    "display": "TIABENDAZOL"
-  }, {
-    "code": "BR270557",
-    "display": "ACETILCISTEINA"
-  }, {
-    "code": "BR402619",
-    "display": "RADIOFARMACO - RADIOISOTOPO"
-  }, {
     "code": "BR403358",
     "display": "INSULINA"
   }, {
@@ -10185,6 +10029,12 @@
     "code": "BR403131",
     "display": "BUDESONIDA"
   }, {
+    "code": "BR270550",
+    "display": "ACIDO ACETILSALICILICO"
+  }, {
+    "code": "BR402512",
+    "display": "RADIOFARMACO - RADIOISOTOPO"
+  }, {
     "code": "BR270591",
     "display": "BETAMETASONA"
   }, {
@@ -10193,6 +10043,9 @@
   }, {
     "code": "BR270590",
     "display": "BETAMETASONA"
+  }, {
+    "code": "BR402888",
+    "display": "TIABENDAZOL"
   }, {
     "code": "BR270602",
     "display": "BETAMETASONA"
@@ -11094,15 +10947,6 @@
     "code": "BR396702",
     "display": "NEBIVOLOL"
   }, {
-    "code": "BR269575",
-    "display": "BUPIVACAINA CLORIDRATO"
-  }, {
-    "code": "BR396730",
-    "display": "DESOXIMETASONA"
-  }, {
-    "code": "BR269574",
-    "display": "BUPIVACAINA CLORIDRATO"
-  }, {
     "code": "BR396748",
     "display": "DEXTROMETORFANO"
   }, {
@@ -11111,6 +10955,15 @@
   }, {
     "code": "BR396741",
     "display": "DEXTRANA"
+  }, {
+    "code": "BR269575",
+    "display": "BUPIVACAINA CLORIDRATO"
+  }, {
+    "code": "BR396730",
+    "display": "DESOXIMETASONA"
+  }, {
+    "code": "BR269574",
+    "display": "BUPIVACAINA CLORIDRATO"
   }, {
     "code": "BR268504",
     "display": "ONDANSETRONA CLORIDRATO"
@@ -11685,9 +11538,6 @@
     "code": "BR394650",
     "display": "METOPROLOL"
   }, {
-    "code": "BR394316",
-    "display": "INTERFERONA"
-  }, {
     "code": "BR268462",
     "display": "HALOTANO"
   }, {
@@ -11696,12 +11546,6 @@
   }, {
     "code": "BR268469",
     "display": "ISOFLURANO"
-  }, {
-    "code": "BR394656",
-    "display": "MONTELUCASTE SODICO"
-  }, {
-    "code": "BR268466",
-    "display": "CONTRASTE RADIOLOGICO"
   }, {
     "code": "BR394667",
     "display": "NIFEDIPINO"
@@ -11817,8 +11661,14 @@
     "code": "BR268185",
     "display": "GLICEROL"
   }, {
-    "code": "BR268207",
-    "display": "AMPICILINA"
+    "code": "BR393139",
+    "display": "EVEROLIMO"
+  }, {
+    "code": "BR268295",
+    "display": "ACIDO NALIDIXICO"
+  }, {
+    "code": "BR393138",
+    "display": "EVEROLIMO"
   }, {
     "code": "BR391324",
     "display": "HIDROQUINONA"
@@ -11853,6 +11703,9 @@
     "code": "BR268237",
     "display": "CLORETO DE SODIO"
   }, {
+    "code": "BR268290",
+    "display": "ACIDO BORICO"
+  }, {
     "code": "BR392249",
     "display": "CEFEPIMA CLORIDRATO"
   }, {
@@ -11861,24 +11714,6 @@
   }, {
     "code": "BR392138",
     "display": "CARBONATO DE CALCIO"
-  }, {
-    "code": "BR393139",
-    "display": "EVEROLIMO"
-  }, {
-    "code": "BR268295",
-    "display": "ACIDO NALIDIXICO"
-  }, {
-    "code": "BR393138",
-    "display": "EVEROLIMO"
-  }, {
-    "code": "BR268292",
-    "display": "FOLINATO DE CALCIO"
-  }, {
-    "code": "BR393034",
-    "display": "SAXAGLIPTINA"
-  }, {
-    "code": "BR268290",
-    "display": "ACIDO BORICO"
   }, {
     "code": "BR268297",
     "display": "OFLOXACINO"
@@ -11928,15 +11763,6 @@
     "code": "BR268285",
     "display": "NITRAZEPAM"
   }, {
-    "code": "BR392836",
-    "display": "MONTELUCASTE SODICO"
-  }, {
-    "code": "BR268289",
-    "display": "ACIDO BORICO"
-  }, {
-    "code": "BR392775",
-    "display": "VACINA HUMANA"
-  }, {
     "code": "BR393493",
     "display": "ACETILCISTEINA"
   }, {
@@ -11945,6 +11771,15 @@
   }, {
     "code": "BR393389",
     "display": "CONTRASTE RADIOLOGICO"
+  }, {
+    "code": "BR392836",
+    "display": "MONTELUCASTE SODICO"
+  }, {
+    "code": "BR268289",
+    "display": "ACIDO BORICO"
+  }, {
+    "code": "BR392775",
+    "display": "VACINA HUMANA"
   }, {
     "code": "BR268315",
     "display": "ABACAVIR SULFATO"
@@ -11975,15 +11810,6 @@
   }, {
     "code": "BR393342",
     "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR268332",
-    "display": "IPRATROPIO BROMETO"
-  }, {
-    "code": "BR393719",
-    "display": "PIROXICAM"
-  }, {
-    "code": "BR268331",
-    "display": "IPRATROPIO BROMETO"
   }, {
     "code": "BR393718",
     "display": "PIRACETAM"
@@ -12462,81 +12288,6 @@
     "code": "BR267717",
     "display": "METRONIDAZOL"
   }, {
-    "code": "BR267778",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR267777",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR386481",
-    "display": "EXTRATO MEDICINAL"
-  }, {
-    "code": "BR267776",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR386396",
-    "display": "AMOXICILINA"
-  }, {
-    "code": "BR267773",
-    "display": "PERMETRINA"
-  }, {
-    "code": "BR267779",
-    "display": "PARACETAMOL"
-  }, {
-    "code": "BR386856",
-    "display": "CLOREXIDINA DIGLUCONATO"
-  }, {
-    "code": "BR386846",
-    "display": "POLICARBOFILA CALCICA"
-  }, {
-    "code": "BR267894",
-    "display": "RIVASTIGMINA"
-  }, {
-    "code": "BR267892",
-    "display": "PANTOPRAZOL"
-  }, {
-    "code": "BR386857",
-    "display": "ALCOOL ETILICO"
-  }, {
-    "code": "BR386294",
-    "display": "RACEALFATOCOFEROL"
-  }, {
-    "code": "BR386275",
-    "display": "CARVEDILOL"
-  }, {
-    "code": "BR267769",
-    "display": "PROMETAZINA CLORIDRATO"
-  }, {
-    "code": "BR386246",
-    "display": "RETINOL"
-  }, {
-    "code": "BR267768",
-    "display": "PROMETAZINA CLORIDRATO"
-  }, {
-    "code": "BR267767",
-    "display": "QUINIDINA SULFATO"
-  }, {
-    "code": "BR386056",
-    "display": "NIFEDIPINO"
-  }, {
-    "code": "BR267771",
-    "display": "PROPRANOLOL CLORIDRATO"
-  }, {
-    "code": "BR386315",
-    "display": "AMIODARONA"
-  }, {
-    "code": "BR267770",
-    "display": "PROPRANOLOL CLORIDRATO"
-  }, {
-    "code": "BR386336",
-    "display": "FLUCONAZOL"
-  }, {
-    "code": "BR267772",
-    "display": "PROPRANOLOL CLORIDRATO"
-  }, {
-    "code": "BR386316",
-    "display": "AMIODARONA"
-  }, {
     "code": "BR387341",
     "display": "FORMOTEROL FUMARATO"
   }, {
@@ -12603,6 +12354,24 @@
     "code": "BR268072",
     "display": "SELEGILINA CLORIDRATO"
   }, {
+    "code": "BR386294",
+    "display": "RACEALFATOCOFEROL"
+  }, {
+    "code": "BR386275",
+    "display": "CARVEDILOL"
+  }, {
+    "code": "BR267769",
+    "display": "PROMETAZINA CLORIDRATO"
+  }, {
+    "code": "BR267779",
+    "display": "PARACETAMOL"
+  }, {
+    "code": "BR386856",
+    "display": "CLOREXIDINA DIGLUCONATO"
+  }, {
+    "code": "BR386846",
+    "display": "POLICARBOFILA CALCICA"
+  }, {
     "code": "BR388155",
     "display": "ANTIGENO"
   }, {
@@ -12611,6 +12380,48 @@
   }, {
     "code": "BR388154",
     "display": "ANTIGENO"
+  }, {
+    "code": "BR267773",
+    "display": "PERMETRINA"
+  }, {
+    "code": "BR386246",
+    "display": "RETINOL"
+  }, {
+    "code": "BR267768",
+    "display": "PROMETAZINA CLORIDRATO"
+  }, {
+    "code": "BR267767",
+    "display": "QUINIDINA SULFATO"
+  }, {
+    "code": "BR386056",
+    "display": "NIFEDIPINO"
+  }, {
+    "code": "BR267894",
+    "display": "RIVASTIGMINA"
+  }, {
+    "code": "BR267892",
+    "display": "PANTOPRAZOL"
+  }, {
+    "code": "BR386857",
+    "display": "ALCOOL ETILICO"
+  }, {
+    "code": "BR267771",
+    "display": "PROPRANOLOL CLORIDRATO"
+  }, {
+    "code": "BR386315",
+    "display": "AMIODARONA"
+  }, {
+    "code": "BR267770",
+    "display": "PROPRANOLOL CLORIDRATO"
+  }, {
+    "code": "BR386336",
+    "display": "FLUCONAZOL"
+  }, {
+    "code": "BR267772",
+    "display": "PROPRANOLOL CLORIDRATO"
+  }, {
+    "code": "BR386316",
+    "display": "AMIODARONA"
   }, {
     "code": "BR267628",
     "display": "CINARIZINA"
@@ -12762,81 +12573,6 @@
     "code": "BR379902",
     "display": "OSELTAMIVIR FOSFATO"
   }, {
-    "code": "BR382298",
-    "display": "HIDROCLOROTIAZIDA"
-  }, {
-    "code": "BR267652",
-    "display": "ENALAPRIL MALEATO"
-  }, {
-    "code": "BR382297",
-    "display": "ESPIRONOLACTONA"
-  }, {
-    "code": "BR267651",
-    "display": "ENALAPRIL MALEATO"
-  }, {
-    "code": "BR382296",
-    "display": "SILDENAFILA"
-  }, {
-    "code": "BR267650",
-    "display": "ENALAPRIL MALEATO"
-  }, {
-    "code": "BR382598",
-    "display": "SOLUCAO PARA CONSERVACAO DE ORGAOS"
-  }, {
-    "code": "BR267653",
-    "display": "ESPIRONOLACTONA"
-  }, {
-    "code": "BR382563",
-    "display": "CLORETO DE SODIO"
-  }, {
-    "code": "BR267657",
-    "display": "FENITOINA SODICA"
-  }, {
-    "code": "BR382939",
-    "display": "DECITABINA"
-  }, {
-    "code": "BR267654",
-    "display": "ESPIRONOLACTONA"
-  }, {
-    "code": "BR381879",
-    "display": "OMEPRAZOL"
-  }, {
-    "code": "BR267645",
-    "display": "DEXCLORFENIRAMINA MALEATO"
-  }, {
-    "code": "BR381776",
-    "display": "ESTIRIPENTOL"
-  }, {
-    "code": "BR267644",
-    "display": "DEXAMETASONA"
-  }, {
-    "code": "BR381775",
-    "display": "ESTIRIPENTOL"
-  }, {
-    "code": "BR267643",
-    "display": "DEXAMETASONA"
-  }, {
-    "code": "BR381536",
-    "display": "SULFATO DE MAGNESIO"
-  }, {
-    "code": "BR382197",
-    "display": "TRIMETAZIDINA DICLORIDRATO"
-  }, {
-    "code": "BR381880",
-    "display": "OMEPRAZOL"
-  }, {
-    "code": "BR267646",
-    "display": "DEXCLORFENIRAMINA MALEATO"
-  }, {
-    "code": "BR382224",
-    "display": "MESTEROLONA"
-  }, {
-    "code": "BR267648",
-    "display": "DIGOXINA"
-  }, {
-    "code": "BR267647",
-    "display": "DIGOXINA"
-  }, {
     "code": "BR383532",
     "display": "RADIOFARMACO - RADIOISOTOPO"
   }, {
@@ -12845,6 +12581,15 @@
   }, {
     "code": "BR383530",
     "display": "RADIOFARMACO - RADIOISOTOPO"
+  }, {
+    "code": "BR382298",
+    "display": "HIDROCLOROTIAZIDA"
+  }, {
+    "code": "BR267652",
+    "display": "ENALAPRIL MALEATO"
+  }, {
+    "code": "BR382297",
+    "display": "ESPIRONOLACTONA"
   }, {
     "code": "BR383660",
     "display": "TIOTROPIO BROMETO"
@@ -12911,6 +12656,66 @@
   }, {
     "code": "BR267675",
     "display": "HIDROCLOROTIAZIDA"
+  }, {
+    "code": "BR267651",
+    "display": "ENALAPRIL MALEATO"
+  }, {
+    "code": "BR382296",
+    "display": "SILDENAFILA"
+  }, {
+    "code": "BR267650",
+    "display": "ENALAPRIL MALEATO"
+  }, {
+    "code": "BR381879",
+    "display": "OMEPRAZOL"
+  }, {
+    "code": "BR267645",
+    "display": "DEXCLORFENIRAMINA MALEATO"
+  }, {
+    "code": "BR381776",
+    "display": "ESTIRIPENTOL"
+  }, {
+    "code": "BR267644",
+    "display": "DEXAMETASONA"
+  }, {
+    "code": "BR381775",
+    "display": "ESTIRIPENTOL"
+  }, {
+    "code": "BR267643",
+    "display": "DEXAMETASONA"
+  }, {
+    "code": "BR381536",
+    "display": "SULFATO DE MAGNESIO"
+  }, {
+    "code": "BR382598",
+    "display": "SOLUCAO PARA CONSERVACAO DE ORGAOS"
+  }, {
+    "code": "BR267653",
+    "display": "ESPIRONOLACTONA"
+  }, {
+    "code": "BR382563",
+    "display": "CLORETO DE SODIO"
+  }, {
+    "code": "BR382197",
+    "display": "TRIMETAZIDINA DICLORIDRATO"
+  }, {
+    "code": "BR381880",
+    "display": "OMEPRAZOL"
+  }, {
+    "code": "BR267646",
+    "display": "DEXCLORFENIRAMINA MALEATO"
+  }, {
+    "code": "BR267657",
+    "display": "FENITOINA SODICA"
+  }, {
+    "code": "BR382939",
+    "display": "DECITABINA"
+  }, {
+    "code": "BR267654",
+    "display": "ESPIRONOLACTONA"
+  }, {
+    "code": "BR267647",
+    "display": "DIGOXINA"
   }, {
     "code": "BR267501",
     "display": "ACIDO ACETILSALICILICO"
@@ -13062,6 +12867,24 @@
     "code": "BR267416",
     "display": "TEOFILINA"
   }, {
+    "code": "BR377715",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR267565",
+    "display": "CARVEDILOL"
+  }, {
+    "code": "BR377714",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR267567",
+    "display": "CARVEDILOL"
+  }, {
+    "code": "BR377716",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR267566",
+    "display": "CARVEDILOL"
+  }, {
     "code": "BR267523",
     "display": "CLOMIPRAMINA"
   }, {
@@ -13070,6 +12893,18 @@
   }, {
     "code": "BR267522",
     "display": "CLOMIPRAMINA"
+  }, {
+    "code": "BR377708",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR267541",
+    "display": "GLICOSE"
+  }, {
+    "code": "BR377707",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR267540",
+    "display": "GLICOSE"
   }, {
     "code": "BR377702",
     "display": "ANTIGENO"
@@ -13098,6 +12933,15 @@
     "code": "BR377705",
     "display": "ANTIGENO"
   }, {
+    "code": "BR267570",
+    "display": "DILTIAZEM CLORIDRATO"
+  }, {
+    "code": "BR377719",
+    "display": "ANTIGENO"
+  }, {
+    "code": "BR377718",
+    "display": "ANTIGENO"
+  }, {
     "code": "BR377422",
     "display": "ACIDO FUSIDICO"
   }, {
@@ -13106,6 +12950,15 @@
   }, {
     "code": "BR377008",
     "display": "ZANAMIVIR"
+  }, {
+    "code": "BR267569",
+    "display": "DILTIAZEM CLORIDRATO"
+  }, {
+    "code": "BR267568",
+    "display": "DILTIAZEM CLORIDRATO"
+  }, {
+    "code": "BR377717",
+    "display": "ANTIGENO"
   }, {
     "code": "BR376809",
     "display": "EXTRATO MEDICINAL"
@@ -13135,63 +12988,6 @@
     "display": "ATENOLOL"
   }, {
     "code": "BR377700",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR377715",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267565",
-    "display": "CARVEDILOL"
-  }, {
-    "code": "BR377714",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267567",
-    "display": "CARVEDILOL"
-  }, {
-    "code": "BR377716",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267566",
-    "display": "CARVEDILOL"
-  }, {
-    "code": "BR377708",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267541",
-    "display": "GLICOSE"
-  }, {
-    "code": "BR377707",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267540",
-    "display": "GLICOSE"
-  }, {
-    "code": "BR267564",
-    "display": "CARVEDILOL"
-  }, {
-    "code": "BR377709",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267544",
-    "display": "GLICOSE"
-  }, {
-    "code": "BR267570",
-    "display": "DILTIAZEM CLORIDRATO"
-  }, {
-    "code": "BR377719",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR377718",
-    "display": "ANTIGENO"
-  }, {
-    "code": "BR267569",
-    "display": "DILTIAZEM CLORIDRATO"
-  }, {
-    "code": "BR267568",
-    "display": "DILTIAZEM CLORIDRATO"
-  }, {
-    "code": "BR377717",
     "display": "ANTIGENO"
   }, {
     "code": "BR267571",

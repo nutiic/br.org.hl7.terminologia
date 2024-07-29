@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "id": "BRRacaCor-",
+  "id": "BRRacaCor",
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRRacaCor",
   "version": "HEAD",

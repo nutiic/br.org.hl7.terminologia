@@ -1,10 +1,10 @@
 {
   "resourceType": "CodeSystem",
-  "id": "BRObmVtm",
+  "id": "BRObmVTM",
   "language": "pt",
   "url": "https://terminologia.saude.gov.br/CodeSystem/BRObmVTM",
   "version": "HEAD",
-  "name": "BRObmVtm",
+  "name": "BRObmVTM",
   "title": "Principios Ativos Virtuais (VTMs)",
   "status": "active",
   "experimental": false,

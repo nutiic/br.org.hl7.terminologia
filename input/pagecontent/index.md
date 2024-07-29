@@ -10,7 +10,7 @@ A barra preta no topo das páginas é a principal ferramenta de navegação. Ao 
 
 ## Licenciamento
 
-Este conteúdo da THO está disponível sob a licença CC0-BY.
+Este conteúdo do Guia Terminologias do Brasil está disponível sob a licença CC0-BY.
 
 ## Identificação de Versões
 
