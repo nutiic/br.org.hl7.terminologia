@@ -1,14 +1,14 @@
 {
   "resourceType": "NamingSystem",
-  "id": "conselho-profissional-saude-br-ips",
+  "id": "BRConselhoProfissional",
   "language": "pt",
-  "name": "conselhoprofissionalsaudebrips",
+  "name": "BRConselhoProfissional",
   "status": "active",
   "kind": "codesystem",
   "description": "Conselhos Regionais de Profissionais da Saude",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://www.ips.saude.gov.br/CodeSystem/conselho-profissional-saude-br-ips",
+    "value": "https://terminologia.saude.gov.br/CodeSystem/BRConselhoProfissional",
     "preferred": true
   } ]
 }
