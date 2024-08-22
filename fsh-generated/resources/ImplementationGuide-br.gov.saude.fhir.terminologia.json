@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "br.gov.saude.fhir.terminologia",
   "url": "https://saude.gov.br/fhir/terminologia/ImplementationGuide/br.gov.saude.fhir.terminologia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "TerminologiaBrasil",
   "title": "Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1",
   "status": "active",
