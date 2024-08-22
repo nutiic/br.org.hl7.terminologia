@@ -8,8 +8,8 @@
 
 
 id: br.gov.saude.fhir.terminologia
-canonical: https://terminologia.saude.gov.br
-url: https://terminologia.saude.gov.br/ImplementationGuide/br.gov.saude.fhir.terminologia
+canonical: https://saude.gov.br/fhir/terminologia
+url: https://saude.gov.br/fhir/terminologia/ImplementationGuide/br.gov.saude.fhir.terminologia
 name: TerminologiaBrasil
 title: "Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1"
 description: Guia de Implementação Terminologias do Brasil.
