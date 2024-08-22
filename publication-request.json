@@ -1,0 +1,14 @@
+{
+  "package-id": "br.gov.saude.fhir.terminologia",
+  "title": "Terminologias do Brasil",
+  "category": "base",
+  "introduction": "Guia de implementação de Terminologias do Brasil que estabelece os identificadores, terminologias e domínios nacionais",
+  "version": "0.1.0",
+  "desc": "0.1.0 Release",
+  "mode": "milestone",
+  "path": "https://saude.gov.br/fhir/terminologia/v0.1.0",
+  "ci-build": "https://terminologia-br-ig.web.app",
+  "first": true,
+  "status": "release",
+  "sequence": "Releases"
+}
