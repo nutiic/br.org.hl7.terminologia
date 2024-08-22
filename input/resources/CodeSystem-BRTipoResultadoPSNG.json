@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoPSNG",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoPSNG",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoResultadoPSNG",
   "version": "HEAD",
   "name": "BRTipoResultadoPSNG",
   "title": "Tipo de Resultado PSNG 1.0",

@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCIAP2",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCIAP2",
     "preferred": true
   } ]
 }

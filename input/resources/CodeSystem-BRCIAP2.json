@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCIAP2",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCIAP2",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCIAP2",
   "version": "HEAD",
   "name": "BRCIAP2",
   "title": "Classificacao Internacional de Atencao Primaria - Segunda Edicao - CIAP2",

@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRUnidadeMedida",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRUnidadeMedida",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRUnidadeMedida",
   "version": "HEAD",
   "name": "BRUnidadeMedida",
   "title": "Unidade de Medida",
@@ -35,7 +35,7 @@
     "display": "Pastilha dura"
   }, {
     "code": "18",
-    "display": "cm² (Centimetro Quadrado)"
+    "display": "cmï¿½ (Centimetro Quadrado)"
   }, {
     "code": "2",
     "display": "Ampola"

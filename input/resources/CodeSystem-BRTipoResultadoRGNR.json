@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoRGNR",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRGNR",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoResultadoRGNR",
   "version": "HEAD",
   "name": "BRTipoResultadoRGNR",
   "title": "Tipo de Resultado RGNR 1.0",

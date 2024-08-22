@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoObservacao",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoObservacao",
   "version": "HEAD",
   "name": "BRTipoObservacao",
   "title": "Tipo de Observacao",

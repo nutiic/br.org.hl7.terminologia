@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoAVIDEZ",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoAVIDEZ",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoResultadoAVIDEZ",
   "version": "HEAD",
   "name": "BRTipoResultadoAVIDEZ",
   "title": "Tipo de Resultado AVIDEZ 1.0",

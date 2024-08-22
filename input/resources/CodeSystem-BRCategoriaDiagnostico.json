@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCategoriaDiagnostico",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCategoriaDiagnostico",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCategoriaDiagnostico",
   "version": "HEAD",
   "name": "BRCategoriaDiagnostico",
   "title": "Categoria do Diagnostico",

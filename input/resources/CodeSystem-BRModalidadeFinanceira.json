@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRModalidadeFinanceira",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRModalidadeFinanceira",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRModalidadeFinanceira",
   "version": "HEAD",
   "name": "BRModalidadeFinanceira",
   "title": "Modalidade Financeira",

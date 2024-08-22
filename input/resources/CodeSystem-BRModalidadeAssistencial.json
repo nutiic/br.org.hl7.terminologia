@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRModalidadeAssistencial",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRModalidadeAssistencial",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRModalidadeAssistencial",
   "version": "HEAD",
   "name": "BRModalidadeAssistencial",
   "title": "Modalidade Assistencial",

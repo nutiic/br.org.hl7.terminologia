@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCBHPMTUSS",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCBHPMTUSS",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCBHPMTUSS",
   "version": "HEAD",
   "name": "BRCBHPMTUSS",
   "title": "Classificacao Brasileira Hierarquizada de Procedimentos Medicos - CBHPM e da Terminologia Unificada da Saude Suplementar - TUSS",
@@ -407,25 +407,25 @@
     "display": "Stent Elunir Coronario de troca rapida com eluicao de riderforolimus Elunir - LUN400R33C"
   }, {
     "code": "100105297",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202632 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202632 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105289",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202505 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202505 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100105270",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202647 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202647 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105262",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202627 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202627 Inserto de rolamento fixo UNI"
   }, {
     "code": "100196705",
     "display": "Stent Elunir Coronario de troca rapida com eluicao de riderforolimus Elunir"
   }, {
     "code": "100105319",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202301 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202301 Componente Femoral Unicomparti"
   }, {
     "code": "100105300",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202507 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202507 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100196829",
     "display": "Stent Elunir Coronario de troca rapida com eluicao de riderforolimus Elunir - LUN300R24C"
@@ -761,40 +761,40 @@
     "display": "Familia INSERTO Mobilidade Dupla Cabeca de Ceralepine - HQNOM848 Inserto T48 Ceralepine 12/14, colo"
   }, {
     "code": "100104959",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202503 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202503 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100104940",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202646 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202646 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104932",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202655 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202655 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104924",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202636 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202636 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104916",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202624 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202624 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104908",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202652 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202652 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104983",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202304 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202304 Componente Femoral Unicomparti"
   }, {
     "code": "100104975",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202642 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202642 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104967",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202651 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202651 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105017",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202637 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202637 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105009",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202631 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202631 Inserto de rolamento fixo UNI"
   }, {
     "code": "100104991",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202501 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202501 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100104720",
     "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2246 - Inserte Constrito Trident All Poly 22mm/ 46mm"
@@ -827,7 +827,7 @@
     "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2850 - Inserte Constrito Trident AllPoly 28mm/ 50mm"
   }, {
     "code": "100104894",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE"
   }, {
     "code": "100104770",
     "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-32H - Inserte Constrito Acetabular Trident 0 Deg 32mm"
@@ -836,75 +836,75 @@
     "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-32I - InserteConstrito Acetabular Trident 0 Deg 32mm"
   }, {
     "code": "100105106",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202504 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202504 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100105092",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202657 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202657 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105084",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202307 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202307 Componente Femoral Unicomparti"
   }, {
     "code": "100105130",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202623 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202623 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105122",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202645 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202645 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105114",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202305 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202305 Componente Femoral Unicomparti"
   }, {
     "code": "100105041",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202634 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202634 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105033",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202656 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202656 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105025",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202506 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202506 Base Tibial UNI SCORE para ins"
   }, {
     "code": "100105076",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202633 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202633 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105068",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202621 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202621 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105050",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202653 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202653 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105190",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202654 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202654 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105181",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202622 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202622 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105173",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202644 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202644 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105165",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202306 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202306 Componente Femoral Unicomparti"
   }, {
     "code": "100105157",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202641 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202641 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105149",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202643 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202643 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105220",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202626 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202626 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105211",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202635 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202635 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105203",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202303 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202303 Componente Femoral Unicomparti"
   }, {
     "code": "100105254",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202625 Inserto de rolamento fixo UNI"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202625 Inserto de rolamento fixo UNI"
   }, {
     "code": "100105246",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202302 Componente Femoral Unicomparti"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202302 Componente Femoral Unicomparti"
   }, {
     "code": "100105238",
-    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202502 Base Tibial UNI SCORE para ins"
+    "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ï¿½ UNI SCORE - 1?0202502 Base Tibial UNI SCORE para ins"
   } ]
 }

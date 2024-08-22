@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRImunobiologico",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRImunobiologico",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRImunobiologico",
   "version": "HEAD",
   "name": "BRImunobiologico",
   "title": "Imunobiologico",

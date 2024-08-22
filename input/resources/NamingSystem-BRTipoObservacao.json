@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoObservacao",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoObservacao",
     "preferred": true
   } ]
 }

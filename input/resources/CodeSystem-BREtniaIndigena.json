@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BREtniaIndigena",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BREtniaIndigena",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BREtniaIndigena",
   "version": "HEAD",
   "name": "BREtniaIndigena",
   "title": "Etnia Indigena",
@@ -38,7 +38,7 @@
     "display": "PANKARA"
   }, {
     "code": "0171",
-    "display": "PANARA (KRENHAKARORE , KRENAKORE, KRENA­KARORE)"
+    "display": "PANARA (KRENHAKARORE , KRENAKORE, KRENAï¿½KARORE)"
   }, {
     "code": "X362",
     "display": "PACA"
@@ -92,7 +92,7 @@
     "display": "NARAVUTE (NARUVOTO)"
   }, {
     "code": "0162",
-    "display": "NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SA­RARE)"
+    "display": "NAMBIKWARA DO SUL (WASUSU ,HAHAINTESU, ALANTESU, WAIKISU, ALAKETESU, WASUSU, SAï¿½RARE)"
   }, {
     "code": "X353",
     "display": "ORO AT"
@@ -119,7 +119,7 @@
     "display": "NHENGATU"
   }, {
     "code": "0161",
-    "display": "NAMBIKWARA DO NORTE (NEGAROTE ,MAMAIN­DE, LATUNDE, SABANE E MANDUKA, TAWANDE)"
+    "display": "NAMBIKWARA DO NORTE (NEGAROTE ,MAMAINï¿½DE, LATUNDE, SABANE E MANDUKA, TAWANDE)"
   }, {
     "code": "X352",
     "display": "ONCA"
@@ -200,7 +200,7 @@
     "display": "TUPINAMBA DE BELMONTE"
   }, {
     "code": "0186",
-    "display": "PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRA­TAPUYA, WAIKANA)"
+    "display": "PIRATUAPUIA (PIRATAPUYA, PIRATAPUYO, PIRAï¿½TAPUYA, WAIKANA)"
   }, {
     "code": "X377",
     "display": "TAWANDE"
@@ -377,7 +377,7 @@
     "display": "KOIUPANKA"
   }, {
     "code": "0128",
-    "display": "KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CU­BEU)"
+    "display": "KUBEO (CUBEO, COBEWA, KUBEWA, PAMIWA, CUï¿½BEU)"
   }, {
     "code": "X326",
     "display": "KRAHO KANELA"
@@ -731,19 +731,19 @@
     "display": "HIMARIMA (HIMERIMA)"
   }, {
     "code": "0257",
-    "display": "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)"
+    "display": "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XIï¿½RIANA)"
   }, {
     "code": "0061",
     "display": "GUATO"
   }, {
     "code": "0256",
-    "display": "YANOMAMI SANUMA (IANOMAMI, IANOAMA, XI­RIANA)"
+    "display": "YANOMAMI SANUMA (IANOMAMI, IANOAMA, XIï¿½RIANA)"
   }, {
     "code": "0060",
     "display": "GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)"
   }, {
     "code": "0255",
-    "display": "YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIA­NA)"
+    "display": "YANOMAMI NINAM (IANOMAMI, IANOAMA, XIRIAï¿½NA)"
   }, {
     "code": "0259",
     "display": "YAWANAWA (IAUANAUA)"
@@ -890,7 +890,7 @@
     "display": "IAUARETE ACU"
   }, {
     "code": "0099",
-    "display": "KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)"
+    "display": "KARAPANA (CARAPANA, MUTEAMASA, UKOPINOï¿½PONA)"
   }, {
     "code": "X297",
     "display": "IAUANAUA"
@@ -950,7 +950,7 @@
     "display": "TRUMAI"
   }, {
     "code": "0016",
-    "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)"
+    "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARIï¿½PUANA)"
   }, {
     "code": "0222",
     "display": "TUPINAMBA"
@@ -1013,13 +1013,13 @@
     "display": "TAPUIA (TAPUIA-XAVANTE, TAPUIO)"
   }, {
     "code": "0001",
-    "display": "ACONA (WAKONAS, NACONAS, JAKONA, ACORA­NES)"
+    "display": "ACONA (WAKONAS, NACONAS, JAKONA, ACORAï¿½NES)"
   }, {
     "code": "0201",
     "display": "TAPIRAPE (TAPI'IRAPE)"
   }, {
     "code": "0204",
-    "display": "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)"
+    "display": "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PAï¿½GEYN)"
   }, {
     "code": "0003",
     "display": "AJURU"
@@ -1049,7 +1049,7 @@
     "display": "TIRIYO KAH'YANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
   }, {
     "code": "0011",
-    "display": "APURINA (APORINA, IPURINA, IPURINA, IPURI­NAN)"
+    "display": "APURINA (APORINA, IPURINA, IPURINA, IPURIï¿½NAN)"
   }, {
     "code": "0210",
     "display": "TIRIYO EWARHUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
@@ -1112,7 +1112,7 @@
     "display": "AWETI (AUETI/AUETO)"
   }, {
     "code": "0226",
-    "display": "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)"
+    "display": "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKAï¿½PHONA)"
   }, {
     "code": "0028",
     "display": "AVA - CANOEIRO"
@@ -1121,7 +1121,7 @@
     "display": "TUXA"
   }, {
     "code": "0032",
-    "display": "BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)"
+    "display": "BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUEï¿½NAI)"
   }, {
     "code": "0229",
     "display": "URU-EU-WAU-WAU (URUEU-UAU-UAU, URUPAIN, URUPA)"
@@ -1130,7 +1130,7 @@
     "display": "BANAWA YAFI (BANAWA, BANAWA-JAFI)"
   }, {
     "code": "0231",
-    "display": "WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)"
+    "display": "WAI WAI KARAFAWYANA (KARAFAWYANA, KARAï¿½PAWYANA)"
   }, {
     "code": "0033",
     "display": "BARA (WAIPINOMAKA)"

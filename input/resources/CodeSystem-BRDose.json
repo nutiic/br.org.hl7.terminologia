@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRDose",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRDose",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRDose",
   "version": "HEAD",
   "name": "BRDose",
   "title": "Dose de Vacina",
@@ -17,25 +17,25 @@
     "display": "Tratamento com onze doses"
   }, {
     "code": "46",
-    "display": "3ª Dose Fracionada"
+    "display": "3ï¿½ Dose Fracionada"
   }, {
     "code": "24",
     "display": "Tratamento com quartorze doses"
   }, {
     "code": "48",
-    "display": "5ª Dose Fracionada"
+    "display": "5ï¿½ Dose Fracionada"
   }, {
     "code": "5",
-    "display": "5ª Dose"
+    "display": "5ï¿½ Dose"
   }, {
     "code": "47",
-    "display": "4ª Dose Fracionada"
+    "display": "4ï¿½ Dose Fracionada"
   }, {
     "code": "44",
-    "display": "1ª Dose Fracionada"
+    "display": "1ï¿½ Dose Fracionada"
   }, {
     "code": "45",
-    "display": "2ª Dose Fracionada"
+    "display": "2ï¿½ Dose Fracionada"
   }, {
     "code": "23",
     "display": "Tratamento com treze doses"
@@ -44,7 +44,7 @@
     "display": "Tratamento com doze doses"
   }, {
     "code": "43",
-    "display": "5ª Dose Revacinacao"
+    "display": "5ï¿½ Dose Revacinacao"
   }, {
     "code": "20",
     "display": "Tratamento com dez doses"
@@ -65,7 +65,7 @@
     "display": "Segunda Dose"
   }, {
     "code": "3",
-    "display": "3ª Dose"
+    "display": "3ï¿½ Dose"
   }, {
     "code": "28",
     "display": "Tratamento com dezoito doses"
@@ -74,7 +74,7 @@
     "display": "Dose"
   }, {
     "code": "6",
-    "display": "1º Reforco"
+    "display": "1ï¿½ Reforco"
   }, {
     "code": "25",
     "display": "Tratamento com quinze doses"
@@ -83,7 +83,7 @@
     "display": "Tratamento com dezesseis doses"
   }, {
     "code": "7",
-    "display": "2º Reforco"
+    "display": "2ï¿½ Reforco"
   }, {
     "code": "14",
     "display": "Tratamento com quatro doses"
@@ -104,31 +104,31 @@
     "display": "Tratamento com sete doses"
   }, {
     "code": "34",
-    "display": "3ª Dose Revacinacao"
+    "display": "3ï¿½ Dose Revacinacao"
   }, {
     "code": "12",
     "display": "Tratamento com duas doses"
   }, {
     "code": "42",
-    "display": "6º Reforco"
+    "display": "6ï¿½ Reforco"
   }, {
     "code": "33",
-    "display": "2ª Dose Revacinacao"
+    "display": "2ï¿½ Dose Revacinacao"
   }, {
     "code": "35",
-    "display": "4ª Dose Revacinacao"
+    "display": "4ï¿½ Dose Revacinacao"
   }, {
     "code": "15",
     "display": "Tratamento com cinco doses"
   }, {
     "code": "39",
-    "display": "3º Reforco"
+    "display": "3ï¿½ Reforco"
   }, {
     "code": "11",
     "display": "Tratamento com uma dose"
   }, {
     "code": "40",
-    "display": "4º Reforco"
+    "display": "4ï¿½ Reforco"
   }, {
     "code": "18",
     "display": "Tratamento com oito doses"
@@ -143,16 +143,16 @@
     "display": "Revacinacao"
   }, {
     "code": "4",
-    "display": "4ª Dose"
+    "display": "4ï¿½ Dose"
   }, {
     "code": "41",
-    "display": "5º Reforco"
+    "display": "5ï¿½ Reforco"
   }, {
     "code": "1",
-    "display": "1ª Dose"
+    "display": "1ï¿½ Dose"
   }, {
     "code": "32",
-    "display": "1ª Dose Revacinacao"
+    "display": "1ï¿½ Dose Revacinacao"
   }, {
     "code": "31",
     "display": "Tratamento com vinte e quatro doses"

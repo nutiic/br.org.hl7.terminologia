@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTerminologiaPatogeno",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTerminologiaPatogeno",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTerminologiaPatogeno",
   "version": "HEAD",
   "name": "BRTerminologiaPatogeno",
   "title": "Patogeno",

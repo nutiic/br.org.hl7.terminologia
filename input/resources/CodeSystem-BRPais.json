@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRPais",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRPais",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRPais",
   "version": "HEAD",
   "name": "BRPais",
   "title": "Paises",

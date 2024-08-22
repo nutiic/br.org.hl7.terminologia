@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRLocalAplicacao",
   "language": "por",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAplicacao",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRLocalAplicacao",
   "version": "HEAD",
   "name": "BRLocalAplicacao",
   "title": "Local de Aplicacao",

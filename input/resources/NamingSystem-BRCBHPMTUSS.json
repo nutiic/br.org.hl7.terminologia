@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCBHPMTUSS",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCBHPMTUSS",
     "preferred": true
   } ]
 }

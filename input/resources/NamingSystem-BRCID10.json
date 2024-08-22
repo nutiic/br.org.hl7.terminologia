@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCID10",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCID10",
     "preferred": true
   } ]
 }

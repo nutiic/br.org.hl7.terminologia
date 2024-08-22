@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoEstabelecimentoSaude",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoEstabelecimentoSaude",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRTipoEstabelecimentoSaude",
   "version": "HEAD",
   "name": "BRTipoEstabelecimentoSaude",
   "title": "Tipo de Estabelecimento de Saude",

@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRFabricantePNI",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRFabricantePNI",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRFabricantePNI",
   "version": "HEAD",
   "name": "BRFabricantePNI",
   "title": "Fabricante do imunobiologico",

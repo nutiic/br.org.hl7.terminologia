@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRDivisaoGeograficaBrasil",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRDivisaoGeograficaBrasil",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRDivisaoGeograficaBrasil",
   "version": "HEAD",
   "name": "BRDivisaoGeograficaBrasil",
   "title": "Divisao Geografica do Brasil",

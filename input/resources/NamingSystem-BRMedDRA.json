@@ -5,8 +5,8 @@
   "name": "BRMedDRA",
   "status": "active",
   "kind": "codesystem",
-  "publisher": "Ministério da Saúde do Brasil",
-  "responsible": "Ministério da Saúde do Brasil",
+  "publisher": "Ministï¿½rio da Saï¿½de do Brasil",
+  "responsible": "Ministï¿½rio da Saï¿½de do Brasil",
   "description": "MedDRA",
   "uniqueId": [ {
     "type": "uri",
@@ -14,7 +14,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRMedDRA",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRMedDRA",
     "preferred": true
   } ]
 }

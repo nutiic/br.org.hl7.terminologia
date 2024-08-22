@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCBO",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCBO",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRCBO",
   "version": "HEAD",
   "name": "BRCBO",
   "title": "Classificacao Brasileira de Ocupacoes - CBO",
