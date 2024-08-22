@@ -1,0 +1,2325 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "br.gov.saude.fhir.terminologia",
+  "url": "https://terminologia.saude.gov.br/ImplementationGuide/br.gov.saude.fhir.terminologia",
+  "version": "0.0.1",
+  "name": "TerminologiaBrasil",
+  "title": "Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1",
+  "status": "active",
+  "date": "2024-07-25",
+  "publisher": "Ministério do Saúde do Brasil",
+  "contact": [
+    {
+      "name": "Ministério do Saúde do Brasil",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://gov.br/saude"
+        },
+        {
+          "system": "email",
+          "value": "contato@gointerop.com"
+        }
+      ]
+    },
+    {
+      "name": "Italo Macedo",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "italo@gointerop.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Guia de Implementação Terminologias do Brasil.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "BR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Brazil"
+        }
+      ]
+    }
+  ],
+  "packageId": "br.gov.saude.fhir.terminologia",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.terminology",
+      "version": "6.0.2",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "id": "hl7_terminology"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "NamingSystem/allergy-intolerance-type"
+        },
+        "description": "AllergyIntoleranceType",
+        "exampleBoolean": false,
+        "name": "allergyintolerancetype"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRAlergenosCBARA"
+        },
+        "description": "BR Alergenos CBARA",
+        "exampleBoolean": false,
+        "name": "BR Alergenos CBARA"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRRegistroOrigem"
+        },
+        "description": "BR Registro de Origem",
+        "exampleBoolean": false,
+        "name": "BR Registro de Origem"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRAlergenosCBARA"
+        },
+        "description": "BR Alergenos CBARA",
+        "exampleBoolean": false,
+        "name": "BRAlergenosCBARA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCategoriaDiagnostico"
+        },
+        "description": "Categoria do Diagnostico",
+        "exampleBoolean": false,
+        "name": "BRCategoriaDiagnostico"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCBHPMTUSS"
+        },
+        "description": "Classificacao Brasileira Hierarquizada de Procedimentos Medicos - CBHPM e da Terminologia Unificada da Saude Suplementar - TUSS",
+        "exampleBoolean": false,
+        "name": "BRCBHPMTUSS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCBO"
+        },
+        "description": "Classificacao Brasileira de Ocupacoes - CBO",
+        "exampleBoolean": false,
+        "name": "BRCBO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCIAP2"
+        },
+        "description": "Classificacao Internacional de Atencao Primaria - Segunda Edicao - CIAP2",
+        "exampleBoolean": false,
+        "name": "BRCIAP2"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCID10"
+        },
+        "description": "Classificacao Internacional de Doencas - Decima Revisao - CID-10",
+        "exampleBoolean": false,
+        "name": "BRCID10"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRCondicaoMaternal"
+        },
+        "description": "Condicao  Maternal",
+        "exampleBoolean": false,
+        "name": "BRCondicaoMaternal"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRConselhoProfissional"
+        },
+        "description": "Conselhos Regionais de Profissionais da Saude",
+        "exampleBoolean": false,
+        "name": "BRConselhoProfissional"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRDadoAusenteOuDesconhecido"
+        },
+        "description": "Classificacao de dados ausentes ou desconhecidos - IPS",
+        "exampleBoolean": false,
+        "name": "BRDadoAusenteOuDesconhecido"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRDivisaoGeograficaBrasil"
+        },
+        "description": "Divisao Geografica do Brasil",
+        "exampleBoolean": false,
+        "name": "BRDivisaoGeograficaBrasil"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRDose"
+        },
+        "description": "Dose de Vacina",
+        "exampleBoolean": false,
+        "name": "BRDose"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BREstrategiaVacinacao"
+        },
+        "description": "Estrategia de Vacinacao",
+        "exampleBoolean": false,
+        "name": "BREstrategiaVacinacao"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BREtniaIndigena"
+        },
+        "description": "Etnia Indigena",
+        "exampleBoolean": false,
+        "name": "BREtniaIndigena"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRFabricantePNI"
+        },
+        "description": "Fabricante do imunobiologico",
+        "exampleBoolean": false,
+        "name": "BRFabricantePNI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRImunobiologico"
+        },
+        "description": "Imunobiologico",
+        "exampleBoolean": false,
+        "name": "BRImunobiologico"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRJustificativaIndividuoNaoIdentificado"
+        },
+        "description": "Justificativa da Impossibilidade de Identificacao do Individuo",
+        "exampleBoolean": false,
+        "name": "BRJustificativaIndividuoNaoIdentificado"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRLocalAfericao"
+        },
+        "description": "Local de Afericao",
+        "exampleBoolean": false,
+        "name": "BRLocalAfericao"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRLocalAplicacao"
+        },
+        "description": "Local de Aplicacao",
+        "exampleBoolean": false,
+        "name": "BRLocalAplicacao"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRMedDRA"
+        },
+        "description": "MedDRA",
+        "exampleBoolean": false,
+        "name": "BRMedDRA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRMedicamento"
+        },
+        "description": "Medicamento",
+        "exampleBoolean": false,
+        "name": "BRMedicamento"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRModalidadeAssistencial"
+        },
+        "description": "Modalidade Assistencial",
+        "exampleBoolean": false,
+        "name": "BRModalidadeAssistencial"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRModalidadeFinanceira"
+        },
+        "description": "Modalidade Financeira",
+        "exampleBoolean": false,
+        "name": "BRModalidadeFinanceira"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRNomeExameGAL"
+        },
+        "description": "Exames do GAL",
+        "exampleBoolean": false,
+        "name": "BRNomeExameGAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRNomeExameLOINC"
+        },
+        "description": "Exames LOINC",
+        "exampleBoolean": false,
+        "name": "BRNomeExameLOINC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BROrgaoExpedidor"
+        },
+        "description": "Orgao Expedidor",
+        "exampleBoolean": false,
+        "name": "BROrgaoExpedidor"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRPais"
+        },
+        "description": "Paises",
+        "exampleBoolean": false,
+        "name": "BRPais"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRParentesco"
+        },
+        "description": "Parentesco",
+        "exampleBoolean": false,
+        "name": "BRParentesco"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRPopulacaoTradicional"
+        },
+        "description": "Populacao Tradicional",
+        "exampleBoolean": false,
+        "name": "BRPopulacaoTradicional"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRPosicaoIndividuo"
+        },
+        "description": "Posicao do Individuo",
+        "exampleBoolean": false,
+        "name": "BRPosicaoIndividuo"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRRacaCor"
+        },
+        "description": "Raca/Cor",
+        "exampleBoolean": false,
+        "name": "BRRacaCor"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRRegistroOrigem"
+        },
+        "description": "BR Registro de Origem",
+        "exampleBoolean": false,
+        "name": "BRRegistroOrigem"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRResultadoQualitativoExame"
+        },
+        "description": "Resultado qualitativo do Exame 2.0",
+        "exampleBoolean": false,
+        "name": "BRResultadoQualitativoExame"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRSubgrupoTabelaSUS"
+        },
+        "description": "Subgrupo da Tabela SUS 1.1.0",
+        "exampleBoolean": false,
+        "name": "BRSubgrupoTabelaSUS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTabelaSUS"
+        },
+        "description": "Tabela de procedimentos, medicamentos e OPM do SUS",
+        "exampleBoolean": false,
+        "name": "BRTabelaSUS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTerminologiaPatogeno"
+        },
+        "description": "Patogeno",
+        "exampleBoolean": false,
+        "name": "BRTerminologiaPatogeno"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoAmostraGAL"
+        },
+        "description": "Tipo de Amostra Biologica",
+        "exampleBoolean": false,
+        "name": "BRTipoAmostraGAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoDocumento"
+        },
+        "description": "Tipo de Documento",
+        "exampleBoolean": false,
+        "name": "BRTipoDocumento"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoEstabelecimentoSaude"
+        },
+        "description": "Tipo de Estabelecimento de Saude",
+        "exampleBoolean": false,
+        "name": "BRTipoEstabelecimentoSaude"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoIdentificador"
+        },
+        "description": "Tipo de Identificador",
+        "exampleBoolean": false,
+        "name": "BRTipoIdentificador"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoLogradouro"
+        },
+        "description": "Tipo de Logradouro",
+        "exampleBoolean": false,
+        "name": "BRTipoLogradouro"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoObservacao"
+        },
+        "description": "Tipo de Observacao",
+        "exampleBoolean": false,
+        "name": "BRTipoObservacao"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoAVIDEZ"
+        },
+        "description": "Tipo de Resultado AVIDEZ 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoAVIDEZ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoDTNT"
+        },
+        "description": "Tipo de Resultado DTNT 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoDTNT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoHISPT"
+        },
+        "description": "Tipo de Resultado HISPT 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoHISPT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoPRAU"
+        },
+        "description": "Tipo de Resultado PRAU 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoPRAU"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoPSNG"
+        },
+        "description": "Tipo de Resultado PSNG 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoPSNG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoRGNR"
+        },
+        "description": "Tipo de Resultado RGNR 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoRGNR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoRSBAC"
+        },
+        "description": "Tipo de Resultado RSBAC 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoRSBAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRTipoResultadoRSCUL"
+        },
+        "description": "Tipo de Resultado RSCUL 1.0",
+        "exampleBoolean": false,
+        "name": "BRTipoResultadoRSCUL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRUnidadeMedida"
+        },
+        "description": "Unidade de Medida",
+        "exampleBoolean": false,
+        "name": "BRUnidadeMedida"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/BRViaAdministracao"
+        },
+        "description": "Via de Administracao",
+        "exampleBoolean": false,
+        "name": "BRViaAdministracao"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCategoriaDiagnostico"
+        },
+        "description": "Categoria do Diagnostico",
+        "exampleBoolean": false,
+        "name": "Categoria do Diagnostico"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCBO"
+        },
+        "description": "Classificacao Brasileira de Ocupacoes - CBO",
+        "exampleBoolean": false,
+        "name": "Classificacao Brasileira de Ocupacoes - CBO"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCBHPMTUSS"
+        },
+        "description": "Classificacao Brasileira Hierarquizada de Procedimentos Medicos - CBHPM e da Terminologia Unificada da Saude Suplementar - TUSS",
+        "exampleBoolean": false,
+        "name": "Classificacao Brasileira Hierarquizada de Procedimentos Medicos - CBHPM e da Terminologia Unificada da Saude Suplementar - TUSS"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRDadoAusenteOuDesconhecido"
+        },
+        "description": "Classificacao de dados ausentes ou desconhecidos - IPS",
+        "exampleBoolean": false,
+        "name": "Classificacao de dados ausentes ou desconhecidos - IPS"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCIAP2"
+        },
+        "description": "Classificacao Internacional de Atencao Primaria - Segunda Edicao - CIAP2",
+        "exampleBoolean": false,
+        "name": "Classificacao Internacional de Atencao Primaria - Segunda Edicao - CIAP2"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCID10"
+        },
+        "description": "Classificacao Internacional de Doencas - Decima Revisao - CID-10",
+        "exampleBoolean": false,
+        "name": "Classificacao Internacional de Doencas - Decima Revisao - CID-10"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRCondicaoMaternal"
+        },
+        "description": "Condicao  Maternal",
+        "exampleBoolean": false,
+        "name": "Condicao  Maternal"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRConselhoProfissional"
+        },
+        "description": "Esse CodeSystem inclui os conselhos profissionais de saúde do Brasil, conforme a Resolução CNS 251/1997.",
+        "exampleBoolean": false,
+        "name": "Conselhos profissionais de saúde do Brasil"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRDivisaoGeograficaBrasil"
+        },
+        "description": "Divisao Geografica do Brasil",
+        "exampleBoolean": false,
+        "name": "Divisao Geografica do Brasil"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRDose"
+        },
+        "description": "Dose de Vacina",
+        "exampleBoolean": false,
+        "name": "Dose de Vacina"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BREstrategiaVacinacao"
+        },
+        "description": "Estrategia de Vacinacao",
+        "exampleBoolean": false,
+        "name": "Estrategia de Vacinacao"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BREtniaIndigena"
+        },
+        "description": "Etnia Indigena",
+        "exampleBoolean": false,
+        "name": "Etnia Indigena"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRNomeExameGAL"
+        },
+        "description": "Exames do GAL",
+        "exampleBoolean": false,
+        "name": "Exames do GAL"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRNomeExameLOINC"
+        },
+        "description": "Exames LOINC",
+        "exampleBoolean": false,
+        "name": "Exames LOINC"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRFabricantePNI"
+        },
+        "description": "Fabricante do imunobiologico",
+        "exampleBoolean": false,
+        "name": "Fabricante do imunobiologico"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRImunobiologico"
+        },
+        "description": "Imunobiologico",
+        "exampleBoolean": false,
+        "name": "Imunobiologico"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRJustificativaIndividuoNaoIdentificado"
+        },
+        "description": "Justificativa da Impossibilidade de Identificacao do Individuo",
+        "exampleBoolean": false,
+        "name": "Justificativa da Impossibilidade de Identificacao do Individuo"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRLocalAfericao"
+        },
+        "description": "Local de Afericao",
+        "exampleBoolean": false,
+        "name": "Local de Afericao"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRLocalAplicacao"
+        },
+        "description": "Local de Aplicacao",
+        "exampleBoolean": false,
+        "name": "Local de Aplicacao"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRMedDRA"
+        },
+        "description": "MedDRA",
+        "exampleBoolean": false,
+        "name": "MedDRA"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRMedicamento"
+        },
+        "description": "Medicamento",
+        "exampleBoolean": false,
+        "name": "Medicamento"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRModalidadeAssistencial"
+        },
+        "description": "Modalidade Assistencial",
+        "exampleBoolean": false,
+        "name": "Modalidade Assistencial"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRModalidadeFinanceira"
+        },
+        "description": "Modalidade Financeira",
+        "exampleBoolean": false,
+        "name": "Modalidade Financeira"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cnes"
+        },
+        "description": "CADASTRO NACIONAL DE ESTABELECIMENTOS DE SAÚDE",
+        "exampleBoolean": false,
+        "name": "NamingSystemCNES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cnpj"
+        },
+        "description": "CADASTRO NACIONAL DE PESSOA JURÍDICA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCNPJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cns"
+        },
+        "description": "CARTÃO NACIONAL DE SAÚDE",
+        "exampleBoolean": false,
+        "name": "NamingSystemCNS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ac"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-al"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-am"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENAM"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ap"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ba"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ce"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-df"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENDF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-es"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-go"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENGO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ma"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-mg"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ms"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-mt"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-pa"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENPA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-pb"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENPB"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-pe"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENPE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-pi"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-pr"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-rj"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENRJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-rn"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-ro"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENRO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-rr"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENRR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-rs"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENRS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-sc"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-se"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-sp"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/coren-to"
+        },
+        "description": "CONSELHO REGIONAL DE ENFERMAGEM",
+        "exampleBoolean": false,
+        "name": "NamingSystemCORENTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cpf"
+        },
+        "description": "CADASTRO DE PESSOA FÍSICA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCPF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-ba"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-ce"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-es"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-go-df"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOGODF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-ma"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-mg"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-ms"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-mt"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-pa-am-to-rr-ap"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOPAAMTORRAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-pe-pb-al-rn"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOPEPBALRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-pi"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-pr"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-rj"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITORJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-ro-ac"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOROAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-rs"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITORS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-sc"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-se"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefito-sp"
+        },
+        "description": "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFITOSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-am-ac-ap-pa-ro-rr"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOAMACAPPARORR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-ce-ma-pi-rn"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOCEMAPIRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-go-df-ms-mt-to"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOGODFMSMTTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-mg-es"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOMGES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-pe-al-ba-pb-se"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOPEALBAPBSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-pr-sc"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOPRSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-rj"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONORJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-rs"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONORS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crefono-sp"
+        },
+        "description": "CONSELHO REGIONAL DE FONOAUDIOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCREFONOSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ac"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-al"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-am"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFAM"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ap"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ba"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ce"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-df"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFDF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-es"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-go"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFGO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ma"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-mg"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ms"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-mt"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-pa"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFPA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-pb"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFPB"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-pe"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFPE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-pi"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-pr"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-rj"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFRJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-rn"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-ro"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFRO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-rr"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFRR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-rs"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFRS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-sc"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-se"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-sp"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crf-to"
+        },
+        "description": "CONSELHO REGIONAL DE FARMÁCIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRFTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ac"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-al"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-am"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMAM"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ap"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ba"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ce"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-df"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMDF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-es"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-go"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMGO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ma"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-mg"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ms"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-mt"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-pa"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMPA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-pb"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMPB"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-pe"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMPE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-pi"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-pr"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-rj"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMRJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-rn"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-ro"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMRO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-rr"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMRR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-rs"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMRS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-sc"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-se"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-sp"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crm-to"
+        },
+        "description": "CONSELHO REGIONAL DE MEDICINA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRMTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-al"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-ba-se"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNBASE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-ce-ma-pi"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNCEMAPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-df-go-mt-to"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNDFGOMTTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-pa-ac-am-ap-ro-rr"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNPAACAMAPRORR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-pe-al-pb-rn"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNPEALPBRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-pr"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-rj-es"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNRJES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-rs"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNRS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-sc"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crn-sp-ms"
+        },
+        "description": "CONSELHO REGIONAL DE NUTRICIONISTA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRNSPMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ac"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROAC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-al"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-am"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROAM"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ap"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ba"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ce"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-df"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRODF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-es"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-go"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROGO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ma"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-mg"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ms"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-mt"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-pa"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROPA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-pb"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROPB"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-pe"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROPE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-pi"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-pr"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-rj"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRORJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-rn"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRORN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-ro"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRORO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-rr"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRORR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-rs"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRORS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-sc"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-se"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-sp"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/cro-to"
+        },
+        "description": "CONSELHO REGIONAL DE ODONTOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCROTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-ac-ro"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPACRO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-al"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPAL"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-am-rr"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPAMRR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-ba"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPBA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-ce"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPCE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-df"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPDF"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-es"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPES"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-go"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPGO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-ma"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPMA"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-mg"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPMG"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-ms"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPMS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-mt"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPMT"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-pa-ap"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPPAAP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-pb"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPPB"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-pe"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPPE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-pi"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPPI"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-pr"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPPR"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-rj"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPRJ"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-rn"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPRN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-rs"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPRS"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-sc"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPSC"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-se"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPSE"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-sp"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPSP"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/crp-to"
+        },
+        "description": "CONSELHO REGIONAL DE PSICOLOGIA",
+        "exampleBoolean": false,
+        "name": "NamingSystemCRPTO"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/rne"
+        },
+        "description": "REGISTRO NACIONAL DE ESTRANGEIRO",
+        "exampleBoolean": false,
+        "name": "NamingSystemRNE"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BROrgaoExpedidor"
+        },
+        "description": "Orgao Expedidor",
+        "exampleBoolean": false,
+        "name": "Orgao Expedidor"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRPais"
+        },
+        "description": "Paises",
+        "exampleBoolean": false,
+        "name": "Paises"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRParentesco"
+        },
+        "description": "Parentesco",
+        "exampleBoolean": false,
+        "name": "Parentesco"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTerminologiaPatogeno"
+        },
+        "description": "Patogeno",
+        "exampleBoolean": false,
+        "name": "Patogeno"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRPopulacaoTradicional"
+        },
+        "description": "Populacao Tradicional",
+        "exampleBoolean": false,
+        "name": "Populacao Tradicional"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRPosicaoIndividuo"
+        },
+        "description": "Posicao do Individuo",
+        "exampleBoolean": false,
+        "name": "Posicao do Individuo"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRRacaCor"
+        },
+        "description": "Raca/Cor",
+        "exampleBoolean": false,
+        "name": "Raca/Cor"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRResultadoQualitativoExame"
+        },
+        "description": "Resultado qualitativo do Exame 2.0",
+        "exampleBoolean": false,
+        "name": "Resultado qualitativo do Exame 2.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRSubgrupoTabelaSUS"
+        },
+        "description": "Subgrupo da Tabela SUS 1.1.0",
+        "exampleBoolean": false,
+        "name": "Subgrupo da Tabela SUS 1.1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTabelaSUS"
+        },
+        "description": "Tabela de procedimentos, medicamentos e OPM do SUS",
+        "exampleBoolean": false,
+        "name": "Tabela de procedimentos, medicamentos e OPM do SUS"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoAmostraGAL"
+        },
+        "description": "Tipo de Amostra Biologica",
+        "exampleBoolean": false,
+        "name": "Tipo de Amostra Biologica"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoDocumento"
+        },
+        "description": "Tipo de Documento",
+        "exampleBoolean": false,
+        "name": "Tipo de Documento"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoEstabelecimentoSaude"
+        },
+        "description": "Tipo de Estabelecimento de Saude",
+        "exampleBoolean": false,
+        "name": "Tipo de Estabelecimento de Saude"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoIdentificador"
+        },
+        "description": "Tipo de Identificador",
+        "exampleBoolean": false,
+        "name": "Tipo de Identificador"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoLogradouro"
+        },
+        "description": "Tipo de Logradouro",
+        "exampleBoolean": false,
+        "name": "Tipo de Logradouro"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoObservacao"
+        },
+        "description": "Tipo de Observacao",
+        "exampleBoolean": false,
+        "name": "Tipo de Observacao"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoAVIDEZ"
+        },
+        "description": "Tipo de Resultado AVIDEZ 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado AVIDEZ 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoDTNT"
+        },
+        "description": "Tipo de Resultado DTNT 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado DTNT 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoHISPT"
+        },
+        "description": "Tipo de Resultado HISPT 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado HISPT 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoPRAU"
+        },
+        "description": "Tipo de Resultado PRAU 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado PRAU 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoPSNG"
+        },
+        "description": "Tipo de Resultado PSNG 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado PSNG 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoRGNR"
+        },
+        "description": "Tipo de Resultado RGNR 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado RGNR 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoRSBAC"
+        },
+        "description": "Tipo de Resultado RSBAC 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado RSBAC 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRTipoResultadoRSCUL"
+        },
+        "description": "Tipo de Resultado RSCUL 1.0",
+        "exampleBoolean": false,
+        "name": "Tipo de Resultado RSCUL 1.0"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRUnidadeMedida"
+        },
+        "description": "Unidade de Medida",
+        "exampleBoolean": false,
+        "name": "Unidade de Medida"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRViaAdministracao"
+        },
+        "description": "Via de Administracao",
+        "exampleBoolean": false,
+        "name": "Via de Administracao"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Início",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "changes.html",
+          "title": "Histórico de mudanças",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Baixar",
+          "generation": "html"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "STU1"
+      },
+      {
+        "code": "produce-jekyll-data",
+        "value": "true"
+      }
+    ]
+  }
+}
