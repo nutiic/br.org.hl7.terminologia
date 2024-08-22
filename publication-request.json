@@ -8,7 +8,7 @@
   "mode": "milestone",
   "path": "https://saude.gov.br/fhir/terminologia/v0.1.0",
   "ci-build": "https://terminologia-br-ig.web.app",
-  "first": true,
+  "first": false,
   "status": "release",
   "sequence": "Releases"
 }
