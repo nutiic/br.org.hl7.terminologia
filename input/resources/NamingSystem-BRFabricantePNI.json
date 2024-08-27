@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRFabricantePNI",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
     "preferred": true
   } ]
 }

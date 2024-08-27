@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRRegistroOrigem",
   "language": "por",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRRegistroOrigem",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
   "version": "HEAD",
   "name": "BRRegistroOrigem",
   "title": "BR Registro de Origem",

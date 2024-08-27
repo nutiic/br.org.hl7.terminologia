@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoDTNT",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoDTNT",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
   "version": "HEAD",
   "name": "BRTipoResultadoDTNT",
   "title": "Tipo de Resultado DTNT 1.0",

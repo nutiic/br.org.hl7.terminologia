@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRUnidadeMedida",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida",
     "preferred": true
   } ]
 }

@@ -5,8 +5,8 @@
   "name": "BRNomeExameLOINC",
   "status": "active",
   "kind": "codesystem",
-  "publisher": "Ministério da Saúde do Brasil",
-  "responsible": "Ministério da Saúde do Brasil",
+  "publisher": "Ministï¿½rio da Saï¿½de do Brasil",
+  "responsible": "Ministï¿½rio da Saï¿½de do Brasil",
   "description": "Exames LOINC",
   "uniqueId": [ {
     "type": "uri",
@@ -14,7 +14,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRNomeExameLOINC",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
     "preferred": true
   } ]
 }

@@ -1,0 +1,23 @@
+{
+  "packages" : [
+    {
+      "path" : "fhir/package-list.json",
+      "package-id" : "br.gov.saude.terminologia.fhir",
+      "title" : "Terminologias do Brasil",
+      "canonical" : "https://terminologia.saude.gov.br/fhir",
+      "category" : "base",
+      "ci-build" : "https://terminologia-br-ig.web.app",
+      "version-count" : 1,
+      "latest" : {
+        "version" : "0.1.0",
+        "date" : "2024-08-27",
+        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.0"
+      },
+      "milestone" : {
+        "version" : "0.1.0",
+        "date" : "2024-08-27",
+        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.0"
+      }
+    }
+  ]
+}

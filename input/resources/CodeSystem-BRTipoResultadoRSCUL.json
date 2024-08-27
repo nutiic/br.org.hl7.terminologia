@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoRSCUL",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSCUL",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
   "version": "HEAD",
   "name": "BRTipoResultadoRSCUL",
   "title": "Tipo de Resultado RSCUL 1.0",

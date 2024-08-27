@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRAlergenosCBARA",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRAlergenosCBARA",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA",
   "version": "HEAD",
   "name": "BRAlergenosCBARA",
   "title": "BR Alergenos CBARA",

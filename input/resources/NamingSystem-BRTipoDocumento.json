@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoDocumento",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
     "preferred": true
   } ]
 }

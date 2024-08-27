@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRSubgrupoTabelaSUS",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRSubgrupoTabelaSUS",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubgrupoTabelaSUS",
   "version": "HEAD",
   "name": "BRSubgrupoTabelaSUS",
   "title": "Subgrupo da Tabela SUS 1.1.0",

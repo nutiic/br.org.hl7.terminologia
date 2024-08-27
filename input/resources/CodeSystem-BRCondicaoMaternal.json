@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCondicaoMaternal",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCondicaoMaternal",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
   "version": "HEAD",
   "name": "BRCondicaoMaternal",
   "title": "Condicao  Maternal",

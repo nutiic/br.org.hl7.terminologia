@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRRacaCor",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRRacaCor",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
   "version": "HEAD",
   "name": "BRRacaCor",
   "title": "Raca/Cor",

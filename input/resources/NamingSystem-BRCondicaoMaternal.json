@@ -14,7 +14,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRCondicaoMaternal",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
     "preferred": true
   } ]
 }

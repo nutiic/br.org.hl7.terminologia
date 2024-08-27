@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoRSBAC",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoRSBAC",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
   "version": "HEAD",
   "name": "BRTipoResultadoRSBAC",
   "title": "Tipo de Resultado RSBAC 1.0",

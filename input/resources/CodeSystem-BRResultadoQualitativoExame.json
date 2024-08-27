@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRResultadoQualitativoExame",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRResultadoQualitativoExame",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
   "version": "HEAD",
   "name": "BRResultadoQualitativoExame",
   "title": "Resultado qualitativo do Exame 2.0",

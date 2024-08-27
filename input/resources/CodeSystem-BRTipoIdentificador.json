@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoIdentificador",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoIdentificador",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
   "version": "HEAD",
   "name": "BRTipoIdentificador",
   "title": "Tipo de Identificador",

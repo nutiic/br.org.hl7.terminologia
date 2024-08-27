@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRViaAdministracao",
   "language": "por",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRViaAdministracao",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao",
   "version": "HEAD",
   "name": "BRViaAdministracao",
   "title": "Via de Administracao",

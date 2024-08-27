@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoAmostraGAL",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoAmostraGAL",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
   "version": "HEAD",
   "name": "BRTipoAmostraGAL",
   "title": "Tipo de Amostra Biologica",

@@ -5,8 +5,8 @@
   "name": "BRLocalAfericao",
   "status": "active",
   "kind": "codesystem",
-  "publisher": "Ministério da Saúde do Brasil",
-  "responsible": "Ministério da Saúde do Brasil",
+  "publisher": "Ministï¿½rio da Saï¿½de do Brasil",
+  "responsible": "Ministï¿½rio da Saï¿½de do Brasil",
   "description": "Local de Afericao",
   "uniqueId": [ {
     "type": "uri",
@@ -14,7 +14,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRLocalAfericao",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
     "preferred": true
   } ]
 }

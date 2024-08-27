@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRCID10",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCID10",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
   "version": "HEAD",
   "name": "BRCID10",
   "title": "Classificacao Internacional de Doencas - Decima Revisao - CID-10",
@@ -1253,7 +1253,7 @@
     "display": "Transtorno da placenta, nao especificado"
   }, {
     "code": "O47.1",
-    "display": "Falso trabalho de parto na 37ª semana completa ou depois dela"
+    "display": "Falso trabalho de parto na 37ï¿½ semana completa ou depois dela"
   }, {
     "code": "O47.0",
     "display": "Falso trabalho de parto antes de se completarem 37 semanas de gestacao"
@@ -26606,7 +26606,7 @@
     "display": "Outras disfuncoes sexuais nao devidas a transtorno ou a doenca organica"
   }, {
     "code": "U99",
-    "display": "CID 10ª Revisao nao disponivel"
+    "display": "CID 10ï¿½ Revisao nao disponivel"
   }, {
     "code": "F52.7",
     "display": "Apetite sexual excessivo"

@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRMedicamento",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRMedicamento",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
   "version": "HEAD",
   "name": "BRMedicamento",
   "title": "Medicamento",

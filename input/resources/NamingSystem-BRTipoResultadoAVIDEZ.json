@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/CodeSystem/BRTipoResultadoAVIDEZ",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
     "preferred": true
   } ]
 }

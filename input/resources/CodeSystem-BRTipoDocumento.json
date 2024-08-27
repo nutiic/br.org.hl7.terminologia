@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoDocumento",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRTipoDocumento",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
   "version": "HEAD",
   "name": "BRTipoDocumento",
   "title": "Tipo de Documento",

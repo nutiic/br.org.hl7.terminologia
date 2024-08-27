@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRNomeExameGAL",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRNomeExameGAL",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
   "version": "HEAD",
   "name": "BRNomeExameGAL",
   "title": "Exames do GAL",

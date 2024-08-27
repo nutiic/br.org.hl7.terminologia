@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRPopulacaoTradicional",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/CodeSystem/BRPopulacaoTradicional",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
   "version": "HEAD",
   "name": "BRPopulacaoTradicional",
   "title": "Populacao Tradicional",
