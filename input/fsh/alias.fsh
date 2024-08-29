@@ -1,1 +1,1 @@
-Alias: $BRConselhoProfissional = https://terminologia.saude.gov.br/CodeSystem/BRConselhoProfissional
+Alias: $BRConselhoProfissional = https://terminologia.saude.gov.br/fhir/CodeSystem/BRConselhoProfissional
