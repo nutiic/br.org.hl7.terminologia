@@ -5,19 +5,19 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
   "version": "HEAD",
   "name": "BRTipoResultadoPRAU",
-  "title": "Tipo de Resultado PRAU 1.0",
+  "title": "Tipo de Resultado PRAU",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado PRAU 1.0",
+  "description": "Tipo de Resultado PRAU",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "1",
-    "display": "Presenca"
+    "display": "Presença"
   }, {
     "code": "2",
-    "display": "Ausencia"
+    "display": "Ausência"
   }, {
     "code": "3",
     "display": "Inconclusivo"

@@ -8,14 +8,14 @@
   "title": "Parentesco",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist�rio da Sa�de do Brasil",
+  "publisher": "Ministério da Saúde do Brasil",
   "description": "Parentesco",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "mother",
-    "display": "Mae"
+    "display": "Mãe"
   }, {
     "code": "father",
     "display": "Pai"

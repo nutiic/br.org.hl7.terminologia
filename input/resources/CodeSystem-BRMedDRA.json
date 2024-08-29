@@ -8,7 +8,7 @@
   "title": "MedDRA",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist�rio da Sa�de do Brasil",
+  "publisher": "Ministério da Saúde do Brasil",
   "description": "MedDRA",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
@@ -24,7 +24,7 @@
     "display": "Dermatite de contato"
   }, {
     "code": "10044223",
-    "display": "Sindrome de Lyell"
+    "display": "Síndrome de Lyell"
   }, {
     "code": "10039083",
     "display": "Rinite"
@@ -33,16 +33,16 @@
     "display": "Prurido"
   }, {
     "code": "10046735",
-    "display": "Urticaria"
+    "display": "Urticária"
   }, {
     "code": "10013968",
-    "display": "Dispneia"
+    "display": "Dispnéia"
   }, {
     "code": "10012735",
-    "display": "Diarreia"
+    "display": "Diarréia"
   }, {
     "code": "10047700",
-    "display": "Vomito"
+    "display": "Vômito"
   }, {
     "code": "10014184",
     "display": "Eczema"
@@ -51,13 +51,13 @@
     "display": "Exantema bolhoso"
   }, {
     "code": "10073508",
-    "display": "Sindrome de DRESS"
+    "display": "Síndrome de DRESS"
   }, {
     "code": "10047115",
     "display": "Vasculite"
   }, {
     "code": "10003639",
-    "display": "Dermatite atopica"
+    "display": "Dermatite atópica"
   }, {
     "code": "10003553",
     "display": "Asma"
@@ -66,10 +66,10 @@
     "display": "Fotossensibilidade"
   }, {
     "code": "10007617",
-    "display": "Parada Cardiorespiratoria"
+    "display": "Parada Cardiorespiratória"
   }, {
     "code": "10042033",
-    "display": "Sindrome de Stevens-Johnson"
+    "display": "Síndrome de Stevens-Johnson"
   }, {
     "code": "10029117",
     "display": "Nefrite"

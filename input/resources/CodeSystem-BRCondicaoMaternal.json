@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
   "version": "HEAD",
   "name": "BRCondicaoMaternal",
-  "title": "Condicao  Maternal",
+  "title": "Condição  Maternal",
   "status": "active",
   "experimental": false,
   "publisher": "Minist&#233;rio da Sa&#250;de do Brasil",
-  "description": "Condicao  Maternal",
+  "description": "Condição  Maternal",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -21,6 +21,6 @@
     "display": "Gestante"
   }, {
     "code": "3",
-    "display": "Puerpera"
+    "display": "Puérpera"
   } ]
 }

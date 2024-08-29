@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
   "version": "HEAD",
   "name": "BRRacaCor",
-  "title": "Raca/Cor",
+  "title": "Raça/Cor",
   "status": "active",
   "experimental": false,
-  "description": "Raca/Cor",
+  "description": "Raça/Cor",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -22,12 +22,12 @@
     "display": "Amarela"
   }, {
     "code": "99",
-    "display": "Sem Informacao"
+    "display": "Sem Informação"
   }, {
     "code": "03",
     "display": "Parda"
   }, {
     "code": "05",
-    "display": "Indigena"
+    "display": "Indígena"
   } ]
 }

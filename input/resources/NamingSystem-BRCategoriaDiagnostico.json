@@ -5,7 +5,7 @@
   "name": "BRCategoriaDiagnostico",
   "status": "active",
   "kind": "codesystem",
-  "description": "Categoria do Diagnostico",
+  "description": "Categoria do Diagnóstico",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",

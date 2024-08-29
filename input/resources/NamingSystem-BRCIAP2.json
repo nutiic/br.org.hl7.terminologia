@@ -5,7 +5,7 @@
   "name": "BRCIAP2",
   "status": "active",
   "kind": "codesystem",
-  "description": "Classificacao Internacional de Atencao Primaria - Segunda Edicao - CIAP2",
+  "description": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",

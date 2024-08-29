@@ -5,19 +5,19 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
   "version": "HEAD",
   "name": "BRTipoResultadoDTNT",
-  "title": "Tipo de Resultado DTNT 1.0",
+  "title": "Tipo de Resultado DTNT",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado DTNT 1.0",
+  "description": "Tipo de Resultado DTNT",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "2",
-    "display": "Nao Detectavel"
+    "display": "Não Detectável"
   }, {
     "code": "1",
-    "display": "Detectavel"
+    "display": "Detectável"
   }, {
     "code": "3",
     "display": "Indeterminado"

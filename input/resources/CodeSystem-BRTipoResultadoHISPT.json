@@ -5,19 +5,19 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
   "version": "HEAD",
   "name": "BRTipoResultadoHISPT",
-  "title": "Tipo de Resultado HISPT 1.0",
+  "title": "Tipo de Resultado HISPT",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado HISPT 1.0",
+  "description": "Tipo de Resultado HISPT",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "1",
-    "display": "Compativel"
+    "display": "Compatível"
   }, {
     "code": "2",
-    "display": "Nao Compativel"
+    "display": "Não Compatível"
   }, {
     "code": "3",
     "display": "Inconclusivo"

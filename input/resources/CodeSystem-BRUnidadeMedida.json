@@ -20,7 +20,7 @@
     "display": "Desconhecido"
   }, {
     "code": "55",
-    "display": "Pilula"
+    "display": "Pílula"
   }, {
     "code": "57",
     "display": "Seringa"
@@ -35,7 +35,7 @@
     "display": "Pastilha dura"
   }, {
     "code": "18",
-    "display": "cm� (Centimetro Quadrado)"
+    "display": "cm² (Centímetro Quadrado)"
   }, {
     "code": "2",
     "display": "Ampola"
@@ -47,7 +47,7 @@
     "display": "Emplastro"
   }, {
     "code": "59",
-    "display": "Supositorio"
+    "display": "Supositório"
   }, {
     "code": "23",
     "display": "Dose"
@@ -56,13 +56,13 @@
     "display": "Strip"
   }, {
     "code": "22",
-    "display": "Dispositivo de injecao pre-carregado"
+    "display": "Dispositivo de injeção pré-carregado"
   }, {
     "code": "25",
     "display": "Endosporos"
   }, {
     "code": "6",
-    "display": "Atomizacao"
+    "display": "Atomização"
   }, {
     "code": "26",
     "display": "Enema"
@@ -71,19 +71,19 @@
     "display": "UI (Unidade Internacional)"
   }, {
     "code": "47",
-    "display": "MUI (Milhoes de unidades internacionais)"
+    "display": "MUI (Milhões de unidades internacionais)"
   }, {
     "code": "12",
     "display": "Caixa"
   }, {
     "code": "46",
-    "display": "Milhoes"
+    "display": "Milhões"
   }, {
     "code": "48",
     "display": "mL (Mililitro)"
   }, {
     "code": "13",
-    "display": "Capsula"
+    "display": "Cápsula"
   }, {
     "code": "45",
     "display": "Microlitro"
@@ -98,10 +98,10 @@
     "display": "Bolsa"
   }, {
     "code": "10",
-    "display": "Blister"
+    "display": "Blíster"
   }, {
     "code": "16",
-    "display": "Cateter"
+    "display": "Catéter"
   }, {
     "code": "5",
     "display": "Aplicador"
@@ -110,7 +110,7 @@
     "display": "Cartucho"
   }, {
     "code": "49",
-    "display": "mm (Milimetro)"
+    "display": "mm (Milímetro)"
   }, {
     "code": "14",
     "display": "Carpule"
@@ -125,10 +125,10 @@
     "display": "Pastilha"
   }, {
     "code": "17",
-    "display": "cm (Centimetro)"
+    "display": "cm (Centímetro)"
   }, {
     "code": "70",
-    "display": "Cartao"
+    "display": "Cartão"
   }, {
     "code": "32",
     "display": "Frasco-ampola"
@@ -152,7 +152,7 @@
     "display": "Goma"
   }, {
     "code": "74",
-    "display": "Dragea"
+    "display": "Drágea"
   }, {
     "code": "63",
     "display": "UTR (Unidade Redutora da Turbidez)"
@@ -167,13 +167,13 @@
     "display": "Envelope"
   }, {
     "code": "61",
-    "display": "UIC (Unidade Inibidora de Calicreina)"
+    "display": "UIC (Unidade Inibidora de Calicreína)"
   }, {
     "code": "3",
     "display": "Anel"
   }, {
     "code": "64",
-    "display": "Ovulo"
+    "display": "Óvulo"
   }, {
     "code": "29",
     "display": "Filme"
@@ -182,7 +182,7 @@
     "display": "Flaconete"
   }, {
     "code": "66",
-    "display": "Bastao"
+    "display": "Bastão"
   }, {
     "code": "38",
     "display": "kg (Quilograma)"
@@ -200,7 +200,7 @@
     "display": "Tubete"
   }, {
     "code": "76",
-    "display": "Sache"
+    "display": "Sachê"
   }, {
     "code": "35",
     "display": "Gota"
@@ -224,7 +224,7 @@
     "display": "Tubo"
   }, {
     "code": "4",
-    "display": "Aplicacao"
+    "display": "Aplicação"
   }, {
     "code": "8",
     "display": "Barra"
@@ -236,7 +236,7 @@
     "display": "m (Metro)"
   }, {
     "code": "82",
-    "display": "Globulo"
+    "display": "Glóbulo"
   }, {
     "code": "43",
     "display": "mg (Miligrama)"

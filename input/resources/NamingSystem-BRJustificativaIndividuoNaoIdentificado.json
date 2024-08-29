@@ -5,7 +5,7 @@
   "name": "BRJustificativaIndividuoNaoIdentificado",
   "status": "active",
   "kind": "codesystem",
-  "description": "Justificativa da Impossibilidade de Identificacao do Individuo",
+  "description": "Justificativa da Impossibilidade de Identificação do Indivíduo",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",

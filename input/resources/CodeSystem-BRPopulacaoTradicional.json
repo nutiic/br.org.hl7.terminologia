@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRPopulacaoTradicional",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+  "url": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRPopulacaoTradicional",
   "version": "HEAD",
   "name": "BRPopulacaoTradicional",
   "title": "Populacao Tradicional",
@@ -13,256 +13,88 @@
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
-    "code": "0000.00.0279",
-    "display": "RESEX Marinha de Cururupu"
+    "code": "XVIII",
+    "display": "Pescadores artesanais"
   }, {
-    "code": "0000.00.0121",
-    "display": "FLONA do Purus"
+    "code": "V",
+    "display": "Castanheiras"
   }, {
-    "code": "0000.00.0274",
-    "display": "RESEX do Alto Tarauaca"
+    "code": "XVII",
+    "display": "Pantaneiros"
   }, {
-    "code": "0000.00.0280",
-    "display": "RESEX Rio Iriri"
+    "code": "IX",
+    "display": "Comunidades de fundo e fecho de pasto"
   }, {
-    "code": "0000.00.0123",
-    "display": "FLONA do Tapajos"
+    "code": "VI",
+    "display": "Catadores de mangaba"
   }, {
-    "code": "0000.00.0270",
-    "display": "FLONA do Crepori"
+    "code": "XX",
+    "display": "Povos indígenas"
   }, {
-    "code": "0000.00.0115",
-    "display": "FLONA do Araripe-Apodi"
+    "code": "XXI",
+    "display": "Povos quilombolas"
   }, {
-    "code": "0000.00.0260",
-    "display": "RESEX Verde para Sempre"
+    "code": "II",
+    "display": "Agroextrativistas"
   }, {
-    "code": "0000.00.0120",
-    "display": "FLONA do Macaua"
+    "code": "XV",
+    "display": "Morroquianos"
   }, {
-    "code": "0000.00.0273",
-    "display": "RESEX Arioca Pruana"
+    "code": "I",
+    "display": "Andirobeiras"
   }, {
-    "code": "0000.00.0118",
-    "display": "FLONA do Jamari"
+    "code": "XIX",
+    "display": "Pomeranos"
   }, {
-    "code": "0000.00.0220",
-    "display": "RESEX Auati-Parana"
+    "code": "XVI",
+    "display": "Marisqueiros"
   }, {
-    "code": "0000.00.0283",
-    "display": "RESEX Rio Unini"
+    "code": "III",
+    "display": "Caatingueiros"
   }, {
-    "code": "0000.00.0218",
-    "display": "RDS de Itatupa-Baquia"
+    "code": "IV",
+    "display": "Caiçaras"
   }, {
-    "code": "0000.00.0282",
-    "display": "RESEX Terra Grande Pracuuba"
+    "code": "X",
+    "display": "Extrativistas"
   }, {
-    "code": "0000.00.0126",
-    "display": "FLONA Mapia-Inauini"
+    "code": "XXIV",
+    "display": "Retireiros"
   }, {
-    "code": "0000.00.0221",
-    "display": "RESEX Barreiro das Antas"
+    "code": "XXV",
+    "display": "Ribeirinhos"
   }, {
-    "code": "0000.00.0286",
-    "display": "RESEX de Recanto das Araras de Terra Ronca"
+    "code": "VII",
+    "display": "Cerrado"
   }, {
-    "code": "0000.00.0285",
-    "display": "RESEX Arapixi"
+    "code": "XXII",
+    "display": "Povos de terreiro/matriz africana"
   }, {
-    "code": "0000.00.0287",
-    "display": "RESEX Lago do Cedro"
+    "code": "XXIII",
+    "display": "Quebradeiras de coco babaçu"
   }, {
-    "code": "0000.00.0222",
-    "display": "RESEX Chico Mendes"
+    "code": "VIII",
+    "display": "Ciganos"
   }, {
-    "code": "0000.00.0097",
-    "display": "FLONA de Jacunda"
+    "code": "XII",
+    "display": "Geraizeiros"
   }, {
-    "code": "0000.00.0253",
-    "display": "RESEX Marinha de Canavieiras"
+    "code": "XXVII",
+    "display": "Vazanteiros"
   }, {
-    "code": "0000.00.0092",
-    "display": "FLONA de Humaita"
+    "code": "XI",
+    "display": "Faxinalenses"
   }, {
-    "code": "0000.00.0255",
-    "display": "RESEX Marinha do Pirajubae"
+    "code": "XXVI",
+    "display": "Seringueiros"
   }, {
-    "code": "0000.00.0254",
-    "display": "RESEX Marinha de Soure"
+    "code": "XXVIII",
+    "display": "Varjeiros"
   }, {
-    "code": "0000.00.0251",
-    "display": "RESEX Marinha do Arraial do Cabo"
+    "code": "XIII",
+    "display": "Jangadeiros"
   }, {
-    "code": "0000.00.0085",
-    "display": "FLONA de Balata-Tufari"
-  }, {
-    "code": "0000.00.0250",
-    "display": "RESEX Marinha de Tracuateua"
-  }, {
-    "code": "0000.00.0089",
-    "display": "FLONA de Caxiuana"
-  }, {
-    "code": "0000.00.0252",
-    "display": "RESEX Marinha do Corumbau"
-  }, {
-    "code": "0000.00.0088",
-    "display": "FLONA de Carajas"
-  }, {
-    "code": "0000.00.0257",
-    "display": "RESEX Riozinho da Liberdade"
-  }, {
-    "code": "0000.00.0108",
-    "display": "FLONA de Sao Francisco"
-  }, {
-    "code": "0000.00.0107",
-    "display": "FLONA de Santa Rosa do Purus"
-  }, {
-    "code": "0000.00.0256",
-    "display": "RESEX do Rio Ouro Preto"
-  }, {
-    "code": "0000.00.0104",
-    "display": "FLONA de Pau Rosa"
-  }, {
-    "code": "0000.00.0112",
-    "display": "FLONA de Tefe"
-  }, {
-    "code": "0000.00.0258",
-    "display": "RESEX Riozinho do Anfrisio"
-  }, {
-    "code": "0000.00.0109",
-    "display": "FLONA de Saraca-Taquera"
-  }, {
-    "code": "0000.00.0113",
-    "display": "FLONA do Amapa"
-  }, {
-    "code": "0000.00.0259",
-    "display": "RESEX Tapajos-Arapiuns"
-  }, {
-    "code": "0000.00.0232",
-    "display": "RESEX do Cazumba-Iracema"
-  }, {
-    "code": "0000.00.1606",
-    "display": "RESEX do Medio Purus"
-  }, {
-    "code": "0000.00.0231",
-    "display": "RESEX Marinha do Batoque"
-  }, {
-    "code": "0000.00.1564",
-    "display": "RESEX Chapada Limpa"
-  }, {
-    "code": "0000.00.0230",
-    "display": "RESEX do Baixo Jurua"
-  }, {
-    "code": "0000.00.0234",
-    "display": "RESEX Marinha do Mandira"
-  }, {
-    "code": "0000.00.1612",
-    "display": "FLONA do Iquiri"
-  }, {
-    "code": "0000.00.0233",
-    "display": "RESEX do Lago do Cunia"
-  }, {
-    "code": "0000.00.0235",
-    "display": "RESEX do Medio Jurua"
-  }, {
-    "code": "0000.00.1628",
-    "display": "RESEX Ituxi"
-  }, {
-    "code": "0000.00.1518",
-    "display": "RESEX do Rio Cajari"
-  }, {
-    "code": "0000.00.0226",
-    "display": "RESEX da Mata Grande"
-  }, {
-    "code": "0000.00.0225",
-    "display": "RESEX Marinha do Delta do Parnaiba"
-  }, {
-    "code": "0000.00.1517",
-    "display": "RESEX do Alto Jurua"
-  }, {
-    "code": "0000.00.0223",
-    "display": "RESEX Marinha Chocoare-Mato Grosso"
-  }, {
-    "code": "0000.00.0288",
-    "display": "RESEX Gurupa-Melgaco"
-  }, {
-    "code": "0000.00.0228",
-    "display": "RESEX Marinha de Sao Joao da Ponta"
-  }, {
-    "code": "0000.00.0227",
-    "display": "RESEX Marinha Maracana"
-  }, {
-    "code": "0000.00.1519",
-    "display": "RESEX do Ciriaco"
-  }, {
-    "code": "0000.00.1563",
-    "display": "RESEX Marinha Acau-Goiana"
-  }, {
-    "code": "0000.00.1520",
-    "display": "RESEX do Quilombo Frexal"
-  }, {
-    "code": "0000.00.0241",
-    "display": "RESEX Ipau-Anilzinho"
-  }, {
-    "code": "0000.00.3132",
-    "display": "RESEX Marinha Mocapajuba"
-  }, {
-    "code": "0000.00.0240",
-    "display": "RESEX do Extremo Norte do Estado do Tocantins"
-  }, {
-    "code": "0000.00.0242",
-    "display": "RESEX do Lago do Capana Grande"
-  }, {
-    "code": "0000.00.3133",
-    "display": "RESEX Marinha Mestre Lucindo"
-  }, {
-    "code": "0000.00.0238",
-    "display": "RESEX do Rio do Cautario"
-  }, {
-    "code": "0000.00.1808",
-    "display": "RESEX Marinha de Cassuruba"
-  }, {
-    "code": "0000.00.1635",
-    "display": "RESEX Rio Xingu"
-  }, {
-    "code": "0000.00.1810",
-    "display": "RESEX Renascer"
-  }, {
-    "code": "0000.00.0239",
-    "display": "RESEX do Rio Jutai"
-  }, {
-    "code": "0000.00.1809",
-    "display": "RESEX Marinha Prainha do Canto Verde"
-  }, {
-    "code": "0000.00.0245",
-    "display": "RESEX Marinha da Baia do Iguape"
-  }, {
-    "code": "0000.00.3135",
-    "display": "RDS Nascentes Geraizeiras"
-  }, {
-    "code": "0000.00.0244",
-    "display": "RESEX Mapua"
-  }, {
-    "code": "0000.00.0243",
-    "display": "RESEX Marinha Mae Grande Curuca"
-  }, {
-    "code": "0000.00.3134",
-    "display": "RESEX Marinha Cuinarana"
-  }, {
-    "code": "0000.00.0248",
-    "display": "RESEX Marinha de Caete-Taperacu"
-  }, {
-    "code": "0000.00.0247",
-    "display": "RESEX Marinha de Arai-Peroba"
-  }, {
-    "code": "0000.00.0246",
-    "display": "RESEX Marinha da Lagoa do Jequia"
-  }, {
-    "code": "Sem cadastro",
-    "display": "RESEX Marinha Itapetininga"
-  }, {
-    "code": "0000.00.0249",
-    "display": "RESEX Marinha de Gurupi-Piria"
+    "code": "XIV",
+    "display": "Isqueiros"
   } ]
 }

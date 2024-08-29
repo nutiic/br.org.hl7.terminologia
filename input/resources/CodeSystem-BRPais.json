@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
   "version": "HEAD",
   "name": "BRPais",
-  "title": "Paises",
+  "title": "Países",
   "status": "active",
   "experimental": false,
-  "description": "Paises",
+  "description": "Países",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -457,7 +457,7 @@
     "display": "GAZA"
   }, {
     "code": "352",
-    "display": "REPUBLICA DO SUDAO DO SUL"
+    "display": "REPÚBLICA DO SUDÃO DO SUL"
   }, {
     "code": "181",
     "display": "CAMAROES"

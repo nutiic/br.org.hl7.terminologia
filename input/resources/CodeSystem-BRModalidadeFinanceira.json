@@ -14,9 +14,9 @@
   "content": "complete",
   "concept": [ {
     "code": "01",
-    "display": "Unidade de saude publica ou privada, com pagamento pelo SUS"
+    "display": "Unidade de saúde pública ou privada, com pagamento pelo SUS"
   }, {
     "code": "02",
-    "display": "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmacia Popular do Brasil"
+    "display": "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
   } ]
 }

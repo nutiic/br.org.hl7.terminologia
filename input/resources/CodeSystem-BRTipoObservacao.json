@@ -5,18 +5,18 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
   "version": "HEAD",
   "name": "BRTipoObservacao",
-  "title": "Tipo de Observacao",
+  "title": "Tipo de Observação",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Observacao",
+  "description": "Tipo de Observação",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
     "code": "CA",
-    "display": "Circunferencia Abdominal"
+    "display": "Circunferência Abdominal"
   }, {
     "code": "PC",
-    "display": "Perimetro Cefalico"
+    "display": "Perímetro Cefálico"
   }, {
     "code": "A",
     "display": "Altura"
@@ -25,18 +25,18 @@
     "display": "Peso"
   }, {
     "code": "PA",
-    "display": "Pressao Arterial"
+    "display": "Pressão Arterial"
   }, {
     "code": "DSIA",
-    "display": "Declaracao Subjetiva do Indiviudo para o Atendimento"
+    "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
   }, {
     "code": "DF",
     "display": "Dados do desfecho"
   }, {
     "code": "RECIDI",
-    "display": "Resumo da evolucao clinica do individuo durante a internacao"
+    "display": "Resumo da evolução clínica do indivíduo durante a internação"
   }, {
     "code": "IAC",
-    "display": "Informacoes Adicionais/Complementares"
+    "display": "Informações Adicionais/Complementares"
   } ]
 }

@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
   "version": "HEAD",
   "name": "BRTipoResultadoRGNR",
-  "title": "Tipo de Resultado RGNR 1.0",
+  "title": "Tipo de Resultado RGNR",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado RGNR 1.0",
+  "description": "Tipo de Resultado RGNR",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,7 +17,7 @@
     "display": "Reagente"
   }, {
     "code": "2",
-    "display": "Nao Reagente"
+    "display": "Não Reagente"
   }, {
     "code": "3",
     "display": "Indeterminado"

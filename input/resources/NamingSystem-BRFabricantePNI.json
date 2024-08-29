@@ -5,7 +5,7 @@
   "name": "BRFabricantePNI",
   "status": "active",
   "kind": "codesystem",
-  "description": "Fabricante do imunobiologico",
+  "description": "Fabricante do imunobiológico",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",

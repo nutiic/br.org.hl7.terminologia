@@ -13,30 +13,30 @@
   "content": "complete",
   "concept": [ {
     "code": "RIA",
-    "display": "Registro de Imunobiologico Administrado"
+    "display": "Registro de Imunobiológico Administrado"
   }, {
     "code": "RPM",
-    "display": "Registro de Prescricao de Medicamento"
+    "display": "Registro de Prescrição de Medicamento"
   }, {
     "code": "SA",
-    "display": "Sumario de Alta"
+    "display": "Sumário de Alta"
   }, {
     "code": "CMD",
-    "display": "Conjunto Minimo de Dados"
+    "display": "Conjunto Mínimo de Dados"
   }, {
     "code": "RAC",
-    "display": "Registro de Atendimento Clinico"
+    "display": "Registro de Atendimento Clínico"
   }, {
     "code": "REL",
     "display": "Resultado de Exame(s) Laboratoriais(s)"
   }, {
     "code": "RDM",
-    "display": "Registro de Dispensacao de Medicamento"
+    "display": "Registro de Dispensação de Medicamento"
   }, {
     "code": "RA",
-    "display": "Regulacao Assistencial"
+    "display": "Regulação Assistencial"
   }, {
     "code": "ATM",
-    "display": "Atestado Medico/Odontologico"
+    "display": "Atestado Médico/Odontológico"
   } ]
 }

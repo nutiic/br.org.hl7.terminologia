@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
   "version": "HEAD",
   "name": "BRTipoResultadoPSNG",
-  "title": "Tipo de Resultado PSNG 1.0",
+  "title": "Tipo de Resultado PSNG",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado PSNG 1.0",
+  "description": "Tipo de Resultado PSNG",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -16,10 +16,10 @@
     "code": "1",
     "display": "Positivo"
   }, {
-    "code": "3",
-    "display": "Inconclusivo"
-  }, {
     "code": "2",
     "display": "Negativo"
+  }, {
+    "code": "3",
+    "display": "Inconclusivo"
   } ]
 }

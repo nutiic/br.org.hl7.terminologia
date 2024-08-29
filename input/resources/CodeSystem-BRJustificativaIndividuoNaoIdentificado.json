@@ -5,30 +5,30 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
   "version": "HEAD",
   "name": "BRJustificativaIndividuoNaoIdentificado",
-  "title": "Justificativa da Impossibilidade de Identificacao do Individuo",
+  "title": "Justificativa da Impossibilidade de Identificação do Indivíduo",
   "status": "active",
   "experimental": false,
-  "description": "Justificativa da Impossibilidade de Identificacao do Individuo",
+  "description": "Justificativa da Impossibilidade de Identificação do Indivíduo",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
     "code": "5",
-    "display": "Individuo doador de orgaos falecido"
+    "display": "Indivíduo doador de órgãos falecido"
   }, {
     "code": "1",
-    "display": "Individuo acidentado grave"
+    "display": "Indivíduo acidentado grave"
   }, {
     "code": "4",
-    "display": "Individuo incapacitado por motivos sociais e/ou culturais"
+    "display": "Indivíduo incapacitado por motivos sociais e/ou culturais"
   }, {
     "code": "3",
-    "display": "Individuo com problema neurologico grave ou comatoso"
+    "display": "Indivíduo com problema neurológico grave ou comatoso"
   }, {
     "code": "2",
-    "display": "Individuo em sofrimento mental encontrado em via publica"
+    "display": "Indivíduo em sofrimento mental encontrado em via pública"
   }, {
     "code": "99",
-    "display": "Sem registro no modelo de informacao de origem"
+    "display": "Sem registro no modelo de informação de origem"
   } ]
 }

@@ -8,7 +8,7 @@
   "description": "Populacao Tradicional",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+    "value": "https://saude.gov.br/fhir/terminologia/CodeSystem/BRPopulacaoTradicional",
     "preferred": true
   } ]
 }

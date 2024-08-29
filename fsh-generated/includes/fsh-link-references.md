@@ -1,4 +1,3 @@
-[allergyintolerancetype]: NamingSystem-allergy-intolerance-type.html
 [BRAlergenosCBARA]: CodeSystem-BRAlergenosCBARA.html
 [BRRegistroOrigem]: CodeSystem-BRRegistroOrigem.html
 [BRAlergenosCBARA]: NamingSystem-BRAlergenosCBARA.html
@@ -15,12 +14,12 @@
 [BREstrategiaVacinacao]: NamingSystem-BREstrategiaVacinacao.html
 [BREtniaIndigena]: NamingSystem-BREtniaIndigena.html
 [BRFabricantePNI]: NamingSystem-BRFabricantePNI.html
+[BRIdentidadeGenero]: ValueSet-BRIdentidadeGenero.html
 [BRImunobiologico]: NamingSystem-BRImunobiologico.html
 [BRJustificativaIndividuoNaoIdentificado]: NamingSystem-BRJustificativaIndividuoNaoIdentificado.html
 [BRLocalAfericao]: NamingSystem-BRLocalAfericao.html
 [BRLocalAplicacao]: NamingSystem-BRLocalAplicacao.html
 [BRMedDRA]: NamingSystem-BRMedDRA.html
-[BRMedicamento]: NamingSystem-BRMedicamento.html
 [BRModalidadeAssistencial]: NamingSystem-BRModalidadeAssistencial.html
 [BRModalidadeFinanceira]: NamingSystem-BRModalidadeFinanceira.html
 [BRNomeExameGAL]: NamingSystem-BRNomeExameGAL.html
@@ -33,6 +32,7 @@
 [BRRacaCor]: NamingSystem-BRRacaCor.html
 [BRRegistroOrigem]: NamingSystem-BRRegistroOrigem.html
 [BRResultadoQualitativoExame]: NamingSystem-BRResultadoQualitativoExame.html
+[BRSexoNascimento]: ValueSet-BRSexoNascimento.html
 [BRSubgrupoTabelaSUS]: NamingSystem-BRSubgrupoTabelaSUS.html
 [BRTabelaSUS]: NamingSystem-BRTabelaSUS.html
 [BRTerminologiaPatogeno]: NamingSystem-BRTerminologiaPatogeno.html
@@ -60,10 +60,16 @@
 [BRCID10]: CodeSystem-BRCID10.html
 [BRCondicaoMaternal]: CodeSystem-BRCondicaoMaternal.html
 [BRConselhoProfissional]: CodeSystem-BRConselhoProfissional.html
+[BRCOREN]: ValueSet-BRCOREN.html
+[BRCRF]: ValueSet-BRCRF.html
+[BRCRM]: ValueSet-BRCRM.html
+[BRCRO]: ValueSet-BRCRO.html
+[BROutrosProfissionais]: ValueSet-BROutrosProfissionais.html
 [BRDivisaoGeograficaBrasil]: CodeSystem-BRDivisaoGeograficaBrasil.html
 [BRDose]: CodeSystem-BRDose.html
 [BREstrategiaVacinacao]: CodeSystem-BREstrategiaVacinacao.html
 [BREtniaIndigena]: CodeSystem-BREtniaIndigena.html
+[BREtniaIndigena]: ValueSet-BREtniaIndigena.html
 [BRNomeExameGAL]: CodeSystem-BRNomeExameGAL.html
 [BRNomeExameLOINC]: CodeSystem-BRNomeExameLOINC.html
 [BRFabricantePNI]: CodeSystem-BRFabricantePNI.html
@@ -72,7 +78,6 @@
 [BRLocalAfericao]: CodeSystem-BRLocalAfericao.html
 [BRLocalAplicacao]: CodeSystem-BRLocalAplicacao.html
 [BRMedDRA]: CodeSystem-BRMedDRA.html
-[BRMedicamento]: CodeSystem-BRMedicamento.html
 [BRModalidadeAssistencial]: CodeSystem-BRModalidadeAssistencial.html
 [BRModalidadeFinanceira]: CodeSystem-BRModalidadeFinanceira.html
 [NamingSystemCNES]: NamingSystem-cnes.html
@@ -250,13 +255,13 @@
 [NamingSystemCRPSP]: NamingSystem-crp-sp.html
 [NamingSystemCRPTO]: NamingSystem-crp-to.html
 [NamingSystemRNE]: NamingSystem-rne.html
-[BROrgaoExpedidor]: CodeSystem-BROrgaoExpedidor.html
-[BRPais]: CodeSystem-BRPais.html
 [BRParentesco]: CodeSystem-BRParentesco.html
 [BRTerminologiaPatogeno]: CodeSystem-BRTerminologiaPatogeno.html
+[BRPais]: CodeSystem-BRPais.html
 [BRPopulacaoTradicional]: CodeSystem-BRPopulacaoTradicional.html
 [BRPosicaoIndividuo]: CodeSystem-BRPosicaoIndividuo.html
 [BRRacaCor]: CodeSystem-BRRacaCor.html
+[BRRacaCor]: ValueSet-BRRacaCor.html
 [BRResultadoQualitativoExame]: CodeSystem-BRResultadoQualitativoExame.html
 [BRSubgrupoTabelaSUS]: CodeSystem-BRSubgrupoTabelaSUS.html
 [BRTabelaSUS]: CodeSystem-BRTabelaSUS.html
@@ -276,3 +281,4 @@
 [BRTipoResultadoRSCUL]: CodeSystem-BRTipoResultadoRSCUL.html
 [BRUnidadeMedida]: CodeSystem-BRUnidadeMedida.html
 [BRViaAdministracao]: CodeSystem-BRViaAdministracao.html
+[BROrgaoExpedidor]: CodeSystem-BROrgaoExpedidor.html

@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
   "version": "HEAD",
   "name": "BRPosicaoIndividuo",
-  "title": "Posicao do Individuo",
+  "title": "Posição do Indivíduo",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist�rio da Sa�de do Brasil",
-  "description": "Posicao do Individuo",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Posição do Indivíduo",
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -20,12 +20,12 @@
     "display": "Deitado"
   }, {
     "code": "1",
-    "display": "Em pe"
+    "display": "Em pé"
   }, {
     "code": "3",
     "display": "Reclinado"
   }, {
     "code": "5",
-    "display": "Deitado com inclinacao para esquerda"
+    "display": "Deitado com inclinação para esquerda"
   } ]
 }

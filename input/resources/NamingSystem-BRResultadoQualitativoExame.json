@@ -5,7 +5,7 @@
   "name": "BRResultadoQualitativoExame",
   "status": "active",
   "kind": "codesystem",
-  "description": "Resultado qualitativo do Exame 2.0",
+  "description": "Resultado qualitativo do Exame",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResultadoQualitativoExame",

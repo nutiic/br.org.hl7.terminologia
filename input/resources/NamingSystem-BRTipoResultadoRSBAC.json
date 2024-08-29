@@ -5,7 +5,7 @@
   "name": "BRTipoResultadoRSBAC",
   "status": "active",
   "kind": "codesystem",
-  "description": "Tipo de Resultado RSBAC 1.0",
+  "description": "Tipo de Resultado RSBAC",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSBAC",

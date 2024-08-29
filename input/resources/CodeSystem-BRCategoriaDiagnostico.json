@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCategoriaDiagnostico",
   "version": "HEAD",
   "name": "BRCategoriaDiagnostico",
-  "title": "Categoria do Diagnostico",
+  "title": "Categoria do Diagnóstico",
   "status": "active",
   "experimental": false,
-  "description": "Categoria do Diagnostico",
+  "description": "Categoria do Diagnóstico",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,6 +17,6 @@
     "display": "Principal"
   }, {
     "code": "02",
-    "display": "Secundario"
+    "display": "Secundário"
   } ]
 }

@@ -7,7 +7,7 @@
   "kind": "codesystem",
   "publisher": "Minist&#233;rio da Sa&#250;de do Brasil",
   "responsible": "Minist&#233;rio da Sa&#250;de do Brasil",
-  "description": "Condicao  Maternal",
+  "description": "Condição  Maternal",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",

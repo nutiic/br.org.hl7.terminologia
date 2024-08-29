@@ -13,30 +13,30 @@
   "content": "complete",
   "concept": [ {
     "code": "03",
-    "display": "Atencao Intermediaria"
+    "display": "Atenção Intermediária"
   }, {
     "code": "02",
-    "display": "Atencao Domiciliar"
+    "display": "Atenção Domiciliar"
   }, {
     "code": "04",
-    "display": "Atencao Hospitalar"
+    "display": "Atenção Hospitalar"
   }, {
     "code": "09",
-    "display": "Assistencia Ambulatorial"
+    "display": "Assistência Ambulatorial"
   }, {
     "code": "08",
-    "display": "Assistencia Farmaceutica"
+    "display": "Assistência Farmacêutica"
   }, {
     "code": "06",
-    "display": "Atencao a Urgencia/Emergencia"
+    "display": "Atenção à Urgência/Emergência"
   }, {
     "code": "07",
     "display": "Ambulatorial Especializada"
   }, {
     "code": "01",
-    "display": "Atencao Basica"
+    "display": "Atenção Básica"
   }, {
     "code": "05",
-    "display": "Atencao Psicossocial"
+    "display": "Atenção Psicossocial"
   } ]
 }

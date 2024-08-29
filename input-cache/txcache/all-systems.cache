@@ -519,10 +519,15 @@ v: {
   "code" : "pt",
   "system" : "urn:ietf:bcp:47",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRIdentidadeGenero", "version": "0.1.1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://snomed.info/gps"
 }
 -------------------------------------------------------------------------------------

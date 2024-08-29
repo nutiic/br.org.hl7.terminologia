@@ -6,6 +6,8 @@ services:
       - ../packages:/root/.fhir/packages
     command: >
         bash -c "
+                 rm -rf /app/fsh-generated;
+                 npx sushi .;
                  rm -rf /app/temp;
                  mkdir /app/temp;
                  mkdir -p /root/.fhir/packages;                 

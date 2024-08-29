@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
   "version": "HEAD",
   "name": "BRDadoAusenteOuDesconhecido",
-  "title": "Classificacao de dados ausentes ou desconhecidos - IPS",
+  "title": "Classificação de dados ausentes ou desconhecidos - IPS",
   "status": "active",
   "experimental": false,
-  "publisher": "Minist�rio da Sa�de do Brasil",
-  "description": "Classificacao de dados ausentes ou desconhecidos - IPS",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Classificação de dados ausentes ou desconhecidos - IPS",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -18,10 +18,10 @@
     "display": "Sem alergias alimentares conhecidas"
   }, {
     "code": "no-problem-info",
-    "display": "Nenhuma informacao sobre problemas."
+    "display": "Nenhuma informação sobre problemas."
   }, {
     "code": "no-known-immunizations",
-    "display": "Sem imunizacoes conhecidas"
+    "display": "Sem imunizações conhecidas"
   }, {
     "code": "no-known-environmental-allergies",
     "display": "Sem alergias ambientai conhecidas"
@@ -33,7 +33,7 @@
     "display": "Nenhum procedimento conhecido."
   }, {
     "code": "no-immunization-info",
-    "display": "Nenhuma informacao sobre imunizacoes"
+    "display": "Nenhuma informação sobre imunizaçôes"
   }, {
     "code": "no-known-devices",
     "display": "Nenhum dispositivo em uso conhecido"
@@ -42,21 +42,21 @@
     "display": "Nenhum problema conhecido."
   }, {
     "code": "no-device-info",
-    "display": "Nenhuma informacao sobre dispositivos."
+    "display": "Nenhuma informação sobre dispositivos."
   }, {
     "code": "no-procedure-info",
-    "display": "Nenhuma informacao sobre procedimentos."
+    "display": "Nenhuma informação sobre procedimentos."
   }, {
     "code": "no-medication-info",
-    "display": "Sem informacao sobre medicamentos."
+    "display": "Sem informação sobre medicamentos."
   }, {
     "code": "no-allergy-info",
-    "display": "Nenhuma informacao sobre alergias"
+    "display": "Nenhuma informação sobre alergias"
   }, {
     "code": "no-known-medications",
     "display": "Sem medicamentos conhecidos."
   }, {
     "code": "no-known-medication-allergies",
-    "display": "Nenhuma informacao sobre alergias a medicamentos"
+    "display": "Nenhuma informação sobre alergias a medicamentos"
   } ]
 }

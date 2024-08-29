@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
   "version": "HEAD",
   "name": "BRTipoResultadoRSBAC",
-  "title": "Tipo de Resultado RSBAC 1.0",
+  "title": "Tipo de Resultado RSBAC",
   "status": "active",
   "experimental": false,
-  "description": "Tipo de Resultado RSBAC 1.0",
+  "description": "Tipo de Resultado RSBAC",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,7 +17,7 @@
     "display": "Inconclusivo"
   }, {
     "code": "2",
-    "display": "Nao Foram visualizados"
+    "display": "Não Foram visualizados"
   }, {
     "code": "1",
     "display": "Foram visualizados"

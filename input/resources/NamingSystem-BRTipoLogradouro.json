@@ -5,8 +5,8 @@
   "name": "BRTipoLogradouro",
   "status": "active",
   "kind": "codesystem",
-  "publisher": "Minist�rio da Sa�de do Brasil",
-  "responsible": "Minist�rio da Sa�de do Brasil",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
   "description": "Tipo de Logradouro",
   "uniqueId": [ {
     "type": "uri",

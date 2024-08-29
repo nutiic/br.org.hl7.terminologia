@@ -5,7 +5,7 @@
   "name": "BRTipoResultadoRGNR",
   "status": "active",
   "kind": "codesystem",
-  "description": "Tipo de Resultado RGNR 1.0",
+  "description": "Tipo de Resultado RGNR",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRGNR",

@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
   "version": "HEAD",
   "name": "BRResultadoQualitativoExame",
-  "title": "Resultado qualitativo do Exame 2.0",
+  "title": "Resultado qualitativo do Exame",
   "status": "active",
   "experimental": false,
-  "description": "Resultado qualitativo do Exame 2.0",
+  "description": "Resultado qualitativo do Exame",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -17,9 +17,9 @@
     "display": "Inconclusivo"
   }, {
     "code": "2",
-    "display": "Nao Detectavel"
+    "display": "Não Detectável"
   }, {
     "code": "1",
-    "display": "Detectavel"
+    "display": "Detectável"
   } ]
 }

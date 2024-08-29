@@ -5,10 +5,10 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
   "version": "HEAD",
   "name": "BRLocalAplicacao",
-  "title": "Local de Aplicacao",
+  "title": "Local de Aplicação",
   "status": "active",
   "experimental": false,
-  "description": "Local de Aplicacao",
+  "description": "Local de Aplicação",
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -35,7 +35,7 @@
     "display": "Right forearm structure"
   }, {
     "code": "0",
-    "display": "Sem registro no sistema de informacao de origem"
+    "display": "Sem registro no sistema de informação de origem"
   }, {
     "code": "20",
     "display": "Left upper arm structure"

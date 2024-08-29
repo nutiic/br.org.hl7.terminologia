@@ -1,0 +1,1 @@
+Alias: $BRConselhoProfissional = https://terminologia.saude.gov.br/CodeSystem/BRConselhoProfissional
