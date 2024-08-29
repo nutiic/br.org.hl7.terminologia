@@ -21,7 +21,7 @@
       "candidates" : []
     },
     {
-      "system" : "http://snomed.info/gps",
+      "system" : "http://snomed.info/sct",
       "authoritative" : [],
       "candidates" : []
     },
