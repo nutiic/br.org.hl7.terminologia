@@ -1,11 +1,11 @@
 {
   "resourceType": "NamingSystem",
   "id": "BRViaAdministracao",
-  "language": "por",
+  "language": "pt",
   "name": "BRViaAdministracao",
   "status": "active",
   "kind": "codesystem",
-  "description": "Via de Administracao",
+  "description": "Via de Administração",
   "uniqueId": [ {
     "type": "uri",
     "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",

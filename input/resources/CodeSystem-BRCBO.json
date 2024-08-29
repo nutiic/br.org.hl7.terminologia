@@ -6886,15 +6886,6 @@
     "code": "622020",
     "display": "TRABALHADOR VOLANTE DA AGRICULTURA"
   }, {
-    "code": "212215",
-    "display": "ENGENHEIROS DE SISTEMAS OPERACIONAIS EM COMPUTACAO"
-  }, {
-    "code": "212210",
-    "display": "ENGENHEIRO DE EQUIPAMENTOS EM COMPUTACAO"
-  }, {
-    "code": "622015",
-    "display": "TRABALHADOR NA PRODUCAO DE MUDAS E SEMENTES"
-  }, {
     "code": "622115",
     "display": "TRABALHADOR DA CULTURA DE MILHO E SORGO"
   }, {
@@ -6912,6 +6903,15 @@
   }, {
     "code": "212315",
     "display": "ADMINISTRADOR DE SISTEMAS OPERACIONAIS"
+  }, {
+    "code": "212215",
+    "display": "ENGENHEIROS DE SISTEMAS OPERACIONAIS EM COMPUTACAO"
+  }, {
+    "code": "212210",
+    "display": "ENGENHEIRO DE EQUIPAMENTOS EM COMPUTACAO"
+  }, {
+    "code": "622015",
+    "display": "TRABALHADOR NA PRODUCAO DE MUDAS E SEMENTES"
   }, {
     "code": "142530",
     "display": "GERENTE DE SUPORTE TECNICO DE TECNOLOGIA DA INFORMACAO"
@@ -7081,15 +7081,6 @@
     "code": "523125",
     "display": "Estampador de placa de identificação veicular (epiv)"
   }, {
-    "code": "202115",
-    "display": "TECNOLOGO EM MECATRONICA"
-  }, {
-    "code": "612110",
-    "display": "PRODUTOR DE CANADEACUCAR"
-  }, {
-    "code": "202110",
-    "display": "ENGENHEIRO DE CONTROLE E AUTOMACAO"
-  }, {
     "code": "201215",
     "display": "ESPECIALISTA EM ENSAIOS METROLOGICOS"
   }, {
@@ -7108,15 +7099,6 @@
     "code": "524305",
     "display": "VENDEDOR AMBULANTE"
   }, {
-    "code": "203015",
-    "display": "PESQUISADOR EM BIOLOGIA DE MICROORGANISMOS E PARASITAS"
-  }, {
-    "code": "612210",
-    "display": "PRODUTOR DE CURAUA"
-  }, {
-    "code": "203010",
-    "display": "PESQUISADOR EM BIOLOGIA ANIMAL"
-  }, {
     "code": "523105",
     "display": "INSTALADOR DE CORTINAS E PERSIANAS, PORTAS SANFONADAS E BOXE"
   }, {
@@ -7126,14 +7108,8 @@
     "code": "521140",
     "display": "ATENDENTE DE LOJAS E MERCADOS"
   }, {
-    "code": "612120",
-    "display": "PRODUTOR DE GRAMINEAS FORRAGEIRAS"
-  }, {
-    "code": "202120",
-    "display": "TECNOLOGO EM AUTOMACAO INDUSTRIAL"
-  }, {
-    "code": "612115",
-    "display": "PRODUTOR DE CEREAIS DE INVERNO"
+    "code": "20105",
+    "display": "CORONEL DA POLICIA MILITAR"
   }, {
     "code": "521135",
     "display": "FRENTISTA"
@@ -7162,6 +7138,63 @@
     "code": "523115",
     "display": "CHAVEIRO"
   }, {
+    "code": "202115",
+    "display": "TECNOLOGO EM MECATRONICA"
+  }, {
+    "code": "612110",
+    "display": "PRODUTOR DE CANADEACUCAR"
+  }, {
+    "code": "202110",
+    "display": "ENGENHEIRO DE CONTROLE E AUTOMACAO"
+  }, {
+    "code": "612120",
+    "display": "PRODUTOR DE GRAMINEAS FORRAGEIRAS"
+  }, {
+    "code": "202120",
+    "display": "TECNOLOGO EM AUTOMACAO INDUSTRIAL"
+  }, {
+    "code": "612115",
+    "display": "PRODUTOR DE CEREAIS DE INVERNO"
+  }, {
+    "code": "611005",
+    "display": "PRODUTOR AGROPECUARIO, EM GERAL"
+  }, {
+    "code": "20205",
+    "display": "CAPITAO DA POLICIA MILITAR"
+  }, {
+    "code": "524315",
+    "display": "Baiana de acarajé"
+  }, {
+    "code": "201225",
+    "display": "ESPECIALISTA EM MATERIAIS DE REFERENCIA METROLOGICA"
+  }, {
+    "code": "612105",
+    "display": "PRODUTOR DE ARROZ"
+  }, {
+    "code": "612005",
+    "display": "PRODUTOR AGRICOLA POLIVALENTE"
+  }, {
+    "code": "202105",
+    "display": "ENGENHEIRO MECATRONICO"
+  }, {
+    "code": "203015",
+    "display": "PESQUISADOR EM BIOLOGIA DE MICROORGANISMOS E PARASITAS"
+  }, {
+    "code": "612210",
+    "display": "PRODUTOR DE CURAUA"
+  }, {
+    "code": "203010",
+    "display": "PESQUISADOR EM BIOLOGIA ANIMAL"
+  }, {
+    "code": "612205",
+    "display": "PRODUTOR DE ALGODAO"
+  }, {
+    "code": "203005",
+    "display": "PESQUISADOR EM BIOLOGIA AMBIENTAL"
+  }, {
+    "code": "612125",
+    "display": "PRODUTOR DE MILHO E SORGO"
+  }, {
     "code": "612220",
     "display": "PRODUTOR DE RAMI"
   }, {
@@ -7179,15 +7212,6 @@
   }, {
     "code": "203025",
     "display": "PESQUISADOR EM BIOLOGIA VEGETAL"
-  }, {
-    "code": "612105",
-    "display": "PRODUTOR DE ARROZ"
-  }, {
-    "code": "612005",
-    "display": "PRODUTOR AGRICOLA POLIVALENTE"
-  }, {
-    "code": "202105",
-    "display": "ENGENHEIRO MECATRONICO"
   }, {
     "code": "516340",
     "display": "ATENDENTE DE LAVANDERIA"

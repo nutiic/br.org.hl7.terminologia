@@ -17,7 +17,7 @@
     "display": "PRONTO ATENDIMENTO"
   }, {
     "code": "36",
-    "display": "CLINICA/CENTRO DE ESPECIALIDADE"
+    "display": "CLINICACENTRO DE ESPECIALIDADE"
   }, {
     "code": "72",
     "display": "UNIDADE DE ATENCAO A SAUDE INDIGENA"
@@ -47,7 +47,7 @@
     "display": "CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA"
   }, {
     "code": "2",
-    "display": "CENTRO DE SAUDE/UNIDADE BASICA"
+    "display": "CENTRO DE SAUDEUNIDADE BASICA"
   }, {
     "code": "68",
     "display": "CENTRAL DE GESTAO EM SAUDE"
@@ -107,7 +107,7 @@
     "display": "CENTRO DE PARTO NORMAL - ISOLADO"
   }, {
     "code": "62",
-    "display": "HOSPITAL/DIA - ISOLADO"
+    "display": "HOSPITALDIA - ISOLADO"
   }, {
     "code": "60",
     "display": "COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE"

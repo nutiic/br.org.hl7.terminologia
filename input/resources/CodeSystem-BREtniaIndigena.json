@@ -275,7 +275,7 @@
     "display": "WAI WAI"
   }, {
     "code": "0198",
-    "display": "SUYA (SUIA/KISEDJE)"
+    "display": "SUYA (SUIAKISEDJE)"
   }, {
     "code": "X400",
     "display": "TIRIYÓ"
@@ -515,7 +515,7 @@
     "display": "KULINA"
   }, {
     "code": "0132",
-    "display": "KULINA/MADIHA (CULINA, MADIJA, MADIHA)"
+    "display": "KULINAMADIHA (CULINA, MADIJA, MADIHA)"
   }, {
     "code": "0131",
     "display": "KULINA PANO (CULINA)"
@@ -848,13 +848,13 @@
     "display": "HIXKARYANA"
   }, {
     "code": "0098",
-    "display": "KARAJA/XAMBIOA (KARAJA DO NORTE)"
+    "display": "KARAJAXAMBIOA (KARAJA DO NORTE)"
   }, {
     "code": "X296",
     "display": "HUPDES"
   }, {
     "code": "0097",
-    "display": "KARAJA/JAVAE (JAVAE)"
+    "display": "KARAJAJAVAE (JAVAE)"
   }, {
     "code": "X292",
     "display": "HALOTESU"
@@ -950,7 +950,7 @@
     "display": "TRUMAI"
   }, {
     "code": "0016",
-    "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)"
+    "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAOARI­PUANA)"
   }, {
     "code": "0222",
     "display": "TUPINAMBA"
@@ -971,7 +971,7 @@
     "display": "ARIKOSE (ARICOBE)"
   }, {
     "code": "0025",
-    "display": "ASURINI DO TOCANTINS (AKUAWA/AKWAWA)"
+    "display": "ASURINI DO TOCANTINS (AKUAWAAKWAWA)"
   }, {
     "code": "0223",
     "display": "TUPINIQUIM"
@@ -1028,7 +1028,7 @@
     "display": "TARIANO (TARIANA, TALIASERI)"
   }, {
     "code": "0010",
-    "display": "APINAYE (APINAJE/APINAIE/APINAGE)"
+    "display": "APINAYE (APINAJEAPINAIEAPINAGE)"
   }, {
     "code": "0209",
     "display": "TINGUI BOTO"
@@ -1109,7 +1109,7 @@
     "display": "TXIKAO (TXICAO, IKPENG)"
   }, {
     "code": "0029",
-    "display": "AWETI (AUETI/AUETO)"
+    "display": "AWETI (AUETIAUETO)"
   }, {
     "code": "0226",
     "display": "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)"

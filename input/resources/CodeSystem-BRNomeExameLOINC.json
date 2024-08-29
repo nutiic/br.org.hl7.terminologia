@@ -15,7 +15,7 @@
   "content": "complete",
   "concept": [ {
     "code": "98847-7",
-    "display": "SARS Coronavirus 2 interferon gama estimulado liberação por linfócitos [Unidades/volume] corrigido para sangue de fundo por imunoensaio"
+    "display": "SARS Coronavirus 2 interferon gama estimulado liberação por linfócitos [Unidadesvolume] corrigido para sangue de fundo por imunoensaio"
   }, {
     "code": "95125-1",
     "display": "SARS Coronavírus 2 [Presença de] IgA+IgM em Soro ou Plasma por Imunoensaio"
@@ -24,7 +24,7 @@
     "display": "SARS Coronavírus 2 [Presença de] RNA em Saliva (fluido oral) por sequenciamento"
   }, {
     "code": "98734-7",
-    "display": "SARS Coronavirus 2 proteína S Domínio de Ligação ao RNA anticorpo neutralizante [Unidades/Volume] em soro ou plasma por imunonensaio"
+    "display": "SARS Coronavirus 2 proteína S Domínio de Ligação ao RNA anticorpo neutralizante [UnidadesVolume] em soro ou plasma por imunonensaio"
   }, {
     "code": "95409-9",
     "display": "SARS Coronavírus 2, [Presença de] gene N em Nariz por Amplificação de ácido nucleico com detecção por sonda"
@@ -159,7 +159,7 @@
     "display": "SARS Coronavirus 2 proteína S [Presença] anticorpos IgG em soro ou plasma por Imunoensaio"
   }, {
     "code": "98846-9",
-    "display": "SARS Coronavirus 2 interferon gama estimulado liberação por células T auxiliares (CD4+) [Unidades/volume] corrigido para sangue de fundo por imunoensaio"
+    "display": "SARS Coronavirus 2 interferon gama estimulado liberação por células T auxiliares (CD4+) [Unidadesvolume] corrigido para sangue de fundo por imunoensaio"
   }, {
     "code": "94819-0",
     "display": "SARS Coronavírus 2 [dosagem de] (carga viral) RNA em Amostra Inespecífica por Amplificação do ácido nucleico com detecção por sonda"
@@ -201,7 +201,7 @@
     "display": "SARS Coronavírus 2, [presença de] gene N em amostra respiratória por amplificação do ácido nucleico com detecção por sonda"
   }, {
     "code": "97104-4",
-    "display": "SARS coronavirus 2 região anticorpos ORF1 (Fases de leitura aberta-1) [Unidades/Volumes] (carga viral) em amostra de trato respiratório superior por Amplificação de ácido nucleico com detecção por sonda"
+    "display": "SARS coronavirus 2 região anticorpos ORF1 (Fases de leitura aberta-1) [UnidadesVolumes] (carga viral) em amostra de trato respiratório superior por Amplificação de ácido nucleico com detecção por sonda"
   }, {
     "code": "94760-6",
     "display": "SARS Coronavírus 2 [Presença de] gene N em Nasofaringe por Amplificação de ácido nucleico com detecção por sonda"
@@ -243,7 +243,7 @@
     "display": "SARS Coronavírus 2, [presença de] anticorpos IgG Ab em soro ou plasma por imunoensaio"
   }, {
     "code": "96742-2",
-    "display": "SARS Coronavírus 2 anticorpos IgG [Massa/Volume] em soro ou plasma por imunoensaio"
+    "display": "SARS Coronavírus 2 anticorpos IgG [MassaVolume] em soro ou plasma por imunoensaio"
   }, {
     "code": "94558-4",
     "display": "SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido"
@@ -321,7 +321,7 @@
     "display": "SARS Coronavírus 2 [Concentração de] anticorpos IgM em Soro ou Plasma por imunofluorescência"
   }, {
     "code": "94307-6",
-    "display": "SARS Coronavírus, [presença de] gene 2 N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda / primer N1"
+    "display": "SARS Coronavírus, [presença de] gene 2 N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda  primer N1"
   }, {
     "code": "95429-7",
     "display": "SARS Coronavírus 2 [Concentração de] anticorpos IgG em Soro ou Plasma por imunofluorescência"
@@ -345,10 +345,10 @@
     "display": "SARS Coronavírus 2 [dosagem de] (carga viral ) gene N em Amostra respiratória por Amplificação do ácido nucleico com detecção por sonda"
   }, {
     "code": "94308-4",
-    "display": "SARS Coronavírus 2, [presença de] gene N em amostra não especificada, por amplificação de ácido nucleico usando conjunto de sonda / primer N2"
+    "display": "SARS Coronavírus 2, [presença de] gene N em amostra não especificada, por amplificação de ácido nucleico usando conjunto de sonda  primer N2"
   }, {
     "code": "95521-1",
-    "display": "SARS Coronavírus 2 [#/volume] (carga viral) gene N em Amostra respiratória por Amplificação do ácido nucleico com detecção por sonda"
+    "display": "SARS Coronavírus 2 [#volume] (carga viral) gene N em Amostra respiratória por Amplificação do ácido nucleico com detecção por sonda"
   }, {
     "code": "95608-6",
     "display": "SARS Coronavírus 2 [Presença de] RNA em amostra respiraória por Amplificação de ácido nucleico com detecção sem sonda"
@@ -429,13 +429,13 @@
     "display": "SARS Coronavírus relacionado [Presença de] gene E em Saliva (fluido oral) por Amplificação de àcido nucleico com detecção por sonda"
   }, {
     "code": "94312-6",
-    "display": "SARS Coronavírus 2, [limiar de ciclo] de gene N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda / primer N2"
+    "display": "SARS Coronavírus 2, [limiar de ciclo] de gene N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda  primer N2"
   }, {
     "code": "95609-4",
     "display": "SARS Coronavírus 2 [Presença de] gene S em amostra respiratória por sequenciação"
   }, {
     "code": "94311-8",
-    "display": "SARS Coronavírus 2, [limiar de ciclo] de gene N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda / primer N1"
+    "display": "SARS Coronavírus 2, [limiar de ciclo] de gene N em amostra não especificada por amplificação de ácido nucleico usando conjunto de sonda  primer N1"
   }, {
     "code": "95824-9",
     "display": "SARS Coronavírus 2 [Presença de] região anticorpos ORF1 em Saliva (fluido oral) por Amplificação de ácido nucléico com detecção por sonda"
@@ -450,16 +450,16 @@
     "display": "SARS Coronavírus 2, [presença de] gene RdRp em amostra não especificada por amplificação do ácido nucleico com detecção por sonda"
   }, {
     "code": "95973-4",
-    "display": "SARS Coronavírus 2 estimulado por interferon gama liberação por células T (Unidades/Volume] em sangue"
+    "display": "SARS Coronavírus 2 estimulado por interferon gama liberação por células T (UnidadesVolume] em sangue"
   }, {
     "code": "94505-5",
-    "display": "SARS Coronavírus 2, [dosagem de] anticorpos IgG [Unidades/Volume] em soro ou plasma por imunoensaio"
+    "display": "SARS Coronavírus 2, [dosagem de] anticorpos IgG [UnidadesVolume] em soro ou plasma por imunoensaio"
   }, {
     "code": "95974-2",
     "display": "SARS Coronavírus 2 estimulado por interferon gama painel - Sangue"
   }, {
     "code": "94506-3",
-    "display": "SARS Coronavírus 2, [dosagem de] anticorpos IgM [Unidades/Volume] em soro ou plasma por imunoensaio"
+    "display": "SARS Coronavírus 2, [dosagem de] anticorpos IgM [UnidadesVolume] em soro ou plasma por imunoensaio"
   }, {
     "code": "95971-8",
     "display": "SARS Coronavírus 2 estimulado por interferon gama [Presença de] em sangue"
@@ -468,7 +468,7 @@
     "display": "SARS Coronavírus 2 painel - anticorpos em Soro, Plasma ou Sangue por Imunoensaio rápido"
   }, {
     "code": "95972-6",
-    "display": "SARS Coronavírus 2 estimulado por interferon gama liberação por células T [Unidades/Volumes] corrigido para fundo em sangue"
+    "display": "SARS Coronavírus 2 estimulado por interferon gama liberação por células T [UnidadesVolumes] corrigido para fundo em sangue"
   }, {
     "code": "94504-8",
     "display": "SARS Coronavírus 2 painel - anticorpos, Soro ou Plasma por Imunoensaio rápido"

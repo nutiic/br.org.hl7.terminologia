@@ -1,6 +1,0 @@
-Output File                          Name                   Type      FSH File                            Lines
-ValueSet-BRCOREN.json                BRCOREN                ValueSet  ValueSet-BRCOREN.fsh                1 - 46
-ValueSet-BRCRF.json                  BRCRF                  ValueSet  ValueSet-BRCRF.fsh                  1 - 46
-ValueSet-BRCRM.json                  BRCRM                  ValueSet  ValueSet-BRCRM.fsh                  1 - 46
-ValueSet-BRCRO.json                  BRCRO                  ValueSet  ValueSet-BRCRO.fsh                  1 - 46
-ValueSet-BROutrosProfissionais.json  BROutrosProfissionais  ValueSet  ValueSet-BROutrosProfissionais.fsh  1 - 81

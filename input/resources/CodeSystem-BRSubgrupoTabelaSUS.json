@@ -71,7 +71,7 @@
     "display": "Terapias especializadas"
   }, {
     "code": "0803",
-    "display": "Autorização / Regulação"
+    "display": "Autorização  Regulação"
   }, {
     "code": "0404",
     "display": "Cirurgia das vias aéreas superiores, da face, da cabeça e do pescoço"
@@ -152,10 +152,10 @@
     "display": "Vigilância em saúde"
   }, {
     "code": "0301",
-    "display": "Consultas / Atendimentos / Acompanhamentos"
+    "display": "Consultas  Atendimentos  Acompanhamentos"
   }, {
     "code": "0101",
-    "display": "Ações coletivas/individuais em saúde"
+    "display": "Ações coletivasindividuais em saúde"
   }, {
     "code": "0214",
     "display": "Diagnóstico por teste rápido"

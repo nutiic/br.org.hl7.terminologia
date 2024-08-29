@@ -5,11 +5,11 @@
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor",
   "version": "HEAD",
   "name": "BRRacaCor",
-  "title": "Raça Cor",
+  "title": "RaçaCor",
   "status": "active",
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
-  "description": "Raça Cor",
+  "description": "RaçaCor",
   "immutable": true,
   "compose": {
     "include": [ {

@@ -532,7 +532,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0198",
-        "display": "SUYA (SUIA/KISEDJE)"
+        "display": "SUYA (SUIAKISEDJE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1012,7 +1012,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0132",
-        "display": "KULINA/MADIHA (CULINA, MADIJA, MADIHA)"
+        "display": "KULINAMADIHA (CULINA, MADIJA, MADIHA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1690,7 +1690,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0097",
-        "display": "KARAJA/JAVAE (JAVAE)"
+        "display": "KARAJAJAVAE (JAVAE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1774,7 +1774,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0098",
-        "display": "KARAJA/XAMBIOA (KARAJA DO NORTE)"
+        "display": "KARAJAXAMBIOA (KARAJA DO NORTE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1882,7 +1882,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0016",
-        "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAO/ARI­PUANA)"
+        "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAOARI­PUANA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1960,7 +1960,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0025",
-        "display": "ASURINI DO TOCANTINS (AKUAWA/AKWAWA)"
+        "display": "ASURINI DO TOCANTINS (AKUAWAAKWAWA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2044,7 +2044,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0010",
-        "display": "APINAYE (APINAJE/APINAIE/APINAGE)"
+        "display": "APINAYE (APINAJEAPINAIEAPINAGE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2200,7 +2200,7 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
         "code": "0029",
-        "display": "AWETI (AUETI/AUETO)"
+        "display": "AWETI (AUETIAUETO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
