@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "BRSexoNascimento",
   "language": "pt",
-  "url": "https://saude.gov.br/fhir/terminologia/BRSexoNascimento",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexoNascimento",
   "version": "HEAD",
   "name": "BRSexoNascimento",
   "title": "BRSexoNascimento",
