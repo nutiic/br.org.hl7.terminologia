@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Tipo de Resultado RSCUL 1.0",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

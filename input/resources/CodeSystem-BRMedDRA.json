@@ -10,6 +10,7 @@
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
   "description": "MedDRA",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

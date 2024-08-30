@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

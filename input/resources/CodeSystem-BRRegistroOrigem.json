@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "BR Registro de Origem",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

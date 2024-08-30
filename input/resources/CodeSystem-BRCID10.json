@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Classificação Internacional de Doenças - Décima Revisão - CID-10",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -2779,11 +2780,11 @@
     "code": "N99.9",
     "display": "Transtorno pós-procedimento não especificado do aparelho geniturinário"
   }, {
-    "code": "Z71.7",
-    "display": "Aconselhamento a propósito do vírus da imunodeficiência humana [HIV]"
-  }, {
     "code": "O00.0",
     "display": "Gravidez abdominal"
+  }, {
+    "code": "Z71.7",
+    "display": "Aconselhamento a propósito do vírus da imunodeficiência humana [HIV]"
   }, {
     "code": "Z71.6",
     "display": "Aconselhamento para o abuso de fumo"
@@ -6277,26 +6278,8 @@
     "code": "Y82.1",
     "display": "Outros dispositivos (aparelhos) associados a incidentes adversos e os não especificados - dispositivos (aparelhos) para fins ter"
   }, {
-    "code": "Y83.3",
-    "display": "Reação anormal em paciente ou complicação tardia, causadas por intervenção cirúrgica com formação de estoma externo, sem menção"
-  }, {
-    "code": "M96.2",
-    "display": "Cifose pós-radiação"
-  }, {
     "code": "Y83.2",
     "display": "Reação anormal em paciente ou complicação tardia, causadas por intervenção cirúrgica com anastomose, derivação (\"bypass\") ou enx"
-  }, {
-    "code": "M96.4",
-    "display": "Lordose pós-cirúrgica"
-  }, {
-    "code": "M96.3",
-    "display": "Cifose pós-laminectomia"
-  }, {
-    "code": "Y83.4",
-    "display": "Reação anormal em paciente ou complicação tardia, causadas por outras cirurgias reparadoras, sem menção de acidente durante a in"
-  }, {
-    "code": "M96.1",
-    "display": "Síndrome pós-laminectomia não classificada em outra parte"
   }, {
     "code": "M96.0",
     "display": "Pseudo-artrose após fusão ou artrodese"
@@ -6312,6 +6295,24 @@
   }, {
     "code": "M95.9",
     "display": "Deformidade adquirida do sistema osteomuscular não especificada"
+  }, {
+    "code": "Y83.3",
+    "display": "Reação anormal em paciente ou complicação tardia, causadas por intervenção cirúrgica com formação de estoma externo, sem menção"
+  }, {
+    "code": "M96.2",
+    "display": "Cifose pós-radiação"
+  }, {
+    "code": "M96.1",
+    "display": "Síndrome pós-laminectomia não classificada em outra parte"
+  }, {
+    "code": "M96.4",
+    "display": "Lordose pós-cirúrgica"
+  }, {
+    "code": "M96.3",
+    "display": "Cifose pós-laminectomia"
+  }, {
+    "code": "Y83.4",
+    "display": "Reação anormal em paciente ou complicação tardia, causadas por outras cirurgias reparadoras, sem menção de acidente durante a in"
   }, {
     "code": "Y69",
     "display": "Acidente não especificado durante a prestação de cuidado médico e cirúrgico"
@@ -7045,11 +7046,11 @@
     "code": "Y54.3",
     "display": "Efeitos adversos de derivados da benzotiadiazína"
   }, {
-    "code": "M72.0",
-    "display": "Fibromatose de fáscia palmar [Dupuytren]"
-  }, {
     "code": "Y54.7",
     "display": "Efeitos adversos de medicamentos que atuam sobre o metabolismo de cálcio"
+  }, {
+    "code": "M72.0",
+    "display": "Fibromatose de fáscia palmar [Dupuytren]"
   }, {
     "code": "Y54.6",
     "display": "Efeitos adversos de agentes que atuam sobre o equilíbrio eletrolítico, calórico e hídrico"
@@ -7747,14 +7748,14 @@
     "code": "M61.1",
     "display": "Miosite ossificante progressiva"
   }, {
-    "code": "Y48.0",
-    "display": "Efeitos adversos de anestésicos por inalação"
+    "code": "Y47.8",
+    "display": "Efeitos adversos de outros sedativos, hipnóticos e tranquilizantes [ansiolíticos]"
   }, {
-    "code": "M61.9",
-    "display": "Calcificação e ossificação de músculo não especificada"
+    "code": "M61.3",
+    "display": "Calcificação e ossificação de músculo associadas com queimaduras"
   }, {
-    "code": "Y48",
-    "display": "Efeitos adversos de anestésicos e gases terapêuticos"
+    "code": "Y47.5",
+    "display": "Efeitos adversos de sedativos e hipnóticos em associações não classificados em outra parte"
   }, {
     "code": "M61",
     "display": "Calcificação e ossificação do músculo"
@@ -7768,14 +7769,23 @@
     "code": "Y47.0",
     "display": "Efeitos adversos de barbitúricos, não classificados em outra parte"
   }, {
-    "code": "Y47.8",
-    "display": "Efeitos adversos de outros sedativos, hipnóticos e tranquilizantes [ansiolíticos]"
+    "code": "Y47.3",
+    "display": "Efeitos adversos de paraldeído"
   }, {
-    "code": "M61.3",
-    "display": "Calcificação e ossificação de músculo associadas com queimaduras"
+    "code": "M61.0",
+    "display": "Miosite ossificante traumática"
   }, {
-    "code": "Y47.5",
-    "display": "Efeitos adversos de sedativos e hipnóticos em associações não classificados em outra parte"
+    "code": "Y47.2",
+    "display": "Efeitos adversos de derivados do cloral"
+  }, {
+    "code": "Y48.0",
+    "display": "Efeitos adversos de anestésicos por inalação"
+  }, {
+    "code": "M61.9",
+    "display": "Calcificação e ossificação de músculo não especificada"
+  }, {
+    "code": "Y48",
+    "display": "Efeitos adversos de anestésicos e gases terapêuticos"
   }, {
     "code": "M61.5",
     "display": "Outra ossificação de músculo"
@@ -7785,15 +7795,6 @@
   }, {
     "code": "M61.4",
     "display": "Outra calcificação de músculo"
-  }, {
-    "code": "Y47.3",
-    "display": "Efeitos adversos de paraldeído"
-  }, {
-    "code": "M61.0",
-    "display": "Miosite ossificante traumática"
-  }, {
-    "code": "Y47.2",
-    "display": "Efeitos adversos de derivados do cloral"
   }, {
     "code": "M62.0",
     "display": "Diástase de músculo"
@@ -8047,14 +8048,14 @@
     "code": "M48.9",
     "display": "Espondilopatia não especificada"
   }, {
-    "code": "Y42.8",
-    "display": "Efeitos adversos de outros hormônios e os não especificados e seus substitutos sintéticos"
+    "code": "Y42.5",
+    "display": "Efeitos adversos de outros estrógenos e progestágenos"
   }, {
-    "code": "M49.3",
-    "display": "Espondilopatia em outras doenças infeciosas e parasitárias classificadas em outra parte"
+    "code": "Y42.4",
+    "display": "Efeitos adversos de anticoncepcionais [contraceptivos] orais"
   }, {
-    "code": "Y42.7",
-    "display": "Efeitos adversos de andrógenos e anabolizantes congêneres"
+    "code": "M49.0",
+    "display": "Tuberculose da coluna vertebral"
   }, {
     "code": "M48.5",
     "display": "Vértebra colapsada não classificada em outra parte"
@@ -8068,14 +8069,32 @@
     "code": "Y42",
     "display": "Efeitos adversos de hormônios e seus substitutos sintéticos e antagonistas, não classificados em outra parte"
   }, {
-    "code": "Y42.5",
-    "display": "Efeitos adversos de outros estrógenos e progestágenos"
+    "code": "Y42.2",
+    "display": "Efeitos adversos de drogas antitireoidianas"
   }, {
-    "code": "Y42.4",
-    "display": "Efeitos adversos de anticoncepcionais [contraceptivos] orais"
+    "code": "M48.8",
+    "display": "Outras espondilopatias especificadas"
   }, {
-    "code": "M49.0",
-    "display": "Tuberculose da coluna vertebral"
+    "code": "Y42.1",
+    "display": "Efeitos adversos de hormônios e substitutos da tireóide"
+  }, {
+    "code": "Y42.8",
+    "display": "Efeitos adversos de outros hormônios e os não especificados e seus substitutos sintéticos"
+  }, {
+    "code": "M49.3",
+    "display": "Espondilopatia em outras doenças infeciosas e parasitárias classificadas em outra parte"
+  }, {
+    "code": "Y42.7",
+    "display": "Efeitos adversos de andrógenos e anabolizantes congêneres"
+  }, {
+    "code": "M49.2",
+    "display": "Espondilite por enterobactérias"
+  }, {
+    "code": "Y42.6",
+    "display": "Efeitos adversos de antigonadotrofinas, antiestrógenos e antiandrógenos, não classificados em outra parte"
+  }, {
+    "code": "M49.1",
+    "display": "Espondilite por Brucella"
   }, {
     "code": "M49.5",
     "display": "Vértebra colapsada em doenças classificadas em outra parte"
@@ -8094,24 +8113,6 @@
   }, {
     "code": "Y43",
     "display": "Efeitos adversos de substâncias de ação primariamente sistêmica"
-  }, {
-    "code": "M49.2",
-    "display": "Espondilite por enterobactérias"
-  }, {
-    "code": "Y42.6",
-    "display": "Efeitos adversos de antigonadotrofinas, antiestrógenos e antiandrógenos, não classificados em outra parte"
-  }, {
-    "code": "M49.1",
-    "display": "Espondilite por Brucella"
-  }, {
-    "code": "Y42.2",
-    "display": "Efeitos adversos de drogas antitireoidianas"
-  }, {
-    "code": "M48.8",
-    "display": "Outras espondilopatias especificadas"
-  }, {
-    "code": "Y42.1",
-    "display": "Efeitos adversos de hormônios e substitutos da tireóide"
   }, {
     "code": "Y32",
     "display": "Impacto de um veículo a motor, intenção não determinada"
@@ -8488,15 +8489,6 @@
     "code": "M25.3",
     "display": "Outras instabilidades articulares"
   }, {
-    "code": "M30.2",
-    "display": "Poliarterite juvenil"
-  }, {
-    "code": "Y28.7",
-    "display": "Contato com objeto cortante ou penetrante, intenção não determinada - fazenda"
-  }, {
-    "code": "M30.1",
-    "display": "Poliarterite com comprometimento pulmonar [Churg-Strauss]"
-  }, {
     "code": "Y25.8",
     "display": "Contato com material explosivo, intenção não determinada - outros locais especificados"
   }, {
@@ -8572,6 +8564,15 @@
     "code": "M24.3",
     "display": "Deslocamento e subluxação patológicas de articulação, não classificada em outra parte"
   }, {
+    "code": "M30.2",
+    "display": "Poliarterite juvenil"
+  }, {
+    "code": "Y28.7",
+    "display": "Contato com objeto cortante ou penetrante, intenção não determinada - fazenda"
+  }, {
+    "code": "M30.1",
+    "display": "Poliarterite com comprometimento pulmonar [Churg-Strauss]"
+  }, {
     "code": "Y28.6",
     "display": "Contato com objeto cortante ou penetrante, intenção não determinada - áreas industriais e em construção"
   }, {
@@ -8599,24 +8600,6 @@
     "code": "M30.8",
     "display": "Outras afecções comuns na poliarterite nodosa"
   }, {
-    "code": "Y29.5",
-    "display": "Contato com objeto contundente, intenção não determinada - áreas de comércio e de serviços"
-  }, {
-    "code": "M31.3",
-    "display": "Granulomatose de Wegener"
-  }, {
-    "code": "Y29.4",
-    "display": "Contato com objeto contundente, intenção não determinada - rua e estrada"
-  }, {
-    "code": "Y29.7",
-    "display": "Contato com objeto contundente, intenção não determinada - fazenda"
-  }, {
-    "code": "Y29.6",
-    "display": "Contato com objeto contundente, intenção não determinada - áreas industriais e em construção"
-  }, {
-    "code": "M31.4",
-    "display": "Síndrome do arco aórtico [Takayasu]"
-  }, {
     "code": "Y28.1",
     "display": "Contato com objeto cortante ou penetrante, intenção não determinada - habitação coletiva"
   }, {
@@ -8625,12 +8608,6 @@
   }, {
     "code": "Y28.0",
     "display": "Contato com objeto cortante ou penetrante, intenção não determinada - residência"
-  }, {
-    "code": "Y29.2",
-    "display": "Contato com objeto contundente, intenção não determinada - escolas, outras instituições e áreas de administração pública"
-  }, {
-    "code": "M31.0",
-    "display": "Angeíte de hipersensibilidade"
   }, {
     "code": "M25.6",
     "display": "Rigidez articular não classificada em outra parte"
@@ -8643,15 +8620,6 @@
   }, {
     "code": "Y27.9",
     "display": "Exposição a vapor de água, gases ou objetos quentes, intenção não determinada - local não especificado"
-  }, {
-    "code": "M31.2",
-    "display": "Granuloma da linha média letal"
-  }, {
-    "code": "Y29.3",
-    "display": "Contato com objeto contundente, intenção não determinada - área para a prática de esportes e atletismo"
-  }, {
-    "code": "M31.1",
-    "display": "Microangiopatia trombótica"
   }, {
     "code": "M25.9",
     "display": "Transtorno articular não especificado"
@@ -8670,6 +8638,54 @@
   }, {
     "code": "Y28.3",
     "display": "Contato com objeto cortante ou penetrante, intenção não determinada - área para a prática de esportes e atletismo"
+  }, {
+    "code": "Y29.5",
+    "display": "Contato com objeto contundente, intenção não determinada - áreas de comércio e de serviços"
+  }, {
+    "code": "M31.3",
+    "display": "Granulomatose de Wegener"
+  }, {
+    "code": "Y29.4",
+    "display": "Contato com objeto contundente, intenção não determinada - rua e estrada"
+  }, {
+    "code": "Y29.7",
+    "display": "Contato com objeto contundente, intenção não determinada - fazenda"
+  }, {
+    "code": "Y29.6",
+    "display": "Contato com objeto contundente, intenção não determinada - áreas industriais e em construção"
+  }, {
+    "code": "M31.4",
+    "display": "Síndrome do arco aórtico [Takayasu]"
+  }, {
+    "code": "Y29.2",
+    "display": "Contato com objeto contundente, intenção não determinada - escolas, outras instituições e áreas de administração pública"
+  }, {
+    "code": "M31.0",
+    "display": "Angeíte de hipersensibilidade"
+  }, {
+    "code": "Y29.1",
+    "display": "Contato com objeto contundente, intenção não determinada - habitação coletiva"
+  }, {
+    "code": "Y29.0",
+    "display": "Contato com objeto contundente, intenção não determinada - residência"
+  }, {
+    "code": "M31.2",
+    "display": "Granuloma da linha média letal"
+  }, {
+    "code": "Y29.3",
+    "display": "Contato com objeto contundente, intenção não determinada - área para a prática de esportes e atletismo"
+  }, {
+    "code": "M31.1",
+    "display": "Microangiopatia trombótica"
+  }, {
+    "code": "Y30",
+    "display": "Queda, salto ou empurrado de um lugar elevado, intenção não determinada"
+  }, {
+    "code": "M31.7",
+    "display": "Poliangeíte microscópica"
+  }, {
+    "code": "Y29.9",
+    "display": "Contato com objeto contundente, intenção não determinada - local não especificado"
   }, {
     "code": "M31.6",
     "display": "Outras arterites de células gigantes"
@@ -9712,15 +9728,6 @@
     "code": "Y05.1",
     "display": "Agressão sexual por meio de força física - habitação coletiva"
   }, {
-    "code": "M02.1",
-    "display": "Artropatia pós-desintérica"
-  }, {
-    "code": "Y09",
-    "display": "Agressão por meios não especificados"
-  }, {
-    "code": "M02.0",
-    "display": "Artropatia pós-derivação intestinal"
-  }, {
     "code": "Y05.8",
     "display": "Agressão sexual por meio de força física - outros locais especificados"
   }, {
@@ -9757,6 +9764,15 @@
     "code": "L98.8",
     "display": "Outras afecções especificadas da pele e do tecido subcutâneo"
   }, {
+    "code": "M02.1",
+    "display": "Artropatia pós-desintérica"
+  }, {
+    "code": "Y09",
+    "display": "Agressão por meios não especificados"
+  }, {
+    "code": "M02.0",
+    "display": "Artropatia pós-derivação intestinal"
+  }, {
     "code": "Y08.9",
     "display": "Agressão por outros meios especificados - local não especificado"
   }, {
@@ -9775,15 +9791,6 @@
     "code": "Y09.0",
     "display": "Agressão por meios não especificados - residência"
   }, {
-    "code": "M03.1",
-    "display": "Artropatia pós-infecciosa na sífilis"
-  }, {
-    "code": "Y09.8",
-    "display": "Agressão por meios não especificados - outros locais especificados"
-  }, {
-    "code": "M03.0",
-    "display": "Artrite pós-meningocócica"
-  }, {
     "code": "Y09.3",
     "display": "Agressão por meios não especificados - área para a prática de esportes e atletismo"
   }, {
@@ -9792,6 +9799,54 @@
   }, {
     "code": "Y09.2",
     "display": "Agressão por meios não especificados - escolas, outras instituições e áreas de administração pública"
+  }, {
+    "code": "Y08.4",
+    "display": "Agressão por outros meios especificados - rua e estrada"
+  }, {
+    "code": "M01.4",
+    "display": "Artrite na rubéola"
+  }, {
+    "code": "Y08.3",
+    "display": "Agressão por outros meios especificados - área para a prática de esportes e atletismo"
+  }, {
+    "code": "M01.3",
+    "display": "Artrite em outras doenças bacterianas classificadas em outra parte"
+  }, {
+    "code": "Y08.2",
+    "display": "Agressão por outros meios especificados - escolas, outras instituições e áreas de administração pública"
+  }, {
+    "code": "M01.2",
+    "display": "Artrite na doença de Lyme"
+  }, {
+    "code": "Y08.1",
+    "display": "Agressão por outros meios especificados - habitação coletiva"
+  }, {
+    "code": "Y08.6",
+    "display": "Agressão por outros meios especificados - áreas industriais e em construção"
+  }, {
+    "code": "Y08.5",
+    "display": "Agressão por outros meios especificados - áreas de comércio e de serviços"
+  }, {
+    "code": "M01.5",
+    "display": "Artrite em outras doenças virais classificadas em outra parte"
+  }, {
+    "code": "M01.8",
+    "display": "Artrite em outras doenças infecciosas e parasitárias classificadas em outra parte"
+  }, {
+    "code": "Y08.7",
+    "display": "Agressão por outros meios especificados - fazenda"
+  }, {
+    "code": "M01.6",
+    "display": "Artrite em micoses"
+  }, {
+    "code": "M03.1",
+    "display": "Artropatia pós-infecciosa na sífilis"
+  }, {
+    "code": "Y09.8",
+    "display": "Agressão por meios não especificados - outros locais especificados"
+  }, {
+    "code": "M03.0",
+    "display": "Artrite pós-meningocócica"
   }, {
     "code": "Y10",
     "display": "Envenenamento [intoxicação] por e exposição a analgésicos, antipiréticos e anti-reumáticos não-opiáceos, intenção não determinad"
@@ -9841,14 +9896,8 @@
     "code": "M03.6",
     "display": "Artropatia reacional em outras doenças classificadas em outra parte"
   }, {
-    "code": "Y08.4",
-    "display": "Agressão por outros meios especificados - rua e estrada"
-  }, {
-    "code": "M01.4",
-    "display": "Artrite na rubéola"
-  }, {
-    "code": "Y08.3",
-    "display": "Agressão por outros meios especificados - área para a prática de esportes e atletismo"
+    "code": "M05.2",
+    "display": "Vasculite reumatóide"
   }, {
     "code": "Y10.3",
     "display": "Envenenamento [intoxicação] por e exposição a analgésicos, antipiréticos e anti-reumáticos não-opiáceos, intenção não determinad"
@@ -9864,36 +9913,6 @@
   }, {
     "code": "Y10.4",
     "display": "Envenenamento [intoxicação] por e exposição a analgésicos, antipiréticos e anti-reumáticos não-opiáceos, intenção não determinad"
-  }, {
-    "code": "M01.3",
-    "display": "Artrite em outras doenças bacterianas classificadas em outra parte"
-  }, {
-    "code": "Y08.2",
-    "display": "Agressão por outros meios especificados - escolas, outras instituições e áreas de administração pública"
-  }, {
-    "code": "M01.2",
-    "display": "Artrite na doença de Lyme"
-  }, {
-    "code": "Y08.1",
-    "display": "Agressão por outros meios especificados - habitação coletiva"
-  }, {
-    "code": "Y08.6",
-    "display": "Agressão por outros meios especificados - áreas industriais e em construção"
-  }, {
-    "code": "Y08.5",
-    "display": "Agressão por outros meios especificados - áreas de comércio e de serviços"
-  }, {
-    "code": "M01.5",
-    "display": "Artrite em outras doenças virais classificadas em outra parte"
-  }, {
-    "code": "M01.8",
-    "display": "Artrite em outras doenças infecciosas e parasitárias classificadas em outra parte"
-  }, {
-    "code": "Y08.7",
-    "display": "Agressão por outros meios especificados - fazenda"
-  }, {
-    "code": "M01.6",
-    "display": "Artrite em micoses"
   }, {
     "code": "L90.9",
     "display": "Afecções atróficas da pele, não especificadas"
@@ -10102,6 +10121,15 @@
     "code": "L92.1",
     "display": "Necrobiose lipoídica não classificada em outra parte"
   }, {
+    "code": "Y04.1",
+    "display": "Agressão por meio de força corporal - habitação coletiva"
+  }, {
+    "code": "L94.5",
+    "display": "Poiquilodermia vascular atrófica"
+  }, {
+    "code": "Y04.0",
+    "display": "Agressão por meio de força corporal - residência"
+  }, {
     "code": "L92.9",
     "display": "Afecções granulomatosas da pele e do tecido subcutâneo, não especificados"
   }, {
@@ -10120,15 +10148,6 @@
     "code": "Y03",
     "display": "Agressão por meio de impacto de um veículo a motor"
   }, {
-    "code": "Y04.1",
-    "display": "Agressão por meio de força corporal - habitação coletiva"
-  }, {
-    "code": "L94.5",
-    "display": "Poiquilodermia vascular atrófica"
-  }, {
-    "code": "Y04.0",
-    "display": "Agressão por meio de força corporal - residência"
-  }, {
     "code": "L94.8",
     "display": "Outras afecções localizadas do tecido conjuntivo, especificadas"
   }, {
@@ -10137,6 +10156,15 @@
   }, {
     "code": "L94.6",
     "display": "Ainhum"
+  }, {
+    "code": "Y04.6",
+    "display": "Agressão por meio de força corporal - áreas industriais e em construção"
+  }, {
+    "code": "L95",
+    "display": "Vasculite limitada a pele não classificadas em outra parte"
+  }, {
+    "code": "Y04.5",
+    "display": "Agressão por meio de força corporal - áreas de comércio e de serviços"
   }, {
     "code": "Y03.9",
     "display": "Agressão por meio de impacto de um veículo a motor - local não especificado"
@@ -10158,15 +10186,6 @@
   }, {
     "code": "L94.3",
     "display": "Esclerodactilia"
-  }, {
-    "code": "Y04.6",
-    "display": "Agressão por meio de força corporal - áreas industriais e em construção"
-  }, {
-    "code": "L95",
-    "display": "Vasculite limitada a pele não classificadas em outra parte"
-  }, {
-    "code": "Y04.5",
-    "display": "Agressão por meio de força corporal - áreas de comércio e de serviços"
   }, {
     "code": "L94.9",
     "display": "Afecções localizadas do tecido conjuntivo, não especificadas"
@@ -10363,45 +10382,6 @@
     "code": "X98.1",
     "display": "Agressão por meio de vapor de água, gases ou objetos quentes - habitação coletiva"
   }, {
-    "code": "L85.1",
-    "display": "Ceratose adquirida [ceratodermia] palmar e plantar"
-  }, {
-    "code": "X99.1",
-    "display": "Agressão por meio de objeto cortante ou penetrante - habitação coletiva"
-  }, {
-    "code": "X99.0",
-    "display": "Agressão por meio de objeto cortante ou penetrante - residência"
-  }, {
-    "code": "X99.3",
-    "display": "Agressão por meio de objeto cortante ou penetrante - área para a prática de esportes e atletismo"
-  }, {
-    "code": "L85.2",
-    "display": "Ceratose punctata (palmar e plantar)"
-  }, {
-    "code": "X99.2",
-    "display": "Agressão por meio de objeto cortante ou penetrante - escolas, outras instituições e áreas de administração pública"
-  }, {
-    "code": "X98.9",
-    "display": "Agressão por meio de vapor de água, gases ou objetos quentes - local não especificado"
-  }, {
-    "code": "L84",
-    "display": "Calos e calosidades"
-  }, {
-    "code": "X98.8",
-    "display": "Agressão por meio de vapor de água, gases ou objetos quentes - outros locais especificados"
-  }, {
-    "code": "L83",
-    "display": "Acantose nigricans"
-  }, {
-    "code": "L85.0",
-    "display": "Ictiose adquirida"
-  }, {
-    "code": "X99",
-    "display": "Agressão por meio de objeto cortante ou penetrante"
-  }, {
-    "code": "L85",
-    "display": "Outras formas de espessamento epidérmico"
-  }, {
     "code": "X98.5",
     "display": "Agressão por meio de vapor de água, gases ou objetos quentes - áreas de comércio e de serviços"
   }, {
@@ -10410,42 +10390,6 @@
   }, {
     "code": "X98.4",
     "display": "Agressão por meio de vapor de água, gases ou objetos quentes - rua e estrada"
-  }, {
-    "code": "L85.9",
-    "display": "Espessamento epidérmico, não especificado"
-  }, {
-    "code": "X99.6",
-    "display": "Agressão por meio de objeto cortante ou penetrante - áreas industriais e em construção"
-  }, {
-    "code": "X99.5",
-    "display": "Agressão por meio de objeto cortante ou penetrante - áreas de comércio e de serviços"
-  }, {
-    "code": "L85.8",
-    "display": "Outras formas de espessamento epidérmico"
-  }, {
-    "code": "X99.4",
-    "display": "Agressão por meio de objeto cortante ou penetrante - rua e estrada"
-  }, {
-    "code": "L85.3",
-    "display": "Xerose cutânea"
-  }, {
-    "code": "X99.8",
-    "display": "Agressão por meio de objeto cortante ou penetrante - outros locais especificados"
-  }, {
-    "code": "L86",
-    "display": "Ceratodermia em doenças classificadas em outra parte"
-  }, {
-    "code": "X99.7",
-    "display": "Agressão por meio de objeto cortante ou penetrante - fazenda"
-  }, {
-    "code": "L87.0",
-    "display": "Ceratose folicular e parafolicular penetrante na pele [Síndrome de Kyrle]"
-  }, {
-    "code": "X99.9",
-    "display": "Agressão por meio de objeto cortante ou penetrante - local não especificado"
-  }, {
-    "code": "L87",
-    "display": "Transtornos da eliminação transepidérmica"
   }, {
     "code": "X98.7",
     "display": "Agressão por meio de vapor de água, gases ou objetos quentes - fazenda"
@@ -10494,6 +10438,75 @@
   }, {
     "code": "X98",
     "display": "Agressão por meio de vapor de água, gases ou objetos quentes"
+  }, {
+    "code": "L85.1",
+    "display": "Ceratose adquirida [ceratodermia] palmar e plantar"
+  }, {
+    "code": "X99.1",
+    "display": "Agressão por meio de objeto cortante ou penetrante - habitação coletiva"
+  }, {
+    "code": "X99.0",
+    "display": "Agressão por meio de objeto cortante ou penetrante - residência"
+  }, {
+    "code": "L85.9",
+    "display": "Espessamento epidérmico, não especificado"
+  }, {
+    "code": "X99.3",
+    "display": "Agressão por meio de objeto cortante ou penetrante - área para a prática de esportes e atletismo"
+  }, {
+    "code": "L85.2",
+    "display": "Ceratose punctata (palmar e plantar)"
+  }, {
+    "code": "X99.2",
+    "display": "Agressão por meio de objeto cortante ou penetrante - escolas, outras instituições e áreas de administração pública"
+  }, {
+    "code": "X98.9",
+    "display": "Agressão por meio de vapor de água, gases ou objetos quentes - local não especificado"
+  }, {
+    "code": "L84",
+    "display": "Calos e calosidades"
+  }, {
+    "code": "X98.8",
+    "display": "Agressão por meio de vapor de água, gases ou objetos quentes - outros locais especificados"
+  }, {
+    "code": "L83",
+    "display": "Acantose nigricans"
+  }, {
+    "code": "L85.0",
+    "display": "Ictiose adquirida"
+  }, {
+    "code": "X99",
+    "display": "Agressão por meio de objeto cortante ou penetrante"
+  }, {
+    "code": "L85",
+    "display": "Outras formas de espessamento epidérmico"
+  }, {
+    "code": "L85.8",
+    "display": "Outras formas de espessamento epidérmico"
+  }, {
+    "code": "X99.4",
+    "display": "Agressão por meio de objeto cortante ou penetrante - rua e estrada"
+  }, {
+    "code": "L85.3",
+    "display": "Xerose cutânea"
+  }, {
+    "code": "X99.8",
+    "display": "Agressão por meio de objeto cortante ou penetrante - outros locais especificados"
+  }, {
+    "code": "L86",
+    "display": "Ceratodermia em doenças classificadas em outra parte"
+  }, {
+    "code": "X99.7",
+    "display": "Agressão por meio de objeto cortante ou penetrante - fazenda"
+  }, {
+    "code": "L87.0",
+    "display": "Ceratose folicular e parafolicular penetrante na pele [Síndrome de Kyrle]"
+  }, {
+    "code": "X99.9",
+    "display": "Agressão por meio de objeto cortante ou penetrante - local não especificado"
+  }, {
+    "code": "L87",
+    "display": "Transtornos da eliminação transepidérmica"
   }, {
     "code": "X91.7",
     "display": "Agressão por meio de enforcamento, estrangulamento e sufocação - fazenda"
@@ -11020,15 +11033,6 @@
     "code": "L60.2",
     "display": "Onicogrifose"
   }, {
-    "code": "L64.0",
-    "display": "Alopécia androgênica induzida por droga"
-  }, {
-    "code": "X89.6",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - áreas industriais e em construção"
-  }, {
-    "code": "L64",
-    "display": "Alopécia androgênica"
-  }, {
     "code": "X89.2",
     "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - escolas, outras instituições e áreas de admi"
   }, {
@@ -11038,24 +11042,6 @@
     "code": "X89.1",
     "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - habitação coletiva"
   }, {
-    "code": "L64.8",
-    "display": "Outras alopécias androgênicas"
-  }, {
-    "code": "X89.8",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - outros locais especificados"
-  }, {
-    "code": "X89.7",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - fazenda"
-  }, {
-    "code": "X89.5",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - áreas de comércio e de serviços"
-  }, {
-    "code": "L63.9",
-    "display": "Alopécia areata, não especificada"
-  }, {
-    "code": "X89.4",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - rua e estrada"
-  }, {
     "code": "L63.8",
     "display": "Outras formas de alopécia areata"
   }, {
@@ -11064,15 +11050,6 @@
   }, {
     "code": "L63.2",
     "display": "Ofíase"
-  }, {
-    "code": "X90",
-    "display": "Agressão por meio de produtos químicos e substâncias nocivas não especificados"
-  }, {
-    "code": "L64.9",
-    "display": "Alopécia androgênica, não especificada"
-  }, {
-    "code": "X89.9",
-    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - local não especificado"
   }, {
     "code": "L63",
     "display": "Alopécia areata"
@@ -11094,6 +11071,42 @@
   }, {
     "code": "X89",
     "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados"
+  }, {
+    "code": "L64.0",
+    "display": "Alopécia androgênica induzida por droga"
+  }, {
+    "code": "X89.6",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - áreas industriais e em construção"
+  }, {
+    "code": "L64",
+    "display": "Alopécia androgênica"
+  }, {
+    "code": "X89.5",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - áreas de comércio e de serviços"
+  }, {
+    "code": "L63.9",
+    "display": "Alopécia areata, não especificada"
+  }, {
+    "code": "X89.4",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - rua e estrada"
+  }, {
+    "code": "L64.8",
+    "display": "Outras alopécias androgênicas"
+  }, {
+    "code": "X89.8",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - outros locais especificados"
+  }, {
+    "code": "X89.7",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - fazenda"
+  }, {
+    "code": "X90",
+    "display": "Agressão por meio de produtos químicos e substâncias nocivas não especificados"
+  }, {
+    "code": "L64.9",
+    "display": "Alopécia androgênica, não especificada"
+  }, {
+    "code": "X89.9",
+    "display": "Agressão por meio de outros produtos químicos e substâncias nocivas especificados - local não especificado"
   }, {
     "code": "X81.9",
     "display": "Lesão autoprovocada intencionalmente por precipitação ou permanência diante de um objeto em movimento - local não especificado"
@@ -11602,14 +11615,14 @@
     "code": "X77.7",
     "display": "Lesão autoprovocada intencionalmente por vapor de água, gases ou objetos quentes - fazenda"
   }, {
-    "code": "L40.3",
-    "display": "Pustulose palmar e plantar"
+    "code": "L41.8",
+    "display": "Outras parapsoríases"
   }, {
-    "code": "X78.1",
-    "display": "Lesão autoprovocada intencionalmente por objeto cortante ou penetrante - habitação coletiva"
+    "code": "X79.3",
+    "display": "Lesão autoprovocada intencionalmente por objeto contundente - área para a prática de esportes e atletismo"
   }, {
-    "code": "X78.0",
-    "display": "Lesão autoprovocada intencionalmente por objeto cortante ou penetrante - residência"
+    "code": "L41.5",
+    "display": "Parapsoríase retiforme"
   }, {
     "code": "X78.3",
     "display": "Lesão autoprovocada intencionalmente por objeto cortante ou penetrante - área para a prática de esportes e atletismo"
@@ -11619,15 +11632,6 @@
   }, {
     "code": "X78.2",
     "display": "Lesão autoprovocada intencionalmente por objeto cortante ou penetrante - escolas, outras instituições e áreas de administração p"
-  }, {
-    "code": "L41.8",
-    "display": "Outras parapsoríases"
-  }, {
-    "code": "X79.3",
-    "display": "Lesão autoprovocada intencionalmente por objeto contundente - área para a prática de esportes e atletismo"
-  }, {
-    "code": "L41.5",
-    "display": "Parapsoríase retiforme"
   }, {
     "code": "X79.5",
     "display": "Lesão autoprovocada intencionalmente por objeto contundente - áreas de comércio e de serviços"
@@ -13777,15 +13781,6 @@
     "code": "K60.5",
     "display": "Fístula anorretal"
   }, {
-    "code": "X42.8",
-    "display": "Envenenamento [intoxicação] acidental por e exposição a narcóticos e psicodislépticos [alucinógenos] não classificados em outra"
-  }, {
-    "code": "K61.1",
-    "display": "Abscesso retal"
-  }, {
-    "code": "X42.7",
-    "display": "Envenenamento [intoxicação] acidental por e exposição a narcóticos e psicodislépticos [alucinógenos] não classificados em outra"
-  }, {
     "code": "K61.3",
     "display": "Abscesso ísquio-retal"
   }, {
@@ -13794,6 +13789,15 @@
   }, {
     "code": "K61.2",
     "display": "Abscesso anorretal"
+  }, {
+    "code": "X42.8",
+    "display": "Envenenamento [intoxicação] acidental por e exposição a narcóticos e psicodislépticos [alucinógenos] não classificados em outra"
+  }, {
+    "code": "K61.1",
+    "display": "Abscesso retal"
+  }, {
+    "code": "X42.7",
+    "display": "Envenenamento [intoxicação] acidental por e exposição a narcóticos e psicodislépticos [alucinógenos] não classificados em outra"
   }, {
     "code": "X34.8",
     "display": "Vítima de terremoto - outros locais especificados"
@@ -13909,6 +13913,15 @@
     "code": "K41.3",
     "display": "Hérnia femoral unilateral ou não especificada, com obstrução, sem gangrena"
   }, {
+    "code": "X36.4",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - rua e estrada"
+  }, {
+    "code": "K51.0",
+    "display": "Enterocolite ulcerativa (crônica)"
+  }, {
+    "code": "X36.3",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - área para a prática de esportes e atleti"
+  }, {
     "code": "K42.9",
     "display": "Hérnia umbilical sem obstrução ou gangrena"
   }, {
@@ -13945,15 +13958,6 @@
     "code": "K43.0",
     "display": "Hérnia ventral com obstrução, sem gangrena"
   }, {
-    "code": "X36.4",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - rua e estrada"
-  }, {
-    "code": "K51.0",
-    "display": "Enterocolite ulcerativa (crônica)"
-  }, {
-    "code": "X36.3",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - área para a prática de esportes e atleti"
-  }, {
     "code": "K51",
     "display": "Colite ulcerativa"
   }, {
@@ -13962,63 +13966,6 @@
   }, {
     "code": "K50.9",
     "display": "Doença de Crohn de localização não especificada"
-  }, {
-    "code": "X36.6",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - áreas industriais e em construção"
-  }, {
-    "code": "K51.1",
-    "display": "Ileocolite ulcerativa (crônica)"
-  }, {
-    "code": "X36.5",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - áreas de comércio e de serviços"
-  }, {
-    "code": "K51.3",
-    "display": "Retossigmoidite ulcerativa (crônica)"
-  }, {
-    "code": "X36.7",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - fazenda"
-  }, {
-    "code": "K51.2",
-    "display": "Proctite ulcerativa (crônica)"
-  }, {
-    "code": "X35.9",
-    "display": "Vítima de erupção vulcânica - local não especificado"
-  }, {
-    "code": "K50",
-    "display": "Doença de Crohn [enterite regional]"
-  }, {
-    "code": "X35.8",
-    "display": "Vítima de erupção vulcânica - outros locais especificados"
-  }, {
-    "code": "X35.7",
-    "display": "Vítima de erupção vulcânica - fazenda"
-  }, {
-    "code": "K46.9",
-    "display": "Hérnia abdominal não especificada, sem obstrução ou gangrena"
-  }, {
-    "code": "X35.6",
-    "display": "Vítima de erupção vulcânica - áreas industriais e em construção"
-  }, {
-    "code": "K46.1",
-    "display": "Hérnia abdominal não especificada com gangrena"
-  }, {
-    "code": "K50.1",
-    "display": "Doença de Crohn do intestino grosso"
-  }, {
-    "code": "X36",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre"
-  }, {
-    "code": "K50.0",
-    "display": "Doença de Crohn do intestino delgado"
-  }, {
-    "code": "X36.1",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - habitação coletiva"
-  }, {
-    "code": "K50.8",
-    "display": "Outra forma de doença de Crohn"
-  }, {
-    "code": "X36.0",
-    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - residência"
   }, {
     "code": "X37.2",
     "display": "Vítima de tempestade cataclísmica - escolas, outras instituições e áreas de administração pública"
@@ -14037,6 +13984,15 @@
   }, {
     "code": "K52",
     "display": "Outras gastroenterites e colites não-infecciosas"
+  }, {
+    "code": "X36.6",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - áreas industriais e em construção"
+  }, {
+    "code": "K51.1",
+    "display": "Ileocolite ulcerativa (crônica)"
+  }, {
+    "code": "X36.5",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - áreas de comércio e de serviços"
   }, {
     "code": "K51.5",
     "display": "Proctocolite mucosa"
@@ -14058,6 +14014,15 @@
   }, {
     "code": "X37",
     "display": "Vítima de tempestade cataclísmica"
+  }, {
+    "code": "K51.3",
+    "display": "Retossigmoidite ulcerativa (crônica)"
+  }, {
+    "code": "X36.7",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - fazenda"
+  }, {
+    "code": "K51.2",
+    "display": "Proctite ulcerativa (crônica)"
   }, {
     "code": "X37.7",
     "display": "Vítima de tempestade cataclísmica - fazenda"
@@ -14086,6 +14051,15 @@
     "code": "K52.8",
     "display": "Outras gastroenterites e colites especificadas, não-infecciosas"
   }, {
+    "code": "X35.9",
+    "display": "Vítima de erupção vulcânica - local não especificado"
+  }, {
+    "code": "K50",
+    "display": "Doença de Crohn [enterite regional]"
+  }, {
+    "code": "X35.8",
+    "display": "Vítima de erupção vulcânica - outros locais especificados"
+  }, {
     "code": "K55",
     "display": "Transtornos vasculares do intestino"
   }, {
@@ -14094,6 +14068,36 @@
   }, {
     "code": "X37.9",
     "display": "Vítima de tempestade cataclísmica - local não especificado"
+  }, {
+    "code": "K50.1",
+    "display": "Doença de Crohn do intestino grosso"
+  }, {
+    "code": "X36",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre"
+  }, {
+    "code": "K50.0",
+    "display": "Doença de Crohn do intestino delgado"
+  }, {
+    "code": "X35.7",
+    "display": "Vítima de erupção vulcânica - fazenda"
+  }, {
+    "code": "K46.9",
+    "display": "Hérnia abdominal não especificada, sem obstrução ou gangrena"
+  }, {
+    "code": "X35.6",
+    "display": "Vítima de erupção vulcânica - áreas industriais e em construção"
+  }, {
+    "code": "K46.1",
+    "display": "Hérnia abdominal não especificada com gangrena"
+  }, {
+    "code": "X36.1",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - habitação coletiva"
+  }, {
+    "code": "K50.8",
+    "display": "Outra forma de doença de Crohn"
+  }, {
+    "code": "X36.0",
+    "display": "Vítima de avalanche, desabamento de terra e outros movimentos da superfície terrestre - residência"
   }, {
     "code": "K31.2",
     "display": "Estenose e estreitamento em ampulheta do estômago"
@@ -17320,6 +17324,42 @@
     "code": "W75.6",
     "display": "Sufocação e estrangulamento acidental na cama - áreas industriais e em construção"
   }, {
+    "code": "J14",
+    "display": "Pneumonia devida a Haemophilus infuenzae"
+  }, {
+    "code": "W77.2",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - escolas, outras instituições e áreas de adm"
+  }, {
+    "code": "J13",
+    "display": "Pneumonia devida a Streptococcus pneumoniae"
+  }, {
+    "code": "W77.4",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - rua e estrada"
+  }, {
+    "code": "J15",
+    "display": "Pneumonia bacteriana não classificada em outra parte"
+  }, {
+    "code": "W77.3",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - área para a prática de esportes e atletismo"
+  }, {
+    "code": "W77.1",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - habitação coletiva"
+  }, {
+    "code": "J12.9",
+    "display": "Pneumonia viral não especificada"
+  }, {
+    "code": "W77.0",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - residência"
+  }, {
+    "code": "W77.6",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - áreas industriais e em construção"
+  }, {
+    "code": "J15.0",
+    "display": "Pneumonia devida à Klebsiella pneumoniae"
+  }, {
+    "code": "W77.5",
+    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - áreas de comércio e de serviços"
+  }, {
     "code": "J12.2",
     "display": "Pneumonia devida à parainfluenza"
   }, {
@@ -17358,42 +17398,6 @@
   }, {
     "code": "W76.6",
     "display": "Outro enforcamento e estrangulamento acidental - áreas industriais e em construção"
-  }, {
-    "code": "J14",
-    "display": "Pneumonia devida a Haemophilus infuenzae"
-  }, {
-    "code": "W77.2",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - escolas, outras instituições e áreas de adm"
-  }, {
-    "code": "J13",
-    "display": "Pneumonia devida a Streptococcus pneumoniae"
-  }, {
-    "code": "W77.1",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - habitação coletiva"
-  }, {
-    "code": "J12.9",
-    "display": "Pneumonia viral não especificada"
-  }, {
-    "code": "W77.0",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - residência"
-  }, {
-    "code": "W77.4",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - rua e estrada"
-  }, {
-    "code": "J15",
-    "display": "Pneumonia bacteriana não classificada em outra parte"
-  }, {
-    "code": "W77.3",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - área para a prática de esportes e atletismo"
-  }, {
-    "code": "W77.6",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - áreas industriais e em construção"
-  }, {
-    "code": "J15.0",
-    "display": "Pneumonia devida à Klebsiella pneumoniae"
-  }, {
-    "code": "W77.5",
-    "display": "Risco a respiração devido a desmoronamento, queda de terra e de outras substâncias - áreas de comércio e de serviços"
   }, {
     "code": "I88.0",
     "display": "Linfadenite mesentérica não específica"
@@ -17629,36 +17633,6 @@
     "code": "W69.7",
     "display": "Afogamento e submersão em águas naturais - fazenda"
   }, {
-    "code": "I98.2",
-    "display": "Varizes esofagianas em doenças classificadas em outra parte"
-  }, {
-    "code": "W69.9",
-    "display": "Afogamento e submersão em águas naturais - local não especificado"
-  }, {
-    "code": "I98.1",
-    "display": "Transtornos cardiovasculares em outras doenças infecciosas e parasitárias classificadas em outra parte"
-  }, {
-    "code": "W69.5",
-    "display": "Afogamento e submersão em águas naturais - áreas de comércio e de serviços"
-  }, {
-    "code": "W69.4",
-    "display": "Afogamento e submersão em águas naturais - rua e estrada"
-  }, {
-    "code": "I97.8",
-    "display": "Outros transtornos do aparelho circulatório subseqüentes a procedimentos não classificados em outra parte"
-  }, {
-    "code": "W69.3",
-    "display": "Afogamento e submersão em águas naturais - área para a prática de esportes e atletismo"
-  }, {
-    "code": "I98",
-    "display": "Outros transtornos do aparelho circulatório em doenças classificadas em outra parte"
-  }, {
-    "code": "W69.6",
-    "display": "Afogamento e submersão em águas naturais - áreas industriais e em construção"
-  }, {
-    "code": "I97.9",
-    "display": "Transtornos do aparelho circulatório, subseqüentes a procedimento não especificado"
-  }, {
     "code": "W70.2",
     "display": "Afogamento e submersão conseqüentes a queda dentro de águas naturais - escolas, outras instituições e áreas de administração púb"
   }, {
@@ -17694,6 +17668,36 @@
   }, {
     "code": "J01",
     "display": "Sinusite aguda"
+  }, {
+    "code": "W69.5",
+    "display": "Afogamento e submersão em águas naturais - áreas de comércio e de serviços"
+  }, {
+    "code": "W69.4",
+    "display": "Afogamento e submersão em águas naturais - rua e estrada"
+  }, {
+    "code": "I97.8",
+    "display": "Outros transtornos do aparelho circulatório subseqüentes a procedimentos não classificados em outra parte"
+  }, {
+    "code": "W69.3",
+    "display": "Afogamento e submersão em águas naturais - área para a prática de esportes e atletismo"
+  }, {
+    "code": "I98",
+    "display": "Outros transtornos do aparelho circulatório em doenças classificadas em outra parte"
+  }, {
+    "code": "W69.6",
+    "display": "Afogamento e submersão em águas naturais - áreas industriais e em construção"
+  }, {
+    "code": "I97.9",
+    "display": "Transtornos do aparelho circulatório, subseqüentes a procedimento não especificado"
+  }, {
+    "code": "I98.2",
+    "display": "Varizes esofagianas em doenças classificadas em outra parte"
+  }, {
+    "code": "W69.9",
+    "display": "Afogamento e submersão em águas naturais - local não especificado"
+  }, {
+    "code": "I98.1",
+    "display": "Transtornos cardiovasculares em outras doenças infecciosas e parasitárias classificadas em outra parte"
   }, {
     "code": "I80.1",
     "display": "Flebite e tromboflebite da veia femural"
@@ -18267,15 +18271,6 @@
   }, {
     "code": "I77.2",
     "display": "Ruptura de artéria"
-  }, {
-    "code": "W57.1",
-    "display": "Mordeduras e picadas de inseto e de outros artrópodes, não-venenosos - habitação coletiva"
-  }, {
-    "code": "I77.1",
-    "display": "Estenose de artéria"
-  }, {
-    "code": "W57.0",
-    "display": "Mordeduras e picadas de inseto e de outros artrópodes, não-venenosos - residência"
   }, {
     "code": "I77.4",
     "display": "Síndrome de compressão da artéria celíaca"
@@ -19768,15 +19763,6 @@
     "code": "W30.1",
     "display": "Contato com maquinaria agrícola - habitação coletiva"
   }, {
-    "code": "I34.9",
-    "display": "Transtornos não-reumáticos da valva mitral, não especificados"
-  }, {
-    "code": "W30.0",
-    "display": "Contato com maquinaria agrícola - residência"
-  }, {
-    "code": "I34.8",
-    "display": "Outros transtornos não-reumáticos da valva mitral"
-  }, {
     "code": "W30.4",
     "display": "Contato com maquinaria agrícola - rua e estrada"
   }, {
@@ -19788,6 +19774,15 @@
   }, {
     "code": "I35.2",
     "display": "Estenose (da valva) aórtica com insuficiência"
+  }, {
+    "code": "I34.9",
+    "display": "Transtornos não-reumáticos da valva mitral, não especificados"
+  }, {
+    "code": "W30.0",
+    "display": "Contato com maquinaria agrícola - residência"
+  }, {
+    "code": "I34.8",
+    "display": "Outros transtornos não-reumáticos da valva mitral"
   }, {
     "code": "W30.5",
     "display": "Contato com maquinaria agrícola - áreas de comércio e de serviços"
@@ -20068,15 +20063,6 @@
     "code": "I25.2",
     "display": "Infarto antigo do miocárdio"
   }, {
-    "code": "W25.1",
-    "display": "Contato com vidro cortante - habitação coletiva"
-  }, {
-    "code": "W25.0",
-    "display": "Contato com vidro cortante - residência"
-  }, {
-    "code": "I25.1",
-    "display": "Doença aterosclerótica do coração"
-  }, {
     "code": "W25.4",
     "display": "Contato com vidro cortante - rua e estrada"
   }, {
@@ -20094,6 +20080,15 @@
   }, {
     "code": "I25.5",
     "display": "Miocardiopatia isquêmica"
+  }, {
+    "code": "W25.1",
+    "display": "Contato com vidro cortante - habitação coletiva"
+  }, {
+    "code": "W25.0",
+    "display": "Contato com vidro cortante - residência"
+  }, {
+    "code": "I25.1",
+    "display": "Doença aterosclerótica do coração"
   }, {
     "code": "W17.3",
     "display": "Outras quedas de um nível a outro - área para a prática de esportes e atletismo"
@@ -21564,6 +21559,9 @@
   }, {
     "code": "W00.5",
     "display": "Queda no mesmo nível envolvendo gelo e neve - áreas de comércio e de serviços"
+  }, {
+    "code": "H60.2",
+    "display": "Otite externa maligna"
   }, {
     "code": "W00.4",
     "display": "Queda no mesmo nível envolvendo gelo e neve - rua e estrada"
@@ -23365,15 +23363,6 @@
     "code": "H02.3",
     "display": "Blefarocalásia"
   }, {
-    "code": "V67.7",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um objeto fixo ou parado - pessoa viajando no exterior d"
-  }, {
-    "code": "H02.2",
-    "display": "Lagoftalmo"
-  }, {
-    "code": "V67.6",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um objeto fixo ou parado - passageiro traumatizado em um"
-  }, {
     "code": "V68.0",
     "display": "Ocupante de um veículo de transporte pesado traumatizado em um acidente de transporte sem colisão - condutor [motorista] traumat"
   }, {
@@ -23391,6 +23380,15 @@
   }, {
     "code": "H02.6",
     "display": "Xantelasma da pálpebra"
+  }, {
+    "code": "V67.7",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um objeto fixo ou parado - pessoa viajando no exterior d"
+  }, {
+    "code": "H02.2",
+    "display": "Lagoftalmo"
+  }, {
+    "code": "V67.6",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um objeto fixo ou parado - passageiro traumatizado em um"
   }, {
     "code": "G82.3",
     "display": "Tetraplegia flácida"
@@ -23626,50 +23624,14 @@
     "code": "G91.8",
     "display": "Outras formas de hidrocefalia"
   }, {
-    "code": "V62.9",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - ocupante não"
-  }, {
-    "code": "G93.1",
-    "display": "Lesão encefálica anóxica, não classificada em outra parte"
-  }, {
     "code": "V62.5",
     "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - condutor [mot"
-  }, {
-    "code": "V62.7",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - pessoa viajan"
   }, {
     "code": "G92",
     "display": "Encefalopatia tóxica"
   }, {
     "code": "V62.4",
     "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - pessoa trauma"
-  }, {
-    "code": "G93.0",
-    "display": "Cistos cerebrais"
-  }, {
-    "code": "V62.6",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - passageiro tr"
-  }, {
-    "code": "G93",
-    "display": "Outros transtornos do encéfalo"
-  }, {
-    "code": "G93.3",
-    "display": "Síndrome da fadiga pós-viral"
-  }, {
-    "code": "V63",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um automóvel [carro] ou uma caminhonete"
-  }, {
-    "code": "G93.2",
-    "display": "Hipertensão intracraniana benigna"
-  }, {
-    "code": "V63.1",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um automóvel [carro] ou uma caminhonete - passageiro tra"
-  }, {
-    "code": "G93.4",
-    "display": "Encefalopatia não especificada"
-  }, {
-    "code": "V63.0",
-    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um automóvel [carro] ou uma caminhonete - condutor [moto"
   }, {
     "code": "G91.2",
     "display": "Hidrocefalia de pressão normal"
@@ -23691,6 +23653,33 @@
   }, {
     "code": "V62.1",
     "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - passageiro tr"
+  }, {
+    "code": "V62.9",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - ocupante não"
+  }, {
+    "code": "G93.1",
+    "display": "Lesão encefálica anóxica, não classificada em outra parte"
+  }, {
+    "code": "V62.7",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - pessoa viajan"
+  }, {
+    "code": "G93.0",
+    "display": "Cistos cerebrais"
+  }, {
+    "code": "V62.6",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um veículo a motor de duas ou três rodas - passageiro tr"
+  }, {
+    "code": "G93",
+    "display": "Outros transtornos do encéfalo"
+  }, {
+    "code": "G93.3",
+    "display": "Síndrome da fadiga pós-viral"
+  }, {
+    "code": "V63",
+    "display": "Ocupante de um veículo de transporte pesado traumatizado em colisão com um automóvel [carro] ou uma caminhonete"
+  }, {
+    "code": "G93.2",
+    "display": "Hipertensão intracraniana benigna"
   }, {
     "code": "V54.9",
     "display": "Ocupante de uma caminhonete traumatizado em colisão com um veículo de transporte pesado ou um ônibus - ocupante não especificado"
@@ -26656,15 +26645,6 @@
     "code": "F60.1",
     "display": "Personalidade esquizóide"
   }, {
-    "code": "V06",
-    "display": "Pedestre traumatizado em colisão com outro veículo não-motorizado"
-  }, {
-    "code": "F60.9",
-    "display": "Transtorno não especificado da personalidade"
-  }, {
-    "code": "V05.9",
-    "display": "Pedestre traumatizado em colisão com trem [comboio] ou um veículo ferroviário - acidente não especificado se de trânsito ou não"
-  }, {
     "code": "F60.8",
     "display": "Outros transtornos específicos da personalidade"
   }, {
@@ -26673,6 +26653,24 @@
   }, {
     "code": "F60.7",
     "display": "Personalidade dependente"
+  }, {
+    "code": "V05.0",
+    "display": "Pedestre traumatizado em colisão com trem [comboio] ou um veículo ferroviário - acidente não-de-trânsito"
+  }, {
+    "code": "F60.6",
+    "display": "Personalidade ansiosa [esquiva]"
+  }, {
+    "code": "V05",
+    "display": "Pedestre traumatizado em colisão com trem [comboio] ou um veículo ferroviário"
+  }, {
+    "code": "V06",
+    "display": "Pedestre traumatizado em colisão com outro veículo não-motorizado"
+  }, {
+    "code": "F60.9",
+    "display": "Transtorno não especificado da personalidade"
+  }, {
+    "code": "V05.9",
+    "display": "Pedestre traumatizado em colisão com trem [comboio] ou um veículo ferroviário - acidente não especificado se de trânsito ou não"
   }, {
     "code": "F62",
     "display": "Modificações duradouras da personalidade não atribuíveis a lesão ou doença cerebral"
@@ -26842,9 +26840,6 @@
     "code": "F44.6",
     "display": "Anestesia e perda sensorial dissociativas"
   }, {
-    "code": "F45.4",
-    "display": "Transtorno doloroso somatoforme persistente"
-  }, {
     "code": "T92.5",
     "display": "Seqüelas de traumatismo de músculo e tendão do membro superior"
   }, {
@@ -26853,6 +26848,24 @@
   }, {
     "code": "T92.4",
     "display": "Seqüelas de traumatismo de nervo de membro superior"
+  }, {
+    "code": "T92.9",
+    "display": "Seqüelas de traumatismo não especificado do membro superior"
+  }, {
+    "code": "F44.8",
+    "display": "Outros transtornos dissociativos [de conversão]"
+  }, {
+    "code": "T92.8",
+    "display": "Seqüelas de outros traumatismos especificados do membro superior"
+  }, {
+    "code": "F45",
+    "display": "Transtornos somatoformes"
+  }, {
+    "code": "T93",
+    "display": "Seqüelas de traumatismos do membro inferior"
+  }, {
+    "code": "F44.9",
+    "display": "Transtorno dissociativo [de conversão] não especificado"
   }, {
     "code": "F44.1",
     "display": "Fuga dissociativa"
@@ -26893,6 +26906,15 @@
     "code": "F44.3",
     "display": "Estados de transe e de possessão"
   }, {
+    "code": "F45.4",
+    "display": "Transtorno doloroso somatoforme persistente"
+  }, {
+    "code": "T93.4",
+    "display": "Seqüelas de traumatismo de nervo do membro inferior"
+  }, {
+    "code": "F45.3",
+    "display": "Transtorno neurovegetativo somatoforme"
+  }, {
     "code": "T93.6",
     "display": "Seqüelas de esmagamento e amputação traumática do membro inferior"
   }, {
@@ -26901,33 +26923,6 @@
   }, {
     "code": "T93.5",
     "display": "Seqüelas de traumatismo de músculo e tendão do membro inferior"
-  }, {
-    "code": "F45",
-    "display": "Transtornos somatoformes"
-  }, {
-    "code": "T93",
-    "display": "Seqüelas de traumatismos do membro inferior"
-  }, {
-    "code": "F44.9",
-    "display": "Transtorno dissociativo [de conversão] não especificado"
-  }, {
-    "code": "T94",
-    "display": "Seqüelas de traumatismos envolvendo múltiplas regiões do corpo e as não especificadas"
-  }, {
-    "code": "F48.0",
-    "display": "Neurastenia"
-  }, {
-    "code": "T93.9",
-    "display": "Seqüelas de traumatismo não especificado do membro inferior"
-  }, {
-    "code": "F48",
-    "display": "Outros transtornos neuróticos"
-  }, {
-    "code": "T93.8",
-    "display": "Seqüelas de outros traumatismos especificados do membro inferior"
-  }, {
-    "code": "F45.9",
-    "display": "Transtorno somatoforme não especificado"
   }, {
     "code": "F45.1",
     "display": "Transtorno somatoforme indiferenciado"
@@ -26949,6 +26944,24 @@
   }, {
     "code": "T93.2",
     "display": "Seqüelas de outras fraturas do membro inferior"
+  }, {
+    "code": "T94",
+    "display": "Seqüelas de traumatismos envolvendo múltiplas regiões do corpo e as não especificadas"
+  }, {
+    "code": "F48.0",
+    "display": "Neurastenia"
+  }, {
+    "code": "T93.9",
+    "display": "Seqüelas de traumatismo não especificado do membro inferior"
+  }, {
+    "code": "F48",
+    "display": "Outros transtornos neuróticos"
+  }, {
+    "code": "T93.8",
+    "display": "Seqüelas de outros traumatismos especificados do membro inferior"
+  }, {
+    "code": "F45.9",
+    "display": "Transtorno somatoforme não especificado"
   }, {
     "code": "F48.8",
     "display": "Outros transtornos neuróticos especificados"
@@ -27400,15 +27413,6 @@
     "code": "F18.0",
     "display": "Transtornos mentais e comportamentais devidos ao uso de solventes voláteis - intoxicação aguda"
   }, {
-    "code": "F20.5",
-    "display": "Esquizofrenia residual"
-  }, {
-    "code": "T81.5",
-    "display": "Corpo estranho deixado acidentalmente em cavidade corporal ou em ferida operatória subseqüente a procedimento"
-  }, {
-    "code": "F20.4",
-    "display": "Depressão pós-esquizofrênica"
-  }, {
     "code": "F18.4",
     "display": "Transtornos mentais e comportamentais devidos ao uso de solventes voláteis - síndrome de abstinência com delirium"
   }, {
@@ -27427,23 +27431,14 @@
     "code": "T79.3",
     "display": "Infecção pós-traumática de ferimento não classificada em outra parte"
   }, {
-    "code": "F22.9",
-    "display": "Transtorno delirante persistente não especificado"
+    "code": "F20.5",
+    "display": "Esquizofrenia residual"
   }, {
-    "code": "T82.2",
-    "display": "Complicação mecânica de enxerto de ponte coronária e implantes de valvas"
+    "code": "T81.5",
+    "display": "Corpo estranho deixado acidentalmente em cavidade corporal ou em ferida operatória subseqüente a procedimento"
   }, {
-    "code": "F22.8",
-    "display": "Outros transtornos delirantes persistentes"
-  }, {
-    "code": "F20",
-    "display": "Esquizofrenia"
-  }, {
-    "code": "T81",
-    "display": "Complicações de procedimentos não classificadas em outra parte"
-  }, {
-    "code": "F19.9",
-    "display": "Transtornos mentais e comportamentais devidos ao uso de múltiplas drogas e ao uso de outras substâncias psicoativas - transtorno"
+    "code": "F20.4",
+    "display": "Depressão pós-esquizofrênica"
   }, {
     "code": "T81.4",
     "display": "Infecção subseqüente a procedimento não classificada em outra parte"
@@ -27454,15 +27449,6 @@
     "code": "T81.3",
     "display": "Deiscência de ferida cirúrgica não classificada em outra parte"
   }, {
-    "code": "T82.4",
-    "display": "Complicação mecânica de cateter vascular de diálise"
-  }, {
-    "code": "F23",
-    "display": "Transtornos psicóticos agudos e transitórios"
-  }, {
-    "code": "T82.3",
-    "display": "Complicações mecânicas de outros enxertos vasculares"
-  }, {
     "code": "T81.7",
     "display": "Complicações vasculares subseqüentes a um procedimento não classificado em outra parte"
   }, {
@@ -27471,6 +27457,24 @@
   }, {
     "code": "T81.6",
     "display": "Reação aguda à substância estranha deixada acidentalmente durante um procedimento"
+  }, {
+    "code": "F20.9",
+    "display": "Esquizofrenia não especificada"
+  }, {
+    "code": "T81.8",
+    "display": "Outras complicações de procedimentos não classificadas em outra parte"
+  }, {
+    "code": "F20.8",
+    "display": "Outras esquizofrenias"
+  }, {
+    "code": "F20",
+    "display": "Esquizofrenia"
+  }, {
+    "code": "T81",
+    "display": "Complicações de procedimentos não classificadas em outra parte"
+  }, {
+    "code": "F19.9",
+    "display": "Transtornos mentais e comportamentais devidos ao uso de múltiplas drogas e ao uso de outras substâncias psicoativas - transtorno"
   }, {
     "code": "T80.9",
     "display": "Complicação não especificada subseqüente à infusão, transfusão e injeção terapêutica"
@@ -27484,14 +27488,41 @@
     "code": "F19.7",
     "display": "Transtornos mentais e comportamentais devidos ao uso de múltiplas drogas e ao uso de outras substâncias psicoativas - transtorno"
   }, {
-    "code": "F20.9",
-    "display": "Esquizofrenia não especificada"
+    "code": "T81.1",
+    "display": "Choque durante ou resultante de procedimento não classificado em outra parte"
   }, {
-    "code": "T81.8",
-    "display": "Outras complicações de procedimentos não classificadas em outra parte"
+    "code": "F20.0",
+    "display": "Esquizofrenia paranóide"
   }, {
-    "code": "F20.8",
-    "display": "Outras esquizofrenias"
+    "code": "T81.0",
+    "display": "Hemorragia e hematoma complicando procedimento não classificado em outra parte"
+  }, {
+    "code": "F20.2",
+    "display": "Esquizofrenia catatônica"
+  }, {
+    "code": "T81.2",
+    "display": "Perfuração e laceração acidentais durante um procedimento não classificado em outra parte"
+  }, {
+    "code": "F20.1",
+    "display": "Esquizofrenia hebefrênica"
+  }, {
+    "code": "F22.9",
+    "display": "Transtorno delirante persistente não especificado"
+  }, {
+    "code": "T82.2",
+    "display": "Complicação mecânica de enxerto de ponte coronária e implantes de valvas"
+  }, {
+    "code": "F22.8",
+    "display": "Outros transtornos delirantes persistentes"
+  }, {
+    "code": "T82.4",
+    "display": "Complicação mecânica de cateter vascular de diálise"
+  }, {
+    "code": "F23",
+    "display": "Transtornos psicóticos agudos e transitórios"
+  }, {
+    "code": "T82.3",
+    "display": "Complicações mecânicas de outros enxertos vasculares"
   }, {
     "code": "F22",
     "display": "Transtornos delirantes persistentes"
@@ -27505,15 +27536,6 @@
     "code": "T81.9",
     "display": "Complicação não especificada de procedimento"
   }, {
-    "code": "T81.1",
-    "display": "Choque durante ou resultante de procedimento não classificado em outra parte"
-  }, {
-    "code": "F20.0",
-    "display": "Esquizofrenia paranóide"
-  }, {
-    "code": "T81.0",
-    "display": "Hemorragia e hematoma complicando procedimento não classificado em outra parte"
-  }, {
     "code": "T82.1",
     "display": "Complicação mecânica de dispositivo eletrônico cardíaco"
   }, {
@@ -27522,15 +27544,6 @@
   }, {
     "code": "T82.0",
     "display": "Complicação mecânica de prótese valvular cardíaca"
-  }, {
-    "code": "F20.2",
-    "display": "Esquizofrenia catatônica"
-  }, {
-    "code": "T81.2",
-    "display": "Perfuração e laceração acidentais durante um procedimento não classificado em outra parte"
-  }, {
-    "code": "F20.1",
-    "display": "Esquizofrenia hebefrênica"
   }, {
     "code": "T82.7",
     "display": "Infecção e reação inflamatórias devidas a outros dispositivos, implantes e enxertos cardíacos e vasculares"
@@ -28282,15 +28295,6 @@
     "code": "T51.1",
     "display": "Efeito tóxico do metanol"
   }, {
-    "code": "F02",
-    "display": "Demência em outras doenças classificadas em outra parte"
-  }, {
-    "code": "T56.1",
-    "display": "Efeito tóxico do mercúrio e seus compostos"
-  }, {
-    "code": "T56.0",
-    "display": "Efeito tóxico do chumbo e seus compostos"
-  }, {
     "code": "T52.1",
     "display": "Efeito tóxico do benzeno"
   }, {
@@ -28326,6 +28330,15 @@
   }, {
     "code": "T52.3",
     "display": "Efeito tóxico de glicóis"
+  }, {
+    "code": "F02",
+    "display": "Demência em outras doenças classificadas em outra parte"
+  }, {
+    "code": "T56.1",
+    "display": "Efeito tóxico do mercúrio e seus compostos"
+  }, {
+    "code": "T56.0",
+    "display": "Efeito tóxico do chumbo e seus compostos"
   }, {
     "code": "F01.9",
     "display": "Demência vascular não especificada"
@@ -28375,15 +28388,6 @@
     "code": "T54",
     "display": "Efeito tóxico de corrosivos"
   }, {
-    "code": "F04",
-    "display": "Síndrome amnésica orgânica não induzida pelo álcool ou por outras substâncias psicoativas"
-  }, {
-    "code": "T56.9",
-    "display": "Efeito tóxico de metal, não especificado"
-  }, {
-    "code": "F03",
-    "display": "Demência não especificada"
-  }, {
     "code": "F01.2",
     "display": "Demência vascular subcortical"
   }, {
@@ -28402,6 +28406,15 @@
     "code": "T54.9",
     "display": "Efeito tóxico de substância corrosiva não especificada"
   }, {
+    "code": "F04",
+    "display": "Síndrome amnésica orgânica não induzida pelo álcool ou por outras substâncias psicoativas"
+  }, {
+    "code": "T56.9",
+    "display": "Efeito tóxico de metal, não especificado"
+  }, {
+    "code": "F03",
+    "display": "Demência não especificada"
+  }, {
     "code": "T57.0",
     "display": "Efeito tóxico do arsênico e seus compostos"
   }, {
@@ -28410,6 +28423,27 @@
   }, {
     "code": "T57",
     "display": "Efeito tóxico de outras substâncias inorgânicas"
+  }, {
+    "code": "F02.4",
+    "display": "Demência na doença pelo vírus da imunodeficiência humana [HIV]"
+  }, {
+    "code": "T56.6",
+    "display": "Efeito tóxico do estanho e seus compostos"
+  }, {
+    "code": "F02.3",
+    "display": "Demência na doença de Parkinson"
+  }, {
+    "code": "T56.5",
+    "display": "Efeito tóxico do zinco e seus compostos"
+  }, {
+    "code": "T56.8",
+    "display": "Efeito tóxico de outros metais"
+  }, {
+    "code": "F02.8",
+    "display": "Demência em outras doenças especificadas classificadas em outra parte"
+  }, {
+    "code": "T56.7",
+    "display": "Efeito tóxico do berilo e seus compostos"
   }, {
     "code": "T57.3",
     "display": "Efeito tóxico do cianeto de hidrogênio (ácido cianídrico)"
@@ -28429,18 +28463,6 @@
     "code": "F05.0",
     "display": "Delirium não superposto a uma demência, assim descrito"
   }, {
-    "code": "F02.4",
-    "display": "Demência na doença pelo vírus da imunodeficiência humana [HIV]"
-  }, {
-    "code": "T56.6",
-    "display": "Efeito tóxico do estanho e seus compostos"
-  }, {
-    "code": "F02.3",
-    "display": "Demência na doença de Parkinson"
-  }, {
-    "code": "T56.5",
-    "display": "Efeito tóxico do zinco e seus compostos"
-  }, {
     "code": "F06",
     "display": "Outros transtornos mentais devidos a lesão e disfunção cerebral e a doença física"
   }, {
@@ -28458,15 +28480,6 @@
   }, {
     "code": "T57.9",
     "display": "Efeito tóxico de substância inorgânica não especificada"
-  }, {
-    "code": "T56.8",
-    "display": "Efeito tóxico de outros metais"
-  }, {
-    "code": "F02.8",
-    "display": "Demência em outras doenças especificadas classificadas em outra parte"
-  }, {
-    "code": "T56.7",
-    "display": "Efeito tóxico do berilo e seus compostos"
   }, {
     "code": "E80.4",
     "display": "Síndrome de Gilbert"
@@ -28627,72 +28640,6 @@
     "code": "T49.4",
     "display": "Intoxicação por ceratolíticos, ceratoplásticos e outras drogas e preparados para o tratamento dos cabelos"
   }, {
-    "code": "T49.3",
-    "display": "Intoxicação por emolientes, demulcentes e protetores"
-  }, {
-    "code": "E84.1",
-    "display": "Fibrose cística com manifestações intestinais"
-  }, {
-    "code": "T49.2",
-    "display": "Intoxicação por adstringentes e detergentes de uso local"
-  }, {
-    "code": "T49.6",
-    "display": "Intoxicação por drogas e preparações de uso otorrinolaringológico"
-  }, {
-    "code": "E85",
-    "display": "Amiloidose"
-  }, {
-    "code": "T49.5",
-    "display": "Intoxicação por drogas e preparações de uso oftalmológico"
-  }, {
-    "code": "T49.8",
-    "display": "Intoxicação por outras drogas de uso tópico"
-  }, {
-    "code": "T49.7",
-    "display": "Intoxicação por drogas dentárias de uso tópico"
-  }, {
-    "code": "E85.0",
-    "display": "Amiloidose heredofamiliar não-neuropática"
-  }, {
-    "code": "E83.8",
-    "display": "Outros distúrbios do metabolismo mineral"
-  }, {
-    "code": "T48.7",
-    "display": "Intoxicação por outras substâncias e as não especificadas que atuam primariamente sobre o aparelho respiratório"
-  }, {
-    "code": "E83.5",
-    "display": "Distúrbios do metabolismo do cálcio"
-  }, {
-    "code": "T48.6",
-    "display": "Intoxicação por antiasmáticos não classificados em outra parte"
-  }, {
-    "code": "E83.4",
-    "display": "Distúrbios do metabolismo do magnésio"
-  }, {
-    "code": "T48.5",
-    "display": "Intoxicação por drogas anti-resfriado"
-  }, {
-    "code": "E83.3",
-    "display": "Distúrbios do metabolismo do fósforo"
-  }, {
-    "code": "T49.0",
-    "display": "Intoxicação por antifúngicos, antiinfecciosos e antiinflamatórios de uso tópico, não classificados em outra parte"
-  }, {
-    "code": "E83.9",
-    "display": "Distúrbio não especificado do metabolismo mineral"
-  }, {
-    "code": "T49",
-    "display": "Intoxicação por substâncias de uso tópico que atuam primariamente sobre a pele e as mucosas e por medicamentos utilizados em oft"
-  }, {
-    "code": "E84.0",
-    "display": "Fibrose cística com manifestações pulmonares"
-  }, {
-    "code": "T49.1",
-    "display": "Intoxicação por antipruriginosos"
-  }, {
-    "code": "E84",
-    "display": "Fibrose cística"
-  }, {
     "code": "T50.2",
     "display": "Intoxicação por inibidores da anidrase carbônica, benzotiazidas e outros diuréticos"
   }, {
@@ -28767,6 +28714,72 @@
   }, {
     "code": "E87.3",
     "display": "Alcalose"
+  }, {
+    "code": "T49.3",
+    "display": "Intoxicação por emolientes, demulcentes e protetores"
+  }, {
+    "code": "E84.1",
+    "display": "Fibrose cística com manifestações intestinais"
+  }, {
+    "code": "T49.2",
+    "display": "Intoxicação por adstringentes e detergentes de uso local"
+  }, {
+    "code": "T49.6",
+    "display": "Intoxicação por drogas e preparações de uso otorrinolaringológico"
+  }, {
+    "code": "E85",
+    "display": "Amiloidose"
+  }, {
+    "code": "T49.5",
+    "display": "Intoxicação por drogas e preparações de uso oftalmológico"
+  }, {
+    "code": "T49.8",
+    "display": "Intoxicação por outras drogas de uso tópico"
+  }, {
+    "code": "T49.7",
+    "display": "Intoxicação por drogas dentárias de uso tópico"
+  }, {
+    "code": "E85.0",
+    "display": "Amiloidose heredofamiliar não-neuropática"
+  }, {
+    "code": "E83.8",
+    "display": "Outros distúrbios do metabolismo mineral"
+  }, {
+    "code": "T48.7",
+    "display": "Intoxicação por outras substâncias e as não especificadas que atuam primariamente sobre o aparelho respiratório"
+  }, {
+    "code": "E83.5",
+    "display": "Distúrbios do metabolismo do cálcio"
+  }, {
+    "code": "T48.6",
+    "display": "Intoxicação por antiasmáticos não classificados em outra parte"
+  }, {
+    "code": "E83.4",
+    "display": "Distúrbios do metabolismo do magnésio"
+  }, {
+    "code": "T48.5",
+    "display": "Intoxicação por drogas anti-resfriado"
+  }, {
+    "code": "E83.3",
+    "display": "Distúrbios do metabolismo do fósforo"
+  }, {
+    "code": "T49.0",
+    "display": "Intoxicação por antifúngicos, antiinfecciosos e antiinflamatórios de uso tópico, não classificados em outra parte"
+  }, {
+    "code": "E83.9",
+    "display": "Distúrbio não especificado do metabolismo mineral"
+  }, {
+    "code": "T49",
+    "display": "Intoxicação por substâncias de uso tópico que atuam primariamente sobre a pele e as mucosas e por medicamentos utilizados em oft"
+  }, {
+    "code": "E84.0",
+    "display": "Fibrose cística com manifestações pulmonares"
+  }, {
+    "code": "T49.1",
+    "display": "Intoxicação por antipruriginosos"
+  }, {
+    "code": "E84",
+    "display": "Fibrose cística"
   }, {
     "code": "T43.0",
     "display": "Intoxicação por antidepressivos tricíclicos e tetracíclicos"
@@ -29593,15 +29606,6 @@
     "code": "T34",
     "display": "Geladura com necrose de tecidos"
   }, {
-    "code": "E56",
-    "display": "Outras deficiências vitamínicas"
-  }, {
-    "code": "T35.4",
-    "display": "Geladura, de grau não especificado, do membro superior"
-  }, {
-    "code": "E55.9",
-    "display": "Deficiência não especificada de vitamina D"
-  }, {
     "code": "T35.0",
     "display": "Geladura superficial envolvendo múltiplas partes do corpo"
   }, {
@@ -29641,6 +29645,24 @@
     "code": "E53.1",
     "display": "Deficiência de piridoxina"
   }, {
+    "code": "E56",
+    "display": "Outras deficiências vitamínicas"
+  }, {
+    "code": "T35.4",
+    "display": "Geladura, de grau não especificado, do membro superior"
+  }, {
+    "code": "E55.9",
+    "display": "Deficiência não especificada de vitamina D"
+  }, {
+    "code": "T35.3",
+    "display": "Geladura, de grau não especificado, do tórax, abdome, parte inferior do dorso e da pelve"
+  }, {
+    "code": "E55.0",
+    "display": "Raquitismo ativo"
+  }, {
+    "code": "T35.2",
+    "display": "Geladura, de grau não especificado, da cabeça e do pescoço"
+  }, {
     "code": "T35.6",
     "display": "Geladura, de grau não especificado, de múltiplas partes do corpo"
   }, {
@@ -29658,15 +29680,6 @@
   }, {
     "code": "E56.1",
     "display": "Deficiência de vitamina K"
-  }, {
-    "code": "T35.3",
-    "display": "Geladura, de grau não especificado, do tórax, abdome, parte inferior do dorso e da pelve"
-  }, {
-    "code": "E55.0",
-    "display": "Raquitismo ativo"
-  }, {
-    "code": "T35.2",
-    "display": "Geladura, de grau não especificado, da cabeça e do pescoço"
   }, {
     "code": "T27.6",
     "display": "Corrosão de outras partes do trato respiratório"
@@ -31141,15 +31154,6 @@
     "code": "D86.1",
     "display": "Sarcoidose dos gânglios linfáticos"
   }, {
-    "code": "T04.1",
-    "display": "Traumatismos por esmagamento envolvendo tórax com o abdome, parte inferior do dorso e da pelve"
-  }, {
-    "code": "D86.0",
-    "display": "Sarcoidose do pulmão"
-  }, {
-    "code": "T04.0",
-    "display": "Traumatismos por esmagamento envolvendo a cabeça com o pescoço"
-  }, {
     "code": "T04.4",
     "display": "Traumatismos por esmagamento envolvendo regiões múltiplas do(s) membro(s) superior(es) com inferior(es)"
   }, {
@@ -31167,6 +31171,15 @@
   }, {
     "code": "D86.8",
     "display": "Sarcoidose de outros locais especificados e locais combinados"
+  }, {
+    "code": "T04.1",
+    "display": "Traumatismos por esmagamento envolvendo tórax com o abdome, parte inferior do dorso e da pelve"
+  }, {
+    "code": "D86.0",
+    "display": "Sarcoidose do pulmão"
+  }, {
+    "code": "T04.0",
+    "display": "Traumatismos por esmagamento envolvendo a cabeça com o pescoço"
   }, {
     "code": "D69.6",
     "display": "Trombocitopenia não especificada"
@@ -31927,72 +31940,6 @@
     "code": "S81.0",
     "display": "Ferimento do joelho"
   }, {
-    "code": "D53.1",
-    "display": "Outras anemias megaloblásticas não classificadas em outras partes"
-  }, {
-    "code": "S81",
-    "display": "Ferimento da perna"
-  }, {
-    "code": "D53.0",
-    "display": "Anemia por deficiência de proteínas"
-  }, {
-    "code": "D53.9",
-    "display": "Anemia nutricional não especificada"
-  }, {
-    "code": "S81.8",
-    "display": "Ferimento de outras partes da perna"
-  }, {
-    "code": "D53.8",
-    "display": "Outras anemias nutricionais especificadas"
-  }, {
-    "code": "S82",
-    "display": "Fratura da perna, incluindo tornozelo"
-  }, {
-    "code": "D55",
-    "display": "Anemia devida a transtornos enzimáticos"
-  }, {
-    "code": "S81.9",
-    "display": "Ferimento da perna, parte não especificada"
-  }, {
-    "code": "S80.1",
-    "display": "Contusão de outras partes e de partes não especificadas da perna"
-  }, {
-    "code": "D52.1",
-    "display": "Anemia por deficiência de folato induzida por drogas"
-  }, {
-    "code": "S80.0",
-    "display": "Contusão do joelho"
-  }, {
-    "code": "D52.0",
-    "display": "Anemia por deficiência de folato na dieta"
-  }, {
-    "code": "S80",
-    "display": "Traumatismo superficial da perna"
-  }, {
-    "code": "D52",
-    "display": "Anemia por deficiência de folato"
-  }, {
-    "code": "S79.9",
-    "display": "Traumatismo não especificado do quadril e da coxa"
-  }, {
-    "code": "D52.9",
-    "display": "Anemia por deficiência de folato não especificada"
-  }, {
-    "code": "S80.7",
-    "display": "Traumatismos superficiais múltiplos da perna"
-  }, {
-    "code": "D52.8",
-    "display": "Outras anemias por deficiência de folato"
-  }, {
-    "code": "S80.9",
-    "display": "Traumatismo superficial não especificado da perna"
-  }, {
-    "code": "D53",
-    "display": "Outras anemias nutricionais"
-  }, {
-    "code": "S80.8",
-    "display": "Outros traumatismos superficiais da perna"
-  }, {
     "code": "S82.4",
     "display": "Fratura do perônio [fíbula]"
   }, {
@@ -32032,14 +31979,77 @@
     "code": "D55.2",
     "display": "Anemia devida a transtornos das enzimas glicolíticas"
   }, {
+    "code": "S80.1",
+    "display": "Contusão de outras partes e de partes não especificadas da perna"
+  }, {
+    "code": "D52.1",
+    "display": "Anemia por deficiência de folato induzida por drogas"
+  }, {
+    "code": "S80.0",
+    "display": "Contusão do joelho"
+  }, {
+    "code": "D53.9",
+    "display": "Anemia nutricional não especificada"
+  }, {
+    "code": "S81.8",
+    "display": "Ferimento de outras partes da perna"
+  }, {
+    "code": "D53.8",
+    "display": "Outras anemias nutricionais especificadas"
+  }, {
     "code": "D56.2",
     "display": "Talassemia delta-beta"
   }, {
     "code": "S82.8",
     "display": "Fratura de outras partes da perna"
   }, {
-    "code": "D56.1",
-    "display": "Talassemia beta"
+    "code": "S82",
+    "display": "Fratura da perna, incluindo tornozelo"
+  }, {
+    "code": "D55",
+    "display": "Anemia devida a transtornos enzimáticos"
+  }, {
+    "code": "S81.9",
+    "display": "Ferimento da perna, parte não especificada"
+  }, {
+    "code": "D53.1",
+    "display": "Outras anemias megaloblásticas não classificadas em outras partes"
+  }, {
+    "code": "S81",
+    "display": "Ferimento da perna"
+  }, {
+    "code": "D53.0",
+    "display": "Anemia por deficiência de proteínas"
+  }, {
+    "code": "D52.9",
+    "display": "Anemia por deficiência de folato não especificada"
+  }, {
+    "code": "S80.7",
+    "display": "Traumatismos superficiais múltiplos da perna"
+  }, {
+    "code": "D52.8",
+    "display": "Outras anemias por deficiência de folato"
+  }, {
+    "code": "S80.9",
+    "display": "Traumatismo superficial não especificado da perna"
+  }, {
+    "code": "D53",
+    "display": "Outras anemias nutricionais"
+  }, {
+    "code": "S80.8",
+    "display": "Outros traumatismos superficiais da perna"
+  }, {
+    "code": "D52.0",
+    "display": "Anemia por deficiência de folato na dieta"
+  }, {
+    "code": "S80",
+    "display": "Traumatismo superficial da perna"
+  }, {
+    "code": "D52",
+    "display": "Anemia por deficiência de folato"
+  }, {
+    "code": "S79.9",
+    "display": "Traumatismo não especificado do quadril e da coxa"
   }, {
     "code": "S82.7",
     "display": "Fraturas múltiplas da perna"
@@ -32050,15 +32060,6 @@
     "code": "S82.6",
     "display": "Fratura do maléolo lateral"
   }, {
-    "code": "D56.8",
-    "display": "Outras talassemias"
-  }, {
-    "code": "S83.0",
-    "display": "Luxação da rótula [patela]"
-  }, {
-    "code": "D56.4",
-    "display": "Persistência hereditária de hemoglobina fetal"
-  }, {
     "code": "S83",
     "display": "Luxação, entorse e distensão das articulações e dos ligamentos do joelho"
   }, {
@@ -32067,6 +32068,15 @@
   }, {
     "code": "S82.9",
     "display": "Fratura da perna, parte não especificada"
+  }, {
+    "code": "D56.8",
+    "display": "Outras talassemias"
+  }, {
+    "code": "S83.0",
+    "display": "Luxação da rótula [patela]"
+  }, {
+    "code": "D56.4",
+    "display": "Persistência hereditária de hemoglobina fetal"
   }, {
     "code": "D42.9",
     "display": "Neoplasia de comportamento incerto ou desconhecido de meninges não especificadas"
@@ -32641,15 +32651,6 @@
     "code": "D39.1",
     "display": "Neoplasia de comportamento incerto ou desconhecido do ovário"
   }, {
-    "code": "S66.4",
-    "display": "Traumatismo do músculo intrínseco e tendão do polegar ao nível do punho e da mão"
-  }, {
-    "code": "D39.7",
-    "display": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais femininos"
-  }, {
-    "code": "S66.3",
-    "display": "Traumatismo do músculo extensor e tendão de outro dedo ao nível do punho e da mão"
-  }, {
     "code": "D39",
     "display": "Neoplasia de comportamento incerto ou desconhecido dos órgãos genitais femininos"
   }, {
@@ -32658,6 +32659,15 @@
   }, {
     "code": "D38.6",
     "display": "Neoplasia de comportamento incerto ou desconhecido de órgão respiratório, não especificado"
+  }, {
+    "code": "S66.4",
+    "display": "Traumatismo do músculo intrínseco e tendão do polegar ao nível do punho e da mão"
+  }, {
+    "code": "D39.7",
+    "display": "Neoplasia de comportamento incerto ou desconhecido de outros órgãos genitais femininos"
+  }, {
+    "code": "S66.3",
+    "display": "Traumatismo do músculo extensor e tendão de outro dedo ao nível do punho e da mão"
   }, {
     "code": "S65.5",
     "display": "Traumatismo de vaso(s) sangüíneo(s) de outro dedo"
@@ -34363,14 +34373,14 @@
     "code": "C88.9",
     "display": "Doença imunoproliferativa maligna, não especificada"
   }, {
-    "code": "C92.0",
-    "display": "Leucemia mielóide aguda"
+    "code": "S22",
+    "display": "Fratura de costela(s), esterno e coluna torácica"
   }, {
-    "code": "S23.5",
-    "display": "Entorse e distensão de outras partes do tórax e de partes não especificadas"
+    "code": "C88.7",
+    "display": "Outras doenças imunoproliferativas malignas"
   }, {
-    "code": "C92",
-    "display": "Leucemia mielóide"
+    "code": "S21.9",
+    "display": "Ferimento do tórax parte não especificada"
   }, {
     "code": "C88.3",
     "display": "Doença imunoproliferativa do intestino delgado"
@@ -34392,6 +34402,45 @@
   }, {
     "code": "C90.1",
     "display": "Leucemia plasmocitária"
+  }, {
+    "code": "C92.0",
+    "display": "Leucemia mielóide aguda"
+  }, {
+    "code": "S23.5",
+    "display": "Entorse e distensão de outras partes do tórax e de partes não especificadas"
+  }, {
+    "code": "C92",
+    "display": "Leucemia mielóide"
+  }, {
+    "code": "S24.0",
+    "display": "Concussão e edema da medula espinhal torácica"
+  }, {
+    "code": "C92.1",
+    "display": "Leucemia mielóide crônica"
+  }, {
+    "code": "S24",
+    "display": "Traumatismos de nervos e da medula espinhal ao nível do tórax"
+  }, {
+    "code": "C91.7",
+    "display": "Outras leucemias linfóides"
+  }, {
+    "code": "S23.2",
+    "display": "Luxação de outras partes do tórax e das não especificadas"
+  }, {
+    "code": "C91.5",
+    "display": "Leucemia de células T do adulto"
+  }, {
+    "code": "S23.1",
+    "display": "Luxação de vértebra torácica"
+  }, {
+    "code": "S23.4",
+    "display": "Entorse e distensão das costelas e do esterno"
+  }, {
+    "code": "C91.9",
+    "display": "Leucemia linfóide, não especificada"
+  }, {
+    "code": "S23.3",
+    "display": "Entorse e distensão da coluna torácica"
   }, {
     "code": "S24.3",
     "display": "Traumatismo de nervos periféricos do tórax"
@@ -34428,36 +34477,6 @@
   }, {
     "code": "S24.5",
     "display": "Traumatismo de outros nervos do tórax"
-  }, {
-    "code": "S24.0",
-    "display": "Concussão e edema da medula espinhal torácica"
-  }, {
-    "code": "C92.1",
-    "display": "Leucemia mielóide crônica"
-  }, {
-    "code": "S24",
-    "display": "Traumatismos de nervos e da medula espinhal ao nível do tórax"
-  }, {
-    "code": "C91.7",
-    "display": "Outras leucemias linfóides"
-  }, {
-    "code": "S23.2",
-    "display": "Luxação de outras partes do tórax e das não especificadas"
-  }, {
-    "code": "C91.5",
-    "display": "Leucemia de células T do adulto"
-  }, {
-    "code": "S23.1",
-    "display": "Luxação de vértebra torácica"
-  }, {
-    "code": "S23.4",
-    "display": "Entorse e distensão das costelas e do esterno"
-  }, {
-    "code": "C91.9",
-    "display": "Leucemia linfóide, não especificada"
-  }, {
-    "code": "S23.3",
-    "display": "Entorse e distensão da coluna torácica"
   }, {
     "code": "S11.2",
     "display": "Ferimento envolvendo a faringe e o esôfago cervical"
@@ -35284,15 +35303,6 @@
     "code": "S00.9",
     "display": "Traumatismo superficial da cabeça, parte não especificada"
   }, {
-    "code": "C69",
-    "display": "Neoplasia maligna do olho e anexos"
-  }, {
-    "code": "S02.4",
-    "display": "Fratura dos ossos malares e maxilares"
-  }, {
-    "code": "C68.9",
-    "display": "Neoplasia maligna de órgão urinário, não especificado"
-  }, {
     "code": "S02.0",
     "display": "Fratura da abóbada do crânio"
   }, {
@@ -35332,6 +35342,24 @@
     "code": "C67.8",
     "display": "Neoplasia maligna da bexiga com lesão invasiva"
   }, {
+    "code": "C69",
+    "display": "Neoplasia maligna do olho e anexos"
+  }, {
+    "code": "S02.4",
+    "display": "Fratura dos ossos malares e maxilares"
+  }, {
+    "code": "C68.9",
+    "display": "Neoplasia maligna de órgão urinário, não especificado"
+  }, {
+    "code": "S02.3",
+    "display": "Fratura do assoalho orbital"
+  }, {
+    "code": "C68.8",
+    "display": "Neoplasia maligna dos órgãos urinários com lesão invasiva"
+  }, {
+    "code": "S02.2",
+    "display": "Fratura dos ossos nasais"
+  }, {
     "code": "S02.6",
     "display": "Fratura de mandíbula"
   }, {
@@ -35349,15 +35377,6 @@
   }, {
     "code": "C69.1",
     "display": "Neoplasia maligna da córnea"
-  }, {
-    "code": "S02.3",
-    "display": "Fratura do assoalho orbital"
-  }, {
-    "code": "C68.8",
-    "display": "Neoplasia maligna dos órgãos urinários com lesão invasiva"
-  }, {
-    "code": "S02.2",
-    "display": "Fratura dos ossos nasais"
   }, {
     "code": "C49.9",
     "display": "Neoplasia maligna do tecido conjuntivo e tecidos moles, não especificados"
@@ -35518,44 +35537,32 @@
     "code": "C51.9",
     "display": "Neoplasia maligna da vulva, não especificada"
   }, {
-    "code": "C54.1",
-    "display": "Neoplasia maligna do endométrio"
+    "code": "R89.2",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - nível anormal de outras drogas, medic"
   }, {
-    "code": "C54.0",
-    "display": "Neoplasia maligna do istmo do útero"
+    "code": "C51.8",
+    "display": "Neoplasia maligna da vulva com lesão invasiva"
   }, {
-    "code": "R90.0",
-    "display": "Lesão intracraniana ocupando espaço"
+    "code": "R89.1",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - nível hormonal anormal"
   }, {
-    "code": "R91",
-    "display": "Achados anormais, de exames para diagnóstico por imagem, do pulmão"
+    "code": "R89.5",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados microbiológicos anormais"
   }, {
-    "code": "C54.2",
-    "display": "Neoplasia maligna do miométrio"
+    "code": "C53",
+    "display": "Neoplasia maligna do colo do útero"
   }, {
-    "code": "R90.8",
-    "display": "Outros resultados anormais de exames para diagnóstico por imagem do sistema nervoso central"
+    "code": "R89.4",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados imunológicos anormais"
   }, {
-    "code": "R89.9",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achado anormal não especificado"
+    "code": "C53.1",
+    "display": "Neoplasia maligna do exocérvix"
   }, {
-    "code": "C53.8",
-    "display": "Neoplasia maligna do colo do útero com lesão invasiva"
+    "code": "R89.6",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados citológicos anormais"
   }, {
-    "code": "R89.8",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - outros achados anormais"
-  }, {
-    "code": "R89.7",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados histológicos anormais"
-  }, {
-    "code": "R90",
-    "display": "Resultados anormais de exames para diagnóstico por imagem do sistema nervoso central"
-  }, {
-    "code": "C54",
-    "display": "Neoplasia maligna do corpo do útero"
-  }, {
-    "code": "C53.9",
-    "display": "Neoplasia maligna do colo do útero, não especificado"
+    "code": "C53.0",
+    "display": "Neoplasia maligna do endocérvix"
   }, {
     "code": "C51",
     "display": "Neoplasia maligna da vulva"
@@ -35596,6 +35603,45 @@
     "code": "C51.1",
     "display": "Neoplasia maligna dos pequenos lábios"
   }, {
+    "code": "C54.1",
+    "display": "Neoplasia maligna do endométrio"
+  }, {
+    "code": "C54.0",
+    "display": "Neoplasia maligna do istmo do útero"
+  }, {
+    "code": "R90.0",
+    "display": "Lesão intracraniana ocupando espaço"
+  }, {
+    "code": "R91",
+    "display": "Achados anormais, de exames para diagnóstico por imagem, do pulmão"
+  }, {
+    "code": "C54.2",
+    "display": "Neoplasia maligna do miométrio"
+  }, {
+    "code": "R90.8",
+    "display": "Outros resultados anormais de exames para diagnóstico por imagem do sistema nervoso central"
+  }, {
+    "code": "R89.9",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achado anormal não especificado"
+  }, {
+    "code": "C53.8",
+    "display": "Neoplasia maligna do colo do útero com lesão invasiva"
+  }, {
+    "code": "R89.8",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - outros achados anormais"
+  }, {
+    "code": "R89.7",
+    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados histológicos anormais"
+  }, {
+    "code": "R90",
+    "display": "Resultados anormais de exames para diagnóstico por imagem do sistema nervoso central"
+  }, {
+    "code": "C54",
+    "display": "Neoplasia maligna do corpo do útero"
+  }, {
+    "code": "C53.9",
+    "display": "Neoplasia maligna do colo do útero, não especificado"
+  }, {
     "code": "R93.0",
     "display": "Achados anormais de exames para diagnóstico por imagem do crânio e da cabeça não classificados em outra parte"
   }, {
@@ -35605,29 +35651,14 @@
     "code": "R93",
     "display": "Achados anormais de exames para diagnóstico por imagem de outras estruturas do corpo"
   }, {
-    "code": "R89.5",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados microbiológicos anormais"
+    "code": "C54.8",
+    "display": "Neoplasia maligna do corpo do útero com lesão invasiva"
   }, {
-    "code": "C53",
-    "display": "Neoplasia maligna do colo do útero"
+    "code": "R92",
+    "display": "Achados anormais, de exames para diagnóstico por imagem, da mama"
   }, {
-    "code": "R89.2",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - nível anormal de outras drogas, medic"
-  }, {
-    "code": "C51.8",
-    "display": "Neoplasia maligna da vulva com lesão invasiva"
-  }, {
-    "code": "R89.1",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - nível hormonal anormal"
-  }, {
-    "code": "C53.1",
-    "display": "Neoplasia maligna do exocérvix"
-  }, {
-    "code": "R89.6",
-    "display": "Achados anormais de material proveniente de outros órgãos, aparelhos, sistemas e tecidos - achados citológicos anormais"
-  }, {
-    "code": "C53.0",
-    "display": "Neoplasia maligna do endocérvix"
+    "code": "C54.3",
+    "display": "Neoplasia maligna do fundo do útero"
   }, {
     "code": "C56",
     "display": "Neoplasia maligna do ovário"
@@ -35646,15 +35677,6 @@
   }, {
     "code": "R93.2",
     "display": "Achados anormais de exames para diagnóstico por imagem do fígado e das vias biliares"
-  }, {
-    "code": "C54.8",
-    "display": "Neoplasia maligna do corpo do útero com lesão invasiva"
-  }, {
-    "code": "R92",
-    "display": "Achados anormais, de exames para diagnóstico por imagem, da mama"
-  }, {
-    "code": "C54.3",
-    "display": "Neoplasia maligna do fundo do útero"
   }, {
     "code": "R82.2",
     "display": "Biliúria"
@@ -35890,6 +35912,36 @@
     "code": "R84.4",
     "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - achados imunológicos anormais"
   }, {
+    "code": "C47.0",
+    "display": "Neoplasia maligna dos nervos periféricos da cabeça, face e pescoço"
+  }, {
+    "code": "R84.6",
+    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - achados citológicos anormais"
+  }, {
+    "code": "C47",
+    "display": "Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo"
+  }, {
+    "code": "R84.2",
+    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível anormal de outras drogas, medicamentos e su"
+  }, {
+    "code": "C46.3",
+    "display": "Sarcoma de Kaposi dos gânglios linfáticos"
+  }, {
+    "code": "R84.1",
+    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível hormonal anormal"
+  }, {
+    "code": "C46.2",
+    "display": "Sarcoma de Kaposi do palato"
+  }, {
+    "code": "C46.8",
+    "display": "Sarcoma de Kaposi de múltiplos órgãos"
+  }, {
+    "code": "R84.3",
+    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível anormal de substâncias cuja origem é essenc"
+  }, {
+    "code": "C46.7",
+    "display": "Sarcoma de Kaposi de outras localizações"
+  }, {
     "code": "C47.3",
     "display": "Neoplasia maligna dos nervos periféricos do tórax"
   }, {
@@ -35925,36 +35977,6 @@
   }, {
     "code": "C47.5",
     "display": "Neoplasia maligna dos nervos periféricos da pelve"
-  }, {
-    "code": "R84.2",
-    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível anormal de outras drogas, medicamentos e su"
-  }, {
-    "code": "C46.3",
-    "display": "Sarcoma de Kaposi dos gânglios linfáticos"
-  }, {
-    "code": "R84.1",
-    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível hormonal anormal"
-  }, {
-    "code": "C46.2",
-    "display": "Sarcoma de Kaposi do palato"
-  }, {
-    "code": "C46.8",
-    "display": "Sarcoma de Kaposi de múltiplos órgãos"
-  }, {
-    "code": "R84.3",
-    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - nível anormal de substâncias cuja origem é essenc"
-  }, {
-    "code": "C46.7",
-    "display": "Sarcoma de Kaposi de outras localizações"
-  }, {
-    "code": "C47.0",
-    "display": "Neoplasia maligna dos nervos periféricos da cabeça, face e pescoço"
-  }, {
-    "code": "R84.6",
-    "display": "Achados anormais de material proveniente dos órgãos respiratórios e do tórax - achados citológicos anormais"
-  }, {
-    "code": "C47",
-    "display": "Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo"
   }, {
     "code": "C32.2",
     "display": "Neoplasia maligna da região subglótica"
@@ -36070,15 +36092,6 @@
     "code": "C26.8",
     "display": "Neoplasia maligna do aparelho digestivo com lesão invasiva"
   }, {
-    "code": "R75",
-    "display": "Evidência laboratorial do vírus da imunodeficiência humana [HIV]"
-  }, {
-    "code": "C38.2",
-    "display": "Neoplasia maligna do mediastino posterior"
-  }, {
-    "code": "R74.9",
-    "display": "Anormalidade dos níveis de enzimas séricas, não especificada"
-  }, {
     "code": "C31.1",
     "display": "Neoplasia maligna do seio etmoidal"
   }, {
@@ -36114,6 +36127,81 @@
   }, {
     "code": "C31.3",
     "display": "Neoplasia maligna do seio esfenoidal"
+  }, {
+    "code": "R75",
+    "display": "Evidência laboratorial do vírus da imunodeficiência humana [HIV]"
+  }, {
+    "code": "C38.2",
+    "display": "Neoplasia maligna do mediastino posterior"
+  }, {
+    "code": "R74.9",
+    "display": "Anormalidade dos níveis de enzimas séricas, não especificada"
+  }, {
+    "code": "C38.1",
+    "display": "Neoplasia maligna do mediastino anterior"
+  }, {
+    "code": "R74.8",
+    "display": "Níveis anormais de outras enzimas séricas"
+  }, {
+    "code": "C38.0",
+    "display": "Neoplasia maligna do coração"
+  }, {
+    "code": "C38.4",
+    "display": "Neoplasia maligna da pleura"
+  }, {
+    "code": "R76",
+    "display": "Outros achados imunológicos anormais no soro"
+  }, {
+    "code": "C38.3",
+    "display": "Neoplasia maligna do mediastino, porção não especificada"
+  }, {
+    "code": "R76.1",
+    "display": "Reação anormal ao teste da tuberculina"
+  }, {
+    "code": "C38.8",
+    "display": "Neoplasia maligna do coração, mediastino e pleura com lesão invasiva"
+  }, {
+    "code": "R76.0",
+    "display": "Título aumentado de anticorpos"
+  }, {
+    "code": "R73.0",
+    "display": "Teste de tolerância a glicose anormal"
+  }, {
+    "code": "C34.8",
+    "display": "Neoplasia maligna dos brônquios e dos pulmões com lesão invasiva"
+  }, {
+    "code": "R73",
+    "display": "Aumento da glicemia"
+  }, {
+    "code": "C34.3",
+    "display": "Neoplasia maligna do lobo inferior, brônquio ou pulmão"
+  }, {
+    "code": "R72",
+    "display": "Anormalidade dos leucócitos não classificada em outra parte"
+  }, {
+    "code": "C34.2",
+    "display": "Neoplasia maligna do lobo médio, brônquio ou pulmão"
+  }, {
+    "code": "R71",
+    "display": "Anormalidade das hemácias"
+  }, {
+    "code": "C37",
+    "display": "Neoplasia maligna do timo"
+  }, {
+    "code": "R73.9",
+    "display": "Hiperglicemia não especificada"
+  }, {
+    "code": "C34.9",
+    "display": "Neoplasia maligna dos brônquios ou pulmões, não especificado"
+  }, {
+    "code": "R74.0",
+    "display": "Aumento dos níveis de transaminases e da desidrogenase lática (DHL)"
+  }, {
+    "code": "C38",
+    "display": "Neoplasia maligna do coração, mediastino e pleura"
+  }, {
+    "code": "R74",
+    "display": "Anormalidades dos níveis de enzimas séricas"
   }, {
     "code": "C40.0",
     "display": "Neoplasia maligna da omoplata [escápula] e ossos longos dos membros superiores"
@@ -36172,24 +36260,6 @@
     "code": "R77.2",
     "display": "Anormalidade da alfafetoproteína"
   }, {
-    "code": "C38.1",
-    "display": "Neoplasia maligna do mediastino anterior"
-  }, {
-    "code": "R74.8",
-    "display": "Níveis anormais de outras enzimas séricas"
-  }, {
-    "code": "C38.0",
-    "display": "Neoplasia maligna do coração"
-  }, {
-    "code": "R73.0",
-    "display": "Teste de tolerância a glicose anormal"
-  }, {
-    "code": "C34.8",
-    "display": "Neoplasia maligna dos brônquios e dos pulmões com lesão invasiva"
-  }, {
-    "code": "R73",
-    "display": "Aumento da glicemia"
-  }, {
     "code": "R78.0",
     "display": "Presença de álcool no sangue"
   }, {
@@ -36207,54 +36277,6 @@
   }, {
     "code": "C41",
     "display": "Neoplasia maligna dos ossos e das cartilagens articulares de outras localizações e de localizações não especificadas"
-  }, {
-    "code": "C38.4",
-    "display": "Neoplasia maligna da pleura"
-  }, {
-    "code": "R76",
-    "display": "Outros achados imunológicos anormais no soro"
-  }, {
-    "code": "C38.3",
-    "display": "Neoplasia maligna do mediastino, porção não especificada"
-  }, {
-    "code": "R76.1",
-    "display": "Reação anormal ao teste da tuberculina"
-  }, {
-    "code": "C38.8",
-    "display": "Neoplasia maligna do coração, mediastino e pleura com lesão invasiva"
-  }, {
-    "code": "R76.0",
-    "display": "Título aumentado de anticorpos"
-  }, {
-    "code": "C34.3",
-    "display": "Neoplasia maligna do lobo inferior, brônquio ou pulmão"
-  }, {
-    "code": "R72",
-    "display": "Anormalidade dos leucócitos não classificada em outra parte"
-  }, {
-    "code": "C34.2",
-    "display": "Neoplasia maligna do lobo médio, brônquio ou pulmão"
-  }, {
-    "code": "R71",
-    "display": "Anormalidade das hemácias"
-  }, {
-    "code": "C37",
-    "display": "Neoplasia maligna do timo"
-  }, {
-    "code": "R73.9",
-    "display": "Hiperglicemia não especificada"
-  }, {
-    "code": "C34.9",
-    "display": "Neoplasia maligna dos brônquios ou pulmões, não especificado"
-  }, {
-    "code": "R74.0",
-    "display": "Aumento dos níveis de transaminases e da desidrogenase lática (DHL)"
-  }, {
-    "code": "C38",
-    "display": "Neoplasia maligna do coração, mediastino e pleura"
-  }, {
-    "code": "R74",
-    "display": "Anormalidades dos níveis de enzimas séricas"
   }, {
     "code": "R49.2",
     "display": "Hipernasalidade e hiponasalidade"
@@ -36799,24 +36821,6 @@
     "code": "R45.7",
     "display": "Estado de choque emocional e tensão, não especificado"
   }, {
-    "code": "C16.5",
-    "display": "Neoplasia maligna da pequena curvatura do estômago, não especificada"
-  }, {
-    "code": "C16.4",
-    "display": "Neoplasia maligna do piloro"
-  }, {
-    "code": "R46.0",
-    "display": "Baixo nível de higiene pessoal"
-  }, {
-    "code": "C16.3",
-    "display": "Neoplasia maligna do antro pilórico"
-  }, {
-    "code": "R46",
-    "display": "Sintomas e sinais relativos à aparência e ao comportamento"
-  }, {
-    "code": "C16.2",
-    "display": "Neoplasia maligna do corpo do estômago"
-  }, {
     "code": "C15.8",
     "display": "Neoplasia maligna do esôfago com lesão invasiva"
   }, {
@@ -36837,6 +36841,33 @@
   }, {
     "code": "R45.4",
     "display": "Irritabilidade e mau humor"
+  }, {
+    "code": "C16.5",
+    "display": "Neoplasia maligna da pequena curvatura do estômago, não especificada"
+  }, {
+    "code": "C16.4",
+    "display": "Neoplasia maligna do piloro"
+  }, {
+    "code": "R46.0",
+    "display": "Baixo nível de higiene pessoal"
+  }, {
+    "code": "C16.3",
+    "display": "Neoplasia maligna do antro pilórico"
+  }, {
+    "code": "R46",
+    "display": "Sintomas e sinais relativos à aparência e ao comportamento"
+  }, {
+    "code": "C16.2",
+    "display": "Neoplasia maligna do corpo do estômago"
+  }, {
+    "code": "R46.2",
+    "display": "Comportamento estranho e inexplicável"
+  }, {
+    "code": "C16.6",
+    "display": "Neoplasia maligna da grande curvatura do estômago, não especificada"
+  }, {
+    "code": "R46.1",
+    "display": "Aparência pessoal bizarra"
   }, {
     "code": "C16.9",
     "display": "Neoplasia maligna do estômago, não especificado"
@@ -39481,6 +39512,15 @@
     "code": "Q62.4",
     "display": "Agenesia do ureter"
   }, {
+    "code": "Q63.0",
+    "display": "Rim supranumerário"
+  }, {
+    "code": "Q63",
+    "display": "Outras malformações congênitas do rim"
+  }, {
+    "code": "B23.8",
+    "display": "Doença pelo HIV resultando em outra afecções especificadas"
+  }, {
     "code": "Q62.7",
     "display": "Refluxo vésico-uretero-renal congênito"
   }, {
@@ -39489,6 +39529,15 @@
   }, {
     "code": "Q62.6",
     "display": "Má-posição do ureter"
+  }, {
+    "code": "B25",
+    "display": "Doença por citomegalovírus"
+  }, {
+    "code": "Q63.1",
+    "display": "Rim lobulado, fundido ou em ferradura"
+  }, {
+    "code": "B24",
+    "display": "Doença pelo vírus da imunodeficiência humana [HIV] não especificada"
   }, {
     "code": "Q62.2",
     "display": "Megaureter congênito"
@@ -39502,42 +39551,6 @@
     "code": "B22.0",
     "display": "Doença pelo HIV resultando em encefalopatia"
   }, {
-    "code": "B22.7",
-    "display": "Doença pelo HIV resultando em doenças múltiplas classificadas em outra parte"
-  }, {
-    "code": "Q62.3",
-    "display": "Outras anomalias obstrutivas da pelve renal e do ureter"
-  }, {
-    "code": "B22.2",
-    "display": "Doença pelo HIV resultando em síndrome de emaciação"
-  }, {
-    "code": "Q63.0",
-    "display": "Rim supranumerário"
-  }, {
-    "code": "Q63",
-    "display": "Outras malformações congênitas do rim"
-  }, {
-    "code": "B23.8",
-    "display": "Doença pelo HIV resultando em outra afecções especificadas"
-  }, {
-    "code": "B23.2",
-    "display": "Doença pelo HIV resultando em anomalias hematológicas e imunológicas não classificadas em outra parte"
-  }, {
-    "code": "Q62.8",
-    "display": "Outras malformações congênitas do ureter"
-  }, {
-    "code": "B23.1",
-    "display": "Doença pelo HIV resultando em linfadenopatias generalizadas (persistentes)"
-  }, {
-    "code": "B25",
-    "display": "Doença por citomegalovírus"
-  }, {
-    "code": "Q63.1",
-    "display": "Rim lobulado, fundido ou em ferradura"
-  }, {
-    "code": "B24",
-    "display": "Doença pelo vírus da imunodeficiência humana [HIV] não especificada"
-  }, {
     "code": "Q63.3",
     "display": "Rim hiperplásico e gigante"
   }, {
@@ -39546,6 +39559,15 @@
   }, {
     "code": "Q63.2",
     "display": "Rim ectópico"
+  }, {
+    "code": "B22.7",
+    "display": "Doença pelo HIV resultando em doenças múltiplas classificadas em outra parte"
+  }, {
+    "code": "Q62.3",
+    "display": "Outras anomalias obstrutivas da pelve renal e do ureter"
+  }, {
+    "code": "B22.2",
+    "display": "Doença pelo HIV resultando em síndrome de emaciação"
   }, {
     "code": "B02.3",
     "display": "Herpes zoster oftálmico"
@@ -40615,15 +40637,6 @@
     "code": "A69.8",
     "display": "Outras infecções especificadas por espiroquetas"
   }, {
-    "code": "A74.9",
-    "display": "Infecção causada por clamídias não especificada"
-  }, {
-    "code": "Q30.1",
-    "display": "Agenesia ou hipoplasia do nariz"
-  }, {
-    "code": "A74.8",
-    "display": "Outras doenças causadas por clamídias"
-  }, {
     "code": "Q28.2",
     "display": "Malformação arteriovenosa dos vasos cerebrais"
   }, {
@@ -40641,15 +40654,6 @@
   }, {
     "code": "A71.0",
     "display": "Fase inicial do tracoma"
-  }, {
-    "code": "Q30.3",
-    "display": "Perfuração congênita do septo nasal"
-  }, {
-    "code": "A75",
-    "display": "Tifo exantemático"
-  }, {
-    "code": "Q30.2",
-    "display": "Fissura, entalhe ou fenda nasal"
   }, {
     "code": "A69",
     "display": "Outras infecções por espiroquetas"
@@ -40669,29 +40673,8 @@
     "code": "A68.1",
     "display": "Febre recorrente transmitida por carrapatos"
   }, {
-    "code": "A74",
-    "display": "Outras doenças causadas por Clamídias"
-  }, {
-    "code": "Q28.9",
-    "display": "Malformação congênita não especificada do aparelho circulatório"
-  }, {
-    "code": "A71.9",
-    "display": "Tracoma não especificado"
-  }, {
-    "code": "Q28.8",
-    "display": "Outras malformações congênitas especificadas do aparelho circulatório"
-  }, {
     "code": "Q27",
     "display": "Outras malformações congênitas do sistema vascular periférico"
-  }, {
-    "code": "Q30.0",
-    "display": "Atresia das coanas"
-  }, {
-    "code": "A74.0",
-    "display": "Conjuntivite causada por clamídias"
-  }, {
-    "code": "Q30",
-    "display": "Malformação congênita do nariz"
   }, {
     "code": "A69.1",
     "display": "Outras infecções de Vincent"
@@ -40711,6 +40694,45 @@
     "code": "Q27.4",
     "display": "Ectasia venosa (flebectasia) congênita"
   }, {
+    "code": "A74.9",
+    "display": "Infecção causada por clamídias não especificada"
+  }, {
+    "code": "Q30.1",
+    "display": "Agenesia ou hipoplasia do nariz"
+  }, {
+    "code": "A74.8",
+    "display": "Outras doenças causadas por clamídias"
+  }, {
+    "code": "Q30.3",
+    "display": "Perfuração congênita do septo nasal"
+  }, {
+    "code": "A75",
+    "display": "Tifo exantemático"
+  }, {
+    "code": "Q30.2",
+    "display": "Fissura, entalhe ou fenda nasal"
+  }, {
+    "code": "A74",
+    "display": "Outras doenças causadas por Clamídias"
+  }, {
+    "code": "Q28.9",
+    "display": "Malformação congênita não especificada do aparelho circulatório"
+  }, {
+    "code": "A71.9",
+    "display": "Tracoma não especificado"
+  }, {
+    "code": "Q28.8",
+    "display": "Outras malformações congênitas especificadas do aparelho circulatório"
+  }, {
+    "code": "Q30.0",
+    "display": "Atresia das coanas"
+  }, {
+    "code": "A74.0",
+    "display": "Conjuntivite causada por clamídias"
+  }, {
+    "code": "Q30",
+    "display": "Malformação congênita do nariz"
+  }, {
     "code": "Q31",
     "display": "Malformações congênitas da laringe"
   }, {
@@ -40719,6 +40741,15 @@
   }, {
     "code": "Q30.9",
     "display": "Malformação congênita não especificada do nariz"
+  }, {
+    "code": "A75.1",
+    "display": "Tifo recrudescente [doença de Brill]"
+  }, {
+    "code": "Q30.8",
+    "display": "Outras malformações congênitas do nariz"
+  }, {
+    "code": "A75.0",
+    "display": "Tifo epidêmico transmitido por piolhos devido a Rickettsia prowazekii"
   }, {
     "code": "A75.9",
     "display": "Tifo não especificado"
@@ -40737,15 +40768,6 @@
   }, {
     "code": "Q31.1",
     "display": "Estenose subglótica congênita"
-  }, {
-    "code": "A75.1",
-    "display": "Tifo recrudescente [doença de Brill]"
-  }, {
-    "code": "Q30.8",
-    "display": "Outras malformações congênitas do nariz"
-  }, {
-    "code": "A75.0",
-    "display": "Tifo epidêmico transmitido por piolhos devido a Rickettsia prowazekii"
   }, {
     "code": "A52.7",
     "display": "Outras formas de sífilis tardia sintomática"
@@ -42610,37 +42632,40 @@
     "code": "P54.3",
     "display": "Outras hemorragias gastrointestinais do período neonatal"
   }, {
-    "code": "A02.2",
-    "display": "Infecções localizadas por salmonela"
-  }, {
     "code": "P54.0",
     "display": "Hematêmese neonatal"
   }, {
     "code": "A01.3",
     "display": "Febre paratifóide C"
   }, {
-    "code": "A02.1",
-    "display": "Septicemia por salmonela"
-  }, {
     "code": "A01.4",
     "display": "Febre paratifóide não especificada"
+  }, {
+    "code": "P54.1",
+    "display": "Melena neonatal"
+  }, {
+    "code": "A02.2",
+    "display": "Infecções localizadas por salmonela"
   }, {
     "code": "P54.5",
     "display": "Hemorragia cutânea neonatal"
   }, {
+    "code": "A02.1",
+    "display": "Septicemia por salmonela"
+  }, {
     "code": "P54.4",
     "display": "Hemorragia supra-renal neonatal"
   }, {
-    "code": "P54.1",
-    "display": "Melena neonatal"
+    "code": "P54.6",
+    "display": "Hemorragia vaginal neonatal"
+  }, {
+    "code": "A02.8",
+    "display": "Outras infecções especificadas por salmonela"
   }, {
     "code": "A02.9",
     "display": "Infecção não especificada por salmonela"
   }, {
     "code": "P54.8",
     "display": "Outras hemorragias fetais e neonatais especificadas"
-  }, {
-    "code": "A02.8",
-    "display": "Outras infecções especificadas por salmonela"
   } ]
 }

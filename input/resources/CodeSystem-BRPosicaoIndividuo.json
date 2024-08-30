@@ -10,6 +10,7 @@
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Posição do Indivíduo",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

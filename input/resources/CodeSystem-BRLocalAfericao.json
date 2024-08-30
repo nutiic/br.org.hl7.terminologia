@@ -10,6 +10,7 @@
   "experimental": false,
   "publisher": "Ministério da Saúde do Brasil",
   "description": "Local de Aferição",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {

@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Tipo de Estabelecimento de Saúde",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

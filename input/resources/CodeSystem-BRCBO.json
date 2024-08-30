@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Classificação Brasileira de Ocupações - CBO",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -6886,6 +6887,15 @@
     "code": "622020",
     "display": "TRABALHADOR VOLANTE DA AGRICULTURA"
   }, {
+    "code": "212215",
+    "display": "ENGENHEIROS DE SISTEMAS OPERACIONAIS EM COMPUTACAO"
+  }, {
+    "code": "212210",
+    "display": "ENGENHEIRO DE EQUIPAMENTOS EM COMPUTACAO"
+  }, {
+    "code": "622015",
+    "display": "TRABALHADOR NA PRODUCAO DE MUDAS E SEMENTES"
+  }, {
     "code": "622115",
     "display": "TRABALHADOR DA CULTURA DE MILHO E SORGO"
   }, {
@@ -6903,15 +6913,6 @@
   }, {
     "code": "212315",
     "display": "ADMINISTRADOR DE SISTEMAS OPERACIONAIS"
-  }, {
-    "code": "212215",
-    "display": "ENGENHEIROS DE SISTEMAS OPERACIONAIS EM COMPUTACAO"
-  }, {
-    "code": "212210",
-    "display": "ENGENHEIRO DE EQUIPAMENTOS EM COMPUTACAO"
-  }, {
-    "code": "622015",
-    "display": "TRABALHADOR NA PRODUCAO DE MUDAS E SEMENTES"
   }, {
     "code": "142530",
     "display": "GERENTE DE SUPORTE TECNICO DE TECNOLOGIA DA INFORMACAO"

@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Tipo de Identificador",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
@@ -58,26 +59,11 @@
     "code": "BRACRBIO",
     "display": "Número de inscrição no Conselho Regional de Biologia (CRBio)"
   }, {
-    "code": "BRACRT",
-    "display": "Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)"
-  }, {
-    "code": "BRACRTR",
-    "display": "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"
-  }, {
-    "code": "BRACRA",
-    "display": "Número de inscrição no Conselho Regional de Administração (CRA)"
-  }, {
-    "code": "BRACRP",
-    "display": "Número de inscrição no Conselho Regional de Psicologia (CRP)"
-  }, {
-    "code": "BRACRQ",
-    "display": "Número de inscrição no Conselho Regional de Química (CRQ)"
-  }, {
-    "code": "BRACRB",
-    "display": "Número de inscrição no Conselho Regional de Biblioteconomia (CRB)"
-  }, {
     "code": "BRAIDMIL",
     "display": "Número da Identidade Militar"
+  }, {
+    "code": "BRACRT",
+    "display": "Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)"
   }, {
     "code": "BRACRC",
     "display": "Número de inscrição no Conselho Regional de Contabilidade (CRC)"
@@ -96,5 +82,20 @@
   }, {
     "code": "BRACRECI",
     "display": "Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)"
+  }, {
+    "code": "BRACRTR",
+    "display": "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"
+  }, {
+    "code": "BRACRA",
+    "display": "Número de inscrição no Conselho Regional de Administração (CRA)"
+  }, {
+    "code": "BRACRP",
+    "display": "Número de inscrição no Conselho Regional de Psicologia (CRP)"
+  }, {
+    "code": "BRACRB",
+    "display": "Número de inscrição no Conselho Regional de Biblioteconomia (CRB)"
+  }, {
+    "code": "BRACRQ",
+    "display": "Número de inscrição no Conselho Regional de Química (CRQ)"
   } ]
 }

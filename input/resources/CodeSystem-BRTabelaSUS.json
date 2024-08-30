@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Tabela de procedimentos, medicamentos e OPM do SUS",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
@@ -6207,12 +6208,6 @@
     "code": "0505010020",
     "display": "TRANSPLANTE ALOGÊNICO DE CÉLULAS-TRONCO HEMATOPOÉTICAS DE MEDULA ÓSSEA - NÃO APARENTADO"
   }, {
-    "code": "0505020041",
-    "display": "TRANSPLANTE DE CORACAO"
-  }, {
-    "code": "0302070028",
-    "display": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE GRANDE QUEIMADO"
-  }, {
     "code": "0302040013",
     "display": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO RESPIRATÓRIO COM COMPLICAÇÕES SISTÊMICAS"
   }, {
@@ -6242,6 +6237,15 @@
   }, {
     "code": "0302040048",
     "display": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE PRÉPÓS CIRURGIA CARDIOVASCULAR"
+  }, {
+    "code": "0505020041",
+    "display": "TRANSPLANTE DE CORACAO"
+  }, {
+    "code": "0302070028",
+    "display": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE GRANDE QUEIMADO"
+  }, {
+    "code": "0505020033",
+    "display": "PARTICIPACAO DE EQUIPE NEFROLOGICA EM TRANSPLANTE SIMULTANEO DE PANCREAS E RIM"
   }, {
     "code": "0303010010",
     "display": "TRATAMENTO DE DENGUE CLÁSSICA"
@@ -6282,15 +6286,6 @@
     "code": "0303010037",
     "display": "TRATAMENTO DE OUTRAS DOENÇAS BACTERIANAS"
   }, {
-    "code": "0505020106",
-    "display": "TRANSPLANTE DE RIM (ORGAO DE DOADOR VIVO)"
-  }, {
-    "code": "0303010053",
-    "display": "TRATAMENTO DE OUTRAS DOENÇAS DEVIDAS A PROTOZOÁRIOS (B55 A B64)"
-  }, {
-    "code": "0505020092",
-    "display": "TRANSPLANTE DE RIM (ORGAO DE DOADOR FALECIDO)"
-  }, {
     "code": "0505020076",
     "display": "TRANSPLANTE DE PANCREAS"
   }, {
@@ -6299,6 +6294,15 @@
   }, {
     "code": "0505020068",
     "display": "TRANSPLANTE DE FIGADO (ORGAO DE DOADOR VIVO)"
+  }, {
+    "code": "0505020106",
+    "display": "TRANSPLANTE DE RIM (ORGAO DE DOADOR VIVO)"
+  }, {
+    "code": "0303010053",
+    "display": "TRATAMENTO DE OUTRAS DOENÇAS DEVIDAS A PROTOZOÁRIOS (B55 A B64)"
+  }, {
+    "code": "0505020092",
+    "display": "TRANSPLANTE DE RIM (ORGAO DE DOADOR FALECIDO)"
   }, {
     "code": "0303010070",
     "display": "TRATAMENTO DE FEBRES POR ARBOVÍRUS E FEBRES HEMORRÁGICAS VIRAIS"
@@ -7443,6 +7447,9 @@
     "code": "0301010161",
     "display": "CONSULTAATENDIMENTO DOMICILIAR NA ATENÇÃO ESPECIALIZADA"
   }, {
+    "code": "0416040110",
+    "display": "PANCREATECTOMIA PARCIAL EM ONCOLOGIA"
+  }, {
     "code": "0416040055",
     "display": "ESOFAGOGASTRECTOMIA SEM TORACOTOMIA EM ONCOLOGIA"
   }, {
@@ -7451,36 +7458,6 @@
   }, {
     "code": "0416040047",
     "display": "ESOFAGOCOLOPLASTIA OU ESOFAGOGASTROPLASTIA EM ONCOLOGIA"
-  }, {
-    "code": "0301010145",
-    "display": "PRIMEIRA CONSULTA DE PEDIATRIA AO RECÉM-NASCIDO"
-  }, {
-    "code": "0416030360",
-    "display": "RESSECCAO DE TUMOR TIREOIDIANO POR VIA TRANSESTERNAL EM ONCOLOGIA"
-  }, {
-    "code": "0301010137",
-    "display": "CONSULTAATENDIMENTO DOMICILIAR"
-  }, {
-    "code": "0416030351",
-    "display": "RESSECCAO DE LESAO MALIGNA DE MUCOSA BUCAL EM ONCOLOGIA"
-  }, {
-    "code": "0416040020",
-    "display": "COLEDOCOSTOMIA C OU S COLECISTECTOMIA EM ONCOLOGIA"
-  }, {
-    "code": "0301010153",
-    "display": "PRIMEIRA CONSULTA ODONTOLÓGICA PROGRAMÁTICA"
-  }, {
-    "code": "0416040012",
-    "display": "ANASTOMOSE BILEO-DIGESTIVA EM ONCOLOGIA"
-  }, {
-    "code": "0416040110",
-    "display": "PANCREATECTOMIA PARCIAL EM ONCOLOGIA"
-  }, {
-    "code": "0301010226",
-    "display": "ACONSELHAMENTO GENÉTICO"
-  }, {
-    "code": "0416040101",
-    "display": "HEPATECTOMIA PARCIAL EM ONCOLOGIA"
   }, {
     "code": "0301010218",
     "display": "AVALIAÇÃO CLÍNICA DE DIAGNÓSTICO DE DOENÇAS RARAS EIXO I: 3 - ERROS INATOS DE METABOLISMO"
@@ -7500,14 +7477,29 @@
     "code": "0301010234",
     "display": "CONSULTA PRÉ-NATAL DO PARCEIRO"
   }, {
-    "code": "0416040179",
-    "display": "ALCOOLIZAÇÃO PERCUTÂNEA DE CARCINOMA HEPÁTICO"
+    "code": "0301010145",
+    "display": "PRIMEIRA CONSULTA DE PEDIATRIA AO RECÉM-NASCIDO"
   }, {
-    "code": "0301010250",
-    "display": "TELECONSULTA NA ATENÇÃO PRIMÁRIA"
+    "code": "0416030360",
+    "display": "RESSECCAO DE TUMOR TIREOIDIANO POR VIA TRANSESTERNAL EM ONCOLOGIA"
+  }, {
+    "code": "0301010137",
+    "display": "CONSULTAATENDIMENTO DOMICILIAR"
+  }, {
+    "code": "0416030351",
+    "display": "RESSECCAO DE LESAO MALIGNA DE MUCOSA BUCAL EM ONCOLOGIA"
   }, {
     "code": "0416040144",
     "display": "RESSECCAO DE TUMOR RETROPERITONIAL C RESSECCAO DE ORGAOS CONTIGUOS EM ONCOLOGIA"
+  }, {
+    "code": "0416040020",
+    "display": "COLEDOCOSTOMIA C OU S COLECISTECTOMIA EM ONCOLOGIA"
+  }, {
+    "code": "0301010153",
+    "display": "PRIMEIRA CONSULTA ODONTOLÓGICA PROGRAMÁTICA"
+  }, {
+    "code": "0416040012",
+    "display": "ANASTOMOSE BILEO-DIGESTIVA EM ONCOLOGIA"
   }, {
     "code": "0415020034",
     "display": "OUTROS PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS"
@@ -8043,36 +8035,6 @@
     "code": "0414020057",
     "display": "CORREÇÃO DE IRREGULARIDADES DE REBORDO ALVEOLAR"
   }, {
-    "code": "0414020081",
-    "display": "ENXERTO GENGIVAL"
-  }, {
-    "code": "0414020073",
-    "display": "CURETAGEM PERIAPICAL"
-  }, {
-    "code": "0213010054",
-    "display": "EXAME PARASITOLOGICO DIRETO P LEISHMANIAS (LEISHMANIOSE TEGUMENTAR AMERICANA)"
-  }, {
-    "code": "0414020030",
-    "display": "APROFUNDAMENTO DE VESTÍBULO ORAL (POR SEXTANTE)"
-  }, {
-    "code": "0212020064",
-    "display": "PROCESSAMENTO DE SANGUE"
-  }, {
-    "code": "0414020022",
-    "display": "APICECTOMIA COM OU SEM OBTURAÇÃO RETRÓGRADA"
-  }, {
-    "code": "0212020056",
-    "display": "PREPARO DE COMPONENTES LAVADOS"
-  }, {
-    "code": "0213010020",
-    "display": "ENSAIO IMUNOENZIMATICO -TESTE DE ELISA P IDENTIFICACAO DE LEPTOSPIRAS (LEPTOSPIROSE)"
-  }, {
-    "code": "0414020049",
-    "display": "CORREÇÃO DE BRIDAS MUSCULARES"
-  }, {
-    "code": "0213010011",
-    "display": "DETERMINACAO DE CARGA VIRAL DO HIV POR RT-PCR"
-  }, {
     "code": "0414020138",
     "display": "EXODONTIA DE DENTE PERMANENTE"
   }, {
@@ -8108,6 +8070,36 @@
   }, {
     "code": "0213010119",
     "display": "HISTOPATOLOGIA P IDENTIFICACAO DE DENGUE"
+  }, {
+    "code": "0414020081",
+    "display": "ENXERTO GENGIVAL"
+  }, {
+    "code": "0414020073",
+    "display": "CURETAGEM PERIAPICAL"
+  }, {
+    "code": "0213010054",
+    "display": "EXAME PARASITOLOGICO DIRETO P LEISHMANIAS (LEISHMANIOSE TEGUMENTAR AMERICANA)"
+  }, {
+    "code": "0414020030",
+    "display": "APROFUNDAMENTO DE VESTÍBULO ORAL (POR SEXTANTE)"
+  }, {
+    "code": "0212020064",
+    "display": "PROCESSAMENTO DE SANGUE"
+  }, {
+    "code": "0414020022",
+    "display": "APICECTOMIA COM OU SEM OBTURAÇÃO RETRÓGRADA"
+  }, {
+    "code": "0212020056",
+    "display": "PREPARO DE COMPONENTES LAVADOS"
+  }, {
+    "code": "0213010020",
+    "display": "ENSAIO IMUNOENZIMATICO -TESTE DE ELISA P IDENTIFICACAO DE LEPTOSPIRAS (LEPTOSPIROSE)"
+  }, {
+    "code": "0414020049",
+    "display": "CORREÇÃO DE BRIDAS MUSCULARES"
+  }, {
+    "code": "0213010011",
+    "display": "DETERMINACAO DE CARGA VIRAL DO HIV POR RT-PCR"
   }, {
     "code": "0211060275",
     "display": "TRIAGEM OFTALMOLÓGICA"
@@ -8259,15 +8251,6 @@
     "code": "0211060216",
     "display": "TESTE DE SCHIRMER"
   }, {
-    "code": "0211070246",
-    "display": "PESQUISA DE GANHO DE INSERCAO"
-  }, {
-    "code": "0413010074",
-    "display": "TRATAMENTO DE INTERCORRENCIA EM PACIENTE MEDIO E GRANDE QUEIMADO"
-  }, {
-    "code": "0211070238",
-    "display": "PESQUISA DE FISTULA PERILINFATICA"
-  }, {
     "code": "0211070165",
     "display": "ESTUDO TOPODIAGNOSTICO DA PARALISIA FACIAL"
   }, {
@@ -8343,6 +8326,15 @@
     "code": "0211070122",
     "display": "ELETROCOCLEOGRAFIA"
   }, {
+    "code": "0211070246",
+    "display": "PESQUISA DE GANHO DE INSERCAO"
+  }, {
+    "code": "0413010074",
+    "display": "TRATAMENTO DE INTERCORRENCIA EM PACIENTE MEDIO E GRANDE QUEIMADO"
+  }, {
+    "code": "0211070238",
+    "display": "PESQUISA DE FISTULA PERILINFATICA"
+  }, {
     "code": "0413010090",
     "display": "TRATAMENTO DE PEQUENO QUEIMADO"
   }, {
@@ -8351,6 +8343,15 @@
   }, {
     "code": "0413010082",
     "display": "TRATAMENTO DE MEDIO QUEIMADO"
+  }, {
+    "code": "0413030032",
+    "display": "LIPOENXERTIA DE GLÚTEO EM PACIENTE COM LIPODISTROFIA GLÚTEA DECORRENTE DO USO DE ANTI-RETROVIRAL"
+  }, {
+    "code": "0211070289",
+    "display": "PROVA DE FUNCAO TUBARIA"
+  }, {
+    "code": "0413030024",
+    "display": "LIPOASPIRAÇÃO DE PAREDE ABDOMINAL OU DORSO EM PACIENTES COM LIPODISTROFIA DECORRENTE DO USO DE ANTI-"
   }, {
     "code": "0211070211",
     "display": "LOGOAUDIOMETRIA (LDV-IRF-LRF)"
@@ -8373,14 +8374,14 @@
     "code": "0413010058",
     "display": "CURATIVO EM PEQUENO QUEIMADO"
   }, {
-    "code": "0413030032",
-    "display": "LIPOENXERTIA DE GLÚTEO EM PACIENTE COM LIPODISTROFIA GLÚTEA DECORRENTE DO USO DE ANTI-RETROVIRAL"
+    "code": "0211070300",
+    "display": "REAVALIACAO DIAGNOSTICA DE DEFICIENCIA AUDITIVA EM PACIENTE MENOR DE 3 ANOS"
   }, {
-    "code": "0211070289",
-    "display": "PROVA DE FUNCAO TUBARIA"
+    "code": "0413030040",
+    "display": "PREENCHIMENTO FACIAL COM POLIMETILMETACRILATO EM PACIENTE C LIPOATROFIA FACIAL CAUSADOS PELA REDUÇÃ"
   }, {
-    "code": "0413030024",
-    "display": "LIPOASPIRAÇÃO DE PAREDE ABDOMINAL OU DORSO EM PACIENTES COM LIPODISTROFIA DECORRENTE DO USO DE ANTI-"
+    "code": "0211070297",
+    "display": "REAVALIACAO DIAGNOSTICA DE DEFICIENCIA AUDITIVA EM PACIENTE MAIOR DE 3 ANOS"
   }, {
     "code": "0211070270",
     "display": "POTENCIAL EVOCADO AUDITIVO P TRIAGEM AUDITIVA (TESTE DA ORELHINHA)"
@@ -8390,15 +8391,6 @@
   }, {
     "code": "0211070262",
     "display": "POTENCIAL EVOCADO AUDITIVO DE CURTA MEDIA E LONGA LATENCIA"
-  }, {
-    "code": "0211070300",
-    "display": "REAVALIACAO DIAGNOSTICA DE DEFICIENCIA AUDITIVA EM PACIENTE MENOR DE 3 ANOS"
-  }, {
-    "code": "0413030040",
-    "display": "PREENCHIMENTO FACIAL COM POLIMETILMETACRILATO EM PACIENTE C LIPOATROFIA FACIAL CAUSADOS PELA REDUÇÃ"
-  }, {
-    "code": "0211070297",
-    "display": "REAVALIACAO DIAGNOSTICA DE DEFICIENCIA AUDITIVA EM PACIENTE MAIOR DE 3 ANOS"
   }, {
     "code": "0413030067",
     "display": "RECONSTRUÇÃO GLÚTEA EOU PERIANAL EM PACIENTE C LIPODISTROFIA GLÚTEA DECORRENTE DO USO DE ANTI-RETR"
@@ -8643,6 +8635,36 @@
     "code": "0412020068",
     "display": "TIMECTOMIA"
   }, {
+    "code": "0211060020",
+    "display": "BIOMICROSCOPIA DE FUNDO DE OLHO"
+  }, {
+    "code": "0412020084",
+    "display": "TRATAMENTO DE MEDIASTINITE (QUALQUER VIA)"
+  }, {
+    "code": "0211060011",
+    "display": "BIOMETRIA ULTRASSÔNICA (MONOCULAR)"
+  }, {
+    "code": "0211050121",
+    "display": "POTENCIAL EVOCADO VISUAL  OCCIPTO"
+  }, {
+    "code": "0412020033",
+    "display": "MEDIASTINOTOMIA P DRENAGEM"
+  }, {
+    "code": "0211050113",
+    "display": "POTENCIAL EVOCADO AUDITIVO"
+  }, {
+    "code": "0412020025",
+    "display": "MEDIASTINOTOMIA EXTRAPLEURAL POR VIA POSTERIOR"
+  }, {
+    "code": "0211050148",
+    "display": "TESTE DE WADA"
+  }, {
+    "code": "0211050130",
+    "display": "POTENCIAL SOMATO-SENSITIVO"
+  }, {
+    "code": "0412020050",
+    "display": "RESSECÇÃO DE TUMOR DO MEDIASTINO"
+  }, {
     "code": "0211060062",
     "display": "CURVA DIARIA DE PRESSAO OCULAR CDPO (MINIMO 3 MEDIDAS)"
   }, {
@@ -8678,36 +8700,6 @@
   }, {
     "code": "0412030080",
     "display": "TRATAMENTO DE COAGULO RETIDO INTRATORACICO (QUALQUER VIA)"
-  }, {
-    "code": "0211060020",
-    "display": "BIOMICROSCOPIA DE FUNDO DE OLHO"
-  }, {
-    "code": "0412020084",
-    "display": "TRATAMENTO DE MEDIASTINITE (QUALQUER VIA)"
-  }, {
-    "code": "0211060011",
-    "display": "BIOMETRIA ULTRASSÔNICA (MONOCULAR)"
-  }, {
-    "code": "0211050121",
-    "display": "POTENCIAL EVOCADO VISUAL  OCCIPTO"
-  }, {
-    "code": "0412020033",
-    "display": "MEDIASTINOTOMIA P DRENAGEM"
-  }, {
-    "code": "0211050113",
-    "display": "POTENCIAL EVOCADO AUDITIVO"
-  }, {
-    "code": "0412020025",
-    "display": "MEDIASTINOTOMIA EXTRAPLEURAL POR VIA POSTERIOR"
-  }, {
-    "code": "0211050148",
-    "display": "TESTE DE WADA"
-  }, {
-    "code": "0211050130",
-    "display": "POTENCIAL SOMATO-SENSITIVO"
-  }, {
-    "code": "0412020050",
-    "display": "RESSECÇÃO DE TUMOR DO MEDIASTINO"
   }, {
     "code": "0209010029",
     "display": "COLONOSCOPIA (COLOSCOPIA)"
@@ -8925,53 +8917,17 @@
     "code": "0409070165",
     "display": "EXTIRPAÇÃO DE LESÃO DE VULVA  PERINEO (POR ELETROCOAGULAÇÃO OU FULGURAÇÃO)"
   }, {
-    "code": "0409070190",
-    "display": "MARSUPIALIZAÇÃO DE GLÂNDULA DE BARTOLIN"
-  }, {
-    "code": "0409070181",
-    "display": "HIMENOTOMIA"
-  }, {
-    "code": "0210010029",
-    "display": "ANGIOGRAFIA DE ARCO AÓRTICO"
-  }, {
     "code": "0409070300",
     "display": "VULVECTOMIA SIMPLES"
   }, {
     "code": "0210010134",
     "display": "ARTERIOGRAFIA SELETIVA DE CARÓTIDA"
   }, {
+    "code": "0210010029",
+    "display": "ANGIOGRAFIA DE ARCO AÓRTICO"
+  }, {
     "code": "0409070297",
     "display": "VULVECTOMIA AMPLIADA C LINFADENECTOMIA"
-  }, {
-    "code": "0210010150",
-    "display": "ARTERIOGRAFIA SELETIVA VERTEBRAL"
-  }, {
-    "code": "0409070319",
-    "display": "REDESIGNAÇÃO SEXUAL NO SEXO FEMININO"
-  }, {
-    "code": "0210010142",
-    "display": "ARTERIOGRAFIA SELETIVA POR CATETER (POR VASO)"
-  }, {
-    "code": "0409070270",
-    "display": "TRATAMENTO CIRÚRGICO DE INCONTINÊNCIA URINÁRIA POR VIA VAGINAL"
-  }, {
-    "code": "0210010100",
-    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE HEMORRAGIA CEREBRAL"
-  }, {
-    "code": "0409070262",
-    "display": "TRATAMENTO CIRÚRGICO DE HIPERTROFIA DOS PEQUENOS LÁBIOS"
-  }, {
-    "code": "0210010096",
-    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE DOENÇA ARTERIOSCLERÓTICA AORTO-ILÍACA E DISTAL"
-  }, {
-    "code": "0210010126",
-    "display": "ARTERIOGRAFIA PÉLVICA"
-  }, {
-    "code": "0409070289",
-    "display": "TRATAMENTO CIRÚRGICO DE VAGINA SEPTADA  ATRESICA"
-  }, {
-    "code": "0210010118",
-    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE ISQUEMIA CEREBRAL"
   }, {
     "code": "0210010185",
     "display": "FLEBOGRAFIA DE CAVA INFERIOR EOU SUPERIOR"
@@ -8981,6 +8937,15 @@
   }, {
     "code": "0210010177",
     "display": "FLEBOGRAFIA DE MEMBRO"
+  }, {
+    "code": "0210010150",
+    "display": "ARTERIOGRAFIA SELETIVA VERTEBRAL"
+  }, {
+    "code": "0409070319",
+    "display": "REDESIGNAÇÃO SEXUAL NO SEXO FEMININO"
+  }, {
+    "code": "0210010142",
+    "display": "ARTERIOGRAFIA SELETIVA POR CATETER (POR VASO)"
   }, {
     "code": "0410010022",
     "display": "ESVAZIAMENTO PERCUTANEO DE CISTO MAMARIO"
@@ -9008,6 +8973,27 @@
   }, {
     "code": "0210010207",
     "display": "PORTOGRAFIA TRANS-HEPÁTICA"
+  }, {
+    "code": "0409070270",
+    "display": "TRATAMENTO CIRÚRGICO DE INCONTINÊNCIA URINÁRIA POR VIA VAGINAL"
+  }, {
+    "code": "0210010100",
+    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE HEMORRAGIA CEREBRAL"
+  }, {
+    "code": "0409070262",
+    "display": "TRATAMENTO CIRÚRGICO DE HIPERTROFIA DOS PEQUENOS LÁBIOS"
+  }, {
+    "code": "0210010096",
+    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE DOENÇA ARTERIOSCLERÓTICA AORTO-ILÍACA E DISTAL"
+  }, {
+    "code": "0210010126",
+    "display": "ARTERIOGRAFIA PÉLVICA"
+  }, {
+    "code": "0409070289",
+    "display": "TRATAMENTO CIRÚRGICO DE VAGINA SEPTADA  ATRESICA"
+  }, {
+    "code": "0210010118",
+    "display": "ARTERIOGRAFIA P INVESTIGAÇÃO DE ISQUEMIA CEREBRAL"
   }, {
     "code": "0409040207",
     "display": "TRATAMENTO CIRURGICO DE ELEFANTIASE DA BOLSA ESCROTAL"
@@ -9582,15 +9568,6 @@
     "code": "0206030037",
     "display": "TOMOGRAFIA COMPUTADORIZADA DE PELVE  BACIA  ABDOMEN INFERIOR"
   }, {
-    "code": "0409030023",
-    "display": "PROSTATECTOMIA SUPRAPÚBICA"
-  }, {
-    "code": "0206030029",
-    "display": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULAÇÕES DE MEMBRO INFERIOR"
-  }, {
-    "code": "0409030015",
-    "display": "DRENAGEM DE ABSCESSO PROSTATICO"
-  }, {
     "code": "0409040010",
     "display": "DRENAGEM DE ABSCESSO DA BOLSA ESCROTAL"
   }, {
@@ -9608,6 +9585,15 @@
   }, {
     "code": "0207010030",
     "display": "RESSONANCIA MAGNETICA DE COLUNA CERVICALPESCOÇO"
+  }, {
+    "code": "0409030023",
+    "display": "PROSTATECTOMIA SUPRAPÚBICA"
+  }, {
+    "code": "0206030029",
+    "display": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULAÇÕES DE MEMBRO INFERIOR"
+  }, {
+    "code": "0409030015",
+    "display": "DRENAGEM DE ABSCESSO PROSTATICO"
   }, {
     "code": "0408060719",
     "display": "VIDEOARTROSCOPIA"
@@ -10359,6 +10345,15 @@
     "code": "0202100197",
     "display": "ENSAIOS ENZIMÁTICOS EM TECIDO CULTIVADO PARA DIAGNÓSTICO DE ERROS INATOS DO METABOLISMO"
   }, {
+    "code": "0408050888",
+    "display": "TRATAMENTO CIRÚRGICO DE ROTURA DE MENISCO COM SUTURA MENISCAL UNI  BICOMPATIMENTAL"
+  }, {
+    "code": "0203010019",
+    "display": "EXAME CITOPATOLÓGICO CERVICO-VAGINALMICROFLORA"
+  }, {
+    "code": "0408050870",
+    "display": "TRATAMENTO CIRÚRGICO DE PSEUDARTROSE  RETARDO DE CONSOLIDAÇÃO PERDA ÓSSEA DA METÁFISE TIBIAL"
+  }, {
     "code": "0202120040",
     "display": "IDENTIFICACAO DE ANTICORPOS SERICOS IRREGULARES C PAINEL DE HEMACIAS"
   }, {
@@ -10433,15 +10428,6 @@
   }, {
     "code": "0202110150",
     "display": "PESQUISA DE IGM ANTI-TOXOPLASMA GONDII EM SANGUE SECO (COMPONENTE DO TESTE DO PÉZINHO)"
-  }, {
-    "code": "0408050888",
-    "display": "TRATAMENTO CIRÚRGICO DE ROTURA DE MENISCO COM SUTURA MENISCAL UNI  BICOMPATIMENTAL"
-  }, {
-    "code": "0203010019",
-    "display": "EXAME CITOPATOLÓGICO CERVICO-VAGINALMICROFLORA"
-  }, {
-    "code": "0408050870",
-    "display": "TRATAMENTO CIRÚRGICO DE PSEUDARTROSE  RETARDO DE CONSOLIDAÇÃO PERDA ÓSSEA DA METÁFISE TIBIAL"
   }, {
     "code": "0203010035",
     "display": "EXAME DE CITOLOGIA (EXCETO CERVICO-VAGINAL E DE MAMA)"
@@ -10734,24 +10720,6 @@
     "code": "0408050250",
     "display": "REDUCAO INCRUENTA DE FRATURA OU LESAO FISARIA DO JOELHO"
   }, {
-    "code": "0408050420",
-    "display": "TRATAMENTO CIRURGICO DAS DESINSERCOES DAS ESPINHAS INTERCONDILARES  EPICONDILARES"
-  }, {
-    "code": "0202100049",
-    "display": "QUANTIFICAÇÃOAMPLIFICAÇÃO DO HER-2"
-  }, {
-    "code": "0408050411",
-    "display": "TRANSPOSICAO DA FIBULA PARA A TIBIA"
-  }, {
-    "code": "0202100065",
-    "display": "ANÁLISE DE DNA PELA TÉCNICA DE SOUTHERN BLOT"
-  }, {
-    "code": "0408050438",
-    "display": "TRATAMENTO CIRÚRGICO DE AVULSÃO DO GRANDE E DO PEQUENO TROCANTER"
-  }, {
-    "code": "0202100057",
-    "display": "FOCALIZAÇÃO ISOELÉTRICA DA TRANSFERRINA"
-  }, {
     "code": "0202090361",
     "display": "TESTE MOLECULAR PARA A DETECÇÃO DO COMPLEXO MYCOBACTERIUM TUBERCULOSIS"
   }, {
@@ -10760,15 +10728,6 @@
   }, {
     "code": "0202090353",
     "display": "TESTE DE HOLLANDER NO SUCO GASTRICO"
-  }, {
-    "code": "0202100030",
-    "display": "DETERMINAÇÃO DE CARIÓTIPO EM SANGUE PERIFÉRICO (C TÉCNICA DE BANDAS)"
-  }, {
-    "code": "0408050403",
-    "display": "TRANSPLANTE DE MENISCO"
-  }, {
-    "code": "0202100022",
-    "display": "DETERMINAÇÃO DE CARIÓTIPO EM MEDULA ÓSSEA E VILOSIDADES CORIÔNICAS (C TÉCNICA DE BANDAS)"
   }, {
     "code": "0408050390",
     "display": "TRANSFERÊNCIA MUSCULAR  TENDINOSA NO MEMBRO INFERIOR"
@@ -10779,20 +10738,14 @@
     "code": "0408050381",
     "display": "TRANSFERENCIA DO GRANDE TROCANTER (PROCEDIMENTO ISOLADO)"
   }, {
-    "code": "0408050454",
-    "display": "TRATAMENTO CIRÚRGICO DE FRATURA  LESÃO FISARIA DE OSSOS DO MÉDIO-PE"
-  }, {
-    "code": "0202100073",
-    "display": "ANÁLISE DE DNA POR MLPA"
-  }, {
-    "code": "0408050446",
-    "display": "TRATAMENTO CIRURGICO DE COALIZAO TARSAL"
-  }, {
     "code": "0202090337",
     "display": "TESTE DE CLEMENTS"
   }, {
     "code": "0408050349",
     "display": "REVISÃO CIRÚRGICA DO PE TORTO CONGÊNITO"
+  }, {
+    "code": "0408050420",
+    "display": "TRATAMENTO CIRURGICO DAS DESINSERCOES DAS ESPINHAS INTERCONDILARES  EPICONDILARES"
   }, {
     "code": "0408050330",
     "display": "REVISÃO CIRÚRGICA DE COTO DE AMPUTAÇÃO EM MEMBRO INFERIOR (EXCETO DEDOS DO PE)"
@@ -10808,6 +10761,33 @@
   }, {
     "code": "0408050357",
     "display": "SINDACTILIA CIRURGICA DOS DEDOS DO PE (PROCEDIMENTO TIPO KELIKIAN)"
+  }, {
+    "code": "0202100030",
+    "display": "DETERMINAÇÃO DE CARIÓTIPO EM SANGUE PERIFÉRICO (C TÉCNICA DE BANDAS)"
+  }, {
+    "code": "0408050403",
+    "display": "TRANSPLANTE DE MENISCO"
+  }, {
+    "code": "0202100022",
+    "display": "DETERMINAÇÃO DE CARIÓTIPO EM MEDULA ÓSSEA E VILOSIDADES CORIÔNICAS (C TÉCNICA DE BANDAS)"
+  }, {
+    "code": "0202100065",
+    "display": "ANÁLISE DE DNA PELA TÉCNICA DE SOUTHERN BLOT"
+  }, {
+    "code": "0408050438",
+    "display": "TRATAMENTO CIRÚRGICO DE AVULSÃO DO GRANDE E DO PEQUENO TROCANTER"
+  }, {
+    "code": "0202100057",
+    "display": "FOCALIZAÇÃO ISOELÉTRICA DA TRANSFERRINA"
+  }, {
+    "code": "0408050454",
+    "display": "TRATAMENTO CIRÚRGICO DE FRATURA  LESÃO FISARIA DE OSSOS DO MÉDIO-PE"
+  }, {
+    "code": "0202100073",
+    "display": "ANÁLISE DE DNA POR MLPA"
+  }, {
+    "code": "0408050446",
+    "display": "TRATAMENTO CIRURGICO DE COALIZAO TARSAL"
   }, {
     "code": "0408030860",
     "display": "TRATAMENTO CIRÚRGICO DE DEFORMIDADE DA COLUNA VIA POSTERIOR SEIS NÍVEIS"
@@ -12204,6 +12184,18 @@
     "code": "0407040080",
     "display": "HERNIOPLASTIA INCISIONAL"
   }, {
+    "code": "0202030571",
+    "display": "PESQUISA DE ANTICORPOS ANTIMUSCULO ESTRIADO"
+  }, {
+    "code": "0407040072",
+    "display": "HERNIOPLASTIA EPIGASTRICA VIDEOLAPAROSCOPICA"
+  }, {
+    "code": "0202030563",
+    "display": "PESQUISA DE ANTICORPOS ANTIMITOCONDRIA"
+  }, {
+    "code": "0202030555",
+    "display": "PESQUISA DE ANTICORPOS ANTIMICROSSOMAS"
+  }, {
     "code": "0407040110",
     "display": "HERNIOPLASTIA RECIDIVANTE"
   }, {
@@ -12222,20 +12214,23 @@
     "code": "0202030601",
     "display": "PESQUISA DE ANTICORPOS ANTIPARIETAIS"
   }, {
+    "code": "0202030733",
+    "display": "PESQUISA DE ANTICORPOS HETEROFILOS CONTA O VIRUS EPSTEIN-BARR"
+  }, {
+    "code": "0407040226",
+    "display": "REPARACAO DE OUTRAS HERNIAS"
+  }, {
+    "code": "0202030725",
+    "display": "PESQUISA DE ANTICORPOS EIE ANTICLAMIDIA"
+  }, {
     "code": "0202030741",
     "display": "PESQUISA DE ANTICORPOS IGG ANTICITOMEGALOVIRUS"
   }, {
-    "code": "0202030571",
-    "display": "PESQUISA DE ANTICORPOS ANTIMUSCULO ESTRIADO"
+    "code": "0407040242",
+    "display": "RESSUTURA DE PAREDE ABDOMINAL (POR DEISCENCIA TOTAL  EVISCERACAO)"
   }, {
-    "code": "0407040072",
-    "display": "HERNIOPLASTIA EPIGASTRICA VIDEOLAPAROSCOPICA"
-  }, {
-    "code": "0202030563",
-    "display": "PESQUISA DE ANTICORPOS ANTIMITOCONDRIA"
-  }, {
-    "code": "0202030555",
-    "display": "PESQUISA DE ANTICORPOS ANTIMICROSSOMAS"
+    "code": "0407040234",
+    "display": "RESSECCAO DO EPIPLOM"
   }, {
     "code": "0407040200",
     "display": "PERITONIOSTOMIA C TELA INORGANICA"
@@ -12248,6 +12243,15 @@
   }, {
     "code": "0202030687",
     "display": "PESQUISA DE ANTICORPOS CONTRA O VIRUS DA HEPATITE D (ANTI-HDV)"
+  }, {
+    "code": "0202030717",
+    "display": "PESQUISA DE ANTICORPOS EOU ANTIGENO DO VIRUS SINCICIAL RESPIRATORIO"
+  }, {
+    "code": "0407040218",
+    "display": "PNEUMOPERITÔNIO (POR SESSÃO)"
+  }, {
+    "code": "0202030709",
+    "display": "PESQUISA DE ANTICORPOS CONTRA PARACOCCIDIOIDES BRASILIENSIS"
   }, {
     "code": "0202030776",
     "display": "PESQUISA DE ANTICORPOS IGG ANTITRYPANOSOMA CRUZI"
@@ -12266,15 +12270,6 @@
   }, {
     "code": "0202030750",
     "display": "PESQUISA DE ANTICORPOS IGG ANTILEISHMANIAS"
-  }, {
-    "code": "0202030717",
-    "display": "PESQUISA DE ANTICORPOS EOU ANTIGENO DO VIRUS SINCICIAL RESPIRATORIO"
-  }, {
-    "code": "0407040218",
-    "display": "PNEUMOPERITÔNIO (POR SESSÃO)"
-  }, {
-    "code": "0202030709",
-    "display": "PESQUISA DE ANTICORPOS CONTRA PARACOCCIDIOIDES BRASILIENSIS"
   }, {
     "code": "0408010037",
     "display": "ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)"
@@ -13167,15 +13162,6 @@
     "code": "0406040338",
     "display": "TRATAMENTO ENDOVASCULAR DO PSEUDO ANEURISMA"
   }, {
-    "code": "0202010627",
-    "display": "DOSAGEM DE PROTEINAS TOTAIS E FRACOES"
-  }, {
-    "code": "0406040320",
-    "display": "TRATAMENTO ENDOVASCULAR DE FISTULAS ARTERIOVENOSAS"
-  }, {
-    "code": "0202010619",
-    "display": "DOSAGEM DE PROTEINAS TOTAIS"
-  }, {
     "code": "0202010651",
     "display": "DOSAGEM DE TRANSAMINASE GLUTAMICO-PIRUVICA (TGP)"
   }, {
@@ -13193,6 +13179,15 @@
   }, {
     "code": "0406050031",
     "display": "ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO I (ABLAÇÃO DE TAQUICARDIA ATRIAL DIREITA)"
+  }, {
+    "code": "0202010627",
+    "display": "DOSAGEM DE PROTEINAS TOTAIS E FRACOES"
+  }, {
+    "code": "0406040320",
+    "display": "TRATAMENTO ENDOVASCULAR DE FISTULAS ARTERIOVENOSAS"
+  }, {
+    "code": "0202010619",
+    "display": "DOSAGEM DE PROTEINAS TOTAIS"
   }, {
     "code": "0201010542",
     "display": "BIÓPSIA PERCUTÂNEA ORIENTADA POR TOMOGRAFIA COMPUTADORIZADA  ULTRASSONOGRAFIA  RESSONÂNCIA MAGNETI"
@@ -13728,14 +13723,14 @@
     "code": "0201010283",
     "display": "BIÓPSIA DE MÚSCULO (A CÉU ABERTO)"
   }, {
-    "code": "0406020108",
-    "display": "DISSECÇÃO RADICAL DO PESCOÇO"
+    "code": "0406020078",
+    "display": "IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL (PROCEDIMENTO PRINCIPAL)"
   }, {
-    "code": "0201010330",
-    "display": "BIOPSIA DE OSSO  CARTILAGEM DE MEMBRO SUPERIOR (POR AGULHA  CEU ABERTO)"
+    "code": "0201010305",
+    "display": "BIOPSIA DE OSSO  CARTILAGEM DA CINTURA ESCAPULAR (POR AGULHA  CEU ABERTO)"
   }, {
-    "code": "0406020094",
-    "display": "DISSECÇÃO DE VEIA  ARTÉRIA"
+    "code": "0406020051",
+    "display": "ANEURISMECTOMIA TORACO-ABDOMINAL"
   }, {
     "code": "0201010267",
     "display": "BIOPSIA DE LESAO DE PARTES MOLES (POR AGULHA  CEU ABERTO)"
@@ -13758,14 +13753,23 @@
     "code": "0406020027",
     "display": "ANASTOMOSE LINFOVENOSA"
   }, {
-    "code": "0406020078",
-    "display": "IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL (PROCEDIMENTO PRINCIPAL)"
+    "code": "0406020108",
+    "display": "DISSECÇÃO RADICAL DO PESCOÇO"
   }, {
-    "code": "0201010305",
-    "display": "BIOPSIA DE OSSO  CARTILAGEM DA CINTURA ESCAPULAR (POR AGULHA  CEU ABERTO)"
+    "code": "0201010330",
+    "display": "BIOPSIA DE OSSO  CARTILAGEM DE MEMBRO SUPERIOR (POR AGULHA  CEU ABERTO)"
   }, {
-    "code": "0406020051",
-    "display": "ANEURISMECTOMIA TORACO-ABDOMINAL"
+    "code": "0406020094",
+    "display": "DISSECÇÃO DE VEIA  ARTÉRIA"
+  }, {
+    "code": "0201010321",
+    "display": "BIOPSIA DE OSSO  CARTILAGEM DE MEMBRO INFERIOR (POR AGULHA  CEU ABERTO)"
+  }, {
+    "code": "0406020086",
+    "display": "CONFECÇÃO DE FÍSTULA ARTERIOVENOSA P ACESSO"
+  }, {
+    "code": "0201010313",
+    "display": "BIOPSIA DE OSSO  CARTILAGEM DA CINTURA PELVICA (POR AGULHA  CEU ABERTO)"
   }, {
     "code": "0201010356",
     "display": "BIOPSIA DE PALPEBRA"
@@ -13784,15 +13788,6 @@
   }, {
     "code": "0406020124",
     "display": "EMBOLECTOMIA ARTERIAL"
-  }, {
-    "code": "0201010321",
-    "display": "BIOPSIA DE OSSO  CARTILAGEM DE MEMBRO INFERIOR (POR AGULHA  CEU ABERTO)"
-  }, {
-    "code": "0406020086",
-    "display": "CONFECÇÃO DE FÍSTULA ARTERIOVENOSA P ACESSO"
-  }, {
-    "code": "0201010313",
-    "display": "BIOPSIA DE OSSO  CARTILAGEM DA CINTURA PELVICA (POR AGULHA  CEU ABERTO)"
   }, {
     "code": "0406010781",
     "display": "PLÁSTICA  TROCA DE VÁLVULA TRICÚSPIDE (ANOMALIA DE EBSTEIN)"
@@ -14112,8 +14107,8 @@
     "code": "0101020074",
     "display": "APLICAÇÃO TÓPICA DE FLÚOR (INDIVIDUAL POR SESSÃO)"
   }, {
-    "code": "0101040083",
-    "display": "MEDIÇÃO DE PESO"
+    "code": "0406010323",
+    "display": "CORRECAO DE HIPERTROFIA SEPTAL ASSIMETRICA"
   }, {
     "code": "0406010340",
     "display": "CORREÇÃO DE INSUFICIÊNCIA DA VÁLVULA TRICÚSPIDE"
@@ -14199,17 +14194,32 @@
     "code": "0406010307",
     "display": "CORREÇÃO DE ESTENOSE SUPRA-AÓRTICA"
   }, {
-    "code": "0101040105",
-    "display": "DISPENSAÇÃO DE SUPLEMENTO DE ÁCIDO FÓLICO"
-  }, {
-    "code": "0406010498",
-    "display": "CORREÇÃO DO CANAL ÁTRIO-VENTRICULAR (TOTAL)"
-  }, {
     "code": "0101020066",
     "display": "APLICAÇÃO DE SELANTE (POR DENTE)"
   }, {
     "code": "0406010315",
     "display": "CORREÇÃO DE FÍSTULA AÓRTO-CAVITARIAS"
+  }, {
+    "code": "0101040091",
+    "display": "DISPENSAÇÃO DE SUPLEMENTO DE MICRONUTRIENTES EM PÓ - NUTRISUS"
+  }, {
+    "code": "0101040083",
+    "display": "MEDIÇÃO DE PESO"
+  }, {
+    "code": "0406010480",
+    "display": "CORREÇÃO DO CANAL ÁTRIO-VENTRICULAR (PARCIAL  INTERMEDIÁRIO)"
+  }, {
+    "code": "0101040075",
+    "display": "MEDIÇÃO DE ALTURA"
+  }, {
+    "code": "0406010471",
+    "display": "CORREÇÃO DE VENTRÍCULO ÚNICO"
+  }, {
+    "code": "0101040105",
+    "display": "DISPENSAÇÃO DE SUPLEMENTO DE ÁCIDO FÓLICO"
+  }, {
+    "code": "0406010498",
+    "display": "CORREÇÃO DO CANAL ÁTRIO-VENTRICULAR (TOTAL)"
   }, {
     "code": "0406010510",
     "display": "DRENAGEM C BIOPSIA DE PERICÁRDIO"
@@ -14259,15 +14269,6 @@
     "code": "0406010552",
     "display": "IMPLANTE C TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)"
   }, {
-    "code": "0406010579",
-    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P"
-  }, {
-    "code": "0101050062",
-    "display": "SESSÃO DE ARTETERAPIA"
-  }, {
-    "code": "0406010560",
-    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÂMARA ÚNICA TRANSVENOSO"
-  }, {
     "code": "0101050011",
     "display": "PRATICAS CORPORAIS EM MEDICINA TRADICIONAL CHINESA"
   }, {
@@ -14283,16 +14284,31 @@
     "code": "0406010536",
     "display": "FECHAMENTO DE COMUNICAÇÃO INTERATRIAL"
   }, {
-    "code": "0406010609",
-    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO"
+    "code": "0406010587",
+    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO"
   }, {
-    "code": "0101050097",
-    "display": "SESSÃO DE ANTROPOSOFIA APLICADA À SAÚDE"
+    "code": "0101050070",
+    "display": "SESSÃO DE MEDITAÇÃO"
+  }, {
+    "code": "0406010579",
+    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P"
+  }, {
+    "code": "0101050062",
+    "display": "SESSÃO DE ARTETERAPIA"
+  }, {
+    "code": "0406010560",
+    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÂMARA ÚNICA TRANSVENOSO"
   }, {
     "code": "0406010595",
     "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C REVERSÃO PARA EPIMIOCÁRDICO POR"
   }, {
     "code": "0101050089",
     "display": "SESSÃO DE MUSICOTERAPIA"
+  }, {
+    "code": "0406010609",
+    "display": "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO"
+  }, {
+    "code": "0101050097",
+    "display": "SESSÃO DE ANTROPOSOFIA APLICADA À SAÚDE"
   } ]
 }

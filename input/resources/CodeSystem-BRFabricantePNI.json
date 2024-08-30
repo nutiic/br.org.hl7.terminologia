@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Fabricante do imunobiológico",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

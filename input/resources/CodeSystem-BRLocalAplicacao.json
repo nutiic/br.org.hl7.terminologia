@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Local de Aplicação",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

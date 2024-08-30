@@ -10,6 +10,7 @@
   "experimental": false,
   "publisher": "Minist&#233;rio da Sa&#250;de do Brasil",
   "description": "Condição  Maternal",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",

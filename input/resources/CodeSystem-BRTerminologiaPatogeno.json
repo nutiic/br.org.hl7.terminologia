@@ -9,6 +9,7 @@
   "status": "active",
   "experimental": false,
   "description": "Patógeno",
+  "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
