@@ -9,14 +9,14 @@
       "ci-build" : "https://terminologia-br-ig.web.app",
       "version-count" : 1,
       "latest" : {
-        "version" : "0.1.3",
-        "date" : "2024-08-30",
-        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.3"
+        "version" : "0.1.4",
+        "date" : "2024-09-02",
+        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.4"
       },
       "milestone" : {
-        "version" : "0.1.3",
-        "date" : "2024-08-30",
-        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.3"
+        "version" : "0.1.4",
+        "date" : "2024-09-02",
+        "path" : "https://terminologia.saude.gov.br/fhir/v0.1.4"
       }
     }
   ]
