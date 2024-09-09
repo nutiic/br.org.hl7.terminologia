@@ -16,7 +16,7 @@ description: Guia de Implementação Terminologias do Brasil.
 status: active
 license: CC0-1.0
 date: 2024-07-25
-version: 0.1.4
+version: 0.1.5
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
