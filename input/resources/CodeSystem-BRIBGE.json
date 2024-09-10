@@ -79,7 +79,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -91,7 +91,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "00103"
@@ -211,7 +211,7 @@
       "valueString": "São Paulo"
     }, {
       "code": "NomeMesorregiao",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "RegiaoGeograficaImediata",
       "valueString": "350013"
@@ -220,7 +220,7 @@
       "valueString": "038"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "Municipio",
       "valueString": "01400"
@@ -229,7 +229,7 @@
       "valueString": "35"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "3501400"
@@ -238,7 +238,7 @@
       "valueString": "Álvaro de Carvalho"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3504"
@@ -337,7 +337,7 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Paraí­ba"
+      "valueString": "Paraíba"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Sertão Paraibano"
@@ -380,7 +380,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -392,7 +392,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "01408"
@@ -668,7 +668,7 @@
       "valueString": "Bossoroca"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -724,10 +724,10 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Espí­rito Santo"
+      "valueString": "Espírito Santo"
     }, {
       "code": "NomeMesorregiao",
-      "valueString": "Noroeste Espí­rito-santense"
+      "valueString": "Noroeste Espírito-santense"
     }, {
       "code": "RegiaoGeograficaImediata",
       "valueString": "320006"
@@ -797,7 +797,7 @@
       "valueString": "Guarani das Missões"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -1080,7 +1080,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "06353"
@@ -1098,7 +1098,7 @@
       "valueString": "Dezesseis de Novembro"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -1200,7 +1200,7 @@
       "valueString": "Minas Gerais"
     }, {
       "code": "NomeMesorregiao",
-      "valueString": "Triângulo MineiroAlto Paranaí­ba"
+      "valueString": "Triângulo MineiroAlto Paranaíba"
     }, {
       "code": "RegiaoGeograficaImediata",
       "valueString": "310055"
@@ -1252,7 +1252,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "04003"
@@ -1277,7 +1277,7 @@
     } ]
   }, {
     "code": "4305009",
-    "display": "Catuí­pe",
+    "display": "Catuípe",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "01"
@@ -1295,7 +1295,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "05009"
@@ -1304,29 +1304,29 @@
       "valueString": "43"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4305009"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Catuí­pe"
+      "valueString": "Catuípe"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
     } ]
   }, {
     "code": "2207751",
-    "display": "Passagem Franca do Piauí­",
+    "display": "Passagem Franca do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -1338,7 +1338,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "07751"
@@ -1353,7 +1353,7 @@
       "valueString": "2207751"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Passagem Franca do Piauí­"
+      "valueString": "Passagem Franca do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -1412,7 +1412,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -1424,7 +1424,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "09450"
@@ -1439,7 +1439,7 @@
       "valueString": "2209450"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Santo Antí´nio dos Milagres"
+      "valueString": "Santo Antônio dos Milagres"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -1498,7 +1498,7 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Paraí­ba"
+      "valueString": "Paraíba"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Sertão Paraibano"
@@ -1596,7 +1596,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "12501"
@@ -1639,7 +1639,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "13053"
@@ -1664,7 +1664,7 @@
     } ]
   }, {
     "code": "5006275",
-    "display": "Paraí­so das Águas",
+    "display": "Paraíso das Águas",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "03"
@@ -1691,13 +1691,13 @@
       "valueString": "50"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Paranaí­ba - Chapadão do Sul - Cassilândia"
+      "valueString": "Paranaíba - Chapadão do Sul - Cassilândia"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "5006275"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Paraí­so das Águas"
+      "valueString": "Paraíso das Águas"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Campo Grande"
@@ -1842,7 +1842,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -1854,7 +1854,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "04600"
@@ -2014,7 +2014,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -2026,7 +2026,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "00202"
@@ -2057,7 +2057,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -2112,7 +2112,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "15603"
@@ -2155,7 +2155,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "22343"
@@ -2173,7 +2173,7 @@
       "valueString": "Ubiretama"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -2198,7 +2198,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "05497"
@@ -2309,7 +2309,7 @@
     } ]
   }, {
     "code": "5200605",
-    "display": "Alto Paraí­so de Goiás",
+    "display": "Alto Paraíso de Goiás",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
@@ -2342,7 +2342,7 @@
       "valueString": "5200605"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Alto Paraí­so de Goiás"
+      "valueString": "Alto Paraíso de Goiás"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Luziânia - Águas Lindas de Goiás"
@@ -2370,7 +2370,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "17609"
@@ -2444,7 +2444,7 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Paraí­ba"
+      "valueString": "Paraíba"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Sertão Paraibano"
@@ -2487,10 +2487,10 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Espí­rito Santo"
+      "valueString": "Espírito Santo"
     }, {
       "code": "NomeMesorregiao",
-      "valueString": "Noroeste Espí­rito-santense"
+      "valueString": "Noroeste Espírito-santense"
     }, {
       "code": "RegiaoGeograficaImediata",
       "valueString": "320005"
@@ -2542,7 +2542,7 @@
       "valueString": "036"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Peí§anha"
+      "valueString": "Peçanha"
     }, {
       "code": "Municipio",
       "valueString": "00609"
@@ -2573,7 +2573,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -2585,7 +2585,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valença do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "10383"
@@ -2616,7 +2616,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -2628,7 +2628,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "05250"
@@ -2689,20 +2689,20 @@
       "valueString": "Vitória das Missões"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
     } ]
   }, {
     "code": "2209609",
-    "display": "São Félix do Piauí­",
+    "display": "São Félix do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -2714,7 +2714,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valení§a do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "09609"
@@ -2729,7 +2729,7 @@
       "valueString": "2209609"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "São Félix do Piauí­"
+      "valueString": "São Félix do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -2843,7 +2843,7 @@
       "valueString": "004"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Joaí§aba"
+      "valueString": "Joaçaba"
     }, {
       "code": "Municipio",
       "valueString": "00408"
@@ -2852,7 +2852,7 @@
       "valueString": "42"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Joaí§aba - Herval d'Oeste"
+      "valueString": "Joaçaba - Herval d'Oeste"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4200408"
@@ -2947,7 +2947,7 @@
       "valueString": "Água Azul do Norte"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Redení§ío"
+      "valueString": "Redençío"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "1504"
@@ -2990,7 +2990,7 @@
       "valueString": "Sete de Setembro"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -3169,13 +3169,13 @@
     } ]
   }, {
     "code": "2210508",
-    "display": "São Pedro do Piauí­",
+    "display": "São Pedro do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -3187,7 +3187,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "10508"
@@ -3196,13 +3196,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2210508"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "São Pedro do Piauí­"
+      "valueString": "São Pedro do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -3273,7 +3273,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "22203"
@@ -3420,14 +3420,14 @@
       "valueString": "Santo Antônio das Missões"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
     } ]
   }, {
     "code": "5203962",
-    "display": "Buritiní³polis",
+    "display": "Buritinópolis",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -3460,7 +3460,7 @@
       "valueString": "5203962"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Buritiní³polis"
+      "valueString": "Buritinópolis"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Luziânia - Águas Lindas de Goiás"
@@ -3476,7 +3476,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -3488,7 +3488,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valença do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "11407"
@@ -3592,7 +3592,7 @@
       "valueString": "Águas Vermelhas"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Teí³filo Otoni"
+      "valueString": "Teófilo Otoni"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3103"
@@ -3746,7 +3746,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "05513"
@@ -3893,7 +3893,7 @@
       "valueString": "Rolador"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -3906,7 +3906,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -3918,7 +3918,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "08809"
@@ -3986,7 +3986,7 @@
     } ]
   }, {
     "code": "5220702",
-    "display": "Sí­tio d'Abadia",
+    "display": "Sítio d'Abadia",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -4019,7 +4019,7 @@
       "valueString": "5220702"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Sí­tio d'Abadia"
+      "valueString": "Sítio d'Abadia"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Luziânia - Águas Lindas de Goiás"
@@ -4047,7 +4047,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "19753"
@@ -4121,7 +4121,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -4133,7 +4133,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "07504"
@@ -4207,7 +4207,7 @@
       "valueString": "01"
     }, {
       "code": "NomeUF",
-      "valueString": "Paraí­ba"
+      "valueString": "Paraíba"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Sertão Paraibano"
@@ -4244,7 +4244,7 @@
     } ]
   }, {
     "code": "4306932",
-    "display": "Entre-Ijuí­s",
+    "display": "Entre-Ijuís",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "01"
@@ -4277,10 +4277,10 @@
       "valueString": "4306932"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Entre-Ijuí­s"
+      "valueString": "Entre-Ijuís"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -4323,7 +4323,7 @@
       "valueString": "Pirapó"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -4366,7 +4366,7 @@
       "valueString": "São Luiz Gonzaga"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -4391,7 +4391,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "15231"
@@ -4459,13 +4459,13 @@
     } ]
   }, {
     "code": "2209807",
-    "display": "Sío Goní§alo do Piauí­",
+    "display": "Sío Gonçalo do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -4477,7 +4477,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Médio Parnaí­ba Piauiense"
+      "valueString": "Médio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "09807"
@@ -4486,13 +4486,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2209807"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Sío Goní§alo do Piauí­"
+      "valueString": "Sío Gonçalo do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -4538,7 +4538,7 @@
       "valueString": "Água Nova"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Mossorí³"
+      "valueString": "Mossoró"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "2403"
@@ -4581,7 +4581,7 @@
       "valueString": "Cocalinho"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Barra do Garí§as"
+      "valueString": "Barra do Garças"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "5104"
@@ -4637,7 +4637,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -4649,7 +4649,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Mí©dio Parnaí­ba Piauiense"
+      "valueString": "Mí©dio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "00509"
@@ -4658,7 +4658,7 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2200509"
@@ -4717,7 +4717,7 @@
     } ]
   }, {
     "code": "4317509",
-    "display": "Santo íngelo",
+    "display": "Santo Ângelo",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "01"
@@ -4735,7 +4735,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "17509"
@@ -4744,29 +4744,29 @@
       "valueString": "43"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4317509"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
     } ]
   }, {
     "code": "2207108",
-    "display": "Olho D'Água do Piauí­",
+    "display": "Olho D'Água do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -4778,7 +4778,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Mí©dio Parnaí­ba Piauiense"
+      "valueString": "Mí©dio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "07108"
@@ -4787,13 +4787,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2207108"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Olho D'Água do Piauí­"
+      "valueString": "Olho D'Água do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -4821,7 +4821,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "09001"
@@ -4830,7 +4830,7 @@
       "valueString": "43"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4309001"
@@ -4839,7 +4839,7 @@
       "valueString": "Giruá"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -4916,7 +4916,7 @@
       "valueString": "27"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Pío de Aí§úcar - Olho d'Água das Flores Â¿ Batalha"
+      "valueString": "Pío de Açúcar - Olho d'Água das Flores Â¿ Batalha"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2705705"
@@ -4993,7 +4993,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "00258"
@@ -5097,7 +5097,7 @@
       "valueString": "Campinápolis"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Barra do Garí§as"
+      "valueString": "Barra do Garças"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "5104"
@@ -5165,7 +5165,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "19208"
@@ -5183,7 +5183,7 @@
       "valueString": "Sío Nicolau"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -5269,7 +5269,7 @@
       "valueString": "Machacalis"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Teí³filo Otoni"
+      "valueString": "Teófilo Otoni"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3103"
@@ -5328,7 +5328,7 @@
       "valueString": "Sío Paulo"
     }, {
       "code": "NomeMesorregiao",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "RegiaoGeograficaImediata",
       "valueString": "350016"
@@ -5355,14 +5355,14 @@
       "valueString": "Arco-íris"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Marí­lia"
+      "valueString": "Marília"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3504"
     } ]
   }, {
     "code": "2706307",
-    "display": "Palmeira dos índios",
+    "display": "Palmeira dos índios",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
@@ -5380,7 +5380,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Palmeira dos índios"
+      "valueString": "Palmeira dos índios"
     }, {
       "code": "Municipio",
       "valueString": "06307"
@@ -5389,13 +5389,13 @@
       "valueString": "27"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Palmeira dos índios"
+      "valueString": "Palmeira dos índios"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2706307"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Palmeira dos índios"
+      "valueString": "Palmeira dos índios"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Arapiraca"
@@ -5423,7 +5423,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "06206"
@@ -5448,7 +5448,7 @@
     } ]
   }, {
     "code": "3120151",
-    "display": "Crisí³lita",
+    "display": "Crisólita",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -5481,10 +5481,10 @@
       "valueString": "3120151"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Crisí³lita"
+      "valueString": "Crisólita"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Teí³filo Otoni"
+      "valueString": "Teófilo Otoni"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3103"
@@ -5552,7 +5552,7 @@
       "valueString": "013"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Baixo Parnaí­ba Maranhense"
+      "valueString": "Baixo Parnaíba Maranhense"
     }, {
       "code": "Municipio",
       "valueString": "00154"
@@ -5561,7 +5561,7 @@
       "valueString": "21"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Tutí³ia - Araioses"
+      "valueString": "Tutóia - Araioses"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2100154"
@@ -5570,14 +5570,14 @@
       "valueString": "Água Doce do Maranhío"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Sío Luí­s"
+      "valueString": "Sío Luís"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "2101"
     } ]
   }, {
     "code": "3500501",
-    "display": "Águas de Lindí³ia",
+    "display": "Águas de Lindóia",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "07"
@@ -5610,7 +5610,7 @@
       "valueString": "3500501"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Águas de Lindí³ia"
+      "valueString": "Águas de Lindóia"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Campinas"
@@ -5638,7 +5638,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "07831"
@@ -5647,7 +5647,7 @@
       "valueString": "43"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4307831"
@@ -5656,20 +5656,20 @@
       "valueString": "Eugíªnio de Castro"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
     } ]
   }, {
     "code": "2204006",
-    "display": "Franciní³polis",
+    "display": "Francinópolis",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -5681,7 +5681,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valení§a do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "04006"
@@ -5690,13 +5690,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2204006"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Franciní³polis"
+      "valueString": "Francinópolis"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -5706,7 +5706,7 @@
     } ]
   }, {
     "code": "4200507",
-    "display": "Águas de Chapecí³",
+    "display": "Águas de Chapecó",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "01"
@@ -5724,7 +5724,7 @@
       "valueString": "002"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "Municipio",
       "valueString": "00507"
@@ -5733,16 +5733,16 @@
       "valueString": "42"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4200507"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Águas de Chapecí³"
+      "valueString": "Águas de Chapecó"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4204"
@@ -5792,7 +5792,7 @@
     } ]
   }, {
     "code": "5212709",
-    "display": "Mambaí­",
+    "display": "Mambaí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -5825,7 +5825,7 @@
       "valueString": "5212709"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Mambaí­"
+      "valueString": "Mambaí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Luziânia - Águas Lindas de Goiás"
@@ -5878,7 +5878,7 @@
     } ]
   }, {
     "code": "3106606",
-    "display": "Bertí³polis",
+    "display": "Bertópolis",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -5911,10 +5911,10 @@
       "valueString": "3106606"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Bertí³polis"
+      "valueString": "Bertópolis"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Teí³filo Otoni"
+      "valueString": "Teófilo Otoni"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3103"
@@ -5957,7 +5957,7 @@
       "valueString": "Olho d'Água do Borges"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Mossorí³"
+      "valueString": "Mossoró"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "2403"
@@ -5982,7 +5982,7 @@
       "valueString": "002"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "Municipio",
       "valueString": "00556"
@@ -5991,7 +5991,7 @@
       "valueString": "42"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "4200556"
@@ -6000,7 +6000,7 @@
       "valueString": "Águas Frias"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Chapecí³"
+      "valueString": "Chapecó"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4204"
@@ -6043,7 +6043,7 @@
       "valueString": "Umburatiba"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Teí³filo Otoni"
+      "valueString": "Teófilo Otoni"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "3103"
@@ -6056,7 +6056,7 @@
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -6068,7 +6068,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valení§a do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "03503"
@@ -6077,7 +6077,7 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2203503"
@@ -6120,7 +6120,7 @@
       "valueString": "27"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Pío de Aí§úcar - Olho d'Água das Flores Â¿ Batalha"
+      "valueString": "Pío de Açúcar - Olho d'Água das Flores Â¿ Batalha"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2703403"
@@ -6154,7 +6154,7 @@
       "valueString": "001"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "íbidos"
+      "valueString": "Óbidos"
     }, {
       "code": "Municipio",
       "valueString": "05304"
@@ -6197,7 +6197,7 @@
       "valueString": "001"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "íbidos"
+      "valueString": "Óbidos"
     }, {
       "code": "Municipio",
       "valueString": "07979"
@@ -6258,7 +6258,7 @@
       "valueString": "Ribeirío Cascalheira"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Barra do Garí§as"
+      "valueString": "Barra do Garças"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "5104"
@@ -6301,7 +6301,7 @@
       "valueString": "Nova Nazaré"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Barra do Garí§as"
+      "valueString": "Barra do Garças"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "5104"
@@ -6326,7 +6326,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "00175"
@@ -6421,7 +6421,7 @@
       "valueString": "27"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Pío de Aí§úcar - Olho d'Água das Flores Â¿ Batalha"
+      "valueString": "Pío de Açúcar - Olho d'Água das Flores Â¿ Batalha"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2700904"
@@ -6464,7 +6464,7 @@
       "valueString": "27"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Pío de Aí§úcar - Olho d'Água das Flores Â¿ Batalha"
+      "valueString": "Pío de Açúcar - Olho d'Água das Flores Â¿ Batalha"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2706208"
@@ -6498,7 +6498,7 @@
       "valueString": "007"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Santo íngelo"
+      "valueString": "Santo Ângelo"
     }, {
       "code": "Municipio",
       "valueString": "20321"
@@ -6516,7 +6516,7 @@
       "valueString": "Senador Salgado Filho"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "Ijuí­"
+      "valueString": "Ijuí"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
@@ -7598,7 +7598,7 @@
     } ]
   }, {
     "code": "5221858",
-    "display": "Valparaí­so de Goiás",
+    "display": "Valparaíso de Goiás",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "04"
@@ -7616,7 +7616,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "21858"
@@ -7631,7 +7631,7 @@
       "valueString": "5221858"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Valparaí­so de Goiás"
+      "valueString": "Valparaíso de Goiás"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Luziânia - Águas Lindas de Goiás"
@@ -7641,13 +7641,13 @@
     } ]
   }, {
     "code": "2208601",
-    "display": "Prata do Piauí­",
+    "display": "Prata do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -7659,7 +7659,7 @@
       "valueString": "006"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Valení§a do Piauí­"
+      "valueString": "Valença do Piauí"
     }, {
       "code": "Municipio",
       "valueString": "08601"
@@ -7668,13 +7668,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2208601"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Prata do Piauí­"
+      "valueString": "Prata do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -7684,13 +7684,13 @@
     } ]
   }, {
     "code": "2205540",
-    "display": "Lagoinha do Piauí­",
+    "display": "Lagoinha do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -7702,7 +7702,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Mí©dio Parnaí­ba Piauiense"
+      "valueString": "Mí©dio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "05540"
@@ -7711,13 +7711,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2205540"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Lagoinha do Piauí­"
+      "valueString": "Lagoinha do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -7770,13 +7770,13 @@
     } ]
   }, {
     "code": "2200608",
-    "display": "Angical do Piauí­",
+    "display": "Angical do Piauí",
     "property": [ {
       "code": "MesorregiaoGeografica",
       "valueString": "02"
     }, {
       "code": "NomeUF",
-      "valueString": "Piauí­"
+      "valueString": "Piauí"
     }, {
       "code": "NomeMesorregiao",
       "valueString": "Centro-Norte Piauiense"
@@ -7788,7 +7788,7 @@
       "valueString": "005"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Mí©dio Parnaí­ba Piauiense"
+      "valueString": "Mí©dio Parnaíba Piauiense"
     }, {
       "code": "Municipio",
       "valueString": "00608"
@@ -7797,13 +7797,13 @@
       "valueString": "22"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Amarante - Água Branca - Regeneraí§ío"
+      "valueString": "Amarante - Água Branca - Regeneraçío"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "2200608"
     }, {
       "code": "NomeMunicipio",
-      "valueString": "Angical do Piauí­"
+      "valueString": "Angical do Piauí"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
       "valueString": "Teresina"
@@ -7920,7 +7920,7 @@
       "valueString": "012"
     }, {
       "code": "NomeMicrorregiao",
-      "valueString": "Entorno de Brasí­lia"
+      "valueString": "Entorno de Brasília"
     }, {
       "code": "Municipio",
       "valueString": "08004"
@@ -7969,7 +7969,7 @@
       "valueString": "51"
     }, {
       "code": "NomeRegiaoGeograficaImediata",
-      "valueString": "Ãgua Boa"
+      "valueString": "Água Boa"
     }, {
       "code": "CodigoMunicipioCompleto",
       "valueString": "5103858"
@@ -8021,7 +8021,7 @@
       "valueString": "São Miguel das Missões"
     }, {
       "code": "NomeRegiaoGeograficaIntermediaria",
-      "valueString": "IjuÃ­"
+      "valueString": "IjuÃ"
     }, {
       "code": "RegiaoGeograficaIntermediaria",
       "valueString": "4305"
