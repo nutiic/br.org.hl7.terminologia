@@ -71,6 +71,63 @@
     "operator": [ "=" ],
     "value": "Filtrar pela propriedade NomeMesorregiao"
   } ],
+  "property": [ {
+    "code": "NomeRegiaoGeograficaIntermediaria",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeRegiaoGeograficaIntermediaria"
+  }, {
+    "code": "NomeUF",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeUF"
+  }, {
+    "code": "RegiaoGeograficaIntermediaria",
+    "type": "string",
+    "description": "Filtrar pela propriedade RegiaoGeograficaIntermediaria"
+  }, {
+    "code": "NomeRegiaoGeograficaIntermediari",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeRegiaoGeograficaIntermediari"
+  }, {
+    "code": "NomeMicrorregiao",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeMicrorregiao"
+  }, {
+    "code": "MicrorregiaoGeografica",
+    "type": "string",
+    "description": "Filtrar pela propriedade MicrorregiaoGeografica"
+  }, {
+    "code": "Municipio",
+    "type": "string",
+    "description": "Filtrar pela propriedade Municipio"
+  }, {
+    "code": "UF",
+    "type": "string",
+    "description": "Filtrar pela propriedade UF"
+  }, {
+    "code": "MesorregiaoGeografica",
+    "type": "string",
+    "description": "Filtrar pela propriedade MesorregiaoGeografica"
+  }, {
+    "code": "NomeRegiaoGeograficaImediata",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeRegiaoGeograficaImediata"
+  }, {
+    "code": "RegiaoGeograficaImediata",
+    "type": "string",
+    "description": "Filtrar pela propriedade RegiaoGeograficaImediata"
+  }, {
+    "code": "CodigoMunicipioCompleto",
+    "type": "string",
+    "description": "Filtrar pela propriedade CodigoMunicipioCompleto"
+  }, {
+    "code": "NomeMunicipio",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeMunicipio"
+  }, {
+    "code": "NomeMesorregiao",
+    "type": "string",
+    "description": "Filtrar pela propriedade NomeMesorregiao"
+  } ],
   "concept": [ {
     "code": "2200103",
     "display": "Agricolândia",
