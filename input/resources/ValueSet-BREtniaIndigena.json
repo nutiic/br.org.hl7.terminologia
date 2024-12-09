@@ -33,12 +33,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0176",
-        "display": "PANKARU (PANCARU)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X367",
         "display": "PIRATA"
       } ]
@@ -47,6 +41,12 @@
       "concept": [ {
         "code": "0175",
         "display": "PANKARARU KARUAZU (KARUAZU)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0176",
+        "display": "PANKARU (PANCARU)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -75,12 +75,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X365",
-        "display": "PAYAYÁ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0172",
         "display": "PANKARARE (PANCARARE)"
       } ]
@@ -93,8 +87,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0179",
-        "display": "PARINTINTIN"
+        "code": "X365",
+        "display": "PAYAYÁ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -111,8 +105,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X369",
-        "display": "SABANÊ"
+        "code": "0179",
+        "display": "PARINTINTIN"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -125,6 +119,12 @@
       "concept": [ {
         "code": "X368",
         "display": "PUROBORÁ"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X369",
+        "display": "SABANÊ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -147,12 +147,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0182",
-        "display": "PATAXO HA-HA-HAE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X373",
         "display": "SIUCI"
       } ]
@@ -161,6 +155,12 @@
       "concept": [ {
         "code": "0181",
         "display": "PATAXO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0182",
+        "display": "PATAXO HA-HA-HAE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -183,12 +183,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0164",
-        "display": "NAWA (NAUA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X354",
         "display": "ORO EO"
       } ]
@@ -197,6 +191,12 @@
       "concept": [ {
         "code": "0163",
         "display": "NARAVUTE (NARUVOTO)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0164",
+        "display": "NAWA (NAUA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -225,12 +225,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X352",
-        "display": "ONÇA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0160",
         "display": "NAMBIKWARA DO CAMPO (HALOTESU, KITHAULU, WAKALITESU, SAWENTES, MANDUKA)"
       } ]
@@ -243,8 +237,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0167",
-        "display": "ORO WIN"
+        "code": "X352",
+        "display": "ONÇA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -261,8 +255,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X356",
-        "display": "ORO MIYLIN"
+        "code": "0167",
+        "display": "ORO WIN"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -275,6 +269,12 @@
       "concept": [ {
         "code": "X355",
         "display": "ORO JOWIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X356",
+        "display": "ORO MIYLIN"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -297,12 +297,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0170",
-        "display": "PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X360",
         "display": "ORO WARAM"
       } ]
@@ -315,8 +309,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0192",
-        "display": "SATERE-MAWE (SATERE-MAUE)"
+        "code": "0170",
+        "display": "PALIKUR (AUKWAYENE, AUKUYENE, PALIKU'ENE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -333,8 +327,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X381",
-        "display": "TSUNHUM-DJAPÁ"
+        "code": "0192",
+        "display": "SATERE-MAWE (SATERE-MAUE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -347,6 +341,12 @@
       "concept": [ {
         "code": "X380",
         "display": "TORÁ DO BAIXO GRANDE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X381",
+        "display": "TSUNHUM-DJAPÁ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -369,12 +369,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0195",
-        "display": "SURIANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X385",
         "display": "TUPINAMBÁ DE BELMONTE"
       } ]
@@ -387,8 +381,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X377",
-        "display": "TAWANDÊ"
+        "code": "0195",
+        "display": "SURIANA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -405,14 +399,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0184",
-        "display": "PAUMELENHO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
-        "code": "X375",
-        "display": "TAKUARA"
+        "code": "X377",
+        "display": "TAWANDÊ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -425,6 +413,18 @@
       "concept": [ {
         "code": "X374",
         "display": "TABAJARA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0184",
+        "display": "PAUMELENHO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X375",
+        "display": "TAKUARA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -447,12 +447,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0189",
-        "display": "POYANAWA (POIANAUA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X379",
         "display": "TIMBIRA"
       } ]
@@ -461,6 +455,12 @@
       "concept": [ {
         "code": "0188",
         "display": "POTIGUARA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0189",
+        "display": "POYANAWA (POIANAUA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -483,12 +483,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X393",
-        "display": "XEREU"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X392",
         "display": "WASSUSU"
       } ]
@@ -497,6 +491,12 @@
       "concept": [ {
         "code": "0200",
         "display": "TAPEBA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X393",
+        "display": "XEREU"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -525,12 +525,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X389",
-        "display": "WAI WAI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0198",
         "display": "SUYA (SUIAKISEDJE)"
       } ]
@@ -543,8 +537,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X399",
-        "display": "YEPAMASSÃ"
+        "code": "X389",
+        "display": "WAI WAI"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -561,8 +555,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X396",
-        "display": "XIPAYA"
+        "code": "X399",
+        "display": "YEPAMASSÃ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -575,6 +569,12 @@
       "concept": [ {
         "code": "X394",
         "display": "XI EIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X396",
+        "display": "XIPAYA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -597,12 +597,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X405",
-        "display": "SEM INFORMACAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X404",
         "display": "TATZ"
       } ]
@@ -611,6 +605,12 @@
       "concept": [ {
         "code": "X403",
         "display": "SAKIRIABAR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X405",
+        "display": "SEM INFORMACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -633,12 +633,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0124",
-        "display": "KRAHO (CRAO, KRAO)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X319",
         "display": "KAYABI"
       } ]
@@ -647,6 +641,12 @@
       "concept": [ {
         "code": "0123",
         "display": "KORUBO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0124",
+        "display": "KRAHO (CRAO, KRAO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -675,12 +675,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X317",
-        "display": "KATUKINA SHANENAUWA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0120",
         "display": "KIRIRI"
       } ]
@@ -693,8 +687,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0127",
-        "display": "KRIKATI (KRINKATI)"
+        "code": "X317",
+        "display": "KATUKINA SHANENAUWA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -711,8 +705,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X321",
-        "display": "KIRIRI-BARRA"
+        "code": "0127",
+        "display": "KRIKATI (KRINKATI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -725,6 +719,12 @@
       "concept": [ {
         "code": "X320",
         "display": "KINÃ (WAIMIRI-ATROARI)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X321",
+        "display": "KIRIRI-BARRA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -747,12 +747,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0130",
-        "display": "KUJUBIM (KUYUBI, CUJUBIM)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X325",
         "display": "KONTANAWA"
       } ]
@@ -761,6 +755,12 @@
       "concept": [ {
         "code": "0129",
         "display": "KUIKURO (KUIKURU, CUICURO)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0130",
+        "display": "KUJUBIM (KUYUBI, CUJUBIM)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -783,12 +783,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X308",
-        "display": "KANELA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0110",
         "display": "KAXARARI (CAXARARI)"
       } ]
@@ -797,6 +791,12 @@
       "concept": [ {
         "code": "X307",
         "display": "KAMPA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X308",
+        "display": "KANELA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -825,12 +825,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X305",
-        "display": "JIAHOI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0107",
         "display": "KATUENA (CATUENA, KATWENA)"
       } ]
@@ -843,8 +837,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X311",
-        "display": "KARUBO"
+        "code": "X305",
+        "display": "JIAHOI"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -861,8 +855,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0112",
-        "display": "KAXIXO"
+        "code": "X311",
+        "display": "KARUBO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -875,6 +869,12 @@
       "concept": [ {
         "code": "0111",
         "display": "KAXINAWA (HUNI-KUIN, CASHINAUA, CAXINAUA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0112",
+        "display": "KAXIXO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -897,12 +897,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0117",
-        "display": "KAYAPO XICRIM (XIKRIN)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0116",
         "display": "KAYAPO TXUKAHAMAE (TXUKAHAMAE)"
       } ]
@@ -915,8 +909,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0140",
-        "display": "MAKU NADEB (NADEB)"
+        "code": "0117",
+        "display": "KAYAPO XICRIM (XIKRIN)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -933,8 +927,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X333",
-        "display": "MANACAPURU"
+        "code": "0140",
+        "display": "MAKU NADEB (NADEB)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -947,6 +941,12 @@
       "concept": [ {
         "code": "X332",
         "display": "MAMURI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X333",
+        "display": "MANACAPURU"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -969,12 +969,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0143",
-        "display": "MAKUXI (MACUXI, MACHUSI, PEMON)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X337",
         "display": "MARIBONDO"
       } ]
@@ -987,8 +981,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0134",
-        "display": "KURUAIA (CURUAIA)"
+        "code": "0143",
+        "display": "MAKUXI (MACUXI, MACHUSI, PEMON)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1005,14 +999,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X327",
-        "display": "KULINA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
-        "code": "0132",
-        "display": "KULINAMADIHA (CULINA, MADIJA, MADIHA)"
+        "code": "0134",
+        "display": "KURUAIA (CURUAIA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1025,6 +1013,18 @@
       "concept": [ {
         "code": "0131",
         "display": "KULINA PANO (CULINA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X327",
+        "display": "KULINA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0132",
+        "display": "KULINAMADIHA (CULINA, MADIJA, MADIHA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1047,12 +1047,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0137",
-        "display": "MACURAP (MAKURAP)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X331",
         "display": "MAMAINDÊ"
       } ]
@@ -1061,6 +1055,12 @@
       "concept": [ {
         "code": "0136",
         "display": "MACHINERI (MANCHINERI, MANXINERI)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0137",
+        "display": "MACURAP (MAKURAP)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1083,12 +1083,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0150",
-        "display": "MAYA (MAYA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X343",
         "display": "MOKURIÑ"
       } ]
@@ -1097,6 +1091,12 @@
       "concept": [ {
         "code": "0149",
         "display": "MAXAKALI (MAXACALI)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0150",
+        "display": "MAYA (MAYA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1125,12 +1125,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0147",
-        "display": "MATIS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X340",
         "display": "MAWÉ"
       } ]
@@ -1143,8 +1137,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X346",
-        "display": "MYKY"
+        "code": "0147",
+        "display": "MATIS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1161,8 +1155,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0152",
-        "display": "MEHINAKO (MEINAKU, MEINACU)"
+        "code": "X346",
+        "display": "MYKY"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1175,6 +1169,12 @@
       "concept": [ {
         "code": "X344",
         "display": "MON ORO WARAM"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0152",
+        "display": "MEHINAKO (MEINAKU, MEINACU)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1197,12 +1197,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X349",
-        "display": "NEGAROTÊ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0156",
         "display": "MIRITI TAPUIA (MIRITI-TAPUYA, BUIA-TAPUYA)"
       } ]
@@ -1211,6 +1205,12 @@
       "concept": [ {
         "code": "X348",
         "display": "NAMBIKWARA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X349",
+        "display": "NEGAROTÊ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1233,12 +1233,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X266",
-        "display": "AICABA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0071",
         "display": "JURUNA"
       } ]
@@ -1247,6 +1241,12 @@
       "concept": [ {
         "code": "0070",
         "display": "JUMA (YUMA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X266",
+        "display": "AICABA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1275,12 +1275,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0068",
-        "display": "JARAWARA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0263",
         "display": "ZORO (PAGEYN)"
       } ]
@@ -1293,8 +1287,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X271",
-        "display": "AMAWÁKA"
+        "code": "0068",
+        "display": "JARAWARA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1311,8 +1305,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0073",
-        "display": "KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)"
+        "code": "X271",
+        "display": "AMAWÁKA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1325,6 +1319,12 @@
       "concept": [ {
         "code": "0072",
         "display": "JURUTI (YURITI)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0073",
+        "display": "KAAPOR (URUBU-KAAPOR, KA'APOR, KAAPORTE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1347,12 +1347,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X278",
-        "display": "ARIPUANÁ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0077",
         "display": "KAINGANG (CAINGANGUE)"
       } ]
@@ -1361,6 +1355,12 @@
       "concept": [ {
         "code": "X276",
         "display": "ARARA APOLIMA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X278",
+        "display": "ARIPUANÁ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1383,12 +1383,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0254",
-        "display": "YAMINAWA (JAMINAWA, IAMINAWA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0058",
         "display": "GUARANI KAIOWA (PAI TAVYTERA)"
       } ]
@@ -1397,6 +1391,12 @@
       "concept": [ {
         "code": "0253",
         "display": "YAIPIYANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0254",
+        "display": "YAMINAWA (JAMINAWA, IAMINAWA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1425,12 +1425,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0251",
-        "display": "XUKURU (XUCURU)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0055",
         "display": "GAVIAO PUKOBIE (PUKOBIE, PYKOPJE, GAVIAO DO MARANHAO)"
       } ]
@@ -1443,8 +1437,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0257",
-        "display": "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)"
+        "code": "0251",
+        "display": "XUKURU (XUCURU)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1461,8 +1455,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0060",
-        "display": "GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)"
+        "code": "0257",
+        "display": "YANOMAMI YANOMAM (IANOMAMI, IANOAMA, XI­RIANA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1475,6 +1469,12 @@
       "concept": [ {
         "code": "0059",
         "display": "GUARANI M'BYA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0060",
+        "display": "GUARANI NANDEVA (AVAKATUETE, CHIRIPA, NHANDEWA, AVA GUARANI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1497,12 +1497,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0260",
-        "display": "YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0064",
         "display": "IRANXE (IRANTXE)"
       } ]
@@ -1515,8 +1509,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X287",
-        "display": "CUJUBIM"
+        "code": "0260",
+        "display": "YEKUANA (MAIONGON, YE'KUANA, YEKWANA, MAYONGONG)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1533,8 +1527,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0086",
-        "display": "KAMBIWA PIPIPA (PIPIPA)"
+        "code": "X287",
+        "display": "CUJUBIM"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1547,6 +1541,12 @@
       "concept": [ {
         "code": "0085",
         "display": "KAMBIWA (CAMBIUA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0086",
+        "display": "KAMBIWA PIPIPA (PIPIPA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1569,12 +1569,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0091",
-        "display": "KANELA RANKOKAMEKRA (CANELA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "X289",
         "display": "GAVIÃO"
       } ]
@@ -1587,8 +1581,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0081",
-        "display": "KALAPALO (CALAPALO)"
+        "code": "0091",
+        "display": "KANELA RANKOKAMEKRA (CANELA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1605,14 +1599,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X280",
-        "display": "AWUARÁ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
-        "code": "0079",
-        "display": "KALABASSA (CALABASSA, CALABACAS)"
+        "code": "0081",
+        "display": "KALAPALO (CALAPALO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1625,6 +1613,18 @@
       "concept": [ {
         "code": "0078",
         "display": "KAIXANA (CAIXANA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X280",
+        "display": "AWUARÁ"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0079",
+        "display": "KALABASSA (CALABASSA, CALABACAS)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1647,12 +1647,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X284",
-        "display": "CAMASURI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0084",
         "display": "KAMBEBA (CAMBEBA, OMAGUA)"
       } ]
@@ -1661,6 +1655,12 @@
       "concept": [ {
         "code": "X283",
         "display": "CAMARARÉ"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X284",
+        "display": "CAMASURI"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1683,12 +1683,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X296",
-        "display": "HUPDES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0097",
         "display": "KARAJAJAVAE (JAVAE)"
       } ]
@@ -1697,6 +1691,12 @@
       "concept": [ {
         "code": "X295",
         "display": "HUPDE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "X296",
+        "display": "HUPDES"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1725,12 +1725,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X293",
-        "display": "HENGATÚ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0094",
         "display": "KANTARURE (CANTARURE)"
       } ]
@@ -1743,8 +1737,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "X299",
-        "display": "IKPENG"
+        "code": "X293",
+        "display": "HENGATÚ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1761,8 +1755,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0099",
-        "display": "KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)"
+        "code": "X299",
+        "display": "IKPENG"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1775,6 +1769,12 @@
       "concept": [ {
         "code": "0098",
         "display": "KARAJAXAMBIOA (KARAJA DO NORTE)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0099",
+        "display": "KARAPANA (CARAPANA, MUTEAMASA, UKOPINO­PONA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1797,12 +1797,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0104",
-        "display": "KARIRI-XOCO (CARIRI-CHOCO)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0103",
         "display": "KARIRI (CARIRI)"
       } ]
@@ -1811,6 +1805,12 @@
       "concept": [ {
         "code": "X301",
         "display": "INHABARANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0104",
+        "display": "KARIRI-XOCO (CARIRI-CHOCO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1833,12 +1833,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0020",
-        "display": "ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0019",
         "display": "ARIKAPU (ARICAPU, ARIKAPO, MASUBI, MAXUBI)"
       } ]
@@ -1847,6 +1841,12 @@
       "concept": [ {
         "code": "0218",
         "display": "TUKANO (TUCANO, YE'PA-MASA, DASEA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0020",
+        "display": "ARIKEM (ARIQUEN, ARIQUEME, ARIKEME)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1875,12 +1875,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0216",
-        "display": "TRUMAI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0016",
         "display": "ARARA DO ARIPUANA (ARARA DO BEIRADAOARI­PUANA)"
       } ]
@@ -1893,8 +1887,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0023",
-        "display": "ARUAK (ARAWAK)"
+        "code": "0216",
+        "display": "TRUMAI"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1911,8 +1905,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0220",
-        "display": "TUNAYANA"
+        "code": "0023",
+        "display": "ARUAK (ARAWAK)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1925,6 +1919,12 @@
       "concept": [ {
         "code": "0219",
         "display": "TUMBALALA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0220",
+        "display": "TUNAYANA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1947,12 +1947,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0026",
-        "display": "ASURINI DO XINGU (AWAETE)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0224",
         "display": "TURIWARA"
       } ]
@@ -1961,6 +1955,12 @@
       "concept": [ {
         "code": "0025",
         "display": "ASURINI DO TOCANTINS (AKUAWAAKWAWA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0026",
+        "display": "ASURINI DO XINGU (AWAETE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -1983,12 +1983,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0207",
-        "display": "TERENA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0006",
         "display": "AMONDAWA"
       } ]
@@ -1997,6 +1991,12 @@
       "concept": [ {
         "code": "0206",
         "display": "TENHARIM"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0207",
+        "display": "TERENA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2025,12 +2025,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0204",
-        "display": "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0003",
         "display": "AJURU"
       } ]
@@ -2043,8 +2037,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0010",
-        "display": "APINAYE (APINAJEAPINAIEAPINAGE)"
+        "code": "0204",
+        "display": "TAUREPANG (TAULIPANG, PEMON, AREKUNA, PA­GEYN)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2061,8 +2055,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0008",
-        "display": "APARAI (APALAI)"
+        "code": "0010",
+        "display": "APINAYE (APINAJEAPINAIEAPINAGE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2075,6 +2069,12 @@
       "concept": [ {
         "code": "0007",
         "display": "ANAMBE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0008",
+        "display": "APARAI (APALAI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2097,12 +2097,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0013",
-        "display": "ARAPASO (ARAPACO)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0212",
         "display": "TIRIYO TSIKUYANA (TIRIYO, TRIO, TARONA, YAWI, PIANOKOTO)"
       } ]
@@ -2115,8 +2109,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0036",
-        "display": "BORORO (BOE)"
+        "code": "0013",
+        "display": "ARAPASO (ARAPACO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2133,8 +2127,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0232",
-        "display": "WAI WAI XEREU (XEREU)"
+        "code": "0036",
+        "display": "BORORO (BOE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2147,6 +2141,12 @@
       "concept": [ {
         "code": "0231",
         "display": "WAI WAI KARAFAWYANA (KARAFAWYANA, KARA­PAWYANA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0232",
+        "display": "WAI WAI XEREU (XEREU)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2169,12 +2169,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0039",
-        "display": "CASSUPA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0236",
         "display": "WAIMIRI ATROARI (KINA)"
       } ]
@@ -2187,8 +2181,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0030",
-        "display": "BAKAIRI (KURA, BACAIRI)"
+        "code": "0039",
+        "display": "CASSUPA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2205,14 +2199,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0226",
-        "display": "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
-        "code": "0028",
-        "display": "AVA - CANOEIRO"
+        "code": "0030",
+        "display": "BAKAIRI (KURA, BACAIRI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2225,6 +2213,18 @@
       "concept": [ {
         "code": "0027",
         "display": "ATIKUM (ATICUM)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0226",
+        "display": "TUYUKA (TUIUCA, DOKAPUARA, UTAPINOMAKA­PHONA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0028",
+        "display": "AVA - CANOEIRO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2247,12 +2247,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0033",
-        "display": "BARA (WAIPINOMAKA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0230",
         "display": "WAI WAI HIXKARYANA (HIXKARYANA)"
       } ]
@@ -2261,6 +2255,12 @@
       "concept": [ {
         "code": "0032",
         "display": "BANIWA (BANIUA, BANIVA, WALIMANAI, WAKUE­NAI)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0033",
+        "display": "BARA (WAIPINOMAKA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2283,12 +2283,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0242",
-        "display": "WAYANA (WAIANA, UAIANA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0045",
         "display": "DENI"
       } ]
@@ -2297,6 +2291,12 @@
       "concept": [ {
         "code": "0241",
         "display": "WAURA (UAURA, WAUJA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0242",
+        "display": "WAYANA (WAIANA, UAIANA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2319,12 +2319,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0042",
-        "display": "CIKIYANA (SIKIANA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0239",
         "display": "WAREKENA (UAREQUENA, WEREKENA)"
       } ]
@@ -2337,8 +2331,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0245",
-        "display": "XAVANTE (A'UWE, AKWE, AWEN, AKWEN)"
+        "code": "0042",
+        "display": "CIKIYANA (SIKIANA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2355,8 +2349,8 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0047",
-        "display": "DIAHUI (JAHOI, JAHUI, DIARROI)"
+        "code": "0245",
+        "display": "XAVANTE (A'UWE, AKWE, AWEN, AKWEN)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2369,6 +2363,12 @@
       "concept": [ {
         "code": "0046",
         "display": "DESANA (DESANA, DESANO, DESSANO, WIRA, UMUKOMASA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0047",
+        "display": "DIAHUI (JAHOI, JAHUI, DIARROI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
@@ -2391,12 +2391,6 @@
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
       "concept": [ {
-        "code": "0248",
-        "display": "XIPAIA (SHIPAYA, XIPAYA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
-      "concept": [ {
         "code": "0051",
         "display": "GALIBI MARWORNO (GALIBI DO UACA, ARUA)"
       } ]
@@ -2405,6 +2399,12 @@
       "concept": [ {
         "code": "0247",
         "display": "XETA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+      "concept": [ {
+        "code": "0248",
+        "display": "XIPAIA (SHIPAYA, XIPAYA)"
       } ]
     } ]
   }

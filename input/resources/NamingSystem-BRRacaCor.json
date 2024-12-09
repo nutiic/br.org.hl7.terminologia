@@ -5,6 +5,8 @@
   "name": "BRRacaCor",
   "status": "active",
   "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
   "description": "Raça/Cor",
   "uniqueId": [ {
     "type": "uri",

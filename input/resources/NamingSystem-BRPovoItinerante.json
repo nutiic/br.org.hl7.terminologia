@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRPovoItinerante",
+  "language": "pt",
+  "name": "BRPovoItinerante",
+  "status": "active",
+  "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
+  "description": "BRPovoItinerante",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
+    "preferred": true
+  } ]
+}

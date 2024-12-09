@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoLogradouro",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoLogradouro",
+  "version": "HEAD",
+  "name": "BRTipoLogradouro",
+  "title": "Tipo de Logradouro",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Logradouro",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
+      "concept": [ {
+        "code": "008",
+        "display": "Avenida"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
+      "concept": [ {
+        "code": "081",
+        "display": "Rua"
+      } ]
+    } ]
+  }
+}

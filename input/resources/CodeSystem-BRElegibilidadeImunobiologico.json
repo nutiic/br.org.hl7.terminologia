@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRElegibilidadeImunobiologico",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+  "version": "HEAD",
+  "name": "BRElegibilidadeImunobiologico",
+  "title": "ElegibilidadeImunobiologico",
+  "status": "active",
+  "experimental": false,
+  "description": "ElegibilidadeImunobiologico",
+  "caseSensitive": true,
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "CNI-S",
+    "display": "Pertence ao CNI"
+  }, {
+    "code": "CNI-N",
+    "display": "Não pertence ao CNI"
+  } ]
+}

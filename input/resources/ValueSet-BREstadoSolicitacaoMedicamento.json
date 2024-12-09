@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BREstadoSolicitacaoMedicamento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento",
+  "version": "HEAD",
+  "name": "BREstadoSolicitacaoMedicamento",
+  "title": "Estado da Solicitação de Medicamento",
+  "status": "active",
+  "experimental": false,
+  "description": "Estado da Solicitação de Medicamento",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "completed",
+        "display": "Completed"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "on-hold",
+        "display": "On Hold"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "draft",
+        "display": "Draft"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "unknown",
+        "display": "Unknown"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "active",
+        "display": "Active"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "cancelled",
+        "display": "Cancelled"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept": [ {
+        "code": "entered-in-error",
+        "display": "Entered in Error"
+      } ]
+    } ]
+  }
+}

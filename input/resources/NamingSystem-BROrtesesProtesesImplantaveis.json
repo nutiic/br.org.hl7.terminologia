@@ -1,0 +1,14 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BROrtesesProtesesImplantaveis",
+  "language": "pt",
+  "name": "BROrtesesProtesesImplantaveis",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Órteses e Proteses Implantáveis",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+    "preferred": true
+  } ]
+}

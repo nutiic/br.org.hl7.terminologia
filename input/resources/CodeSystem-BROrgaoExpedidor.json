@@ -15,11 +15,11 @@
   "versionNeeded": true,
   "content": "complete",
   "concept": [ {
-    "code": "COREN",
-    "display": "Conselho Regional de Enfermagem (COREn)"
-  }, {
     "code": "DETRAN",
     "display": "Departamento Estadual de Trânsito"
+  }, {
+    "code": "COREN",
+    "display": "Conselho Regional de Enfermagem (COREn)"
   }, {
     "code": "CRTR",
     "display": "Conselho Regional de Técnicos em Radiologia (CRTR)"
@@ -33,17 +33,17 @@
     "code": "FAB",
     "display": "Força Aérea Brasileira"
   }, {
-    "code": "CRA",
-    "display": "Conselho Regional de Administração (CRA)"
-  }, {
     "code": "EB",
     "display": "Exército Brasileiro"
   }, {
-    "code": "II",
-    "display": "Instituto de Identificação"
+    "code": "CRA",
+    "display": "Conselho Regional de Administração (CRA)"
   }, {
     "code": "CRB",
     "display": "Conselho Regional de Biblioteconomia (CRB)"
+  }, {
+    "code": "II",
+    "display": "Instituto de Identificação"
   }, {
     "code": "CRO",
     "display": "Conselho Regional de Odontologia (CRO)"
@@ -66,41 +66,41 @@
     "code": "CRQ",
     "display": "Conselho Regional de Química (CRQ)"
   }, {
-    "code": "CONFRE",
-    "display": "Conselho Regional de Estatística (CONRE)"
-  }, {
     "code": "CRP",
     "display": "Conselho Regional de Psicologia (CRP)"
   }, {
-    "code": "CRT",
-    "display": "Conselho Regional dos Técnicos Industriais (CRT)"
+    "code": "CONFRE",
+    "display": "Conselho Regional de Estatística (CONRE)"
   }, {
     "code": "CONRERP",
     "display": "Conselho Regional de Reçações Públicas (CONRERP)"
   }, {
+    "code": "CRT",
+    "display": "Conselho Regional dos Técnicos Industriais (CRT)"
+  }, {
     "code": "PCE",
     "display": "Polícia Civil do Estado"
-  }, {
-    "code": "CREA",
-    "display": "Conselho Regional de Engenharia e Agronomia (CREA)"
   }, {
     "code": "OAB",
     "display": "Ordem dos Advogados do BRAasil (OAB)"
   }, {
-    "code": "PF",
-    "display": "Polícia Federal"
+    "code": "CREA",
+    "display": "Conselho Regional de Engenharia e Agronomia (CREA)"
   }, {
     "code": "CRECI",
     "display": "Conselho Regional de Corretores de Imóveis (CRECI)"
   }, {
+    "code": "PF",
+    "display": "Polícia Federal"
+  }, {
     "code": "CRBM",
     "display": "Conselho Regional de Biomedicina (CRBM)"
   }, {
-    "code": "MB",
-    "display": "Marinha do Brasil"
-  }, {
     "code": "CRBIO",
     "display": "Conselho Regional de Biologia (CRBio)"
+  }, {
+    "code": "MB",
+    "display": "Marinha do Brasil"
   }, {
     "code": "MS",
     "display": "Ministério da Saúde"
@@ -111,11 +111,11 @@
     "code": "CRC",
     "display": "Conselho Regional de Contabilidade (CRC)"
   }, {
-    "code": "CRESS",
-    "display": "Conselho Regional de Serviço Social (CRESS)"
-  }, {
     "code": "RFB",
     "display": "Receita Federal do Brasil"
+  }, {
+    "code": "CRESS",
+    "display": "Conselho Regional de Serviço Social (CRESS)"
   }, {
     "code": "PM",
     "display": "Polícia Militar"
@@ -129,16 +129,16 @@
     "code": "other",
     "display": "Outro órgão não listado"
   }, {
-    "code": "CRF",
-    "display": "Conselho Regional de Farmácia (CRF)"
-  }, {
     "code": "SSP",
     "display": "Serviço de Segurança Pública"
   }, {
-    "code": "CRM",
-    "display": "Conselho Regional de Medicina (CRM)"
+    "code": "CRF",
+    "display": "Conselho Regional de Farmácia (CRF)"
   }, {
     "code": "CRFA",
     "display": "Conselho Regional de Fonoaudiologia (CRFaCREFONO)"
+  }, {
+    "code": "CRM",
+    "display": "Conselho Regional de Medicina (CRM)"
   } ]
 }

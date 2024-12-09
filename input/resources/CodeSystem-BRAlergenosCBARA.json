@@ -13,461 +13,1087 @@
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
+  "filter": [ {
+    "code": "categoria",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade categoria"
+  }, {
+    "code": "category",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade category"
+  } ],
+  "property": [ {
+    "code": "categoria",
+    "description": "Filtrar pela propriedade categoria",
+    "type": "string"
+  }, {
+    "code": "category",
+    "description": "Filtrar pela propriedade category",
+    "type": "string"
+  } ],
   "concept": [ {
     "code": "peixe",
-    "display": "Peixe"
+    "display": "Peixe",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "peixe-aranha",
-    "display": "Peixe-Aranha"
+    "display": "Peixe-Aranha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "castanha",
-    "display": "Castanhas"
-  }, {
-    "code": "carne",
-    "display": "Carne"
+    "display": "Castanhas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "parafina",
-    "display": "Parafina"
+    "display": "Parafina",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "carne-ave",
-    "display": "Carne de aves"
+    "display": "Carne de aves",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "carne",
+    "display": "Carne",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "resina-arvore",
-    "display": "Resina de árvore"
+    "display": "Resina de árvore",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "pelo-animal",
-    "display": "Pelo de animais"
+    "display": "Pelo de animais",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "castanha-caju",
-    "display": "Castanha de caju"
+    "display": "Castanha de caju",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pelo-cao",
-    "display": "Pelo de cão"
-  }, {
-    "code": "kiwi",
-    "display": "Kiwi"
+    "display": "Pelo de cão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "veneno-vespa",
-    "display": "Veneno de vespa"
+    "display": "Veneno de vespa",
+    "property": [ {
+      "code": "category",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "grama",
-    "display": "Grama"
+    "display": "Grama",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
-    "code": "caracol",
-    "display": "Caracol"
+    "code": "kiwi",
+    "display": "Kiwi",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "outro-agente-substancia",
-    "display": "Outros agentes ou substâncias"
+    "display": "Outros agentes ou substâncias",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "caranguejo",
-    "display": "Caranguejo"
+    "display": "Caranguejo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "outro-alimento",
-    "display": "Outro alimento"
+    "code": "caracol",
+    "display": "Caracol",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "carbaril",
-    "display": "Carbaril"
+    "display": "Carbaril",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "paprica",
-    "display": "Páprica"
+    "display": "Páprica",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "outro-alimento",
+    "display": "Outro alimento",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "camarao",
-    "display": "Camarão"
+    "display": "Camarão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "canela",
-    "display": "Canela"
+    "display": "Canela",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "ouro",
-    "display": "Ouro"
-  }, {
-    "code": "leguminosa",
-    "display": "Leguminosas"
+    "display": "Ouro",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "limao",
-    "display": "Limão"
+    "display": "Limão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "organofosfato",
-    "display": "Organofosfatos"
+    "display": "Organofosfatos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "leguminosa",
+    "display": "Leguminosas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "citrato",
-    "display": "Citrato"
+    "display": "Citrato",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "perfume",
-    "display": "Perfume"
+    "display": "Perfume",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "clara-ovo",
-    "display": "Clara do ovo"
-  }, {
-    "code": "chocolate",
-    "display": "Chocolate"
+    "display": "Clara do ovo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "cereja",
-    "display": "Cereja"
+    "display": "Cereja",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "perfluorinato",
-    "display": "Perfluorinato"
+    "display": "Perfluorinato",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "chocolate",
+    "display": "Chocolate",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "cobre",
-    "display": "Cobre"
+    "display": "Cobre",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "pesticida",
-    "display": "Pesticidas"
+    "display": "Pesticidas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "coco",
-    "display": "Coco"
+    "display": "Coco",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pesticida-organoclorado",
-    "display": "Pesticida organoclorado"
-  }, {
-    "code": "peroxido-benzoila",
-    "display": "Peróxido de Benzoíla"
+    "display": "Pesticida organoclorado",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "cloreto-metilbenzetonio",
-    "display": "Cloreto de Metilbenzetônio"
+    "display": "Cloreto de Metilbenzetônio",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "pessego",
-    "display": "Pêssego"
+    "display": "Pêssego",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "cenoura",
-    "display": "Cenoura"
+    "code": "peroxido-benzoila",
+    "display": "Peróxido de Benzoíla",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "centeio",
-    "display": "Centeio"
+    "display": "Centeio",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pelo-gato",
-    "display": "Pelo de gato"
+    "display": "Pelo de gato",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
-    "code": "cereal",
-    "display": "Cereal"
+    "code": "cenoura",
+    "display": "Cenoura",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pelo-vaca",
-    "display": "Pelo de vaca"
+    "display": "Pelo de vaca",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "pena",
-    "display": "Penas"
+    "display": "Penas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "cereal",
+    "display": "Cereal",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "lima",
-    "display": "Lima"
+    "display": "Lima",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "cebola",
-    "display": "Cebola"
+    "display": "Cebola",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pelo-cavalo",
-    "display": "Pelo de cavalo"
-  }, {
-    "code": "aspartame",
-    "display": "Aspartame"
+    "display": "Pelo de cavalo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "carne-vermelha",
-    "display": "Carne vermelha"
+    "display": "Carne vermelha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "ostra",
-    "display": "Ostra"
+    "display": "Ostra",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "acaro",
-    "display": "Ácaros"
+    "code": "aspartame",
+    "display": "Aspartame",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "aluminio",
-    "display": "Alumínio"
+    "display": "Alumínio",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "lula",
-    "display": "Lula"
+    "display": "Lula",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "madeira",
-    "display": "Madeira"
+    "code": "acaro",
+    "display": "Ácaros",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "aditivo-alimentar",
-    "display": "Aditivos alimentares"
+    "display": "Aditivos alimentares",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "alho",
-    "display": "Alho"
+    "display": "Alho",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "madeira",
+    "display": "Madeira",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "marisco",
-    "display": "Marisco"
+    "display": "Marisco",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "ambrosia",
-    "display": "Ambrósia"
+    "display": "Ambrósia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "manga",
-    "display": "Manga"
-  }, {
-    "code": "material-sutura",
-    "display": "Material de sutura"
+    "display": "Manga",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "maca",
-    "display": "Maçã"
+    "display": "Maçã",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "manteiga-cacau",
-    "display": "Manteiga de cacau"
+    "display": "Manteiga de cacau",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "banana",
-    "display": "Banana"
+    "code": "material-sutura",
+    "display": "Material de sutura",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "latex",
-    "display": "Látex"
+    "display": "Látex",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "avela",
-    "display": "Avelã"
+    "display": "Avelã",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "mostarda",
-    "display": "Mostarda"
-  }, {
-    "code": "agente-fisico",
-    "display": "Agentes físicos"
+    "code": "banana",
+    "display": "Banana",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "acido-azelaico",
-    "display": "Ácido azelaico"
+    "display": "Ácido azelaico",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "aveia",
-    "display": "Aveia"
+    "display": "Aveia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "mostarda",
+    "display": "Mostarda",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "agente-fisico",
+    "display": "Agentes físicos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "alcool-polivinilico",
-    "display": "Álcool polivinílico"
+    "display": "Álcool polivinílico",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "niquel",
-    "display": "Níquel"
+    "display": "Níquel",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "baunilha",
-    "display": "Baunilha"
-  }, {
-    "code": "batata",
-    "display": "Batata"
+    "display": "Baunilha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "laticinio",
-    "display": "Laticínios"
+    "display": "Laticínios",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "aipo",
-    "display": "Aipo"
+    "display": "Aipo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "batata",
+    "display": "Batata",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "melancia",
-    "display": "Melancia"
+    "display": "Melancia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "adesivo",
-    "display": "Adesivos"
+    "display": "Adesivos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "antralina",
-    "display": "Antralina"
-  }, {
-    "code": "latao",
-    "display": "Latão"
+    "display": "Antralina",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "mirtilo",
-    "display": "Mirtilos"
+    "display": "Mirtilos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "milho",
-    "display": "Milho"
+    "display": "Milho",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "latao",
+    "display": "Latão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "areia",
-    "display": "Areia"
+    "display": "Areia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "material-dentario-policarboneto",
-    "display": "Material dentário em policarboneto"
+    "display": "Material dentário em policarboneto",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "aranha",
-    "display": "Aranha"
+    "display": "Aranha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "amendoim",
-    "display": "Amendoim"
-  }, {
-    "code": "arvore",
-    "display": "Árvores"
+    "display": "Amendoim",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "melao",
-    "display": "Melão"
+    "display": "Melão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "arroz",
-    "display": "Arroz"
+    "display": "Arroz",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "noz-moscada",
-    "display": "Noz moscada"
+    "code": "arvore",
+    "display": "Árvores",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "bacalhau",
-    "display": "Bacalhau"
+    "display": "Bacalhau",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "noz",
-    "display": "Nozes"
+    "display": "Nozes",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
-    "code": "morango",
-    "display": "Morango"
+    "code": "noz-moscada",
+    "display": "Noz moscada",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "abelha",
-    "display": "Abelha"
+    "display": "Abelha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "atum",
-    "display": "Atum"
+    "display": "Atum",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "morango",
+    "display": "Morango",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "laranja",
-    "display": "Laranja"
+    "display": "Laranja",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "mexilhao",
-    "display": "Mexilhão"
+    "display": "Mexilhão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "oleo-eucalipto",
-    "display": "Óleo de eucalipto"
-  }, {
-    "code": "barata",
-    "display": "Barata"
+    "display": "Óleo de eucalipto",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "borracha",
-    "display": "Borracha"
+    "display": "Borracha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "oleo-peixe",
-    "display": "Óleo de Peixe"
+    "display": "Óleo de Peixe",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "barata",
+    "display": "Barata",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "framboesa",
-    "display": "Framboesa"
+    "display": "Framboesa",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "fruta-citrica",
-    "display": "Frutas cítricas"
+    "display": "Frutas cítricas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "semente",
-    "display": "Semente"
+    "display": "Semente",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "gengibre",
-    "display": "Gengibre"
+    "display": "Gengibre",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "sulfito",
-    "display": "Sulfitos"
-  }, {
-    "code": "sepia",
-    "display": "Sépia"
+    "display": "Sulfitos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "silicone-derivado",
-    "display": "Silicone e seus derivados"
+    "display": "Silicone e seus derivados",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "sepia",
+    "display": "Sépia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "veneno-escorpiao",
-    "display": "Veneno de escorpião"
-  }, {
-    "code": "seda",
-    "display": "Seda"
+    "display": "Veneno de escorpião",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "figo",
-    "display": "Figos"
+    "display": "Figos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "seda",
+    "display": "Seda",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "ferro",
-    "display": "Ferro"
+    "display": "Ferro",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "samambaia",
-    "display": "Samambaia"
+    "display": "Samambaia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "feijao",
-    "display": "Feijão"
+    "display": "Feijão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "toxina-botulinica",
-    "display": "Toxina botulínica"
+    "display": "Toxina botulínica",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "la",
-    "display": "Lã"
+    "display": "Lã",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "tomate",
-    "display": "Tomate"
+    "display": "Tomate",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "lambreta",
-    "display": "Lambreta"
+    "display": "Lambreta",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "lanolina",
-    "display": "Lanolina"
-  }, {
-    "code": "trigo",
-    "display": "Trigo"
+    "display": "Lanolina",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "lagosta",
-    "display": "Lagosta"
+    "display": "Lagosta",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "trigo",
+    "display": "Trigo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "grao",
-    "display": "Grão"
-  }, {
-    "code": "grao-soja",
-    "display": "Grãos de soja"
+    "display": "Grão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "tinta-textil",
-    "display": "Tintas para têxteis"
+    "display": "Tintas para têxteis",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "grao-soja",
+    "display": "Grãos de soja",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "terpeno",
-    "display": "Terpeno"
+    "display": "Terpeno",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "tinta-cabelo",
-    "display": "Tinta para o cabelo"
+    "display": "Tinta para o cabelo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "glutamato",
-    "display": "Glutamato"
+    "display": "Glutamato",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "enxofre",
-    "display": "Enxofre"
-  }, {
-    "code": "porco",
-    "display": "Porco"
+    "display": "Enxofre",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "prata",
-    "display": "Prata"
+    "display": "Prata",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "porco",
+    "display": "Porco",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "crustaceo",
-    "display": "Crustáceos"
+    "display": "Crustáceos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "curry",
-    "display": "Curry"
+    "display": "Curry",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "polen-grama",
-    "display": "Pólen de grama"
-  }, {
-    "code": "proteina-ovo",
-    "display": "Proteína do ovo"
+    "display": "Pólen de grama",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "etanolamina",
-    "display": "Etanolamina"
+    "display": "Etanolamina",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
-    "code": "queijo",
-    "display": "Queijo"
+    "code": "proteina-ovo",
+    "display": "Proteína do ovo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "farinha",
-    "display": "Farinha"
+    "display": "Farinha",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
+  }, {
+    "code": "queijo",
+    "display": "Queijo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "proteina-leite-vaca",
-    "display": "Proteína do leite de vaca"
+    "display": "Proteína do leite de vaca",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "erva-daninha",
-    "display": "Ervas daninhas"
+    "display": "Ervas daninhas",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "erva-aromatica-especiaria",
-    "display": "Ervas aromáticas e especiarias"
+    "display": "Ervas aromáticas e especiarias",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pelo-coelho",
-    "display": "Pelo de coelho"
+    "display": "Pelo de coelho",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "coelho",
-    "display": "Coelho"
+    "display": "Coelho",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "contato-metal",
-    "display": "Contato com metal"
+    "display": "Contato com metal",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "polvo",
-    "display": "Polvo"
+    "display": "Polvo",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "cravo-india",
-    "display": "Cravo-da- Índia"
-  }, {
-    "code": "cosmetico",
-    "display": "Cosméticos"
+    "display": "Cravo-da- Índia",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "polen",
-    "display": "Pólen"
+    "display": "Pólen",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "cosmetico",
+    "display": "Cosméticos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "cola",
-    "display": "Cola"
-  }, {
-    "code": "pistache",
-    "display": "Pistache"
+    "display": "Cola",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
   }, {
     "code": "podofilina",
-    "display": "Podofilina"
+    "display": "Podofilina",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "environment"
+    } ]
+  }, {
+    "code": "pistache",
+    "display": "Pistache",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "cogumelo",
-    "display": "Cogumelos"
+    "display": "Cogumelos",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pinhao",
-    "display": "Pinhão"
+    "display": "Pinhão",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   }, {
     "code": "pimenta",
-    "display": "Pimenta"
+    "display": "Pimenta",
+    "property": [ {
+      "code": "categoria",
+      "valueString": "food"
+    } ]
   } ]
 }

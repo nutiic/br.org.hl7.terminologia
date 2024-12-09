@@ -1,0 +1,14 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "CodeSystem-BRDesfechoProcedimento",
+  "language": "pt",
+  "name": "CodeSystemBRDesfechoProcedimento",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Desfecho Procedimento",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+    "preferred": true
+  } ]
+}

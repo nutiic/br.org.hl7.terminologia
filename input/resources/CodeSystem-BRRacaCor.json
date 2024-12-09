@@ -8,27 +8,29 @@
   "title": "RaçaCor",
   "status": "active",
   "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
   "description": "RaçaCor",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
+  "versionNeeded": true,
   "content": "complete",
   "concept": [ {
-    "code": "02",
-    "display": "Preta"
+    "code": "03",
+    "display": "Parda"
   }, {
     "code": "01",
     "display": "Branca"
+  }, {
+    "code": "02",
+    "display": "Preta"
+  }, {
+    "code": "05",
+    "display": "Indígena"
   }, {
     "code": "04",
     "display": "Amarela"
   }, {
     "code": "99",
-    "display": "Sem Informação"
-  }, {
-    "code": "03",
-    "display": "Parda"
-  }, {
-    "code": "05",
-    "display": "Indígena"
+    "display": "Sem informação"
   } ]
 }

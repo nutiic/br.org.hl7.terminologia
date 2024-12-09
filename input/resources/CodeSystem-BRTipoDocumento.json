@@ -34,10 +34,10 @@
     "code": "RDM",
     "display": "Registro de Dispensação de Medicamento"
   }, {
-    "code": "RA",
-    "display": "Regulação Assistencial"
-  }, {
     "code": "ATM",
     "display": "Atestado MédicoOdontológico"
+  }, {
+    "code": "RIRA",
+    "display": "Regulação Assistencial"
   } ]
 }

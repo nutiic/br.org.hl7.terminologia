@@ -1,7 +1,7 @@
 {
   "resourceType": "NamingSystem",
   "id": "BRLocalAplicacao",
-  "language": "por",
+  "language": "pt",
   "name": "BRLocalAplicacao",
   "status": "active",
   "kind": "codesystem",

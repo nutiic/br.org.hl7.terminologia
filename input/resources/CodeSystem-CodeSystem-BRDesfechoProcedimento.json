@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystem-BRDesfechoProcedimento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+  "version": "HEAD",
+  "name": "CodeSystemBRDesfechoProcedimento",
+  "title": "Desfecho Procedimento",
+  "status": "active",
+  "experimental": false,
+  "description": "Desfecho Procedimento",
+  "caseSensitive": true,
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "Piora Clínica"
+  }, {
+    "code": "01",
+    "display": "Melhora Clínica"
+  }, {
+    "code": "03",
+    "display": "Estabilidade Clínica"
+  }, {
+    "code": "04",
+    "display": "Óbito"
+  } ]
+}

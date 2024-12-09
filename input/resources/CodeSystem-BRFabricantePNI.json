@@ -5,208 +5,439 @@
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
   "version": "HEAD",
   "name": "BRFabricantePNI",
-  "title": "Fabricante do imunobiológico",
+  "title": "Fabricante do Imunobiológico",
   "status": "active",
   "experimental": false,
-  "description": "Fabricante do imunobiológico",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Fabricante do Imunobiológico",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
+  "filter": [ {
+    "code": "Cnpj",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade Cnpj"
+  } ],
+  "property": [ {
+    "code": "Cnpj",
+    "description": "Filtrar pela propriedade Cnpj",
+    "type": "string"
+  } ],
   "concept": [ {
-    "code": "2260",
-    "display": "CSL"
-  }, {
-    "code": "30587",
-    "display": "JANSSEN"
-  }, {
-    "code": "167",
-    "display": "SEVAC"
-  }, {
-    "code": "29909",
-    "display": "ASTRAZENECA"
-  }, {
-    "code": "27880",
-    "display": "GSK-BRASIL"
-  }, {
-    "code": "235",
-    "display": "INCQS"
-  }, {
-    "code": "608",
-    "display": "BAXTER"
-  }, {
-    "code": "30357",
-    "display": "EQUIPLEX"
-  }, {
-    "code": "153",
-    "display": "TECPAR"
-  }, {
-    "code": "150",
-    "display": "FUNED"
-  }, {
-    "code": "2250",
-    "display": "IIMUNO"
-  }, {
-    "code": "712",
-    "display": "BIOMERIEUX"
-  }, {
-    "code": "36271",
-    "display": "ABBOTT-HOLAN"
-  }, {
-    "code": "149",
-    "display": "FIOCRUZ"
-  }, {
-    "code": "18189",
-    "display": "INTERVAX"
-  }, {
-    "code": "141",
-    "display": "IVB"
-  }, {
-    "code": "17934",
-    "display": "BIOLOGICAL"
-  }, {
-    "code": "26313",
-    "display": "MERCK-GO"
-  }, {
-    "code": "13219",
-    "display": "BIOGENESIS"
-  }, {
-    "code": "16763",
-    "display": "BIOFARMA"
-  }, {
-    "code": "28425",
-    "display": "BIOGENESIS"
-  }, {
-    "code": "29501",
-    "display": "SINOVAC"
-  }, {
-    "code": "35979",
-    "display": "BHARAT"
-  }, {
-    "code": "28251",
-    "display": "SANMEDLEY"
-  }, {
-    "code": "28303",
-    "display": "PANACEA"
-  }, {
-    "code": "3521",
-    "display": "BIOVET"
-  }, {
-    "code": "11347",
-    "display": "VIRBAC"
-  }, {
-    "code": "2862",
-    "display": "SANPASTEUR"
-  }, {
-    "code": "12572",
-    "display": "KEDRION"
-  }, {
-    "code": "1913",
-    "display": "CPPI"
-  }, {
-    "code": "2560",
-    "display": "HEBER"
-  }, {
-    "code": "239",
-    "display": "BAYER"
-  }, {
-    "code": "28738",
-    "display": "BOEHRINGER"
+    "code": "159",
+    "display": "SMITHKLINE",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.247.7430001-10"
+    } ]
   }, {
     "code": "156",
-    "display": "DADO B."
+    "display": "DADO B.",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "8974080001-08"
+    } ]
   }, {
-    "code": "35978",
-    "display": "MODERNA"
-  }, {
-    "code": "159",
-    "display": "SMITHKLINE"
-  }, {
-    "code": "164",
-    "display": "LGCHEMICAL"
-  }, {
-    "code": "161",
-    "display": "AVENTIS"
-  }, {
-    "code": "166",
-    "display": "BIKEN"
-  }, {
-    "code": "165",
-    "display": "MERCK"
-  }, {
-    "code": "169",
-    "display": "FINLAY"
-  }, {
-    "code": "35977",
-    "display": "GAMALEYA"
-  }, {
-    "code": "142",
-    "display": "PFIZER"
-  }, {
-    "code": "18190",
-    "display": "BB-NCIPD"
-  }, {
-    "code": "2263",
-    "display": "WYETH"
-  }, {
-    "code": "160",
-    "display": "GREENCROSS"
-  }, {
-    "code": "151",
-    "display": "F.A.P."
-  }, {
-    "code": "152",
-    "display": "BUTANTAN"
-  }, {
-    "code": "12551",
-    "display": "GRIFOLS"
-  }, {
-    "code": "13688",
-    "display": "SHANTHA"
-  }, {
-    "code": "28290",
-    "display": "PFIZER-BELGICA"
+    "code": "28738",
+    "display": "BOEHRINGER",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "60.831.6580001-77"
+    } ]
   }, {
     "code": "2901",
     "display": "MERIAL"
   }, {
-    "code": "28211",
-    "display": "KAMADA"
+    "code": "160",
+    "display": "GREENCROSS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "13.910.0280001-08"
+    } ]
   }, {
-    "code": "2769",
-    "display": "BERNA"
+    "code": "28425",
+    "display": "BIOGENESIS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "02.624.1900001-43"
+    } ]
   }, {
-    "code": "168",
-    "display": "BERNE"
+    "code": "28303",
+    "display": "PANACEA",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "06.234.7050001-50"
+    } ]
   }, {
-    "code": "2355",
-    "display": "NOVARTIS"
+    "code": "152",
+    "display": "BUTANTAN",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "61.821.3440001-56"
+    } ]
   }, {
-    "code": "27816",
-    "display": "EUBIOLOGI"
+    "code": "153",
+    "display": "TECPAR",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "77.964.3930001-88"
+    } ]
   }, {
-    "code": "1659",
-    "display": "CYANAMID"
+    "code": "2862",
+    "display": "SANPASTEUR",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "24.040.4870001-02"
+    } ]
   }, {
     "code": "162",
-    "display": "CHIRON SPA"
+    "display": "CHIRON SPA",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "C.F. 07195130153  P.IVA 02385200122"
+    } ]
+  }, {
+    "code": "30357",
+    "display": "EQUIPLEX",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "01.784.7920001-03"
+    } ]
+  }, {
+    "code": "161",
+    "display": "AVENTIS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "24.040.4870001-02"
+    } ]
+  }, {
+    "code": "29501",
+    "display": "SINOVAC",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "8241754000145"
+    } ]
+  }, {
+    "code": "29909",
+    "display": "ASTRAZENECA",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "60.318.7970001-00"
+    } ]
+  }, {
+    "code": "164",
+    "display": "LGCHEMICAL",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "07.549.6820001-3"
+    } ]
   }, {
     "code": "163",
-    "display": "SERUM-INDIA"
+    "display": "SERUM-INDIA",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "CÓDIGO ÚNICO: A.1380"
+    } ]
   }, {
-    "code": "28283",
-    "display": "VINS"
-  }, {
-    "code": "22942",
-    "display": "LGLIFE"
+    "code": "30587",
+    "display": "JANSSEN",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "51.780.4680001-87"
+    } ]
   }, {
     "code": "33502",
     "display": "BAV-NORDIC"
   }, {
+    "code": "165",
+    "display": "MERCK",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.069.2120001-84"
+    } ]
+  }, {
+    "code": "13219",
+    "display": "BIOGENESIS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "02.624.1900001-43"
+    } ]
+  }, {
+    "code": "12572",
+    "display": "KEDRION",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "09.284.9520001-59"
+    } ]
+  }, {
+    "code": "27880",
+    "display": "GSK-BRASIL",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.247.7430001-10"
+    } ]
+  }, {
+    "code": "27883",
+    "display": "MERCK-RJ"
+  }, {
+    "code": "13688",
+    "display": "SHANTHA"
+  }, {
+    "code": "11347",
+    "display": "VIRBAC",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "56.921.1660001-03"
+    } ]
+  }, {
     "code": "10534",
     "display": "CRUCELL"
   }, {
+    "code": "26513",
+    "display": "BEHRING"
+  }, {
+    "code": "12551",
+    "display": "GRIFOLS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "02.513.8990001-71"
+    } ]
+  }, {
+    "code": "2769",
+    "display": "BERNA"
+  }, {
+    "code": "27816",
+    "display": "EUBIOLOGI"
+  }, {
+    "code": "142",
+    "display": "PFIZER",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "46.070.8680001-69"
+    } ]
+  }, {
+    "code": "28283",
+    "display": "VINS"
+  }, {
+    "code": "141",
+    "display": "IVB",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "30.064.0340001-00"
+    } ]
+  }, {
+    "code": "28211",
+    "display": "KAMADA"
+  }, {
+    "code": "28251",
+    "display": "SANMEDLEY",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "10.588.5950010-92"
+    } ]
+  }, {
+    "code": "150",
+    "display": "FUNED",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "17.503.4750001-01"
+    } ]
+  }, {
+    "code": "149",
+    "display": "FIOCRUZ",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.781.0550001-35"
+    } ]
+  }, {
+    "code": "28289",
+    "display": "GLAXO-BIO"
+  }, {
+    "code": "28290",
+    "display": "PFIZER-BELGICA"
+  }, {
+    "code": "151",
+    "display": "F.A.P.",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.485.9390001-42"
+    } ]
+  }, {
+    "code": "17934",
+    "display": "BIOLOGICAL",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "04.168.1710001-85"
+    } ]
+  }, {
+    "code": "39262",
+    "display": "IDT BIOLOGIKA"
+  }, {
+    "code": "169",
+    "display": "FINLAY"
+  }, {
+    "code": "36271",
+    "display": "ABBOTT-HOLAN"
+  }, {
+    "code": "37646",
+    "display": "EMERGENT"
+  }, {
+    "code": "18190",
+    "display": "BB-NCIPD"
+  }, {
+    "code": "18189",
+    "display": "INTERVAX"
+  }, {
+    "code": "39263",
+    "display": "TAKEDA"
+  }, {
+    "code": "42430",
+    "display": "MODERNA"
+  }, {
+    "code": "1913",
+    "display": "CPPI",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "24.039.0730001-55"
+    } ]
+  }, {
+    "code": "166",
+    "display": "BIKEN",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "24.040.4870001-02"
+    } ]
+  }, {
+    "code": "35977",
+    "display": "GAMALEYA"
+  }, {
+    "code": "1659",
+    "display": "CYANAMID"
+  }, {
     "code": "33713",
     "display": "AMYIN"
+  }, {
+    "code": "3521",
+    "display": "BIOVET",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "60.411.5270012-93"
+    } ]
+  }, {
+    "code": "16763",
+    "display": "BIOFARMA",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "54.433.0570001-03"
+    } ]
+  }, {
+    "code": "167",
+    "display": "SEVAC",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "18.596.9770001-89"
+    } ]
+  }, {
+    "code": "35978",
+    "display": "MODERNA"
+  }, {
+    "code": "35979",
+    "display": "BHARAT",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "03.394.919-0005-00"
+    } ]
+  }, {
+    "code": "168",
+    "display": "BERNE"
+  }, {
+    "code": "22942",
+    "display": "LGLIFE"
+  }, {
+    "code": "2263",
+    "display": "WYETH",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "61.072.3930001-33"
+    } ]
+  }, {
+    "code": "42507",
+    "display": "ADIUM"
+  }, {
+    "code": "42655",
+    "display": "SK-BIOSCEN"
+  }, {
+    "code": "235",
+    "display": "INCQS",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "33.781.0550001-35"
+    } ]
+  }, {
+    "code": "42489",
+    "display": "CATALENT"
+  }, {
+    "code": "42488",
+    "display": "ROVI-PHARMA"
+  }, {
+    "code": "2250",
+    "display": "IIMUNO"
+  }, {
+    "code": "2260",
+    "display": "CSL",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "62.969.5890001-98"
+    } ]
+  }, {
+    "code": "42490",
+    "display": "SINOVAC"
+  }, {
+    "code": "239",
+    "display": "BAYER",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "18.459.6280001-15"
+    } ]
+  }, {
+    "code": "608",
+    "display": "BAXTER",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "49.351.7860002-61"
+    } ]
+  }, {
+    "code": "2355",
+    "display": "NOVARTIS"
+  }, {
+    "code": "42931",
+    "display": "MERCK-SP"
+  }, {
+    "code": "42932",
+    "display": "MSD-LLC"
+  }, {
+    "code": "2560",
+    "display": "HEBER",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "09.651.6670001-29"
+    } ]
+  }, {
+    "code": "25538",
+    "display": "MERCK-CAMPI"
+  }, {
+    "code": "712",
+    "display": "BIOMERIEUX"
+  }, {
+    "code": "9406",
+    "display": "HALEXISTAR"
+  }, {
+    "code": "26313",
+    "display": "MERCK-GO",
+    "property": [ {
+      "code": "Cnpj",
+      "valueString": "03.560.9740001-18"
+    } ]
   } ]
 }

@@ -38,10 +38,10 @@
         "display": "Female-to-male transsexual (finding)"
       } ]
     }, {
-      "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
       "concept": [ {
-        "code": "asked-declined",
-        "display": "Asked But Declined"
+        "code": "UNK",
+        "display": "unknown"
       } ]
     }, {
       "system": "http://snomed.info/sct",
@@ -50,10 +50,10 @@
         "display": "Identifies as nonbinary gender (finding)"
       } ]
     }, {
-      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
       "concept": [ {
-        "code": "UNK",
-        "display": "unknown"
+        "code": "asked-declined",
+        "display": "Asked But Declined"
       } ]
     } ]
   }

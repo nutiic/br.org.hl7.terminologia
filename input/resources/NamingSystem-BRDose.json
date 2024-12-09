@@ -5,6 +5,8 @@
   "name": "BRDose",
   "status": "active",
   "kind": "codesystem",
+  "publisher": "Ministério da Saúde do Brasil",
+  "responsible": "Ministério da Saúde do Brasil",
   "description": "Dose de Vacina",
   "uniqueId": [ {
     "type": "uri",

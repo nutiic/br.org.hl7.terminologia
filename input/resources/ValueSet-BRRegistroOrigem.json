@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRRegistroOrigem",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRRegistroOrigem",
+  "version": "HEAD",
+  "name": "BRRegistroOrigem",
+  "title": "Registro de Origem",
+  "status": "active",
+  "experimental": false,
+  "description": "Registro de Origem",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
+      "concept": [ {
+        "code": "2",
+        "display": "Vacina no Exterior"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
+      "concept": [ {
+        "code": "1",
+        "display": "Registro anteriorTranscrição de caderneta"
+      } ]
+    } ]
+  }
+}

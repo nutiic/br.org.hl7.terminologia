@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BREstadoCivil",
+  "language": "pt",
+  "url": "https://saude.gov.br/fhir/terminologia/BREstadoCivil",
+  "version": "HEAD",
+  "name": "BREstadoCivil",
+  "title": "BREstadoCivil",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "BREstadoCivil",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept": [ {
+        "code": "S",
+        "display": "Nunca casado"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept": [ {
+        "code": "W",
+        "display": "Viúvo (a)"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept": [ {
+        "code": "M",
+        "display": "Casado"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept": [ {
+        "code": "L",
+        "display": "Separação Judicial"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "concept": [ {
+        "code": "D",
+        "display": "Divorciado"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept": [ {
+        "code": "UNK",
+        "display": "unknown"
+      } ]
+    } ]
+  }
+}

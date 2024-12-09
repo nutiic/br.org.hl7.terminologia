@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRObmANVISA",
+  "language": "pt",
+  "name": "BRObmANVISA",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA",
+    "preferred": true
+  } ]
+}

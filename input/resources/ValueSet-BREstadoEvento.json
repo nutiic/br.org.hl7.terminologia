@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BREstadoEvento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento",
+  "version": "HEAD",
+  "name": "BREstadoEvento",
+  "title": "Estado do Evento",
+  "status": "active",
+  "experimental": false,
+  "description": "Estado do Evento",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "stopped",
+        "display": "Cancelado"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "in-progress",
+        "display": "Em andamento"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "unknown",
+        "display": "Desconhecido"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "not-done",
+        "display": "Não realizado"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "completed",
+        "display": "Concluído"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "preparation",
+        "display": "Pré-procedimento"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "on-hold",
+        "display": "Suspenso"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/event-status",
+      "concept": [ {
+        "code": "entered-in-error",
+        "display": "Registrado por engano"
+      } ]
+    } ]
+  }
+}

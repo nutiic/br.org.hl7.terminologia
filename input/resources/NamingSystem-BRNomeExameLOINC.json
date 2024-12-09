@@ -15,16 +15,6 @@
   }, {
     "type": "uri",
     "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
-    "preferred": false
-  },
-  {
-    "type": "oid",
-    "value": "2.16.840.1.113883.6.1",
-    "preferred": false
-  },
-  {
-    "type": "uri",
-    "value": "http://loinc.org",
     "preferred": true
-  }]
+  } ]
 }

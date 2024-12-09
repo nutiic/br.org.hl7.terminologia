@@ -1,0 +1,14 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "CodeSystem-BRAtendimentoPrestado",
+  "language": "pt",
+  "name": "CodeSystemBRAtendimentoPrestado",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Atendimento Prestado",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRAtendimentoPrestado",
+    "preferred": true
+  } ]
+}

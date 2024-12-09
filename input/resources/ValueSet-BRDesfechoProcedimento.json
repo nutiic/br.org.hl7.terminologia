@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ValueSet-BRDesfechoProcedimento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRDesfechoProcedimento",
+  "version": "HEAD",
+  "name": "ValueSetBRDesfechoProcedimento",
+  "title": "Desfecho Procedimento",
+  "status": "active",
+  "experimental": false,
+  "description": "Desfecho Procedimento",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+      "concept": [ {
+        "code": "02",
+        "display": "Piora Clínica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+      "concept": [ {
+        "code": "01",
+        "display": "Melhora Clínica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+      "concept": [ {
+        "code": "03",
+        "display": "Estabilidade Clínica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+      "concept": [ {
+        "code": "04",
+        "display": "Óbito"
+      } ]
+    } ]
+  }
+}

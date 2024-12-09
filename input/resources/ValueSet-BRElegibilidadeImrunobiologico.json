@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRElegibilidadeImrunobiologico",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRElegibilidadeImrunobiologico",
+  "version": "HEAD",
+  "name": "BRElegibilidadeImrunobiologico",
+  "title": "ElegibilidadeImrunobiologico",
+  "status": "active",
+  "experimental": false,
+  "description": "ElegibilidadeImrunobiologico",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+      "concept": [ {
+        "code": "CNI-S",
+        "display": "Pertence ao CNI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+      "concept": [ {
+        "code": "CNI-N",
+        "display": "Não pertence ao CNI"
+      } ]
+    } ]
+  }
+}

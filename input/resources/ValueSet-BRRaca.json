@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRRaca",
+  "language": "pt",
+  "url": "https://saude.gov.br/fhir/terminologia/BRRaca",
+  "version": "HEAD",
+  "name": "BRRaca",
+  "title": "BRRaca",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "BRRaca",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "03",
+        "display": "Parda"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "01",
+        "display": "Branca"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "02",
+        "display": "Preta"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "05",
+        "display": "Indígena"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "04",
+        "display": "Amarela"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept": [ {
+        "code": "99",
+        "display": "Sem informação"
+      } ]
+    } ]
+  }
+}

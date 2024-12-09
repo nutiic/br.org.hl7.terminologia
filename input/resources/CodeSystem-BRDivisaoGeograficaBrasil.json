@@ -13,104 +13,457 @@
   "hierarchyMeaning": "is-a",
   "versionNeeded": false,
   "content": "complete",
+  "filter": [ {
+    "code": "initials",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade initials"
+  }, {
+    "code": "type",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade type"
+  }, {
+    "code": "nivel",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade nivel"
+  } ],
+  "property": [ {
+    "code": "initials",
+    "description": "Filtrar pela propriedade initials",
+    "type": "string"
+  }, {
+    "code": "type",
+    "description": "Filtrar pela propriedade type",
+    "type": "string"
+  }, {
+    "code": "nivel",
+    "description": "Filtrar pela propriedade nivel",
+    "type": "string"
+  } ],
   "concept": [ {
     "code": "15",
-    "display": "Pará"
+    "display": "Pará",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "PA"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "34",
-    "display": "São Paulo"
+    "display": "São Paulo",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "SP"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "14",
-    "display": "Roraima"
+    "display": "Roraima",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "RR"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "33",
-    "display": "Rio de Janeiro"
+    "display": "Rio de Janeiro",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "RJ"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "4",
-    "display": "Sul"
+    "display": "Sul",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "1"
+    }, {
+      "code": "initials",
+      "valueString": "S"
+    }, {
+      "code": "type",
+      "valueString": "region"
+    } ]
   }, {
     "code": "16",
-    "display": "Amapá"
+    "display": "Amapá",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "AP"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "17",
-    "display": "Tocantins"
+    "display": "Tocantins",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "TO"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "41",
-    "display": "Paraná"
+    "display": "Paraná",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "PR"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "11",
-    "display": "Rondônia"
+    "display": "Rondônia",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "RO"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "31",
-    "display": "Minas Gerais"
+    "display": "Minas Gerais",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "MG"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "29",
-    "display": "Bahia"
+    "display": "Bahia",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "BA"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "1",
-    "display": "Norte"
+    "display": "Norte",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "1"
+    }, {
+      "code": "initials",
+      "valueString": "N"
+    }, {
+      "code": "type",
+      "valueString": "region"
+    } ]
   }, {
     "code": "3",
-    "display": "Sudeste"
+    "display": "Sudeste",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "1"
+    }, {
+      "code": "initials",
+      "valueString": "SE"
+    }, {
+      "code": "type",
+      "valueString": "region"
+    } ]
   }, {
     "code": "315780",
-    "display": "Santa Luzia"
+    "display": "Santa Luzia",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "3"
+    }, {
+      "code": "type",
+      "valueString": "city"
+    } ]
   }, {
     "code": "12",
-    "display": "Acre"
+    "display": "Acre",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "AC"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "13",
-    "display": "Amazonas"
+    "display": "Amazonas",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "AM"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "32",
-    "display": "Espírito Santo"
+    "display": "Espírito Santo",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "ES"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "5",
-    "display": "Centro-Oeste"
+    "display": "Centro-Oeste",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "1"
+    }, {
+      "code": "initials",
+      "valueString": "CO"
+    }, {
+      "code": "type",
+      "valueString": "region"
+    } ]
   }, {
     "code": "22",
-    "display": "Piauí"
+    "display": "Piauí",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "PI"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "23",
-    "display": "Ceará"
+    "display": "Ceará",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "CE"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "50",
-    "display": "Mato Grosso do Sul"
+    "display": "Mato Grosso do Sul",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "MS"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "42",
-    "display": "Santa Catarina"
+    "display": "Santa Catarina",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "SC"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "2",
-    "display": "Nordeste"
+    "display": "Nordeste",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "1"
+    }, {
+      "code": "initials",
+      "valueString": "NE"
+    }, {
+      "code": "type",
+      "valueString": "region"
+    } ]
   }, {
     "code": "21",
-    "display": "Maranhão"
+    "display": "Maranhão",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "MA"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "43",
-    "display": "Rio Grande do Sul"
+    "display": "Rio Grande do Sul",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "RS"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "25",
-    "display": "Paraíba"
+    "display": "Paraíba",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "PB"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "52",
-    "display": "Goiás"
+    "display": "Goiás",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "GO"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "24",
-    "display": "Rio Grande do Norte"
+    "display": "Rio Grande do Norte",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "RN"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "51",
-    "display": "Mato Grosso"
+    "display": "Mato Grosso",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "MT"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "53",
-    "display": "Distrito Federal"
+    "display": "Distrito Federal",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "DF"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "26",
-    "display": "Pernambuco"
+    "display": "Pernambuco",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "PE"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "27",
-    "display": "Alagoas"
+    "display": "Alagoas",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "AL"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   }, {
     "code": "28",
-    "display": "Sergipe"
+    "display": "Sergipe",
+    "property": [ {
+      "code": "nivel",
+      "valueString": "2"
+    }, {
+      "code": "initials",
+      "valueString": "SE"
+    }, {
+      "code": "type",
+      "valueString": "state"
+    } ]
   } ]
 }

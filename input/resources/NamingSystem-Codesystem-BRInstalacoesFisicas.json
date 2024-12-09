@@ -1,0 +1,14 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "Codesystem-BRInstalacoesFisicas",
+  "language": "pt",
+  "name": "CodesystemBRInstalacoesFisicas",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Instalações Físicas",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/Codesystem-BRInstalacoesFisicas",
+    "preferred": true
+  } ]
+}

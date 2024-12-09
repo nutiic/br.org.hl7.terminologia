@@ -35,11 +35,11 @@
     "code": "SWLES",
     "display": "Swab de lesão"
   }, {
-    "code": "SWBAN",
-    "display": "Swab Anal"
-  }, {
     "code": "FRAPAN",
     "display": "Fragmentos de pâncreas"
+  }, {
+    "code": "SWBAN",
+    "display": "Swab Anal"
   }, {
     "code": "FRAGT",
     "display": "Fragmento de tecido"
@@ -71,11 +71,11 @@
     "code": "INODER",
     "display": "Inoculação intradérmica"
   }, {
-    "code": "LAVBRO",
-    "display": "Lavado Brônquico"
-  }, {
     "code": "LAVBRA",
     "display": "Lavado Brônquico Alveolar"
+  }, {
+    "code": "LAVBRO",
+    "display": "Lavado Brônquico"
   }, {
     "code": "SWNAS",
     "display": "Swab Nasal"
@@ -89,11 +89,11 @@
     "code": "EXSORO",
     "display": "Exsudato de Orofaringe"
   }, {
-    "code": "CORIZA",
-    "display": "Coriza"
-  }, {
     "code": "SECBRO",
     "display": "Secreção brônquica"
+  }, {
+    "code": "CORIZA",
+    "display": "Coriza"
   }, {
     "code": "FGMT",
     "display": "Fragmento"
@@ -107,11 +107,11 @@
     "code": "EXSNAS",
     "display": "Exsudato de Nasofaringe"
   }, {
-    "code": "SECOC",
-    "display": "Secreção ocular"
-  }, {
     "code": "SNCCEB",
     "display": "Fragmento do tecido do SNC - cérebro"
+  }, {
+    "code": "SECOC",
+    "display": "Secreção ocular"
   }, {
     "code": "SECONF",
     "display": "Secreção Orofaríngea e Nasofaríngea"
@@ -143,11 +143,11 @@
     "code": "MTBIO",
     "display": "Material Não Biológico"
   }, {
-    "code": "FRACOR",
-    "display": "Fragmentos de coração"
-  }, {
     "code": "FRAFIG",
     "display": "Fragmentos de fígado"
+  }, {
+    "code": "FRACOR",
+    "display": "Fragmentos de coração"
   }, {
     "code": "SGHEM",
     "display": "Sangue"

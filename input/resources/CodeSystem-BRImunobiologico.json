@@ -13,55 +13,17 @@
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
   "content": "complete",
+  "filter": [ {
+    "code": "inactive",
+    "operator": [ "=" ],
+    "value": "Filtrar pela propriedade inactive"
+  } ],
+  "property": [ {
+    "code": "inactive",
+    "description": "Filtrar pela propriedade inactive",
+    "type": "string"
+  } ],
   "concept": [ {
-    "code": "83",
-    "display": "HEPAad"
-  }, {
-    "code": "77",
-    "display": "INF4"
-  }, {
-    "code": "39",
-    "display": "Tetra"
-  }, {
-    "code": "84",
-    "display": "VFA-F"
-  }, {
-    "code": "4",
-    "display": "SAESCOR"
-  }, {
-    "code": "79",
-    "display": "DILBCG"
-  }, {
-    "code": "81",
-    "display": "DILMenC"
-  }, {
-    "code": "80",
-    "display": "DILVRvero"
-  }, {
-    "code": "36",
-    "display": "SR"
-  }, {
-    "code": "40",
-    "display": "Pncc7V"
-  }, {
-    "code": "82",
-    "display": "Dengue"
-  }, {
-    "code": "37",
-    "display": "Vero"
-  }, {
-    "code": "38",
-    "display": "SBOTULTRI"
-  }, {
-    "code": "56",
-    "display": "SCRV"
-  }, {
-    "code": "41",
-    "display": "MenC"
-  }, {
-    "code": "42",
-    "display": "PENTA"
-  }, {
     "code": "87",
     "display": "COVID-19 PFIZER - COMIRNATY"
   }, {
@@ -71,53 +33,53 @@
     "code": "85",
     "display": "COVID-19 ASTRAZENECAFIOCRUZ - COVISHIELD"
   }, {
-    "code": "76",
-    "display": "VHZ"
-  }, {
-    "code": "13",
-    "display": "Meningo AC"
+    "code": "98",
+    "display": "COVID-19 SINOVAC - CORONAVAC"
   }, {
     "code": "68",
     "display": "HPV Bi"
   }, {
-    "code": "101",
-    "display": "VZR"
+    "code": "94",
+    "display": "DILCOV"
   }, {
-    "code": "59",
-    "display": "VPC13"
+    "code": "83",
+    "display": "HEPAad"
   }, {
-    "code": "3",
-    "display": "SARC"
+    "code": "77",
+    "display": "INF4"
   }, {
-    "code": "47",
-    "display": "DTPa"
+    "code": "81",
+    "display": "DILMenC"
   }, {
-    "code": "48",
-    "display": "DILSRC"
+    "code": "80",
+    "display": "DILVRvero"
   }, {
-    "code": "90",
-    "display": "DILSCRV"
+    "code": "4",
+    "display": "SAESCOR"
   }, {
-    "code": "91",
-    "display": "DILVR"
+    "code": "79",
+    "display": "DILBCG"
   }, {
-    "code": "45",
-    "display": "ROTA"
-  }, {
-    "code": "89",
-    "display": "COVID-19 ASTRAZENECA - ChAdOx1-S"
-  }, {
-    "code": "93",
-    "display": "HPV9"
+    "code": "84",
+    "display": "VFA-F"
   }, {
     "code": "99",
     "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
   }, {
-    "code": "34",
-    "display": "VAR"
-  }, {
     "code": "5",
     "display": "DT"
+  }, {
+    "code": "93",
+    "display": "HPV9"
+  }, {
+    "code": "9",
+    "display": "HepB"
+  }, {
+    "code": "51",
+    "display": "Fta"
+  }, {
+    "code": "52",
+    "display": "DilMengAC"
   }, {
     "code": "49",
     "display": "DILVFA"
@@ -128,41 +90,246 @@
     "code": "50",
     "display": "DILHib"
   }, {
-    "code": "88",
-    "display": "COVID-19 JANSSEN - Ad26.COV2.S"
+    "code": "101",
+    "display": "VZR"
   }, {
-    "code": "43",
-    "display": "HEXA"
+    "code": "10",
+    "display": "SAD"
+  }, {
+    "code": "100",
+    "display": "VVBN"
+  }, {
+    "code": "95",
+    "display": "COVID-19 GAMALEYA - SPUTNIK V",
+    "property": [ {
+      "code": "inactive",
+      "valueString": "True"
+    } ]
+  }, {
+    "code": "106",
+    "display": "VPC15"
+  }, {
+    "code": "65",
+    "display": "ROTA5"
+  }, {
+    "code": "109",
+    "display": "VVSR-RecAdj"
+  }, {
+    "code": "96",
+    "display": "COVID-19 BHARAT - COVAXIN",
+    "property": [ {
+      "code": "inactive",
+      "valueString": "True"
+    } ]
+  }, {
+    "code": "110",
+    "display": "Vacina Influenza Tetravalente - Alta Dosagem"
+  }, {
+    "code": "62",
+    "display": "HAeHBped"
+  }, {
+    "code": "60",
+    "display": "HPV2"
+  }, {
+    "code": "12",
+    "display": "SABOLA"
+  }, {
+    "code": "103",
+    "display": "COVID-19 PFIZER - COMIRNATY BIVALENTE"
+  }, {
+    "code": "64",
+    "display": "FLU ID"
+  }, {
+    "code": "63",
+    "display": "HAeHB"
+  }, {
+    "code": "66",
+    "display": "MEN BC"
+  }, {
+    "code": "48",
+    "display": "DILSRC"
+  }, {
+    "code": "90",
+    "display": "DILSCRV"
+  }, {
+    "code": "91",
+    "display": "DILVR"
+  }, {
+    "code": "108",
+    "display": "VVSR-Rec"
+  }, {
+    "code": "111",
+    "display": "dTpaVIP"
+  }, {
+    "code": "105",
+    "display": "COVID-19 MODERNA - SPIKEVAX BIVALENTE",
+    "property": [ {
+      "code": "inactive",
+      "valueString": "True"
+    } ]
+  }, {
+    "code": "107",
+    "display": "VPC20"
   }, {
     "code": "92",
     "display": "VRvero"
   }, {
-    "code": "44",
-    "display": "H1N1"
+    "code": "89",
+    "display": "COVID-19 ASTRAZENECA - ChAdOx1-S"
   }, {
     "code": "46",
     "display": "DTP"
   }, {
-    "code": "9",
-    "display": "HepB"
-  }, {
-    "code": "8",
-    "display": "SABOTR"
+    "code": "88",
+    "display": "COVID-19 JANSSEN - Ad26.COV2.S"
   }, {
     "code": "33",
     "display": "INF3"
   }, {
+    "code": "28",
+    "display": "VOP"
+  }, {
+    "code": "27",
+    "display": "SLATRO"
+  }, {
+    "code": "29",
+    "display": "PENTA acelular"
+  }, {
+    "code": "24",
+    "display": "SCR"
+  }, {
+    "code": "23",
+    "display": "IGHR"
+  }, {
+    "code": "26",
+    "display": "VPC10"
+  }, {
     "code": "32",
     "display": "SALONO"
+  }, {
+    "code": "31",
+    "display": "SALOXO"
+  }, {
+    "code": "30",
+    "display": "FTp"
   }, {
     "code": "35",
     "display": "HA"
   }, {
-    "code": "78",
-    "display": "MenB"
+    "code": "34",
+    "display": "VAR"
   }, {
-    "code": "31",
-    "display": "SALOXO"
+    "code": "36",
+    "display": "SR"
+  }, {
+    "code": "47",
+    "display": "DTPa"
+  }, {
+    "code": "45",
+    "display": "ROTA"
+  }, {
+    "code": "44",
+    "display": "H1N1"
+  }, {
+    "code": "58",
+    "display": "TETRA acelular"
+  }, {
+    "code": "56",
+    "display": "SCRV"
+  }, {
+    "code": "59",
+    "display": "VPC13"
+  }, {
+    "code": "40",
+    "display": "Pncc7V"
+  }, {
+    "code": "39",
+    "display": "Tetra"
+  }, {
+    "code": "38",
+    "display": "SBOTULTRI"
+  }, {
+    "code": "37",
+    "display": "Vero"
+  }, {
+    "code": "42",
+    "display": "PENTA"
+  }, {
+    "code": "41",
+    "display": "MenC"
+  }, {
+    "code": "43",
+    "display": "HEXA"
+  }, {
+    "code": "11",
+    "display": "SABOCR"
+  }, {
+    "code": "3",
+    "display": "SARC"
+  }, {
+    "code": "13",
+    "display": "Meningo AC"
+  }, {
+    "code": "16",
+    "display": "SACROT"
+  }, {
+    "code": "6",
+    "display": "SAELAP"
+  }, {
+    "code": "2",
+    "display": "SAT"
+  }, {
+    "code": "8",
+    "display": "SABOTR"
+  }, {
+    "code": "71",
+    "display": "Rubeola"
+  }, {
+    "code": "70",
+    "display": "Sarampo"
+  }, {
+    "code": "73",
+    "display": "Quadrupla Viral"
+  }, {
+    "code": "67",
+    "display": "HPV4"
+  }, {
+    "code": "61",
+    "display": "TT"
+  }, {
+    "code": "72",
+    "display": "Gripe Sazonal"
+  }, {
+    "code": "17",
+    "display": "Hib"
+  }, {
+    "code": "15",
+    "display": "BCG"
+  }, {
+    "code": "14",
+    "display": "VFA"
+  }, {
+    "code": "74",
+    "display": "MenACWY"
+  }, {
+    "code": "19",
+    "display": "IGHV"
+  }, {
+    "code": "18",
+    "display": "VR",
+    "property": [ {
+      "code": "inactive",
+      "valueString": "True"
+    } ]
+  }, {
+    "code": "82",
+    "display": "Dengue"
+  }, {
+    "code": "20",
+    "display": "IGHHB"
+  }, {
+    "code": "76",
+    "display": "VHZ"
   }, {
     "code": "21",
     "display": "VPP23"
@@ -170,166 +337,31 @@
     "code": "69",
     "display": "SABOT"
   }, {
-    "code": "22",
-    "display": "VIP"
+    "code": "54",
+    "display": "DILVAR"
   }, {
     "code": "7",
     "display": "SAR"
   }, {
-    "code": "23",
-    "display": "IGHR"
-  }, {
-    "code": "70",
-    "display": "Sarampo"
-  }, {
-    "code": "10",
-    "display": "SAD"
-  }, {
-    "code": "2",
-    "display": "SAT"
-  }, {
-    "code": "20",
-    "display": "IGHHB"
-  }, {
-    "code": "1",
-    "display": "IGHT"
-  }, {
-    "code": "53",
-    "display": "DILSR"
-  }, {
-    "code": "54",
-    "display": "DILVAR"
-  }, {
-    "code": "73",
-    "display": "Quadrupla Viral"
-  }, {
-    "code": "27",
-    "display": "SLATRO"
-  }, {
-    "code": "74",
-    "display": "MenACWY"
-  }, {
-    "code": "28",
-    "display": "VOP"
-  }, {
-    "code": "29",
-    "display": "PENTA acelular"
-  }, {
-    "code": "75",
-    "display": "COLERA"
-  }, {
-    "code": "30",
-    "display": "FTp"
-  }, {
-    "code": "72",
-    "display": "Gripe Sazonal"
-  }, {
-    "code": "26",
-    "display": "VPC10"
-  }, {
-    "code": "14",
-    "display": "VFA"
-  }, {
-    "code": "24",
-    "display": "SCR"
-  }, {
-    "code": "71",
-    "display": "Rubeola"
-  }, {
     "code": "25",
     "display": "dT"
   }, {
-    "code": "60",
-    "display": "HPV2"
-  }, {
-    "code": "11",
-    "display": "SABOCR"
-  }, {
-    "code": "12",
-    "display": "SABOLA"
-  }, {
-    "code": "16",
-    "display": "SACROT"
-  }, {
-    "code": "62",
-    "display": "HAeHBped"
-  }, {
-    "code": "61",
-    "display": "TT"
-  }, {
-    "code": "57",
-    "display": "dTpa"
-  }, {
-    "code": "102",
-    "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
-  }, {
-    "code": "100",
-    "display": "VVBN"
+    "code": "22",
+    "display": "VIP"
   }, {
     "code": "55",
     "display": "HepAinf"
   }, {
-    "code": "58",
-    "display": "TETRA acelular"
+    "code": "53",
+    "display": "DILSR"
   }, {
-    "code": "6",
-    "display": "SAELAP"
+    "code": "1",
+    "display": "IGHT"
   }, {
-    "code": "103",
-    "display": "COVID-19 PFIZER - COMIRNATY BIVALENTE"
+    "code": "102",
+    "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
   }, {
-    "code": "18",
-    "display": "VR"
-  }, {
-    "code": "19",
-    "display": "IGHV"
-  }, {
-    "code": "67",
-    "display": "HPV4"
-  }, {
-    "code": "64",
-    "display": "FLU ID"
-  }, {
-    "code": "17",
-    "display": "Hib"
-  }, {
-    "code": "63",
-    "display": "HAeHB"
-  }, {
-    "code": "104",
-    "display": "DNG"
-  }, {
-    "code": "65",
-    "display": "ROTA5"
-  }, {
-    "code": "66",
-    "display": "MEN BC"
-  }, {
-    "code": "15",
-    "display": "BCG"
-  }, {
-    "code": "106",
-    "display": "VPC15"
-  }, {
-    "code": "105",
-    "display": "COVID-19 MODERNA - SPIKEVAX BIVALENTE"
-  }, {
-    "code": "94",
-    "display": "DILCOV"
-  }, {
-    "code": "98",
-    "display": "COVID-19 SINOVAC - CORONAVAC"
-  }, {
-    "code": "95",
-    "display": "COVID-19 GAMALEYA - SPUTNIK V"
-  }, {
-    "code": "51",
-    "display": "Fta"
-  }, {
-    "code": "96",
-    "display": "COVID-19 BHARAT - COVAXIN"
-  }, {
-    "code": "52",
-    "display": "DilMengAC"
+    "code": "57",
+    "display": "dTpa"
   } ]
 }
