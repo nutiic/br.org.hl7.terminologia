@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRCaraterAtendimentoMIRA",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimentoMIRA",
+  "version": "HEAD",
+  "name": "BRCaraterAtendimentoMIRA",
+  "title": "Caráter de Atendimento no MIRA",
+  "status": "active",
+  "experimental": false,
+  "description": "Caráter de Atendimento no MIRA",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/request-priority",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "routine",
+        "display": "Routine"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/request-priority",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "urgent",
+        "display": "Urgent"
+      } ]
+    } ]
+  }
+}

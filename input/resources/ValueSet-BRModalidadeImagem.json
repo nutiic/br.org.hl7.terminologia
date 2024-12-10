@@ -1,0 +1,191 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRModalidadeImagem",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeImagem",
+  "version": "HEAD",
+  "name": "BRModalidadeImagem",
+  "title": "Modalidade Imagens Médicas",
+  "status": "active",
+  "experimental": false,
+  "description": "Modalidade Imagens Médicas",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "OAM",
+        "display": "Ophthalmic Axial Measurements"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "NM",
+        "display": "Nuclear Medicine"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "XC",
+        "display": "External-camera Photography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "MR",
+        "display": "Magnetic Resonance"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "XA",
+        "display": "X-Ray Angiography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "MG",
+        "display": "Mammography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "VA",
+        "display": "Visual Acuity"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LS",
+        "display": "Laser Scan"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "US",
+        "display": "Ultrasound"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LEN",
+        "display": "Lensometry"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "TG",
+        "display": "Thermography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "KER",
+        "display": "Keratometry"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SRF",
+        "display": "Subjective Refraction"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SM",
+        "display": "Slide Microscopy"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "IVUS",
+        "display": "Intravascular Ultrasound"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "RTIMAGE",
+        "display": "RT Image"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "IVOCT",
+        "display": "Intravascular Optical Coherence Tomography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "IO",
+        "display": "Intra-oral Radiography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "RG",
+        "display": "Radiographic imaging"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "GM",
+        "display": "General Microscopy"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "RF",
+        "display": "Radiofluoroscopy"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ES",
+        "display": "Endoscopy"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "PX",
+        "display": "Panoramic X-Ray"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "DX",
+        "display": "Digital Radiography"
+      } ]
+    }, {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "PT",
+        "display": "Positron emission tomography"
+      } ]
+    } ]
+  }
+}

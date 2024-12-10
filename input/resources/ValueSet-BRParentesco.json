@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRParentesco",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco",
+  "version": "HEAD",
+  "name": "BRParentesco",
+  "title": "Parentesco",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Parentesco",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "father",
+        "display": "Pai"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "mother",
+        "display": "Mãe"
+      } ]
+    } ]
+  }
+}

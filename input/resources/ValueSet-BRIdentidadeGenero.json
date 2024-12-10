@@ -1,0 +1,67 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRIdentidadeGenero",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRIdentidadeGenero",
+  "version": "HEAD",
+  "name": "BRIdentidadeGenero",
+  "title": "BRIdentidadeGenero",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "BRIdentidadeGenero",
+  "immutable": true,
+  "purpose": "Domínio para identidades de gênero",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "asked-declined",
+        "display": "Asked But Declined"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "UNK",
+        "display": "unknown"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "33791000087105",
+        "display": "Identifies as nonbinary gender (finding)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "446151000124109",
+        "display": "Identifies as male gender (finding)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "446141000124107",
+        "display": "Identifies as female gender (finding)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "407377005",
+        "display": "Female-to-male transsexual (finding)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "407376001",
+        "display": "Male-to-female transsexual (finding)"
+      } ]
+    } ]
+  }
+}

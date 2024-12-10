@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRPrescricaoNaoEstruturada",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada",
+  "version": "HEAD",
+  "name": "BRPrescricaoNaoEstruturada",
+  "title": "Indicativo de prescrição não estruturada ou medicamento não identificado",
+  "status": "active",
+  "experimental": false,
+  "description": "Indicativo de prescrição não estruturada ou medicamento não identificado",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "no-known-medications",
+        "display": "Sem medicamentos conhecidos."
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "no-medication-info",
+        "display": "Sem informação sobre medicamentos."
+      } ]
+    } ]
+  }
+}

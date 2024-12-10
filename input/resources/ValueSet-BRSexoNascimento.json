@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRSexoNascimento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexoNascimento",
+  "version": "HEAD",
+  "name": "BRSexoNascimento",
+  "title": "BRSexoNascimento",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "BRSexoNascimento",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "UNK",
+        "display": "unknown"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "OTH",
+        "display": "other"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ASKU",
+        "display": "asked but unknown"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "male",
+        "display": "Masculino"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "female",
+        "display": "Feminino"
+      } ]
+    } ]
+  }
+}

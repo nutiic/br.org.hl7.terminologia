@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "TipoConvenio",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/TipoConvenio",
+  "version": "HEAD",
+  "name": "TipoConvenio",
+  "title": "Tipo Convenio",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo Convenio",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "05",
+        "display": "PLANO DE SAUDE PUBLICO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "07",
+        "display": "GRATUIDADE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "02",
+        "display": "PARTICULAR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "06",
+        "display": "PLANO DE SAUDE PRIVADO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "01",
+        "display": "SUS"
+      } ]
+    } ]
+  }
+}

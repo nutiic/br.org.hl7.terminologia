@@ -1,0 +1,458 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoAmostra",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoAmostra",
+  "version": "HEAD",
+  "name": "BRTipoAmostra",
+  "title": "Tipo de Amostra de Exame",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Tipo de Amostra de Exame",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECORF",
+        "display": "Secreção Orofaríngea"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "TASP",
+        "display": "Aspirate, Tracheal"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SPUTIN",
+        "display": "Sputum, Inducted"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "WASH",
+        "display": "Wash"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "WB",
+        "display": "Whole, Blood"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SPT",
+        "display": "Sputum"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "UR",
+        "display": "Urine"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SER",
+        "display": "Serum"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECRE",
+        "display": "Secretion(s)"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SAL",
+        "display": "Saliva"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRS",
+        "display": "Fluid, Respiratory"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "PLAS",
+        "display": "Plasma"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "NSECR",
+        "display": "Secretion, Nasal"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "CSF",
+        "display": "Cerebral spinal fluid"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LAVG",
+        "display": "Lavage, Bronhial"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ASP",
+        "display": "Aspirate"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SGHEM",
+        "display": "Sangue"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ASNAFA",
+        "display": "Aspirado Nasofaríngeo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "MTBIO",
+        "display": "Material Não Biológico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRACOR",
+        "display": "Fragmentos de coração"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRAFIG",
+        "display": "Fragmentos de fígado"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FLUORA",
+        "display": "Fluido oral"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRABAC",
+        "display": "Fragmentos de baço"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SGEDT",
+        "display": "Sangue com EDTA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECTRA",
+        "display": "Secreção Traqueal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ASPBRO",
+        "display": "Aspirado Brônquico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRAAMI",
+        "display": "Fragmentos de ampigdalas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "RASPEL",
+        "display": "Raspado de pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FGMT",
+        "display": "Fragmento"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECPEN",
+        "display": "Secreção peniana"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "EXSORO",
+        "display": "Exsudato de Orofaringe"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "CORIZA",
+        "display": "Coriza"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECBRO",
+        "display": "Secreção brônquica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FGMP",
+        "display": "Fragmentos do pulmão"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECONF",
+        "display": "Secreção Orofaríngea e Nasofaríngea"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECNAS",
+        "display": "Secreção Nasofaríngea"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "EXSNAS",
+        "display": "Exsudato de Nasofaringe"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SECOC",
+        "display": "Secreção ocular"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SNCCEB",
+        "display": "Fragmento do tecido do SNC - cérebro"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRBRON",
+        "display": "Fragmentos de brônquio"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRAGT",
+        "display": "Fragmento de tecido"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRATRA",
+        "display": "Fragmentos de traquéia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWLES",
+        "display": "Swab de lesão"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWBAN",
+        "display": "Swab Anal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRAPAN",
+        "display": "Fragmentos de pâncreas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRAMOR",
+        "display": "Fragmentos de múltiplos órgãos"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "FRARIM",
+        "display": "Fragmentos de rim"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWAB",
+        "display": "Swab"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWNAFA",
+        "display": "Swab Nasofaríngeo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SNOF",
+        "display": "Swab Naso-Orofaríngeo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWOCU",
+        "display": "Swab Ocular"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "INFP",
+        "display": "Infiltrado pulmonar"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWNAS",
+        "display": "Swab Nasal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWLSP",
+        "display": "Swab de lesão de pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "INODER",
+        "display": "Inoculação intradérmica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LAVBRO",
+        "display": "Lavado Brônquico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LAVBRA",
+        "display": "Lavado Brônquico Alveolar"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWRET",
+        "display": "Swab retal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWORA",
+        "display": "Swab Oral"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LAVORO",
+        "display": "Lavado de orofaringe"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "SWORO",
+        "display": "Swab Orofaríngeo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "LAVTBR",
+        "display": "Lavado Traqueo-Brônquico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "TECPM",
+        "display": "Tecido pós-mortem"
+      } ]
+    } ]
+  }
+}

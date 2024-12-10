@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoAleitamentoMaterno",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoAleitamentoMaterno",
+  "version": "HEAD",
+  "name": "BRTipoAleitamentoMaterno",
+  "title": "Tipo Aleitamento Materno",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo Aleitamento Materno",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "05",
+        "display": "Aleitamento materno misto ou parcial"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "04",
+        "display": "Aleitamento materno complementado"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "03",
+        "display": "Aleitamento materno"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "02",
+        "display": "Aleitamento materno predominante"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "01",
+        "display": "Aleitamento materno  exclusivo"
+      } ]
+    } ]
+  }
+}

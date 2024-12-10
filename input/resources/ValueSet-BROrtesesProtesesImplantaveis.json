@@ -1,0 +1,191 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BROrtesesProtesesImplantaveis",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/ValueSet/BROrtesesProtesesImplantaveis",
+  "version": "HEAD",
+  "name": "BROrtesesProtesesImplantaveis",
+  "title": "Órteses e Próteses Implantáveis",
+  "status": "active",
+  "experimental": false,
+  "description": "Órteses e Próteses Implantáveis",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000143",
+        "display": "Órtese brônquica reta expansível sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000142",
+        "display": "Órtese brônquica reta não\nexpansível sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000285",
+        "display": "Válvula brônquica para\ntratamento de fuga aérea e  sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000141",
+        "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000284",
+        "display": "Tubo de ventilação para\nouvido médio permanente sintético"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000140",
+        "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível\nvários tamanhos sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000283",
+        "display": "Tubo de ventilação para\nouvido médio temporário sintético"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000139",
+        "display": "Órtese auto-expansível de  sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000282",
+        "display": "Tela para correção de incontinncia\nurinária masculina sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000138",
+        "display": "Órtese auto-expansível de reto auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000281",
+        "display": "Tela para correção de incontinncia\nurinária feminina sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000137",
+        "display": "Órtese auto-expansível de intestino delgado auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000280",
+        "display": "Tela  absorvível"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000136",
+        "display": "Órtese auto-expansível de estômago auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000279",
+        "display": "Tela  sintética  biológica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000135",
+        "display": "Órtese auto-expansível de auto-expansível plástica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000278",
+        "display": "Tela  inorgânica e sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000134",
+        "display": "Órtese auto-expansível de esôfago auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000277",
+        "display": "Suspensor palpebral vários tamanhos biológicasintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000133",
+        "display": "Órtese auto-expansível de duodeno auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000276",
+        "display": "Stent vascular vários tamanhos metálicosintético"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000132",
+        "display": "Órtese auto-expansível de cólon auto-expansível metálica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000275",
+        "display": "Stent vascular artérias ilíacas metálicosintético"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000131",
+        "display": "Molde laríngeo  sintética"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "0000000274",
+        "display": "Stent vascular artérias viscerais metálicosintético"
+      } ]
+    } ]
+  }
+}

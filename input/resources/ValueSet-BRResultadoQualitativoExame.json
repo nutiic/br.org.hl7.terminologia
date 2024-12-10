@@ -1,0 +1,14 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRResultadoQualitativoExame",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
+  "version": "HEAD",
+  "name": "BRResultadoQualitativoExame",
+  "title": "Resultado Qualitativo do Exame",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Resultado Qualitativo do Exame",
+  "immutable": true
+}

@@ -1,0 +1,1143 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRNomeExame-2.0",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExame-2.0",
+  "version": "HEAD",
+  "name": "BRNomeExame2.0",
+  "title": "Nome do Exame",
+  "status": "active",
+  "experimental": false,
+  "description": "Nome do Exame",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94558-4",
+        "display": "SARS coronavirus 2 Ag"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94639-2",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96763-8",
+        "display": "SARS coronavirus 2 E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94640-0",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96764-6",
+        "display": "SARS coronavirus 2 E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94641-8",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96765-3",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94642-6",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96766-1",
+        "display": "GISAID sequence accession number"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94643-4",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96797-6",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94644-2",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96829-7",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94645-9",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96894-1",
+        "display": "SARS coronavirus 2 sequencing  identification panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94646-7",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96895-8",
+        "display": "SARS coronavirus 2 lineage"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94647-5",
+        "display": "SARS-related coronavirus RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96896-6",
+        "display": "SARS coronavirus 2 clade"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94660-8",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96897-4",
+        "display": "SARS coronavirus 2 RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94661-6",
+        "display": "SARS coronavirus 2 Ab"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96898-2",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94720-0",
+        "display": "SARS coronavirus 2 Ab.IgA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96899-0",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94745-7",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96900-6",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94746-5",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96957-6",
+        "display": "SARS coronavirus 2 M gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94756-4",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96958-4",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94757-2",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96986-5",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94758-0",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "97097-0",
+        "display": "SARS coronavirus 2 Ag"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94759-8",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "97098-8",
+        "display": "SARS coronavirus 2 Nsp2 gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94760-6",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "97099-6",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirus 2 Ag panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94761-4",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "97104-4",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94762-2",
+        "display": "SARS coronavirus 2 Ab"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98062-3",
+        "display": "Sequencing study identifier"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94763-0",
+        "display": "SARS coronavirus 2"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98069-8",
+        "display": "SARS coronavirus 2 Ab"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94764-8",
+        "display": "SARS coronavirus 2 whole genome"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98080-5",
+        "display": "SARS coronavirus 2  SARS-related coronavirus RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94765-5",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94766-3",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98131-6",
+        "display": "SARS coronavirus 2 ORF1b region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94767-1",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98132-4",
+        "display": "SARS coronavirus 2 ORF1a region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94768-9",
+        "display": "SARS coronavirus 2 Ab.IgA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98493-0",
+        "display": "SARS coronavirus 2 ORF1b region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94769-7",
+        "display": "SARS coronavirus 2 Ab"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98494-8",
+        "display": "SARS coronavirus 2 ORF1a region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94819-0",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98732-1",
+        "display": "SARS coronavirus 2 spike protein RBD Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94822-4",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98733-9",
+        "display": "Percent neutralization by SARS coronavirus 2 spike protein RBD Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94845-5",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98734-7",
+        "display": "SARS coronavirus 2 spike protein RBD Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95125-1",
+        "display": "SARS coronavirus 2 Ab.IgAIgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98846-9",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by Helper (CD4) T-cellscorrected for background"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95209-3",
+        "display": "SARS coronavirusSARS coronavirus 2 Ag"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "98847-7",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by lymphocytescorrected for background"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95380-2",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirus 2  SARS-related coronavirus RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99314-7",
+        "display": "SARS coronavirus 2 RdRp gene mutation detected"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95406-5",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99596-9",
+        "display": "SARS coronavirus 2 nucleocapsid protein Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95409-9",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99597-7",
+        "display": "SARS coronavirus 2 spike protein Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99771-8",
+        "display": "SARS coronavirus 2 spike  nucleocapsid protein stimulated gamma interferon panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99772-6",
+        "display": "SARS coronavirus 2 stimulated gamma interferon"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99773-4",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by T-cells.Spike Ag spot countcorrected for background"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "99774-2",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by T-cells.Nucleocapsid Ag spot countcorrected for background"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96755-4",
+        "display": "SARS coronavirus 2 variant interpretation"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96752-1",
+        "display": "SARS coronavirus 2 S gene mutation"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96751-3",
+        "display": "SARS coronavirus 2 S gene mutation detected"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96742-2",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96741-4",
+        "display": "SARS coronavirus 2 variant"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96603-6",
+        "display": "SARS coronavirus 2 spike protein RBD Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96448-6",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96123-5",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96122-7",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96121-9",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96120-1",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96119-3",
+        "display": "SARS coronavirus 2 Ag"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96118-5",
+        "display": "SARS coronavirus 2 Ab panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96094-8",
+        "display": "SARS coronavirus 2  SARS-related coronavirus RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "96091-4",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95974-2",
+        "display": "SARS coronavirus 2 stimulated gamma interferon panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95973-4",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by T-cells"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95972-6",
+        "display": "SARS coronavirus 2 stimulated gamma interferon release by T-cellscorrected for background"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95971-8",
+        "display": "SARS coronavirus 2 stimulated gamma interferon"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95970-0",
+        "display": "SARS coronavirus 2 specific TCRB gene rearrangements"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95942-9",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirusSARS coronavirus 2 Ag panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95941-1",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirus 2  Respiratory syncytial virus RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95826-4",
+        "display": "SARS coronavirus 2 RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95824-9",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95823-1",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95609-4",
+        "display": "SARS coronavirus 2 S gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95608-6",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95542-7",
+        "display": "SARS coronavirus 2 Ab"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95522-9",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95521-1",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95429-7",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95428-9",
+        "display": "SARS coronavirus 2 Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95427-1",
+        "display": "SARS coronavirus 2 Ab.IgA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95425-5",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95424-8",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95423-0",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirus 2 identified"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95422-2",
+        "display": "Influenza virus A  Influenza virus B  SARS coronavirus 2 RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95416-4",
+        "display": "SARS coronavirus 2 Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95411-5",
+        "display": "SARS coronavirus 2 Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "95410-7",
+        "display": "SARS coronavirus 2 Ab.neut"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94565-9",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94564-2",
+        "display": "SARS coronavirus 2 Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94563-4",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94562-6",
+        "display": "SARS coronavirus 2 Ab.IgA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94559-2",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94547-7",
+        "display": "SARS coronavirus 2 Ab.IgGIgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94534-5",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94533-7",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94532-9",
+        "display": "SARS-related coronavirusMERS coronavirus RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94531-1",
+        "display": "SARS coronavirus 2 RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94511-3",
+        "display": "SARS coronavirus 2 ORF1ab region"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94510-5",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94509-7",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94508-9",
+        "display": "SARS coronavirus 2 Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94507-1",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94506-3",
+        "display": "SARS coronavirus 2 Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94505-5",
+        "display": "SARS coronavirus 2 Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94504-8",
+        "display": "SARS coronavirus 2 Ab panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94503-0",
+        "display": "SARS coronavirus 2 Ab panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94502-2",
+        "display": "SARS-related coronavirus RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94500-6",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94316-7",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94315-9",
+        "display": "SARS-related coronavirus E gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94314-2",
+        "display": "SARS coronavirus 2 RdRp gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94313-4",
+        "display": "SARS-related coronavirus N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94312-6",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94311-8",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94310-0",
+        "display": "SARS-related coronavirus N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94309-2",
+        "display": "SARS coronavirus 2 RNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94308-4",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94307-6",
+        "display": "SARS coronavirus 2 N gene"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "94306-8",
+        "display": "SARS coronavirus 2 RNA panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "41853-3",
+        "display": "Orthopoxvirus DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100893-7",
+        "display": "Orthopoxvirus IgG  IgM Ab panel"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100892-9",
+        "display": "Orthopoxvirus Ab.IgM"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100891-1",
+        "display": "Orthopoxvirus Ab.IgG"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100889-5",
+        "display": "Monkeypox virus clade I DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100888-7",
+        "display": "Monkeypox virus clade II DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100887-9",
+        "display": "Pseudocowpox virus DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100886-1",
+        "display": "Orf virus DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100885-3",
+        "display": "Parapoxvirus DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100434-0",
+        "display": "Orthopoxvirus.non-variola DNA"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "100383-9",
+        "display": "Monkeypox virus DNA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "coronavirusnCoV",
+        "display": "Novo coronavírus (2019-nCoV)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "COVID",
+        "display": "COVID-19, Biologia Molecular"
+      } ]
+    } ]
+  }
+}

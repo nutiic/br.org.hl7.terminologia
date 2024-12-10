@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoParticipante",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoParticipante",
+  "version": "HEAD",
+  "name": "BRTipoParticipante",
+  "title": "Tipo Participante",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo Participante",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ESR",
+        "display": "Estabelecimento de saúde regulador"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ESE",
+        "display": "Estabelecimento de saúde executante"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "ESS",
+        "display": "Estabelecimento de saúde solicitante"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "PCT",
+        "display": "Paciente"
+      } ]
+    } ]
+  }
+}

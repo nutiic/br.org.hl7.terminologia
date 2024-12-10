@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTerminologiaPatogeno",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTerminologiaPatogeno",
+  "version": "HEAD",
+  "name": "BRTerminologiaPatogeno",
+  "title": "Patógeno",
+  "status": "active",
+  "experimental": false,
+  "description": "Patógeno",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "04",
+        "display": "Parapoxvirus (nome do gnero do vírus)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "07",
+        "display": "SARS-CoV-2"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "03",
+        "display": "Vírus Monkeypox"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "06",
+        "display": "Vírus Pseudovaríola"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "02",
+        "display": "Orthopoxvirus não-varíola"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "01",
+        "display": "Orthopoxvirus (nome do gnero do vírus)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "05",
+        "display": "Vírus Orf"
+      } ]
+    } ]
+  }
+}

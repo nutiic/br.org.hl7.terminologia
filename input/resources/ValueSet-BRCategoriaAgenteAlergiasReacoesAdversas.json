@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRCategoriaAgenteAlergiasReacoesAdversas",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas",
+  "version": "HEAD",
+  "name": "BRCategoriaAgenteAlergiasReacoesAdversas",
+  "title": "Categoria do Agente da Alergia ou Reação Adversa",
+  "status": "active",
+  "experimental": false,
+  "description": "Categoria do Agente da Alergia ou Reação Adversa",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "http://hl7.org/fhir/allergy-intolerance-category",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "medication",
+        "display": "Medicamento"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/allergy-intolerance-category",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "biologic",
+        "display": "Biológico"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/allergy-intolerance-category",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "environment",
+        "display": "Ambiente"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/allergy-intolerance-category",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "food",
+        "display": "Alimento"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "OTH",
+        "display": "other"
+      } ]
+    } ]
+  }
+}

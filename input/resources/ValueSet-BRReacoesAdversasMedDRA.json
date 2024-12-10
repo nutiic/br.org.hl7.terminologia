@@ -1,0 +1,212 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRReacoesAdversasMedDRA",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRReacoesAdversasMedDRA",
+  "version": "HEAD",
+  "name": "BRReacoesAdversasMedDRA",
+  "title": "Reações Adversas da MedDRA",
+  "status": "active",
+  "experimental": false,
+  "description": "Reações Adversas da MedDRA",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10013968",
+        "display": "Dispnéia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10014184",
+        "display": "Eczema"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10023845",
+        "display": "Edema de Glote"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10028116",
+        "display": "Mucosite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10002424",
+        "display": "Angioedema"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10037868",
+        "display": "Exantema maculopapular"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10029117",
+        "display": "Nefrite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10003639",
+        "display": "Dermatite atópica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10003553",
+        "display": "Asma"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10012735",
+        "display": "Diarréia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10007617",
+        "display": "Parada Cardiorespiratória"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10042033",
+        "display": "Síndrome de Stevens-Johnson"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10012442",
+        "display": "Dermatite de contato"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10039083",
+        "display": "Rinite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10046735",
+        "display": "Urticária"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10010741",
+        "display": "Conjuntivite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10047115",
+        "display": "Vasculite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10011224",
+        "display": "Tosse"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10006482",
+        "display": "Broncoespasmo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10034972",
+        "display": "Fotossensibilidade"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10073508",
+        "display": "Síndrome de DRESS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10037087",
+        "display": "Prurido"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10044223",
+        "display": "Síndrome de Lyell"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10015218",
+        "display": "Eritema Multiforme"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10012441",
+        "display": "Exantema bolhoso"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10003246",
+        "display": "Artrite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10002198",
+        "display": "Anafilaxia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "10047700",
+        "display": "Vômito"
+      } ]
+    } ]
+  }
+}
