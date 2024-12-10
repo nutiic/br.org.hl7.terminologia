@@ -11,7 +11,7 @@ services:
                  echo Baixando dependencias...;                 
                  wget https://fhir-hm.ans.gov.br/package.tgz -O /root/.fhir/packages/br.gov.ans.fhir#202309.tgz;
                  echo Descompactando dependencias...;                 
-                 tar -xvzf /root/.fhir/packages/br.gov.ans.fhir#202309.tgz -C /root/.fhir/packages;
+                 tar -xf /root/.fhir/packages/br.gov.ans.fhir#202309.tgz -C /root/.fhir/packages/br.gov.ans.fhir#202309;
                  echo Limpando pasta do FSH...;
                  rm -rf /app/fsh-generated;
                  echo Gerando FSH...;
