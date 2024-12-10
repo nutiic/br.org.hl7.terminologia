@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoDocumento",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento",
+  "version": "HEAD",
+  "name": "BRTipoDocumento",
+  "title": "Tipo de Documento",
+  "status": "active",
+  "experimental": false,
+  "description": "Tipo de Documento",
+  "immutable": true,
+  "compose": {
+    "include": [ {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "RIA",
+        "display": "Registro de Imunobiológico Administrado"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "RPM",
+        "display": "Registro de Prescrição de Medicamento"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "SA",
+        "display": "Sumário de Alta"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "CMD",
+        "display": "Conjunto Mínimo de Dados"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "RAC",
+        "display": "Registro de Atendimento Clínico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "REL",
+        "display": "Resultado de Exame(s) Laboratoriais(s)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "RDM",
+        "display": "Registro de Dispensação de Medicamento"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "RA",
+        "display": "Regulação Assistencial"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+      "concept": [ {
+        "code": "ATM",
+        "display": "Atestado MédicoOdontológico"
+      } ]
+    } ]
+  }
+}
