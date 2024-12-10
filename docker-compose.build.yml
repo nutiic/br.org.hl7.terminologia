@@ -9,9 +9,9 @@ services:
                  echo Criando pasta de pacotes;
                  mkdir -p /root/.fhir/packages;    
                  echo Baixando dependencias...;                 
-                 wget https://fhir-hm.ans.gov.br/package.tgz -o /root/.fhir/packages/br.gov.ans.fhir#202309.tgz;
+                 wget https://fhir-hm.ans.gov.br/package.tgz -O /root/.fhir/packages/br.gov.ans.fhir_202309.tgz;
                  echo Descompactando dependencias...;                 
-                 unzip /root/.fhir/packages/br.gov.ans.fhir#202309.tgz -d /root/.fhir/packages/br.gov.ans.fhir#202309;             
+                 unzip /root/.fhir/packages/br.gov.ans.fhir_202309.tgz -d /root/.fhir/packages/br.gov.ans.fhir_202309;
                  echo Limpando pasta do FSH...;
                  rm -rf /app/fsh-generated;
                  echo Gerando FSH...;
