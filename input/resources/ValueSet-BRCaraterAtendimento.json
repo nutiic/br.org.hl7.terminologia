@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRCaraterAtendimento",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRCaraterAtendimento",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimento",
   "version": "HEAD",
   "name": "ValueSetBRCaraterAtendimento",
   "title": "Carater de Atendimento",

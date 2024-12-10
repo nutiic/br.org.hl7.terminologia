@@ -8,7 +8,7 @@
   "description": "Desfecho Procedimento",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
     "preferred": true
   } ]
 }

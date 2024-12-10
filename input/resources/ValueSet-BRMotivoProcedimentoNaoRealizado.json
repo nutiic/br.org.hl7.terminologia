@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRMotivoProcedimentoNaoRealizado",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRMotivoProcedimentoNaoRealizado",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoProcedimentoNaoRealizado",
   "version": "HEAD",
   "name": "ValueSetBRMotivoProcedimentoNaoRealizado",
   "title": "Motivo Procedimento Não Realizado",
@@ -12,43 +12,43 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "03",
         "display": "Procedimento não realizado"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "04",
         "display": "Procedimento não indicado"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "01",
         "display": "Procedimento contraindicado"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "02",
         "display": "Procedimento descontinuado"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "06",
         "display": "Procedimento não desejado"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "05",
         "display": "Procedimento não oferecido"
       } ]
     }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
       "concept": [ {
         "code": "08",
         "display": "Procedimento não concluído"

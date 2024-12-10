@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "CodeSystem-BRAtendimentoPrestado",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRAtendimentoPrestado",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
   "version": "HEAD",
   "name": "CodeSystemBRAtendimentoPrestado",
   "title": "Atendimento Prestado",

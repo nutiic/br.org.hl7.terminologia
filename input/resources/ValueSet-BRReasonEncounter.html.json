@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRReasonEncounter.html",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRReasonEncounter.html",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRReasonEncounter.html",
   "version": "HEAD",
   "name": "ValueSetBRReasonEncounter.html",
   "title": "Reason Encounter",

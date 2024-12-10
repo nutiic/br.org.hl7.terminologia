@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "CodeSystem-TipoConvenio",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-TipoConvenio",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
   "version": "HEAD",
   "name": "CodeSystemTipoConvenio",
   "title": "Tipo de Convênio",

@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRObservationRestricaoIntervaloReferencia",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRObservationRestricaoIntervaloReferencia",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia",
   "version": "HEAD",
   "name": "ValueSetBRObservationRestricaoIntervaloReferencia",
   "title": "Restrição Intervalo Referência",

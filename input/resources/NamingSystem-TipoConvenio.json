@@ -8,7 +8,7 @@
   "description": "Tipo de Convênio",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem-TipoConvenio",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
     "preferred": true
   } ]
 }

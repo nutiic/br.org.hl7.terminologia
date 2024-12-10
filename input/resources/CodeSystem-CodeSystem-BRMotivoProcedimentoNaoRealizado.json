@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "CodeSystem-BRMotivoProcedimentoNaoRealizado",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRMotivoProcedimentoNaoRealizado",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
   "version": "HEAD",
   "name": "CodeSystemBRMotivoProcedimentoNaoRealizado",
   "title": "Motivo Procedimento não Realizado",

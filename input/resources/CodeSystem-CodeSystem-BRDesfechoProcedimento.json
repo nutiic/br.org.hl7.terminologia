@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "CodeSystem-BRDesfechoProcedimento",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRDesfechoProcedimento",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
   "version": "HEAD",
   "name": "CodeSystemBRDesfechoProcedimento",
   "title": "Desfecho Procedimento",

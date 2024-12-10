@@ -8,7 +8,7 @@
   "description": "Instalações Físicas",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/Codesystem-BRInstalacoesFisicas",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
     "preferred": true
   } ]
 }

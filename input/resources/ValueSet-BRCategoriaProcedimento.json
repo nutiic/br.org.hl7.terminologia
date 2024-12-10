@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRCategoriaProcedimento",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRCategoriaProcedimento",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaProcedimento",
   "version": "HEAD",
   "name": "ValueSetBRCategoriaProcedimento",
   "title": "Categoria Procedimento",

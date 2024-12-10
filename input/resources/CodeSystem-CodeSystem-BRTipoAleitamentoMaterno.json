@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "CodeSystem-BRTipoAleitamentoMaterno",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRTipoAleitamentoMaterno",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
   "version": "HEAD",
   "name": "CodeSystemBRTipoAleitamentoMaterno",
   "title": "Tipo Aleitamento Materno",

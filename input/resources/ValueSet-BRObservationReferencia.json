@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-BRObservationReferencia",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet-BRObservationReferencia",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationReferencia",
   "version": "HEAD",
   "name": "ValueSetBRObservationReferencia",
   "title": "Observation da Referência",

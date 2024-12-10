@@ -8,7 +8,7 @@
   "description": "Tipo Aleitamento Materno",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem-BRTipoAleitamentoMaterno",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
     "preferred": true
   } ]
 }

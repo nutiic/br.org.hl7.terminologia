@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "Codesystem-BRInstalacoesFisicas",
   "language": "pt",
-  "url": "https://terminologia.saude.gov.br/fhir/Codesystem-BRInstalacoesFisicas",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
   "version": "HEAD",
   "name": "CodesystemBRInstalacoesFisicas",
   "title": "Instalações Físicas",
