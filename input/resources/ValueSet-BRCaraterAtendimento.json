@@ -13,28 +13,28 @@
   "compose": {
     "include": [ {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "routine",
         "display": "Routine"
       } ]
     }, {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "asap",
         "display": "ASAP"
       } ]
     }, {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "stat",
         "display": "STAT"
       } ]
     }, {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "urgent",
         "display": "Urgent"

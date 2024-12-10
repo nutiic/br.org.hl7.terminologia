@@ -13,56 +13,56 @@
   "compose": {
     "include": [ {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "entered-in-error",
         "display": "Registrado por engano"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "on-hold",
         "display": "Suspenso"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "completed",
         "display": "Concluído"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "preparation",
         "display": "Pré-procedimento"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "in-progress",
         "display": "Em andamento"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "stopped",
         "display": "Cancelado"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "not-done",
         "display": "Não realizado"
       } ]
     }, {
       "system": "http://hl7.org/fhir/event-status",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "unknown",
         "display": "Desconhecido"

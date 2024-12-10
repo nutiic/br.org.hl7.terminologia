@@ -13,28 +13,28 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "entered-in-error",
         "display": "Registrado por engano"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "refuted",
         "display": "Refutada"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "unconfirmed",
         "display": "Não confirmado"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "confirmed",
         "display": "Confirmado"

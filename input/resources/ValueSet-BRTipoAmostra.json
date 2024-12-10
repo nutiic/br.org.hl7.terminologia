@@ -21,105 +21,105 @@
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "TASP",
         "display": "Aspirate, Tracheal"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SPUTIN",
         "display": "Sputum, Inducted"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "WASH",
         "display": "Wash"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "WB",
         "display": "Whole, Blood"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SPT",
         "display": "Sputum"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "UR",
         "display": "Urine"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SER",
         "display": "Serum"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SECRE",
         "display": "Secretion(s)"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SAL",
         "display": "Saliva"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "FRS",
         "display": "Fluid, Respiratory"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "PLAS",
         "display": "Plasma"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "NSECR",
         "display": "Secretion, Nasal"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "CSF",
         "display": "Cerebral spinal fluid"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "LAVG",
         "display": "Lavage, Bronhial"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "ASP",
         "display": "Aspirate"

@@ -13,21 +13,21 @@
   "compose": {
     "include": [ {
       "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "high",
         "display": "Alta"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "low",
         "display": "Baixa"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "unable-to-assess",
         "display": "Não foi possível determinar o risco"

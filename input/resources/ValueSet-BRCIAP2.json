@@ -15,603 +15,701 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A91",
-        "display": "Investigação com resultado anormal NE"
+        "code": "T78",
+        "display": "Cisto do canal tiroglosso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R27",
-        "display": "Medo de outras doenças respiratórias"
+        "code": "F14",
+        "display": "Movimentos oculares anormais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A90",
-        "display": "Malformação congnita NEmúltiplas"
+        "code": "T73",
+        "display": "Outra neoplasia endócrina NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R26",
-        "display": "Medo de câncer do aparelho respiratório"
+        "code": "F13",
+        "display": "Sensações oculares anormais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A89",
-        "display": "Efeito da prótese"
+        "code": "T72",
+        "display": "Neoplasia benigna da tiróide"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R25",
-        "display": "Expectoraçãomucosidade anormal"
+        "code": "F05",
+        "display": "Outras perturbações visuais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A88",
-        "display": "Efeito adverso de fator físico"
+        "code": "T71",
+        "display": "Neoplasia maligna da tiróide"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R24",
-        "display": "Hemoptise"
+        "code": "F04",
+        "display": "Moscas volantespontos luminososescotomas manchas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A87",
-        "display": "Complicações de tratamento médico"
+        "code": "T70",
+        "display": "Infecção endócrina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R23",
-        "display": "Sinaissintomas da voz"
+        "code": "F03",
+        "display": "Secreção ocular"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A86",
-        "display": "Efeito tóxico de substância não medicinal"
+        "code": "T29",
+        "display": "Sinaissintomas endocrinológicosmetabolicosnutricionais, outros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R21",
-        "display": "Sinaissintomas da garganta"
+        "code": "F02",
+        "display": "Olho vermelho"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A85",
-        "display": "Efeito adverso de fármaco dose correta"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R09",
-        "display": "Sinaissintomas dos seios paranasais"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A84",
-        "display": "Intoxicação por medicamento"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R08",
-        "display": "Outros sinaissintomas nasais"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A82",
-        "display": "Efeito secundário de lesão traumática"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R07",
-        "display": "Espirrocongestão nasal"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A81",
-        "display": "Politraumatismosferimentos múltiplos"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R06",
-        "display": "Hemorragia nasalepistaxe"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A80",
-        "display": "Lesão traumáticaacidente NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R05",
-        "display": "Tosse"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A79",
-        "display": "Carcinomatose (localização primária desconhecida)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R04",
-        "display": "Outros problemas respiratórios"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A78",
-        "display": "Hanseníase e outras doenças infecciosas NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R03",
-        "display": "Respiração ruidosa"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A77",
-        "display": "Dengue e outras doenças virais NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R02",
-        "display": "Dificuldade respiratória, dispneia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A76",
-        "display": "Outro exantema viral"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R01",
-        "display": "Dor atribuída ao aparelho respiratório"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A75",
-        "display": "Mononucleose infecciosa"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P99",
-        "display": "Outras perturbações psicológicas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A74",
-        "display": "Rubéola"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P98",
-        "display": "Outras psicoses NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A73",
-        "display": "Malária"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P86",
-        "display": "Anorexia nervosa, bulimia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A72",
-        "display": "Varicela"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P85",
-        "display": "Retardo Atraso mental"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A71",
-        "display": "Sarampo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P82",
-        "display": "Estresse pós traumático"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A70",
-        "display": "Tuberculose"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P81",
-        "display": "Perturbação hipercinética"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A29",
-        "display": "Outros sinaissintomas gerais"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P80",
-        "display": "Perturbações de personalidade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A28",
-        "display": "Limitação funcionalincapacidade NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P79",
-        "display": "Fobiaperturbação compulsiva"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A27",
-        "display": "Medo de outra doença NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P78",
-        "display": "Neurastenia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A26",
-        "display": "Medo de câncer NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P77",
-        "display": "Suicídiotentativa de suicídio"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A25",
-        "display": "Medo de morrermedo da morte"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P76",
-        "display": "Perturbações depressivas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A23",
-        "display": "Fator de risco NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P75",
-        "display": "Somatização"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A21",
-        "display": "Fator de risco de malignidade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P74",
-        "display": "Distúrbio ansiosoestado de ansiedade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A20",
-        "display": "Pedidodiscussão eutanásia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P73",
-        "display": "Psicose afetiva"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A18",
-        "display": "Preocupação com aparncia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P72",
-        "display": "Esquizofrenia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A16",
-        "display": "Criança irritável"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P71",
-        "display": "Outras psicoses orgânicas NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A13",
-        "display": "ReceioMedo do tratamento"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P70",
-        "display": "Demncia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P29",
-        "display": "Sinaissintomas psicológicos, outros"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A11",
-        "display": "Dores torácicas NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A10",
-        "display": "SangramentoHemorragia NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "P28",
+        "code": "T28",
         "display": "Limitação funcionalincapacidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P27",
-        "display": "Medo de perturbações mentais"
+        "code": "F01",
+        "display": "Dor no olho"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A09",
-        "display": "Problemas de sudorese"
+        "code": "T27",
+        "display": "Medo de outra doença endócrinametabólica"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P25",
-        "display": "Problemas da fase de vida de adulto"
+        "code": "D99",
+        "display": "Outra doença do aparelho digestivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A08",
-        "display": "Inchaço"
+        "code": "T26",
+        "display": "Medo de câncer do sistema endócrino"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P24",
-        "display": "Dificuldades especificas de aprendizagem"
+        "code": "D98",
+        "display": "Colecistite, colelitiase"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A07",
-        "display": "Coma"
+        "code": "T11",
+        "display": "Desidratação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P23",
-        "display": "Sinaissintomas relacionados ao comportamento do adolescente"
+        "code": "D97",
+        "display": "Doenças do fígado NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A06",
-        "display": "Desmaiosíncope"
+        "code": "T10",
+        "display": "Atraso do crescimento"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P22",
-        "display": "Sinaissintomas relacionados ao comportamento da criança"
+        "code": "D96",
+        "display": "Lombrigas outros parasitas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A05",
-        "display": "Sentir-se doente"
+        "code": "T08",
+        "display": "Perda de peso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P20",
-        "display": "Alterações da memória"
+        "code": "D95",
+        "display": "Fissura anal  abcesso perianal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A04",
-        "display": "Debilidadecansaço geralfadiga"
+        "code": "T07",
+        "display": "Aumento de peso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A03",
-        "display": "Febre"
+        "code": "D94",
+        "display": "Enterite crónicacolite ulcerosa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P19",
-        "display": "Abuso de drogas"
+        "code": "T05",
+        "display": "Problemas alimentares do adulto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A02",
-        "display": "Arrepios calafrios"
+        "code": "D93",
+        "display": "Síndrome do cólon irritável"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P18",
-        "display": "Abuso de medicação"
+        "code": "T04",
+        "display": "Problemas alimentares de lactentecriança"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A01",
-        "display": "Dor generalizada múltipla"
+        "code": "D92",
+        "display": "Doença diverticular intestinal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "P17",
-        "display": "Abuso do tabaco"
+        "code": "T03",
+        "display": "Perda de apetite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D91",
+        "display": "Hérnia abdominal, outras"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "T02",
+        "display": "Apetite excessivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D90",
+        "display": "Hérnia de hiato diafragmática"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "T01",
+        "display": "Sede excessiva"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D89",
+        "display": "Hérnia inguinal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S99",
+        "display": "Outras doenças da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D88",
+        "display": "Apendicite"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S98",
+        "display": "Urticária"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S97",
+        "display": "Úlcera crónica da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D87",
+        "display": "Alterações funcionais estômago"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D86",
+        "display": "Úlcera péptica, outra"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S96",
+        "display": "Acne"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D85",
+        "display": "Úlcera do duodeno"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S95",
+        "display": "Molusco contagioso"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D84",
+        "display": "Doença do esôfago"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S94",
+        "display": "Unha encravada"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D83",
+        "display": "Doença da bocalíngualábios"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S93",
+        "display": "Cisto sebáceo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D82",
+        "display": "Doença dos dentesgengivas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S92",
+        "display": "Doença das glândulas sudoríparas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D81",
+        "display": "Malformações congnitas do aparelho digestivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S91",
+        "display": "Psoríase"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S90",
+        "display": "Pitiríase rosada"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D80",
+        "display": "Outras lesões traumáticas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S89",
+        "display": "Dermatite das fraldas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D79",
+        "display": "Corpo estranho no aparelho digestivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S88",
+        "display": "Dermatite de contatoalérgica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D78",
+        "display": "Neoplasia benigna do aparelho digestivoincerta"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S87",
+        "display": "Dermatiteeczema atópico"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D77",
+        "display": "Neoplasia maligna do aparelho digestivo NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S86",
+        "display": "Dermatite seborreica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D76",
+        "display": "Neoplasia maligna do pâncreas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S85",
+        "display": "Cisto pilonidalfistula"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D75",
+        "display": "Neoplasia maligna do cólonreto"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S84",
+        "display": "Impetigo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D74",
+        "display": "Neoplasia maligna do estômago"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S83",
+        "display": "Lesões da pele congnitas, outras"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D73",
+        "display": "Gastroenterite, presumível infecção"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S82",
+        "display": "Nevossinais da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D72",
+        "display": "Hepatite viral"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S81",
+        "display": "Hemangiomalinfangioma"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D71",
+        "display": "Caxumbaparotidite epidmica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S80",
+        "display": "Ceratose Queratose solarqueimadura solar"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D70",
+        "display": "Infecção gastrointestinal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S79",
+        "display": "Neoplasia cutânea benignaincerta"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D29",
+        "display": "Outros sinaissintomas digestivos"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S78",
+        "display": "Lipoma"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D28",
+        "display": "Limitação funcionalincapacidade"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S77",
+        "display": "Neoplasias malignas da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D27",
+        "display": "Medo de outras doenças aparelho digestivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S76",
+        "display": "Outras infecções da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D26",
+        "display": "Medo de câncer no aparelho digestivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S75",
+        "display": "Monilíase oralcandidíase na pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D25",
+        "display": "Distensão abdominal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S74",
+        "display": "Dermatofitose"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D24",
+        "display": "Massa abdominal NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S73",
+        "display": "Pediculoseoutras infecções da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D23",
+        "display": "Hepatomegalia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S72",
+        "display": "Escabioseoutras acaríases"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D21",
+        "display": "Problemas de deglutição"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S71",
+        "display": "Herpes simples"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D20",
+        "display": "Sinaissintomas da bocalíngualábios"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S70",
+        "display": "Herpes zoster"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D19",
+        "display": "Sinaissintomas dos dentesgengivas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S29",
+        "display": "Sinaissintomas da pele, outros"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D18",
+        "display": "Alterações nas fezesmov. intestinais"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S28",
+        "display": "Limitação funcionalincapacidade"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D17",
+        "display": "Incontinncia fecal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S27",
+        "display": "Medo de outra doença da pele"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
@@ -1317,701 +1415,603 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "L02",
-        "display": "Sinaissintomas da região dorsal"
+        "code": "A91",
+        "display": "Investigação com resultado anormal NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X21",
-        "display": "Sinaissintomas da mama feminina, outros"
+        "code": "R27",
+        "display": "Medo de outras doenças respiratórias"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "L01",
-        "display": "Sinaissintomas do pescoço"
+        "code": "A90",
+        "display": "Malformação congnita NEmúltiplas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X20",
-        "display": "Sinaissintomas do mamilo da mulher"
+        "code": "R26",
+        "display": "Medo de câncer do aparelho respiratório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K99",
-        "display": "Outras doenças do aparelho circulatório"
+        "code": "A89",
+        "display": "Efeito da prótese"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X19",
-        "display": "Tumor ou nódulo na mama feminina"
+        "code": "R25",
+        "display": "Expectoraçãomucosidade anormal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K96",
-        "display": "Hemorróidas"
+        "code": "A88",
+        "display": "Efeito adverso de fator físico"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X18",
-        "display": "Dor na mama feminina"
+        "code": "R24",
+        "display": "Hemoptise"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K95",
-        "display": "Veias varicosas da perna"
+        "code": "A87",
+        "display": "Complicações de tratamento médico"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X17",
-        "display": "Sinaissintomas da pélvis feminina"
+        "code": "R23",
+        "display": "Sinaissintomas da voz"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K94",
-        "display": "Flebitetromboflebite"
+        "code": "A86",
+        "display": "Efeito tóxico de substância não medicinal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X16",
-        "display": "Sinaissintomas da vulva"
+        "code": "R21",
+        "display": "Sinaissintomas da garganta"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K93",
-        "display": "Embolia pulmonar"
+        "code": "A85",
+        "display": "Efeito adverso de fármaco dose correta"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X15",
-        "display": "Sinaissintomas da vagina"
+        "code": "R09",
+        "display": "Sinaissintomas dos seios paranasais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K92",
-        "display": "Aterosclerosedoença vascular periférica"
+        "code": "A84",
+        "display": "Intoxicação por medicamento"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X14",
-        "display": "Secreção vaginal"
+        "code": "R08",
+        "display": "Outros sinaissintomas nasais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K91",
-        "display": "Doença vascular cerebral"
+        "code": "A82",
+        "display": "Efeito secundário de lesão traumática"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X13",
-        "display": "Hemorragia pós-coital"
+        "code": "R07",
+        "display": "Espirrocongestão nasal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K90",
-        "display": "Tromboseacidente vascular cerebral"
+        "code": "A81",
+        "display": "Politraumatismosferimentos múltiplos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X12",
-        "display": "Hemorragia pós-menopausa"
+        "code": "R06",
+        "display": "Hemorragia nasalepistaxe"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K89",
-        "display": "Isqumia acidente cerebral transitória(o)"
+        "code": "A80",
+        "display": "Lesão traumáticaacidente NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X11",
-        "display": "Sinaissintomas da menopausa climatério"
+        "code": "R05",
+        "display": "Tosse"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K88",
-        "display": "Hipotensão postural"
+        "code": "A79",
+        "display": "Carcinomatose (localização primária desconhecida)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X10",
-        "display": "Desejo de alterar a data menstruação"
+        "code": "R04",
+        "display": "Outros problemas respiratórios"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K87",
-        "display": "Hipertensão com complicações"
+        "code": "A78",
+        "display": "Hanseníase e outras doenças infecciosas NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X09",
-        "display": "Sinaissintomas pré-menstruais"
+        "code": "R03",
+        "display": "Respiração ruidosa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X08",
-        "display": "Hemorragia intermenstrual"
+        "code": "A77",
+        "display": "Dengue e outras doenças virais NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K86",
-        "display": "Hipertensão sem complicações"
+        "code": "R02",
+        "display": "Dificuldade respiratória, dispneia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X07",
-        "display": "Menstruação irregularfrequente"
+        "code": "A76",
+        "display": "Outro exantema viral"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K85",
-        "display": "Pressão arterial elevada"
+        "code": "R01",
+        "display": "Dor atribuída ao aparelho respiratório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X06",
-        "display": "Menstruação excessiva"
+        "code": "A75",
+        "display": "Mononucleose infecciosa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K84",
-        "display": "Outras doenças cardíacas"
+        "code": "P99",
+        "display": "Outras perturbações psicológicas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X05",
-        "display": "Menstruação escassaausente"
+        "code": "A74",
+        "display": "Rubéola"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K83",
-        "display": "Doença valvular cardíaca NE"
+        "code": "P98",
+        "display": "Outras psicoses NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X04",
-        "display": "Relação sexual dolorosa na mulher"
+        "code": "A73",
+        "display": "Malária"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K82",
-        "display": "Doença cardiopulmonar"
+        "code": "P86",
+        "display": "Anorexia nervosa, bulimia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X03",
-        "display": "Dores intermenstruais"
+        "code": "A72",
+        "display": "Varicela"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K81",
-        "display": "Sopro cardíacoarterial NE"
+        "code": "P85",
+        "display": "Retardo Atraso mental"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X02",
-        "display": "Dores menstruais"
+        "code": "A71",
+        "display": "Sarampo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K80",
-        "display": "Arritmia cardíaca NE"
+        "code": "P82",
+        "display": "Estresse pós traumático"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "X01",
-        "display": "Dor genital"
+        "code": "A70",
+        "display": "Tuberculose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K79",
-        "display": "Taquicardia Paroxística"
+        "code": "P81",
+        "display": "Perturbação hipercinética"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W99",
-        "display": "Outros problemas da gravidezparto"
+        "code": "A29",
+        "display": "Outros sinaissintomas gerais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K78",
-        "display": "Fibrilaçãoflutter auricular atrial"
+        "code": "P80",
+        "display": "Perturbações de personalidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W96",
-        "display": "Outras complicações do puerpério"
+        "code": "A28",
+        "display": "Limitação funcionalincapacidade NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K77",
-        "display": "Insuficincia cardíaca"
+        "code": "P79",
+        "display": "Fobiaperturbação compulsiva"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W95",
-        "display": "Outros problemas da mama durante gravidezpuerpério"
+        "code": "A27",
+        "display": "Medo de outra doença NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K76",
-        "display": "Doença cardíaca isquémica sem angina"
+        "code": "P78",
+        "display": "Neurastenia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W94",
-        "display": "Mastite puerperal"
+        "code": "A26",
+        "display": "Medo de câncer NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K75",
-        "display": "Infarto ou Enfarte agudo miocárdio"
+        "code": "P77",
+        "display": "Suicídiotentativa de suicídio"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W93",
-        "display": "Parto com complicações de natimorto"
+        "code": "A25",
+        "display": "Medo de morrermedo da morte"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K74",
-        "display": "Doença cardíaca isquémica com angina"
+        "code": "P76",
+        "display": "Perturbações depressivas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W92",
-        "display": "Parto com complicações de nascido vivo"
+        "code": "A23",
+        "display": "Fator de risco NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K73",
-        "display": "Malformações congnitas do aparelho circulatório"
+        "code": "P75",
+        "display": "Somatização"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W91",
-        "display": "Parto sem complicações de natimorto"
+        "code": "A21",
+        "display": "Fator de risco de malignidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K72",
-        "display": "Neoplasia do aparelho circulatório"
+        "code": "P74",
+        "display": "Distúrbio ansiosoestado de ansiedade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W90",
-        "display": "Parto sem complicações de nascido vivo"
+        "code": "A20",
+        "display": "Pedidodiscussão eutanásia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K71",
-        "display": "Febre reumáticacardiopatia"
+        "code": "P73",
+        "display": "Psicose afetiva"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W85",
-        "display": "Diabetes gestacional"
+        "code": "A18",
+        "display": "Preocupação com aparncia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K70",
-        "display": "Doença infecciosa do aparelho circulatório"
+        "code": "P72",
+        "display": "Esquizofrenia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W84",
-        "display": "Gravidez de alto risco"
+        "code": "A16",
+        "display": "Criança irritável"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K29",
-        "display": "Outros sinaissintomas cardiovasculares"
+        "code": "P71",
+        "display": "Outras psicoses orgânicas NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W83",
-        "display": "Aborto provocado"
+        "code": "A13",
+        "display": "ReceioMedo do tratamento"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K28",
+        "code": "P70",
+        "display": "Demncia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "P29",
+        "display": "Sinaissintomas psicológicos, outros"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "A11",
+        "display": "Dores torácicas NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "A10",
+        "display": "SangramentoHemorragia NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "P28",
         "display": "Limitação funcionalincapacidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W82",
-        "display": "Aborto espontâneo"
+        "code": "P27",
+        "display": "Medo de perturbações mentais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K27",
-        "display": "Medo de outra doença cardiovascular"
+        "code": "A09",
+        "display": "Problemas de sudorese"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W81",
-        "display": "Toxemia gravídica DHEG"
+        "code": "P25",
+        "display": "Problemas da fase de vida de adulto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K25",
-        "display": "Medo de hipertensão"
+        "code": "A08",
+        "display": "Inchaço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W80",
-        "display": "Gravidez ectópica"
+        "code": "P24",
+        "display": "Dificuldades especificas de aprendizagem"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K24",
-        "display": "Medo de doença cardíaca"
+        "code": "A07",
+        "display": "Coma"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W79",
-        "display": "Gravidez não desejada"
+        "code": "P23",
+        "display": "Sinaissintomas relacionados ao comportamento do adolescente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W78",
-        "display": "Gravidez"
+        "code": "A06",
+        "display": "Desmaiosíncope"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K22",
-        "display": "Fator de risco para doença cardiovascular"
+        "code": "P22",
+        "display": "Sinaissintomas relacionados ao comportamento da criança"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W76",
-        "display": "Malformação congénita que complica a gravidez"
+        "code": "A05",
+        "display": "Sentir-se doente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K07",
-        "display": "Tornozelos inchadosedema"
+        "code": "P20",
+        "display": "Alterações da memória"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W75",
-        "display": "Lesões traumáticas que complicam a gravidez"
+        "code": "A04",
+        "display": "Debilidadecansaço geralfadiga"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K06",
-        "display": "Veias proeminentes"
+        "code": "A03",
+        "display": "Febre"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K05",
-        "display": "Outras irregularidades dos batimentos cardíacos"
+        "code": "P19",
+        "display": "Abuso de drogas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W73",
-        "display": "Neoplasia benignaincerta relacionada com a gravidez"
+        "code": "A02",
+        "display": "Arrepios calafrios"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K04",
-        "display": "Palpitaçõespercepção dos batimentos cardíacos"
+        "code": "P18",
+        "display": "Abuso de medicação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "W72",
-        "display": "Neoplasia maligna relacionada com gravidez"
+        "code": "A01",
+        "display": "Dor generalizada múltipla"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "K03",
-        "display": "Dores atribuídas ao aparelho circulatório NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W71",
-        "display": "Infecções que complicam a gravidez"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "K02",
-        "display": "Sensação de pressãoaperto atribuída ao coração"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W70",
-        "display": "Sepsisinfecção puerperal"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "K01",
-        "display": "Dor atribuída ao coração"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W29",
-        "display": "Sinaissintomas da gravidez, outros"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H99",
-        "display": "Outra doença do ouvidomastóide"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W28",
-        "display": "Limitação funcionalincapacidade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H86",
-        "display": "Surdez"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W27",
-        "display": "Medo de complicações na gravidez"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H85",
-        "display": "Lesão acústica"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W21",
-        "display": "Preocupação com a imagem corporal na gravidez"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H84",
-        "display": "Presbiacusia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W19",
-        "display": "Sinaissintomas da mamalactação"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W18",
-        "display": "Sinaissintomas pós-parto"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H83",
-        "display": "Otoesclerose"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "W17",
-        "display": "Hemorragia pós-parto"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H82",
-        "display": "Síndrome vertiginosa"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "H81",
-        "display": "Cerúmen no ouvido em excesso"
+        "code": "P17",
+        "display": "Abuso do tabaco"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
@@ -2717,701 +2717,701 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T78",
-        "display": "Cisto do canal tiroglosso"
+        "code": "D16",
+        "display": "Hemorragia retal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F14",
-        "display": "Movimentos oculares anormais"
+        "code": "S26",
+        "display": "Medo de câncer de pele"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T73",
-        "display": "Outra neoplasia endócrina NE"
+        "code": "D15",
+        "display": "Melena"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F13",
-        "display": "Sensações oculares anormais"
+        "code": "D14",
+        "display": "Hematmesevómito sangue"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T72",
-        "display": "Neoplasia benigna da tiróide"
+        "code": "S24",
+        "display": "Sinaissintomas do cabelocouro cabeludo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F05",
-        "display": "Outras perturbações visuais"
+        "code": "D13",
+        "display": "Icterícia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T71",
-        "display": "Neoplasia maligna da tiróide"
+        "code": "S23",
+        "display": "Queda de cabelocalvície"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F04",
-        "display": "Moscas volantespontos luminososescotomas manchas"
+        "code": "D12",
+        "display": "Obstipação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T70",
-        "display": "Infecção endócrina"
+        "code": "S22",
+        "display": "Sinaissintomas das unhas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F03",
-        "display": "Secreção ocular"
+        "code": "S21",
+        "display": "Sinaissintomas da textura da pele"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T29",
-        "display": "Sinaissintomas endocrinológicosmetabolicosnutricionais, outros"
+        "code": "D11",
+        "display": "Diarreia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F02",
-        "display": "Olho vermelho"
+        "code": "S20",
+        "display": "Caloscalosidades"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T28",
+        "code": "D10",
+        "display": "Vomito"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S19",
+        "display": "Outra lesão cutânea"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D09",
+        "display": "Náusea"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S18",
+        "display": "Laceraçãocorte"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D08",
+        "display": "Flatulncia gaseseructações"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S17",
+        "display": "Abrasãoarranhãobolhas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D07",
+        "display": "Dispepsiaindigestão"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S16",
+        "display": "Traumatismocontusão"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D06",
+        "display": "Outras dores abdominais localizadas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S15",
+        "display": "Corpo estranho na pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D05",
+        "display": "Irritação perianal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S14",
+        "display": "Queimaduraescaldão"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D04",
+        "display": "Dor analretal"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S13",
+        "display": "Mordedura animalhumana"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D03",
+        "display": "Azia Queimação"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S12",
+        "display": "Picada ou mordedura de inseto"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D02",
+        "display": "Dores abdominais, epigástricas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S11",
+        "display": "Infecção pós-traumática da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "D01",
+        "display": "Dor abdominal generalizadacólicas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S10",
+        "display": "Furúnculocarbúnculo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B99",
+        "display": "Outra doença do sanguelinfáticosbaço"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S09",
+        "display": "Infecção dos dedos das mãospés"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B90",
+        "display": "Infecção por VIH HIVSIDA AIDS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S08",
+        "display": "Alterações da cor da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B87",
+        "display": "Esplenomegalia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S07",
+        "display": "Erupção cutânea generalizada"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B84",
+        "display": "Glóbulos brancos anormais"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S06",
+        "display": "Erupção cutânea localizada"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B83",
+        "display": "Púrpuradefeitos de coagulação"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S05",
+        "display": "Tumoresinchaços generalizados"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B82",
+        "display": "Outras anemias NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S04",
+        "display": "Tumorinchaço localizado"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B81",
+        "display": "Anemia perniciosadeficincia de folatos"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S03",
+        "display": "Verrugas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B80",
+        "display": "Anemia por deficincia de ferro"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S02",
+        "display": "Prurido"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B79",
+        "display": "Outra malformação congnita do sanguelinfática"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "S01",
+        "display": "Dorsensibilidade dolorosa da pele"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B78",
+        "display": "Anemia hemolítica hereditária"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R99",
+        "display": "Outras doenças respiratórias"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R98",
+        "display": "Síndrome de hiperventilação"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B77",
+        "display": "Outras lesões traumáticas do sanguelinfabaço"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R97",
+        "display": "Rinite alérgica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B76",
+        "display": "Rotura traumática do baço"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R96",
+        "display": "Asma"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B75",
+        "display": "Neoplasia benigna NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R95",
+        "display": "Doença pulmonar obstrutiva crónica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B74",
+        "display": "Outra neoplasia maligna no sangue"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R92",
+        "display": "Neoplasia respiratória NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B73",
+        "display": "Leucemia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R90",
+        "display": "Hipertrofia das amígdalasadenóides"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B72",
+        "display": "Doença de Hodgkinlinfomas"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R89",
+        "display": "Malformação congénita do aparelho respiratório"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B71",
+        "display": "Linfadenite crónica NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R88",
+        "display": "Outra lesão respiratória"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B70",
+        "display": "Linfadenite aguda"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R87",
+        "display": "Corpo estranho narizlaringebrônquios"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B29",
+        "display": "Outros sinais sintomas do sangue sistema linfático baço NE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "R86",
+        "display": "Neoplasia benigna respiratória"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "B28",
         "display": "Limitação funcionalincapacidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "F01",
-        "display": "Dor no olho"
+        "code": "R85",
+        "display": "Outra neoplasia respiratória maligna"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T27",
-        "display": "Medo de outra doença endócrinametabólica"
+        "code": "B27",
+        "display": "Medo de outras doenças do sangue vasos linfáticos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D99",
-        "display": "Outra doença do aparelho digestivo"
+        "code": "R84",
+        "display": "Neoplasia maligna dos brônquiospulmão"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T26",
-        "display": "Medo de câncer do sistema endócrino"
+        "code": "B26",
+        "display": "Medo de câncer no sanguelinfático"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D98",
-        "display": "Colecistite, colelitiase"
+        "code": "R83",
+        "display": "Outra infecção respiratória"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T11",
-        "display": "Desidratação"
+        "code": "R82",
+        "display": "Pleuritederrame pleural"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D97",
-        "display": "Doenças do fígado NE"
+        "code": "B25",
+        "display": "Medo de VIH HIVSIDA AIDS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T10",
-        "display": "Atraso do crescimento"
+        "code": "R81",
+        "display": "Pneumonia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D96",
-        "display": "Lombrigas outros parasitas"
+        "code": "B04",
+        "display": "Sinaissintomas sangue"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T08",
-        "display": "Perda de peso"
+        "code": "R80",
+        "display": "Gripe"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D95",
-        "display": "Fissura anal  abcesso perianal"
+        "code": "R79",
+        "display": "Bronquite crônica"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T07",
-        "display": "Aumento de peso"
+        "code": "B02",
+        "display": "Gânglio linfático aumentadodoloroso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D94",
-        "display": "Enterite crónicacolite ulcerosa"
+        "code": "R78",
+        "display": "Bronquitebronquiolite aguda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T05",
-        "display": "Problemas alimentares do adulto"
+        "code": "R77",
+        "display": "Laringitetraqueíte aguda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D93",
-        "display": "Síndrome do cólon irritável"
+        "code": "R76",
+        "display": "Amigdalite aguda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T04",
-        "display": "Problemas alimentares de lactentecriança"
+        "code": "A98",
+        "display": "Medicina preventivamanutenção da saúde"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D92",
-        "display": "Doença diverticular intestinal"
+        "code": "R75",
+        "display": "Sinusite crónicaaguda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T03",
-        "display": "Perda de apetite"
+        "code": "A97",
+        "display": "Sem doença"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D91",
-        "display": "Hérnia abdominal, outras"
+        "code": "R74",
+        "display": "Infecção aguda do aparelho respiratório superior (IVAS)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T02",
-        "display": "Apetite excessivo"
+        "code": "A96",
+        "display": "Morte"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D90",
-        "display": "Hérnia de hiato diafragmática"
+        "code": "R73",
+        "display": "Abcessofurúnculo no nariz"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "T01",
-        "display": "Sede excessiva"
+        "code": "A95",
+        "display": "Mortalidade perinatal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D89",
-        "display": "Hérnia inguinal"
+        "code": "R72",
+        "display": "Infecção estreptocócica da orofaringe"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S99",
-        "display": "Outras doenças da pele"
+        "code": "A94",
+        "display": "Morbidade perinatal, outra"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D88",
-        "display": "Apendicite"
+        "code": "R71",
+        "display": "Tosse convulsa pertussis"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S98",
-        "display": "Urticária"
+        "code": "R29",
+        "display": "Sinaissintomas do aparelho respiratório, outros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S97",
-        "display": "Úlcera crónica da pele"
+        "code": "A92",
+        "display": "Alergiareação alérgica NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D87",
-        "display": "Alterações funcionais estômago"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D86",
-        "display": "Úlcera péptica, outra"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S96",
-        "display": "Acne"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D85",
-        "display": "Úlcera do duodeno"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S95",
-        "display": "Molusco contagioso"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D84",
-        "display": "Doença do esôfago"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S94",
-        "display": "Unha encravada"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D83",
-        "display": "Doença da bocalíngualábios"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S93",
-        "display": "Cisto sebáceo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D82",
-        "display": "Doença dos dentesgengivas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S92",
-        "display": "Doença das glândulas sudoríparas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D81",
-        "display": "Malformações congnitas do aparelho digestivo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S91",
-        "display": "Psoríase"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S90",
-        "display": "Pitiríase rosada"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D80",
-        "display": "Outras lesões traumáticas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S89",
-        "display": "Dermatite das fraldas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D79",
-        "display": "Corpo estranho no aparelho digestivo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S88",
-        "display": "Dermatite de contatoalérgica"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D78",
-        "display": "Neoplasia benigna do aparelho digestivoincerta"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S87",
-        "display": "Dermatiteeczema atópico"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D77",
-        "display": "Neoplasia maligna do aparelho digestivo NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S86",
-        "display": "Dermatite seborreica"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D76",
-        "display": "Neoplasia maligna do pâncreas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S85",
-        "display": "Cisto pilonidalfistula"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D75",
-        "display": "Neoplasia maligna do cólonreto"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S84",
-        "display": "Impetigo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D74",
-        "display": "Neoplasia maligna do estômago"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S83",
-        "display": "Lesões da pele congnitas, outras"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D73",
-        "display": "Gastroenterite, presumível infecção"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S82",
-        "display": "Nevossinais da pele"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D72",
-        "display": "Hepatite viral"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S81",
-        "display": "Hemangiomalinfangioma"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D71",
-        "display": "Caxumbaparotidite epidmica"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S80",
-        "display": "Ceratose Queratose solarqueimadura solar"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D70",
-        "display": "Infecção gastrointestinal"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S79",
-        "display": "Neoplasia cutânea benignaincerta"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D29",
-        "display": "Outros sinaissintomas digestivos"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S78",
-        "display": "Lipoma"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D28",
+        "code": "R28",
         "display": "Limitação funcionalincapacidade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S77",
-        "display": "Neoplasias malignas da pele"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D27",
-        "display": "Medo de outras doenças aparelho digestivo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S76",
-        "display": "Outras infecções da pele"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D26",
-        "display": "Medo de câncer no aparelho digestivo"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S75",
-        "display": "Monilíase oralcandidíase na pele"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D25",
-        "display": "Distensão abdominal"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S74",
-        "display": "Dermatofitose"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D24",
-        "display": "Massa abdominal NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S73",
-        "display": "Pediculoseoutras infecções da pele"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D23",
-        "display": "Hepatomegalia"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S72",
-        "display": "Escabioseoutras acaríases"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D21",
-        "display": "Problemas de deglutição"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S71",
-        "display": "Herpes simples"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D20",
-        "display": "Sinaissintomas da bocalíngualábios"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S70",
-        "display": "Herpes zoster"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D19",
-        "display": "Sinaissintomas dos dentesgengivas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S29",
-        "display": "Sinaissintomas da pele, outros"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D18",
-        "display": "Alterações nas fezesmov. intestinais"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S28",
-        "display": "Limitação funcionalincapacidade"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "D17",
-        "display": "Incontinncia fecal"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "S27",
-        "display": "Medo de outra doença da pele"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
@@ -4117,701 +4117,701 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D16",
-        "display": "Hemorragia retal"
+        "code": "L02",
+        "display": "Sinaissintomas da região dorsal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S26",
-        "display": "Medo de câncer de pele"
+        "code": "X21",
+        "display": "Sinaissintomas da mama feminina, outros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D15",
-        "display": "Melena"
+        "code": "L01",
+        "display": "Sinaissintomas do pescoço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D14",
-        "display": "Hematmesevómito sangue"
+        "code": "X20",
+        "display": "Sinaissintomas do mamilo da mulher"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S24",
-        "display": "Sinaissintomas do cabelocouro cabeludo"
+        "code": "K99",
+        "display": "Outras doenças do aparelho circulatório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D13",
-        "display": "Icterícia"
+        "code": "X19",
+        "display": "Tumor ou nódulo na mama feminina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S23",
-        "display": "Queda de cabelocalvície"
+        "code": "K96",
+        "display": "Hemorróidas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D12",
-        "display": "Obstipação"
+        "code": "X18",
+        "display": "Dor na mama feminina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S22",
-        "display": "Sinaissintomas das unhas"
+        "code": "K95",
+        "display": "Veias varicosas da perna"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S21",
-        "display": "Sinaissintomas da textura da pele"
+        "code": "X17",
+        "display": "Sinaissintomas da pélvis feminina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D11",
-        "display": "Diarreia"
+        "code": "K94",
+        "display": "Flebitetromboflebite"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S20",
-        "display": "Caloscalosidades"
+        "code": "X16",
+        "display": "Sinaissintomas da vulva"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D10",
-        "display": "Vomito"
+        "code": "K93",
+        "display": "Embolia pulmonar"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S19",
-        "display": "Outra lesão cutânea"
+        "code": "X15",
+        "display": "Sinaissintomas da vagina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D09",
-        "display": "Náusea"
+        "code": "K92",
+        "display": "Aterosclerosedoença vascular periférica"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S18",
-        "display": "Laceraçãocorte"
+        "code": "X14",
+        "display": "Secreção vaginal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D08",
-        "display": "Flatulncia gaseseructações"
+        "code": "K91",
+        "display": "Doença vascular cerebral"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S17",
-        "display": "Abrasãoarranhãobolhas"
+        "code": "X13",
+        "display": "Hemorragia pós-coital"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D07",
-        "display": "Dispepsiaindigestão"
+        "code": "K90",
+        "display": "Tromboseacidente vascular cerebral"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S16",
-        "display": "Traumatismocontusão"
+        "code": "X12",
+        "display": "Hemorragia pós-menopausa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D06",
-        "display": "Outras dores abdominais localizadas"
+        "code": "K89",
+        "display": "Isqumia acidente cerebral transitória(o)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S15",
-        "display": "Corpo estranho na pele"
+        "code": "X11",
+        "display": "Sinaissintomas da menopausa climatério"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D05",
-        "display": "Irritação perianal"
+        "code": "K88",
+        "display": "Hipotensão postural"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S14",
-        "display": "Queimaduraescaldão"
+        "code": "X10",
+        "display": "Desejo de alterar a data menstruação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D04",
-        "display": "Dor analretal"
+        "code": "K87",
+        "display": "Hipertensão com complicações"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S13",
-        "display": "Mordedura animalhumana"
+        "code": "X09",
+        "display": "Sinaissintomas pré-menstruais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D03",
-        "display": "Azia Queimação"
+        "code": "X08",
+        "display": "Hemorragia intermenstrual"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S12",
-        "display": "Picada ou mordedura de inseto"
+        "code": "K86",
+        "display": "Hipertensão sem complicações"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D02",
-        "display": "Dores abdominais, epigástricas"
+        "code": "X07",
+        "display": "Menstruação irregularfrequente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S11",
-        "display": "Infecção pós-traumática da pele"
+        "code": "K85",
+        "display": "Pressão arterial elevada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "D01",
-        "display": "Dor abdominal generalizadacólicas"
+        "code": "X06",
+        "display": "Menstruação excessiva"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S10",
-        "display": "Furúnculocarbúnculo"
+        "code": "K84",
+        "display": "Outras doenças cardíacas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B99",
-        "display": "Outra doença do sanguelinfáticosbaço"
+        "code": "X05",
+        "display": "Menstruação escassaausente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S09",
-        "display": "Infecção dos dedos das mãospés"
+        "code": "K83",
+        "display": "Doença valvular cardíaca NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B90",
-        "display": "Infecção por VIH HIVSIDA AIDS"
+        "code": "X04",
+        "display": "Relação sexual dolorosa na mulher"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S08",
-        "display": "Alterações da cor da pele"
+        "code": "K82",
+        "display": "Doença cardiopulmonar"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B87",
-        "display": "Esplenomegalia"
+        "code": "X03",
+        "display": "Dores intermenstruais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S07",
-        "display": "Erupção cutânea generalizada"
+        "code": "K81",
+        "display": "Sopro cardíacoarterial NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B84",
-        "display": "Glóbulos brancos anormais"
+        "code": "X02",
+        "display": "Dores menstruais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S06",
-        "display": "Erupção cutânea localizada"
+        "code": "K80",
+        "display": "Arritmia cardíaca NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B83",
-        "display": "Púrpuradefeitos de coagulação"
+        "code": "X01",
+        "display": "Dor genital"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S05",
-        "display": "Tumoresinchaços generalizados"
+        "code": "K79",
+        "display": "Taquicardia Paroxística"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B82",
-        "display": "Outras anemias NE"
+        "code": "W99",
+        "display": "Outros problemas da gravidezparto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S04",
-        "display": "Tumorinchaço localizado"
+        "code": "K78",
+        "display": "Fibrilaçãoflutter auricular atrial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B81",
-        "display": "Anemia perniciosadeficincia de folatos"
+        "code": "W96",
+        "display": "Outras complicações do puerpério"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S03",
-        "display": "Verrugas"
+        "code": "K77",
+        "display": "Insuficincia cardíaca"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B80",
-        "display": "Anemia por deficincia de ferro"
+        "code": "W95",
+        "display": "Outros problemas da mama durante gravidezpuerpério"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S02",
-        "display": "Prurido"
+        "code": "K76",
+        "display": "Doença cardíaca isquémica sem angina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B79",
-        "display": "Outra malformação congnita do sanguelinfática"
+        "code": "W94",
+        "display": "Mastite puerperal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "S01",
-        "display": "Dorsensibilidade dolorosa da pele"
+        "code": "K75",
+        "display": "Infarto ou Enfarte agudo miocárdio"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B78",
-        "display": "Anemia hemolítica hereditária"
+        "code": "W93",
+        "display": "Parto com complicações de natimorto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R99",
-        "display": "Outras doenças respiratórias"
+        "code": "K74",
+        "display": "Doença cardíaca isquémica com angina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R98",
-        "display": "Síndrome de hiperventilação"
+        "code": "W92",
+        "display": "Parto com complicações de nascido vivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B77",
-        "display": "Outras lesões traumáticas do sanguelinfabaço"
+        "code": "K73",
+        "display": "Malformações congnitas do aparelho circulatório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R97",
-        "display": "Rinite alérgica"
+        "code": "W91",
+        "display": "Parto sem complicações de natimorto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B76",
-        "display": "Rotura traumática do baço"
+        "code": "K72",
+        "display": "Neoplasia do aparelho circulatório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R96",
-        "display": "Asma"
+        "code": "W90",
+        "display": "Parto sem complicações de nascido vivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B75",
-        "display": "Neoplasia benigna NE"
+        "code": "K71",
+        "display": "Febre reumáticacardiopatia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R95",
-        "display": "Doença pulmonar obstrutiva crónica"
+        "code": "W85",
+        "display": "Diabetes gestacional"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B74",
-        "display": "Outra neoplasia maligna no sangue"
+        "code": "K70",
+        "display": "Doença infecciosa do aparelho circulatório"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R92",
-        "display": "Neoplasia respiratória NE"
+        "code": "W84",
+        "display": "Gravidez de alto risco"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B73",
-        "display": "Leucemia"
+        "code": "K29",
+        "display": "Outros sinaissintomas cardiovasculares"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R90",
-        "display": "Hipertrofia das amígdalasadenóides"
+        "code": "W83",
+        "display": "Aborto provocado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B72",
-        "display": "Doença de Hodgkinlinfomas"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R89",
-        "display": "Malformação congénita do aparelho respiratório"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "B71",
-        "display": "Linfadenite crónica NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R88",
-        "display": "Outra lesão respiratória"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "B70",
-        "display": "Linfadenite aguda"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R87",
-        "display": "Corpo estranho narizlaringebrônquios"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "B29",
-        "display": "Outros sinais sintomas do sangue sistema linfático baço NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R86",
-        "display": "Neoplasia benigna respiratória"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "B28",
+        "code": "K28",
         "display": "Limitação funcionalincapacidade"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R85",
-        "display": "Outra neoplasia respiratória maligna"
+        "code": "W82",
+        "display": "Aborto espontâneo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B27",
-        "display": "Medo de outras doenças do sangue vasos linfáticos"
+        "code": "K27",
+        "display": "Medo de outra doença cardiovascular"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R84",
-        "display": "Neoplasia maligna dos brônquiospulmão"
+        "code": "W81",
+        "display": "Toxemia gravídica DHEG"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B26",
-        "display": "Medo de câncer no sanguelinfático"
+        "code": "K25",
+        "display": "Medo de hipertensão"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R83",
-        "display": "Outra infecção respiratória"
+        "code": "W80",
+        "display": "Gravidez ectópica"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R82",
-        "display": "Pleuritederrame pleural"
+        "code": "K24",
+        "display": "Medo de doença cardíaca"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B25",
-        "display": "Medo de VIH HIVSIDA AIDS"
+        "code": "W79",
+        "display": "Gravidez não desejada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R81",
-        "display": "Pneumonia"
+        "code": "W78",
+        "display": "Gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B04",
-        "display": "Sinaissintomas sangue"
+        "code": "K22",
+        "display": "Fator de risco para doença cardiovascular"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R80",
-        "display": "Gripe"
+        "code": "W76",
+        "display": "Malformação congénita que complica a gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R79",
-        "display": "Bronquite crônica"
+        "code": "K07",
+        "display": "Tornozelos inchadosedema"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "B02",
-        "display": "Gânglio linfático aumentadodoloroso"
+        "code": "W75",
+        "display": "Lesões traumáticas que complicam a gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R78",
-        "display": "Bronquitebronquiolite aguda"
+        "code": "K06",
+        "display": "Veias proeminentes"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R77",
-        "display": "Laringitetraqueíte aguda"
+        "code": "K05",
+        "display": "Outras irregularidades dos batimentos cardíacos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R76",
-        "display": "Amigdalite aguda"
+        "code": "W73",
+        "display": "Neoplasia benignaincerta relacionada com a gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A98",
-        "display": "Medicina preventivamanutenção da saúde"
+        "code": "K04",
+        "display": "Palpitaçõespercepção dos batimentos cardíacos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R75",
-        "display": "Sinusite crónicaaguda"
+        "code": "W72",
+        "display": "Neoplasia maligna relacionada com gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A97",
-        "display": "Sem doença"
+        "code": "K03",
+        "display": "Dores atribuídas ao aparelho circulatório NE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R74",
-        "display": "Infecção aguda do aparelho respiratório superior (IVAS)"
+        "code": "W71",
+        "display": "Infecções que complicam a gravidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A96",
-        "display": "Morte"
+        "code": "K02",
+        "display": "Sensação de pressãoaperto atribuída ao coração"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R73",
-        "display": "Abcessofurúnculo no nariz"
+        "code": "W70",
+        "display": "Sepsisinfecção puerperal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A95",
-        "display": "Mortalidade perinatal"
+        "code": "K01",
+        "display": "Dor atribuída ao coração"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R72",
-        "display": "Infecção estreptocócica da orofaringe"
+        "code": "W29",
+        "display": "Sinaissintomas da gravidez, outros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "A94",
-        "display": "Morbidade perinatal, outra"
+        "code": "H99",
+        "display": "Outra doença do ouvidomastóide"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
       "version": "HEAD",
       "concept": [ {
-        "code": "R71",
-        "display": "Tosse convulsa pertussis"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R29",
-        "display": "Sinaissintomas do aparelho respiratório, outros"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "A92",
-        "display": "Alergiareação alérgica NE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "R28",
+        "code": "W28",
         "display": "Limitação funcionalincapacidade"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H86",
+        "display": "Surdez"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "W27",
+        "display": "Medo de complicações na gravidez"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H85",
+        "display": "Lesão acústica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "W21",
+        "display": "Preocupação com a imagem corporal na gravidez"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H84",
+        "display": "Presbiacusia"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "W19",
+        "display": "Sinaissintomas da mamalactação"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "W18",
+        "display": "Sinaissintomas pós-parto"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H83",
+        "display": "Otoesclerose"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "W17",
+        "display": "Hemorragia pós-parto"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H82",
+        "display": "Síndrome vertiginosa"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "H81",
+        "display": "Cerúmen no ouvido em excesso"
       } ]
     } ]
   }

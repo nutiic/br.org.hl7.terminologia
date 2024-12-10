@@ -13,112 +13,112 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "BR",
         "display": "Birth registry number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "RI",
         "display": "Resource identifier"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "RPH",
         "display": "Pharmacist license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "TAX",
         "display": "Tax ID number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "DDS",
         "display": "Dentist license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "MD",
         "display": "Medical License number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "IND",
         "display": "IndigenousAboriginal"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "BCT",
         "display": "Birth Certificate"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "DL",
         "display": "Driver's license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "SS",
         "display": "Social Security number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "RN",
         "display": "Registered Nurse Number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "PPN",
         "display": "Passport number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "MCT",
         "display": "Marriage Certificate"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "RRI",
         "display": "Regional registry ID"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "MI",
         "display": "Military ID number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "HC",
         "display": "Health Card Number"

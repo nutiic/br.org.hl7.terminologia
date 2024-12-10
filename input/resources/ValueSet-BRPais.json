@@ -15,6 +15,1406 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
       "version": "HEAD",
       "concept": [ {
+        "code": "218",
+        "display": "REPUBLICA CENTRO AFRICANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "46",
+        "display": "BELIZE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "355",
+        "display": "COREIA, REPUBLICA DA (COREIA DO SUL)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "359",
+        "display": "ILHAS DE GUERNSEY"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "213",
+        "display": "NIGERIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "45",
+        "display": "PORTUGAL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "210",
+        "display": "MOCAMBIQUE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "47",
+        "display": "ILHAS TURKS E CAICOS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "39",
+        "display": "ITALIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "204",
+        "display": "MALAWI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "205",
+        "display": "MADAGASCAR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "212",
+        "display": "REPUBLICA DO NIGER"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "43",
+        "display": "COREIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "211",
+        "display": "NGUANE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "40",
+        "display": "COMUNIDADE DAS BAHAMAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "203",
+        "display": "MADEIRA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "362",
+        "display": "MAYOTTE, ILHA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "209",
+        "display": "MAURITANIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "21",
+        "display": "ARGENTINA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "207",
+        "display": "MARROCOS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "361",
+        "display": "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "363",
+        "display": "QUIRIBATI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "199",
+        "display": "ILHAS CANARIAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "354",
+        "display": "DOMINICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "356",
+        "display": "CONGO, REPUBLICA DO (BRAZZAVILLE)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "214",
+        "display": "PAPUA NOVA GUINE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "215",
+        "display": "PRACAS NORTE AFRICANAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "357",
+        "display": "ANGUILLA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "208",
+        "display": "MAURICIO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "206",
+        "display": "MALI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "20",
+        "display": "RESERVADO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "200",
+        "display": "LESOTO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "44",
+        "display": "BARBADOS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "48",
+        "display": "RESERVADO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "42",
+        "display": "CHINA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "202",
+        "display": "LIBIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "37",
+        "display": "FRANCA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "217",
+        "display": "QUENIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "216",
+        "display": "PROTETOR DO SUDOESTE AFRICANO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "360",
+        "display": "ILHAS DE JERSEY"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "219",
+        "display": "REUNIAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "41",
+        "display": "JAPAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "38",
+        "display": "SUICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "358",
+        "display": "ILHAS CAYMAN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "201",
+        "display": "LIBERIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "50",
+        "display": "RESERVADO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "22",
+        "display": "BOLIVIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "236",
+        "display": "ZAIRE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "51",
+        "display": "COSTA RICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "52",
+        "display": "CUBA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "226",
+        "display": "SERRA LEOA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "58",
+        "display": "ILHAS FALKLANDS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "234",
+        "display": "TUNISIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "231",
+        "display": "TERRIT. BRITANICO DO OCEANO INDICO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "221",
+        "display": "RUANDA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "62",
+        "display": "REPUBLICA DO HAITI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "59",
+        "display": "GRANADA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "57",
+        "display": "ESTADOS ASSOC. DAS ANTILHAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "222",
+        "display": "SAARA ESPANHOL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "220",
+        "display": "RODESIA (ZIMBABWE)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "24",
+        "display": "PARAGUAI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "55",
+        "display": "REPUBLICA DOMINICANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "64",
+        "display": "HONDURAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "223",
+        "display": "SANTA HELENA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "227",
+        "display": "SOMALIA, REPUBLICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "230",
+        "display": "TANGANICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "228",
+        "display": "SUAZILANDIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "53",
+        "display": "CURACAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "60",
+        "display": "ILHAS GUADALUPE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "23",
+        "display": "CHILE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "56",
+        "display": "REPUBLICA DE EL SALVADOR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "225",
+        "display": "SEYCHELLES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "67",
+        "display": "ILHAS MALVINAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "54",
+        "display": "COMUNIDADE DOMINICANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "237",
+        "display": "ZAMBIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "61",
+        "display": "GUATEMALA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "229",
+        "display": "SUDAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "72",
+        "display": "PANAMA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "73",
+        "display": "PANAMA(ZONA DO CANAL)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "232",
+        "display": "TRANSKEI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "71",
+        "display": "NICARAGUA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "224",
+        "display": "SAO TOME E PRINCIPE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "241",
+        "display": "AFEGANISTAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "65",
+        "display": "ILHAS SERRANAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "76",
+        "display": "RONCADOR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "233",
+        "display": "TOGO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "69",
+        "display": "ILHA MILHOS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "243",
+        "display": "BAHREIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "238",
+        "display": "BURKINA FASSO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "242",
+        "display": "ARABIA SAUDITA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "63",
+        "display": "HONDURAS BRITANICAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "248",
+        "display": "CEILAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "78",
+        "display": "SAO CRISTOVAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "79",
+        "display": "SAO VICENTE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "239",
+        "display": "ZIMBABWE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "77",
+        "display": "SANTA LUCIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "75",
+        "display": "QUITASUENO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "244",
+        "display": "BIRMANIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "240",
+        "display": "NAMIBIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "68",
+        "display": "MARTINICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "148",
+        "display": "GEORGIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "328",
+        "display": "TERRITORIO DE COCOS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "322",
+        "display": "POLINESIA FRANCESA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "324",
+        "display": "SAMOA AMERICANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "325",
+        "display": "SAMOA OCIDENTAL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "329",
+        "display": "TIMOR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "170",
+        "display": "ABISSINIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "161",
+        "display": "TADJIQUISTAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "312",
+        "display": "KALIMATAN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "162",
+        "display": "TARTARIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "168",
+        "display": "UZBEQUISTAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "159",
+        "display": "OSSETIA SETENTRIONAL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "320",
+        "display": "ILHAS PASCOA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "323",
+        "display": "SABAH"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "154",
+        "display": "KOMI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "166",
+        "display": "UDMURT"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "167",
+        "display": "UNIAO SOVIETICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "165",
+        "display": "UCRANIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "316",
+        "display": "NOVA GUINE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "317",
+        "display": "NOVA ZELANDIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "153",
+        "display": "KHAKASS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "326",
+        "display": "ILHAS SANTA CRUZ"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "319",
+        "display": "TERRITORIO DE PAPUA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "147",
+        "display": "ESTONIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "311",
+        "display": "ILHAS WAKE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "164",
+        "display": "TUVIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "313",
+        "display": "ILHAS LINHA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "149",
+        "display": "GORNO ALTAI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "151",
+        "display": "KALMIR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "160",
+        "display": "QUIRGUISTAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "31",
+        "display": "BELGICA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "314",
+        "display": "NAURU"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "318",
+        "display": "ILHAS NOVAS HEBRIDAS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "32",
+        "display": "GRA-BRETANHA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "157",
+        "display": "MARI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "315",
+        "display": "ILHAS NOVA CALEDONIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "321",
+        "display": "ILHAS PITCAIRIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "158",
+        "display": "MOLDAVIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "152",
+        "display": "KARACHAEVOCHERKESS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "156",
+        "display": "LITUANIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "171",
+        "display": "ACORES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "150",
+        "display": "KABARDINO BALKAR"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "155",
+        "display": "LETONIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "310",
+        "display": "ILHAS TOKELAU"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "327",
+        "display": "SARAWAK"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "172",
+        "display": "AFAR FRANCES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "330",
+        "display": "TONGA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "331",
+        "display": "TUVALU"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "173",
+        "display": "REPUBLICA DA AFRICA DO SUL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "196",
+        "display": "GUINE EQUATORIAL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "174",
+        "display": "ALTA VOLTA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "35",
+        "display": "ESPANHA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "332",
+        "display": "ILHAS WALLIS E FUTUNA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "180",
+        "display": "BURUNDI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "350",
+        "display": "TANZANIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "347",
+        "display": "ARMENIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "195",
+        "display": "GUINE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "188",
+        "display": "DJIBUTI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "335",
+        "display": "TERR. ANTARTICO DA AUSTRALIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "175",
+        "display": "ANGOLA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "342",
+        "display": "BANGLADESH"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "193",
+        "display": "GANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "345",
+        "display": "IEMEN DO SUL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "176",
+        "display": "ARGELIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "183",
+        "display": "CHADE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "334",
+        "display": "ANTARTICA FRANCESA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "348",
+        "display": "RUSSIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "191",
+        "display": "REPUBLICA DO GABAO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "349",
+        "display": "SENEGAL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "337",
+        "display": "ANTARTICO ARGENTINO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "192",
+        "display": "GAMBIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "190",
+        "display": "ETIOPIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "346",
+        "display": "KARA KALPAK"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "189",
+        "display": "REPUBLICA ARABE DO EGITO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "341",
+        "display": "TERRAS AUSTRAIS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "194",
+        "display": "GAZA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "352",
+        "display": "REPÚBLICA DO SUDÃO DO SUL"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "181",
+        "display": "CAMAROES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "340",
+        "display": "DEPENDENCIA DE ROSS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "177",
+        "display": "BECHUANALANDIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "344",
+        "display": "GUINE BISSAU"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "182",
+        "display": "CEUTA E MELILLA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "186",
+        "display": "COSTA DO MARFIM"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "351",
+        "display": "MALAUI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "343",
+        "display": "CABO VERDE"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "187",
+        "display": "DAOME"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "34",
+        "display": "CANADA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "185",
+        "display": "CONGO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "178",
+        "display": "BENIN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "339",
+        "display": "APATRIDA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "179",
+        "display": "BOTSUANA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "184",
+        "display": "ILHAS COMORES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "338",
+        "display": "ANTARTICO NORUEGUES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "333",
+        "display": "ANTARTICO BRITANICO, TERRITORIO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "336",
+        "display": "ANTARTICO CHILENO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "197",
+        "display": "IFNI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "36",
+        "display": "ESTADOS UNIDOS DA AMERICA (EUA)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "49",
+        "display": "RESERVADO"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "353",
+        "display": "ERITREIA"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
+        "code": "198",
+        "display": "ASCENSAO E TRISTAO DA CUNHA,IS"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+      "version": "HEAD",
+      "concept": [ {
         "code": "74",
         "display": "PORTO RICO"
       } ]
@@ -1025,1406 +2425,6 @@
       "concept": [ {
         "code": "169",
         "display": "YAKUT"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "148",
-        "display": "GEORGIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "328",
-        "display": "TERRITORIO DE COCOS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "322",
-        "display": "POLINESIA FRANCESA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "324",
-        "display": "SAMOA AMERICANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "325",
-        "display": "SAMOA OCIDENTAL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "329",
-        "display": "TIMOR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "170",
-        "display": "ABISSINIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "161",
-        "display": "TADJIQUISTAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "312",
-        "display": "KALIMATAN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "162",
-        "display": "TARTARIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "168",
-        "display": "UZBEQUISTAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "159",
-        "display": "OSSETIA SETENTRIONAL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "320",
-        "display": "ILHAS PASCOA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "323",
-        "display": "SABAH"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "154",
-        "display": "KOMI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "166",
-        "display": "UDMURT"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "167",
-        "display": "UNIAO SOVIETICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "165",
-        "display": "UCRANIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "316",
-        "display": "NOVA GUINE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "317",
-        "display": "NOVA ZELANDIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "153",
-        "display": "KHAKASS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "326",
-        "display": "ILHAS SANTA CRUZ"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "319",
-        "display": "TERRITORIO DE PAPUA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "147",
-        "display": "ESTONIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "311",
-        "display": "ILHAS WAKE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "164",
-        "display": "TUVIN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "313",
-        "display": "ILHAS LINHA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "149",
-        "display": "GORNO ALTAI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "151",
-        "display": "KALMIR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "160",
-        "display": "QUIRGUISTAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "31",
-        "display": "BELGICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "314",
-        "display": "NAURU"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "318",
-        "display": "ILHAS NOVAS HEBRIDAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "32",
-        "display": "GRA-BRETANHA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "157",
-        "display": "MARI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "315",
-        "display": "ILHAS NOVA CALEDONIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "321",
-        "display": "ILHAS PITCAIRIN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "158",
-        "display": "MOLDAVIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "152",
-        "display": "KARACHAEVOCHERKESS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "156",
-        "display": "LITUANIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "171",
-        "display": "ACORES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "150",
-        "display": "KABARDINO BALKAR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "155",
-        "display": "LETONIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "310",
-        "display": "ILHAS TOKELAU"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "327",
-        "display": "SARAWAK"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "172",
-        "display": "AFAR FRANCES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "330",
-        "display": "TONGA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "331",
-        "display": "TUVALU"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "173",
-        "display": "REPUBLICA DA AFRICA DO SUL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "196",
-        "display": "GUINE EQUATORIAL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "174",
-        "display": "ALTA VOLTA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "35",
-        "display": "ESPANHA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "332",
-        "display": "ILHAS WALLIS E FUTUNA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "180",
-        "display": "BURUNDI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "350",
-        "display": "TANZANIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "347",
-        "display": "ARMENIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "195",
-        "display": "GUINE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "188",
-        "display": "DJIBUTI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "335",
-        "display": "TERR. ANTARTICO DA AUSTRALIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "175",
-        "display": "ANGOLA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "342",
-        "display": "BANGLADESH"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "193",
-        "display": "GANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "345",
-        "display": "IEMEN DO SUL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "176",
-        "display": "ARGELIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "183",
-        "display": "CHADE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "334",
-        "display": "ANTARTICA FRANCESA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "348",
-        "display": "RUSSIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "191",
-        "display": "REPUBLICA DO GABAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "349",
-        "display": "SENEGAL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "337",
-        "display": "ANTARTICO ARGENTINO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "192",
-        "display": "GAMBIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "190",
-        "display": "ETIOPIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "346",
-        "display": "KARA KALPAK"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "189",
-        "display": "REPUBLICA ARABE DO EGITO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "341",
-        "display": "TERRAS AUSTRAIS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "194",
-        "display": "GAZA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "352",
-        "display": "REPÚBLICA DO SUDÃO DO SUL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "181",
-        "display": "CAMAROES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "340",
-        "display": "DEPENDENCIA DE ROSS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "177",
-        "display": "BECHUANALANDIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "344",
-        "display": "GUINE BISSAU"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "182",
-        "display": "CEUTA E MELILLA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "186",
-        "display": "COSTA DO MARFIM"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "351",
-        "display": "MALAUI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "343",
-        "display": "CABO VERDE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "187",
-        "display": "DAOME"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "34",
-        "display": "CANADA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "185",
-        "display": "CONGO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "178",
-        "display": "BENIN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "339",
-        "display": "APATRIDA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "179",
-        "display": "BOTSUANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "184",
-        "display": "ILHAS COMORES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "338",
-        "display": "ANTARTICO NORUEGUES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "333",
-        "display": "ANTARTICO BRITANICO, TERRITORIO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "336",
-        "display": "ANTARTICO CHILENO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "197",
-        "display": "IFNI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "36",
-        "display": "ESTADOS UNIDOS DA AMERICA (EUA)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "49",
-        "display": "RESERVADO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "353",
-        "display": "ERITREIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "198",
-        "display": "ASCENSAO E TRISTAO DA CUNHA,IS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "218",
-        "display": "REPUBLICA CENTRO AFRICANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "46",
-        "display": "BELIZE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "355",
-        "display": "COREIA, REPUBLICA DA (COREIA DO SUL)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "359",
-        "display": "ILHAS DE GUERNSEY"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "213",
-        "display": "NIGERIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "45",
-        "display": "PORTUGAL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "210",
-        "display": "MOCAMBIQUE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "47",
-        "display": "ILHAS TURKS E CAICOS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "39",
-        "display": "ITALIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "204",
-        "display": "MALAWI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "205",
-        "display": "MADAGASCAR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "212",
-        "display": "REPUBLICA DO NIGER"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "43",
-        "display": "COREIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "211",
-        "display": "NGUANE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "40",
-        "display": "COMUNIDADE DAS BAHAMAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "203",
-        "display": "MADEIRA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "362",
-        "display": "MAYOTTE, ILHA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "209",
-        "display": "MAURITANIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "21",
-        "display": "ARGENTINA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "207",
-        "display": "MARROCOS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "361",
-        "display": "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "363",
-        "display": "QUIRIBATI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "199",
-        "display": "ILHAS CANARIAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "354",
-        "display": "DOMINICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "356",
-        "display": "CONGO, REPUBLICA DO (BRAZZAVILLE)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "214",
-        "display": "PAPUA NOVA GUINE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "215",
-        "display": "PRACAS NORTE AFRICANAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "357",
-        "display": "ANGUILLA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "208",
-        "display": "MAURICIO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "206",
-        "display": "MALI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "20",
-        "display": "RESERVADO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "200",
-        "display": "LESOTO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "44",
-        "display": "BARBADOS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "48",
-        "display": "RESERVADO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "42",
-        "display": "CHINA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "202",
-        "display": "LIBIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "37",
-        "display": "FRANCA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "217",
-        "display": "QUENIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "216",
-        "display": "PROTETOR DO SUDOESTE AFRICANO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "360",
-        "display": "ILHAS DE JERSEY"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "219",
-        "display": "REUNIAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "41",
-        "display": "JAPAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "38",
-        "display": "SUICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "358",
-        "display": "ILHAS CAYMAN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "201",
-        "display": "LIBERIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "50",
-        "display": "RESERVADO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "22",
-        "display": "BOLIVIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "236",
-        "display": "ZAIRE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "51",
-        "display": "COSTA RICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "52",
-        "display": "CUBA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "226",
-        "display": "SERRA LEOA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "58",
-        "display": "ILHAS FALKLANDS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "234",
-        "display": "TUNISIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "231",
-        "display": "TERRIT. BRITANICO DO OCEANO INDICO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "221",
-        "display": "RUANDA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "62",
-        "display": "REPUBLICA DO HAITI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "59",
-        "display": "GRANADA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "57",
-        "display": "ESTADOS ASSOC. DAS ANTILHAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "222",
-        "display": "SAARA ESPANHOL"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "220",
-        "display": "RODESIA (ZIMBABWE)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "24",
-        "display": "PARAGUAI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "55",
-        "display": "REPUBLICA DOMINICANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "64",
-        "display": "HONDURAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "223",
-        "display": "SANTA HELENA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "227",
-        "display": "SOMALIA, REPUBLICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "230",
-        "display": "TANGANICA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "228",
-        "display": "SUAZILANDIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "53",
-        "display": "CURACAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "60",
-        "display": "ILHAS GUADALUPE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "23",
-        "display": "CHILE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "56",
-        "display": "REPUBLICA DE EL SALVADOR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "225",
-        "display": "SEYCHELLES"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "67",
-        "display": "ILHAS MALVINAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "54",
-        "display": "COMUNIDADE DOMINICANA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "237",
-        "display": "ZAMBIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "61",
-        "display": "GUATEMALA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "229",
-        "display": "SUDAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "72",
-        "display": "PANAMA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "73",
-        "display": "PANAMA(ZONA DO CANAL)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "232",
-        "display": "TRANSKEI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "71",
-        "display": "NICARAGUA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "224",
-        "display": "SAO TOME E PRINCIPE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "241",
-        "display": "AFEGANISTAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "65",
-        "display": "ILHAS SERRANAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "76",
-        "display": "RONCADOR"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "233",
-        "display": "TOGO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "69",
-        "display": "ILHA MILHOS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "243",
-        "display": "BAHREIN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "238",
-        "display": "BURKINA FASSO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "242",
-        "display": "ARABIA SAUDITA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "63",
-        "display": "HONDURAS BRITANICAS"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "248",
-        "display": "CEILAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "78",
-        "display": "SAO CRISTOVAO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "79",
-        "display": "SAO VICENTE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "239",
-        "display": "ZIMBABWE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "77",
-        "display": "SANTA LUCIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "75",
-        "display": "QUITASUENO"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "244",
-        "display": "BIRMANIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "240",
-        "display": "NAMIBIA"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "68",
-        "display": "MARTINICA"
       } ]
     } ]
   }

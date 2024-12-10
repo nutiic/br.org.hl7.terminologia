@@ -13,49 +13,49 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "unknown",
         "display": "Desconhecido"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "inactive",
         "display": "Inativo"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "relapse",
         "display": "Recaída"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "recurrence",
         "display": "Recorrncia"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "resolved",
         "display": "Resolvido"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "remission",
         "display": "Remissão"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "active",
         "display": "Ativo"
