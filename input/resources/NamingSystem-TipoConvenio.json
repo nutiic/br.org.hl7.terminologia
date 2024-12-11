@@ -1,12 +1,16 @@
 {
   "resourceType": "NamingSystem",
-  "id": "CodeSystem-TipoConvenio",
+  "id": "TipoConvenio",
   "language": "pt",
-  "name": "CodeSystemTipoConvenio",
+  "name": "TipoConvenio",
   "status": "active",
   "kind": "codesystem",
   "description": "Tipo de Convênio",
   "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/TipoConvenio",
+    "preferred": false
+  }, {
     "type": "uri",
     "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
     "preferred": true

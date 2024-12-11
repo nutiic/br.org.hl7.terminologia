@@ -1,14 +1,18 @@
 {
   "resourceType": "NamingSystem",
-  "id": "CodeSystem-BRMotivoProcedimentoNaoRealizado",
+  "id": "BRMotivoProcedimentoNaoRealizado",
   "language": "pt",
-  "name": "CodeSystemBRMotivoProcedimentoNaoRealizado",
+  "name": "BRMotivoProcedimentoNaoRealizado",
   "status": "active",
   "kind": "codesystem",
   "description": "Motivo Procedimento não Realizado",
   "uniqueId": [ {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem//CodeSystem/BRMotivoProcedimentoNaoRealizado",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem//CodeSystem/BRMotivoProcedimentoNaoRealizado",
     "preferred": true
   } ]
 }

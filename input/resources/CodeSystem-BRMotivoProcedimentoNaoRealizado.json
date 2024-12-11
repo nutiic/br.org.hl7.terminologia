@@ -1,0 +1,37 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRMotivoProcedimentoNaoRealizado",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem//CodeSystem/BRMotivoProcedimentoNaoRealizado",
+  "version": "HEAD",
+  "name": "BRMotivoProcedimentoNaoRealizado",
+  "title": "Motivo Procedimento não Realizado",
+  "status": "active",
+  "experimental": false,
+  "description": "Motivo Procedimento não Realizado",
+  "caseSensitive": true,
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "03",
+    "display": "Procedimento não realizado"
+  }, {
+    "code": "04",
+    "display": "Procedimento não indicado"
+  }, {
+    "code": "01",
+    "display": "Procedimento contraindicado"
+  }, {
+    "code": "02",
+    "display": "Procedimento descontinuado"
+  }, {
+    "code": "08",
+    "display": "Procedimento não concluído"
+  }, {
+    "code": "06",
+    "display": "Procedimento não desejado"
+  }, {
+    "code": "05",
+    "display": "Procedimento não oferecido"
+  } ]
+}

@@ -10,7 +10,11 @@
   "description": "BRPovoItinerante",
   "uniqueId": [ {
     "type": "uri",
-    "value": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPovoItinerante",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
     "preferred": true
   } ]
 }

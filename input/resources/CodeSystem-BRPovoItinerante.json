@@ -2,7 +2,7 @@
   "resourceType": "CodeSystem",
   "id": "BRPovoItinerante",
   "language": "pt",
-  "url": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
   "version": "HEAD",
   "name": "BRPovoItinerante",
   "title": "BRPovoItinerante",
@@ -27,13 +27,13 @@
     "code": "5",
     "display": "Acampados"
   }, {
+    "code": "4",
+    "display": "Andarilhos"
+  }, {
     "code": "7",
     "display": "Trabalhadores de área adstrita"
   }, {
     "code": "3",
     "display": "Circenses"
-  }, {
-    "code": "4",
-    "display": "Andarilhos"
   } ]
 }
