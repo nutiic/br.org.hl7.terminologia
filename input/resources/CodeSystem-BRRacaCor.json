@@ -13,5 +13,24 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "03",
+    "display": "Parda"
+  }, {
+    "code": "01",
+    "display": "Branca"
+  }, {
+    "code": "02",
+    "display": "Preta"
+  }, {
+    "code": "05",
+    "display": "Indígena"
+  }, {
+    "code": "04",
+    "display": "Amarela"
+  }, {
+    "code": "99",
+    "display": "Sem informação"
+  } ]
 }

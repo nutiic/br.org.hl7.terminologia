@@ -12,5 +12,21 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "PARTICULAR"
+  }, {
+    "code": "01",
+    "display": "SUS"
+  }, {
+    "code": "06",
+    "display": "PLANO DE SAUDE PRIVADO"
+  }, {
+    "code": "07",
+    "display": "GRATUIDADE"
+  }, {
+    "code": "05",
+    "display": "PLANO DE SAUDE PUBLICO"
+  } ]
 }

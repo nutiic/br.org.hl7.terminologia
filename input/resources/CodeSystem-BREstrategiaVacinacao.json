@@ -13,5 +13,45 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "11",
+    "display": "Pré-exposição"
+  }, {
+    "code": "6",
+    "display": "Campanha seletiva"
+  }, {
+    "code": "7",
+    "display": "Soroterapia"
+  }, {
+    "code": "4",
+    "display": "Intensificação"
+  }, {
+    "code": "1",
+    "display": "Rotina"
+  }, {
+    "code": "5",
+    "display": "Campanha indiscriminada"
+  }, {
+    "code": "10",
+    "display": "Pesquisa"
+  }, {
+    "code": "13",
+    "display": "Reexposição"
+  }, {
+    "code": "12",
+    "display": "Pós-exposição"
+  }, {
+    "code": "8",
+    "display": "Serviço Privado"
+  }, {
+    "code": "2",
+    "display": "Especial"
+  }, {
+    "code": "9",
+    "display": "Monitoramento rápido de cobertura vacinal"
+  }, {
+    "code": "3",
+    "display": "Bloqueio"
+  } ]
 }

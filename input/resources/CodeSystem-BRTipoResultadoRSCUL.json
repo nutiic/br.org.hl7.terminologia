@@ -12,5 +12,15 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Não houve crescimento"
+  }, {
+    "code": "2",
+    "display": "Houve crescimento"
+  }, {
+    "code": "3",
+    "display": "Inconclusivo"
+  } ]
 }

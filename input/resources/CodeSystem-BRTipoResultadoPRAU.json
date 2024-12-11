@@ -12,5 +12,15 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Presença"
+  }, {
+    "code": "2",
+    "display": "Ausncia"
+  }, {
+    "code": "3",
+    "display": "Inconclusivo"
+  } ]
 }

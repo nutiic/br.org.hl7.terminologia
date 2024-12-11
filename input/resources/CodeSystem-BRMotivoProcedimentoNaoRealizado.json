@@ -11,5 +11,27 @@
   "description": "Motivo Procedimento não Realizado",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "08",
+    "display": "Procedimento não concluído"
+  }, {
+    "code": "05",
+    "display": "Procedimento não oferecido"
+  }, {
+    "code": "03",
+    "display": "Procedimento não realizado"
+  }, {
+    "code": "04",
+    "display": "Procedimento não indicado"
+  }, {
+    "code": "01",
+    "display": "Procedimento contraindicado"
+  }, {
+    "code": "02",
+    "display": "Procedimento descontinuado"
+  }, {
+    "code": "06",
+    "display": "Procedimento não desejado"
+  } ]
 }

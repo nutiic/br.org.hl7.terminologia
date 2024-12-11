@@ -11,5 +11,18 @@
   "description": "Desfecho Procedimento",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "Piora Clínica"
+  }, {
+    "code": "01",
+    "display": "Melhora Clínica"
+  }, {
+    "code": "03",
+    "display": "Estabilidade Clínica"
+  }, {
+    "code": "04",
+    "display": "Óbito"
+  } ]
 }

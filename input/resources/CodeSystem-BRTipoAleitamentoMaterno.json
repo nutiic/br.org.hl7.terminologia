@@ -12,5 +12,21 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "03",
+    "display": "Aleitamento materno"
+  }, {
+    "code": "01",
+    "display": "Aleitamento materno  exclusivo"
+  }, {
+    "code": "02",
+    "display": "Aleitamento materno predominante"
+  }, {
+    "code": "04",
+    "display": "Aleitamento materno complementado"
+  }, {
+    "code": "05",
+    "display": "Aleitamento materno misto ou parcial"
+  } ]
 }

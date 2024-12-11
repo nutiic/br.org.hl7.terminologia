@@ -12,5 +12,15 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Positivo"
+  }, {
+    "code": "2",
+    "display": "Negativo"
+  }, {
+    "code": "3",
+    "display": "Inconclusivo"
+  } ]
 }

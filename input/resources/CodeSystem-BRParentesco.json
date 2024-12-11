@@ -13,5 +13,12 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "mother",
+    "display": "Mãe"
+  }, {
+    "code": "father",
+    "display": "Pai"
+  } ]
 }

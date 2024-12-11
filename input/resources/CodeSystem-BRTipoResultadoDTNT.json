@@ -12,5 +12,15 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "2",
+    "display": "Não Detectável"
+  }, {
+    "code": "1",
+    "display": "Detectável"
+  }, {
+    "code": "3",
+    "display": "Indeterminado"
+  } ]
 }

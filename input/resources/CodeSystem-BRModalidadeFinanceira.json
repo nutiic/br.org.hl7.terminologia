@@ -12,5 +12,12 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "02",
+    "display": "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
+  }, {
+    "code": "01",
+    "display": "Unidade de saúde pública ou privada, com pagamento pelo SUS"
+  } ]
 }

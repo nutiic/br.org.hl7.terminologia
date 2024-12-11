@@ -12,5 +12,90 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "XVIII",
+    "display": "Pescadores artesanais"
+  }, {
+    "code": "V",
+    "display": "Castanheiras"
+  }, {
+    "code": "XVII",
+    "display": "Pantaneiros"
+  }, {
+    "code": "IX",
+    "display": "Comunidades de fundo e fecho de pasto"
+  }, {
+    "code": "VI",
+    "display": "Catadores de mangaba"
+  }, {
+    "code": "XX",
+    "display": "Povos indígenas"
+  }, {
+    "code": "XXI",
+    "display": "Povos quilombolas"
+  }, {
+    "code": "II",
+    "display": "Agroextrativistas"
+  }, {
+    "code": "XV",
+    "display": "Morroquianos"
+  }, {
+    "code": "I",
+    "display": "Andirobeiras"
+  }, {
+    "code": "XIX",
+    "display": "Pomeranos"
+  }, {
+    "code": "XVI",
+    "display": "Marisqueiros"
+  }, {
+    "code": "III",
+    "display": "Caatingueiros"
+  }, {
+    "code": "IV",
+    "display": "Caiçaras"
+  }, {
+    "code": "X",
+    "display": "Extrativistas"
+  }, {
+    "code": "XXIV",
+    "display": "Retireiros"
+  }, {
+    "code": "XXV",
+    "display": "Ribeirinhos"
+  }, {
+    "code": "VII",
+    "display": "Cerrado"
+  }, {
+    "code": "XXII",
+    "display": "Povos de terreiromatriz africana"
+  }, {
+    "code": "XXIII",
+    "display": "Quebradeiras de coco babaçu"
+  }, {
+    "code": "VIII",
+    "display": "Ciganos"
+  }, {
+    "code": "XXVIII",
+    "display": "Varjeiros"
+  }, {
+    "code": "XIII",
+    "display": "Jangadeiros"
+  }, {
+    "code": "XIV",
+    "display": "Isqueiros"
+  }, {
+    "code": "XII",
+    "display": "Geraizeiros"
+  }, {
+    "code": "XXVII",
+    "display": "Vazanteiros"
+  }, {
+    "code": "XXVI",
+    "display": "Seringueiros"
+  }, {
+    "code": "XI",
+    "display": "Faxinalenses"
+  } ]
 }

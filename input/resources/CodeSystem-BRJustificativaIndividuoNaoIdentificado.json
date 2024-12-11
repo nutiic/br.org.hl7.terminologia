@@ -12,5 +12,24 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "5",
+    "display": "Indivíduo doador de órgãos falecido"
+  }, {
+    "code": "1",
+    "display": "Indivíduo acidentado grave"
+  }, {
+    "code": "4",
+    "display": "Indivíduo incapacitado por motivos sociais eou culturais"
+  }, {
+    "code": "3",
+    "display": "Indivíduo com problema neurológico grave ou comatoso"
+  }, {
+    "code": "2",
+    "display": "Indivíduo em sofrimento mental encontrado em via pública"
+  }, {
+    "code": "99",
+    "display": "Sem registro no modelo de informação de origem"
+  } ]
 }

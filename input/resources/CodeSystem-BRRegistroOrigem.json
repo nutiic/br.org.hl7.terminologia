@@ -12,5 +12,12 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Previous vaccination record"
+  }, {
+    "code": "2",
+    "display": "Vaccination abroad"
+  } ]
 }

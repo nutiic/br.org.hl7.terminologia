@@ -11,5 +11,33 @@
   "description": "Tipo de Observação",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete"
+  "content": "complete",
+  "concept": [ {
+    "code": "CA",
+    "display": "Circunferncia Abdominal"
+  }, {
+    "code": "PC",
+    "display": "Perímetro Cefálico"
+  }, {
+    "code": "A",
+    "display": "Altura"
+  }, {
+    "code": "P",
+    "display": "Peso"
+  }, {
+    "code": "PA",
+    "display": "Pressão Arterial"
+  }, {
+    "code": "DSIA",
+    "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+  }, {
+    "code": "DF",
+    "display": "Dados do desfecho"
+  }, {
+    "code": "IAC",
+    "display": "Informações AdicionaisComplementares"
+  }, {
+    "code": "RECIDI",
+    "display": "Resumo da evolução clínica do indivíduo durante a internação"
+  } ]
 }
