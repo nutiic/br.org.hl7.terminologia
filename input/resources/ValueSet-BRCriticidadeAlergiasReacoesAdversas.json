@@ -22,15 +22,15 @@
       "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
       "version": "*",
       "concept": [ {
-        "code": "low",
-        "display": "Baixa"
+        "code": "unable-to-assess",
+        "display": "Não foi possível determinar o risco"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
       "version": "*",
       "concept": [ {
-        "code": "unable-to-assess",
-        "display": "Não foi possível determinar o risco"
+        "code": "low",
+        "display": "Baixa"
       } ]
     } ]
   }

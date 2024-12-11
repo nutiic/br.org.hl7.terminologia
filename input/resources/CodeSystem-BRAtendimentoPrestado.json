@@ -12,27 +12,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "06",
-    "display": "VIGILANCIA EM SAUDE"
-  }, {
-    "code": "02",
-    "display": "AMBULATORIAL"
-  }, {
-    "code": "01",
-    "display": "INTERNACAO"
-  }, {
-    "code": "05",
-    "display": "OUTROS"
-  }, {
-    "code": "03",
-    "display": "SADT"
-  }, {
-    "code": "07",
-    "display": "REGULACAO"
-  }, {
-    "code": "04",
-    "display": "URGENCIA"
-  } ]
+  "content": "complete"
 }

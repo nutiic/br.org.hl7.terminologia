@@ -22,13 +22,6 @@
       "system": "http://hl7.org/fhir/administrative-gender",
       "version": "*",
       "concept": [ {
-        "code": "other",
-        "display": "Outros"
-      } ]
-    }, {
-      "system": "http://hl7.org/fhir/administrative-gender",
-      "version": "*",
-      "concept": [ {
         "code": "male",
         "display": "Masculino"
       } ]
@@ -38,6 +31,13 @@
       "concept": [ {
         "code": "female",
         "display": "Feminino"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "version": "*",
+      "concept": [ {
+        "code": "other",
+        "display": "Outros"
       } ]
     } ]
   }

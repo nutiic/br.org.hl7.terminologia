@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCategoriaDiagnostico",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "02",
         "display": "Secundário"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCategoriaDiagnostico",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "01",
         "display": "Principal"

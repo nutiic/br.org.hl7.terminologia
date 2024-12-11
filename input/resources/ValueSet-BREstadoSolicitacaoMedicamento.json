@@ -22,13 +22,6 @@
       "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
       "version": "*",
       "concept": [ {
-        "code": "active",
-        "display": "Active"
-      } ]
-    }, {
-      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
-      "version": "*",
-      "concept": [ {
         "code": "cancelled",
         "display": "Cancelled"
       } ]
@@ -59,6 +52,13 @@
       "concept": [ {
         "code": "draft",
         "display": "Draft"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "version": "*",
+      "concept": [ {
+        "code": "active",
+        "display": "Active"
       } ]
     } ]
   }

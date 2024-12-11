@@ -12,12 +12,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "01",
-    "display": "Principal"
-  }, {
-    "code": "02",
-    "display": "Secundário"
-  } ]
+  "content": "complete"
 }

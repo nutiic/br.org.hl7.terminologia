@@ -12,15 +12,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "1",
-    "display": "Reagente"
-  }, {
-    "code": "2",
-    "display": "Não Reagente"
-  }, {
-    "code": "3",
-    "display": "Indeterminado"
-  } ]
+  "content": "complete"
 }

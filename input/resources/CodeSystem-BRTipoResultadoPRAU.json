@@ -12,15 +12,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "1",
-    "display": "Presença"
-  }, {
-    "code": "2",
-    "display": "Ausência"
-  }, {
-    "code": "3",
-    "display": "Inconclusivo"
-  } ]
+  "content": "complete"
 }

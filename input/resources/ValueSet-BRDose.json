@@ -13,577 +13,577 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "23",
-        "display": "Tratamento com treze doses"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "60",
         "display": "Profilaxia com 2 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "22",
         "display": "Tratamento com doze doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "2",
         "display": "2 Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "57",
         "display": "Dose Zero"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "6",
         "display": "1 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "20",
         "display": "Tratamento com dez doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "21",
         "display": "Tratamento com onze doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "59",
         "display": "Profilaxia com 1 frasco-ampolaampola"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "19",
         "display": "Tratamento com nove doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "18",
         "display": "Tratamento com oito doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "17",
         "display": "Tratamento com sete doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "16",
         "display": "Tratamento com seis doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "52",
         "display": "4 Dose Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "15",
         "display": "Tratamento com cinco doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "51",
         "display": "3 Dose Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "14",
         "display": "Tratamento com quatro doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "49",
         "display": "1 Dose Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "12",
         "display": "Tratamento com duas doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "11",
         "display": "Tratamento com uma dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "48",
         "display": "5 Dose Fracionada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "10",
         "display": "Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "47",
         "display": "4 Dose Fracionada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "1",
         "display": "1 Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "50",
         "display": "2 Dose Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "13",
         "display": "Tratamento com trs doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "5",
         "display": "5 Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "35",
         "display": "4 Dose Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "71",
         "display": "Profilaxia com 13 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "34",
         "display": "3 Dose Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "70",
         "display": "Profilaxia com 12 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "7",
         "display": "2 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "33",
         "display": "2 Dose Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "32",
         "display": "1 Dose Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "31",
         "display": "Tratamento com vinte e quatro doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "28",
         "display": "Tratamento com dezoito doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "68",
         "display": "Profilaxia com 10 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "69",
         "display": "Profilaxia com 11 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "66",
         "display": "Profilaxia com 8 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "3",
         "display": "3 Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "30",
         "display": "Tratamento com vinte doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "65",
         "display": "Profilaxia com 7 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "67",
         "display": "Profilaxia com 9 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "29",
         "display": "Tratamento com dezenove doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "64",
         "display": "Profilaxia com 6 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "27",
         "display": "Tratamento com dezessete doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "63",
         "display": "Profilaxia com 5 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "26",
         "display": "Tratamento com dezesseis doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "25",
         "display": "Tratamento com quinze doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "62",
         "display": "Profilaxia com 4 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "61",
         "display": "Profilaxia com 3 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "24",
         "display": "Tratamento com quartorze doses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "75",
         "display": "Profilaxia com 17 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "38",
         "display": "Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "37",
         "display": "Dose Adicional"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "74",
         "display": "Profilaxia com 16 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "36",
         "display": "Dose Inicial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "73",
         "display": "Profilaxia com 15 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "72",
         "display": "Profilaxia com 14 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "39",
         "display": "3 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "76",
         "display": "Profilaxia com 18 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "4",
         "display": "4 Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "77",
         "display": "Profilaxia com 19 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "40",
         "display": "4 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "78",
         "display": "Profilaxia com 20 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "41",
         "display": "5 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "79",
         "display": "Profilaxia com 21 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "42",
         "display": "6 Reforço"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "8",
         "display": "Dose"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "43",
         "display": "5 Dose Revacinação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "80",
         "display": "Profilaxia com 22 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "44",
         "display": "1 Dose Fracionada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "81",
         "display": "Profilaxia com 23 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "45",
         "display": "2 Dose Fracionada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "82",
         "display": "Profilaxia com 24 frascos-ampolasampolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "46",
         "display": "3 Dose Fracionada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "9",
         "display": "Única"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "58",
         "display": "Reforço Zero"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "56",
         "display": "4 Dose Revacinação Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "55",
         "display": "3 Dose Revacinação Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "54",
         "display": "2 Dose Revacinação Dobrada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "53",
         "display": "1 Dose Revacinação Dobrada"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
+      "version": "*",
+      "concept": [ {
+        "code": "23",
+        "display": "Tratamento com treze doses"
       } ]
     } ]
   }

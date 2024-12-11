@@ -11,12 +11,5 @@
   "description": "ElegibilidadeImunobiologico",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete",
-  "concept": [ {
-    "code": "CNI-S",
-    "display": "Pertence ao CNI"
-  }, {
-    "code": "CNI-N",
-    "display": "Não pertence ao CNI"
-  } ]
+  "content": "complete"
 }

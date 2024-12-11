@@ -13,38 +13,38 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "05",
         "display": "Aleitamento materno misto ou parcial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "04",
-        "display": "Aleitamento materno complementado"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "03",
         "display": "Aleitamento materno"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "02",
         "display": "Aleitamento materno predominante"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "01",
         "display": "Aleitamento materno  exclusivo"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+      "version": "*",
+      "concept": [ {
+        "code": "04",
+        "display": "Aleitamento materno complementado"
       } ]
     } ]
   }

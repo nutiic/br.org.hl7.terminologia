@@ -13,27 +13,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "2",
-    "display": "Ciganos"
-  }, {
-    "code": "6",
-    "display": "Assentados"
-  }, {
-    "code": "1",
-    "display": "Situação de rua"
-  }, {
-    "code": "5",
-    "display": "Acampados"
-  }, {
-    "code": "4",
-    "display": "Andarilhos"
-  }, {
-    "code": "7",
-    "display": "Trabalhadores de área adstrita"
-  }, {
-    "code": "3",
-    "display": "Circenses"
-  } ]
+  "content": "complete"
 }

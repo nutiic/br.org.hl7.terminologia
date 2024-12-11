@@ -22,13 +22,6 @@
       "system": "http://loinc.org",
       "version": "*",
       "concept": [ {
-        "code": "39156-5",
-        "display": "Body mass index"
-      } ]
-    }, {
-      "system": "http://loinc.org",
-      "version": "*",
-      "concept": [ {
         "code": "8867-4",
         "display": "Heart rate"
       } ]
@@ -87,6 +80,13 @@
       "concept": [ {
         "code": "8480-6",
         "display": "Intravascular systolic"
+      } ]
+    }, {
+      "system": "http://loinc.org",
+      "version": "*",
+      "concept": [ {
+        "code": "39156-5",
+        "display": "Body mass index"
       } ]
     } ]
   }

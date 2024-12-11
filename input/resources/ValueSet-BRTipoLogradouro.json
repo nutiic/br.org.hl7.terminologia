@@ -13,14 +13,7 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "081",
-        "display": "Rua"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "008",
         "display": "Avenida"

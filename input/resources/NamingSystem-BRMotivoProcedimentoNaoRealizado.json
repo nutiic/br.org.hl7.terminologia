@@ -8,11 +8,11 @@
   "description": "Motivo Procedimento não Realizado",
   "uniqueId": [ {
     "type": "uri",
-    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem//CodeSystem/BRMotivoProcedimentoNaoRealizado",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoProcedimentoNaoRealizado",
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem//CodeSystem/BRMotivoProcedimentoNaoRealizado",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
     "preferred": true
   } ]
 }

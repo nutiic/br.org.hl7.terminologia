@@ -13,31 +13,31 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "ESR",
-        "display": "Estabelecimento de saúde regulador"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "ESE",
         "display": "Estabelecimento de saúde executante"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "ESS",
         "display": "Estabelecimento de saúde solicitante"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "PCT",
         "display": "Paciente"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+      "version": "*",
+      "concept": [ {
+        "code": "ESR",
+        "display": "Estabelecimento de saúde regulador"
       } ]
     } ]
   }

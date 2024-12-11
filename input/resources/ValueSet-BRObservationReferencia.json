@@ -22,15 +22,15 @@
       "system": "http://snomed.info/sct",
       "version": "*",
       "concept": [ {
-        "code": "248153007",
-        "display": "Male (finding)"
+        "code": "248152002",
+        "display": "Female (finding)"
       } ]
     }, {
       "system": "http://snomed.info/sct",
       "version": "*",
       "concept": [ {
-        "code": "248152002",
-        "display": "Female (finding)"
+        "code": "248153007",
+        "display": "Male (finding)"
       } ]
     } ]
   }

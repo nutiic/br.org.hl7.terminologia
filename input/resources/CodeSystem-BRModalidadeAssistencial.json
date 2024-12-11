@@ -11,33 +11,5 @@
   "description": "Modalidade Assistencial",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete",
-  "concept": [ {
-    "code": "03",
-    "display": "Atenção Intermediária"
-  }, {
-    "code": "02",
-    "display": "Atenção Domiciliar"
-  }, {
-    "code": "04",
-    "display": "Atenção Hospitalar"
-  }, {
-    "code": "09",
-    "display": "Assistência Ambulatorial"
-  }, {
-    "code": "08",
-    "display": "Assistência Farmacêutica"
-  }, {
-    "code": "06",
-    "display": "Atenção à UrgênciaEmergência"
-  }, {
-    "code": "07",
-    "display": "Ambulatorial Especializada"
-  }, {
-    "code": "01",
-    "display": "Atenção Básica"
-  }, {
-    "code": "05",
-    "display": "Atenção Psicossocial"
-  } ]
+  "content": "complete"
 }

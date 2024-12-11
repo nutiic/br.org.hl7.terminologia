@@ -12,21 +12,5 @@
   "description": "Posição do Indivíduo",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete",
-  "concept": [ {
-    "code": "2",
-    "display": "Sentado"
-  }, {
-    "code": "4",
-    "display": "Deitado"
-  }, {
-    "code": "1",
-    "display": "Em pé"
-  }, {
-    "code": "3",
-    "display": "Reclinado"
-  }, {
-    "code": "5",
-    "display": "Deitado com inclinação para esquerda"
-  } ]
+  "content": "complete"
 }

@@ -13,31 +13,31 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "04",
         "display": "Óbito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "03",
-        "display": "Estabilidade Clínica"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "02",
         "display": "Piora Clínica"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "01",
         "display": "Melhora Clínica"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
+      "version": "*",
+      "concept": [ {
+        "code": "03",
+        "display": "Estabilidade Clínica"
       } ]
     } ]
   }

@@ -13,17 +13,17 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "CNI-N",
-        "display": "Não pertence ao CNI"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "CNI-S",
         "display": "Pertence ao CNI"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+      "version": "*",
+      "concept": [ {
+        "code": "CNI-N",
+        "display": "Não pertence ao CNI"
       } ]
     } ]
   }

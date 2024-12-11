@@ -13,17 +13,17 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "no-known-medications",
-        "display": "Sem medicamentos conhecidos."
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "no-medication-info",
         "display": "Sem informação sobre medicamentos."
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+      "version": "*",
+      "concept": [ {
+        "code": "no-known-medications",
+        "display": "Sem medicamentos conhecidos."
       } ]
     } ]
   }

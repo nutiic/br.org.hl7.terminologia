@@ -13,15 +13,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "1",
-    "display": "Nenhuma"
-  }, {
-    "code": "2",
-    "display": "Gestante"
-  }, {
-    "code": "3",
-    "display": "Puérpera"
-  } ]
+  "content": "complete"
 }

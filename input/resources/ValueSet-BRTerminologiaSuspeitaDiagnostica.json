@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "B34.2",
         "display": "Infecção por coronavírus de localização não especificada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "B04",
         "display": "Varíola dos macacos [Monkeypox]"

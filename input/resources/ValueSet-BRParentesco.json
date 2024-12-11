@@ -14,14 +14,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "father",
         "display": "Pai"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "mother",
         "display": "Mãe"

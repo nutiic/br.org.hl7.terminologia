@@ -12,36 +12,5 @@
   "description": "Local de Aferição",
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
-  "content": "complete",
-  "concept": [ {
-    "code": "2",
-    "display": "Braço esquerdo"
-  }, {
-    "code": "7",
-    "display": "Tornozelo direito"
-  }, {
-    "code": "10",
-    "display": "Dedo do pé"
-  }, {
-    "code": "5",
-    "display": "Pulso direito"
-  }, {
-    "code": "1",
-    "display": "Braço direito"
-  }, {
-    "code": "8",
-    "display": "Tornozelo esquerdo"
-  }, {
-    "code": "3",
-    "display": "Coxa direita"
-  }, {
-    "code": "6",
-    "display": "Pulso esquerdo"
-  }, {
-    "code": "4",
-    "display": "Coxa esquerda"
-  }, {
-    "code": "9",
-    "display": "Dedo da mão"
-  } ]
+  "content": "complete"
 }

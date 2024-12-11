@@ -15,15 +15,15 @@
       "system": "http://hl7.org/fhir/observation-status",
       "version": "*",
       "concept": [ {
-        "code": "entered-in-error",
-        "display": "Entered in Error"
+        "code": "final",
+        "display": "Final"
       } ]
     }, {
       "system": "http://hl7.org/fhir/observation-status",
       "version": "*",
       "concept": [ {
-        "code": "final",
-        "display": "Final"
+        "code": "entered-in-error",
+        "display": "Entered in Error"
       } ]
     } ]
   }

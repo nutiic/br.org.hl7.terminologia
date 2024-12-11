@@ -22,13 +22,6 @@
       "system": "http://loinc.org",
       "version": "*",
       "concept": [ {
-        "code": "8650-4",
-        "display": "Hospital discharge disposition"
-      } ]
-    }, {
-      "system": "http://loinc.org",
-      "version": "*",
-      "concept": [ {
         "code": "8648-8",
         "display": "Hospital course"
       } ]
@@ -47,64 +40,64 @@
         "display": "History general"
       } ]
     }, {
+      "system": "http://loinc.org",
+      "version": "*",
+      "concept": [ {
+        "code": "8650-4",
+        "display": "Hospital discharge disposition"
+      } ]
+    }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "IAC",
         "display": "Informações AdicionaisComplementares"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "RECIDI",
-        "display": "Resumo da evolução clínica do indivíduo durante a internação"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "DSIA",
         "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "DF",
         "display": "Dados do desfecho"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "PC",
         "display": "Perímetro Cefálico"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "CA",
         "display": "Circunferncia Abdominal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "PA",
         "display": "Pressão Arterial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "P",
         "display": "Peso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "HEAD",
+      "version": "*",
       "concept": [ {
         "code": "A",
         "display": "Altura"
@@ -206,6 +199,13 @@
       "concept": [ {
         "code": "18842-5",
         "display": "Discharge summary note"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
+      "version": "*",
+      "concept": [ {
+        "code": "RECIDI",
+        "display": "Resumo da evolução clínica do indivíduo durante a internação"
       } ]
     } ]
   }

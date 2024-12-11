@@ -12,18 +12,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "ESS",
-    "display": "Estabelecimento de saúde solicitante"
-  }, {
-    "code": "PCT",
-    "display": "Paciente"
-  }, {
-    "code": "ESE",
-    "display": "Estabelecimento de saúde executante"
-  }, {
-    "code": "ESR",
-    "display": "Estabelecimento de saúde regulador"
-  } ]
+  "content": "complete"
 }

@@ -13,12 +13,5 @@
   "caseSensitive": true,
   "hierarchyMeaning": "is-a",
   "versionNeeded": true,
-  "content": "complete",
-  "concept": [ {
-    "code": "008",
-    "display": "Avenida"
-  }, {
-    "code": "081",
-    "display": "Rua"
-  } ]
+  "content": "complete"
 }

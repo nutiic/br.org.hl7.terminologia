@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "BRPovoItinerante",
   "language": "pt",
-  "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPovoItinerante",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPovoItinerante",
   "version": "HEAD",
   "name": "BRPovoItinerante",
   "title": "BRPovoItinerante",
@@ -13,53 +13,53 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
-      "concept": [ {
-        "code": "4",
-        "display": "Andarilhos"
-      } ]
-    }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "7",
         "display": "Trabalhadores de área adstrita"
       } ]
     }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "3",
         "display": "Circenses"
       } ]
     }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "6",
         "display": "Assentados"
       } ]
     }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "2",
         "display": "Ciganos"
       } ]
     }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "5",
         "display": "Acampados"
       } ]
     }, {
-      "system": "URL: https://saude.gov.br/fhir/terminologia/BRPovoItinerante",
-      "version": "HEAD",
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
       "concept": [ {
         "code": "1",
         "display": "Situação de rua"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "version": "*",
+      "concept": [ {
+        "code": "4",
+        "display": "Andarilhos"
       } ]
     } ]
   }
