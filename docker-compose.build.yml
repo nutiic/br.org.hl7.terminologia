@@ -25,4 +25,4 @@ services:
                  echo clonando ig-registry...;                
                  git clone https://github.com/FHIR/ig-registry.git /app/ig-registry;
                  echo Iniciando IG-Publisher...;                
-                 java -Xms8g -Xmx16g -Dfile.encoding=UTF-8 -jar /app/input-cache/publisher.jar -ig /app" 
+                 java -Xms16g -Xmx24g -Dfile.encoding=UTF-8 -jar /app/input-cache/publisher.jar -ig /app" 
