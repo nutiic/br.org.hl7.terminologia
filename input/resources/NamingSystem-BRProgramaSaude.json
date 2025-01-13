@@ -1,0 +1,14 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRProgramaSaude",
+  "language": "pt",
+  "name": "BRProgramaSaude",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Programa de Saúde",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+    "preferred": true
+  } ]
+}

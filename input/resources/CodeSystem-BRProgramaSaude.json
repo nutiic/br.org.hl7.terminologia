@@ -1,0 +1,244 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRProgramaSaude",
+  "language": "pt",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+  "version": "HEAD",
+  "name": "BRProgramaSaude",
+  "title": "Programa de Saúde",
+  "status": "active",
+  "experimental": false,
+  "description": "Programa de Saúde",
+  "caseSensitive": true,
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "concept": [ {
+    "code": "1",
+    "display": "Hanseníase"
+  }, {
+    "code": "1001",
+    "display": "Insulino-Dependente- DM I"
+  }, {
+    "code": "7",
+    "display": "Saúde Mental"
+  }, {
+    "code": "6",
+    "display": "Saúde da Mulher"
+  }, {
+    "code": "683",
+    "display": "Lúpus Eritematoso Sistmico"
+  }, {
+    "code": "561",
+    "display": "Sem dor"
+  }, {
+    "code": "521",
+    "display": "Urgncia e Emergncia"
+  }, {
+    "code": "1221",
+    "display": "Micoses Sistmicas"
+  }, {
+    "code": "941",
+    "display": "Malária"
+  }, {
+    "code": "1241",
+    "display": "Micoses Sistmicas"
+  }, {
+    "code": "1101",
+    "display": "Dengue"
+  }, {
+    "code": "701",
+    "display": "Antimicrobianos"
+  }, {
+    "code": "661",
+    "display": "Lúpus Eritematoso Sistmico"
+  }, {
+    "code": "1021",
+    "display": "Insulino-Dependente- DM II"
+  }, {
+    "code": "481",
+    "display": "Assistncia Social"
+  }, {
+    "code": "1141",
+    "display": "Imunização"
+  }, {
+    "code": "581",
+    "display": "Suplementação de Ferro"
+  }, {
+    "code": "923",
+    "display": "Infecções Oportunistas"
+  }, {
+    "code": "1161",
+    "display": "Toxoplasmose"
+  }, {
+    "code": "881",
+    "display": "Edemias Focais"
+  }, {
+    "code": "441",
+    "display": "UPA"
+  }, {
+    "code": "662",
+    "display": "Insumos"
+  }, {
+    "code": "1321",
+    "display": "DPOC"
+  }, {
+    "code": "3",
+    "display": "DSTAIDS"
+  }, {
+    "code": "461",
+    "display": "Cólera"
+  }, {
+    "code": "1381",
+    "display": "SESAI"
+  }, {
+    "code": "341",
+    "display": "Assistncia Farmacutica Básica"
+  }, {
+    "code": "1102",
+    "display": "Esquitossomose"
+  }, {
+    "code": "882",
+    "display": "Epidemias"
+  }, {
+    "code": "5",
+    "display": "Hipertensão"
+  }, {
+    "code": "762",
+    "display": "Alzheimer"
+  }, {
+    "code": "961",
+    "display": "Estratégico"
+  }, {
+    "code": "601",
+    "display": "Estratégicos - Estado"
+  }, {
+    "code": "766",
+    "display": "Fraldas"
+  }, {
+    "code": "261",
+    "display": "Tuberculose"
+  }, {
+    "code": "621",
+    "display": "Ação Civil Pública"
+  }, {
+    "code": "981",
+    "display": "Alimentação e Nutrição"
+  }, {
+    "code": "8",
+    "display": "Hospitalar"
+  }, {
+    "code": "501",
+    "display": "Estratégicos"
+  }, {
+    "code": "641",
+    "display": "Infecções Oportunistas DSTAIDS"
+  }, {
+    "code": "801",
+    "display": "Doença Enxerto Hospedeiro"
+  }, {
+    "code": "763",
+    "display": "Oncologia"
+  }, {
+    "code": "381",
+    "display": "Saúde da Criança"
+  }, {
+    "code": "861",
+    "display": "Saúde Prisional"
+  }, {
+    "code": "1361",
+    "display": "Calamidade Pública"
+  }, {
+    "code": "1341",
+    "display": "DPOC"
+  }, {
+    "code": "361",
+    "display": "Assitncia Farmacutica"
+  }, {
+    "code": "421",
+    "display": "Especializado"
+  }, {
+    "code": "901",
+    "display": "Tracoma"
+  }, {
+    "code": "1421",
+    "display": "Órteses e Prósteses"
+  }, {
+    "code": "922",
+    "display": "Influenza"
+  }, {
+    "code": "902",
+    "display": "Leishmaniose"
+  }, {
+    "code": "721",
+    "display": "Mieloma Múltiplo"
+  }, {
+    "code": "764",
+    "display": "Diversos"
+  }, {
+    "code": "4",
+    "display": "Judicialização"
+  }, {
+    "code": "903",
+    "display": "Meningite"
+  }, {
+    "code": "1401",
+    "display": "Multidroga Resistente"
+  }, {
+    "code": "401",
+    "display": "SAMU"
+  }, {
+    "code": "1261",
+    "display": "Peste"
+  }, {
+    "code": "1281",
+    "display": "Assitncia Farmacutica SESAI"
+  }, {
+    "code": "765",
+    "display": "Administrativos"
+  }, {
+    "code": "767",
+    "display": "Suplementos Alimentares"
+  }, {
+    "code": "1301",
+    "display": "Assistncia Farmacutica SESAI"
+  }, {
+    "code": "781",
+    "display": "Atenção Secundária"
+  }, {
+    "code": "682",
+    "display": "Infecções Oportunistas DSTAIDS"
+  }, {
+    "code": "1181",
+    "display": "Remédio em Casa"
+  }, {
+    "code": "2",
+    "display": "Diabetes"
+  }, {
+    "code": "681",
+    "display": "Suplementos Alimentares"
+  }, {
+    "code": "1202",
+    "display": "Coagulopatias"
+  }, {
+    "code": "761",
+    "display": "DPOC"
+  }, {
+    "code": "281",
+    "display": "Tabagismo"
+  }, {
+    "code": "1121",
+    "display": "Nutrição"
+  }, {
+    "code": "1201",
+    "display": "Filariose"
+  }, {
+    "code": "1081",
+    "display": "Cólera"
+  }, {
+    "code": "921",
+    "display": "Chagas"
+  }, {
+    "code": "541",
+    "display": "Glaucoma"
+  } ]
+}
