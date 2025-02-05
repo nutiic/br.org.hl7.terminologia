@@ -14,91 +14,91 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Bloqueio"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "9",
         "display": "Monitoramento rápido de cobertura vacinal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "13",
         "display": "Reexposição"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8",
         "display": "Serviço Privado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "12",
         "display": "Pós-exposição"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "7",
         "display": "Soroterapia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11",
         "display": "Pré-exposição"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "6",
         "display": "Campanha seletiva"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "10",
         "display": "Pesquisa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "5",
         "display": "Campanha indiscriminada"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "4",
         "display": "Intensificação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Rotina"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Especial"

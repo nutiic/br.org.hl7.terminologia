@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "routine",
         "display": "Routine"
       } ]
     }, {
       "system": "http://hl7.org/fhir/request-priority",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "urgent",
         "display": "Urgent"

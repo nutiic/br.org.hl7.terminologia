@@ -13,49 +13,49 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "03",
         "display": "SADT"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "07",
         "display": "REGULACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "02",
         "display": "AMBULATORIAL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "06",
         "display": "VIGILANCIA EM SAUDE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "05",
         "display": "OUTROS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "01",
         "display": "INTERNACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "04",
         "display": "URGENCIA"

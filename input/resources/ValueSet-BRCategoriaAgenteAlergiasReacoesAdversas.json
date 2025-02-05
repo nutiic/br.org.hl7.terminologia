@@ -13,35 +13,35 @@
   "compose": {
     "include": [ {
       "system": "http://hl7.org/fhir/allergy-intolerance-category",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "biologic",
         "display": "Biológico"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-category",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "environment",
         "display": "Ambiente"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-category",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "food",
         "display": "Alimento"
       } ]
     }, {
       "system": "http://hl7.org/fhir/allergy-intolerance-category",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "medication",
         "display": "Medicamento"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "OTH",
         "display": "other"
