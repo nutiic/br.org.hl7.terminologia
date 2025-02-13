@@ -13,196 +13,196 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXVIII",
         "display": "Varjeiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XIII",
         "display": "Jangadeiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXVII",
         "display": "Vazanteiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XIV",
         "display": "Isqueiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XII",
         "display": "Geraizeiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XI",
         "display": "Faxinalenses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXVI",
         "display": "Seringueiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXV",
         "display": "Ribeirinhos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "X",
         "display": "Extrativistas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXIV",
         "display": "Retireiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "VIII",
         "display": "Ciganos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXIII",
         "display": "Quebradeiras de coco babaçu"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "VII",
         "display": "Cerrado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXII",
         "display": "Povos de terreiromatriz africana"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XXI",
         "display": "Povos quilombolas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "VI",
         "display": "Catadores de mangaba"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XX",
         "display": "Povos indígenas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XVIII",
         "display": "Pescadores artesanais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "IX",
         "display": "Comunidades de fundo e fecho de pasto"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XVII",
         "display": "Pantaneiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "IV",
         "display": "Caiçaras"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XVI",
         "display": "Marisqueiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "III",
         "display": "Caatingueiros"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XV",
         "display": "Morroquianos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "V",
         "display": "Castanheiras"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "II",
         "display": "Agroextrativistas"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "XIX",
         "display": "Pomeranos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "I",
         "display": "Andirobeiras"

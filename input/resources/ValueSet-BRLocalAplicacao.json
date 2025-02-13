@@ -13,168 +13,168 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "99",
         "display": "Outro"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "0",
         "display": "Sem registro no sistema de informação de origem"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "10",
         "display": "Dorso Glúteo Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "16",
         "display": "Rede Venosa"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "9",
         "display": "Boca"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "18",
         "display": "Face Anterolateral Externa da Coxa Esquerda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "22",
         "display": "Face Anterolateral Externa do Antebraço Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "15",
         "display": "Face Externa Superior do Braço Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8",
         "display": "Ferimento Local"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "17",
         "display": "Face Anterolateral Externa da Coxa Direita"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "19",
         "display": "Face Anterolateral Externa do Braço Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "6",
         "display": "Ventroglúteo Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Deltóide Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "4",
         "display": "Vasto Lateral da Coxa Esquerda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Deltóide Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "5",
         "display": "Ventroglúteo Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11",
         "display": "Dorso Glúteo Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "14",
         "display": "Face Externa Superior do Braço Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "12",
         "display": "Face Externa Inferior do Braço Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "13",
         "display": "Face Externa Inferior do Braço Esquerdo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Vasto Lateral da Coxa Direita"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "7",
         "display": "Glúteo (descontinuado)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "21",
         "display": "Face Anterolateral Externa do Antebraço Direito"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "20",
         "display": "Face Anterolateral Externa do Braço Esquerdo"

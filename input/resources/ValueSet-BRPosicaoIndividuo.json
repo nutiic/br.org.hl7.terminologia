@@ -13,35 +13,35 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Reclinado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Sentado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Em pé"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "4",
         "display": "Deitado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "5",
         "display": "Deitado com inclinação para esquerda"

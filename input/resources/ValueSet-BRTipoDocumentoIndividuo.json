@@ -13,301 +13,301 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "RI",
         "display": "Resource identifier"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "RPH",
         "display": "Pharmacist license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "TAX",
         "display": "Tax ID number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "DDS",
         "display": "Dentist license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "MD",
         "display": "Medical License number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "IND",
         "display": "IndigenousAboriginal"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BCT",
         "display": "Birth Certificate"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "DL",
         "display": "Driver's license number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "SS",
         "display": "Social Security number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "RN",
         "display": "Registered Nurse Number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "PPN",
         "display": "Passport number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "MCT",
         "display": "Marriage Certificate"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "RRI",
         "display": "Regional registry ID"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "MI",
         "display": "Military ID number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "HC",
         "display": "Health Card Number"
       } ]
     }, {
       "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BR",
         "display": "Birth registry number"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACREA",
         "display": "Número de inscrição no Conselho Regional de Engenharia e Agronomia (CREA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRAOAB",
         "display": "Número de inscrição na Ordem dos Advogados do BRAasil (OAB)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRECI",
         "display": "Número de inscrição no Conselho Regional de Corretores de Imóveis (CRECI)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRC",
         "display": "Número de inscrição no Conselho Regional de Contabilidade (CRC)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRAIDFUNC",
         "display": "Número da Identidade Funcional"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRBM",
         "display": "Número da inscrição no Conselho Regional de Biomedicina (CRBM)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRAIDMIL",
         "display": "Número da Identidade Militar"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRTR",
         "display": "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRBIO",
         "display": "Número de inscrição no Conselho Regional de Biologia (CRBio)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRT",
         "display": "Número da inscrição no Conselho Regional dos Técnicos Industriais (CRT)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRQ",
         "display": "Número de inscrição no Conselho Regional de Química (CRQ)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRB",
         "display": "Número de inscrição no Conselho Regional de Biblioteconomia (CRB)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRA",
         "display": "Número de inscrição no Conselho Regional de Administração (CRA)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACORECON",
         "display": "Número de inscrição no Conselho Regional de Economia (CORECON)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRP",
         "display": "Número de inscrição no Conselho Regional de Psicologia (CRP)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRN",
         "display": "Número de inscrição no Conselho Regional de Nutrição (CRN)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACORE",
         "display": "Número de inscrição no Conselho Regional de Representantes Comerciais (CORE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRMV",
         "display": "Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRFA",
         "display": "Número da inscrição no Conselho Regional de Fonoaudiologia (CRFaCREFONO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACONRERP",
         "display": "Número de inscrição no Conselho Regional de Reçações Públicas (CONRERP)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACONFRE",
         "display": "Número de inscrição no Conselho Regional de Estatística (CONRE)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACNPJ",
         "display": "Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRESS",
         "display": "Número de inscrição no Conselho Regional de Serviço Social (CRESS)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACRF",
         "display": "Número de inscrição no Conselho Regional de Farmácia (CRF)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACREFITO",
         "display": "Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACAU",
         "display": "Número de inscrição no Conselho Regional de Arquitetura e Urbanismo (CAU)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "BRACREF",
         "display": "Número de inscrição no Conselho Regional de Educação Física (CREF)"

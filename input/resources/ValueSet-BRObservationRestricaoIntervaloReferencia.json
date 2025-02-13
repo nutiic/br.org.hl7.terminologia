@@ -13,56 +13,56 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "05",
         "display": "Indígena"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "03",
         "display": "Parda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "02",
         "display": "Preta"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "01",
         "display": "Branca"
       } ]
     }, {
       "system": "http://snomed.info/sct",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "77386006",
         "display": "Pregnancy (finding)"
       } ]
     }, {
       "system": "http://snomed.info/sct",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "248153007",
         "display": "Male (finding)"
       } ]
     }, {
       "system": "http://snomed.info/sct",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "248152002",
         "display": "Female (finding)"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "04",
         "display": "Amarela"

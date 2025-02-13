@@ -13,168 +13,168 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Inconclusivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Negativo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Indeterminado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Baixa Avidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Alta Avidez"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Inconclusivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Compatível"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Não Compatível"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Inconclusivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Presença"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Ausncia"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Indeterminado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Reagente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Não Reagente"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Foram visualizados"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Inconclusivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Não Foram visualizados"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Indeterminado"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Não Detectável"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Positivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Detectável"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Detectável"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Inconclusivo"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Não Detectável"

@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "09",
         "display": "Assistncia Ambulatorial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "04",
         "display": "Atenção Hospitalar"

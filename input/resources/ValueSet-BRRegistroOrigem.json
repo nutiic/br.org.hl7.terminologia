@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Registro anteriorTranscrição de caderneta"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Vacina no Exterior"

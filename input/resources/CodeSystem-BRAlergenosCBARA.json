@@ -461,7 +461,7 @@
     "code": "veneno-vespa",
     "display": "Veneno de vespa",
     "property": [ {
-      "code": "category",
+      "code": "categoria",
       "valueString": "environment"
     } ]
   }, {

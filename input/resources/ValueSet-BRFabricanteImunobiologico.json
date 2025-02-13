@@ -405,175 +405,175 @@
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28425",
         "display": "BIOGENESIS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "152",
         "display": "BUTANTAN"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28303",
         "display": "PANACEA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "151",
         "display": "F.A.P."
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28290",
         "display": "PFIZER-BELGICA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "150",
         "display": "FUNED"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28289",
         "display": "GLAXO-BIO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "149",
         "display": "FIOCRUZ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28283",
         "display": "VINS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "142",
         "display": "PFIZER"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28251",
         "display": "SANMEDLEY"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "141",
         "display": "IVB"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28211",
         "display": "KAMADA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "13688",
         "display": "SHANTHA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "27883",
         "display": "MERCK-RJ"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "13219",
         "display": "BIOGENESIS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "27880",
         "display": "GSK-BRASIL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "12572",
         "display": "KEDRION"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "27816",
         "display": "EUBIOLOGI"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "12551",
         "display": "GRIFOLS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2769",
         "display": "BERNA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11347",
         "display": "VIRBAC"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "26513",
         "display": "BEHRING"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "10534",
         "display": "CRUCELL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "9406",
         "display": "HALEXISTAR"

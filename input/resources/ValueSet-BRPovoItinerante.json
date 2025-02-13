@@ -14,49 +14,49 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "7",
         "display": "Trabalhadores de área adstrita"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Circenses"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "6",
         "display": "Assentados"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Ciganos"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "5",
         "display": "Acampados"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Situação de rua"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "4",
         "display": "Andarilhos"

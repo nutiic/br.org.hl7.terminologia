@@ -13,35 +13,35 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "05",
         "display": "PLANO DE SAUDE PUBLICO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "02",
         "display": "PARTICULAR"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "06",
         "display": "PLANO DE SAUDE PRIVADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "01",
         "display": "SUS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "07",
         "display": "GRATUIDADE"

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRRegistroOrigem",
-  "language": "por",
+  "language": "pt",
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
   "version": "HEAD",
   "name": "BRRegistroOrigem",

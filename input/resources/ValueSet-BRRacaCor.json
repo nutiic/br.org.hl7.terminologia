@@ -14,42 +14,42 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "99",
         "display": "Sem informação"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "04",
         "display": "Amarela"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "03",
         "display": "Parda"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "02",
         "display": "Preta"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "01",
         "display": "Branca"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "05",
         "display": "Indígena"

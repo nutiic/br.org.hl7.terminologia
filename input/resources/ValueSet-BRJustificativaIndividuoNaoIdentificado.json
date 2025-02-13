@@ -13,42 +13,42 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "99",
         "display": "Sem registro no modelo de informação de origem"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "2",
         "display": "Indivíduo em sofrimento mental encontrado em via pública"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "5",
         "display": "Indivíduo doador de órgãos falecido"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "4",
         "display": "Indivíduo incapacitado por motivos sociais eou culturais"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "1",
         "display": "Indivíduo acidentado grave"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "3",
         "display": "Indivíduo com problema neurológico grave ou comatoso"

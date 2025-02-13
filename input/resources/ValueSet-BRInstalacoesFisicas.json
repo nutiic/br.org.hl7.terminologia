@@ -13,301 +13,301 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "21",
         "display": "SALA REPOUSOOBSERVACAO - PEDIATRICA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "43",
         "display": "BRINQUEDOTECA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "20",
         "display": "SALA REPOUSOOBSERVACAO - MASCULINO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "42",
         "display": "SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "19",
         "display": "SALA REPOUSOOBSERVACAO - FEMININO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "41",
         "display": "SALA DE ATENDIMENTO A PACIENTE CRITICOSALA DE ESTABILIZACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "18",
         "display": "OUTROS CONSULTORIOS NAO MEDICOS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "40",
         "display": "LEITOS DE ALOJAMENTO CONJUNTO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "17",
         "display": "CLINICAS INDIFERENCIADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "39",
         "display": "LEITOS RN PATOLOGICO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "16",
         "display": "CLINICAS ESPECIALIZADAS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "38",
         "display": "LEITOS RN NORMAL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "15",
         "display": "CLINICAS BASICAS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "37",
         "display": "SALA DE CIRURGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "14",
         "display": "CONSULTORIOS MEDICOS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "36",
         "display": "SALA DE CURETAGEM"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "13",
         "display": "SALA PEQUENA CIRURGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "35",
         "display": "SALA DE PARTO NORMAL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "12",
         "display": "SALA DE CURATIVO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "34",
         "display": "SALA DE PREPARTO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11",
         "display": "SALA DE GESSO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "33",
         "display": "SALA DE CIRURGIA AMBULATORIAL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "10",
         "display": "SALA DE HIGIENIZACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "32",
         "display": "SALA DE RECUPERACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "09",
         "display": "ODONTOLOGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "31",
         "display": "SALA DE CIRURGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "08",
         "display": "SALA REPOUSOOBSERVACAO - INDIFERENCIADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "30",
         "display": "SALA DE CIRURGIA AMBULATORIAL"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "07",
         "display": "SALA REPOUSOOBSERVACAO - MASCULINO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "29",
         "display": "SALA DE CURATIVO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "06",
         "display": "SALA REPOUSOOBSERVACAO - FEMININO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "28",
         "display": "SALA DE GESSO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "05",
         "display": "SALA REPOUSOOBSERVACAO - PEDIATRICA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "27",
         "display": "SALA DE NEBULIZACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "04",
         "display": "SALA DE ATENDIMENTO INDIFERENCIADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "26",
         "display": "SALA DE IMUNIZACAO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "03",
         "display": "SALA DE ATENDIMENTO MASCULINO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "25",
         "display": "SALA DE ENFERMAGEM - SERVICOS"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "02",
         "display": "SALA DE ATENDIMENTO FEMININO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "24",
         "display": "SALA DE PEQUENA CIRURGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "23",
         "display": "ODONTOLOGIA"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "01",
         "display": "SALA DE ATENDIMENTO PEDIATRICO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "22",
         "display": "SALA DE REPOUSOOBSERVACAO - INDIFERENCIADO"

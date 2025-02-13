@@ -13,7 +13,7 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "AUTH",
         "display": "Código de Autorização"

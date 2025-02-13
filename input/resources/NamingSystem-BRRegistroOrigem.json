@@ -1,7 +1,7 @@
 {
   "resourceType": "NamingSystem",
   "id": "BRRegistroOrigem",
-  "language": "por",
+  "language": "pt",
   "name": "BRRegistroOrigem",
   "status": "active",
   "kind": "codesystem",

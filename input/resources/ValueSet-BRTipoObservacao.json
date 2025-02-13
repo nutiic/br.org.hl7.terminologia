@@ -13,196 +13,196 @@
   "compose": {
     "include": [ {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8652-0",
         "display": "Hospital discharge history"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8648-8",
         "display": "Hospital course"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "46696-1",
         "display": "Additional comments"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11329-0",
         "display": "History general"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8650-4",
         "display": "Hospital discharge disposition"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "IAC",
         "display": "Informações AdicionaisComplementares"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "DSIA",
         "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "DF",
         "display": "Dados do desfecho"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "PC",
         "display": "Perímetro Cefálico"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "CA",
         "display": "Circunferncia Abdominal"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "PA",
         "display": "Pressão Arterial"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "P",
         "display": "Peso"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "A",
         "display": "Altura"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "9843-4",
         "display": "Circumference.occipital-frontal"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8665-2",
         "display": "Date last menstrual period"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8480-6",
         "display": "Intravascular systolic"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8462-4",
         "display": "Intravascular diastolic"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8302-2",
         "display": "Body height"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "8280-0",
         "display": "Circumference.at umbilicus"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "63895-7",
         "display": "Breastfeeding status"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "48767-8",
         "display": "Annotation comment"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "56832-9",
         "display": "Substance abused"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "29463-7",
         "display": "Body weight"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11996-6",
         "display": "Pregnancies"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11885-1",
         "display": "Gestational age"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "11612-9",
         "display": "Abortions"
       } ]
     }, {
       "system": "http://loinc.org",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "18842-5",
         "display": "Discharge summary note"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "RECIDI",
         "display": "Resumo da evolução clínica do indivíduo durante a internação"

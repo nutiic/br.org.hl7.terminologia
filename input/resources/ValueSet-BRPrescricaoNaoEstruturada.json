@@ -13,14 +13,14 @@
   "compose": {
     "include": [ {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "no-medication-info",
         "display": "Sem informação sobre medicamentos."
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-      "version": "*",
+      "version": "1.0.0",
       "concept": [ {
         "code": "no-known-medications",
         "display": "Sem medicamentos conhecidos."
