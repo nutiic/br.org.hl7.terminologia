@@ -330,13 +330,6 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
       "version": "1.0.0",
       "concept": [ {
-        "code": "BRACRFA",
-        "display": "Número da inscrição no Conselho Regional de Fonoaudiologia (CRFaCREFONO)"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
-      "version": "1.0.0",
-      "concept": [ {
         "code": "BRACONFRE",
         "display": "Número de inscrição no Conselho Regional de Estatística (CONRE)"
       } ]
