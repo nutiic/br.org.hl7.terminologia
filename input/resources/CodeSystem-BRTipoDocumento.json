@@ -13,31 +13,34 @@
   "hierarchyMeaning": "is-a",
   "content": "complete",
   "concept": [ {
-    "code": "RIA",
-    "display": "Registro de Imunobiológico Administrado"
-  }, {
     "code": "RPM",
     "display": "Registro de Prescrição de Medicamento"
-  }, {
-    "code": "SA",
-    "display": "Sumário de Alta"
   }, {
     "code": "CMD",
     "display": "Conjunto Mínimo de Dados"
   }, {
-    "code": "RAC",
-    "display": "Registro de Atendimento Clínico"
-  }, {
     "code": "REL",
     "display": "Resultado de Exame(s) Laboratoriais(s)"
-  }, {
-    "code": "RDM",
-    "display": "Registro de Dispensação de Medicamento"
   }, {
     "code": "ATM",
     "display": "Atestado MédicoOdontológico"
   }, {
+    "code": "RIA",
+    "display": "Registro de Imunobiológico Administrado"
+  }, {
+    "code": "SA",
+    "display": "Sumário de Alta"
+  }, {
+    "code": "RAC",
+    "display": "Registro de Atendimento Clínico"
+  }, {
     "code": "RIRA",
     "display": "Regulação Assistencial"
+  }, {
+    "code": "RA",
+    "display": "Regulação Assistencial"
+  }, {
+    "code": "RDM",
+    "display": "Registro de Dispensação de Medicamento"
   } ]
 }
