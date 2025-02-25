@@ -23,6 +23,13 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
       "version": "1.0.0",
       "concept": [ {
+        "code": "134",
+        "display": "SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
+      "version": "1.0.0",
+      "concept": [ {
         "code": "133",
         "display": "SERVICO DE PNEUMOLOGIA"
       } ]
@@ -501,13 +508,6 @@
       "concept": [ {
         "code": "111",
         "display": "SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
-      "version": "1.0.0",
-      "concept": [ {
-        "code": "134",
-        "display": "SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES"
       } ]
     } ]
   }

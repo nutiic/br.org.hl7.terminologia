@@ -15,6 +15,13 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
+        "code": "67",
+        "display": "LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
+      "version": "1.0.0",
+      "concept": [ {
         "code": "64",
         "display": "CENTRAL DE REGULACAO DE SERVICOS DE SAUDE"
       } ]
@@ -29,13 +36,6 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "67",
-        "display": "LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN"
-      } ]
-    }, {
-      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
-      "version": "1.0.0",
-      "concept": [ {
         "code": "84",
         "display": "CENTRAL DE ABASTECIMENTO"
       } ]
@@ -43,15 +43,15 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "61",
-        "display": "CENTRO DE PARTO NORMAL - ISOLADO"
+        "code": "62",
+        "display": "HOSPITALDIA - ISOLADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "62",
-        "display": "HOSPITALDIA - ISOLADO"
+        "code": "61",
+        "display": "CENTRO DE PARTO NORMAL - ISOLADO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
@@ -169,6 +169,13 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
+        "code": "39",
+        "display": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)"
+      } ]
+    }, {
+      "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
+      "version": "1.0.0",
+      "concept": [ {
         "code": "74",
         "display": "POLO ACADEMIA DA SAUDE"
       } ]
@@ -176,15 +183,15 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "73",
-        "display": "PRONTO ATENDIMENTO"
+        "code": "36",
+        "display": "CLINICACENTRO DE ESPECIALIDADE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "36",
-        "display": "CLINICACENTRO DE ESPECIALIDADE"
+        "code": "73",
+        "display": "PRONTO ATENDIMENTO"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
@@ -267,15 +274,15 @@
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "1",
-        "display": "POSTO DE SAUDE"
+        "code": "68",
+        "display": "CENTRAL DE GESTAO EM SAUDE"
       } ]
     }, {
       "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
       "version": "1.0.0",
       "concept": [ {
-        "code": "68",
-        "display": "CENTRAL DE GESTAO EM SAUDE"
+        "code": "1",
+        "display": "POSTO DE SAUDE"
       } ]
     } ]
   }
