@@ -1,0 +1,1713 @@
+{
+    "resourceType": "Bundle",
+    "id": "ac92a468-7ea1-4ea9-b92f-018fc7ee5d8d",
+    "meta": {
+        "lastUpdated": "2025-07-17T17:41:17.920+00:00"
+    },
+    "type": "collection",
+    "total": 74,
+    "entry": [
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRLocalAfericao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRLocalAfericao",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:40:41.865+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRLocalAfericao</b></p><p>Title: BRLocalAfericao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
+                "version": "HEAD",
+                "name": "BRLocalAfericao",
+                "title": "BRLocalAfericao",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRModalidadeAssistencial",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRModalidadeAssistencial",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:40:29.893+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRModalidadeAssistencial</b></p><p>Title: BRModalidadeAssistencial</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+                "version": "HEAD",
+                "name": "BRModalidadeAssistencial",
+                "title": "BRModalidadeAssistencial",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRPais",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRPais",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:40:14.633+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPais</b></p><p>Title: BRPais</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+                "version": "HEAD",
+                "name": "BRPais",
+                "title": "BRPais",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoObservacao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoObservacao",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:40:00.008+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoObservacao</b></p><p>Title: BRTipoObservacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
+                "version": "HEAD",
+                "name": "BRTipoObservacao",
+                "title": "BRTipoObservacao",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BREstrategiaVacinacao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BREstrategiaVacinacao",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:39:42.268+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BREstrategiaVacinacao</b></p><p>Title: BREstrategiaVacinacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
+                "version": "HEAD",
+                "name": "BREstrategiaVacinacao",
+                "title": "BREstrategiaVacinacao",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRParentesco",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRParentesco",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:39:28.581+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRParentesco</b></p><p>Title: BRParentesco</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
+                "version": "HEAD",
+                "name": "BRParentesco",
+                "title": "BRParentesco",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoAVIDEZ",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoAVIDEZ",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:39:13.499+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoAVIDEZ</b></p><p>Title: BRTipoResultadoAVIDEZ</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+                "version": "HEAD",
+                "name": "BRTipoResultadoAVIDEZ",
+                "title": "BRTipoResultadoAVIDEZ",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoRSBAC",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoRSBAC",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:38:58.703+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoRSBAC</b></p><p>Title: BRTipoResultadoRSBAC</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+                "version": "HEAD",
+                "name": "BRTipoResultadoRSBAC",
+                "title": "BRTipoResultadoRSBAC",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoDTNT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoDTNT",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:38:43.480+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoDTNT</b></p><p>Title: BRTipoResultadoDTNT</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+                "version": "HEAD",
+                "name": "BRTipoResultadoDTNT",
+                "title": "BRTipoResultadoDTNT",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoHISPT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoHISPT",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:38:29.869+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoHISPT</b></p><p>Title: BRTipoResultadoHISPT</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+                "version": "HEAD",
+                "name": "BRTipoResultadoHISPT",
+                "title": "BRTipoResultadoHISPT",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoPRAU",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoPRAU",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:38:10.504+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoPRAU</b></p><p>Title: BRTipoResultadoPRAU</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+                "version": "HEAD",
+                "name": "BRTipoResultadoPRAU",
+                "title": "BRTipoResultadoPRAU",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoRGNR",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoRGNR",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:37:52.919+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoRGNR</b></p><p>Title: BRTipoResultadoRGNR</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+                "version": "HEAD",
+                "name": "BRTipoResultadoRGNR",
+                "title": "BRTipoResultadoRGNR",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoPSNG",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoPSNG",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:37:39.895+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoPSNG</b></p><p>Title: BRTipoResultadoPSNG</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+                "version": "HEAD",
+                "name": "BRTipoResultadoPSNG",
+                "title": "BRTipoResultadoPSNG",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRDivisaoGeograficaBrasil",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:37:28.792+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDivisaoGeograficaBrasil</b></p><p>Title: BRDivisaoGeograficaBrasil</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+                "version": "HEAD",
+                "name": "BRDivisaoGeograficaBrasil",
+                "title": "BRDivisaoGeograficaBrasil",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRDadoAusenteOuDesconhecido",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:37:15.714+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDadoAusenteOuDesconhecido</b></p><p>Title: BRDadoAusenteOuDesconhecido</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+                "version": "HEAD",
+                "name": "BRDadoAusenteOuDesconhecido",
+                "title": "BRDadoAusenteOuDesconhecido",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRJustificativaIndividuoNaoIdentificado",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:37:00.949+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRJustificativaIndividuoNaoIdentificado</b></p><p>Title: BRJustificativaIndividuoNaoIdentificado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+                "version": "HEAD",
+                "name": "BRJustificativaIndividuoNaoIdentificado",
+                "title": "BRJustificativaIndividuoNaoIdentificado",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCBHPMTUSS",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCBHPMTUSS",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:36:49.899+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCBHPMTUSS</b></p><p>Title: BRCBHPMTUSS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBHPMTUSS</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBHPMTUSS",
+                "version": "HEAD",
+                "name": "BRCBHPMTUSS",
+                "title": "BRCBHPMTUSS",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoDocumento",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoDocumento",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:36:37.815+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoDocumento</b></p><p>Title: BRTipoDocumento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+                "version": "HEAD",
+                "name": "BRTipoDocumento",
+                "title": "BRTipoDocumento",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRModalidadeFinanceira",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRModalidadeFinanceira",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:36:25.078+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRModalidadeFinanceira</b></p><p>Title: BRModalidadeFinanceira</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira",
+                "version": "HEAD",
+                "name": "BRModalidadeFinanceira",
+                "title": "BRModalidadeFinanceira",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRFabricantePNI",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRFabricantePNI",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:36:08.639+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRFabricantePNI</b></p><p>Title: BRFabricantePNI</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
+                "version": "HEAD",
+                "name": "BRFabricantePNI",
+                "title": "BRFabricantePNI",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRRegistroOrigem",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRRegistroOrigem",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:35:54.076+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRRegistroOrigem</b></p><p>Title: BRRegistroOrigem</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
+                "version": "HEAD",
+                "name": "BRRegistroOrigem",
+                "title": "BRRegistroOrigem",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BREtniaIndigena",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BREtniaIndigena",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:35:42.854+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BREtniaIndigena</b></p><p>Title: BREtniaIndigena</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+                "version": "HEAD",
+                "name": "BREtniaIndigena",
+                "title": "BREtniaIndigena",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmVMP",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmVMP",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:35:31.986+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmVMP</b></p><p>Title: BRObmVMP</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVMP</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVMP",
+                "version": "HEAD",
+                "name": "BRObmVMP",
+                "title": "BRObmVMP",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmVtm",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmVtm",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:35:03.205+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmVtm</b></p><p>Title: BRObmVtm</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM",
+                "version": "HEAD",
+                "name": "BRObmVtm",
+                "title": "BRObmVtm",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmAMPP",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmAMPP",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:34:44.619+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmAMPP</b></p><p>Title: BRObmAMPP</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmAMPP</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmAMPP",
+                "version": "HEAD",
+                "name": "BRObmAMPP",
+                "title": "BRObmAMPP",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmEAN",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmEAN",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:34:26.158+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmEAN</b></p><p>Title: BRObmEAN</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmEAN</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmEAN",
+                "version": "HEAD",
+                "name": "BRObmEAN",
+                "title": "BRObmEAN",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmANVISA",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmANVISA",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:34:10.494+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmANVISA</b></p><p>Title: BRObmANVISA</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA",
+                "version": "HEAD",
+                "name": "BRObmANVISA",
+                "title": "BRObmANVISA",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BROrgaoExpedidor",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BROrgaoExpedidor",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:33:51.989+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BROrgaoExpedidor</b></p><p>Title: BROrgaoExpedidor</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BROrgaoExpedidor</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrgaoExpedidor",
+                "version": "HEAD",
+                "name": "BROrgaoExpedidor",
+                "title": "BROrgaoExpedidor",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoAmostraGAL",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoAmostraGAL",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:33:34.370+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoAmostraGAL</b></p><p>Title: BRTipoAmostraGAL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+                "version": "HEAD",
+                "name": "BRTipoAmostraGAL",
+                "title": "BRTipoAmostraGAL",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoResultadoRSCUL",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoResultadoRSCUL",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:33:21.533+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoRSCUL</b></p><p>Title: BRTipoResultadoRSCUL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+                "version": "HEAD",
+                "name": "BRTipoResultadoRSCUL",
+                "title": "BRTipoResultadoRSCUL",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTerminologiaPatogeno",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTerminologiaPatogeno",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:33:04.012+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTerminologiaPatogeno</b></p><p>Title: BRTerminologiaPatogeno</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+                "version": "HEAD",
+                "name": "BRTerminologiaPatogeno",
+                "title": "BRTerminologiaPatogeno",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRNomeExameGAL",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRNomeExameGAL",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:32:46.728+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRNomeExameGAL</b></p><p>Title: BRNomeExameGAL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
+                "version": "HEAD",
+                "name": "BRNomeExameGAL",
+                "title": "BRNomeExameGAL",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoLogradouro",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoLogradouro",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:32:28.848+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoLogradouro</b></p><p>Title: BRTipoLogradouro</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
+                "version": "HEAD",
+                "name": "BRTipoLogradouro",
+                "title": "BRTipoLogradouro",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCondicaoMaternal",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCondicaoMaternal",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:32:14.820+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: Condição Maternal</b></p><p>Title: Condição Maternal</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
+                "version": "HEAD",
+                "name": "Condição Maternal",
+                "title": "Condição Maternal",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRPosicaoIndividuo",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRPosicaoIndividuo",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:32:00.245+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPosicaoIndividuo</b></p><p>Title: BRPosicaoIndividuo</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
+                "version": "HEAD",
+                "name": "BRPosicaoIndividuo",
+                "title": "BRPosicaoIndividuo",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRSubgrupoTabelaSUS",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRSubgrupoTabelaSUS",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:31:48.067+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRSubgrupoTabelaSUS</b></p><p>Title: BRSubgrupoTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubgrupoTabelaSUS</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubgrupoTabelaSUS",
+                "version": "HEAD",
+                "name": "BRSubgrupoTabelaSUS",
+                "title": "BRSubgrupoTabelaSUS",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRMedDRA",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRMedDRA",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:31:34.729+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMedDRA</b></p><p>Title: BRMedDRA</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+                "version": "HEAD",
+                "name": "BRMedDRA",
+                "title": "BRMedDRA",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRMedicamento",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRMedicamento",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:31:21.883+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMedicamento</b></p><p>Title: BRMedicamento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
+                "version": "HEAD",
+                "name": "BRMedicamento",
+                "title": "BRMedicamento",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRAlergenosCBARA",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRAlergenosCBARA",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:31:09.699+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRAlergenosCBARA</b></p><p>Title: BRAlergenosCBARA</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA",
+                "version": "HEAD",
+                "name": "BRAlergenosCBARA",
+                "title": "BRAlergenosCBARA",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoIdentificador",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoIdentificador",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:30:56.881+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoIdentificador</b></p><p>Title: BRTipoIdentificador</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
+                "version": "HEAD",
+                "name": "BRTipoIdentificador",
+                "title": "BRTipoIdentificador",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRDose",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRDose",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:30:44.803+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDose</b></p><p>Title: BRDose</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
+                "version": "HEAD",
+                "name": "BRDose",
+                "title": "BRDose",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRServicoEspecializado",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRServicoEspecializado",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:30:25.662+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRServicoEspecializado</b></p><p>Title: BRServicoEspecializado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
+                "version": "HEAD",
+                "name": "BRServicoEspecializado",
+                "title": "BRServicoEspecializado",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoParticipante",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoParticipante",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:30:08.808+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoParticipante</b></p><p>Title: BRTipoParticipante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+                "version": "HEAD",
+                "name": "BRTipoParticipante",
+                "title": "BRTipoParticipante",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRAtendimentoPrestado",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRAtendimentoPrestado",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:29:57.898+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRAtendimentoPrestado</b></p><p>Title: BRAtendimentoPrestado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
+                "version": "HEAD",
+                "name": "BRAtendimentoPrestado",
+                "title": "BRAtendimentoPrestado",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoAleitamentoMaterno",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoAleitamentoMaterno",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:29:46.277+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoAleitamentoMaterno</b></p><p>Title: BRTipoAleitamentoMaterno</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+                "version": "HEAD",
+                "name": "BRTipoAleitamentoMaterno",
+                "title": "BRTipoAleitamentoMaterno",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRDesfechoProcedimento",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRDesfechoProcedimento",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:28:59.436+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDesfechoProcedimento</b></p><p>Title: BRDesfechoProcedimento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
+                "version": "HEAD",
+                "name": "BRDesfechoProcedimento",
+                "title": "BRDesfechoProcedimento",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRInstalacoesFisicas",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRInstalacoesFisicas",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:28:40.472+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRInstalacoesFisicas</b></p><p>Title: BRInstalacoesFisicas</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
+                "version": "HEAD",
+                "name": "BRInstalacoesFisicas",
+                "title": "BRInstalacoesFisicas",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRPovoItinerante",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRPovoItinerante",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:28:24.765+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPovoItinerante</b></p><p>Title: BRPovoItinerante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+                "version": "HEAD",
+                "name": "BRPovoItinerante",
+                "title": "BRPovoItinerante",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/TipoConvenio",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "TipoConvenio",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:28:07.840+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: TipoConvenio</b></p><p>Title: TipoConvenio</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+                "version": "HEAD",
+                "name": "TipoConvenio",
+                "title": "TipoConvenio",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRMotivoProcedimentoNaoRealizado",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:27:12.975+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMotivoProcedimentoNaoRealizado</b></p><p>Title: BRMotivoProcedimentoNaoRealizado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+                "version": "HEAD",
+                "name": "BRMotivoProcedimentoNaoRealizado",
+                "title": "BRMotivoProcedimentoNaoRealizado",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTipoEstabelecimentoSaude",
+                "meta": {
+                    "lastUpdated": "2025-07-17T17:00:08.812+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoEstabelecimentoSaude</b></p><p>Title: BRTipoEstabelecimentoSaude</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
+                "version": "HEAD",
+                "name": "BRTipoEstabelecimentoSaude",
+                "title": "BRTipoEstabelecimentoSaude",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRRacaCor",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRRacaCor",
+                "meta": {
+                    "lastUpdated": "2025-07-17T16:59:38.636+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRRacaCor</b></p><p>Title: BRRacaCor</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+                "version": "HEAD",
+                "name": "BRRacaCor",
+                "title": "BRRacaCor",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCBO",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCBO",
+                "meta": {
+                    "lastUpdated": "2025-07-17T16:58:32.026+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCBO</b></p><p>Title: BRCBO</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO",
+                "version": "HEAD",
+                "name": "BRCBO",
+                "title": "BRCBO",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRViaAdministracao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRViaAdministracao",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:52:24.744+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRViaAdministracao</b></p><p>Title: BRViaAdministracao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao",
+                "version": "HEAD",
+                "name": "BRViaAdministracao",
+                "title": "BRViaAdministracao",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRUnidadeMedida",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRUnidadeMedida",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:51:54.333+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRUnidadeMedida</b></p><p>Title: BRUnidadeMedida</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida",
+                "version": "HEAD",
+                "name": "BRUnidadeMedida",
+                "title": "BRUnidadeMedida",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRTabelaSUS",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRTabelaSUS",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:51:33.410+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTabelaSUS</b></p><p>Title: BRTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+                "version": "HEAD",
+                "name": "BRTabelaSUS",
+                "title": "BRTabelaSUS",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRResultadoQualitativoExame",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRResultadoQualitativoExame",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:51:04.640+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRResultadoQualitativoExame</b></p><p>Title: BRResultadoQualitativoExame</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+                "version": "HEAD",
+                "name": "BRResultadoQualitativoExame",
+                "title": "BRResultadoQualitativoExame",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRObmCATMAT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRObmCATMAT",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:50:37.529+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmCATMAT</b></p><p>Title: BRObmCATMAT</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT",
+                "version": "HEAD",
+                "name": "BRObmCATMAT",
+                "title": "BRObmCATMAT",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRNomeExameLOINC",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRNomeExameLOINC",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:50:02.755+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRNomeExameLOINC</b></p><p>Title: BRNomeExameLOINC</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
+                "version": "HEAD",
+                "name": "BRNomeExameLOINC",
+                "title": "BRNomeExameLOINC",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRLocalAplicacao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRLocalAplicacao",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:49:36.124+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRLocalAplicação</b></p><p>Title: BRLocalAplicação</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
+                "version": "HEAD",
+                "name": "BRLocalAplicação",
+                "title": "BRLocalAplicação",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRImunobiologico",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRImunobiologico",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:49:13.383+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRImunobiologico</b></p><p>Title: BRImunobiologico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
+                "version": "HEAD",
+                "name": "BRImunobiologico",
+                "title": "BRImunobiologico",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCID10",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCID10",
+                "meta": {
+                    "lastUpdated": "2025-07-16T16:48:42.951+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCID10</b></p><p>Title: BRCID10</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
+                "version": "HEAD",
+                "name": "BRCID10",
+                "title": "BRCID10",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCIAP2",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCIAP2",
+                "meta": {
+                    "lastUpdated": "2025-07-14T22:07:09.769+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCIAP2</b></p><p>Title: BRCIAP2</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+                "version": "HEAD",
+                "name": "BRCIAP2",
+                "title": "BRCIAP2",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/FormaOrganizacao",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "FormaOrganizacao",
+                "meta": {
+                    "lastUpdated": "2025-07-08T17:53:57.078+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: FormaOrganizacao</b></p><p>Title: FormaOrganizacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/FormaOrganizacao</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/FormaOrganizacao",
+                "version": "HEAD",
+                "name": "FormaOrganizacao",
+                "title": "FormaOrganizacao",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCategoriaDiagnostico",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCategoriaDiagnostico",
+                "meta": {
+                    "lastUpdated": "2025-06-04T14:33:50.309+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCategoriaDiagnostico</b></p><p>Title: BRCategoriaDiagnostico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRcategoriaDiagnostico</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRcategoriaDiagnostico",
+                "version": "HEAD",
+                "name": "BRCategoriaDiagnostico",
+                "title": "BRCategoriaDiagnostico",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRMotivoDesfecho",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRMotivoDesfecho",
+                "meta": {
+                    "lastUpdated": "2025-06-03T12:01:17.410+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMotivoDesfecho</b></p><p>Title: BRMotivoDesfecho</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
+                "version": "HEAD",
+                "name": "BRMotivoDesfecho",
+                "title": "BRMotivoDesfecho",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRProcedencia",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRProcedencia",
+                "meta": {
+                    "lastUpdated": "2025-06-02T18:46:34.954+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRProcedencia</b></p><p>Title: BRProcedencia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia",
+                "version": "HEAD",
+                "name": "BRProcedencia",
+                "title": "BRProcedencia",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRResponsabilidadeParticipante",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRResponsabilidadeParticipante",
+                "meta": {
+                    "lastUpdated": "2025-06-02T17:38:25.666+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRResponsabilidadeParticipante</b></p><p>Title: BRResponsabilidadeParticipante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+                "version": "HEAD",
+                "name": "BRResponsabilidadeParticipante",
+                "title": "BRResponsabilidadeParticipante",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRCaraterAtendimento",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRCaraterAtendimento",
+                "meta": {
+                    "lastUpdated": "2025-06-02T14:55:21.222+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCaraterAtendimento</b></p><p>Title: BRCaraterAtendimento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento",
+                "version": "HEAD",
+                "name": "BRCaraterAtendimento",
+                "title": "BRCaraterAtendimento",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRProgramaSaude",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRProgramaSaude",
+                "meta": {
+                    "lastUpdated": "2024-12-18T20:40:39.501+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRProgramaSaude</b></p><p>Title: BRProgramaSaude</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+                "version": "HEAD",
+                "name": "BRProgramaSaude",
+                "title": "BRProgramaSaude",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BROrtesesProtesesImplantaveis",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BROrtesesProtesesImplantaveis",
+                "meta": {
+                    "lastUpdated": "2024-11-21T20:28:20.054+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BROrtesesProtesesImplantaveis</b></p><p>Title: BROrtesesProtesesImplantaveis</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+                "version": "HEAD",
+                "name": "BROrtesesProtesesImplantaveis",
+                "title": "BROrtesesProtesesImplantaveis",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRElegibilidadeImunobiologico",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRElegibilidadeImunobiologico",
+                "meta": {
+                    "lastUpdated": "2024-09-26T21:11:45.222+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRElegibilidadeImunobiologico</b></p><p>Title: BRElegibilidadeImunobiologico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+                "version": "HEAD",
+                "name": "BRElegibilidadeImunobiologico",
+                "title": "BRElegibilidadeImunobiologico",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRIBGE",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRIBGE",
+                "meta": {
+                    "lastUpdated": "2024-09-06T13:44:55.239+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRIBGE</b></p><p>Title: BRIBGE</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRIBGE</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRIBGE",
+                "version": "HEAD",
+                "name": "BRIBGE",
+                "title": "BRIBGE",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        },
+        {
+            "fullUrl": "http://tx.gointerop.com/r4/CodeSystem/BRPopulacaoTradicional",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "BRPopulacaoTradicional",
+                "meta": {
+                    "lastUpdated": "2024-08-30T12:26:42.606+00:00"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPopulacaoTradicional</b></p><p>Title: BRPopulacaoTradicional</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional</p><p>Description: No description</p></div>"
+                },
+                "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+                "version": "HEAD",
+                "name": "BRPopulacaoTradicional",
+                "title": "BRPopulacaoTradicional",
+                "status": "active",
+                "experimental": false,
+                "publisher": "MS",
+                "caseSensitive": true,
+                "content": "not-present"
+            }
+        }
+    ]
+}

@@ -15,4 +15,4 @@ RUN npm update
 
 RUN npm install -g npm@10.8.1
 
-RUN npm install -g fsh-sushi@3.14.0
+RUN npm install -g fsh-sushi@3.16.3

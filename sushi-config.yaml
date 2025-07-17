@@ -59,7 +59,6 @@ jurisdiction: urn:iso:std:iso:3166#BR "Brazil"
 # use cases, the value can be an object with keys for `uri` and `version`.
 dependencies:  
   hl7.terminology: 5.5.0
-  br.gov.ans.fhir: 202309
 
 # The global property corresponds to the IG.global property, but it
 # uses the type as the YAML key and the profile as its value. Since
