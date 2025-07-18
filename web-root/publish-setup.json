@@ -4,7 +4,8 @@
       "url" : "https://terminologia.saude.gov.br/fhir",
       "server" : "apache",
       "org" : "Ministério da Saúde do Brasil",
-      "index-template":"index.template"
+      "index-template":"index.template",
+      "clone-xml-json": false
     },
     "layout-rules" : [{
       "npm" : "br.gov.saude.terminologia.*",
