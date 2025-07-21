@@ -47,5 +47,6 @@
       }
     ]
   },
-  "id": "BRBrestadoresolucaodiagnosticoproblema"
+  "id": "BREstadoResolucaoDiagnosticoProblema",
+  "name": "BREstadoResolucaoDiagnosticoProblema"
 }

@@ -17,5 +17,6 @@
       }
     ]
   },
-  "id": "BRBrtipoidentificadorprocedimento"
+  "id": "BRTipoIdentificadorProcedimento",
+  "name": "BRTipoIdentificadorProcedimento"
 }

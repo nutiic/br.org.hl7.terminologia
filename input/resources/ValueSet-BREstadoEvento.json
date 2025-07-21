@@ -52,5 +52,6 @@
       }
     ]
   },
-  "id": "BRBrestadoevento"
+  "id": "BREstadoEvento",
+  "name": "BREstadoEvento"
 }

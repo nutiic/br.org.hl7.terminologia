@@ -52,5 +52,6 @@
       }
     ]
   },
-  "id": "BRBrrestricaointervaloreferencia"
+  "id": "BRObservationRestricaoIntervaloReferencia",
+  "name": "BRObservationRestricaoIntervaloReferencia"
 }
