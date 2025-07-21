@@ -1,37 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRNomeExameTRCOVID19LOINC",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRNomeExameTRCOVID19LOINC-1.0</b></p><p>Title: BRNomeExameTRCOVID19LOINC-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExameTRCOVID19LOINC</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExameTRCOVID19LOINC",
   "version": "HEAD",
+  "name": "BRNomeExameTRCOVID19LOINC",
+  "title": "BR Nome Exame TRCOVID 19 LOINC",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:16:37+00:00",
-    "contains": [
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
-        "code": "94508-9",
-        "display": "SARS Coronavírus 2, [presença de] anticorpos IgM em soro ou plasma por imunoensaio"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
-        "code": "94507-1",
-        "display": "SARS Coronavírus 2, [presença de] anticorpos IgG em soro ou plasma por imunoensaio"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
-        "code": "94558-4",
-        "display": "SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
-        "code": "94768-9",
-        "display": "SARS Coronavírus 2 [Presença de] anticorpos IgA em Soro Plasma ou Sangue por Imunoensaio rápido"
-      }
-    ]
-  },
-  "id": "BRNomeExameTRCOVID19LOINC",
-  "name": "BRNomeExameTRCOVID19LOINC"
+  "publisher": "MS"
 }

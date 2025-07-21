@@ -1,37 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRSexo",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRSexo-1.0</b></p><p>Title: BRSexo-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRSexo</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexo",
   "version": "HEAD",
+  "name": "BRSexo",
+  "title": "BR Sexo",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:21:36+00:00",
-    "contains": [
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "unknown",
-        "display": "Desconhecido"
-      },
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "other",
-        "display": "Outros"
-      },
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "male",
-        "display": "Masculino"
-      },
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "female",
-        "display": "Feminino"
-      }
-    ]
-  },
-  "id": "BRSexo",
-  "name": "BRSexo"
+  "publisher": "MS"
 }

@@ -1,52 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BREstadoResolucaoDiagnosticoProblema",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstadoResolucaoDiagnosticoProblema-1.0</b></p><p>Title: BREstadoResolucaoDiagnosticoProblema-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoResolucaoDiagnosticoProblema</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoResolucaoDiagnosticoProblema",
   "version": "HEAD",
+  "name": "BREstadoResolucaoDiagnosticoProblema",
+  "title": "BR Estado Resolucao Diagnostico Problema",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:07:23+00:00",
-    "contains": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "unknown",
-        "display": "Desconhecido"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "inactive",
-        "display": "Inativo"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "relapse",
-        "display": "Recaída"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "recurrence",
-        "display": "Recorrência"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "resolved",
-        "display": "Resolvido"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "remission",
-        "display": "Remissão"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "active",
-        "display": "Ativo"
-      }
-    ]
-  },
-  "id": "BREstadoResolucaoDiagnosticoProblema",
-  "name": "BREstadoResolucaoDiagnosticoProblema"
+  "publisher": "MS"
 }

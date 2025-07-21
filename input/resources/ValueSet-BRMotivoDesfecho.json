@@ -1,67 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRMotivoDesfecho",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRMotivoDesfecho</b></p><p>Title: BRMotivoDesfecho</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho",
   "version": "HEAD",
+  "name": "BRMotivoDesfecho",
+  "title": "BR Motivo Desfecho",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:15:16+00:00",
-    "contains": [
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "99",
-        "display": "Sem registro no modelo de informação de origem"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "09",
-        "display": "Transferência"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "08",
-        "display": "Retorno"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "07",
-        "display": "Permanência"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "06",
-        "display": "Óbito"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "05",
-        "display": "Ordem Judicial"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "04",
-        "display": "Evasão"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "03",
-        "display": "Encaminhamento"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "02",
-        "display": "Alta Voluntária"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "code": "01",
-        "display": "Alta clínica"
-      }
-    ]
-  },
-  "id": "BRMotivoDesfecho",
-  "name": "BRMotivoDesfecho"
+  "publisher": "MS"
 }

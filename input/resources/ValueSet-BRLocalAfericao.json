@@ -1,67 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRLocalAfericao",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRLocalAfericao-1.0</b></p><p>Title: BRLocalAfericao-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAfericao</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAfericao",
   "version": "HEAD",
+  "name": "BRLocalAfericao",
+  "title": "BR Local Afericao",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:14:02+00:00",
-    "contains": [
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "9",
-        "display": "Dedo da mão"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "4",
-        "display": "Coxa esquerda"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "8",
-        "display": "Tornozelo esquerdo"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "6",
-        "display": "Pulso esquerdo"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "3",
-        "display": "Coxa direita"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "7",
-        "display": "Tornozelo direito"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "2",
-        "display": "Braço esquerdo"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "1",
-        "display": "Braço direito"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "10",
-        "display": "Dedo do pé"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-        "code": "5",
-        "display": "Pulso direito"
-      }
-    ]
-  },
-  "id": "BRLocalAfericao",
-  "name": "BRLocalAfericao"
+  "publisher": "MS"
 }

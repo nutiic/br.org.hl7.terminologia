@@ -1,42 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRSexoNascimento",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRSexoNascimento</b></p><p>Title: BRSexoNascimento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRSexoNascimento</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexoNascimento",
   "version": "HEAD",
+  "name": "BRSexoNascimento",
+  "title": "BR Sexo Nascimento",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:21:49+00:00",
-    "contains": [
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "male",
-        "display": "Masculino"
-      },
-      {
-        "system": "http://hl7.org/fhir/administrative-gender",
-        "code": "female",
-        "display": "Feminino"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-        "code": "UNK",
-        "display": "unknown"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-        "code": "OTH",
-        "display": "other"
-      },
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-        "code": "ASKU",
-        "display": "asked but unknown"
-      }
-    ]
-  },
-  "id": "BRSexoNascimento",
-  "name": "BRSexoNascimento"
+  "publisher": "MS"
 }

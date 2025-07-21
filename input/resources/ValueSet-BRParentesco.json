@@ -1,27 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BRParentesco",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRParentesco</b></p><p>Title: BRParentesco</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco",
   "version": "HEAD",
+  "name": "BRParentesco",
+  "title": "BR Parentesco",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:17:48+00:00",
-    "contains": [
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-        "code": "father",
-        "display": "Pai"
-      },
-      {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-        "code": "mother",
-        "display": "Mãe"
-      }
-    ]
-  },
-  "id": "BRParentesco",
-  "name": "BRParentesco"
+  "publisher": "MS"
 }

@@ -1,57 +1,14 @@
 {
   "resourceType": "ValueSet",
+  "id": "BREstadoEvento",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstadoEvento-1.0</b></p><p>Title: BREstadoEvento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento",
   "version": "HEAD",
+  "name": "BREstadoEvento",
+  "title": "BR Estado Evento",
   "status": "active",
-  "expansion": {
-    "timestamp": "2025-07-21T15:06:49+00:00",
-    "contains": [
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "entered-in-error",
-        "display": "Registrado por engano"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "on-hold",
-        "display": "Suspenso"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "completed",
-        "display": "Concluído"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "preparation",
-        "display": "Pré-procedimento"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "in-progress",
-        "display": "Em andamento"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "stopped",
-        "display": "Cancelado"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "not-done",
-        "display": "Não realizado"
-      },
-      {
-        "system": "http://hl7.org/fhir/event-status",
-        "code": "unknown",
-        "display": "Desconhecido"
-      }
-    ]
-  },
-  "id": "BREstadoEvento",
-  "name": "BREstadoEvento"
+  "publisher": "MS"
 }
