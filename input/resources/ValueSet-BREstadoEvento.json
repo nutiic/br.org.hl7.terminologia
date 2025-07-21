@@ -1,0 +1,14 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BREstadoEvento-1.0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstadoEvento-1.0</b></p><p>Title: BREstadoEvento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento",
+  "version": "HEAD",
+  "name": "BREstadoEvento-1.0",
+  "title": "BREstadoEvento-1.0",
+  "status": "active",
+  "publisher": "MS"
+}

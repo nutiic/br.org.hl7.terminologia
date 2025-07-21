@@ -1,0 +1,14 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRResultadoQualitativoExame-1.0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRResultadoQualitativoExame-1.0</b></p><p>Title: BRResultadoQualitativoExame-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
+  "version": "HEAD",
+  "name": "BRResultadoQualitativoExame-1.0",
+  "title": "BRResultadoQualitativoExame-1.0",
+  "status": "active",
+  "publisher": "MS"
+}

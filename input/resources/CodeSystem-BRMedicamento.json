@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRMedicamento",
+  "meta": {
+    "lastUpdated": "2025-07-17T17:31:21.883+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMedicamento</b></p><p>Title: BRMedicamento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
+  "version": "HEAD",
+  "name": "BRMedicamento",
+  "title": "BRMedicamento",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

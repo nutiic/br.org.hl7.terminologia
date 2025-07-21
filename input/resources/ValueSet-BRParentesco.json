@@ -1,0 +1,14 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRParentesco-1.0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRParentesco</b></p><p>Title: BRParentesco</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco",
+  "version": "HEAD",
+  "name": "BRParentesco",
+  "title": "BRParentesco",
+  "status": "active",
+  "publisher": "MS"
+}

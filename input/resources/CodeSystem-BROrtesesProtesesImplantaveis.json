@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BROrtesesProtesesImplantaveis",
+  "meta": {
+    "lastUpdated": "2024-11-21T20:28:20.054+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BROrtesesProtesesImplantaveis</b></p><p>Title: BROrtesesProtesesImplantaveis</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+  "version": "HEAD",
+  "name": "BROrtesesProtesesImplantaveis",
+  "title": "BROrtesesProtesesImplantaveis",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

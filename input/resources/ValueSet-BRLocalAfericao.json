@@ -1,0 +1,14 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRLocalAfericao-1.0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRLocalAfericao-1.0</b></p><p>Title: BRLocalAfericao-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAfericao</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAfericao",
+  "version": "HEAD",
+  "name": "BRLocalAfericao-1.0",
+  "title": "BRLocalAfericao-1.0",
+  "status": "active",
+  "publisher": "MS"
+}

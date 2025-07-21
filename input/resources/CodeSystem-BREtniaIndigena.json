@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BREtniaIndigena",
+  "meta": {
+    "lastUpdated": "2025-07-17T17:35:42.854+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BREtniaIndigena</b></p><p>Title: BREtniaIndigena</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+  "version": "HEAD",
+  "name": "BREtniaIndigena",
+  "title": "BREtniaIndigena",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRNomeExameGAL",
+  "meta": {
+    "lastUpdated": "2025-07-17T17:32:46.728+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRNomeExameGAL</b></p><p>Title: BRNomeExameGAL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
+  "version": "HEAD",
+  "name": "BRNomeExameGAL",
+  "title": "BRNomeExameGAL",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRDivisaoGeograficaBrasil",
+  "meta": {
+    "lastUpdated": "2025-07-17T17:37:28.792+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDivisaoGeograficaBrasil</b></p><p>Title: BRDivisaoGeograficaBrasil</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+  "version": "HEAD",
+  "name": "BRDivisaoGeograficaBrasil",
+  "title": "BRDivisaoGeograficaBrasil",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

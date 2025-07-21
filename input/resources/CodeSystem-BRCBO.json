@@ -1,0 +1,20 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRCBO",
+  "meta": {
+    "lastUpdated": "2025-07-17T16:58:32.026+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCBO</b></p><p>Title: BRCBO</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO",
+  "version": "HEAD",
+  "name": "BRCBO",
+  "title": "BRCBO",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}
