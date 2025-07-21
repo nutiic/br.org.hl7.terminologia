@@ -4,7 +4,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturadada",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada",
   "version": "HEAD",
   "status": "active",
   "expansion": {
