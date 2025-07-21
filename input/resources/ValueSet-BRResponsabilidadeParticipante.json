@@ -1,14 +1,40 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRResponsabilidadeParticipante",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRResponsabilidadeParticipante</b></p><p>Title: BRResponsabilidadeParticipante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRResponsabilidadeParticipante</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRResponsabilidadeParticipante",
   "version": "HEAD",
-  "name": "BRResponsabilidadeParticipante",
-  "title": "BRResponsabilidadeParticipante",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:20:54+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "code": "atendimento",
+        "display": "Profissional responsável pelo atendimento clínico Contato Assistencial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "code": "alta",
+        "display": "Profissional que realizou a alta do indivíduo no Contato Assistencial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "code": "admissao",
+        "display": "Profissional que admitiu do indivíduo no Contato Assistencial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "code": "autorizador",
+        "display": "Profissional que autorizou a realização do Contato Assistencial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "code": "solicitante",
+        "display": "Profissional que solicitou o Contato Assistencial"
+      }
+    ]
+  }
 }

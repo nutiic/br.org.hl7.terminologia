@@ -1,14 +1,395 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRProgramaSaude",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRProgramaSaude</b></p><p>Title: BRProgramaSaude</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude",
   "version": "HEAD",
-  "name": "BRProgramaSaude",
-  "title": "BRProgramaSaude",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:19:04+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "501",
+        "display": "Estratégicos"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "981",
+        "display": "Alimentação e Nutrição"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "5",
+        "display": "Hipertensão"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "961",
+        "display": "Estratégico"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "481",
+        "display": "Assistência Social"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "941",
+        "display": "Malária"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "461",
+        "display": "Cólera"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "923",
+        "display": "Infecções Oportunistas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "441",
+        "display": "UPA"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "922",
+        "display": "Influenza"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "421",
+        "display": "Especializado"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "921",
+        "display": "Chagas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "401",
+        "display": "SAMU"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "903",
+        "display": "Meningite"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "4",
+        "display": "Judicialização"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "902",
+        "display": "Leishmaniose"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "381",
+        "display": "Saúde da Criança"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "901",
+        "display": "Tracoma"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "361",
+        "display": "Assitência Farmacêutica"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "882",
+        "display": "Epidemias"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "341",
+        "display": "Assistência Farmacêutica Básica"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "881",
+        "display": "Edemias Focais"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "3",
+        "display": "DST/AIDS"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "861",
+        "display": "Saúde Prisional"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "281",
+        "display": "Tabagismo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "801",
+        "display": "Doença Enxerto Hospedeiro"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "261",
+        "display": "Tuberculose"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "8",
+        "display": "Hospitalar"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "2",
+        "display": "Diabetes"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "781",
+        "display": "Atenção Secundária"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1421",
+        "display": "Órteses e Prósteses"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "767",
+        "display": "Suplementos Alimentares"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1401",
+        "display": "Multidroga Resistente"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "766",
+        "display": "Fraldas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1381",
+        "display": "SESAI"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "765",
+        "display": "Administrativos"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1361",
+        "display": "Calamidade Pública"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "764",
+        "display": "Diversos"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1341",
+        "display": "DPOC"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "763",
+        "display": "Oncologia"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1321",
+        "display": "DPOC"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "762",
+        "display": "Alzheimer"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1301",
+        "display": "Assistência Farmacêutica SESAI"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "761",
+        "display": "DPOC"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1281",
+        "display": "Assitência Farmacêutica SESAI"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "721",
+        "display": "Mieloma Múltiplo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1261",
+        "display": "Peste"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "701",
+        "display": "Antimicrobianos"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1241",
+        "display": "Micoses Sistêmicas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "7",
+        "display": "Saúde Mental"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1221",
+        "display": "Micoses Sistêmicas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "683",
+        "display": "Lúpus Eritematoso Sistêmico"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1202",
+        "display": "Coagulopatias"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "682",
+        "display": "Infecções Oportunistas DST/AIDS"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1201",
+        "display": "Filariose"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "681",
+        "display": "Suplementos Alimentares"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1181",
+        "display": "Remédio em Casa"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "662",
+        "display": "Insumos"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1161",
+        "display": "Toxoplasmose"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "661",
+        "display": "Lúpus Eritematoso Sistêmico"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1141",
+        "display": "Imunização"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "641",
+        "display": "Infecções Oportunistas DST/AIDS"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1121",
+        "display": "Nutrição"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "621",
+        "display": "Ação Civil Pública"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1102",
+        "display": "Esquitossomose"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "601",
+        "display": "Estratégicos - Estado"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1101",
+        "display": "Dengue"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "6",
+        "display": "Saúde da Mulher"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1081",
+        "display": "Cólera"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "581",
+        "display": "Suplementação de Ferro"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1021",
+        "display": "Insulino-Dependente- DM II"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "561",
+        "display": "Sem dor"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1001",
+        "display": "Insulino-Dependente- DM I"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "541",
+        "display": "Glaucoma"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "521",
+        "display": "Urgência e Emergência"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+        "code": "1",
+        "display": "Hanseníase"
+      }
+    ]
+  }
 }

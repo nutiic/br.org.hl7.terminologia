@@ -1,14 +1,60 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRModalidadeAssistencial-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRModalidadeAssistencial-1.0</b></p><p>Title: BRModalidadeAssistencial-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeAssistencial</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeAssistencial",
   "version": "HEAD",
-  "name": "BRModalidadeAssistencial-1.0",
-  "title": "BRModalidadeAssistencial-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:14:29+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "05",
+        "display": "Atenção Psicossocial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "01",
+        "display": "Atenção Básica"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "06",
+        "display": "Atenção à Urgência/Emergência"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "07",
+        "display": "Ambulatorial Especializada"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "02",
+        "display": "Atenção Domiciliar"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "03",
+        "display": "Atenção Intermediária"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "08",
+        "display": "Assistência Farmacêutica"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "04",
+        "display": "Atenção Hospitalar"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "code": "09",
+        "display": "Assistência Ambulatorial"
+      }
+    ]
+  }
 }

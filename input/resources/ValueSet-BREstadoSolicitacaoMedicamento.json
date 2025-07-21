@@ -1,14 +1,50 @@
 {
   "resourceType": "ValueSet",
-  "id": "BREstadoSolicitacaoMedicamento-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstadoSolicitacaoMedicamento-1.0</b></p><p>Title: BREstadoSolicitacaoMedicamento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento-1.0</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento-1.0",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento",
   "version": "HEAD",
-  "name": "BREstadoSolicitacaoMedicamento-1.0",
-  "title": "BREstadoSolicitacaoMedicamento-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:11:22+00:00",
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "entered-in-error",
+        "display": "Entered in Error"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "active",
+        "display": "Active"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "cancelled",
+        "display": "Cancelled"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "on-hold",
+        "display": "On Hold"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "completed",
+        "display": "Completed"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "unknown",
+        "display": "Unknown"
+      },
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+        "code": "draft",
+        "display": "Draft"
+      }
+    ]
+  }
 }

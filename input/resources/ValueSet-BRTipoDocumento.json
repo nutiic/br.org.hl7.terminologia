@@ -1,14 +1,60 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRTipoDocumento-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRTipoDocumento-1.0</b></p><p>Title: BRTipoDocumento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento",
   "version": "HEAD",
-  "name": "BRTipoDocumento-1.0",
-  "title": "BRTipoDocumento-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:23:15+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "ATM",
+        "display": "Atestado Médico/Odontológico"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "RA",
+        "display": "Regulação Assistencial"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "REL",
+        "display": "Resultado de Exame(s) Laboratoriais(s)"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "RDM",
+        "display": "Registro de Dispensação de Medicamento"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "RPM",
+        "display": "Registro de Prescrição de Medicamento"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "RIA",
+        "display": "Registro de Imunobiológico Administrado"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "RAC",
+        "display": "Registro de Atendimento Clínico"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "SA",
+        "display": "Sumário de Alta"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+        "code": "CMD",
+        "display": "Conjunto Mínimo de Dados"
+      }
+    ]
+  }
 }

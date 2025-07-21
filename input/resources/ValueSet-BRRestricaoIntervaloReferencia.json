@@ -1,14 +1,55 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRObservationRestricaoIntervaloReferencia",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRRestricaoIntervaloReferencia</b></p><p>Title: BRRestricaoIntervaloReferencia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia",
   "version": "HEAD",
-  "name": "BRRestricaoIntervaloReferencia",
-  "title": "BRRestricaoIntervaloReferencia",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:21:10+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "05",
+        "display": "Indígena"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "04",
+        "display": "Amarela"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "03",
+        "display": "Parda"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "02",
+        "display": "Preta"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "01",
+        "display": "Branca"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "77386006",
+        "display": "Pregnancy (finding)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "248153007",
+        "display": "Male (finding)"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "248152002",
+        "display": "Female (finding)"
+      }
+    ]
+  }
 }

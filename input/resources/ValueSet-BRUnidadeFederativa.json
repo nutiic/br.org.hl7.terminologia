@@ -1,14 +1,180 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRUnidadeFederativa-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRUnidadeFederativa-1.0</b></p><p>Title: BRUnidadeFederativa-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeFederativa</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeFederativa",
   "version": "HEAD",
-  "name": "BRUnidadeFederativa-1.0",
-  "title": "BRUnidadeFederativa-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:24:31+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "28",
+        "display": "Sergipe"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "27",
+        "display": "Alagoas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "53",
+        "display": "Distrito Federal"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "26",
+        "display": "Pernambuco"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "52",
+        "display": "Goiás"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "25",
+        "display": "Paraíba"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "51",
+        "display": "Mato Grosso"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "24",
+        "display": "Rio Grande do Norte"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "50",
+        "display": "Mato Grosso do Sul"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "23",
+        "display": "Ceará"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "5",
+        "display": "Centro-Oeste"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "22",
+        "display": "Piauí"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "43",
+        "display": "Rio Grande do Sul"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "21",
+        "display": "Maranhão"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "42",
+        "display": "Santa Catarina"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "2",
+        "display": "Nordeste"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "41",
+        "display": "Paraná"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "17",
+        "display": "Tocantins"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "4",
+        "display": "Sul"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "16",
+        "display": "Amapá"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "34",
+        "display": "São Paulo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "15",
+        "display": "Pará"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "33",
+        "display": "Rio de Janeiro"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "14",
+        "display": "Roraima"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "32",
+        "display": "Espírito Santo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "13",
+        "display": "Amazonas"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "315780",
+        "display": "Santa Luzia"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "12",
+        "display": "Acre"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "31",
+        "display": "Minas Gerais"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "11",
+        "display": "Rondônia"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "3",
+        "display": "Sudeste"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "1",
+        "display": "Norte"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "code": "29",
+        "display": "Bahia"
+      }
+    ]
+  }
 }

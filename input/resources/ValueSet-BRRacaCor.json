@@ -1,14 +1,45 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRRacaCor-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRRacaCor</b></p><p>Title: BRRacaCor</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor",
   "version": "HEAD",
-  "name": "BRRacaCor",
-  "title": "BRRacaCor",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:19:19+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "99",
+        "display": "Sem informação"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "05",
+        "display": "Indígena"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "04",
+        "display": "Amarela"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "03",
+        "display": "Parda"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "02",
+        "display": "Preta"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "code": "01",
+        "display": "Branca"
+      }
+    ]
+  }
 }

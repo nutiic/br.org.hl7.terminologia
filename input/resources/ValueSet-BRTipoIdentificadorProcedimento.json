@@ -1,14 +1,20 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRTipoIdentificadorProcedimento-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRTipoIdentificadorProcedimento-1.0</b></p><p>Title: BRTipoIdentificadorProcedimento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoIdentificadorProcedimento-</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
-  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoIdentificadorProcedimento-",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoIdentificadorProcedimento",
   "version": "HEAD",
-  "name": "BRTipoIdentificadorProcedimento-1.0",
-  "title": "BRTipoIdentificadorProcedimento-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:24:02+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
+        "code": "AUTH",
+        "display": "Código de Autorização"
+      }
+    ]
+  }
 }

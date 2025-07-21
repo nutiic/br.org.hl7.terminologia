@@ -1,14 +1,150 @@
 {
   "resourceType": "ValueSet",
-  "id": "BRResultadoQualitativoExame-1.0",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRResultadoQualitativoExame-1.0</b></p><p>Title: BRResultadoQualitativoExame-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
   "version": "HEAD",
-  "name": "BRResultadoQualitativoExame-1.0",
-  "title": "BRResultadoQualitativoExame-1.0",
   "status": "active",
-  "publisher": "MS"
+  "expansion": {
+    "timestamp": "2025-07-21T15:21:23+00:00",
+    "contains": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+        "code": "1",
+        "display": "Detectable"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+        "code": "2",
+        "display": "Não Detectável"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+        "code": "3",
+        "display": "Indeterminado        "
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+        "code": "2",
+        "display": "Não Compatível"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+        "code": "1",
+        "display": "Compatível"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+        "code": "3",
+        "display": "Inconclusivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+        "code": "2",
+        "display": "Ausência"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+        "code": "1",
+        "display": "Presença"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+        "code": "3",
+        "display": "Inconclusivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+        "code": "2",
+        "display": "Não Foram visualizados"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+        "code": "3",
+        "display": "Inconclusivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+        "code": "1",
+        "display": "Foram visualizados"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+        "code": "2",
+        "display": "Alta Avidez"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+        "code": "1",
+        "display": "Baixa Avidez"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+        "code": "3",
+        "display": "Indeterminado        "
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+        "code": "2",
+        "display": "Não Reagente"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+        "code": "1",
+        "display": "Reagente"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+        "code": "3",
+        "display": "Indeterminado"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+        "code": "2",
+        "display": "Houve crescimento"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+        "code": "3",
+        "display": "Inconclusivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+        "code": "1",
+        "display": "Não houve crescimento"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+        "code": "1",
+        "display": "Detectável"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+        "code": "3",
+        "display": "Inconclusivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+        "code": "2",
+        "display": "Não Detectável"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+        "code": "2",
+        "display": "Negativo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+        "code": "1",
+        "display": "Positivo"
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+        "code": "3",
+        "display": "Inconclusivo"
+      }
+    ]
+  }
 }
