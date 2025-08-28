@@ -1,17 +1,17 @@
 {
   "resourceType": "CodeSystem",
-  "id": "BRObmVtm",
+  "id": "BRObmVTM",
   "meta": {
     "lastUpdated": "2025-07-17T17:35:03.205+00:00"
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmVtm</b></p><p>Title: BRObmVtm</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM</p><p>Description: No description</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmVTM</b></p><p>Title: BRObmVTM</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM</p><p>Description: No description</p></div>"
   },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM",
   "version": "HEAD",
-  "name": "BRObmVtm",
-  "title": "BRObmVtm",
+  "name": "BRObmVTM",
+  "title": "BRObmVTM",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
