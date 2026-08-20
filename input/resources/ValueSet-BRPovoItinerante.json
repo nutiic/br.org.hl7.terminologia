@@ -10,5 +10,43 @@
   "name": "BRPovoItinerante",
   "title": "BR Povo Itinerante",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "4",
+            "display": "Andarilhos"
+          },
+          {
+            "code": "7",
+            "display": "Trabalhadores de área adstrita"
+          },
+          {
+            "code": "3",
+            "display": "Circenses"
+          },
+          {
+            "code": "6",
+            "display": "Assentados"
+          },
+          {
+            "code": "2",
+            "display": "Ciganos"
+          },
+          {
+            "code": "5",
+            "display": "Acampados"
+          },
+          {
+            "code": "1",
+            "display": "Situação de rua"
+          }
+        ]
+      }
+    ]
+  }
 }

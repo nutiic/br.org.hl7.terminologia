@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRCondutaColposcopia",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCondutaColposcopia</b></p><p>Title: BRCondutaColposcopia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia",
+  "version": "HEAD",
+  "name": "BRCondutaColposcopia",
+  "title": "BRCondutaColposcopia",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

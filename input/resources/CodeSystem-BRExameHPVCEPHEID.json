@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRExameHPVCEPHEID",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRExameHPVCEPHEID</b></p><p>Title: BRExameHPVCEPHEID</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID",
+  "version": "HEAD",
+  "name": "BRExameHPVCEPHEID",
+  "title": "BRExameHPVCEPHEID",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

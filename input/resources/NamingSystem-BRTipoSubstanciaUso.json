@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoSubstanciaUso",
+  "language": "pt",
+  "name": "BRTipoSubstanciaUso",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso",
+    "preferred": true
+  } ]
+}

@@ -10,5 +10,55 @@
   "name": "BRMotivoDesfecho",
   "title": "BR Motivo Desfecho",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "99",
+            "display": "Sem registro no modelo de informação de origem"
+          },
+          {
+            "code": "09",
+            "display": "Transferência"
+          },
+          {
+            "code": "08",
+            "display": "Retorno"
+          },
+          {
+            "code": "07",
+            "display": "Permanência"
+          },
+          {
+            "code": "06",
+            "display": "Óbito"
+          },
+          {
+            "code": "05",
+            "display": "Ordem Judicial"
+          },
+          {
+            "code": "04",
+            "display": "Evasão"
+          },
+          {
+            "code": "03",
+            "display": "Encaminhamento"
+          },
+          {
+            "code": "02",
+            "display": "Alta Voluntária"
+          },
+          {
+            "code": "01",
+            "display": "Alta clínica"
+          }
+        ]
+      }
+    ]
+  }
 }

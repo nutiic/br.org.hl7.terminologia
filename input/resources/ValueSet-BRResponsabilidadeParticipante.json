@@ -10,5 +10,35 @@
   "name": "BRResponsabilidadeParticipante",
   "title": "BR Responsabilidade Participante",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "atendimento",
+            "display": "Profissional responsável pelo atendimento clínico Contato Assistencial"
+          },
+          {
+            "code": "alta",
+            "display": "Profissional que realizou a alta do indivíduo no Contato Assistencial"
+          },
+          {
+            "code": "admissao",
+            "display": "Profissional que admitiu do indivíduo no Contato Assistencial"
+          },
+          {
+            "code": "autorizador",
+            "display": "Profissional que autorizou a realização do Contato Assistencial"
+          },
+          {
+            "code": "solicitante",
+            "display": "Profissional que solicitou o Contato Assistencial"
+          }
+        ]
+      }
+    ]
+  }
 }

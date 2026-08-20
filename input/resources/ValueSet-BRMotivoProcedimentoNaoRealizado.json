@@ -10,5 +10,43 @@
   "name": "BRMotivoProcedimentoNaoRealizado",
   "title": "BR Motivo Procedimento Nao Realizado",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "08",
+            "display": "Procedimento não concluído"
+          },
+          {
+            "code": "06",
+            "display": "Procedimento não desejado"
+          },
+          {
+            "code": "05",
+            "display": "Procedimento não oferecido"
+          },
+          {
+            "code": "04",
+            "display": "Procedimento não indicado"
+          },
+          {
+            "code": "03",
+            "display": "Procedimento não realizado"
+          },
+          {
+            "code": "02",
+            "display": "Procedimento descontinuado"
+          },
+          {
+            "code": "01",
+            "display": "Procedimento contraindicado"
+          }
+        ]
+      }
+    ]
+  }
 }

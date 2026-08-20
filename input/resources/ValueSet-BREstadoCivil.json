@@ -10,5 +10,43 @@
   "name": "BREstadoCivil",
   "title": "BR Estado Civil",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "concept": [
+          {
+            "code": "L",
+            "display": "Separação Judicial"
+          },
+          {
+            "code": "D",
+            "display": "Divorciado"
+          },
+          {
+            "code": "S",
+            "display": "Nunca casado"
+          },
+          {
+            "code": "M",
+            "display": "Casado"
+          },
+          {
+            "code": "W",
+            "display": "Viúvo (a)"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "unknown"
+          }
+        ]
+      }
+    ]
+  }
 }

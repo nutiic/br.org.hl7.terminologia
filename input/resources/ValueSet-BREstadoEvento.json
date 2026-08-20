@@ -10,5 +10,46 @@
   "name": "BREstadoEvento",
   "title": "BR Estado Evento",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/event-status",
+        "concept": [
+          {
+            "code": "entered-in-error",
+            "display": "Registrado por engano"
+          },
+          {
+            "code": "on-hold",
+            "display": "Suspenso"
+          },
+          {
+            "code": "completed",
+            "display": "Concluído"
+          },
+          {
+            "code": "preparation",
+            "display": "Pré-procedimento"
+          },
+          {
+            "code": "in-progress",
+            "display": "Em andamento"
+          },
+          {
+            "code": "stopped",
+            "display": "Cancelado"
+          },
+          {
+            "code": "not-done",
+            "display": "Não realizado"
+          },
+          {
+            "code": "unknown",
+            "display": "Desconhecido"
+          }
+        ]
+      }
+    ]
+  }
 }

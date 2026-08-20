@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRGrupoAtendimento",
+  "language": "pt",
+  "name": "BRGrupoAtendimento",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRGrupoAtendimento",
+    "preferred": true
+  } ]
+}

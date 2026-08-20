@@ -10,5 +10,22 @@
   "name": "BRCaraterAtendimentoMIRA",
   "title": "BR Carater Atendimento MIRA",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/request-priority",
+        "concept": [
+          {
+            "code": "routine",
+            "display": "Routine"
+          },
+          {
+            "code": "urgent",
+            "display": "Urgent"
+          }
+        ]
+      }
+    ]
+  }
 }

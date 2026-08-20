@@ -53,5 +53,53 @@
     ]
   },
   "id": "BRObservationRestricaoIntervaloReferencia",
-  "name": "BRObservationRestricaoIntervaloReferencia"
+  "name": "BRObservationRestricaoIntervaloReferencia",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "05",
+            "display": "Indígena"
+          },
+          {
+            "code": "04",
+            "display": "Amarela"
+          },
+          {
+            "code": "03",
+            "display": "Parda"
+          },
+          {
+            "code": "02",
+            "display": "Preta"
+          },
+          {
+            "code": "01",
+            "display": "Branca"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "77386006",
+            "display": "Pregnancy (finding)"
+          },
+          {
+            "code": "248153007",
+            "display": "Male (finding)"
+          },
+          {
+            "code": "248152002",
+            "display": "Female (finding)"
+          }
+        ]
+      }
+    ]
+  }
 }

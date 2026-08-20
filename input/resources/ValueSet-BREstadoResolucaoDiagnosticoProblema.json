@@ -10,5 +10,42 @@
   "name": "BREstadoResolucaoDiagnosticoProblema",
   "title": "BR Estado Resolucao Diagnostico Problema",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "concept": [
+          {
+            "code": "unknown",
+            "display": "Desconhecido"
+          },
+          {
+            "code": "inactive",
+            "display": "Inativo"
+          },
+          {
+            "code": "relapse",
+            "display": "Recaída"
+          },
+          {
+            "code": "recurrence",
+            "display": "Recorrência"
+          },
+          {
+            "code": "resolved",
+            "display": "Resolvido"
+          },
+          {
+            "code": "remission",
+            "display": "Remissão"
+          },
+          {
+            "code": "active",
+            "display": "Ativo"
+          }
+        ]
+      }
+    ]
+  }
 }

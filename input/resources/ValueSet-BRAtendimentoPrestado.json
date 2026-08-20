@@ -10,5 +10,43 @@
   "name": "BRAtendimentoPrestado",
   "title": "BR Atendimento Prestado",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "04",
+            "display": "URGENCIA"
+          },
+          {
+            "code": "03",
+            "display": "SADT"
+          },
+          {
+            "code": "07",
+            "display": "REGULACAO"
+          },
+          {
+            "code": "02",
+            "display": "AMBULATORIAL"
+          },
+          {
+            "code": "06",
+            "display": "VIGILANCIA EM SAUDE"
+          },
+          {
+            "code": "05",
+            "display": "OUTROS"
+          },
+          {
+            "code": "01",
+            "display": "INTERNACAO"
+          }
+        ]
+      }
+    ]
+  }
 }

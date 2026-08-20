@@ -10,5 +10,26 @@
   "name": "BRCriticidadeAlergiasReacoesAdversas",
   "title": "BR Criticidade Alergias Reacoes Adversas",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
+        "concept": [
+          {
+            "code": "high",
+            "display": "Alta"
+          },
+          {
+            "code": "low",
+            "display": "Baixa"
+          },
+          {
+            "code": "unable-to-assess",
+            "display": "Não foi possível determinar o risco"
+          }
+        ]
+      }
+    ]
+  }
 }

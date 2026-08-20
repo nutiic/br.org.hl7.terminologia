@@ -10,5 +10,19 @@
   "name": "BRTipoIdentificadorProcedimento",
   "title": "BR Tipo Identificador Procedimento",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "AUTH",
+            "display": "Código de Autorização"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -10,5 +10,43 @@
   "name": "BRCaraterAtendimento",
   "title": "BR Carater Atendimento",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "99",
+            "display": "Sem registro no modelo de informação de origem"
+          },
+          {
+            "code": "06",
+            "display": "Demanda espontânea (DE): atendimento de urgência"
+          },
+          {
+            "code": "05",
+            "display": "Demanda espontânea: consulta no dia"
+          },
+          {
+            "code": "04",
+            "display": "Consulta agendada programada: cuidado continuado"
+          },
+          {
+            "code": "03",
+            "display": "Consulta agendada"
+          },
+          {
+            "code": "02",
+            "display": "Urgência"
+          },
+          {
+            "code": "01",
+            "display": "Eletivo"
+          }
+        ]
+      }
+    ]
+  }
 }

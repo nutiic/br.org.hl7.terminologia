@@ -10,5 +10,39 @@
   "name": "BRRacaCor",
   "title": "BR Raca Cor",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "99",
+            "display": "Sem informação"
+          },
+          {
+            "code": "05",
+            "display": "Indígena"
+          },
+          {
+            "code": "04",
+            "display": "Amarela"
+          },
+          {
+            "code": "03",
+            "display": "Parda"
+          },
+          {
+            "code": "02",
+            "display": "Preta"
+          },
+          {
+            "code": "01",
+            "display": "Branca"
+          }
+        ]
+      }
+    ]
+  }
 }

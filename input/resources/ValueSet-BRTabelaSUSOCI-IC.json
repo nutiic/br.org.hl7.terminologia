@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTabelaSUSOCI-IC",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRTabelaSUSOCI-IC</b></p><p>Title: BRTabelaSUSOCI_IC</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRTabelaSUSOCI-IC</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTabelaSUSOCI-IC",
+  "version": "HEAD",
+  "name": "BRTabelaSUSOCI_IC",
+  "title": "BRTabelaSUSOCI_IC",
+  "status": "active",
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "0202020380",
+            "display": "HEMOGRAMA COMPLETO"
+          },
+          {
+            "code": "0202010317",
+            "display": "DOSAGEM DE CREATININA"
+          },
+          {
+            "code": "0202010635",
+            "display": "DOSAGEM DE SODIO"
+          },
+          {
+            "code": "0205010024",
+            "display": "ECOCARDIOGRAFIA TRANSESOFAGICA"
+          },
+          {
+            "code": "0301010072",
+            "display": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA"
+          },
+          {
+            "code": "0211020036",
+            "display": "ELETROCARDIOGRAMA"
+          },
+          {
+            "code": "0301010307",
+            "display": "TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA"
+          },
+          {
+            "code": "0211020036",
+            "display": "ELETROCARDIOGRAMA"
+          },
+          {
+            "code": "0211020060",
+            "display": "TESTE DE ESFORÇO / TESTE ERGOMETRICO"
+          },
+          {
+            "code": "0211020044",
+            "display": "MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)"
+          },
+          {
+            "code": "0202010791",
+            "display": "DOSAGEM DE PEPTÍDEOS NATRIURÉTICOS TIPO B (BNP E NT-PROBNP)"
+          },
+          {
+            "code": "0205010016",
+            "display": "ECOCARDIOGRAFIA DE ESTRESSE"
+          },
+          {
+            "code": "0208010041",
+            "display": "CINTILOGRAFIA DE MIOCARDIO PARA LOCALIZACAO DE NECROSE (MINIMO 3 PROJECOES )"
+          }
+        ]
+      }
+    ]
+  }
+}

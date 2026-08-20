@@ -10,5 +10,23 @@
   "name": "BRParentesco",
   "title": "BR Parentesco",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "father",
+            "display": "Pai"
+          },
+          {
+            "code": "mother",
+            "display": "Mãe"
+          }
+        ]
+      }
+    ]
+  }
 }

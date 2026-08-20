@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRFinanciamento",
+  "language": "pt",
+  "name": "BRFinanciamento",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde.",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinanciamento",
+    "preferred": true
+  } ]
+}

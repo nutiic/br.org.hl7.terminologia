@@ -10,5 +10,35 @@
   "name": "BRTipoAleitamentoMaterno",
   "title": "BR Tipo Aleitamento Materno",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "05",
+            "display": "Aleitamento materno misto ou parcial"
+          },
+          {
+            "code": "04",
+            "display": "Aleitamento materno complementado"
+          },
+          {
+            "code": "03",
+            "display": "Aleitamento materno"
+          },
+          {
+            "code": "02",
+            "display": "Aleitamento materno predominante"
+          },
+          {
+            "code": "01",
+            "display": "Aleitamento materno  exclusivo"
+          }
+        ]
+      }
+    ]
+  }
 }
