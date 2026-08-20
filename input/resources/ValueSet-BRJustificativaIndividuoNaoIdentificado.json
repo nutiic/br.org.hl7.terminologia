@@ -10,5 +10,39 @@
   "name": "BRJustificativaIndividuoNaoIdentificado",
   "title": "BR Justificativa Individuo Nao Identificado",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "99",
+            "display": "Sem registro no modelo de informação de origem"
+          },
+          {
+            "code": "3",
+            "display": "Indivíduo com problema neurológico grave ou comatoso"
+          },
+          {
+            "code": "2",
+            "display": "Indivíduo em sofrimento mental encontrado em via pública"
+          },
+          {
+            "code": "5",
+            "display": "Indivíduo doador de órgãos falecido"
+          },
+          {
+            "code": "4",
+            "display": "Indivíduo incapacitado por motivos sociais e/ou culturais"
+          },
+          {
+            "code": "1",
+            "display": "Indivíduo acidentado grave"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -23,5 +23,23 @@
     ]
   },
   "id": "BRPrescricaoNaoEstruturada",
-  "name": "BRPrescricaoNaoEstruturada"
+  "name": "BRPrescricaoNaoEstruturada",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "no-known-medications",
+            "display": "Sem medicamentos conhecidos."
+          },
+          {
+            "code": "no-medication-info",
+            "display": "Sem informação sobre medicamentos."
+          }
+        ]
+      }
+    ]
+  }
 }

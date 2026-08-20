@@ -10,5 +10,35 @@
   "name": "BRPosicaoIndividuo",
   "title": "BR Posicao Individuo",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "5",
+            "display": "Deitado com inclinação para esquerda"
+          },
+          {
+            "code": "3",
+            "display": "Reclinado"
+          },
+          {
+            "code": "2",
+            "display": "Sentado"
+          },
+          {
+            "code": "1",
+            "display": "Em pé"
+          },
+          {
+            "code": "4",
+            "display": "Deitado"
+          }
+        ]
+      }
+    ]
+  }
 }

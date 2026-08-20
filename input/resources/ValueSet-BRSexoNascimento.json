@@ -10,5 +10,39 @@
   "name": "BRSexoNascimento",
   "title": "BR Sexo Nascimento",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/administrative-gender",
+        "concept": [
+          {
+            "code": "male",
+            "display": "Masculino"
+          },
+          {
+            "code": "female",
+            "display": "Feminino"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "unknown"
+          },
+          {
+            "code": "OTH",
+            "display": "other"
+          },
+          {
+            "code": "ASKU",
+            "display": "asked but unknown"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -10,5 +10,23 @@
   "name": "BRRegistroOrigem",
   "title": "BR Registro Origem",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Registro anterior/Transcrição de caderneta"
+          },
+          {
+            "code": "2",
+            "display": "Vacina no Exterior"
+          }
+        ]
+      }
+    ]
+  }
 }

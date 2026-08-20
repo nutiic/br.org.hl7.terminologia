@@ -1,23 +1,35 @@
 {
-  "packages" : [
-    {
-      "path" : "fhir/package-list.json",
-      "package-id" : "br.gov.saude.terminologia.fhir",
-      "title" : "Terminologias do Brasil",
-      "canonical" : "https://terminologia.saude.gov.br/fhir",
-      "category" : "base",
-      "ci-build" : "https://terminologia-br-ig.web.app",
-      "version-count" : 1,
-      "latest" : {
-        "version" : "1.0.0",
-        "date" : "2024-12-10",
-        "path" : "https://terminologia.saude.gov.br/fhir/v1.0.0"
-      },
-      "milestone" : {
-        "version" : "1.0.0",
-        "date" : "2024-12-10",
-        "path" : "https://terminologia.saude.gov.br/fhir/v1.0.0"
-      }
+  "packages" : [{
+    "path" : "./fhir/package-list.json",
+    "package-id" : "br.gov.saude.terminologia.fhir",
+    "title" : "Terminologias do Brasil",
+    "canonical" : "https://terminologia.saude.gov.br/fhir",
+    "category" : "base",
+    "ci-build" : "https://terminologia-br-ig.web.app",
+    "version-count" : 1,
+    "latest" : {
+      "version" : "1.0.0",
+      "date" : "2024-12-10",
+      "path" : "https://terminologia.saude.gov.br/fhir/v1.0.0"
+    },
+    "milestone" : {
+      "version" : "1.0.0",
+      "date" : "2024-12-10",
+      "path" : "https://terminologia.saude.gov.br/fhir/v1.0.0"
     }
-  ]
+  },
+  {
+    "path" : "fhir/package-list.json",
+    "package-id" : "br.gov.saude.terminologia.fhir",
+    "title" : "Terminologias do Brasil",
+    "canonical" : "https://terminologia.saude.gov.br/fhir",
+    "category" : "base",
+    "ci-build" : "https://terminologia-br-ig.web.app",
+    "version-count" : 1,
+    "latest" : {
+      "version" : "1.0.0",
+      "date" : "2026-06-10",
+      "path" : "https://terminologia.saude.gov.br/fhir/v1.0.0"
+    }
+  }]
 }

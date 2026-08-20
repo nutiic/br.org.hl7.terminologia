@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "OCIOrtopedia",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: OCIOrtopedia</b></p><p>Title: OCIOrtopedia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/OCIOrtopedia</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOrtopedia",
+  "version": "HEAD",
+  "name": "OCIOrtopedia",
+  "title": "OCIOrtopedia",
+  "status": "active",
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "0903010011",
+            "display": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA"
+          },
+          {
+            "code": "0903010020",
+            "display": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA"
+          },
+          {
+            "code": "0903010046",
+            "display": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA"
+          },
+          {
+            "code": "0903010038",
+            "display": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA"
+          }
+        ]
+      }
+    ]
+  }
+}

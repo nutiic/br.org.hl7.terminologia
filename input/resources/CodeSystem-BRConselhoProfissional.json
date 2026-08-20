@@ -1,899 +1,1050 @@
 {
-  "resourceType" : "CodeSystem",
-  "id" : "BRConselhoProfissional",
-  "meta" : {
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
-  },  
-  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRConselhoProfissional",
-  "identifier" : [{
-    "system" : "https://saude.gov.br/sid/codesystem",
-    "value" : "BRConselhoProfissional"
-  }],
-  "version" : "0.0.1",
-  "name" : "BRConselhoProfissional",
-  "title" : "Conselhos profissionais de saúde do Brasil",
-  "status" : "draft",
-  "experimental" : true,
-  "date" : "2023-07-18T10:05:57-03:00",
-  "publisher" : "Ministério do Saúde do Brasil",
-  "contact" : [{
-    "name" : "Ministério do Saúde do Brasil",
-    "telecom" : [{
-      "system" : "url",
-      "value" : "https://gov.br/saude"
-    },
-    {
-      "system" : "email",
-      "value" : "contato@gointerop.com"
-    }]
-  },
-  {
-    "name" : "Italo Macedo",
-    "telecom" : [{
-      "system" : "email",
-      "value" : "italo@gointerop.com",
-      "use" : "work"
-    }]
-  }],
-  "description" : "Esse CodeSystem inclui os conselhos profissionais de saúde do Brasil, conforme a Resolução CNS 251/1997.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "BR",
-      "display" : "Brazil"
-    }]
-  }],
-  "caseSensitive" : true,
-  "content" : "complete",
-  "count" : 170,
-  "concept" : [{
-    "code" : "https://saude.gov.br/sid/crf-ac",
-    "display" : "CRF-AC",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-al",
-    "display" : "CRF-AL",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-am",
-    "display" : "CRF-AM",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ap",
-    "display" : "CRF-AP",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ba",
-    "display" : "CRF-BA",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ce",
-    "display" : "CRF-CE",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-df",
-    "display" : "CRF-DF",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-es",
-    "display" : "CRF-ES",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-go",
-    "display" : "CRF-GO",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ma",
-    "display" : "CRF-MA",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-mg",
-    "display" : "CRF-MG",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ms",
-    "display" : "CRF-MS",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-mt",
-    "display" : "CRF-MT",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-pa",
-    "display" : "CRF-PA",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-pb",
-    "display" : "CRF-PB",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-pe",
-    "display" : "CRF-PE",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-pi",
-    "display" : "CRF-PI",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-pr",
-    "display" : "CRF-PR",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-rj",
-    "display" : "CRF-RJ",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-rn",
-    "display" : "CRF-RN",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-ro",
-    "display" : "CRF-RO",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-rr",
-    "display" : "CRF-RR",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-rs",
-    "display" : "CRF-RS",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-sc",
-    "display" : "CRF-SC",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-se",
-    "display" : "CRF-SE",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-sp",
-    "display" : "CRF-SP",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crf-to",
-    "display" : "CRF-TO",
-    "definition" : "CONSELHO REGIONAL DE FARMÁCIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ac",
-    "display" : "CRO-AC",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-al",
-    "display" : "CRO-AL",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-am",
-    "display" : "CRO-AM",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ap",
-    "display" : "CRO-AP",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ba",
-    "display" : "CRO-BA",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ce",
-    "display" : "CRO-CE",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-df",
-    "display" : "CRO-DF",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-es",
-    "display" : "CRO-ES",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-go",
-    "display" : "CRO-GO",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ma",
-    "display" : "CRO-MA",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-mg",
-    "display" : "CRO-MG",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ms",
-    "display" : "CRO-MS",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-mt",
-    "display" : "CRO-MT",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-pa",
-    "display" : "CRO-PA",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-pb",
-    "display" : "CRO-PB",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-pe",
-    "display" : "CRO-PE",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-pi",
-    "display" : "CRO-PI",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-pr",
-    "display" : "CRO-PR",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-rj",
-    "display" : "CRO-RJ",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-rn",
-    "display" : "CRO-RN",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-ro",
-    "display" : "CRO-RO",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-rr",
-    "display" : "CRO-RR",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-rs",
-    "display" : "CRO-RS",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-sc",
-    "display" : "CRO-SC",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-se",
-    "display" : "CRO-SE",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-sp",
-    "display" : "CRO-SP",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/cro-to",
-    "display" : "CRO-TO",
-    "definition" : "CONSELHO REGIONAL DE ODONTOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ac",
-    "display" : "COREN-AC",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-al",
-    "display" : "COREN-AL",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-am",
-    "display" : "COREN-AM",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ap",
-    "display" : "COREN-AP",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ba",
-    "display" : "COREN-BA",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ce",
-    "display" : "COREN-CE",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-df",
-    "display" : "COREN-DF",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-es",
-    "display" : "COREN-ES",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-go",
-    "display" : "COREN-GO",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ma",
-    "display" : "COREN-MA",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-mg",
-    "display" : "COREN-MG",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ms",
-    "display" : "COREN-MS",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-mt",
-    "display" : "COREN-MT",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-pa",
-    "display" : "COREN-PA",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-pb",
-    "display" : "COREN-PB",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-pe",
-    "display" : "COREN-PE",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-pi",
-    "display" : "COREN-PI",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-pr",
-    "display" : "COREN-PR",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-rj",
-    "display" : "COREN-RJ",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-rn",
-    "display" : "COREN-RN",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-ro",
-    "display" : "COREN-RO",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-rr",
-    "display" : "COREN-RR",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-rs",
-    "display" : "COREN-RS",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-sc",
-    "display" : "COREN-SC",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-se",
-    "display" : "COREN-SE",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-sp",
-    "display" : "COREN-SP",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/coren-to",
-    "display" : "COREN-TO",
-    "definition" : "CONSELHO REGIONAL DE ENFERMAGEM"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ac",
-    "display" : "CRM-AC",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-al",
-    "display" : "CRM-AL",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-am",
-    "display" : "CRM-AM",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ap",
-    "display" : "CRM-AP",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ba",
-    "display" : "CRM-BA",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ce",
-    "display" : "CRM-CE",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-df",
-    "display" : "CRM-DF",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-es",
-    "display" : "CRM-ES",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-go",
-    "display" : "CRM-GO",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ma",
-    "display" : "CRM-MA",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-mg",
-    "display" : "CRM-MG",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ms",
-    "display" : "CRM-MS",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-mt",
-    "display" : "CRM-MT",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-pa",
-    "display" : "CRM-PA",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-pb",
-    "display" : "CRM-PB",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-pe",
-    "display" : "CRM-PE",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-pi",
-    "display" : "CRM-PI",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-pr",
-    "display" : "CRM-PR",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-rj",
-    "display" : "CRM-RJ",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-rn",
-    "display" : "CRM-RN",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-ro",
-    "display" : "CRM-RO",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-rr",
-    "display" : "CRM-RR",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-rs",
-    "display" : "CRM-RS",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-sc",
-    "display" : "CRM-SC",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-se",
-    "display" : "CRM-SE",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-sp",
-    "display" : "CRM-SP",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crm-to",
-    "display" : "CRM-TO",
-    "definition" : "CONSELHO REGIONAL DE MEDICINA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-ac-ro",
-    "display" : "CRP-AC-RO",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-al",
-    "display" : "CRP-AL",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-am-rr",
-    "display" : "CRP-AM-RR",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-ba",
-    "display" : "CRP-BA",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-ce",
-    "display" : "CRP-CE",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-df",
-    "display" : "CRP-DF",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-es",
-    "display" : "CRP-ES",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-go",
-    "display" : "CRP-GO",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-ma",
-    "display" : "CRP-MA",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-mg",
-    "display" : "CRP-MG",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-ms",
-    "display" : "CRP-MS",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-mt",
-    "display" : "CRP-MT",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-pa-ap",
-    "display" : "CRP-PA-AP",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-pb",
-    "display" : "CRP-PB",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-pe",
-    "display" : "CRP-PE",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-pi",
-    "display" : "CRP-PI",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-pr",
-    "display" : "CRP-PR",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-rj",
-    "display" : "CRP-RJ",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-rn",
-    "display" : "CRP-RN",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-rs",
-    "display" : "CRP-RS",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-sc",
-    "display" : "CRP-SC",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-se",
-    "display" : "CRP-SE",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-sp",
-    "display" : "CRP-SP",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crp-to",
-    "display" : "CRP-TO",
-    "definition" : "CONSELHO REGIONAL DE PSICOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-ba",
-    "display" : "CREFITO-BA",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-ce",
-    "display" : "CREFITO-CE",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-es",
-    "display" : "CREFITO-ES",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-go-df",
-    "display" : "CREFITO-GO-DF",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-ma",
-    "display" : "CREFITO-MA",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-mg",
-    "display" : "CREFITO-MG",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-ms",
-    "display" : "CREFITO-MS",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-mt",
-    "display" : "CREFITO-MT",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-pa-am-to-rr-ap",
-    "display" : "CREFITO-PA-AM-TO-RR-AP",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-pe-pb-al-rn",
-    "display" : "CREFITO-PE-PB-AL-RN",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-pi",
-    "display" : "CREFITO-PI",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-pr",
-    "display" : "CREFITO-PR",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-rj",
-    "display" : "CREFITO-RJ",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-ro-ac",
-    "display" : "CREFITO-RO-AC",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-rs",
-    "display" : "CREFITO-RS",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-sc",
-    "display" : "CREFITO-SC",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-se",
-    "display" : "CREFITO-SE",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefito-sp",
-    "display" : "CREFITO-SP",
-    "definition" : "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-al",
-    "display" : "CRN-AL",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-ba-se",
-    "display" : "CRN-BA-SE",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-ce-ma-pi",
-    "display" : "CRN-CE-MA_PI",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-df-go-mt-to",
-    "display" : "CRN-DF-GO-MT-TO",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-pa-ac-am-ap-ro-rr",
-    "display" : "CRN-PA-AC-AM-AP-RO-RR",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-pe-al-pb-rn",
-    "display" : "CRN-PE-AL-PB-RN",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-pr",
-    "display" : "CRN-PR",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-rj-es",
-    "display" : "CRN-RJ-ES",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-rs",
-    "display" : "CRN-RS",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-sc",
-    "display" : "CRN-SC",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crn-sp-ms",
-    "display" : "CRN-SP-MS",
-    "definition" : "CONSELHO REGIONAL DE NUTRICIONISTA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-am-ac-ap-pa-ro-rr",
-    "display" : "CREFONO-AM-AC-AP-PA-RO-RR",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-ce-ma-pi-rn",
-    "display" : "CREFONO-CE-MA-PI-RN",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-go-df-ms-mt-to",
-    "display" : "CREFONO-GO-DF-MS-MT-TO",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-mg-es",
-    "display" : "CREFONO-MG-ES",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-pe-al-ba-pb-se",
-    "display" : "CREFONO-PE-AL-BA-PB-SE",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-pr-sc",
-    "display" : "CREFONO-PR-SC",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-rj",
-    "display" : "CREFONO-RJ",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-rs",
-    "display" : "CREFONO-RS",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  },
-  {
-    "code" : "https://saude.gov.br/sid/crefono-sp",
-    "display" : "CREFONO-SP",
-    "definition" : "CONSELHO REGIONAL DE FONOAUDIOLOGIA"
-  }]
+    "resourceType":  "CodeSystem",
+    "id":  "BRConselhoProfissional",
+    "meta":  {
+                 "profile":  [
+                                 "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+                             ]
+             },
+    "url":  "https://terminologia.saude.gov.br/fhir/CodeSystem/BRConselhoProfissional",
+    "identifier":  [
+                       {
+                           "system":  "https://saude.gov.br/fhir/sid/codesystem",
+                           "value":  "BRConselhoProfissional"
+                       }
+                   ],
+    "version":  "0.0.1",
+    "name":  "BRConselhoProfissional",
+    "title":  "Conselhos profissionais de saúde do Brasil",
+    "status":  "draft",
+    "experimental":  true,
+    "date":  "2023-07-18T10:05:57-03:00",
+    "publisher":  "Ministério da Saúde do Brasil",
+    "contact":  [
+                    {
+                        "name":  "Ministério da Saúde do Brasil",
+                        "telecom":  [
+                                        {
+                                            "system":  "url",
+                                            "value":  "https://gov.br/saude"
+                                        },
+                                        {
+                                            "system":  "email",
+                                            "value":  "contato@gointerop.com"
+                                        }
+                                    ]
+                    },
+                    {
+                        "name":  "Italo Macedo",
+                        "telecom":  [
+                                        {
+                                            "system":  "email",
+                                            "value":  "italo@gointerop.com",
+                                            "use":  "work"
+                                        }
+                                    ]
+                    }
+                ],
+    "description":  "Esse CodeSystem inclui os conselhos profissionais de saúde do Brasil, conforme a Resolução CNS 251/1997.",
+    "jurisdiction":  [
+                         {
+                             "coding":  [
+                                            {
+                                                "system":  "urn:iso:std:iso:3166",
+                                                "code":  "BR",
+                                                "display":  "Brazil"
+                                            }
+                                        ]
+                         }
+                     ],
+    "caseSensitive":  true,
+    "content":  "complete",
+    "count":  197,
+    "concept":  [
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ac",
+                        "display":  "CRF-AC",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Acre."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-al",
+                        "display":  "CRF-AL",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Alagoas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-am",
+                        "display":  "CRF-AM",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Amazonas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ap",
+                        "display":  "CRF-AP",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Amapá."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ba",
+                        "display":  "CRF-BA",
+                        "definition":  "Conselho Regional de Farmácia do Estado da Bahia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ce",
+                        "display":  "CRF-CE",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Ceará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-df",
+                        "display":  "CRF-DF",
+                        "definition":  "Conselho Regional de Farmácia do Distrito Federal."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-es",
+                        "display":  "CRF-ES",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Espírito Santo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-go",
+                        "display":  "CRF-GO",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Goiás."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ma",
+                        "display":  "CRF-MA",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Maranhão."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-mg",
+                        "display":  "CRF-MG",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Minas Gerais."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ms",
+                        "display":  "CRF-MS",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Mato Grosso do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-mt",
+                        "display":  "CRF-MT",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Mato Grosso."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-pa",
+                        "display":  "CRF-PA",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Pará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-pb",
+                        "display":  "CRF-PB",
+                        "definition":  "Conselho Regional de Farmácia do Estado da Paraíba."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-pe",
+                        "display":  "CRF-PE",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Pernambuco."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-pi",
+                        "display":  "CRF-PI",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Piauí."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-pr",
+                        "display":  "CRF-PR",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Paraná."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-rj",
+                        "display":  "CRF-RJ",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Rio de Janeiro."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-rn",
+                        "display":  "CRF-RN",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Rio Grande do Norte."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-ro",
+                        "display":  "CRF-RO",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Rondônia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-rr",
+                        "display":  "CRF-RR",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Roraima."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-rs",
+                        "display":  "CRF-RS",
+                        "definition":  "Conselho Regional de Farmácia do Estado do Rio Grande do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-sc",
+                        "display":  "CRF-SC",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Santa Catarina."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-se",
+                        "display":  "CRF-SE",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Sergipe."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-sp",
+                        "display":  "CRF-SP",
+                        "definition":  "Conselho Regional de Farmácia do Estado de São Paulo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crf-to",
+                        "display":  "CRF-TO",
+                        "definition":  "Conselho Regional de Farmácia do Estado de Tocantins."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ac",
+                        "display":  "CRO-AC",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Acre."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-al",
+                        "display":  "CRO-AL",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Alagoas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-am",
+                        "display":  "CRO-AM",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Amazonas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ap",
+                        "display":  "CRO-AP",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Amapá."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ba",
+                        "display":  "CRO-BA",
+                        "definition":  "Conselho Regional de Odontologia do Estado da Bahia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ce",
+                        "display":  "CRO-CE",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Ceará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-df",
+                        "display":  "CRO-DF",
+                        "definition":  "Conselho Regional de Odontologia do Distrito Federal."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-es",
+                        "display":  "CRO-ES",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Espírito Santo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-go",
+                        "display":  "CRO-GO",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Goiás."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ma",
+                        "display":  "CRO-MA",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Maranhão."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-mg",
+                        "display":  "CRO-MG",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Minas Gerais."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ms",
+                        "display":  "CRO-MS",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Mato Grosso do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-mt",
+                        "display":  "CRO-MT",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Mato Grosso."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-pa",
+                        "display":  "CRO-PA",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Pará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-pb",
+                        "display":  "CRO-PB",
+                        "definition":  "Conselho Regional de Odontologia do Estado da Paraíba."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-pe",
+                        "display":  "CRO-PE",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Pernambuco."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-pi",
+                        "display":  "CRO-PI",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Piauí."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-pr",
+                        "display":  "CRO-PR",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Paraná."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-rj",
+                        "display":  "CRO-RJ",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Rio de Janeiro."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-rn",
+                        "display":  "CRO-RN",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Rio Grande do Norte."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-ro",
+                        "display":  "CRO-RO",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Rondônia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-rr",
+                        "display":  "CRO-RR",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Roraima."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-rs",
+                        "display":  "CRO-RS",
+                        "definition":  "Conselho Regional de Odontologia do Estado do Rio Grande do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-sc",
+                        "display":  "CRO-SC",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Santa Catarina."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-se",
+                        "display":  "CRO-SE",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Sergipe."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-sp",
+                        "display":  "CRO-SP",
+                        "definition":  "Conselho Regional de Odontologia do Estado de São Paulo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cro-to",
+                        "display":  "CRO-TO",
+                        "definition":  "Conselho Regional de Odontologia do Estado de Tocantins."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ac",
+                        "display":  "COREN-AC",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Acre."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-al",
+                        "display":  "COREN-AL",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Alagoas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-am",
+                        "display":  "COREN-AM",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Amazonas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ap",
+                        "display":  "COREN-AP",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Amapá."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ba",
+                        "display":  "COREN-BA",
+                        "definition":  "Conselho Regional de Enfermagem do Estado da Bahia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ce",
+                        "display":  "COREN-CE",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Ceará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-df",
+                        "display":  "COREN-DF",
+                        "definition":  "Conselho Regional de Enfermagem do Distrito Federal."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-es",
+                        "display":  "COREN-ES",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Espírito Santo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-go",
+                        "display":  "COREN-GO",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Goiás."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ma",
+                        "display":  "COREN-MA",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Maranhão."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-mg",
+                        "display":  "COREN-MG",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Minas Gerais."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ms",
+                        "display":  "COREN-MS",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Mato Grosso do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-mt",
+                        "display":  "COREN-MT",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Mato Grosso."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-pa",
+                        "display":  "COREN-PA",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Pará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-pb",
+                        "display":  "COREN-PB",
+                        "definition":  "Conselho Regional de Enfermagem do Estado da Paraíba."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-pe",
+                        "display":  "COREN-PE",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Pernambuco."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-pi",
+                        "display":  "COREN-PI",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Piauí."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-pr",
+                        "display":  "COREN-PR",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Paraná."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-rj",
+                        "display":  "COREN-RJ",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Rio de Janeiro."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-rn",
+                        "display":  "COREN-RN",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Rio Grande do Norte."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-ro",
+                        "display":  "COREN-RO",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Rondônia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-rr",
+                        "display":  "COREN-RR",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Roraima."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-rs",
+                        "display":  "COREN-RS",
+                        "definition":  "Conselho Regional de Enfermagem do Estado do Rio Grande do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-sc",
+                        "display":  "COREN-SC",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Santa Catarina."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-se",
+                        "display":  "COREN-SE",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Sergipe."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-sp",
+                        "display":  "COREN-SP",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de São Paulo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/coren-to",
+                        "display":  "COREN-TO",
+                        "definition":  "Conselho Regional de Enfermagem do Estado de Tocantins."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ac",
+                        "display":  "CRM-AC",
+                        "definition":  "Conselho Regional de Medicina do Estado do Acre."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-al",
+                        "display":  "CRM-AL",
+                        "definition":  "Conselho Regional de Medicina do Estado de Alagoas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-am",
+                        "display":  "CRM-AM",
+                        "definition":  "Conselho Regional de Medicina do Estado de Amazonas."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ap",
+                        "display":  "CRM-AP",
+                        "definition":  "Conselho Regional de Medicina do Estado do Amapá."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ba",
+                        "display":  "CRM-BA",
+                        "definition":  "Conselho Regional de Medicina do Estado da Bahia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ce",
+                        "display":  "CRM-CE",
+                        "definition":  "Conselho Regional de Medicina do Estado do Ceará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-df",
+                        "display":  "CRM-DF",
+                        "definition":  "Conselho Regional de Medicina do Distrito Federal."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-es",
+                        "display":  "CRM-ES",
+                        "definition":  "Conselho Regional de Medicina do Estado do Espírito Santo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-go",
+                        "display":  "CRM-GO",
+                        "definition":  "Conselho Regional de Medicina do Estado de Goiás."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ma",
+                        "display":  "CRM-MA",
+                        "definition":  "Conselho Regional de Medicina do Estado do Maranhão."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-mg",
+                        "display":  "CRM-MG",
+                        "definition":  "Conselho Regional de Medicina do Estado de Minas Gerais."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ms",
+                        "display":  "CRM-MS",
+                        "definition":  "Conselho Regional de Medicina do Estado de Mato Grosso do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-mt",
+                        "display":  "CRM-MT",
+                        "definition":  "Conselho Regional de Medicina do Estado de Mato Grosso."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-pa",
+                        "display":  "CRM-PA",
+                        "definition":  "Conselho Regional de Medicina do Estado do Pará."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-pb",
+                        "display":  "CRM-PB",
+                        "definition":  "Conselho Regional de Medicina do Estado da Paraíba."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-pe",
+                        "display":  "CRM-PE",
+                        "definition":  "Conselho Regional de Medicina do Estado de Pernambuco."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-pi",
+                        "display":  "CRM-PI",
+                        "definition":  "Conselho Regional de Medicina do Estado do Piauí."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-pr",
+                        "display":  "CRM-PR",
+                        "definition":  "Conselho Regional de Medicina do Estado do Paraná."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-rj",
+                        "display":  "CRM-RJ",
+                        "definition":  "Conselho Regional de Medicina do Estado do Rio de Janeiro."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-rn",
+                        "display":  "CRM-RN",
+                        "definition":  "Conselho Regional de Medicina do Estado do Rio Grande do Norte."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-ro",
+                        "display":  "CRM-RO",
+                        "definition":  "Conselho Regional de Medicina do Estado de Rondônia."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-rr",
+                        "display":  "CRM-RR",
+                        "definition":  "Conselho Regional de Medicina do Estado de Roraima."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-rs",
+                        "display":  "CRM-RS",
+                        "definition":  "Conselho Regional de Medicina do Estado do Rio Grande do Sul."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-sc",
+                        "display":  "CRM-SC",
+                        "definition":  "Conselho Regional de Medicina do Estado de Santa Catarina."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-se",
+                        "display":  "CRM-SE",
+                        "definition":  "Conselho Regional de Medicina do Estado de Sergipe."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-sp",
+                        "display":  "CRM-SP",
+                        "definition":  "Conselho Regional de Medicina do Estado de São Paulo."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crm-to",
+                        "display":  "CRM-TO",
+                        "definition":  "Conselho Regional de Medicina do Estado de Tocantins."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-ac-ro",
+                        "display":  "CRP-AC-RO",
+                        "definition":  "Conselho Regional de Psicologia da 24ª Região (AC/RO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-al",
+                        "display":  "CRP-AL",
+                        "definition":  "Conselho Regional de Psicologia da 15ª Região (AL)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-am-rr",
+                        "display":  "CRP-AM-RR",
+                        "definition":  "Conselho Regional de Psicologia da 20ª Região (AM/RR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-ba",
+                        "display":  "CRP-BA",
+                        "definition":  "Conselho Regional de Psicologia da 3ª Região (BA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-ce",
+                        "display":  "CRP-CE",
+                        "definition":  "Conselho Regional de Psicologia da 11ª Região (CE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-df",
+                        "display":  "CRP-DF",
+                        "definition":  "Conselho Regional de Psicologia da 1ª Região (DF)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-es",
+                        "display":  "CRP-ES",
+                        "definition":  "Conselho Regional de Psicologia da 16ª Região (ES)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-go",
+                        "display":  "CRP-GO",
+                        "definition":  "Conselho Regional de Psicologia da 9ª Região (GO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-ma",
+                        "display":  "CRP-MA",
+                        "definition":  "Conselho Regional de Psicologia da 22ª Região (MA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-mg",
+                        "display":  "CRP-MG",
+                        "definition":  "Conselho Regional de Psicologia da 4ª Região (MG)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-ms",
+                        "display":  "CRP-MS",
+                        "definition":  "Conselho Regional de Psicologia da 14ª Região (MS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-mt",
+                        "display":  "CRP-MT",
+                        "definition":  "Conselho Regional de Psicologia da 18ª Região (MT)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-pa-ap",
+                        "display":  "CRP-PA-AP",
+                        "definition":  "Conselho Regional de Psicologia da 10ª Região (PA/AP)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-pb",
+                        "display":  "CRP-PB",
+                        "definition":  "Conselho Regional de Psicologia da 13ª Região (PB)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-pe",
+                        "display":  "CRP-PE",
+                        "definition":  "Conselho Regional de Psicologia da 2ª Região (PE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-pi",
+                        "display":  "CRP-PI",
+                        "definition":  "Conselho Regional de Psicologia da 21ª Região (PI)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-pr",
+                        "display":  "CRP-PR",
+                        "definition":  "Conselho Regional de Psicologia da 8ª Região (PR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-rj",
+                        "display":  "CRP-RJ",
+                        "definition":  "Conselho Regional de Psicologia da 5ª Região (RJ)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-rn",
+                        "display":  "CRP-RN",
+                        "definition":  "Conselho Regional de Psicologia da 17ª Região (RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-rs",
+                        "display":  "CRP-RS",
+                        "definition":  "Conselho Regional de Psicologia da 7ª Região (RS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-sc",
+                        "display":  "CRP-SC",
+                        "definition":  "Conselho Regional de Psicologia da 12ª Região (SC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-se",
+                        "display":  "CRP-SE",
+                        "definition":  "Conselho Regional de Psicologia da 19ª Região (SE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-sp",
+                        "display":  "CRP-SP",
+                        "definition":  "Conselho Regional de Psicologia da 6ª Região (SP)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crp-to",
+                        "display":  "CRP-TO",
+                        "definition":  "Conselho Regional de Psicologia da 23ª Região (TO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-ba",
+                        "display":  "CREFITO-BA",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 7ª Região (BA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-ce",
+                        "display":  "CREFITO-CE",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 6ª Região (CE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-es",
+                        "display":  "CREFITO-ES",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 15ª Região (ES)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-go-df",
+                        "display":  "CREFITO-GO-DF",
+                        "definition":  "Conselhos Regionais de Fisioterapia e Terapia Ocupacional da 11ª Região (DF) e da 19ª Região (GO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-ma",
+                        "display":  "CREFITO-MA",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 16ª Região (MA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-mg",
+                        "display":  "CREFITO-MG",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 4ª Região (MG)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-ms",
+                        "display":  "CREFITO-MS",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 13ª Região (MS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-mt",
+                        "display":  "CREFITO-MT",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 9ª Região (MT)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-pa-am-to-rr-ap",
+                        "display":  "CREFITO-PA-AM-TO-RR-AP",
+                        "definition":  "Conselhos Regionais de Fisioterapia e Terapia Ocupacional da 12ª Região (PA/TO/AP) e da 20ª Região (AM/RR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-pe-pb-al-rn",
+                        "display":  "CREFITO-PE-PB-AL-RN",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 1ª Região (PE/PB/AL/RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-pi",
+                        "display":  "CREFITO-PI",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 14ª Região (PI)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-pr",
+                        "display":  "CREFITO-PR",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 8ª Região (PR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-rj",
+                        "display":  "CREFITO-RJ",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 2ª Região (RJ)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-ro-ac",
+                        "display":  "CREFITO-RO-AC",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 18ª Região (RO/AC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-rs",
+                        "display":  "CREFITO-RS",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 5ª Região (RS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-sc",
+                        "display":  "CREFITO-SC",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 10ª Região (SC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-se",
+                        "display":  "CREFITO-SE",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 17ª Região (SE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefito-sp",
+                        "display":  "CREFITO-SP",
+                        "definition":  "Conselho Regional de Fisioterapia e Terapia Ocupacional da 3ª Região (SP)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-al",
+                        "display":  "CRN-AL",
+                        "definition":  "Conselho Regional de Nutrição da 6ª Região (AL/PB/PE/RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-ba-se",
+                        "display":  "CRN-BA-SE",
+                        "definition":  "Conselho Regional de Nutrição da 5ª Região (BA/SE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-ce-ma-pi",
+                        "display":  "CRN-CE-MA_PI",
+                        "definition":  "Conselho Regional de Nutrição da 11ª Região (CE/MA/PI)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-df-go-mt-to",
+                        "display":  "CRN-DF-GO-MT-TO",
+                        "definition":  "Conselho Regional de Nutrição da 1ª Região (DF/GO/MT/TO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-pa-ac-am-ap-ro-rr",
+                        "display":  "CRN-PA-AC-AM-AP-RO-RR",
+                        "definition":  "Conselho Regional de Nutrição da 7ª Região (AC/AM/AP/PA/RO/RR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-pe-al-pb-rn",
+                        "display":  "CRN-PE-AL-PB-RN",
+                        "definition":  "Conselho Regional de Nutrição da 6ª Região (AL/PB/PE/RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-pr",
+                        "display":  "CRN-PR",
+                        "definition":  "Conselho Regional de Nutrição da 8ª Região (PR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-rj-es",
+                        "display":  "CRN-RJ-ES",
+                        "definition":  "Conselho Regional de Nutrição da 4ª Região (ES/RJ)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-rs",
+                        "display":  "CRN-RS",
+                        "definition":  "Conselho Regional de Nutrição da 2ª Região (RS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-sc",
+                        "display":  "CRN-SC",
+                        "definition":  "Conselho Regional de Nutrição da 10ª Região (SC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crn-sp-ms",
+                        "display":  "CRN-SP-MS",
+                        "definition":  "Conselho Regional de Nutrição da 3ª Região (SP/MS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-am-ac-ap-pa-ro-rr",
+                        "display":  "Conselho Regional de Fonoaudiologia 9ª Região (AC, AM, AP, PA, RO e RR)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 9ª Região (AC, AM, AP, PA, RO e RR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-ce-ma-pi-rn",
+                        "display":  "Conselho Regional de Fonoaudiologia 8ª Região (CE, MA, PI e RN)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 8ª Região (CE, MA, PI e RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-go-df-ms-mt-to",
+                        "display":  "Conselho Regional de Fonoaudiologia 5ª Região (DF, GO, MS, MT, e TO)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 5ª Região (DF, GO, MS, MT, e TO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-mg-es",
+                        "display":  "Conselho Regional de Fonoaudiologia 6ª Região (ES e MG)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 6ª Região (ES e MG)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-pe-al-ba-pb-se",
+                        "display":  "Conselho Regional de Fonoaudiologia 4ª Região (AL, BA, PB, PE e SE)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 4ª Região (AL, BA, PB, PE e SE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-pr-sc",
+                        "display":  "Conselho Regional de Fonoaudiologia 3ª Região (PR e SC)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 3ª Região (PR e SC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-rj",
+                        "display":  "Conselho Regional de Fonoaudiologia 1ª Região (RJ)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 1ª Região (RJ)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-rs",
+                        "display":  "Conselho Regional de Fonoaudiologia 7ª Região (RS)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 7ª Região (RS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/crefono-sp",
+                        "display":  "Conselho Regional de Fonoaudiologia 2ª Região (SP)",
+                        "definition":  "Conselho Regional de Fonoaudiologia 2ª Região (SP)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-pi",
+                        "display":  "CRESS-PI",
+                        "definition":  "Conselho Regional de Serviço Social da 22ª Região (PI)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-am",
+                        "display":  "CRESS-AM",
+                        "definition":  "Conselho Regional de Serviço Social da 15ª Região (AM)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-sc",
+                        "display":  "CRESS-SC",
+                        "definition":  "Conselho Regional de Serviço Social da 12ª Região (SC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-mt",
+                        "display":  "CRESS-MT",
+                        "definition":  "Conselho Regional de Serviço Social da 20ª Região (MT)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-rj",
+                        "display":  "CRESS-RJ",
+                        "definition":  "Conselho Regional de Serviço Social da 7ª Região (RJ)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ce",
+                        "display":  "CRESS-CE",
+                        "definition":  "Conselho Regional de Serviço Social da 3ª Região (CE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-es",
+                        "display":  "CRESS-ES",
+                        "definition":  "Conselho Regional de Serviço Social da 17ª Região (ES)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-al",
+                        "display":  "CRESS-AL",
+                        "definition":  "Conselho Regional de Serviço Social da 16ª Região (AL)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ma",
+                        "display":  "CRESS-MA",
+                        "definition":  "Conselho Regional de Serviço Social da 2ª Região (MA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-mg",
+                        "display":  "CRESS-MG",
+                        "definition":  "Conselho Regional de Serviço Social da 6ª Região (MG)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-to",
+                        "display":  "CRESS-TO",
+                        "definition":  "Conselho Regional de Serviço Social da 25ª Região (TO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ac",
+                        "display":  "CRESS-AC",
+                        "definition":  "Conselho Regional de Serviço Social da 26ª Região (AC)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-rn",
+                        "display":  "CRESS-RN",
+                        "definition":  "Conselho Regional de Serviço Social da 14ª Região (RN)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ap",
+                        "display":  "CRESS-AP",
+                        "definition":  "Conselho Regional de Serviço Social da 24ª Região (AP)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ro",
+                        "display":  "CRESS-RO",
+                        "definition":  "Conselho Regional de Serviço Social da 23ª Região (RO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-se",
+                        "display":  "CRESS-SE",
+                        "definition":  "Conselho Regional de Serviço Social da 18ª Região (SE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-pr",
+                        "display":  "CRESS-PR",
+                        "definition":  "Conselho Regional de Serviço Social da 11ª Região (PR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-pa",
+                        "display":  "CRESS-PA",
+                        "definition":  "Conselho Regional de Serviço Social da 1ª Região (PA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-go",
+                        "display":  "CRESS-GO",
+                        "definition":  "Conselho Regional de Serviço Social da 19ª Região (GO)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ms",
+                        "display":  "CRESS-MS",
+                        "definition":  "Conselho Regional de Serviço Social da 21ª Região (MS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-df",
+                        "display":  "CRESS-DF",
+                        "definition":  "Conselho Regional de Serviço Social da 8ª Região (DF)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-ba",
+                        "display":  "CRESS-BA",
+                        "definition":  "Conselho Regional de Serviço Social da 5ª Região (BA)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-pb",
+                        "display":  "CRESS-PB",
+                        "definition":  "Conselho Regional de Serviço Social da 13ª Região (PB)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-rr",
+                        "display":  "CRESS-RR",
+                        "definition":  "Conselho Regional de Serviço Social da 27ª Região (RR)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-rs",
+                        "display":  "CRESS-RS",
+                        "definition":  "Conselho Regional de Serviço Social da 10ª Região (RS)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-pe",
+                        "display":  "CRESS-PE",
+                        "definition":  "Conselho Regional de Serviço Social da 4ª Região (PE)."
+                    },
+                    {
+                        "code":  "https://saude.gov.br/fhir/sid/cress-sp",
+                        "display":  "CRESS-SP",
+                        "definition":  "Conselho Regional de Serviço Social da 9ª Região (SP)."
+                    }
+                ]
 }

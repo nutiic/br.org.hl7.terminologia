@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTerminologiaSuspeitaDiagnostica",
+  "language": "pt",
+  "name": "BRTerminologiaSuspeitaDiagnostica",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Terminologia para indicação de uma Suspeita Diagnóstica.",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTerminologiaSuspeitaDiagnostica",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaSuspeitaDiagnostica",
+    "preferred": true
+  } ]
+}

@@ -10,5 +10,23 @@
   "name": "BRTipoLogradouro",
   "title": "BR Tipo Logradouro",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "081",
+            "display": "Rua"
+          },
+          {
+            "code": "008",
+            "display": "Avenida"
+          }
+        ]
+      }
+    ]
+  }
 }

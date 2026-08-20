@@ -10,5 +10,59 @@
   "name": "BRSinaisVitais",
   "title": "BR Sinais Vitais",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "9279-1",
+            "display": "Breaths"
+          },
+          {
+            "code": "9843-4",
+            "display": "Circumference.occipital-frontal"
+          },
+          {
+            "code": "39156-5",
+            "display": "Body mass index"
+          },
+          {
+            "code": "8867-4",
+            "display": "Heart rate"
+          },
+          {
+            "code": "8310-5",
+            "display": "Body temperature"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "8462-4",
+            "display": "Intravascular diastolic"
+          },
+          {
+            "code": "8302-2",
+            "display": "Body height"
+          },
+          {
+            "code": "2708-6",
+            "display": "Oxygen saturation"
+          },
+          {
+            "code": "8280-0",
+            "display": "Circumference.at umbilicus"
+          },
+          {
+            "code": "8480-6",
+            "display": "Intravascular systolic"
+          }
+        ]
+      }
+    ]
+  }
 }

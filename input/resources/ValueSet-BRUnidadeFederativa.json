@@ -10,5 +10,147 @@
   "name": "BRUnidadeFederativa",
   "title": "BR Unidade Federativa",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "28",
+            "display": "Sergipe"
+          },
+          {
+            "code": "27",
+            "display": "Alagoas"
+          },
+          {
+            "code": "53",
+            "display": "Distrito Federal"
+          },
+          {
+            "code": "26",
+            "display": "Pernambuco"
+          },
+          {
+            "code": "52",
+            "display": "Goiás"
+          },
+          {
+            "code": "25",
+            "display": "Paraíba"
+          },
+          {
+            "code": "51",
+            "display": "Mato Grosso"
+          },
+          {
+            "code": "24",
+            "display": "Rio Grande do Norte"
+          },
+          {
+            "code": "50",
+            "display": "Mato Grosso do Sul"
+          },
+          {
+            "code": "23",
+            "display": "Ceará"
+          },
+          {
+            "code": "5",
+            "display": "Centro-Oeste"
+          },
+          {
+            "code": "22",
+            "display": "Piauí"
+          },
+          {
+            "code": "43",
+            "display": "Rio Grande do Sul"
+          },
+          {
+            "code": "21",
+            "display": "Maranhão"
+          },
+          {
+            "code": "42",
+            "display": "Santa Catarina"
+          },
+          {
+            "code": "2",
+            "display": "Nordeste"
+          },
+          {
+            "code": "41",
+            "display": "Paraná"
+          },
+          {
+            "code": "17",
+            "display": "Tocantins"
+          },
+          {
+            "code": "4",
+            "display": "Sul"
+          },
+          {
+            "code": "16",
+            "display": "Amapá"
+          },
+          {
+            "code": "34",
+            "display": "São Paulo"
+          },
+          {
+            "code": "15",
+            "display": "Pará"
+          },
+          {
+            "code": "33",
+            "display": "Rio de Janeiro"
+          },
+          {
+            "code": "14",
+            "display": "Roraima"
+          },
+          {
+            "code": "32",
+            "display": "Espírito Santo"
+          },
+          {
+            "code": "13",
+            "display": "Amazonas"
+          },
+          {
+            "code": "315780",
+            "display": "Santa Luzia"
+          },
+          {
+            "code": "12",
+            "display": "Acre"
+          },
+          {
+            "code": "31",
+            "display": "Minas Gerais"
+          },
+          {
+            "code": "11",
+            "display": "Rondônia"
+          },
+          {
+            "code": "3",
+            "display": "Sudeste"
+          },
+          {
+            "code": "1",
+            "display": "Norte"
+          },
+          {
+            "code": "29",
+            "display": "Bahia"
+          }
+        ]
+      }
+    ]
+  }
 }

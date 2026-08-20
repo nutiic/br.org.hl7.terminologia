@@ -10,5 +10,30 @@
   "name": "BRSexo",
   "title": "BR Sexo",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/administrative-gender",
+        "concept": [
+          {
+            "code": "unknown",
+            "display": "Desconhecido"
+          },
+          {
+            "code": "other",
+            "display": "Outros"
+          },
+          {
+            "code": "male",
+            "display": "Masculino"
+          },
+          {
+            "code": "female",
+            "display": "Feminino"
+          }
+        ]
+      }
+    ]
+  }
 }

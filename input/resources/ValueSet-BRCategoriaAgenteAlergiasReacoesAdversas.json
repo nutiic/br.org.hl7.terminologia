@@ -10,5 +10,39 @@
   "name": "BRCategoriaAgenteAlergiasReacoesAdversas",
   "title": "BR Categoria Agente Alergias Reacoes Adversas",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-category",
+        "concept": [
+          {
+            "code": "medication",
+            "display": "Medicamento"
+          },
+          {
+            "code": "biologic",
+            "display": "Biológico"
+          },
+          {
+            "code": "environment",
+            "display": "Ambiente"
+          },
+          {
+            "code": "food",
+            "display": "Alimento"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "OTH",
+            "display": "other"
+          }
+        ]
+      }
+    ]
+  }
 }

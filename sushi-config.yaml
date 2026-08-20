@@ -154,6 +154,415 @@ dependencies:
 #     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/PatientBRIPS
 
 
+resources:
+  CodeSystem/BRAlergenosCBARA:
+    description: "BR Alérgenos CBARA"
+  CodeSystem/BRAtendimentoPrestado:
+    description: "Atendimento Prestado"
+  CodeSystem/BRBaseLegalLGPD:
+    description: "Base Legal LGPD"
+  CodeSystem/BRCBHPMTUSS:
+    description: "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS"
+  CodeSystem/BRCBO:
+    description: "Classificação Brasileira de Ocupações - CBO"
+  CodeSystem/BRCIAP2:
+    description: "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"
+  CodeSystem/BRCID10:
+    description: "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+  CodeSystem/BRCaraterAtendimento:
+    description: "Carater Atendimento"
+  CodeSystem/BRCategoriaDiagnostico:
+    description: "Categoria do Diagnóstico"
+  CodeSystem/BRConclusaoColposcopia:
+    description: "Conclusao Colposcopia"
+  CodeSystem/BRCondicaoMaternal:
+    description: "Condição  Maternal"
+  CodeSystem/BRCondutaColposcopia:
+    description: "Conduta Colposcopia"
+  CodeSystem/BRCondutaTeleconsultoria:
+    description: "Conduta Teleconsultoria"
+  CodeSystem/BRConselhoProfissional:
+    description: "Conselhos Regionais de Profissionais da Saude"
+  CodeSystem/BRDadoAusenteOuDesconhecido:
+    description: "Classificação de dados ausentes ou desconhecidos - IPS"
+  CodeSystem/BRDesfechoProcedimento:
+    description: "Desfecho Procedimento"
+  CodeSystem/BRDireitoTitularDados:
+    description: "Direito Titular Dados"
+  CodeSystem/BRDivisaoGeograficaBrasil:
+    description: "Divisão Geográfica do Brasil"
+  CodeSystem/BRDose:
+    description: "Dose de Vacina"
+  CodeSystem/BRElegibilidadeImunobiologico:
+    description: "ElegibilidadeImunobiologico"
+  CodeSystem/BREstadoCivil:
+    description: "Estado Civil"
+  CodeSystem/BREstrategiaVacinacao:
+    description: "Estratégia de Vacinação"
+  CodeSystem/BREtniaIndigena:
+    description: "Etnia Indígena"
+  CodeSystem/BRExameHPVCEPHEID:
+    description: "Exame HPVCEPHEID"
+  CodeSystem/BRFabricantePNI:
+    description: "Fabricante do Imunobiológico"
+  CodeSystem/BRFinalidadeTratamentoDados:
+    description: "Finalidade Tratamento Dados"
+  CodeSystem/BRFormaOrganizacaoTabelaSUS:
+    description: "Forma Organizacao Tabela SUS"
+  CodeSystem/BRHPVInterpretacao:
+    description: "HPV Interpretacao"
+  CodeSystem/BRIBGE:
+    description: "Tabelas da Divisão Territorial Brasileira"
+  CodeSystem/BRIdentidadeGenero:
+    description: "Identidade Genero"
+  CodeSystem/BRImunobiologico:
+    description: "Imunobiológico"
+  CodeSystem/BRInstalacoesFisicas:
+    description: "Instalações Físicas"
+  CodeSystem/BRJustificativaIndividuoNaoIdentificado:
+    description: "Justificativa da Impossibilidade de Identificação do Indivíduo"
+  CodeSystem/BRLocalAfericao:
+    description: "Local de Aferição"
+  CodeSystem/BRLocalAplicacao:
+    description: "Local de Aplicação"
+  CodeSystem/BRMedDRA:
+    description: "MedDRA"
+  CodeSystem/BRMedicamento:
+    description: "Medicamento"
+  CodeSystem/BRModalidadeAssistencial:
+    description: "Modalidade Assistencial"
+  CodeSystem/BRModalidadeFinanceira:
+    description: "Modalidade Financeira"
+  CodeSystem/BRModalidadeTelessaude:
+    description: "Modalidade Telessaude"
+  CodeSystem/BRMotivoDesfecho:
+    description: "Motivo Desfecho"
+  CodeSystem/BRMotivoProcedimentoNaoRealizado:
+    description: "Motivo Procedimento não Realizado"
+  CodeSystem/BRMotivoRealizacaoExame:
+    description: "BRmotivoRealizacaoExame"
+  CodeSystem/BRMotivoTeleconsultoria:
+    description: "Motivo Teleconsultoria"
+  CodeSystem/BRNomeExameGAL:
+    description: "Exames do GAL"
+  CodeSystem/BRNomeExameLOINC:
+    description: "Exames LOINC"
+  CodeSystem/BRObmAMPP:
+    description: "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)"
+  CodeSystem/BRObmANVISA:
+    description: "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)"
+  CodeSystem/BRObmCATMAT:
+    description: "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)"
+  CodeSystem/BRObmEAN:
+    description: "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org"
+  CodeSystem/BRObmVMP:
+    description: "Produtos Medicinais Virtuais (VMPs)"
+  CodeSystem/BRObmVTM:
+    description: "Obm Vtm"
+  CodeSystem/BROrgaoExpedidor:
+    description: "Órgão Expedidor"
+  CodeSystem/BROrtesesProtesesImplantaveis:
+    description: "Órteses e Proteses Implantáveis"
+  CodeSystem/BRPais:
+    description: "Países"
+  CodeSystem/BRParentesco:
+    description: "Parentesco"
+  CodeSystem/BRPopulacaoTradicional:
+    description: "Populacao Tradicional"
+  CodeSystem/BRPosicaoIndividuo:
+    description: "Posição do Indivíduo"
+  CodeSystem/BRPovoItinerante:
+    description: "BRPovoItinerante"
+  CodeSystem/BRProcedencia:
+    description: "Procedencia"
+  CodeSystem/BRProgramaSaude:
+    description: "Programa de Saúde"
+  CodeSystem/BRRacaCor:
+    description: "Raça/Cor"
+  CodeSystem/BRRegistroOrigem:
+    description: "BR Registro de Origem"
+  CodeSystem/BRResponsabilidadeParticipante:
+    description: "Responsabilidade Participante"
+  CodeSystem/BRResultadoQualitativoExame:
+    description: "Resultado qualitativo do Exame"
+  CodeSystem/BRServicoEspecializado:
+    description: "Servico Especializado"
+  CodeSystem/BRSubgrupoTabelaSUS:
+    description: "Subgrupo da Tabela SUS 1.1.0"
+  CodeSystem/BRTabelaSUS:
+    description: "Tabela de procedimentos, medicamentos e OPM do SUS"
+  CodeSystem/BRTerminologiaPatogeno:
+    description: "Patógeno"
+  CodeSystem/BRTipoAleitamentoMaterno:
+    description: "Tipo Aleitamento Materno"
+  CodeSystem/BRTipoAmostraGAL:
+    description: "Tipo de Amostra Biológica"
+  CodeSystem/BRTipoDadoPessoalLGPD:
+    description: "Tipo Dado Pessoal LGPD"
+  CodeSystem/BRTipoDeficiencia:
+    description: "Tipo Deficiencia"
+  CodeSystem/BRTipoDocumento:
+    description: "Tipo de Documento"
+  CodeSystem/BRTipoEstabelecimentoSaude:
+    description: "Tipo de Estabelecimento de Saúde"
+  CodeSystem/BRTipoIdentificador:
+    description: "Tipo de Identificador"
+  CodeSystem/BRTipoLogradouro:
+    description: "Tipo de Logradouro"
+  CodeSystem/BRTipoObservacao:
+    description: "Tipo de Observação"
+  CodeSystem/BRTipoParticipante:
+    description: "Tipo do Participante"
+  CodeSystem/BRTipoResultadoAVIDEZ:
+    description: "Tipo de Resultado AVIDEZ"
+  CodeSystem/BRTipoResultadoDTNT:
+    description: "Tipo de Resultado DTNT"
+  CodeSystem/BRTipoResultadoHISPT:
+    description: "Tipo de Resultado HISPT"
+  CodeSystem/BRTipoResultadoPRAU:
+    description: "Tipo de Resultado PRAU"
+  CodeSystem/BRTipoResultadoPSNG:
+    description: "Tipo de Resultado PSNG"
+  CodeSystem/BRTipoResultadoRGNR:
+    description: "Tipo de Resultado RGNR"
+  CodeSystem/BRTipoResultadoRSBAC:
+    description: "Tipo de Resultado RSBAC"
+  CodeSystem/BRTipoResultadoRSCUL:
+    description: "Tipo de Resultado RSCUL 1.0"
+  CodeSystem/BRTipoTeleconsultoria:
+    description: "Tipo Teleconsultoria"
+  CodeSystem/BRUnidadeMedida:
+    description: "Unidade de Medida"
+  CodeSystem/BRViaAdministracao:
+    description: "Via de Administração"
+  CodeSystem/BRcondicao-amostra:
+    description: "Condicao amostra"
+  CodeSystem/TipoConvenio:
+    description: "Tipo de Convênio"
+  ValueSet/BRAlergenos:
+    description: "Alergenos"
+  ValueSet/BRAtendimentoPrestado:
+    description: "Atendimento Prestado"
+  ValueSet/BRBaseLegalLGPD:
+    description: "Base Legal LGPD"
+  ValueSet/BRCIAP2:
+    description: "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"
+  ValueSet/BRCID10:
+    description: "Classificação Internacional de Doenças - Décima Revisão - CID-10"
+  ValueSet/BRCaraterAtendimento:
+    description: "Carater Atendimento"
+  ValueSet/BRCaraterAtendimentoMIRA:
+    description: "Carater Atendimento MIRA"
+  ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas:
+    description: "Categoria Agente Alergias Reacoes Adversas"
+  ValueSet/BRCategoriaDiagnostico:
+    description: "Categoria do Diagnóstico"
+  ValueSet/BRCategoriaExame:
+    description: "Categoria Exame"
+  ValueSet/BRCategoriaProcedimento:
+    description: "Categoria Procedimento"
+  ValueSet/BRConclusaoColposcopia:
+    description: "Conclusao Colposcopia"
+  ValueSet/BRCondicaoMaternal:
+    description: "Condição  Maternal"
+  ValueSet/BRCondutaColposcopia:
+    description: "Conduta Colposcopia"
+  ValueSet/BRCondutaTeleconsultoria:
+    description: "Conduta Teleconsultoria"
+  ValueSet/BRCoreMedication-not-given:
+    description: "Core Medication not given"
+  ValueSet/BRCriticidadeAlergiasReacoesAdversas:
+    description: "Criticidade Alergias Reacoes Adversas"
+  ValueSet/BRDeficiencias:
+    description: "Deficiencias"
+  ValueSet/BRDesfechoProcedimento:
+    description: "Desfecho Procedimento"
+  ValueSet/BRDireitoTitularDados:
+    description: "Direito Titular Dados"
+  ValueSet/BRDispositivo-Medico:
+    description: "Dispositivo Medico"
+  ValueSet/BRDose:
+    description: "Dose de Vacina"
+  ValueSet/BRElegibilidadeImunobiologico:
+    description: "ElegibilidadeImunobiologico"
+  ValueSet/BREstadoCivil:
+    description: "Estado Civil"
+  ValueSet/BREstadoEvento:
+    description: "Estado Evento"
+  ValueSet/BREstadoObservacao:
+    description: "Estado Observacao"
+  ValueSet/BREstadoResolucaoDiagnosticoProblema:
+    description: "Estado Resolucao Diagnostico Problema"
+  ValueSet/BREstadoSolicitacaoMedicamento:
+    description: "Estado Solicitacao Medicamento"
+  ValueSet/BREstrategiaVacinacao:
+    description: "Estratégia de Vacinação"
+  ValueSet/BREtniaIndigena:
+    description: "Etnia Indígena"
+  ValueSet/BRExameHPV:
+    description: "Exame HPV"
+  ValueSet/BRFabricanteImunobiologico:
+    description: "Fabricante Imunobiologico"
+  ValueSet/BRFinalidadeTratamentoDados:
+    description: "Finalidade Tratamento Dados"
+  ValueSet/BRFormaOrganizacaoTabelaSUS:
+    description: "Forma Organizacao Tabela SUS"
+  ValueSet/BRFreqUsoSubstancia:
+    description: "Frequência de Uso de Álcool e/ou Tabaco"
+  ValueSet/BRGrauCertezaAlergiasReacoesAdversas:
+    description: "Grau Certeza Alergias Reacoes Adversas"
+  ValueSet/BRHPVInterpretacao:
+    description: "HPV Interpretacao"
+  ValueSet/BRIdentidadeGenero:
+    description: "Identidade Genero"
+  ValueSet/BRImunobiologico:
+    description: "Imunobiológico"
+  ValueSet/BRInstalacoesFisicas:
+    description: "Instalações Físicas"
+  ValueSet/BRJustificativaIndividuoNaoIdentificado:
+    description: "Justificativa da Impossibilidade de Identificação do Indivíduo"
+  ValueSet/BRLocalAfericao:
+    description: "Local de Aferição"
+  ValueSet/BRLocalAplicacao:
+    description: "Local de Aplicação"
+  ValueSet/BRModalidadeAssistencial:
+    description: "Modalidade Assistencial"
+  ValueSet/BRModalidadeAssistencialMIRA:
+    description: "Modalidade Assistencial MIRA"
+  ValueSet/BRModalidadeFinanceira:
+    description: "Modalidade Financeira"
+  ValueSet/BRModalidadeImagem:
+    description: "Modalidade Imagem"
+  ValueSet/BRModalidadeTelessaude:
+    description: "Modalidade Telessaude"
+  ValueSet/BRMotivoDesfecho:
+    description: "Motivo Desfecho"
+  ValueSet/BRMotivoProcedimentoNaoRealizado:
+    description: "Motivo Procedimento não Realizado"
+  ValueSet/BRMotivoRealizacaoExame:
+    description: "BRmotivoRealizacaoExame"
+  ValueSet/BRMotivoTeleconsultoria:
+    description: "Motivo Teleconsultoria"
+  ValueSet/BRMunicipio:
+    description: "Municipio"
+  ValueSet/BRNomeExame:
+    description: "Nome Exame"
+  ValueSet/BRNomeExameLOINC:
+    description: "Exames LOINC"
+  ValueSet/BROCI-IC:
+    description: "OCI IC"
+  ValueSet/BRObservationReferencia:
+    description: "Observation Referencia"
+  ValueSet/BROcupacao:
+    description: "Ocupacao"
+  ValueSet/BROrgaoExpedidor:
+    description: "Órgão Expedidor"
+  ValueSet/BROrtesesProtesesImplantaveis:
+    description: "Órteses e Proteses Implantáveis"
+  ValueSet/BRPais:
+    description: "Países"
+  ValueSet/BRParentesco:
+    description: "Parentesco"
+  ValueSet/BRPopulacaoTradicional:
+    description: "Populacao Tradicional"
+  ValueSet/BRPosicaoIndividuo:
+    description: "Posição do Indivíduo"
+  ValueSet/BRPovoItinerante:
+    description: "BRPovoItinerante"
+  ValueSet/BRPrescricaoNaoEstruturada:
+    description: "Prescricao Nao Estruturada"
+  ValueSet/BRProblemaDiagnostico:
+    description: "Problema Diagnostico"
+  ValueSet/BRProcedencia:
+    description: "Procedencia"
+  ValueSet/BRProcedimentosNacionais:
+    description: "Procedimentos Nacionais"
+  ValueSet/BRProgramaSaude:
+    description: "Programa de Saúde"
+  ValueSet/BRRacaCor:
+    description: "Raça/Cor"
+  ValueSet/BRReacoesAdversasMedDRA:
+    description: "Reacoes Adversas Med DRA"
+  ValueSet/BRRegistroOrigem:
+    description: "BR Registro de Origem"
+  ValueSet/BRResponsabilidadeParticipante:
+    description: "Responsabilidade Participante"
+  ValueSet/BRObservationRestricaoIntervaloReferencia:
+    description: "Restricao Intervalo Referencia"
+  ValueSet/BRResultadoQualitativoExame:
+    description: "Resultado qualitativo do Exame"
+  ValueSet/BRResultadoQualitativoHPV:
+    description: "Resultado Qualitativo HPV"
+  ValueSet/BRServicoEspecializado:
+    description: "Servico Especializado"
+  ValueSet/BRSexo:
+    description: "Sexo"
+  ValueSet/BRSexoNascimento:
+    description: "Sexo Nascimento"
+  ValueSet/BRSinaisVitais:
+    description: "Sinais Vitais"
+  ValueSet/BRSubgrupoTabelaSUS:
+    description: "Subgrupo da Tabela SUS 1.1.0"
+  ValueSet/BRTabelaSUS:
+    description: "Tabela de procedimentos, medicamentos e OPM do SUS"
+  ValueSet/BRTabelaSUSOCI-IC:
+    description: "Tabela SUSOCI IC"
+  ValueSet/BRTerminologiaMedicamento:
+    description: "Terminologia Medicamento"
+  ValueSet/BRTerminologiaPatogeno:
+    description: "Patógeno"
+  ValueSet/BRTerminologiaSuspeitaDiagnostica:
+    description: "Suspeita Diagnóstica"
+  ValueSet/BRTipoAleitamentoMaterno:
+    description: "Tipo Aleitamento Materno"
+  ValueSet/BRTipoAmostra:
+    description: "Tipo Amostra"
+  ValueSet/BRTipoDadoPessoal:
+    description: "Tipo Dado Pessoal"
+  ValueSet/BRTipoDadoPessoalLGPD:
+    description: "Tipo Dado Pessoal LGPD"
+  ValueSet/BRTipoDeficiencia:
+    description: "Tipo Deficiencia"
+  ValueSet/BRTipoDocumento:
+    description: "Tipo de Documento"
+  ValueSet/BRTipoDocumentoIndividuo:
+    description: "Tipo Documento Individuo"
+  ValueSet/BRTipoEstabelecimentoSaude:
+    description: "Tipo de Estabelecimento de Saúde"
+  ValueSet/BRTipoIdentificador:
+    description: "Tipo de Identificador"
+  ValueSet/BRTipoIdentificadorProcedimento:
+    description: "Tipo Identificador Procedimento"
+  ValueSet/BRTipoLogradouro:
+    description: "Tipo de Logradouro"
+  ValueSet/BRTipoObservacao:
+    description: "Tipo de Observação"
+  ValueSet/BRTipoParticipante:
+    description: "Tipo do Participante"
+  ValueSet/BRTipoTeleconsultoria:
+    description: "Tipo Teleconsultoria"
+  ValueSet/BRUnidadeFederativa:
+    description: "Unidade Federativa"
+  ValueSet/BRUnidadeMedidaMedicamento:
+    description: "Unidade Medida Medicamento"
+  ValueSet/BRViaAdministracao:
+    description: "Via de Administração"
+  ValueSet/BRcondicao-amostra:
+    description: "Condicao amostra"
+  ValueSet/BRReasonEncounter:
+    description: "Reason Encounter"
+  ValueSet/OCIOftalmo:
+    description: "OCIOftalmologia"
+  ValueSet/OCIOnco:
+    description: "OCIOncologia"
+  ValueSet/OCIOrtopedia:
+    description: "OCI Ortopedia"
+  ValueSet/OCIOtorrino:
+    description: "OCIOtorrinolaringologia"
+  ValueSet/TipoConvenio:
+    description: "Tipo de Convênio"
+
+
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
 # are provided by the templating framework, but if authors want to
@@ -196,7 +605,7 @@ pages:
 # should follow the format defined in ImplementationGuide:
 # * meta
 # * implicitRules
-# * language
+language: pt
 # * text
 # * contained
 # * extension

@@ -10,5 +10,55 @@
   "name": "BRLocalAfericao",
   "title": "BR Local Afericao",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "9",
+            "display": "Dedo da mão"
+          },
+          {
+            "code": "4",
+            "display": "Coxa esquerda"
+          },
+          {
+            "code": "8",
+            "display": "Tornozelo esquerdo"
+          },
+          {
+            "code": "6",
+            "display": "Pulso esquerdo"
+          },
+          {
+            "code": "3",
+            "display": "Coxa direita"
+          },
+          {
+            "code": "7",
+            "display": "Tornozelo direito"
+          },
+          {
+            "code": "2",
+            "display": "Braço esquerdo"
+          },
+          {
+            "code": "1",
+            "display": "Braço direito"
+          },
+          {
+            "code": "10",
+            "display": "Dedo do pé"
+          },
+          {
+            "code": "5",
+            "display": "Pulso direito"
+          }
+        ]
+      }
+    ]
+  }
 }

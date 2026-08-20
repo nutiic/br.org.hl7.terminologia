@@ -10,5 +10,31 @@
   "name": "BRDesfechoProcedimento",
   "title": "BR Desfecho Procedimento",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "04",
+            "display": "Óbito"
+          },
+          {
+            "code": "03",
+            "display": "Estabilidade Clínica"
+          },
+          {
+            "code": "02",
+            "display": "Piora Clínica"
+          },
+          {
+            "code": "01",
+            "display": "Melhora Clínica"
+          }
+        ]
+      }
+    ]
+  }
 }

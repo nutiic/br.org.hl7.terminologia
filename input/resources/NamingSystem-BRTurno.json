@@ -1,0 +1,18 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTurno",
+  "language": "pt",
+  "name": "BRTurno",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "CodeSystem utilizado para definir o turno de um dia.",
+  "uniqueId": [ {
+    "type": "uri",
+    "value": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
+    "preferred": false
+  }, {
+    "type": "uri",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTurno",
+    "preferred": true
+  } ]
+}

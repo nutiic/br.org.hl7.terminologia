@@ -10,5 +10,30 @@
   "name": "BRCoreMedication-not-given",
   "title": "BR Core Medication Not Given",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/reason-medication-not-given",
+        "concept": [
+          {
+            "code": "d",
+            "display": "Vomit"
+          },
+          {
+            "code": "c",
+            "display": "Asleep"
+          },
+          {
+            "code": "b",
+            "display": "Away"
+          },
+          {
+            "code": "a",
+            "display": "None"
+          }
+        ]
+      }
+    ]
+  }
 }

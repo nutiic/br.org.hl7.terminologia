@@ -10,5 +10,67 @@
   "name": "BREstrategiaVacinacao",
   "title": "BR Estrategia Vacinacao",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "3",
+            "display": "Bloqueio"
+          },
+          {
+            "code": "2",
+            "display": "Especial"
+          },
+          {
+            "code": "9",
+            "display": "Monitoramento rápido de cobertura vacinal"
+          },
+          {
+            "code": "13",
+            "display": "Reexposição"
+          },
+          {
+            "code": "8",
+            "display": "Serviço Privado"
+          },
+          {
+            "code": "12",
+            "display": "Pós-exposição"
+          },
+          {
+            "code": "7",
+            "display": "Soroterapia"
+          },
+          {
+            "code": "11",
+            "display": "Pré-exposição"
+          },
+          {
+            "code": "6",
+            "display": "Campanha seletiva"
+          },
+          {
+            "code": "10",
+            "display": "Pesquisa"
+          },
+          {
+            "code": "5",
+            "display": "Campanha indiscriminada"
+          },
+          {
+            "code": "4",
+            "display": "Intensificação"
+          },
+          {
+            "code": "1",
+            "display": "Rotina"
+          }
+        ]
+      }
+    ]
+  }
 }

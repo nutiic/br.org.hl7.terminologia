@@ -10,5 +10,35 @@
   "name": "TipoConvenio",
   "title": "Tipo Convenio",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "05",
+            "display": "PLANO DE SAUDE PUBLICO"
+          },
+          {
+            "code": "07",
+            "display": "GRATUIDADE"
+          },
+          {
+            "code": "02",
+            "display": "PARTICULAR"
+          },
+          {
+            "code": "06",
+            "display": "PLANO DE SAUDE PRIVADO"
+          },
+          {
+            "code": "01",
+            "display": "SUS"
+          }
+        ]
+      }
+    ]
+  }
 }

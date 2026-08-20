@@ -10,5 +10,23 @@
   "name": "BRModalidadeFinanceira",
   "title": "BR Modalidade Financeira",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "02",
+            "display": "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
+          },
+          {
+            "code": "01",
+            "display": "Unidade de saúde pública ou privada, com pagamento pelo SUS"
+          }
+        ]
+      }
+    ]
+  }
 }

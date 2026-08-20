@@ -10,5 +10,133 @@
   "name": "BRTipoObservacao",
   "title": "BR Tipo Observacao",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "IAC",
+            "display": "Informações Adicionais/Complementares"
+          },
+          {
+            "code": "RECIDI",
+            "display": "Resumo da evolução clínica do indivíduo durante a internação"
+          },
+          {
+            "code": "DSIA",
+            "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+          },
+          {
+            "code": "DF",
+            "display": "Dados do desfecho"
+          },
+          {
+            "code": "PC",
+            "display": "Perímetro Cefálico"
+          },
+          {
+            "code": "CA",
+            "display": "Circunferência Abdominal"
+          },
+          {
+            "code": "PA",
+            "display": "Pressão Arterial"
+          },
+          {
+            "code": "P",
+            "display": "Peso"
+          },
+          {
+            "code": "A",
+            "display": "Altura"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "8652-0",
+            "display": "Hospital discharge history"
+          },
+          {
+            "code": "8650-4",
+            "display": "Hospital discharge disposition"
+          },
+          {
+            "code": "8648-8",
+            "display": "Hospital course"
+          },
+          {
+            "code": "46696-1",
+            "display": "Additional comments"
+          },
+          {
+            "code": "11329-0",
+            "display": "History general"
+          },
+          {
+            "code": "9843-4",
+            "display": "Circumference.occipital-frontal"
+          },
+          {
+            "code": "8665-2",
+            "display": "Date last menstrual period"
+          },
+          {
+            "code": "8480-6",
+            "display": "Intravascular systolic"
+          },
+          {
+            "code": "8462-4",
+            "display": "Intravascular diastolic"
+          },
+          {
+            "code": "8302-2",
+            "display": "Body height"
+          },
+          {
+            "code": "8280-0",
+            "display": "Circumference.at umbilicus"
+          },
+          {
+            "code": "63895-7",
+            "display": "Breastfeeding status"
+          },
+          {
+            "code": "48767-8",
+            "display": "Annotation comment"
+          },
+          {
+            "code": "56832-9",
+            "display": "Substance abused"
+          },
+          {
+            "code": "29463-7",
+            "display": "Body weight"
+          },
+          {
+            "code": "11996-6",
+            "display": "Pregnancies"
+          },
+          {
+            "code": "11885-1",
+            "display": "Gestational age"
+          },
+          {
+            "code": "11612-9",
+            "display": "Abortions"
+          },
+          {
+            "code": "18842-5",
+            "display": "Discharge summary note"
+          }
+        ]
+      }
+    ]
+  }
 }

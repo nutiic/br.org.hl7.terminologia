@@ -10,5 +10,23 @@
   "name": "BRCategoriaDiagnostico",
   "title": "BR Categoria Diagnostico",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCategoriaDiagnostico",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "02",
+            "display": "Secundário"
+          },
+          {
+            "code": "01",
+            "display": "Principal"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,4517 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRDeficiencias",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRDeficiencias</b></p><p>Title: BRDeficiencias</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRDeficiencias</p><p>Description: No description</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRDeficiencias",
+  "version": "HEAD",
+  "name": "BRDeficiencias",
+  "title": "BRDeficiencias",
+  "status": "active",
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "R47",
+            "display": "Distúrbios da fala não classificados em outra parte"
+          },
+          {
+            "code": "R47.8",
+            "display": "Outros distúrbios da fala e os não especificados"
+          },
+          {
+            "code": "R47.1",
+            "display": "Disartria e anartria"
+          },
+          {
+            "code": "R47.0",
+            "display": "Disfasia e afasia"
+          },
+          {
+            "code": "R49",
+            "display": "Distúrbios da voz"
+          },
+          {
+            "code": "R49.8",
+            "display": "Outros distúrbios da voz e os não especificados"
+          },
+          {
+            "code": "R49.1",
+            "display": "Afonia"
+          },
+          {
+            "code": "R49.0",
+            "display": "Disfonia"
+          },
+          {
+            "code": "H53.6",
+            "display": "Cegueira noturna"
+          },
+          {
+            "code": "H54.4",
+            "display": "Cegueira em um olho"
+          },
+          {
+            "code": "H54.0",
+            "display": "Cegueira, ambos os olhos"
+          },
+          {
+            "code": "H54",
+            "display": "Cegueira e visão subnormal"
+          },
+          {
+            "code": "H54.1",
+            "display": "Cegueira em um olho e visão subnormal em outro"
+          },
+          {
+            "code": "E50.5",
+            "display": "Deficiência de vitamina A com cegueira noturna"
+          },
+          {
+            "code": "J38.0",
+            "display": "Paralisia das cordas vocais e da laringe"
+          },
+          {
+            "code": "Z97.4",
+            "display": "Presença de aparelho externo de surdez"
+          },
+          {
+            "code": "S19",
+            "display": "Outros traumatismos do pescoço e os não especificados"
+          },
+          {
+            "code": "H91.1",
+            "display": "Presbiacusia"
+          },
+          {
+            "code": "H91.3",
+            "display": "Surdo-mudez não classificada em outra parte"
+          },
+          {
+            "code": "M05",
+            "display": "Artrite reumatóide soro-positiva"
+          },
+          {
+            "code": "M05.1",
+            "display": "Doença reumatóide do pulmão"
+          },
+          {
+            "code": "M05.2",
+            "display": "Vasculite reumatóide"
+          },
+          {
+            "code": "M05.9",
+            "display": "Artrite reumatóide soro-positiva não especificada"
+          },
+          {
+            "code": "M05.3",
+            "display": "Artrite reumatóide com comprometimento de outros órgãos e sistemas"
+          },
+          {
+            "code": "M05.8",
+            "display": "Outras artrites reumatóides soro-positivas"
+          },
+          {
+            "code": "H91.0",
+            "display": "Perda de audição ototóxica"
+          },
+          {
+            "code": "H91",
+            "display": "Outras perdas de audição"
+          },
+          {
+            "code": "H90.4",
+            "display": "Perda de audição unilateral neuro-sensorial, sem restrição de audição contralateral"
+          },
+          {
+            "code": "H91.9",
+            "display": "Perda não especificada de audição"
+          },
+          {
+            "code": "H91.8",
+            "display": "Outras perdas de audição especificadas"
+          },
+          {
+            "code": "H91.2",
+            "display": "Perda de audição súbita idiopática"
+          },
+          {
+            "code": "H90.3",
+            "display": "Perda de audição bilateral neuro-sensorial"
+          },
+          {
+            "code": "H90.1",
+            "display": "Perda de audição unilateral por transtorno de condução, sem restrição de audição contralateral"
+          },
+          {
+            "code": "H90.5",
+            "display": "Perda de audição neuro-sensorial não especificada"
+          },
+          {
+            "code": "H90.7",
+            "display": "Perda de audição unilateral mista, de condução e neuro-sensorial, sem restrição de audição contralateral"
+          },
+          {
+            "code": "Q16",
+            "display": "Malformações congênitas do ouvido causando comprometimento da audição"
+          },
+          {
+            "code": "H90.6",
+            "display": "Perda de audição bilateral mista, de condução e neuro-sensorial"
+          },
+          {
+            "code": "H90.0",
+            "display": "Perda de audição bilateral devida a transtorno de condução"
+          },
+          {
+            "code": "H90.8",
+            "display": "Perda de audição mista, de condução e neuro-sensorial, não especificada"
+          },
+          {
+            "code": "H90.2",
+            "display": "Perda não especificada de audição devida a transtorno de condução"
+          },
+          {
+            "code": "H90",
+            "display": "Perda de audição por transtorno de condução e/ou neuro-sensorial"
+          },
+          {
+            "code": "Q16.9",
+            "display": "Malformação congênita do ouvido não especificada causando comprometimento da audição"
+          },
+          {
+            "code": "S02",
+            "display": "Fratura do crânio e dos ossos da face"
+          },
+          {
+            "code": "S02.0",
+            "display": "Fratura da abóbada do crânio"
+          },
+          {
+            "code": "S02.3",
+            "display": "Fratura do assoalho orbital"
+          },
+          {
+            "code": "S02.2",
+            "display": "Fratura dos ossos nasais"
+          },
+          {
+            "code": "S02.6",
+            "display": "Fratura de mandíbula"
+          },
+          {
+            "code": "S02.7",
+            "display": "Fraturas múltiplas envolvendo os ossos do crânio e da face"
+          },
+          {
+            "code": "S02.8",
+            "display": "Outras fraturas do crânio e dos ossos da face"
+          },
+          {
+            "code": "S02.1",
+            "display": "Fratura da base do crânio"
+          },
+          {
+            "code": "S02.9",
+            "display": "Fratura do crânio ou dos ossos da face, parte não especificada"
+          },
+          {
+            "code": "S02.4",
+            "display": "Fratura dos ossos malares e maxilares"
+          },
+          {
+            "code": "H54.7",
+            "display": "Perda não especificada da visão"
+          },
+          {
+            "code": "H54.6",
+            "display": "Perda não qualificada da visão em um olho"
+          },
+          {
+            "code": "H54.5",
+            "display": "Visão subnormal em um olho"
+          },
+          {
+            "code": "H54.3",
+            "display": "Perda não qualificada da visão em ambos os olhos"
+          },
+          {
+            "code": "H54.2",
+            "display": "Visão subnormal de ambos os olhos"
+          },
+          {
+            "code": "Q05",
+            "display": "Espinha bífida"
+          },
+          {
+            "code": "Q05.8",
+            "display": "Espinha bífida sacra, sem hidrocefalia"
+          },
+          {
+            "code": "Q05.6",
+            "display": "Espinha bífida torácica, sem hidrocefalia"
+          },
+          {
+            "code": "Q05.2",
+            "display": "Espinha bífida lombar com hidrocefalia"
+          },
+          {
+            "code": "Q05.4",
+            "display": "Espinha bífida não especificada, com hidrocefalia"
+          },
+          {
+            "code": "Q05.9",
+            "display": "Espinha bífida não especificada"
+          },
+          {
+            "code": "Q05.5",
+            "display": "Espinha bífida cervical, sem hidrocefalia"
+          },
+          {
+            "code": "Q05.3",
+            "display": "Espinha bífida sacra com hidrocefalia"
+          },
+          {
+            "code": "Q05.1",
+            "display": "Espinha bífida torácica com hidrocefalia"
+          },
+          {
+            "code": "Q05.0",
+            "display": "Espinha bífida cervical com hidrocefalia"
+          },
+          {
+            "code": "Q05.7",
+            "display": "Espinha bífida lombar, sem hidrocefalia"
+          },
+          {
+            "code": "F71",
+            "display": "Retardo mental moderado"
+          },
+          {
+            "code": "F71.9",
+            "display": "Retardo mental moderado - sem menção de comprometimento do comportamento"
+          },
+          {
+            "code": "F71.8",
+            "display": "Retardo mental moderado - outros comprometimentos do comportamento"
+          },
+          {
+            "code": "F71.1",
+            "display": "Retardo mental moderado - comprometimento significativo do comportamento, requerendo vigilância ou tratamento"
+          },
+          {
+            "code": "F71.0",
+            "display": "Retardo mental moderado - menção de ausência de ou de comprometimento mínimo do comportamento"
+          },
+          {
+            "code": "T04",
+            "display": "Traumatismos por esmagamento envolvendo múltiplas regiões do corpo"
+          },
+          {
+            "code": "T04.3",
+            "display": "Traumatismos por esmagamento envolvendo regiões múltiplas do(s) membro(s) inferior(es)"
+          },
+          {
+            "code": "T04.2",
+            "display": "Traumatismos por esmagamento envolvendo regiões múltiplas do(s) membro(s) superior(es)"
+          },
+          {
+            "code": "T04.9",
+            "display": "Traumatismo múltiplos por esmagamento não especificados"
+          },
+          {
+            "code": "T04.8",
+            "display": "Traumatismos por esmagamento envolvendo outras combinações de regiões do corpo"
+          },
+          {
+            "code": "T05",
+            "display": "Amputações traumáticas envolvendo múltiplas regiões do corpo"
+          },
+          {
+            "code": "T05.0",
+            "display": "Amputação traumática de ambas as mãos"
+          },
+          {
+            "code": "T05.3",
+            "display": "Amputação traumática de ambos os pés"
+          },
+          {
+            "code": "T05.2",
+            "display": "Amputação traumática de ambos os braços [qualquer nível]"
+          },
+          {
+            "code": "T05.5",
+            "display": "Amputação traumática de ambas as pernas [qualquer nível]"
+          },
+          {
+            "code": "T05.8",
+            "display": "Amputações traumáticas envolvendo outras combinações de regiões do corpo"
+          },
+          {
+            "code": "T05.6",
+            "display": "Amputação traumática de membros superiores e inferiores, qualquer combinação [qualquer nível]"
+          },
+          {
+            "code": "F84",
+            "display": "Transtornos globais do desenvolvimento"
+          },
+          {
+            "code": "F84.9",
+            "display": "Transtornos globais não especificados do desenvolvimento"
+          },
+          {
+            "code": "F84.8",
+            "display": "Outros transtornos globais do desenvolvimento"
+          },
+          {
+            "code": "F84.5",
+            "display": "Síndrome de Asperger"
+          },
+          {
+            "code": "F84.4",
+            "display": "Transtorno com hipercinesia associada a retardo mental e a movimentos estereotipados"
+          },
+          {
+            "code": "F84.3",
+            "display": "Outro transtorno desintegrativo da infância"
+          },
+          {
+            "code": "F84.2",
+            "display": "Síndrome de Rett"
+          },
+          {
+            "code": "F84.1",
+            "display": "Autismo atípico"
+          },
+          {
+            "code": "F84.0",
+            "display": "Autismo infantil"
+          },
+          {
+            "code": "T04.1",
+            "display": "Traumatismos por esmagamento envolvendo tórax com o abdome, parte inferior do dorso e da pelve"
+          },
+          {
+            "code": "T04.7",
+            "display": "Traumatismo por esmagamento do tórax com abdome, parte inferior do dorso, pelve e membro(s)"
+          },
+          {
+            "code": "T04.0",
+            "display": "Traumatismos por esmagamento envolvendo a cabeça com o pescoço"
+          },
+          {
+            "code": "T09.4",
+            "display": "Traumatismo de nervos, de raízes de nervos espinhais e de plexos não especificados do tronco"
+          },
+          {
+            "code": "T32.9",
+            "display": "Corrosões envolvendo 90% ou mais da superfície corporal"
+          },
+          {
+            "code": "T31.9",
+            "display": "Queimaduras envolvendo 90% ou mais da superfície corporal"
+          },
+          {
+            "code": "G11.4",
+            "display": "Paraplegia espástica hereditária"
+          },
+          {
+            "code": "G04.1",
+            "display": "Paraplegia espástica tropical"
+          },
+          {
+            "code": "M62.3",
+            "display": "Síndrome de imobilidade (paraplégica)"
+          },
+          {
+            "code": "G80",
+            "display": "Paralisia cerebral"
+          },
+          {
+            "code": "G80.9",
+            "display": "Paralisia cerebral não especificada"
+          },
+          {
+            "code": "G80.8",
+            "display": "Outras formas de paralisia cerebral"
+          },
+          {
+            "code": "G80.4",
+            "display": "Paralisia cerebral atáxica"
+          },
+          {
+            "code": "G80.3",
+            "display": "Paralisia cerebral discinética"
+          },
+          {
+            "code": "G80.2",
+            "display": "Paralisia cerebral hemiplégica espástica"
+          },
+          {
+            "code": "G80.1",
+            "display": "Paralisia cerebral diplégica espástica"
+          },
+          {
+            "code": "G80.0",
+            "display": "Paralisia cerebral quadriplágica espástica"
+          },
+          {
+            "code": "M73.1",
+            "display": "Bursite sifilítica"
+          },
+          {
+            "code": "M73.0",
+            "display": "Bursite gonocócica"
+          },
+          {
+            "code": "M75.5",
+            "display": "Bursite do ombro"
+          },
+          {
+            "code": "M76.4",
+            "display": "Bursite tibial colateral [Pellegrini-Stieda]"
+          },
+          {
+            "code": "M71.1",
+            "display": "Outras bursites infecciosas"
+          },
+          {
+            "code": "G71",
+            "display": "Transtornos primários dos músculos"
+          },
+          {
+            "code": "G71.9",
+            "display": "Transtorno muscular primário não especificado"
+          },
+          {
+            "code": "G71.8",
+            "display": "Outros transtornos primários dos músculos"
+          },
+          {
+            "code": "G71.3",
+            "display": "Miopatia mitocondrial não classificada em outra parte"
+          },
+          {
+            "code": "G71.2",
+            "display": "Miopatias congênitas"
+          },
+          {
+            "code": "G71.1",
+            "display": "Transtornos miotônicos"
+          },
+          {
+            "code": "G71.0",
+            "display": "Distrofia muscular"
+          },
+          {
+            "code": "M65.2",
+            "display": "Tendinite calcificada"
+          },
+          {
+            "code": "M75.2",
+            "display": "Tendinite bicepital"
+          },
+          {
+            "code": "M76.0",
+            "display": "Tendinite glútea"
+          },
+          {
+            "code": "M76.6",
+            "display": "Tendinite aquileana"
+          },
+          {
+            "code": "M76.5",
+            "display": "Tendinite patelar"
+          },
+          {
+            "code": "M76.1",
+            "display": "Tendinite do psoas"
+          },
+          {
+            "code": "M76.7",
+            "display": "Tendinite do perôneo"
+          },
+          {
+            "code": "M75.3",
+            "display": "Tendinite calcificante do ombro"
+          },
+          {
+            "code": "S14",
+            "display": "Traumatismo de nervos e da medula espinhal ao nível cervical"
+          },
+          {
+            "code": "S14.6",
+            "display": "Traumatismo de outros nervos e dos não especificados do pescoço"
+          },
+          {
+            "code": "S14.5",
+            "display": "Traumatismo dos nervos simpáticos do pescoço"
+          },
+          {
+            "code": "S14.4",
+            "display": "Traumatismo dos nervos periféricos do pescoço"
+          },
+          {
+            "code": "S14.3",
+            "display": "Traumatismo do plexo braquial"
+          },
+          {
+            "code": "S14.2",
+            "display": "Traumatismo da raiz nervosa da coluna cervical"
+          },
+          {
+            "code": "S14.1",
+            "display": "Outros traumatismos e os não especificados da medula cervical"
+          },
+          {
+            "code": "S14.0",
+            "display": "Concussão e edema da medula cervical"
+          },
+          {
+            "code": "C48.2",
+            "display": "Neoplasia maligna do peritônio"
+          },
+          {
+            "code": "C51",
+            "display": "Neoplasia maligna da vulva"
+          },
+          {
+            "code": "C51.2",
+            "display": "Neoplasia maligna do clitóris"
+          },
+          {
+            "code": "C52",
+            "display": "Neoplasia maligna da vagina"
+          },
+          {
+            "code": "C56",
+            "display": "Neoplasia maligna do ovário"
+          },
+          {
+            "code": "C57.3",
+            "display": "Neoplasia maligna do paramétrio"
+          },
+          {
+            "code": "C60",
+            "display": "Neoplasia maligna do pênis"
+          },
+          {
+            "code": "C58",
+            "display": "Neoplasia maligna da placenta"
+          },
+          {
+            "code": "C60.0",
+            "display": "Neoplasia maligna do prepúcio"
+          },
+          {
+            "code": "C61",
+            "display": "Neoplasia maligna da próstata"
+          },
+          {
+            "code": "C60.1",
+            "display": "Neoplasia maligna da glande"
+          },
+          {
+            "code": "C63.2",
+            "display": "Neoplasia maligna do escroto"
+          },
+          {
+            "code": "C63.0",
+            "display": "Neoplasia maligna do epidídimo"
+          },
+          {
+            "code": "C66",
+            "display": "Neoplasia maligna dos ureteres"
+          },
+          {
+            "code": "C67",
+            "display": "Neoplasia maligna da bexiga"
+          },
+          {
+            "code": "C69.0",
+            "display": "Neoplasia maligna da conjuntiva"
+          },
+          {
+            "code": "C69.3",
+            "display": "Neoplasia maligna da coróide"
+          },
+          {
+            "code": "C69.2",
+            "display": "Neoplasia maligna da retina"
+          },
+          {
+            "code": "C69.6",
+            "display": "Neoplasia maligna da órbita"
+          },
+          {
+            "code": "C70",
+            "display": "Neoplasia maligna das meninges"
+          },
+          {
+            "code": "C71.6",
+            "display": "Neoplasia maligna do cerebelo"
+          },
+          {
+            "code": "C76.1",
+            "display": "Neoplasia maligna do tórax"
+          },
+          {
+            "code": "C76.2",
+            "display": "Neoplasia maligna do abdome"
+          },
+          {
+            "code": "C76.3",
+            "display": "Neoplasia maligna da pelve"
+          },
+          {
+            "code": "S24",
+            "display": "Traumatismos de nervos e da medula espinhal ao nível do tórax"
+          },
+          {
+            "code": "S24.6",
+            "display": "Traumatismo de nervo do tórax não especificado"
+          },
+          {
+            "code": "S24.5",
+            "display": "Traumatismo de outros nervos do tórax"
+          },
+          {
+            "code": "S24.4",
+            "display": "Traumatismo de nervos simpáticos do tórax"
+          },
+          {
+            "code": "S24.3",
+            "display": "Traumatismo de nervos periféricos do tórax"
+          },
+          {
+            "code": "S24.2",
+            "display": "Traumatismo da raiz de nervo da coluna torácica"
+          },
+          {
+            "code": "S24.1",
+            "display": "Outros traumatismos da medula espinhal torácica e os não especificados"
+          },
+          {
+            "code": "S24.0",
+            "display": "Concussão e edema da medula espinhal torácica"
+          },
+          {
+            "code": "C25",
+            "display": "Neoplasia maligna do pâncreas"
+          },
+          {
+            "code": "C26.1",
+            "display": "Neoplasia maligna do baço"
+          },
+          {
+            "code": "C32",
+            "display": "Neoplasia maligna da laringe"
+          },
+          {
+            "code": "C17.1",
+            "display": "Neoplasia maligna do jejuno"
+          },
+          {
+            "code": "C17.2",
+            "display": "Neoplasia maligna do íleo"
+          },
+          {
+            "code": "C18",
+            "display": "Neoplasia maligna do cólon"
+          },
+          {
+            "code": "C37",
+            "display": "Neoplasia maligna do timo"
+          },
+          {
+            "code": "C38.0",
+            "display": "Neoplasia maligna do coração"
+          },
+          {
+            "code": "C38.4",
+            "display": "Neoplasia maligna da pleura"
+          },
+          {
+            "code": "C00",
+            "display": "Neoplasia maligna do lábio"
+          },
+          {
+            "code": "C41.1",
+            "display": "Neoplasia maligna da mandíbula"
+          },
+          {
+            "code": "C03",
+            "display": "Neoplasia maligna da gengiva"
+          },
+          {
+            "code": "C05",
+            "display": "Neoplasia maligna do palato"
+          },
+          {
+            "code": "C09",
+            "display": "Neoplasia maligna da amígdala"
+          },
+          {
+            "code": "C10.0",
+            "display": "Neoplasia maligna da valécula"
+          },
+          {
+            "code": "C10",
+            "display": "Neoplasia maligna da orofaringe"
+          },
+          {
+            "code": "C13",
+            "display": "Neoplasia maligna da hipofaringe"
+          },
+          {
+            "code": "C11",
+            "display": "Neoplasia maligna da nasofaringe"
+          },
+          {
+            "code": "C16.4",
+            "display": "Neoplasia maligna do piloro"
+          },
+          {
+            "code": "C16.0",
+            "display": "Neoplasia maligna da cárdia"
+          },
+          {
+            "code": "C16",
+            "display": "Neoplasia maligna do estômago"
+          },
+          {
+            "code": "S34",
+            "display": "Traumatismo dos nervos e da medula lombar ao nível do abdome, do dorso e da pelve"
+          },
+          {
+            "code": "S34.8",
+            "display": "Traumatismo de outros nervos e dos não especificados ao nível do abdome, do dorso e da pelve"
+          },
+          {
+            "code": "S34.6",
+            "display": "Traumatismo do(s) nervo(s) periférico(s) do abdome, do dorso e da pelve"
+          },
+          {
+            "code": "S34.5",
+            "display": "Traumatismo de nervos simpáticos lombares, sacros e pélvicos"
+          },
+          {
+            "code": "S34.4",
+            "display": "Traumatismo do plexo lombossacro"
+          },
+          {
+            "code": "S34.3",
+            "display": "Traumatismo de cauda eqüina"
+          },
+          {
+            "code": "S34.2",
+            "display": "Traumatismo de raiz nervosa da medula lombar e sacra"
+          },
+          {
+            "code": "S34.1",
+            "display": "Outro traumatismo da medula lombar"
+          },
+          {
+            "code": "S34.0",
+            "display": "Concussão e edema da medula lombar"
+          },
+          {
+            "code": "C50",
+            "display": "Neoplasia maligna da mama"
+          },
+          {
+            "code": "C69.1",
+            "display": "Neoplasia maligna da córnea"
+          },
+          {
+            "code": "C68.0",
+            "display": "Neoplasia maligna da uretra"
+          },
+          {
+            "code": "C62",
+            "display": "Neoplasia maligna dos testículos"
+          },
+          {
+            "code": "C54.2",
+            "display": "Neoplasia maligna do miométrio"
+          },
+          {
+            "code": "C54.1",
+            "display": "Neoplasia maligna do endométrio"
+          },
+          {
+            "code": "C53.1",
+            "display": "Neoplasia maligna do exocérvix"
+          },
+          {
+            "code": "C17.0",
+            "display": "Neoplasia maligna do duodeno"
+          },
+          {
+            "code": "C15",
+            "display": "Neoplasia maligna do esôfago"
+          },
+          {
+            "code": "C05.2",
+            "display": "Neoplasia maligna da úvula"
+          },
+          {
+            "code": "C20",
+            "display": "Neoplasia maligna do reto"
+          },
+          {
+            "code": "C18.0",
+            "display": "Neoplasia maligna do ceco"
+          },
+          {
+            "code": "C33",
+            "display": "Neoplasia maligna da traquéia"
+          },
+          {
+            "code": "C32.0",
+            "display": "Neoplasia maligna da glote"
+          },
+          {
+            "code": "C48.0",
+            "display": "Neoplasia maligna do retroperitônio"
+          },
+          {
+            "code": "C53.0",
+            "display": "Neoplasia maligna do endocérvix"
+          },
+          {
+            "code": "C71",
+            "display": "Neoplasia maligna do encéfalo"
+          },
+          {
+            "code": "T90",
+            "display": "Seqüelas de traumatismo da cabeça"
+          },
+          {
+            "code": "T90.9",
+            "display": "Seqüelas de traumatismo não especificado da cabeça"
+          },
+          {
+            "code": "T90.8",
+            "display": "Seqüelas de outros traumatismos especificados da cabeça"
+          },
+          {
+            "code": "T90.5",
+            "display": "Seqüelas de traumatismo intracraniano"
+          },
+          {
+            "code": "T90.4",
+            "display": "Seqüelas de traumatismo do olho e da órbita"
+          },
+          {
+            "code": "T90.3",
+            "display": "Seqüelas de traumatismo de nervos cranianos"
+          },
+          {
+            "code": "T90.2",
+            "display": "Seqüelas de fratura de crânio e de ossos da face"
+          },
+          {
+            "code": "T90.1",
+            "display": "Seqüelas de ferimento da cabeça"
+          },
+          {
+            "code": "T90.0",
+            "display": "Seqüelas de traumatismo superficial da cabeça"
+          },
+          {
+            "code": "C67.7",
+            "display": "Neoplasia maligna do úraco"
+          },
+          {
+            "code": "T91",
+            "display": "Seqüelas de traumatismos do pescoço e do tronco"
+          },
+          {
+            "code": "T91.9",
+            "display": "Seqüelas de traumatismo não especificado do pescoço e do tronco"
+          },
+          {
+            "code": "T91.8",
+            "display": "Seqüelas de outros traumatismos especificados do pescoço e do tronco"
+          },
+          {
+            "code": "T91.5",
+            "display": "Seqüelas de traumatismo de órgãos intra-abdominais e órgãos pélvicos"
+          },
+          {
+            "code": "T91.4",
+            "display": "Seqüelas de traumatismo de órgãos intratorácicos"
+          },
+          {
+            "code": "T91.3",
+            "display": "Seqüelas de traumatismo de medula espinhal"
+          },
+          {
+            "code": "T91.2",
+            "display": "Seqüelas de outra fratura do tórax e da pelve"
+          },
+          {
+            "code": "T91.1",
+            "display": "Seqüelas de fratura de coluna vertebral"
+          },
+          {
+            "code": "T91.0",
+            "display": "Seqüelas de traumatismo superficial e ferimento do pescoço e do tronco"
+          },
+          {
+            "code": "C51.0",
+            "display": "Neoplasia maligna dos grandes lábios"
+          },
+          {
+            "code": "C57.1",
+            "display": "Neoplasia maligna do ligamento largo"
+          },
+          {
+            "code": "C57.2",
+            "display": "Neoplasia maligna do ligamento redondo"
+          },
+          {
+            "code": "C62.0",
+            "display": "Neoplasia maligna do testículo criptorquídico"
+          },
+          {
+            "code": "C63.1",
+            "display": "Neoplasia maligna do cordão espermático"
+          },
+          {
+            "code": "C65",
+            "display": "Neoplasia maligna da pelve renal"
+          },
+          {
+            "code": "C67.6",
+            "display": "Neoplasia maligna do orifício uretérico"
+          },
+          {
+            "code": "C69.4",
+            "display": "Neoplasia maligna do corpo ciliar"
+          },
+          {
+            "code": "C70.1",
+            "display": "Neoplasia maligna das meninges espinhais"
+          },
+          {
+            "code": "C71.1",
+            "display": "Neoplasia maligna do lobo frontal"
+          },
+          {
+            "code": "C71.2",
+            "display": "Neoplasia maligna do lobo temporal"
+          },
+          {
+            "code": "C71.5",
+            "display": "Neoplasia maligna do ventrículo cerebral"
+          },
+          {
+            "code": "C71.7",
+            "display": "Neoplasia maligna do tronco cerebral"
+          },
+          {
+            "code": "C72.0",
+            "display": "Neoplasia maligna da medula espinhal"
+          },
+          {
+            "code": "C78.1",
+            "display": "Neoplasia maligna secundária do mediastino"
+          },
+          {
+            "code": "C78.0",
+            "display": "Neoplasia maligna secundária dos pulmões"
+          },
+          {
+            "code": "C78.2",
+            "display": "Neoplasia maligna secundária da pleura"
+          },
+          {
+            "code": "C79.2",
+            "display": "Neoplasia maligna secundária da pele"
+          },
+          {
+            "code": "C79.6",
+            "display": "Neoplasia maligna secundária do ovário"
+          },
+          {
+            "code": "C72.1",
+            "display": "Neoplasia maligna da cauda eqüina"
+          },
+          {
+            "code": "C72.2",
+            "display": "Neoplasia maligna do nervo olfativo"
+          },
+          {
+            "code": "C72.3",
+            "display": "Neoplasia maligna do nervo óptico"
+          },
+          {
+            "code": "C73",
+            "display": "Neoplasia maligna da glândula tireóide"
+          },
+          {
+            "code": "C75.0",
+            "display": "Neoplasia maligna da glândula paratireóide"
+          },
+          {
+            "code": "C75.4",
+            "display": "Neoplasia maligna do corpo carotídeo"
+          },
+          {
+            "code": "C76.4",
+            "display": "Neoplasia maligna do membro superior"
+          },
+          {
+            "code": "C23",
+            "display": "Neoplasia maligna da vesícula biliar"
+          },
+          {
+            "code": "C25.3",
+            "display": "Neoplasia maligna do canal pancreático"
+          },
+          {
+            "code": "C30.0",
+            "display": "Neoplasia maligna da cavidade nasal"
+          },
+          {
+            "code": "C30.1",
+            "display": "Neoplasia maligna do ouvido médio"
+          },
+          {
+            "code": "C18.1",
+            "display": "Neoplasia maligna do apêndice (vermiforme)"
+          },
+          {
+            "code": "C19",
+            "display": "Neoplasia maligna da junção retossigmóide"
+          },
+          {
+            "code": "C21.2",
+            "display": "Neoplasia maligna da zona cloacogênica"
+          },
+          {
+            "code": "C21.1",
+            "display": "Neoplasia maligna do canal anal"
+          },
+          {
+            "code": "T92",
+            "display": "Seqüelas de traumatismos do membro superior"
+          },
+          {
+            "code": "T92.9",
+            "display": "Seqüelas de traumatismo não especificado do membro superior"
+          },
+          {
+            "code": "T92.8",
+            "display": "Seqüelas de outros traumatismos especificados do membro superior"
+          },
+          {
+            "code": "T92.6",
+            "display": "Seqüelas de esmagamento e amputação traumática do membro superior"
+          },
+          {
+            "code": "T92.5",
+            "display": "Seqüelas de traumatismo de músculo e tendão do membro superior"
+          },
+          {
+            "code": "T92.4",
+            "display": "Seqüelas de traumatismo de nervo de membro superior"
+          },
+          {
+            "code": "T92.3",
+            "display": "Seqüelas de luxação, entorse e distensão do membro superior"
+          },
+          {
+            "code": "T92.2",
+            "display": "Seqüelas de fratura ao nível do punho e da mão"
+          },
+          {
+            "code": "T92.1",
+            "display": "Seqüelas de fratura do braço"
+          },
+          {
+            "code": "T92.0",
+            "display": "Seqüelas de ferimento do membro superior"
+          },
+          {
+            "code": "C32.1",
+            "display": "Neoplasia maligna da região supraglótica"
+          },
+          {
+            "code": "C32.2",
+            "display": "Neoplasia maligna da região subglótica"
+          },
+          {
+            "code": "C34.0",
+            "display": "Neoplasia maligna do brônquio principal"
+          },
+          {
+            "code": "C38.2",
+            "display": "Neoplasia maligna do mediastino posterior"
+          },
+          {
+            "code": "C38.1",
+            "display": "Neoplasia maligna do mediastino anterior"
+          },
+          {
+            "code": "C00.6",
+            "display": "Neoplasia maligna da comissura labial"
+          },
+          {
+            "code": "C02.4",
+            "display": "Neoplasia maligna da amígdala lingual"
+          },
+          {
+            "code": "C03.1",
+            "display": "Neoplasia maligna da gengiva inferior"
+          },
+          {
+            "code": "C05.1",
+            "display": "Neoplasia maligna do palato mole"
+          },
+          {
+            "code": "C05.0",
+            "display": "Neoplasia maligna do palato duro"
+          },
+          {
+            "code": "C08.1",
+            "display": "Neoplasia maligna da glândula sublingual"
+          },
+          {
+            "code": "C08.0",
+            "display": "Neoplasia maligna da glândula submandibular"
+          },
+          {
+            "code": "C07",
+            "display": "Neoplasia maligna da glândula parótida"
+          },
+          {
+            "code": "C06.0",
+            "display": "Neoplasia maligna da mucosa oral"
+          },
+          {
+            "code": "C09.0",
+            "display": "Neoplasia maligna da fossa amigdaliana"
+          },
+          {
+            "code": "C06.2",
+            "display": "Neoplasia maligna da área retromolar"
+          },
+          {
+            "code": "C10.4",
+            "display": "Neoplasia maligna da fenda branquial"
+          },
+          {
+            "code": "C13.0",
+            "display": "Neoplasia maligna da região pós-cricóidea"
+          },
+          {
+            "code": "C12",
+            "display": "Neoplasia maligna do seio piriforme"
+          },
+          {
+            "code": "C16.3",
+            "display": "Neoplasia maligna do antro pilórico"
+          },
+          {
+            "code": "T93",
+            "display": "Seqüelas de traumatismos do membro inferior"
+          },
+          {
+            "code": "T93.9",
+            "display": "Seqüelas de traumatismo não especificado do membro inferior"
+          },
+          {
+            "code": "T93.8",
+            "display": "Seqüelas de outros traumatismos especificados do membro inferior"
+          },
+          {
+            "code": "T93.6",
+            "display": "Seqüelas de esmagamento e amputação traumática do membro inferior"
+          },
+          {
+            "code": "T93.5",
+            "display": "Seqüelas de traumatismo de músculo e tendão do membro inferior"
+          },
+          {
+            "code": "T93.4",
+            "display": "Seqüelas de traumatismo de nervo do membro inferior"
+          },
+          {
+            "code": "T93.3",
+            "display": "Seqüelas de luxação, entorse e distensão do membro inferior"
+          },
+          {
+            "code": "T93.2",
+            "display": "Seqüelas de outras fraturas do membro inferior"
+          },
+          {
+            "code": "T93.1",
+            "display": "Seqüelas de fratura do fêmur"
+          },
+          {
+            "code": "T93.0",
+            "display": "Seqüelas de ferimento do membro inferior"
+          },
+          {
+            "code": "Z85",
+            "display": "História pessoal de neoplasia maligna"
+          },
+          {
+            "code": "C75.3",
+            "display": "Neoplasia maligna da glândula pineal"
+          },
+          {
+            "code": "C72.4",
+            "display": "Neoplasia maligna do nervo acústico"
+          },
+          {
+            "code": "C62.1",
+            "display": "Neoplasia maligna do testículo tópico"
+          },
+          {
+            "code": "C57.4",
+            "display": "Neoplasia maligna dos anexos uterinos"
+          },
+          {
+            "code": "C18.2",
+            "display": "Neoplasia maligna do cólon ascendente"
+          },
+          {
+            "code": "C03.0",
+            "display": "Neoplasia maligna da gengiva superior"
+          },
+          {
+            "code": "C18.4",
+            "display": "Neoplasia maligna do cólon transverso"
+          },
+          {
+            "code": "C31.2",
+            "display": "Neoplasia maligna do seio frontal"
+          },
+          {
+            "code": "C70.0",
+            "display": "Neoplasia maligna das meninges cerebrais"
+          },
+          {
+            "code": "C18.7",
+            "display": "Neoplasia maligna do cólon sigmóide"
+          },
+          {
+            "code": "C18.6",
+            "display": "Neoplasia maligna do cólon descendente"
+          },
+          {
+            "code": "C17",
+            "display": "Neoplasia maligna do intestino delgado"
+          },
+          {
+            "code": "C41.2",
+            "display": "Neoplasia maligna da coluna vertebral"
+          },
+          {
+            "code": "C31.3",
+            "display": "Neoplasia maligna do seio esfenoidal"
+          },
+          {
+            "code": "C31.1",
+            "display": "Neoplasia maligna do seio etmoidal"
+          },
+          {
+            "code": "C31.0",
+            "display": "Neoplasia maligna do seio maxilar"
+          },
+          {
+            "code": "C25.4",
+            "display": "Neoplasia maligna do pâncreas endócrino"
+          },
+          {
+            "code": "C51.1",
+            "display": "Neoplasia maligna dos pequenos lábios"
+          },
+          {
+            "code": "C71.4",
+            "display": "Neoplasia maligna do lobo occipital"
+          },
+          {
+            "code": "C71.3",
+            "display": "Neoplasia maligna do lobo parietal"
+          },
+          {
+            "code": "T98.3",
+            "display": "Seqüelas de complicações dos cuidados médicos e cirúrgicos não classificados em outra parte"
+          },
+          {
+            "code": "T98.2",
+            "display": "Seqüelas de algumas complicações precoces de traumatismos"
+          },
+          {
+            "code": "T98.1",
+            "display": "Seqüelas em outros efeitos de causas externas e os não especificados"
+          },
+          {
+            "code": "T98.0",
+            "display": "Seqüelas dos efeitos da penetração de corpo estranho através de orifício natural"
+          },
+          {
+            "code": "T98",
+            "display": "Seqüelas de outros efeitos de causas externas e dos não especificados"
+          },
+          {
+            "code": "T97",
+            "display": "Seqüelas de efeitos tóxicos de substâncias de origem predominantemente não-medicinal"
+          },
+          {
+            "code": "T96",
+            "display": "Seqüelas de intoxicação por drogas, medicamentos e substâncias biológicas"
+          },
+          {
+            "code": "T95.9",
+            "display": "Seqüelas de queimadura, corrosão e geladura de local não especificado"
+          },
+          {
+            "code": "T95.8",
+            "display": "Seqüelas de outra queimadura, corrosões e geladuras especificadas"
+          },
+          {
+            "code": "T95.4",
+            "display": "Seqüelas de queimadura e corrosão classificável só de acordo com a extensão da área corporal envolvida"
+          },
+          {
+            "code": "T95.3",
+            "display": "Seqüelas de queimadura, corrosão e geladura do membro inferior"
+          },
+          {
+            "code": "T95.2",
+            "display": "Seqüelas de queimadura, corrosão e geladura do membro superior"
+          },
+          {
+            "code": "T95.1",
+            "display": "Seqüelas de queimadura, corrosão e geladura do tronco"
+          },
+          {
+            "code": "T95.0",
+            "display": "Seqüelas de queimadura, corrosão e geladura da cabeça e pescoço"
+          },
+          {
+            "code": "T95",
+            "display": "Seqüelas de queimaduras, corrosões e geladuras"
+          },
+          {
+            "code": "T94.1",
+            "display": "Seqüelas de traumatismos não especificados por regiões do corpo"
+          },
+          {
+            "code": "T94.0",
+            "display": "Seqüelas de traumatismos envolvendo regiões múltiplas do corpo"
+          },
+          {
+            "code": "T94",
+            "display": "Seqüelas de traumatismos envolvendo múltiplas regiões do corpo e as não especificadas"
+          },
+          {
+            "code": "C68.1",
+            "display": "Neoplasia maligna da glândula parauretral"
+          },
+          {
+            "code": "Q99.9",
+            "display": "Anomalia cromossômica não especificada"
+          },
+          {
+            "code": "Q99.8",
+            "display": "Outras anomalias cromossômicas especificadas"
+          },
+          {
+            "code": "Q99.2",
+            "display": "Cromossomo X frágil"
+          },
+          {
+            "code": "Q99.1",
+            "display": "Hermafrodite verdadeiro 46, XX"
+          },
+          {
+            "code": "Q99.0",
+            "display": "Quimera 46, XX/46, XY"
+          },
+          {
+            "code": "Q99",
+            "display": "Outras anomalias dos cromossomos, não classificadas em outra parte"
+          },
+          {
+            "code": "Q98.9",
+            "display": "Anomalias não especificadas dos cromossomos sexuais, fenótipo masculino"
+          },
+          {
+            "code": "Q98.8",
+            "display": "Outras anomalias especificadas dos cromossomos sexuais, fenótipo masculino"
+          },
+          {
+            "code": "Q98.7",
+            "display": "Homem com mosaicismo dos cromossomos sexuais"
+          },
+          {
+            "code": "Q98.6",
+            "display": "Homem com cromossomos sexuais de estrutura anormal"
+          },
+          {
+            "code": "Q98.5",
+            "display": "Cariótipo 47, XYY"
+          },
+          {
+            "code": "Q98.4",
+            "display": "Síndrome de Klinefelter não especificada"
+          },
+          {
+            "code": "Q98.3",
+            "display": "Outro homem com cariótipo 46, XX"
+          },
+          {
+            "code": "Q98.2",
+            "display": "Síndrome de Klinefelter, homem com cariótipo 46, XX"
+          },
+          {
+            "code": "Q98.1",
+            "display": "Síndrome de Klinefelter, homem com mais de dois cromossomos X"
+          },
+          {
+            "code": "Q98.0",
+            "display": "Síndrome de Klinefelter, cariótipo 47, XXY"
+          },
+          {
+            "code": "Q98",
+            "display": "Outras anomalias dos cromossomos sexuais, fenótipo masculino, não classificadas em outra parte"
+          },
+          {
+            "code": "Q97.9",
+            "display": "Anomalias não especificadas dos cromossomos sexuais, fenótipo feminino"
+          },
+          {
+            "code": "Q97.8",
+            "display": "Outras anomalias especificadas dos cromossomos sexuais, fenótipo feminino"
+          },
+          {
+            "code": "Q97.3",
+            "display": "Mulher com cariótipo 46, XY"
+          },
+          {
+            "code": "Q97.2",
+            "display": "Mosaicismo cromossômico, linhagens com diversos números de cromossomos X"
+          },
+          {
+            "code": "Q97.1",
+            "display": "Mulher com mais de três cromossomos X"
+          },
+          {
+            "code": "Q97.0",
+            "display": "Cariótipo 47, XXX"
+          },
+          {
+            "code": "Q97",
+            "display": "Outras anomalias dos cromossomos sexuais, fenótipo feminino, não classificadas em outra parte"
+          },
+          {
+            "code": "Q96.9",
+            "display": "Síndrome de Turner não especificada"
+          },
+          {
+            "code": "Q96.8",
+            "display": "Outras variantes da síndrome de Turner"
+          },
+          {
+            "code": "Q96.4",
+            "display": "Mosaicismo cromossômico, 45, X/outra(s) linhagens celular(es) com cromossomo sexual anormal"
+          },
+          {
+            "code": "Q96.3",
+            "display": "Mosaicismo cromossômico, 45, X/46, XX ou XY"
+          },
+          {
+            "code": "Q96.2",
+            "display": "Cariótipo 46, X com cromossomo sexual anormal, salvo iso (Xq)"
+          },
+          {
+            "code": "Q96.1",
+            "display": "Cariótipo 46, X iso (Xq)"
+          },
+          {
+            "code": "Q96.0",
+            "display": "Cariótipo 45, X"
+          },
+          {
+            "code": "Q96",
+            "display": "Síndrome de Turner"
+          },
+          {
+            "code": "Q95.9",
+            "display": "Rearranjos e marcadores equilibrados não especificados"
+          },
+          {
+            "code": "Q95.8",
+            "display": "Outros rearranjos e marcadores equilibrados"
+          },
+          {
+            "code": "Q95.5",
+            "display": "Sujeito com sítio autossômico frágil"
+          },
+          {
+            "code": "Q95.4",
+            "display": "Sujeito com marcador de heterocromatina"
+          },
+          {
+            "code": "Q95.3",
+            "display": "Rearranjo sexual/autossômico equilibrado em sujeito anormal"
+          },
+          {
+            "code": "Q95.2",
+            "display": "Rearranjo autossômico equilibrado em sujeito anormal"
+          },
+          {
+            "code": "Q95.1",
+            "display": "Inversão cromossômica em sujeito normal"
+          },
+          {
+            "code": "Q95.0",
+            "display": "Translocação ou inserção equilibrada em sujeito normal"
+          },
+          {
+            "code": "Q95",
+            "display": "Rearranjos equilibrados e marcadores estruturais, não classificados em outra parte"
+          },
+          {
+            "code": "Q93.9",
+            "display": "Deleções não especificadas dos autossomos"
+          },
+          {
+            "code": "Q93.8",
+            "display": "Outras deleções dos autossomos"
+          },
+          {
+            "code": "Q93.7",
+            "display": "Deleções com outros rearranjos complexos"
+          },
+          {
+            "code": "Q93.6",
+            "display": "Deleções vistas somente na prometáfase"
+          },
+          {
+            "code": "Q93.5",
+            "display": "Outras deleções parciais de cromossomo"
+          },
+          {
+            "code": "Q93.4",
+            "display": "Deleção do braço curto do cromossomo 5"
+          },
+          {
+            "code": "Q93.3",
+            "display": "Deleção do braço curto do cromossomo 4"
+          },
+          {
+            "code": "Q93.2",
+            "display": "Cromossomo substituído por anel ou dicêntrico"
+          },
+          {
+            "code": "Q93.1",
+            "display": "Monossomia de cromossomo inteiro, mosaicismo cromossômico (não-disjunção mitótica)"
+          },
+          {
+            "code": "Q93.0",
+            "display": "Monossomia de cromossomo inteiro, não-disjunção meiótica"
+          },
+          {
+            "code": "Q93",
+            "display": "Monossomias e deleções dos autossomos, não classificadas em outra parte"
+          },
+          {
+            "code": "Q92.9",
+            "display": "Trissomia e trissomia parcial não especificada dos autossomos"
+          },
+          {
+            "code": "Q92.8",
+            "display": "Outras trissomias especificadas e trissomias parciais dos autossomos"
+          },
+          {
+            "code": "Q92.7",
+            "display": "Triploidia e poliploidia"
+          },
+          {
+            "code": "Q92.6",
+            "display": "Cromossomos marcadores suplementares"
+          },
+          {
+            "code": "Q92.5",
+            "display": "Duplicação com outros rearranjos complexos"
+          },
+          {
+            "code": "Q92.4",
+            "display": "Duplicações vistas somente na prometáfase"
+          },
+          {
+            "code": "Q92.3",
+            "display": "Trissomia parcial minor"
+          },
+          {
+            "code": "Q92.2",
+            "display": "Trissomia parcial major"
+          },
+          {
+            "code": "Q92.1",
+            "display": "Trissomia de um cromossomo inteiro, mosaicismo cromossômico (não-disjunção mitótica)"
+          },
+          {
+            "code": "Q92.0",
+            "display": "Trissomia de um cromossomo inteiro, não-disjunção meiótica"
+          },
+          {
+            "code": "Q92",
+            "display": "Outras trissomias e trissomias parciais dos autossomos, não classificadas em outra parte"
+          },
+          {
+            "code": "Q91.7",
+            "display": "Síndrome de Patau não especificada"
+          },
+          {
+            "code": "Q91.6",
+            "display": "Trissomia 13, translocação"
+          },
+          {
+            "code": "Q91.5",
+            "display": "Trissomia 13, mosaicismo cromossômico (não-disjunção mitótica)"
+          },
+          {
+            "code": "Q91.4",
+            "display": "Trissomia 13, não-disjunção meiótica"
+          },
+          {
+            "code": "Q91.3",
+            "display": "Síndrome de Edwards não especificada"
+          },
+          {
+            "code": "Q91.2",
+            "display": "Trissomia 18, translocação"
+          },
+          {
+            "code": "Q91.1",
+            "display": "Trissomia 18, mosaicismo cromossômico (não-disjunção mitótica)"
+          },
+          {
+            "code": "Q91.0",
+            "display": "Trissomia 18, não-disjunção meiótica"
+          },
+          {
+            "code": "Q91",
+            "display": "Síndrome de Edwards e síndrome de Patau"
+          },
+          {
+            "code": "Q90.9",
+            "display": "Síndrome de Down não especificada"
+          },
+          {
+            "code": "Q90.2",
+            "display": "Trissomia 21, translocação"
+          },
+          {
+            "code": "Q90.1",
+            "display": "Trissomia 21, mosaicismo (não-disjunção mitótica)"
+          },
+          {
+            "code": "Q90.0",
+            "display": "Trissomia 21, não-disjunção meiótica"
+          },
+          {
+            "code": "Q90",
+            "display": "Síndrome de Down"
+          },
+          {
+            "code": "C51.9",
+            "display": "Neoplasia maligna da vulva, não especificada"
+          },
+          {
+            "code": "C53",
+            "display": "Neoplasia maligna do colo do útero"
+          },
+          {
+            "code": "C54",
+            "display": "Neoplasia maligna do corpo do útero"
+          },
+          {
+            "code": "C54.0",
+            "display": "Neoplasia maligna do istmo do útero"
+          },
+          {
+            "code": "C54.3",
+            "display": "Neoplasia maligna do fundo do útero"
+          },
+          {
+            "code": "C57.0",
+            "display": "Neoplasia maligna da trompa de Falópio"
+          },
+          {
+            "code": "C60.9",
+            "display": "Neoplasia maligna do pênis, não especificado"
+          },
+          {
+            "code": "C60.2",
+            "display": "Neoplasia maligna do corpo do pênis"
+          },
+          {
+            "code": "C67.0",
+            "display": "Neoplasia maligna do trígono da bexiga"
+          },
+          {
+            "code": "C67.5",
+            "display": "Neoplasia maligna do colo da bexiga"
+          },
+          {
+            "code": "C74.0",
+            "display": "Neoplasia maligna do córtex da supra-renal"
+          },
+          {
+            "code": "C22.9",
+            "display": "Neoplasia maligna do fígado, não especificada"
+          },
+          {
+            "code": "C24.0",
+            "display": "Neoplasia maligna das vias biliares extra-hepáticas"
+          },
+          {
+            "code": "C25.2",
+            "display": "Neoplasia maligna da cauda do pâncreas"
+          },
+          {
+            "code": "C25.1",
+            "display": "Neoplasia maligna do corpo do pâncreas"
+          },
+          {
+            "code": "C25.0",
+            "display": "Neoplasia maligna da cabeça do pâncreas"
+          },
+          {
+            "code": "C31",
+            "display": "Neoplasia maligna dos seios da face"
+          },
+          {
+            "code": "C17.3",
+            "display": "Neoplasia maligna do divertículo de Meckel"
+          },
+          {
+            "code": "C18.9",
+            "display": "Neoplasia maligna do cólon, não especificado"
+          },
+          {
+            "code": "C21.0",
+            "display": "Neoplasia maligna do ânus, não especificado"
+          },
+          {
+            "code": "C32.3",
+            "display": "Neoplasia maligna das cartilagens da laringe"
+          },
+          {
+            "code": "C00.0",
+            "display": "Neoplasia maligna do lábio superior externo"
+          },
+          {
+            "code": "C44.0",
+            "display": "Neoplasia maligna da pele do lábio"
+          },
+          {
+            "code": "C00.1",
+            "display": "Neoplasia maligna do lábio inferior externo"
+          },
+          {
+            "code": "C01",
+            "display": "Neoplasia maligna da base da língua"
+          },
+          {
+            "code": "C00.9",
+            "display": "Neoplasia maligna do lábio, não especificado"
+          },
+          {
+            "code": "C02.9",
+            "display": "Neoplasia maligna da língua, não especificada"
+          },
+          {
+            "code": "C02.1",
+            "display": "Neoplasia maligna da borda da língua"
+          },
+          {
+            "code": "C04",
+            "display": "Neoplasia maligna do assoalho da boca"
+          },
+          {
+            "code": "C03.9",
+            "display": "Neoplasia maligna da gengiva, não especificada"
+          },
+          {
+            "code": "C05.9",
+            "display": "Neoplasia maligna do palato, não especificado"
+          },
+          {
+            "code": "F29",
+            "display": "Psicose não-orgânica não especificada"
+          },
+          {
+            "code": "F28",
+            "display": "Outros transtornos psicóticos não-orgânicos"
+          },
+          {
+            "code": "F25.9",
+            "display": "Transtorno esquizoafetivo não especificado"
+          },
+          {
+            "code": "F25.8",
+            "display": "Outros transtornos esquizoafetivos"
+          },
+          {
+            "code": "F25.2",
+            "display": "Transtorno esquizoafetivo do tipo misto"
+          },
+          {
+            "code": "F25.1",
+            "display": "Transtorno esquizoafetivo do tipo depressivo"
+          },
+          {
+            "code": "F25.0",
+            "display": "Transtorno esquizoafetivo do tipo maníaco"
+          },
+          {
+            "code": "F25",
+            "display": "Transtornos esquizoafetivos"
+          },
+          {
+            "code": "F24",
+            "display": "Transtorno delirante induzido"
+          },
+          {
+            "code": "F23.9",
+            "display": "Transtorno psicótico agudo e transitório não especificado"
+          },
+          {
+            "code": "F23.8",
+            "display": "Outros transtornos psicóticos agudos e transitórios"
+          },
+          {
+            "code": "F23.3",
+            "display": "Outros transtornos psicóticos agudos, essencialmente delirantes"
+          },
+          {
+            "code": "F23.2",
+            "display": "Transtorno psicótico agudo de tipo esquizofrênico (schizophrenia-like)"
+          },
+          {
+            "code": "F23.1",
+            "display": "Transtorno psicótico agudo polimorfo, com sintomas esquizofrênicos"
+          },
+          {
+            "code": "F23.0",
+            "display": "Transtorno psicótico agudo polimorfo, sem sintomas esquizofrênicos"
+          },
+          {
+            "code": "F23",
+            "display": "Transtornos psicóticos agudos e transitórios"
+          },
+          {
+            "code": "F22.9",
+            "display": "Transtorno delirante persistente não especificado"
+          },
+          {
+            "code": "F22.8",
+            "display": "Outros transtornos delirantes persistentes"
+          },
+          {
+            "code": "F22.0",
+            "display": "Transtorno delirante"
+          },
+          {
+            "code": "F22",
+            "display": "Transtornos delirantes persistentes"
+          },
+          {
+            "code": "F21",
+            "display": "Transtorno esquizotípico"
+          },
+          {
+            "code": "F20.9",
+            "display": "Esquizofrenia não especificada"
+          },
+          {
+            "code": "F20.8",
+            "display": "Outras esquizofrenias"
+          },
+          {
+            "code": "F20.6",
+            "display": "Esquizofrenia simples"
+          },
+          {
+            "code": "F20.5",
+            "display": "Esquizofrenia residual"
+          },
+          {
+            "code": "F20.4",
+            "display": "Depressão pós-esquizofrênica"
+          },
+          {
+            "code": "F20.3",
+            "display": "Esquizofrenia indiferenciada"
+          },
+          {
+            "code": "F20.2",
+            "display": "Esquizofrenia catatônica"
+          },
+          {
+            "code": "F20.1",
+            "display": "Esquizofrenia hebefrênica"
+          },
+          {
+            "code": "F20.0",
+            "display": "Esquizofrenia paranóide"
+          },
+          {
+            "code": "F20",
+            "display": "Esquizofrenia"
+          },
+          {
+            "code": "C06.9",
+            "display": "Neoplasia maligna da boca, não especificada"
+          },
+          {
+            "code": "C06.1",
+            "display": "Neoplasia maligna do vestíbulo da boca"
+          },
+          {
+            "code": "C10.9",
+            "display": "Neoplasia maligna da orofaringe, não especificada"
+          },
+          {
+            "code": "C11.9",
+            "display": "Neoplasia maligna da nasofaringe, não especificada"
+          },
+          {
+            "code": "C16.2",
+            "display": "Neoplasia maligna do corpo do estômago"
+          },
+          {
+            "code": "C16.1",
+            "display": "Neoplasia maligna do fundo do estômago"
+          },
+          {
+            "code": "C15.9",
+            "display": "Neoplasia maligna do esôfago, não especificado"
+          },
+          {
+            "code": "C14.0",
+            "display": "Neoplasia maligna da faringe, não especificada"
+          },
+          {
+            "code": "F31",
+            "display": "Transtorno afetivo bipolar"
+          },
+          {
+            "code": "F31.9",
+            "display": "Transtorno afetivo bipolar não especificado"
+          },
+          {
+            "code": "F31.8",
+            "display": "Outros transtornos afetivos bipolares"
+          },
+          {
+            "code": "F31.7",
+            "display": "Transtorno afetivo bipolar, atualmente em remissão"
+          },
+          {
+            "code": "F31.6",
+            "display": "Transtorno afetivo bipolar, episódio atual misto"
+          },
+          {
+            "code": "F31.5",
+            "display": "Transtorno afetivo bipolar, episódio atual depressivo grave com sintomas psicóticos"
+          },
+          {
+            "code": "F31.4",
+            "display": "Transtorno afetivo bipolar, episódio atual depressivo grave sem sintomas psicóticos"
+          },
+          {
+            "code": "F31.3",
+            "display": "Transtorno afetivo bipolar, episódio atual depressivo leve ou moderado"
+          },
+          {
+            "code": "F31.2",
+            "display": "Transtorno afetivo bipolar, episódio atual maníaco com sintomas psicóticos"
+          },
+          {
+            "code": "F31.1",
+            "display": "Transtorno afetivo bipolar, episódio atual maníaco sem sintomas psicóticos"
+          },
+          {
+            "code": "F31.0",
+            "display": "Transtorno afetivo bipolar, episódio atual hipomaníaco"
+          },
+          {
+            "code": "C50.9",
+            "display": "Neoplasia maligna da mama, não especificada"
+          },
+          {
+            "code": "C78.4",
+            "display": "Neoplasia maligna secundária do intestino delgado"
+          },
+          {
+            "code": "C71.9",
+            "display": "Neoplasia maligna do encéfalo, não especificado"
+          },
+          {
+            "code": "C69.9",
+            "display": "Neoplasia maligna do olho, não especificado"
+          },
+          {
+            "code": "C50.0",
+            "display": "Neoplasia maligna do mamilo e aréola"
+          },
+          {
+            "code": "C44.5",
+            "display": "Neoplasia maligna da pele do tronco"
+          },
+          {
+            "code": "Z99.0",
+            "display": "Dependência de aspirador"
+          },
+          {
+            "code": "Z99",
+            "display": "Dependência de máquinas e dispositivos capacitantes, não classificados em outra parte"
+          },
+          {
+            "code": "Z98.8",
+            "display": "Outros estados pós-cirúrgicos especificados"
+          },
+          {
+            "code": "Z98.2",
+            "display": "Presença de dispositivo de drenagem do líquor"
+          },
+          {
+            "code": "Z98.1",
+            "display": "Artrodese"
+          },
+          {
+            "code": "Z98.0",
+            "display": "Derivação intestinal ou anastomose intestinal"
+          },
+          {
+            "code": "Z98",
+            "display": "Outros estados pós-cirúrgicos"
+          },
+          {
+            "code": "Z97.8",
+            "display": "Presença de outros dispositivos especificados"
+          },
+          {
+            "code": "Z97.1",
+            "display": "Presença de membro artificial (completo) (parcial)"
+          },
+          {
+            "code": "Z97.0",
+            "display": "Presença de olho artificial"
+          },
+          {
+            "code": "Z97",
+            "display": "Presença de outros dispositivos protéticos"
+          },
+          {
+            "code": "Z96.9",
+            "display": "Presença de implante funcional não especificado"
+          },
+          {
+            "code": "Z96.8",
+            "display": "Presença de outros implantes funcionais especificados"
+          },
+          {
+            "code": "Z96.7",
+            "display": "Presença de outros implantes de osso e tendão"
+          },
+          {
+            "code": "Z96.6",
+            "display": "Presença de implantes articulares ortopédicos"
+          },
+          {
+            "code": "Z96.5",
+            "display": "Presença de raiz dentária e implantes mandibulares"
+          },
+          {
+            "code": "Z96.4",
+            "display": "Presença de implantes endócrinos"
+          },
+          {
+            "code": "Z96.2",
+            "display": "Presença de implante otológicos e audiológicos"
+          },
+          {
+            "code": "Z96.1",
+            "display": "Presença de lente intra-ocular"
+          },
+          {
+            "code": "Z96.0",
+            "display": "Presença de implantes urogenitais"
+          },
+          {
+            "code": "Z96",
+            "display": "Presença de outros implantes funcionais"
+          },
+          {
+            "code": "Z95.9",
+            "display": "Presença de implante e enxerto cardíaco e vascular não especificado"
+          },
+          {
+            "code": "Z95.8",
+            "display": "Presença de outros implantes e enxertos cardíacos e vasculares"
+          },
+          {
+            "code": "Z95.5",
+            "display": "Presença de implante e enxerto de angioplastia coronária"
+          },
+          {
+            "code": "Z95.4",
+            "display": "Presença de outras substituições valvares cardíacas"
+          },
+          {
+            "code": "Z95.3",
+            "display": "Presença de valva cardíaca xenógena"
+          },
+          {
+            "code": "Z95.2",
+            "display": "Presença de prótese de válvula cardíaca"
+          },
+          {
+            "code": "Z95.1",
+            "display": "Presença de enxerto de ponte [\"bypass\"] aortocoronária"
+          },
+          {
+            "code": "Z95.0",
+            "display": "Presença de marca-passo cardíaco"
+          },
+          {
+            "code": "Z95",
+            "display": "Presença de implantes e enxertos cardíacos e vasculares"
+          },
+          {
+            "code": "Z94.9",
+            "display": "Órgão e tecido não especificado transplantado"
+          },
+          {
+            "code": "Z94.8",
+            "display": "Outros órgãos e tecidos transplantados"
+          },
+          {
+            "code": "Z94.7",
+            "display": "Córnea transplantada"
+          },
+          {
+            "code": "Z94.6",
+            "display": "Osso transplantado"
+          },
+          {
+            "code": "Z94.5",
+            "display": "Pele transplantada"
+          },
+          {
+            "code": "Z94.4",
+            "display": "Fígado transplantado"
+          },
+          {
+            "code": "Z94.3",
+            "display": "Coração e pulmões transplantados"
+          },
+          {
+            "code": "Z94.2",
+            "display": "Pulmão transplantado"
+          },
+          {
+            "code": "Z94.1",
+            "display": "Coração transplantado"
+          },
+          {
+            "code": "Z94.0",
+            "display": "Rim transplantado"
+          },
+          {
+            "code": "Z94",
+            "display": "Órgãos e tecidos transplantados"
+          },
+          {
+            "code": "Z93.9",
+            "display": "Orifício artificial não especificado"
+          },
+          {
+            "code": "Z93.8",
+            "display": "Outros orifícios artificiais"
+          },
+          {
+            "code": "Z93.6",
+            "display": "Outros orifícios artificiais do aparelho urinário"
+          },
+          {
+            "code": "Z93.5",
+            "display": "Cistostomia"
+          },
+          {
+            "code": "Z93.4",
+            "display": "Outros orifícios artificiais do trato gastrointestinal"
+          },
+          {
+            "code": "Z93.3",
+            "display": "Colostomia"
+          },
+          {
+            "code": "Z93.2",
+            "display": "Ileostomia"
+          },
+          {
+            "code": "Z93.1",
+            "display": "Gastrostomia"
+          },
+          {
+            "code": "Z93.0",
+            "display": "Traqueostomia"
+          },
+          {
+            "code": "Z93",
+            "display": "Orifícios artificiais"
+          },
+          {
+            "code": "Z92.3",
+            "display": "História pessoal de irradiação"
+          },
+          {
+            "code": "Z90.8",
+            "display": "Ausência adquirida de outros órgãos"
+          },
+          {
+            "code": "Z90.7",
+            "display": "Ausência adquirida de órgão(s) genital(is)"
+          },
+          {
+            "code": "Z90.6",
+            "display": "Ausência adquirida de outras partes do trato urinário"
+          },
+          {
+            "code": "Z90.5",
+            "display": "Ausência adquirida do rim"
+          },
+          {
+            "code": "Z90.4",
+            "display": "Ausência adquirida de outras partes do trato digestivo"
+          },
+          {
+            "code": "Z90.3",
+            "display": "Ausência adquirida de parte do estômago"
+          },
+          {
+            "code": "Z90.2",
+            "display": "Ausência adquirida [de parte] do pulmão"
+          },
+          {
+            "code": "Z90.1",
+            "display": "Ausência adquirida da(s) mama(s)"
+          },
+          {
+            "code": "Z90.0",
+            "display": "Ausência adquirida de parte da cabeça e do pescoço"
+          },
+          {
+            "code": "Z90",
+            "display": "Ausência adquirida de órgãos não classificados em outra parte"
+          },
+          {
+            "code": "Z99.9",
+            "display": "Dependência de máquina e aparelho capacitante não especificado"
+          },
+          {
+            "code": "Z99.8",
+            "display": "Dependência de outras máquinas e aparelhos capacitantes"
+          },
+          {
+            "code": "Z99.3",
+            "display": "Dependência de cadeira de rodas"
+          },
+          {
+            "code": "Z99.2",
+            "display": "Dependência de diálise renal"
+          },
+          {
+            "code": "Z99.1",
+            "display": "Dependência de respirador"
+          },
+          {
+            "code": "C25.9",
+            "display": "Neoplasia maligna do pâncreas, não especificado"
+          },
+          {
+            "code": "C14.2",
+            "display": "Neoplasia maligna do anel de Waldeyer"
+          },
+          {
+            "code": "C13.9",
+            "display": "Neoplasia maligna da hipofaringe, não especificada"
+          },
+          {
+            "code": "C09.9",
+            "display": "Neoplasia maligna da amígdala, não especificada"
+          },
+          {
+            "code": "C16.9",
+            "display": "Neoplasia maligna do estômago, não especificado"
+          },
+          {
+            "code": "C24.1",
+            "display": "Neoplasia maligna da ampola de Vater"
+          },
+          {
+            "code": "C79",
+            "display": "Neoplasia maligna secundária de outras localizações"
+          },
+          {
+            "code": "C32.9",
+            "display": "Neoplasia maligna da laringe, não especificada"
+          },
+          {
+            "code": "C44.9",
+            "display": "Neoplasia maligna da pele, não especificada"
+          },
+          {
+            "code": "C70.9",
+            "display": "Neoplasia maligna da meninge, não especificada"
+          },
+          {
+            "code": "C69",
+            "display": "Neoplasia maligna do olho e anexos"
+          },
+          {
+            "code": "C67.1",
+            "display": "Neoplasia maligna da cúpula da bexiga"
+          },
+          {
+            "code": "C75.1",
+            "display": "Neoplasia maligna da glândula hipófise (pituitária)"
+          },
+          {
+            "code": "C74.1",
+            "display": "Neoplasia maligna da medula da supra-renal"
+          },
+          {
+            "code": "C47.5",
+            "display": "Neoplasia maligna dos nervos periféricos da pelve"
+          },
+          {
+            "code": "C48.1",
+            "display": "Neoplasia maligna de partes especificadas do peritônio"
+          },
+          {
+            "code": "Z89",
+            "display": "Ausência adquirida de membros"
+          },
+          {
+            "code": "Z89.9",
+            "display": "Ausência adquirida de membro não especificado"
+          },
+          {
+            "code": "Z89.8",
+            "display": "Ausência adquirida dos membros superiores e inferiores [qualquer nível]"
+          },
+          {
+            "code": "Z89.7",
+            "display": "Ausência adquirida de ambos membros inferiores [qualquer nível, exceto somente artelhos]"
+          },
+          {
+            "code": "Z89.6",
+            "display": "Ausência adquirida da perna acima do joelho"
+          },
+          {
+            "code": "Z89.5",
+            "display": "Ausência adquirida da perna ao nível ou abaixo do joelho"
+          },
+          {
+            "code": "Z89.4",
+            "display": "Ausência adquirida de pé e tornozelo"
+          },
+          {
+            "code": "Z89.3",
+            "display": "Ausência adquirida de ambos membros superiores [qualquer nível]"
+          },
+          {
+            "code": "Z89.2",
+            "display": "Ausência adquirida de braço acima do punho"
+          },
+          {
+            "code": "Z89.1",
+            "display": "Ausência adquirida de mão e punho"
+          },
+          {
+            "code": "Z89.0",
+            "display": "Ausência adquirida de dedo(s) da mão [inclusive polegar] unilateral"
+          },
+          {
+            "code": "T32.8",
+            "display": "Corrosões envolvendo 80 - 89% da superfície corporal"
+          },
+          {
+            "code": "T31.8",
+            "display": "Queimaduras envolvendo de 80 - 89% da superfície corporal"
+          },
+          {
+            "code": "C50.8",
+            "display": "Neoplasia maligna da mama com lesão invasiva"
+          },
+          {
+            "code": "C51.8",
+            "display": "Neoplasia maligna da vulva com lesão invasiva"
+          },
+          {
+            "code": "C60.8",
+            "display": "Neoplasia maligna do pênis com lesão invasiva"
+          },
+          {
+            "code": "C64",
+            "display": "Neoplasia maligna do rim, exceto pelve renal"
+          },
+          {
+            "code": "C67.3",
+            "display": "Neoplasia maligna da parede anterior da bexiga"
+          },
+          {
+            "code": "C71.8",
+            "display": "Neoplasia maligna do encéfalo com lesão invasiva"
+          },
+          {
+            "code": "C79.7",
+            "display": "Neoplasia maligna secundária das glândulas supra-renais (adrenais)"
+          },
+          {
+            "code": "C74",
+            "display": "Neoplasia maligna da glândula supra-renal [Glândula adrenal]"
+          },
+          {
+            "code": "C74.9",
+            "display": "Neoplasia maligna da glândula supra-renal, não especificada"
+          },
+          {
+            "code": "C75.9",
+            "display": "Neoplasia maligna de glândula endócrina, não especificada"
+          },
+          {
+            "code": "C76.0",
+            "display": "Neoplasia maligna da cabeça, face e pescoço"
+          },
+          {
+            "code": "C25.7",
+            "display": "Neoplasia maligna de outras partes do pâncreas"
+          },
+          {
+            "code": "C17.9",
+            "display": "Neoplasia maligna do intestino delgado, não especificado"
+          },
+          {
+            "code": "C18.5",
+            "display": "Neoplasia maligna da flexura (ângulo) esplênica(o)"
+          },
+          {
+            "code": "C18.8",
+            "display": "Neoplasia maligna do cólon com lesão invasiva"
+          },
+          {
+            "code": "C34",
+            "display": "Neoplasia maligna dos brônquios e dos pulmões"
+          },
+          {
+            "code": "C38",
+            "display": "Neoplasia maligna do coração, mediastino e pleura"
+          },
+          {
+            "code": "C38.3",
+            "display": "Neoplasia maligna do mediastino, porção não especificada"
+          },
+          {
+            "code": "C44.8",
+            "display": "Neoplasia maligna da pele com lesão invasiva"
+          },
+          {
+            "code": "C00.3",
+            "display": "Neoplasia maligna do lábio superior, face interna"
+          },
+          {
+            "code": "C00.2",
+            "display": "Neoplasia maligna do lábio externo, não especificado"
+          },
+          {
+            "code": "C02.0",
+            "display": "Neoplasia maligna da face dorsal da língua"
+          },
+          {
+            "code": "C00.8",
+            "display": "Neoplasia maligna do lábio com lesão invasiva"
+          },
+          {
+            "code": "C02.8",
+            "display": "Neoplasia maligna da língua com lesão invasiva"
+          },
+          {
+            "code": "C02.2",
+            "display": "Neoplasia maligna da face ventral da língua"
+          },
+          {
+            "code": "C04.0",
+            "display": "Neoplasia maligna do assoalho anterior da boca"
+          },
+          {
+            "code": "C04.1",
+            "display": "Neoplasia maligna do assoalho lateral da boca"
+          },
+          {
+            "code": "C05.8",
+            "display": "Neoplasia maligna do palato com lesão invasiva"
+          },
+          {
+            "code": "C10.8",
+            "display": "Neoplasia maligna da orofaringe com lesão invasiva"
+          },
+          {
+            "code": "C10.3",
+            "display": "Neoplasia maligna da parede posterior da orofaringe"
+          },
+          {
+            "code": "M24.6",
+            "display": "Ancilose articular"
+          },
+          {
+            "code": "C10.2",
+            "display": "Neoplasia maligna da parede lateral da orofaringe"
+          },
+          {
+            "code": "C10.1",
+            "display": "Neoplasia maligna da face anterior da epiglote"
+          },
+          {
+            "code": "C09.8",
+            "display": "Neoplasia maligna da amígdala com lesão invasiva"
+          },
+          {
+            "code": "C09.1",
+            "display": "Neoplasia maligna do pilar amigdaliano (anterior) (posterior)"
+          },
+          {
+            "code": "C13.1",
+            "display": "Neoplasia maligna da prega ariepiglótica, face hipofaríngea"
+          },
+          {
+            "code": "C11.3",
+            "display": "Neoplasia maligna da parede anterior da nasofaringe"
+          },
+          {
+            "code": "C11.2",
+            "display": "Neoplasia maligna da parede lateral da nasofaringe"
+          },
+          {
+            "code": "C11.1",
+            "display": "Neoplasia maligna da parede posterior da nasofaringe"
+          },
+          {
+            "code": "C11.0",
+            "display": "Neoplasia maligna da parede superior da nasofaringe"
+          },
+          {
+            "code": "C13.8",
+            "display": "Neoplasia maligna da hipofaringe com lesão invasiva"
+          },
+          {
+            "code": "C13.2",
+            "display": "Neoplasia maligna da parede posterior da hipofaringe"
+          },
+          {
+            "code": "C15.8",
+            "display": "Neoplasia maligna do esôfago com lesão invasiva"
+          },
+          {
+            "code": "C15.5",
+            "display": "Neoplasia maligna do terço inferior do esôfago"
+          },
+          {
+            "code": "C15.4",
+            "display": "Neoplasia maligna do terço médio do esôfago"
+          },
+          {
+            "code": "Z85.3",
+            "display": "História pessoal de neoplasia maligna de mama"
+          },
+          {
+            "code": "C67.2",
+            "display": "Neoplasia maligna da parede lateral da bexiga"
+          },
+          {
+            "code": "C62.9",
+            "display": "Neoplasia maligna do testículo, sem outras especificações"
+          },
+          {
+            "code": "C47.6",
+            "display": "Neoplasia maligna dos nervos periféricos do tronco"
+          },
+          {
+            "code": "C32.8",
+            "display": "Neoplasia maligna da laringe com lesão invasiva"
+          },
+          {
+            "code": "C15.3",
+            "display": "Neoplasia maligna do terço superior do esôfago"
+          },
+          {
+            "code": "C11.8",
+            "display": "Neoplasia maligna da nasofaringe com lesão invasiva"
+          },
+          {
+            "code": "C00.4",
+            "display": "Neoplasia maligna do lábio inferior, face interna"
+          },
+          {
+            "code": "C25.8",
+            "display": "Neoplasia maligna do pâncreas com lesão invasiva"
+          },
+          {
+            "code": "C18.3",
+            "display": "Neoplasia maligna da flexura (ângulo) hepática(o)"
+          },
+          {
+            "code": "C16.8",
+            "display": "Neoplasia maligna do estômago com lesão invasiva"
+          },
+          {
+            "code": "C41.3",
+            "display": "Neoplasia maligna das costelas, esterno e clavícula"
+          },
+          {
+            "code": "C24.9",
+            "display": "Neoplasia maligna da via biliar, não especificada"
+          },
+          {
+            "code": "M19.9",
+            "display": "Artrose não especificada"
+          },
+          {
+            "code": "M19.8",
+            "display": "Outras artroses especificadas"
+          },
+          {
+            "code": "M19.2",
+            "display": "Outras artroses secundárias"
+          },
+          {
+            "code": "M19.1",
+            "display": "Artrose pós-traumática de outras articulações"
+          },
+          {
+            "code": "M19.0",
+            "display": "Artrose primária de outras articulações"
+          },
+          {
+            "code": "M19",
+            "display": "Outras artroses"
+          },
+          {
+            "code": "M18.9",
+            "display": "Artrose não especificada da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M18.5",
+            "display": "Outras artroses secundárias da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M18.4",
+            "display": "Outras cartroses secundárias bilaterais das primeiras articulações carpometacarpianas"
+          },
+          {
+            "code": "M18.3",
+            "display": "Outras artroses pós-traumáticas da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M18.2",
+            "display": "Artrose pós-traumática bilateral da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M18.1",
+            "display": "Outras artroses primárias da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M18.0",
+            "display": "Artrose primária bilateral das primeiras articulações carpometacarpianas"
+          },
+          {
+            "code": "M18",
+            "display": "Artrose da primeira articulação carpometacarpiana"
+          },
+          {
+            "code": "M17.9",
+            "display": "Gonartrose não especificada"
+          },
+          {
+            "code": "M17.5",
+            "display": "Outras gonartroses secundárias"
+          },
+          {
+            "code": "M17.4",
+            "display": "Outras gonartroses secundárias bilaterais"
+          },
+          {
+            "code": "M17.3",
+            "display": "Outras gonartroses pós-traumática"
+          },
+          {
+            "code": "M17.2",
+            "display": "Gonartrose pós-traumática bilateral"
+          },
+          {
+            "code": "M17.1",
+            "display": "Outras gonartroses primárias"
+          },
+          {
+            "code": "M17.0",
+            "display": "Gonartrose primária bilateral"
+          },
+          {
+            "code": "M17",
+            "display": "Gonartrose [artrose do joelho]"
+          },
+          {
+            "code": "M16.9",
+            "display": "Coxartrose não especificada"
+          },
+          {
+            "code": "M16.7",
+            "display": "Outras coxartroses secundárias"
+          },
+          {
+            "code": "M16.6",
+            "display": "Outras coxartroses secundárias bilaterais"
+          },
+          {
+            "code": "M16.5",
+            "display": "Outras coxartroses pós-traumáticas"
+          },
+          {
+            "code": "M16.4",
+            "display": "Coxartrose bilateral pós-traumática"
+          },
+          {
+            "code": "M16.3",
+            "display": "Outras coxartroses displásicas"
+          },
+          {
+            "code": "M16.2",
+            "display": "Coxartrose bilateral resultante de displasia"
+          },
+          {
+            "code": "M16.1",
+            "display": "Outras coxartroses primárias"
+          },
+          {
+            "code": "M16.0",
+            "display": "Coxartrose primária bilateral"
+          },
+          {
+            "code": "M16",
+            "display": "Coxartrose [artrose do quadril]"
+          },
+          {
+            "code": "M15.9",
+            "display": "Poliartrose não especificada"
+          },
+          {
+            "code": "M15.8",
+            "display": "Outras poliartroses"
+          },
+          {
+            "code": "M15.4",
+            "display": "(Osteo)artrose erosiva"
+          },
+          {
+            "code": "M15.3",
+            "display": "Artrose múltipla secundária"
+          },
+          {
+            "code": "M15.2",
+            "display": "Nódulos de Bouchard (com artropatia)"
+          },
+          {
+            "code": "M15.1",
+            "display": "Nódulos de Heberden (com artropatia)"
+          },
+          {
+            "code": "M15.0",
+            "display": "(Osteo)artrose primária generalizada"
+          },
+          {
+            "code": "M15",
+            "display": "Poliartrose"
+          },
+          {
+            "code": "M14.8",
+            "display": "Artropatias em outras doenças especificadas classificadas em outra parte"
+          },
+          {
+            "code": "M14.6",
+            "display": "Artropatia neuropática"
+          },
+          {
+            "code": "M14.5",
+            "display": "Artropatias em outras doenças endócrinas, nutricionais e metabólicas"
+          },
+          {
+            "code": "M14.4",
+            "display": "Artropatia na amiloidose"
+          },
+          {
+            "code": "M14.3",
+            "display": "Dermatoartrite lipóide"
+          },
+          {
+            "code": "M14.2",
+            "display": "Artropatia diabética"
+          },
+          {
+            "code": "M14.1",
+            "display": "Artropatia por depósito de cristais em outras doenças metabólicas classificadas em outra parte"
+          },
+          {
+            "code": "M14.0",
+            "display": "Artropatia gotosa devida a defeitos enzimáticos e a outras doenças hereditárias"
+          },
+          {
+            "code": "M14",
+            "display": "Artropatias em outras doenças classificadas em outra parte"
+          },
+          {
+            "code": "M13.9",
+            "display": "Artrite não especificada"
+          },
+          {
+            "code": "M13.8",
+            "display": "Outras artrites especificadas"
+          },
+          {
+            "code": "M13.1",
+            "display": "Monoartrites não classificadas em outra parte"
+          },
+          {
+            "code": "M13.0",
+            "display": "Poliartrite não especificada"
+          },
+          {
+            "code": "M13",
+            "display": "Outras artrites"
+          },
+          {
+            "code": "M12.8",
+            "display": "Outras artropatias específicas não classificadas em outra parte"
+          },
+          {
+            "code": "M12.5",
+            "display": "Artropatia traumática"
+          },
+          {
+            "code": "M12.4",
+            "display": "Hidrartrose intermitente"
+          },
+          {
+            "code": "M12.3",
+            "display": "Reumatismo palindrômico"
+          },
+          {
+            "code": "M12.2",
+            "display": "Sinovite vilonodular (pigmentada)"
+          },
+          {
+            "code": "M12.1",
+            "display": "Doença de Kashin-Beck"
+          },
+          {
+            "code": "M12.0",
+            "display": "Artropatia pós-reumática crônica [Jaccoud]"
+          },
+          {
+            "code": "M12",
+            "display": "Outras artropatias especificadas"
+          },
+          {
+            "code": "M11.9",
+            "display": "Artropatia por deposição de cristais, não especificada"
+          },
+          {
+            "code": "M11.8",
+            "display": "Outras artropatias especificadas por deposição de cristais"
+          },
+          {
+            "code": "M11.2",
+            "display": "Outras condrocalcinoses"
+          },
+          {
+            "code": "M11.1",
+            "display": "Condrocalcinose familiar"
+          },
+          {
+            "code": "M11.0",
+            "display": "Doença por deposição de hidroxiapatita"
+          },
+          {
+            "code": "M11",
+            "display": "Outras artropatias por deposição de cristais"
+          },
+          {
+            "code": "M10.9",
+            "display": "Gota, não especificada"
+          },
+          {
+            "code": "M10.4",
+            "display": "Outra gota secundária"
+          },
+          {
+            "code": "M10.3",
+            "display": "Gota devida à disfunção renal"
+          },
+          {
+            "code": "M10.2",
+            "display": "Gota induzida por drogas"
+          },
+          {
+            "code": "M10.1",
+            "display": "Gota induzida por chumbo"
+          },
+          {
+            "code": "M10.0",
+            "display": "Gota idiopática"
+          },
+          {
+            "code": "M10",
+            "display": "Gota"
+          },
+          {
+            "code": "C47.3",
+            "display": "Neoplasia maligna dos nervos periféricos do tórax"
+          },
+          {
+            "code": "C47.4",
+            "display": "Neoplasia maligna dos nervos periféricos do abdome"
+          },
+          {
+            "code": "C55",
+            "display": "Neoplasia maligna do útero, porção não especificada"
+          },
+          {
+            "code": "C69.5",
+            "display": "Neoplasia maligna da glândula e canal lacrimal"
+          },
+          {
+            "code": "C68.9",
+            "display": "Neoplasia maligna de órgão urinário, não especificado"
+          },
+          {
+            "code": "C67.9",
+            "display": "Neoplasia maligna da bexiga, sem outra especificações"
+          },
+          {
+            "code": "C67.8",
+            "display": "Neoplasia maligna da bexiga com lesão invasiva"
+          },
+          {
+            "code": "C67.4",
+            "display": "Neoplasia maligna da parede posterior da bexiga"
+          },
+          {
+            "code": "C79.8",
+            "display": "Neoplasia maligna secundária de outra localização especificada"
+          },
+          {
+            "code": "C76.7",
+            "display": "Neoplasia maligna de outras localizações mal definidas"
+          },
+          {
+            "code": "A16",
+            "display": "Tuberculose das vias respiratórias, sem confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.9",
+            "display": "Tuberculose respiratória, não especificada, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.8",
+            "display": "Outras formas de tuberculose das vias respiratórias, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.7",
+            "display": "Tuberculosa respiratória primária sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.5",
+            "display": "Pleurisia tuberculosa, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.4",
+            "display": "Tuberculose da laringe, da traquéia e dos brônquios, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.3",
+            "display": "Tuberculose dos gânglios intratorácicos, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.2",
+            "display": "Tuberculose pulmonar, sem menção de confirmação bacteriológica ou histológica"
+          },
+          {
+            "code": "A16.1",
+            "display": "Tuberculose pulmonar, sem realização de exame bacteriológico ou histológico"
+          },
+          {
+            "code": "A16.0",
+            "display": "Tuberculose pulmonar com exames bacteriológico e histológico negativos"
+          },
+          {
+            "code": "C50.2",
+            "display": "Neoplasia maligna do quadrante superior interno da mama"
+          },
+          {
+            "code": "C50.3",
+            "display": "Neoplasia maligna do quadrante inferior interno da mama"
+          },
+          {
+            "code": "C50.4",
+            "display": "Neoplasia maligna do quadrante superior externo da mama"
+          },
+          {
+            "code": "C50.5",
+            "display": "Neoplasia maligna do quadrante inferior externo da mama"
+          },
+          {
+            "code": "C53.9",
+            "display": "Neoplasia maligna do colo do útero, não especificado"
+          },
+          {
+            "code": "C63.9",
+            "display": "Neoplasia maligna de órgão genital masculino, não especificado"
+          },
+          {
+            "code": "C63.7",
+            "display": "Neoplasia maligna de outros órgãos genitais masculinos especificados"
+          },
+          {
+            "code": "C71.0",
+            "display": "Neoplasia maligna do cérebro, exceto lobos e ventrículos"
+          },
+          {
+            "code": "C75.5",
+            "display": "Neoplasia maligna do corpo aórtico e outros paragânglios"
+          },
+          {
+            "code": "C26.8",
+            "display": "Neoplasia maligna do aparelho digestivo com lesão invasiva"
+          },
+          {
+            "code": "C26.0",
+            "display": "Neoplasia maligna do trato intestinal, parte não especificada"
+          },
+          {
+            "code": "C31.9",
+            "display": "Neoplasia maligna do seio da face, não especificado"
+          },
+          {
+            "code": "G83.9",
+            "display": "Síndrome paralítica não especificada"
+          },
+          {
+            "code": "G83.8",
+            "display": "Outras síndromes paralíticas especificadas"
+          },
+          {
+            "code": "G83.4",
+            "display": "Síndrome da cauda eqüina"
+          },
+          {
+            "code": "G83.3",
+            "display": "Monoplegia não especificada"
+          },
+          {
+            "code": "G83.2",
+            "display": "Monoplegia do membro superior"
+          },
+          {
+            "code": "G83.1",
+            "display": "Monoplegia do membro inferior"
+          },
+          {
+            "code": "G83.0",
+            "display": "Diplegia dos membros superiores"
+          },
+          {
+            "code": "G83",
+            "display": "Outras síndromes paralíticas"
+          },
+          {
+            "code": "G82.5",
+            "display": "Tetraplegia não especificada"
+          },
+          {
+            "code": "G82.4",
+            "display": "Tetraplegia espástica"
+          },
+          {
+            "code": "G82.3",
+            "display": "Tetraplegia flácida"
+          },
+          {
+            "code": "G82.2",
+            "display": "Paraplegia não especificada"
+          },
+          {
+            "code": "G82.1",
+            "display": "Paraplegia espástica"
+          },
+          {
+            "code": "G82.0",
+            "display": "Paraplegia flácida"
+          },
+          {
+            "code": "G82",
+            "display": "Paraplegia e tetraplegia"
+          },
+          {
+            "code": "G81.9",
+            "display": "Hemiplegia não especificada"
+          },
+          {
+            "code": "G81.1",
+            "display": "Hemiplegia espástica"
+          },
+          {
+            "code": "G81.0",
+            "display": "Hemiplegia flácida"
+          },
+          {
+            "code": "G81",
+            "display": "Hemiplegia"
+          },
+          {
+            "code": "C96",
+            "display": "Outras neoplasias malignas e as não especificadas dos tecidos linfático, hematopoético e tecidos correlatos"
+          },
+          {
+            "code": "B21.3",
+            "display": "Doença pelo HIV resultando em outras neoplasias malignas dos tecidos linfático, hematopoético e correlatos"
+          },
+          {
+            "code": "A80",
+            "display": "Poliomielite aguda"
+          },
+          {
+            "code": "A80.9",
+            "display": "Poliomielite aguda não especificada"
+          },
+          {
+            "code": "A80.4",
+            "display": "Poliomielite aguda não-paralítica"
+          },
+          {
+            "code": "A80.3",
+            "display": "Poliomielites paralíticas agudas, outras e não especificadas"
+          },
+          {
+            "code": "A80.2",
+            "display": "Poliomielite paralítica aguda, vírus selvagem indígena"
+          },
+          {
+            "code": "A80.1",
+            "display": "Poliomielite paralítica aguda, vírus selvagem importado"
+          },
+          {
+            "code": "A80.0",
+            "display": "Poliomielite paralítica aguda, associada ao vírus vacinal"
+          },
+          {
+            "code": "S23.0",
+            "display": "Ruptura traumática de disco intervertebral torácico"
+          },
+          {
+            "code": "S13.0",
+            "display": "Ruptura traumática de disco intervertebral cervical"
+          },
+          {
+            "code": "M99.5",
+            "display": "Estenose de disco intervertebral do canal medular"
+          },
+          {
+            "code": "C46.7",
+            "display": "Sarcoma de Kaposi de outras localizações"
+          },
+          {
+            "code": "G30.8",
+            "display": "Outras formas de doença de Alzheimer"
+          },
+          {
+            "code": "G30.1",
+            "display": "Doença de Alzheimer de início tardio"
+          },
+          {
+            "code": "F01",
+            "display": "Demência vascular"
+          },
+          {
+            "code": "F03",
+            "display": "Demência não especificada"
+          },
+          {
+            "code": "F01.2",
+            "display": "Demência vascular subcortical"
+          },
+          {
+            "code": "F01.8",
+            "display": "Outra demência vascular"
+          },
+          {
+            "code": "F01.1",
+            "display": "Demência por infartos múltiplos"
+          },
+          {
+            "code": "F01.9",
+            "display": "Demência vascular não especificada"
+          },
+          {
+            "code": "F00",
+            "display": "Demência na doença de Alzheimer"
+          },
+          {
+            "code": "F02.0",
+            "display": "Demência da doença de Pick"
+          },
+          {
+            "code": "F02.2",
+            "display": "Demência na doença de Huntington"
+          },
+          {
+            "code": "F05.1",
+            "display": "Delirium superposto a uma demência"
+          },
+          {
+            "code": "F02.3",
+            "display": "Demência na doença de Parkinson"
+          },
+          {
+            "code": "M54.9",
+            "display": "Dorsalgia não especificada"
+          },
+          {
+            "code": "M54.8",
+            "display": "Outra dorsalgia"
+          },
+          {
+            "code": "M54.6",
+            "display": "Dor na coluna torácica"
+          },
+          {
+            "code": "M54.5",
+            "display": "Dor lombar baixa"
+          },
+          {
+            "code": "M54.4",
+            "display": "Lumbago com ciática"
+          },
+          {
+            "code": "M54.3",
+            "display": "Ciática"
+          },
+          {
+            "code": "M54.2",
+            "display": "Cervicalgia"
+          },
+          {
+            "code": "M54.1",
+            "display": "Radiculopatia"
+          },
+          {
+            "code": "M54.0",
+            "display": "Paniculite atingindo regiões do pescoço e do dorso"
+          },
+          {
+            "code": "M54",
+            "display": "Dorsalgia"
+          },
+          {
+            "code": "M53.9",
+            "display": "Dorsopatia não especificada"
+          },
+          {
+            "code": "M53.8",
+            "display": "Outras dorsopatias especificadas"
+          },
+          {
+            "code": "M53.3",
+            "display": "Transtornos sacroccígeos não classificados em outra parte"
+          },
+          {
+            "code": "M53.2",
+            "display": "Instabilidades da coluna vertebral"
+          },
+          {
+            "code": "M53.1",
+            "display": "Síndrome cervicobraquial"
+          },
+          {
+            "code": "M53.0",
+            "display": "Síndrome cervicocraniana"
+          },
+          {
+            "code": "M53",
+            "display": "Outras dorsopatias não classificadas em outra parte"
+          },
+          {
+            "code": "M51.9",
+            "display": "Transtorno não especificado de disco intervertebral"
+          },
+          {
+            "code": "M51.8",
+            "display": "Outros transtornos especificados de discos intervertebrais"
+          },
+          {
+            "code": "M51.4",
+            "display": "Nódulos de Schmorl"
+          },
+          {
+            "code": "M51.3",
+            "display": "Outra degeneração especificada de disco intervertebral"
+          },
+          {
+            "code": "M51.2",
+            "display": "Outros deslocamentos discais intervertebrais especificados"
+          },
+          {
+            "code": "M51.1",
+            "display": "Transtornos de discos lombares e de outros discos intervertebrais com radiculopatia"
+          },
+          {
+            "code": "M51.0",
+            "display": "Transtornos de discos lombares e de outros discos intervertebrais com mielopatia"
+          },
+          {
+            "code": "M51",
+            "display": "Outros transtornos de discos intervertebrais"
+          },
+          {
+            "code": "M50.9",
+            "display": "Transtorno não especificado de disco cervical"
+          },
+          {
+            "code": "M50.8",
+            "display": "Outros transtornos de discos cervicais"
+          },
+          {
+            "code": "M50.3",
+            "display": "Outra degeneração de disco cervical"
+          },
+          {
+            "code": "M50.2",
+            "display": "Outro deslocamento de disco cervical"
+          },
+          {
+            "code": "M50.1",
+            "display": "Transtorno do disco cervical com radiculopatia"
+          },
+          {
+            "code": "M50.0",
+            "display": "Transtorno do disco cervical com mielopatia"
+          },
+          {
+            "code": "M50",
+            "display": "Transtornos dos discos cervicais"
+          },
+          {
+            "code": "F01.0",
+            "display": "Demência vascular de início agudo"
+          },
+          {
+            "code": "F02.1",
+            "display": "Demência na doença de Creutzfeldt-Jakob"
+          },
+          {
+            "code": "F01.3",
+            "display": "Demência vascular mista, cortical e subcortical"
+          },
+          {
+            "code": "F00.9",
+            "display": "Demência não especificada na doença de Alzheimer"
+          },
+          {
+            "code": "F02",
+            "display": "Demência em outras doenças classificadas em outra parte"
+          },
+          {
+            "code": "F00.1",
+            "display": "Demência na doença de Alzheimer de início tardio"
+          },
+          {
+            "code": "F05.0",
+            "display": "Delirium não superposto a uma demência, assim descrito"
+          },
+          {
+            "code": "F00.0",
+            "display": "Demência na doença de Alzheimer de início precoce"
+          },
+          {
+            "code": "F02.8",
+            "display": "Demência em outras doenças especificadas classificadas em outra parte"
+          },
+          {
+            "code": "F02.4",
+            "display": "Demência na doença pelo vírus da imunodeficiência humana [HIV]"
+          },
+          {
+            "code": "F00.2",
+            "display": "Demência na doença de Alzheimer, forma atípica ou mista"
+          },
+          {
+            "code": "N18",
+            "display": "Insuficiência renal crônica"
+          },
+          {
+            "code": "N18.9",
+            "display": "Insuficiência renal crônica não especificada"
+          },
+          {
+            "code": "N18.8",
+            "display": "Outra insuficiência renal crônica"
+          },
+          {
+            "code": "N18.0",
+            "display": "Doença renal em estádio final"
+          },
+          {
+            "code": "Y70.2",
+            "display": "Dispositivos (aparelhos) de anestesiologia, associados a incidentes adversos - próteses e outros implantes, incluindo materiais"
+          },
+          {
+            "code": "Y71.2",
+            "display": "Dispositivos (aparelhos) cardiovasculares, associados a incidentes adversos - próteses e outros implantes, incluindo materiais e"
+          },
+          {
+            "code": "Y72.2",
+            "display": "Dispositivos (aparelhos) utilizados em otorrinolaringologia, associados a incidentes adversos - próteses e outros implantes, inc"
+          },
+          {
+            "code": "Y77.2",
+            "display": "Dispositivos (aparelhos) utilizados em oftalmologia, associados a incidentes adversos - próteses e outros implantes, incluindo m"
+          },
+          {
+            "code": "Y78.2",
+            "display": "Dispositivos (aparelhos) utilizados em radiologia, associados a incidentes adversos - próteses e outros implantes, incluindo mat"
+          },
+          {
+            "code": "Y79.2",
+            "display": "Dispositivos (aparelhos) ortopédicos, associado a incidentes adversos - próteses e outros implantes, incluindo materiais e acess"
+          },
+          {
+            "code": "Y80.2",
+            "display": "Dispositivos (aparelhos) utilizados em medicina física (fisiatria), associado a incidentes adversos - próteses e outros implante"
+          },
+          {
+            "code": "Y75.2",
+            "display": "Dispositivos (aparelhos) utilizados em neurologia, associados a incidentes adversos - próteses e outros implantes, incluindo mat"
+          },
+          {
+            "code": "Y82.2",
+            "display": "Outros dispositivos (aparelhos) associados a incidentes adversos e os não especificados - próteses e outros implantes, incluindo"
+          },
+          {
+            "code": "Y76.2",
+            "display": "Dispositivos (aparelhos) utilizados em obstetrícia e em ginecologia, associados a incidentes adversos - próteses e outros implan"
+          },
+          {
+            "code": "Y73.2",
+            "display": "Dispositivos (aparelhos) usados em gastroenterologia e em urologia, associados a incidentes adversos - próteses e outros implant"
+          },
+          {
+            "code": "Y81.2",
+            "display": "Dispositivos (aparelhos) utilizados em cirurgia geral ou cirurgia plástica, associados a incidente adversos - próteses e outros"
+          },
+          {
+            "code": "Y74.2",
+            "display": "Dispositivos (aparelhos) gerais de uso hospitalar ou pessoal, associados a incidentes adversos - próteses e outros implantes, in"
+          },
+          {
+            "code": "G56",
+            "display": "Mononeuropatias dos membros superiores"
+          },
+          {
+            "code": "G56.9",
+            "display": "Mononeuropatia dos membros superiores, não especificada"
+          },
+          {
+            "code": "G56.8",
+            "display": "Outras mononeuropatias dos membros superiores"
+          },
+          {
+            "code": "G56.4",
+            "display": "Causalgia"
+          },
+          {
+            "code": "G56.3",
+            "display": "Lesão do nervo radial"
+          },
+          {
+            "code": "G56.2",
+            "display": "Lesões do nervo cubital [ulnar]"
+          },
+          {
+            "code": "G56.1",
+            "display": "Outras lesões do nervo mediano"
+          },
+          {
+            "code": "G56.0",
+            "display": "Síndrome do túnel do carpo"
+          },
+          {
+            "code": "G13.0",
+            "display": "Neuromiopatia e neuropatia paraneoplásicas"
+          },
+          {
+            "code": "G60.0",
+            "display": "Neuropatia hereditária motora e sensorial"
+          },
+          {
+            "code": "G60.2",
+            "display": "Neuropatia associada a ataxia hereditária"
+          },
+          {
+            "code": "G99.0",
+            "display": "Neuropatia autonômica em doenças endócrinas e metabólicas"
+          },
+          {
+            "code": "M06",
+            "display": "Outras artrites reumatóides"
+          },
+          {
+            "code": "M06.9",
+            "display": "Artrite reumatóide não especificada"
+          },
+          {
+            "code": "M06.8",
+            "display": "Outras artrites reumatóides especificadas"
+          },
+          {
+            "code": "M06.4",
+            "display": "Poliartropatia inflamatória"
+          },
+          {
+            "code": "M06.3",
+            "display": "Nódulo reumatóide"
+          },
+          {
+            "code": "M06.2",
+            "display": "Bursite reumatóide"
+          },
+          {
+            "code": "M06.1",
+            "display": "Doença de Still do adulto"
+          },
+          {
+            "code": "M06.0",
+            "display": "Artrite reumatóide soro-negativa"
+          },
+          {
+            "code": "B23",
+            "display": "Doença pelo vírus da imunodeficiência humana [HIV] resultando em outras doenças"
+          },
+          {
+            "code": "B21",
+            "display": "Doença pelo vírus da imunodeficiência humana [HIV], resultando em neoplasias malignas"
+          },
+          {
+            "code": "B22",
+            "display": "Doença pelo vírus da imunodeficiência humana [HIV] resultando em outras doenças especificadas"
+          },
+          {
+            "code": "B22.7",
+            "display": "Doença pelo HIV resultando em doenças múltiplas classificadas em outra parte"
+          },
+          {
+            "code": "M77",
+            "display": "Outras entesopatias"
+          },
+          {
+            "code": "M77.9",
+            "display": "Entesopatia não especificada"
+          },
+          {
+            "code": "M77.8",
+            "display": "Outras entesopatias não classificadas em outra parte"
+          },
+          {
+            "code": "M77.5",
+            "display": "Outra entesopatia do pé"
+          },
+          {
+            "code": "M77.4",
+            "display": "Metatarsalgia"
+          },
+          {
+            "code": "M77.3",
+            "display": "Esporão do calcâneo"
+          },
+          {
+            "code": "M77.2",
+            "display": "Periartrite do punho"
+          },
+          {
+            "code": "M77.1",
+            "display": "Epicondilite lateral"
+          },
+          {
+            "code": "M77.0",
+            "display": "Epicondilite medial"
+          },
+          {
+            "code": "H44.2",
+            "display": "Miopia degenerativa"
+          },
+          {
+            "code": "G23.9",
+            "display": "Doença degenerativa dos gânglios da base, não especificada"
+          },
+          {
+            "code": "H44.5",
+            "display": "Afecções degenerativas do globo ocular"
+          },
+          {
+            "code": "G23",
+            "display": "Outras doenças degenerativas dos gânglios da base"
+          },
+          {
+            "code": "G23.8",
+            "display": "Outras doenças degenerativas especificadas dos gânglios da base"
+          },
+          {
+            "code": "Q86",
+            "display": "Síndromes com malformações congênitas devidas a causas exógenas conhecidas, não classificadas em outra parte"
+          },
+          {
+            "code": "Q86.8",
+            "display": "Outras síndromes com malformações congênitas devidas a causas exógenas conhecidas"
+          },
+          {
+            "code": "Q86.2",
+            "display": "Dismorfismo devido ao Warfarin"
+          },
+          {
+            "code": "Q86.1",
+            "display": "Síndrome fetal devida à hidantoína"
+          },
+          {
+            "code": "Q86.0",
+            "display": "Síndrome fetal alcoólico (dismórfico)"
+          },
+          {
+            "code": "M96.0",
+            "display": "Pseudo-artrose após fusão ou artrodese"
+          },
+          {
+            "code": "Q87",
+            "display": "Outras síndromes com malformações congênitas que acometem múltiplos sistemas"
+          },
+          {
+            "code": "Q87.8",
+            "display": "Outras síndromes com malformações congênitas especificadas, não classificadas em outra parte"
+          },
+          {
+            "code": "Q87.5",
+            "display": "Outras síndromes com malformações congênitas com outras alterações do esqueleto"
+          },
+          {
+            "code": "Q87.4",
+            "display": "Síndrome de Marfan"
+          },
+          {
+            "code": "Q87.3",
+            "display": "Síndromes com malformações congênitas com hipercrescimento precoce"
+          },
+          {
+            "code": "Q87.2",
+            "display": "Síndromes com malformações congênitas afetando predominantemente os membros"
+          },
+          {
+            "code": "Q87.1",
+            "display": "Síndromes com malformações congênitas associadas predominantemente com nanismo"
+          },
+          {
+            "code": "Q87.0",
+            "display": "Síndromes com malformações congênitas afetando predominantemente o aspecto da face"
+          },
+          {
+            "code": "M88.8",
+            "display": "Doença de Paget de outros ossos"
+          },
+          {
+            "code": "M88.0",
+            "display": "Doença de Paget do crânio"
+          },
+          {
+            "code": "M88.9",
+            "display": "Doença de Paget de osso não especificado"
+          },
+          {
+            "code": "M88",
+            "display": "Doença de Paget do osso (osteíte deformante)"
+          },
+          {
+            "code": "B24",
+            "display": "Doença pelo vírus da imunodeficiência humana [HIV] não especificada"
+          },
+          {
+            "code": "Q68.2",
+            "display": "Deformidade congênita do joelho"
+          },
+          {
+            "code": "Q68.1",
+            "display": "Deformidade congênita da mão"
+          },
+          {
+            "code": "Q68.0",
+            "display": "Deformidade congênita do músculo esternocleidomastoideu"
+          },
+          {
+            "code": "Q65.9",
+            "display": "Deformidade congênita não especificada do quadril"
+          },
+          {
+            "code": "Q66.9",
+            "display": "Deformidade congênita não especificada do pé"
+          },
+          {
+            "code": "Q66",
+            "display": "Deformidades congênitas do pé"
+          },
+          {
+            "code": "Q67.8",
+            "display": "Outras deformidades congênitas do tórax"
+          },
+          {
+            "code": "Q65.8",
+            "display": "Outras deformidades congênitas do quadril"
+          },
+          {
+            "code": "Q67.5",
+            "display": "Deformidades congênitas da coluna vertebral"
+          },
+          {
+            "code": "Q66.8",
+            "display": "Outras deformidades congênitas do pé"
+          },
+          {
+            "code": "Q66.6",
+            "display": "Outras deformidades congênitas dos pés em valgo"
+          },
+          {
+            "code": "Q66.3",
+            "display": "Outras deformidades congênitas dos pés em varo"
+          },
+          {
+            "code": "Z87.7",
+            "display": "História pessoal de malformações e deformidades congênitas e anomalias cromossômicas"
+          },
+          {
+            "code": "Q67.4",
+            "display": "Outras deformidades congênitas do crânio, da face e da mandíbula"
+          },
+          {
+            "code": "B18",
+            "display": "Hepatite viral crônica"
+          },
+          {
+            "code": "B18.9",
+            "display": "Hepatite viral crônica não especificada"
+          },
+          {
+            "code": "B18.8",
+            "display": "Outras hepatites crônicas virais"
+          },
+          {
+            "code": "B18.2",
+            "display": "Hepatite viral crônica C"
+          },
+          {
+            "code": "B18.1",
+            "display": "Hepatite crônica viral B sem agente Delta"
+          },
+          {
+            "code": "B18.0",
+            "display": "Hepatite viral crônica B com agente Delta"
+          },
+          {
+            "code": "I12.0",
+            "display": "Doença renal hipertensiva com insuficiência renal"
+          },
+          {
+            "code": "I12.9",
+            "display": "Doença renal hipertensiva sem insuficiência renal"
+          },
+          {
+            "code": "P96.0",
+            "display": "Insuficiência renal congênita"
+          },
+          {
+            "code": "Q60.4",
+            "display": "Hipoplasia renal bilateral"
+          },
+          {
+            "code": "I12",
+            "display": "Doença renal hipertensiva"
+          },
+          {
+            "code": "Q60.3",
+            "display": "Hipoplasia renal unilateral"
+          },
+          {
+            "code": "I13.1",
+            "display": "Doença cardíaca e renal hipertensiva com insuficiência renal"
+          },
+          {
+            "code": "Q60.2",
+            "display": "Agenesia renal não especificada"
+          },
+          {
+            "code": "E84",
+            "display": "Fibrose cística"
+          },
+          {
+            "code": "E84.9",
+            "display": "Fibrose cística não especificada"
+          },
+          {
+            "code": "E84.8",
+            "display": "Fibrose cística com outras manifestações"
+          },
+          {
+            "code": "E84.1",
+            "display": "Fibrose cística com manifestações intestinais"
+          },
+          {
+            "code": "E84.0",
+            "display": "Fibrose cística com manifestações pulmonares"
+          },
+          {
+            "code": "I25.5",
+            "display": "Miocardiopatia isquêmica"
+          },
+          {
+            "code": "G31",
+            "display": "Outras doenças degenerativas do sistema nervoso não classificadas em outra parte"
+          },
+          {
+            "code": "G31.9",
+            "display": "Doença degenerativa do sistema nervoso, não especificada"
+          },
+          {
+            "code": "G31.8",
+            "display": "Outras doenças degenerativas especificadas do sistema nervoso"
+          },
+          {
+            "code": "G31.2",
+            "display": "Degeneração do sistema nervoso devida ao álcool"
+          },
+          {
+            "code": "G31.1",
+            "display": "Degeneração cerebral senil, não classificadas em outra parte"
+          },
+          {
+            "code": "G31.0",
+            "display": "Atrofia cerebral circunscrita"
+          },
+          {
+            "code": "I42.8",
+            "display": "Outras cardiomiopatias"
+          },
+          {
+            "code": "I27.1",
+            "display": "Cardiopatia cifoescoliótica"
+          },
+          {
+            "code": "I42",
+            "display": "Cardiomiopatias"
+          },
+          {
+            "code": "I27.9",
+            "display": "Cardiopatia pulmonar não especificada"
+          },
+          {
+            "code": "I42.6",
+            "display": "Cardiomiopatia alcoólica"
+          },
+          {
+            "code": "I42.9",
+            "display": "Cardiomiopatia não especificada"
+          },
+          {
+            "code": "I42.0",
+            "display": "Cardiomiopatia dilatada"
+          },
+          {
+            "code": "I42.2",
+            "display": "Outras cardiomiopatias hipertróficas"
+          },
+          {
+            "code": "I42.1",
+            "display": "Cardiomiopatia obstrutiva hipertrófica"
+          },
+          {
+            "code": "I42.5",
+            "display": "Outras cardiomiopatias restritivas"
+          },
+          {
+            "code": "I43.2",
+            "display": "Cardiomiopatia em doenças nutricionais"
+          },
+          {
+            "code": "I43",
+            "display": "Cardiomiopatia em doenças classificadas em outra parte"
+          },
+          {
+            "code": "I25.0",
+            "display": "Doença cardiovascular aterosclerótica, descrita desta maneira"
+          },
+          {
+            "code": "F99",
+            "display": "Transtorno mental não especificado em outra parte"
+          },
+          {
+            "code": "G98",
+            "display": "Outros transtornos do sistema nervoso não classificados em outra parte"
+          },
+          {
+            "code": "K70.3",
+            "display": "Cirrose hepática alcoólica"
+          },
+          {
+            "code": "K74.3",
+            "display": "Cirrose biliar primária"
+          },
+          {
+            "code": "K74.4",
+            "display": "Cirrose biliar secundária"
+          },
+          {
+            "code": "K74",
+            "display": "Fibrose e cirrose hepáticas"
+          },
+          {
+            "code": "K74.5",
+            "display": "Cirrose biliar, sem outra especificação"
+          },
+          {
+            "code": "K71.7",
+            "display": "Doença hepática tóxica com fibrose e cirrose hepáticas"
+          },
+          {
+            "code": "K74.6",
+            "display": "Outras formas de cirrose hepática e as não especificadas"
+          },
+          {
+            "code": "R23.0",
+            "display": "Cianose"
+          },
+          {
+            "code": "E14.9",
+            "display": "Diabetes mellitus não especificado - sem complicações"
+          },
+          {
+            "code": "E14.8",
+            "display": "Diabetes mellitus não especificado - com complicações não especificadas"
+          },
+          {
+            "code": "E14.7",
+            "display": "Diabetes mellitus não especificado - com complicações múltiplas"
+          },
+          {
+            "code": "E14.6",
+            "display": "Diabetes mellitus não especificado - com outras complicações especificadas"
+          },
+          {
+            "code": "E14.5",
+            "display": "Diabetes mellitus não especificado - com complicações circulatórias periféricas"
+          },
+          {
+            "code": "E14.4",
+            "display": "Diabetes mellitus não especificado - com complicações neurológicas"
+          },
+          {
+            "code": "E14.3",
+            "display": "Diabetes mellitus não especificado - com complicações oftálmicas"
+          },
+          {
+            "code": "E14.2",
+            "display": "Diabetes mellitus não especificado - com complicações renais"
+          },
+          {
+            "code": "E14.1",
+            "display": "Diabetes mellitus não especificado - com cetoacidose"
+          },
+          {
+            "code": "I36.2",
+            "display": "Estenose (da valva) tricúspide com insuficiência, não-reumática"
+          },
+          {
+            "code": "M75.1",
+            "display": "Síndrome do manguito rotador"
+          },
+          {
+            "code": "I50",
+            "display": "Insuficiência cardíaca"
+          },
+          {
+            "code": "I50.0",
+            "display": "Insuficiência cardíaca congestiva"
+          },
+          {
+            "code": "I52",
+            "display": "Outras afecções cardíacas em doenças classificadas em outra parte"
+          },
+          {
+            "code": "I52.0",
+            "display": "Outras afecções cardíacas em doenças bacterianas classificadas em outra parte"
+          },
+          {
+            "code": "I52.8",
+            "display": "Outras afecções cardíacas em outras doenças classificadas em outra parte"
+          },
+          {
+            "code": "I52.1",
+            "display": "Outras afecções cardíacas em outras doenças infecciosas e parasitárias classificadas em outra parte"
+          },
+          {
+            "code": "I50.9",
+            "display": "Insuficiência cardíaca não especificada"
+          },
+          {
+            "code": "I50.1",
+            "display": "Insuficiência ventricular esquerda"
+          },
+          {
+            "code": "E34.3",
+            "display": "Nanismo, não classificado em outra parte"
+          },
+          {
+            "code": "M96.5",
+            "display": "Escoliose pós-radiação"
+          },
+          {
+            "code": "Q76.3",
+            "display": "Escoliose congênita devida à malformação óssea congênita"
+          },
+          {
+            "code": "Q76.4",
+            "display": "Outras malformações congênitas da coluna vertebral não-associadas com escoliose"
+          },
+          {
+            "code": "M70",
+            "display": "Transtornos dos tecidos moles relacionados com o uso, uso excessivo e pressão"
+          },
+          {
+            "code": "M70.9",
+            "display": "Transtorno não especificado dos tecidos moles relacionados com o uso, uso excessivo e pressão"
+          },
+          {
+            "code": "M70.8",
+            "display": "Outros transtornos dos tecidos moles relacionados com o uso, uso excessivo e pressão"
+          },
+          {
+            "code": "M70.7",
+            "display": "Outras bursites do quadril"
+          },
+          {
+            "code": "M70.6",
+            "display": "Bursite trocantérica"
+          },
+          {
+            "code": "M70.5",
+            "display": "Outras bursites do joelho"
+          },
+          {
+            "code": "M70.4",
+            "display": "Bursite pré-patelar"
+          },
+          {
+            "code": "M70.3",
+            "display": "Outras bursites do cotovelo"
+          },
+          {
+            "code": "M70.2",
+            "display": "Bursite do olécrano"
+          },
+          {
+            "code": "M70.1",
+            "display": "Bursite da mão"
+          },
+          {
+            "code": "M70.0",
+            "display": "Sinovite crepitante crônica da mão e do punho"
+          },
+          {
+            "code": "M07",
+            "display": "Artropatias psoriásicas e enteropáticas"
+          },
+          {
+            "code": "M07.0",
+            "display": "Artropatia psoriásica interfalangiana distal"
+          },
+          {
+            "code": "M36.1",
+            "display": "Artropatia em doenças neoplásicas classificadas"
+          },
+          {
+            "code": "G35",
+            "display": "Esclerose múltipla"
+          },
+          {
+            "code": "M08.0",
+            "display": "Artrite reumatóide juvenil"
+          },
+          {
+            "code": "J99.0",
+            "display": "Doença pulmonar reumatóide"
+          },
+          {
+            "code": "A30",
+            "display": "Hanseníase [doença de Hansen] [lepra]"
+          },
+          {
+            "code": "A30.9",
+            "display": "Hanseníase [lepra] não especificada"
+          },
+          {
+            "code": "A30.8",
+            "display": "Outras formas de hanseníase [lepra]"
+          },
+          {
+            "code": "A30.5",
+            "display": "Hanseníase [lepra] lepromatosa"
+          },
+          {
+            "code": "A30.4",
+            "display": "Hanseníase [lepra] lepromatosa borderline"
+          },
+          {
+            "code": "A30.3",
+            "display": "Hanseníase [lepra] dimorfa"
+          },
+          {
+            "code": "A30.2",
+            "display": "Hanseníase [lepra] tuberculóide borderline"
+          },
+          {
+            "code": "A30.1",
+            "display": "Hanseníase [lepra] tuberculóide"
+          },
+          {
+            "code": "A30.0",
+            "display": "Hanseníase [lepra] indeterminada"
+          },
+          {
+            "code": "G21.3",
+            "display": "Parkinsonismo pós-encefalítico"
+          },
+          {
+            "code": "G22",
+            "display": "Parkinsonismo em doenças classificadas em outra parte"
+          },
+          {
+            "code": "G23.2",
+            "display": "Degeneração estrionígrica"
+          },
+          {
+            "code": "C85",
+            "display": "Linfoma não-Hodgkin de outros tipos e de tipo não especificado"
+          },
+          {
+            "code": "C85.9",
+            "display": "Linfoma não-Hodgkin de tipo não especificado"
+          },
+          {
+            "code": "C85.7",
+            "display": "Outros tipos especificados de linfoma não-Hodgkin"
+          },
+          {
+            "code": "C85.1",
+            "display": "Linfoma de células B, não especificado"
+          },
+          {
+            "code": "C85.0",
+            "display": "Linfossarcoma"
+          },
+          {
+            "code": "G20",
+            "display": "Doença de Parkinson"
+          },
+          {
+            "code": "M41",
+            "display": "Escoliose"
+          },
+          {
+            "code": "M41.9",
+            "display": "Escoliose não especificada"
+          },
+          {
+            "code": "M41.8",
+            "display": "Outras formas de escoliose"
+          },
+          {
+            "code": "M41.5",
+            "display": "Outras escolioses secundárias"
+          },
+          {
+            "code": "M41.4",
+            "display": "Escoliose neuromuscular"
+          },
+          {
+            "code": "M41.3",
+            "display": "Escoliose toracogênica"
+          },
+          {
+            "code": "M41.2",
+            "display": "Outras escolioses idiopáticas"
+          },
+          {
+            "code": "M41.1",
+            "display": "Escoliose idiopática juvenil"
+          },
+          {
+            "code": "M41.0",
+            "display": "Escoliose idiopática infantil"
+          },
+          {
+            "code": "I51",
+            "display": "Complicações de cardiopatias e doenças cardíacas mal definidas"
+          },
+          {
+            "code": "I51.9",
+            "display": "Doença não especificada do coração"
+          },
+          {
+            "code": "I51.8",
+            "display": "Outras doenças mal definidas do coração"
+          },
+          {
+            "code": "I51.7",
+            "display": "Cardiomegalia"
+          },
+          {
+            "code": "I51.6",
+            "display": "Doença cardiovascular não especificada"
+          },
+          {
+            "code": "I51.5",
+            "display": "Degeneração miocárdica"
+          },
+          {
+            "code": "I51.4",
+            "display": "Miocardite não especificada"
+          },
+          {
+            "code": "I51.3",
+            "display": "Trombose intracardíaca, não classificada em outra parte"
+          },
+          {
+            "code": "I51.2",
+            "display": "Ruptura de músculo papilar, não classificada em outra parte"
+          },
+          {
+            "code": "I51.1",
+            "display": "Ruptura de cordoalha tendínea, não classificada em outra parte"
+          },
+          {
+            "code": "I51.0",
+            "display": "Defeito adquirido de septo cardíaco"
+          },
+          {
+            "code": "K76",
+            "display": "Outras doenças do fígado"
+          },
+          {
+            "code": "K76.9",
+            "display": "Doença hepática, sem outra especificação"
+          },
+          {
+            "code": "K76.8",
+            "display": "Outras doenças especificadas do fígado"
+          },
+          {
+            "code": "K76.7",
+            "display": "Síndrome hepatorrenal"
+          },
+          {
+            "code": "K76.6",
+            "display": "Hipertensão portal"
+          },
+          {
+            "code": "K76.5",
+            "display": "Doença hepática veno-oclusiva"
+          },
+          {
+            "code": "K76.4",
+            "display": "Peliose hepática"
+          },
+          {
+            "code": "K76.3",
+            "display": "Infarto do fígado"
+          },
+          {
+            "code": "K76.2",
+            "display": "Necrose hemorrágica central do fígado"
+          },
+          {
+            "code": "K76.1",
+            "display": "Congestão passiva crônica do fígado"
+          },
+          {
+            "code": "K76.0",
+            "display": "Degeneração gordurosa do fígado não classificada em outra parte"
+          },
+          {
+            "code": "M21",
+            "display": "Outras deformidades adquiridas dos membros"
+          },
+          {
+            "code": "M21.9",
+            "display": "Deformidade adquirida não especificada de membro"
+          },
+          {
+            "code": "M21.8",
+            "display": "Outras deformidades adquiridas especificadas dos membros"
+          },
+          {
+            "code": "M21.7",
+            "display": "Desigualdade (adquirida) do comprimento dos membros"
+          },
+          {
+            "code": "M21.6",
+            "display": "Outras deformidades adquiridas do tornozelo e do pé"
+          },
+          {
+            "code": "M21.5",
+            "display": "Mão e pé em garra e mão e pé tortos adquiridos"
+          },
+          {
+            "code": "M21.4",
+            "display": "Pé chato [pé plano] (adquirido)"
+          },
+          {
+            "code": "M21.3",
+            "display": "Mão (pulso) ou pé pendente (adquirido)"
+          },
+          {
+            "code": "M21.2",
+            "display": "Deformidade em flexão"
+          },
+          {
+            "code": "M21.1",
+            "display": "Deformidade em varo não classificada em outra parte"
+          },
+          {
+            "code": "M21.0",
+            "display": "Deformidade em valgo não classificada em outra parte"
+          },
+          {
+            "code": "C80",
+            "display": "Neoplasia maligna, sem especificação de localização"
+          },
+          {
+            "code": "I64",
+            "display": "Acidente vascular cerebral, não especificado como hemorrágico ou isquêmico"
+          },
+          {
+            "code": "T66",
+            "display": "Efeitos não especificados de radiação"
+          },
+          {
+            "code": "M79.7",
+            "display": "Fibromialgia"
+          },
+          {
+            "code": "M79.0",
+            "display": "Reumatismo não especificado"
+          },
+          {
+            "code": "M72.9",
+            "display": "Transtorno fibroblástico não especificado"
+          },
+          {
+            "code": "M72.8",
+            "display": "Outros transtornos fibroblásticos"
+          },
+          {
+            "code": "M72.6",
+            "display": "Fasciíte necrosante"
+          },
+          {
+            "code": "M71.9",
+            "display": "Bursopatia não especificada"
+          },
+          {
+            "code": "M71.8",
+            "display": "Outras bursopatias especificadas"
+          },
+          {
+            "code": "M71.5",
+            "display": "Outras bursites não classificadas em outra parte"
+          },
+          {
+            "code": "Q89",
+            "display": "Outras malformações congênitas não classificadas em outra parte"
+          },
+          {
+            "code": "Q89.9",
+            "display": "Malformações congênitas não especificadas"
+          },
+          {
+            "code": "Q89.8",
+            "display": "Outras malformações congênitas especificadas"
+          },
+          {
+            "code": "Q89.7",
+            "display": "Malformações congênitas múltiplas, não classificadas em outra parte"
+          },
+          {
+            "code": "Q89.4",
+            "display": "Reunião de gêmeos"
+          },
+          {
+            "code": "Q89.3",
+            "display": "Situs inversus"
+          },
+          {
+            "code": "Q89.2",
+            "display": "Malformações congênitas de outras glândulas endócrinas"
+          },
+          {
+            "code": "Q89.1",
+            "display": "Malformações congênitas das supra-renais"
+          },
+          {
+            "code": "Q89.0",
+            "display": "Malformações congênitas do baço"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "160245001"
+          }
+        ]
+      }
+    ]
+  }
+}

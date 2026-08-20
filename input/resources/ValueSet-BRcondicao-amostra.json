@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRcondicao-amostra",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRcondicao-amostra</b></p><p>Title: BRcondicao_amostra</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRcondicao-amostra</p></div>"
+  },
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRcondicao-amostra",
+  "version": "HEAD",
+  "name": "BRcondicao_amostra",
+  "title": "BRcondicao_amostra",
+  "status": "active",
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRcondicao_amostra",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "QUE",
+            "display": "Recipiente quebrado"
+          },
+          {
+            "code": "TEC",
+            "display": "Incidente técnico"
+          },
+          {
+            "code": "CIN",
+            "display": "Coleta inadequada da amostra"
+          },
+          {
+            "code": "INS",
+            "display": "Amostra insuficiente"
+          },
+          {
+            "code": "INC",
+            "display": "Cadastro incorreto da amostra"
+          },
+          {
+            "code": "IMP",
+            "display": "Amostra imprópria para análise solicitada."
+          },
+          {
+            "code": "NCI",
+            "display": "Amostra não correpondente à identificada"
+          },
+          {
+            "code": "FPC",
+            "display": "Amostra fora do prazo de coleta"
+          },
+          {
+            "code": "SID",
+            "display": "Amostra sem identificação"
+          },
+          {
+            "code": "ILE",
+            "display": "Amostra com identificação ilegível"
+          },
+          {
+            "code": "INA",
+            "display": "Amostra com identificação inadequada"
+          },
+          {
+            "code": "VAZ",
+            "display": "Amostra vazada"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+        "concept": [
+          {
+            "code": "CON",
+            "display": "Contaminated"
+          },
+          {
+            "code": "LIVE",
+            "display": "Live"
+          },
+          {
+            "code": "HEM",
+            "display": "Hemolyzed"
+          },
+          {
+            "code": "FROZ",
+            "display": "Frozen"
+          },
+          {
+            "code": "CFU",
+            "display": "Centrifuged"
+          },
+          {
+            "code": "AUT",
+            "display": "Autolyzed"
+          },
+          {
+            "code": "CLOT",
+            "display": "Clotted"
+          },
+          {
+            "code": "ROOM",
+            "display": "Room temperature"
+          },
+          {
+            "code": "CON",
+            "display": "Contaminated"
+          },
+          {
+            "code": "SNR",
+            "display": "Sample not received"
+          },
+          {
+            "code": "COOL",
+            "display": "Cool"
+          }
+        ]
+      }
+    ]
+  }
+}

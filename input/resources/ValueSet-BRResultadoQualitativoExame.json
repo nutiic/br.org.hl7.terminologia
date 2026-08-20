@@ -10,5 +10,171 @@
   "name": "BRResultadoQualitativoExame",
   "title": "BR Resultado Qualitativo Exame",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Detectable"
+          },
+          {
+            "code": "2",
+            "display": "Não Detectável"
+          },
+          {
+            "code": "3",
+            "display": "Indeterminado        "
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Não Compatível"
+          },
+          {
+            "code": "1",
+            "display": "Compatível"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Ausência"
+          },
+          {
+            "code": "1",
+            "display": "Presença"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Não Foram visualizados"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          },
+          {
+            "code": "1",
+            "display": "Foram visualizados"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Alta Avidez"
+          },
+          {
+            "code": "1",
+            "display": "Baixa Avidez"
+          },
+          {
+            "code": "3",
+            "display": "Indeterminado        "
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Não Reagente"
+          },
+          {
+            "code": "1",
+            "display": "Reagente"
+          },
+          {
+            "code": "3",
+            "display": "Indeterminado"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Houve crescimento"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          },
+          {
+            "code": "1",
+            "display": "Não houve crescimento"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Detectável"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          },
+          {
+            "code": "2",
+            "display": "Não Detectável"
+          }
+        ]
+      },
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "2",
+            "display": "Negativo"
+          },
+          {
+            "code": "1",
+            "display": "Positivo"
+          },
+          {
+            "code": "3",
+            "display": "Inconclusivo"
+          }
+        ]
+      }
+    ]
+  }
 }

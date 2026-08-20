@@ -10,5 +10,35 @@
   "name": "BRProcedencia",
   "title": "BR Procedencia",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "99",
+            "display": "Informação ausente no modelo de origem"
+          },
+          {
+            "code": "12",
+            "display": "Demanda referenciada"
+          },
+          {
+            "code": "11",
+            "display": "Retorno"
+          },
+          {
+            "code": "10",
+            "display": "Ordem Judicial"
+          },
+          {
+            "code": "09",
+            "display": "Demanda espontânea"
+          }
+        ]
+      }
+    ]
+  }
 }

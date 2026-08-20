@@ -10,5 +10,31 @@
   "name": "BRTipoParticipante",
   "title": "BR Tipo Participante",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "ESR",
+            "display": "Estabelecimento de saúde regulador"
+          },
+          {
+            "code": "ESE",
+            "display": "Estabelecimento de saúde executante"
+          },
+          {
+            "code": "ESS",
+            "display": "Estabelecimento de saúde solicitante"
+          },
+          {
+            "code": "PCT",
+            "display": "Paciente"
+          }
+        ]
+      }
+    ]
+  }
 }

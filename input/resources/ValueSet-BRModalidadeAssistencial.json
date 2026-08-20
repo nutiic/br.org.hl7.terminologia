@@ -10,5 +10,51 @@
   "name": "BRModalidadeAssistencial",
   "title": "BR Modalidade Assistencial",
   "status": "active",
-  "publisher": "MS"
+  "publisher": "MS",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "05",
+            "display": "Atenção Psicossocial"
+          },
+          {
+            "code": "01",
+            "display": "Atenção Básica"
+          },
+          {
+            "code": "06",
+            "display": "Atenção à Urgência/Emergência"
+          },
+          {
+            "code": "07",
+            "display": "Ambulatorial Especializada"
+          },
+          {
+            "code": "02",
+            "display": "Atenção Domiciliar"
+          },
+          {
+            "code": "03",
+            "display": "Atenção Intermediária"
+          },
+          {
+            "code": "08",
+            "display": "Assistência Farmacêutica"
+          },
+          {
+            "code": "04",
+            "display": "Atenção Hospitalar"
+          },
+          {
+            "code": "09",
+            "display": "Assistência Ambulatorial"
+          }
+        ]
+      }
+    ]
+  }
 }
