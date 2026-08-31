@@ -1,17 +1,131 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRCondutaTeleconsultoria",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCondutaTeleconsultoria</b></p><p>Title: BRCondutaTeleconsultoria</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria</p><p>Description: No description</p></div>"
-  },
-  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria",
+  "url": "https://terminologia.saude.gov.br/CodeSystem/BRCondutaTeleconsultoria",
   "version": "HEAD",
   "name": "BRCondutaTeleconsultoria",
   "title": "BRCondutaTeleconsultoria",
   "status": "active",
   "experimental": false,
+  "description": null,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "language": null,
+  "filter": [
+    {
+      "code": "code",
+      "description": "Match concept code",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "code"
+    },
+    {
+      "code": "display",
+      "description": "Match concept display text",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "string"
+    },
+    {
+      "code": "definition",
+      "description": "Match concept definition text",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "string"
+    },
+    {
+      "code": "inactive",
+      "description": "Match inactive (retired) status",
+      "operator": [
+        "=",
+        "in"
+      ],
+      "value": "boolean"
+    }
+  ],
+  "property": [
+    {
+      "code": "code",
+      "uri": "http://hl7.org/fhir/concept-properties#code",
+      "description": "Concept code",
+      "type": "code"
+    },
+    {
+      "code": "display",
+      "description": "Concept display text",
+      "type": "string"
+    },
+    {
+      "code": "definition",
+      "description": "Concept definition text",
+      "type": "string"
+    },
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "Whether concept is inactive (retired)",
+      "type": "boolean"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem",
+      "valueBoolean": true
+    }
+  ],
+  "content": "complete",
+  "meta": {
+    "lastUpdated": "2026-06-10T14:04:00.224Z"
+  },
+  "concept": [
+    {
+      "code": "alta",
+      "display": "Alta do caso ou episódio"
+    },
+    {
+      "code": "atencao-domiciliar",
+      "display": "Encaminhamento para a Atenção Domiciliar"
+    },
+    {
+      "code": "caps",
+      "display": "Encaminhamento para CAPS"
+    },
+    {
+      "code": "encaminhamento-especialista",
+      "display": "Encaminhamento para consulta presencial com especialista"
+    },
+    {
+      "code": "encaminhamento-teleconsultoria",
+      "display": "Encaminhamento para teleconsultoria em outra especialidade\""
+    },
+    {
+      "code": "exames-complementares",
+      "display": "Encaminhamento para realização de exames complementares"
+    },
+    {
+      "code": "internacao",
+      "display": "Encaminhamento para internação hospitalar"
+    },
+    {
+      "code": "retorno-servico",
+      "display": "Retorno no próprio serviço"
+    },
+    {
+      "code": "saude-trabalhador",
+      "display": "Encaminhamento para serviço de referência em Saúde do Trabalhador"
+    },
+    {
+      "code": "urgencia",
+      "display": "Encaminhamento para serviço de urgência"
+    }
+  ]
 }

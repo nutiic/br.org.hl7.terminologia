@@ -1,20 +1,89 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoEstabelecimentoSaude",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:00:08.812+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoEstabelecimentoSaude</b></p><p>Title: BRTipoEstabelecimentoSaude</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
   "version": "HEAD",
   "name": "BRTipoEstabelecimentoSaude",
   "title": "BRTipoEstabelecimentoSaude",
   "status": "active",
   "experimental": false,
+  "description": null,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "language": null,
+  "filter": [
+    {
+      "code": "code",
+      "description": "Match concept code",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "code"
+    },
+    {
+      "code": "display",
+      "description": "Match concept display text",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "string"
+    },
+    {
+      "code": "definition",
+      "description": "Match concept definition text",
+      "operator": [
+        "=",
+        "in",
+        "regex"
+      ],
+      "value": "string"
+    },
+    {
+      "code": "inactive",
+      "description": "Match inactive (retired) status",
+      "operator": [
+        "=",
+        "in"
+      ],
+      "value": "boolean"
+    }
+  ],
+  "property": [
+    {
+      "code": "code",
+      "uri": "http://hl7.org/fhir/concept-properties#code",
+      "description": "Concept code",
+      "type": "code"
+    },
+    {
+      "code": "display",
+      "description": "Concept display text",
+      "type": "string"
+    },
+    {
+      "code": "definition",
+      "description": "Concept definition text",
+      "type": "string"
+    },
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "Whether concept is inactive (retired)",
+      "type": "boolean"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem",
+      "valueBoolean": true
+    }
+  ],
+  "content": "not-present",
+  "meta": {
+    "lastUpdated": "2025-07-17T17:00:08.812Z"
+  }
 }
