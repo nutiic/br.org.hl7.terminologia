@@ -50,7 +50,7 @@ https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRLocalAplicacao/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRNomeExameGAL/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTerminologiaPatogeno/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTipoResultadoDTNT/
-https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRSubgrupoTabelaSUS/
+https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRSubGrupoTabelaSUS/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTipoResultadoRSBAC/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTipoResultadoRSCUL/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTipoResultadoRGNR/

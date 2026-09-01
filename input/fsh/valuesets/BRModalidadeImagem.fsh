@@ -1,0 +1,42 @@
+ValueSet: BRModalidadeImagem
+Id: BRModalidadeImagem
+Title: "BR Modalidade Imagem"
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2026-03-09T15:10:29-03:00"
+* ^publisher = "Ministério do Saúde do Brasil"
+* ^contact[0].name = "Ministério do Saúde do Brasil"
+* ^contact[=].telecom[0].system = #url
+* ^contact[=].telecom[=].value = "https://gov.br/saude"
+* ^contact[=].telecom[+].system = #email
+* ^contact[=].telecom[=].value = "contato@gointerop.com"
+* ^contact[+].name = "Italo Macedo"
+* ^contact[=].telecom.system = #email
+* ^contact[=].telecom.value = "italo@gointerop.com"
+* ^contact[=].telecom.use = #work
+* ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
+* $DCM#OAM "Ophthalmic Axial Measurements"
+* $DCM#NM "Nuclear Medicine"
+* $DCM#XC "External-camera Photography"
+* $DCM#MR "Magnetic Resonance"
+* $DCM#XA "X-Ray Angiography"
+* $DCM#MG "Mammography"
+* $DCM#VA "Visual Acuity"
+* $DCM#LS "Laser Scan"
+* $DCM#US "Ultrasound"
+* $DCM#LEN "Lensometry"
+* $DCM#TG "Thermography"
+* $DCM#KER "Keratometry"
+* $DCM#SRF "Subjective Refraction"
+* $DCM#SM "Slide Microscopy"
+* $DCM#IVUS "Intravascular Ultrasound"
+* $DCM#RTIMAGE "RT Image"
+* $DCM#IVOCT "Intravascular Optical Coherence Tomography"
+* $DCM#IO "Intra-oral Radiography"
+* $DCM#RG "Radiographic imaging"
+* $DCM#GM "General Microscopy"
+* $DCM#RF "Radiofluoroscopy"
+* $DCM#ES "Endoscopy"
+* $DCM#PX "Panoramic X-Ray"
+* $DCM#DX "Digital Radiography"
+* $DCM#PT "Positron emission tomography"

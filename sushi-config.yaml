@@ -37,7 +37,7 @@ releaseLabel: STU1
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: Ministério do Saúde do Brasil 
+  name: Ministério do Saúde do Brasil
   url: https://gov.br/saude
   email: contato@gointerop.com
 
@@ -57,7 +57,7 @@ jurisdiction: urn:iso:std:iso:3166#BR "Brazil"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for `uri` and `version`.
-dependencies:  
+dependencies:
   hl7.terminology: 5.5.0
 
 # The global property corresponds to the IG.global property, but it
@@ -94,7 +94,7 @@ dependencies:
 # resources:
 #   Bundle/234c1054-83a7-4adf-9387-b673b96664d5:
 #     name: Exemplo de IPS Brasileiro.
-#     description: Exemplo de IPS Brasileiro com REL, RIA, RAC e RPM.    
+#     description: Exemplo de IPS Brasileiro com REL, RIA, RAC e RPM.
 #     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/BundleBRIPS
 #   DiagnosticReport/f2ae8416-6ea8-4dbf-9147-86de7fa2490d:
 #     name: Exemplo de laudo de exame laboratorial.
@@ -287,7 +287,7 @@ resources:
     description: "Resultado qualitativo do Exame"
   CodeSystem/BRServicoEspecializado:
     description: "Servico Especializado"
-  CodeSystem/BRSubgrupoTabelaSUS:
+  CodeSystem/BRSubGrupoTabelaSUS:
     description: "Subgrupo da Tabela SUS 1.1.0"
   CodeSystem/BRTabelaSUS:
     description: "Tabela de procedimentos, medicamentos e OPM do SUS"
@@ -335,7 +335,7 @@ resources:
     description: "Unidade de Medida"
   CodeSystem/BRViaAdministracao:
     description: "Via de Administração"
-  CodeSystem/BRcondicao-amostra:
+  CodeSystem/BRCondicaoAmostra:
     description: "Condicao amostra"
   CodeSystem/TipoConvenio:
     description: "Tipo de Convênio"
@@ -369,7 +369,7 @@ resources:
     description: "Conduta Colposcopia"
   ValueSet/BRCondutaTeleconsultoria:
     description: "Conduta Teleconsultoria"
-  ValueSet/BRCoreMedication-not-given:
+  ValueSet/BRCoreMedicationNotGiven:
     description: "Core Medication not given"
   ValueSet/BRCriticidadeAlergiasReacoesAdversas:
     description: "Criticidade Alergias Reacoes Adversas"
@@ -501,7 +501,7 @@ resources:
     description: "Sexo Nascimento"
   ValueSet/BRSinaisVitais:
     description: "Sinais Vitais"
-  ValueSet/BRSubgrupoTabelaSUS:
+  ValueSet/BRSubGrupoTabelaSUS:
     description: "Subgrupo da Tabela SUS 1.1.0"
   ValueSet/BRTabelaSUS:
     description: "Tabela de procedimentos, medicamentos e OPM do SUS"
@@ -547,7 +547,7 @@ resources:
     description: "Unidade Medida Medicamento"
   ValueSet/BRViaAdministracao:
     description: "Via de Administração"
-  ValueSet/BRcondicao-amostra:
+  ValueSet/BRCondicaoAmostra:
     description: "Condicao amostra"
   ValueSet/BRReasonEncounter:
     description: "Reason Encounter"
@@ -639,7 +639,7 @@ language: pt
 parameters:
 #  excludettl: true
 #  validation: [allow-any-extensions, no-broken-links]
-  produce-jekyll-data: true  
+  produce-jekyll-data: true
   #i18n-default-lang: pt-BR
   #translation-supplements: input/translations
 

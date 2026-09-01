@@ -1,0 +1,158 @@
+CodeSystem: BRGrupoAtendimento
+Id: BRGrupoAtendimento
+Title: "BRGrupoAtendimento"
+* ^version = "HEAD"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "MS"
+* ^caseSensitive = true
+* ^filter[0].code = #code
+* ^filter[=].description = "Match concept code"
+* ^filter[=].operator[0] = #=
+* ^filter[=].operator[+] = #in
+* ^filter[=].operator[+] = #regex
+* ^filter[=].value = "code"
+* ^filter[+].code = #display
+* ^filter[=].description = "Match concept display text"
+* ^filter[=].operator[0] = #=
+* ^filter[=].operator[+] = #in
+* ^filter[=].operator[+] = #regex
+* ^filter[=].value = "string"
+* ^filter[+].code = #definition
+* ^filter[=].description = "Match concept definition text"
+* ^filter[=].operator[0] = #=
+* ^filter[=].operator[+] = #in
+* ^filter[=].operator[+] = #regex
+* ^filter[=].value = "string"
+* ^filter[+].code = #inactive
+* ^filter[=].description = "Match inactive (retired) status"
+* ^filter[=].operator[0] = #=
+* ^filter[=].operator[+] = #in
+* ^filter[=].value = "boolean"
+* ^property[0].code = #code
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#code"
+* ^property[=].description = "Concept code"
+* ^property[=].type = #code
+* ^property[+].code = #display
+* ^property[=].description = "Concept display text"
+* ^property[=].type = #string
+* ^property[+].code = #definition
+* ^property[=].description = "Concept definition text"
+* ^property[=].type = #string
+* ^property[+].code = #inactive
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "Whether concept is inactive (retired)"
+* ^property[=].type = #boolean
+* ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
+* ^extension.valueBoolean = true
+* ^content = #complete
+* ^meta.lastUpdated = "2026-07-24T16:02:26.800Z"
+* #00 "Sem registro no modelo de informação de origem"
+* #000101 "Hemoglobinopatia grave"
+* #000102 "Neoplasias"
+* #000103 "Diabetes Mellitus"
+* #000104 "Pneumopatias Crônicas Graves"
+* #000105 "Doença Renal Crônica"
+* #000106 "Doenças Cardiovasculares e Cerebrovasculares"
+* #000107 "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo"
+* #000108 "Indivíduos Transplantados de Órgão Sólido"
+* #000109 "Obesidade Grave (Imc≥40)"
+* #000110 "Síndrome de Down"
+* #000111 "Outros Imunocomprometidos"
+* #000112 "Indivíduos Transplantados de Medula Óssea"
+* #000114 "Cirrose hepática"
+* #000115 "Doença neurológica crônica"
+* #000116 "Doença cardiovascular"
+* #000117 "Imunocomprometidos"
+* #000118 "Trissomias"
+* #000119 "Doença Hepática Crônica"
+* #000120 "Prematuridade"
+* #000121 "Anomalias de vias aéreas"
+* #000122 "Obesidade (score-Z acima de +2)"
+* #000123 "Erros Inatos da Imunidade (EII)"
+* #000201 "Pessoas de 18 a 64 anos"
+* #000202 "Pessoas de 65 a 69 anos"
+* #000203 "Pessoas de 70 a 74 anos"
+* #000204 "Pessoas de 75 a 79 anos"
+* #000205 "Pessoas de 80 anos ou mais"
+* #000206 "Pessoas de 12 a 17 anos"
+* #000207 "Pessoas de 5 a 11 anos"
+* #000208 "Pessoas de 3 a 4 anos"
+* #000209 "Pessoas de 6 meses a 2 anos"
+* #000210 "Faixa Etária"
+* #000301 "Pessoas de 60 nos ou mais Institucionalizadas"
+* #000302 "Pessoas Institucionalizadas"
+* #000401 "Marinha do Brasil - MB"
+* #000402 "Exército Brasileiro - EB"
+* #000403 "Força Aérea Brasileira - FAB"
+* #000501 "Bombeiro Civil"
+* #000502 "Bombeiro Militar"
+* #000503 "Guarda Municipal"
+* #000504 "Policial Rodoviário Federal"
+* #000505 "Policial Civil"
+* #000506 "Policial Federal"
+* #000507 "Policial Militar"
+* #000601 "Quilombola"
+* #000602 "Ribeirinha"
+* #000603 "Crianças Quilombolas"
+* #000604 "Crianças Ribeirinhas"
+* #000701 "Povos indígenas em terras indígenas"
+* #000702 "Crianças Indígenas"
+* #000703 "Povos indígenas vivendo em terras indígenas"
+* #000704 "Povos indígenas vivendo fora das terras indígenas"
+* #000801 "Ensino Básico"
+* #000802 "Ensino Superior"
+* #000901 "Auxiliar de Veterinário"
+* #000902 "Biólogo"
+* #000903 "Biomédico"
+* #000904 "Cozinheiro e Auxiliares"
+* #000905 "Cuidador de Idosos"
+* #000906 "Doula/Parteira"
+* #000907 "Enfermeiro(a)"
+* #000908 "Farmacêutico"
+* #000909 "Fisioterapeutas"
+* #000910 "Fonoaudiólogo"
+* #000911 "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados"
+* #000912 "Médico"
+* #000913 "Médico Veterinário"
+* #000914 "Motorista de Ambulância"
+* #000915 "Nutricionista"
+* #000916 "Odontologista"
+* #000917 "Profissionais e Auxiliares de limpeza"
+* #000918 "Profissionais de Educação Física"
+* #000919 "Psicólogo"
+* #000920 "Recepcionista"
+* #000921 "Segurança"
+* #000922 "Assistente Social"
+* #000923 "Técnico de Enfermagem"
+* #000924 "Técnico de Veterinário"
+* #000925 "Terapeuta Ocupacional"
+* #000926 "Outros Trabalhadores da Saúde"
+* #000927 "Auxiliar de Enfermagem"
+* #000928 "Técnico de Odontologia"
+* #000929 "Acadêmicos/estudantes em estágio em estabelecimentos de saúde"
+* #000930 "Agente de Combate a Endemias - ACE"
+* #000931 "Agente Comunitário de Saúde - ACS"
+* #000932 "Auxiliar em Saúde Bucal - ASB"
+* #000933 "Técnico em Saúde Bucal - TSB"
+* #001001 "Aéreo"
+* #001002 "Caminhoneiro"
+* #001003 "Coletivo Rodoviário Passageiros Urbano e de Longo Curso"
+* #001004 "Ferroviário"
+* #001005 "Metroviário"
+* #001006 "Aquaviário"
+* #001101 "Pessoas com Deficiência Institucionalizadas"
+* #001102 "Pessoas com Deficiência Permanente"
+* #001201 "Pessoas em Situação de Rua"
+* #001301 "Trabalhadores Portuários"
+* #001401 "Funcionário do Sistema de Privação de Liberdade"
+* #001501 "População Privada de Liberdade"
+* #001502 "Adolescentes cumprindo medidas Socioeducativas"
+* #001601 "Trabalhadores Industriais"
+* #001701 "Trabalhadores de limpeza urbana e manejo de resíduos sólidos"
+* #001801 "Gestante"
+* #001901 "Puérpera"
+* #002001 "População Rural"
+* #002101 "Profissionais dos Correios"
+* #002201 "Pessoas com Transtorno do Espectro Autista (TEA)"
+* #999999 "Outros Grupos"

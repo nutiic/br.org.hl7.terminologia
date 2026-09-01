@@ -1,0 +1,41 @@
+ValueSet: BRLocalAplicacao
+Id: BRLocalAplicacao
+Title: "BR Local Aplicacao"
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2026-03-09T15:10:29-03:00"
+* ^publisher = "Ministério do Saúde do Brasil"
+* ^contact[0].name = "Ministério do Saúde do Brasil"
+* ^contact[=].telecom[0].system = #url
+* ^contact[=].telecom[=].value = "https://gov.br/saude"
+* ^contact[=].telecom[+].system = #email
+* ^contact[=].telecom[=].value = "contato@gointerop.com"
+* ^contact[+].name = "Italo Macedo"
+* ^contact[=].telecom.system = #email
+* ^contact[=].telecom.value = "italo@gointerop.com"
+* ^contact[=].telecom.use = #work
+* ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
+* $BRLocalAplicacao#0 "Sem registro no sistema de informação de origem"
+* $BRLocalAplicacao#99 "Outro"
+* $BRLocalAplicacao#10 "Dorso Glúteo Direito"
+* $BRLocalAplicacao#16 "Rede Venosa"
+* $BRLocalAplicacao#18 "Face Anterolateral Externa da Coxa Esquerda"
+* $BRLocalAplicacao#9 "Boca"
+* $BRLocalAplicacao#22 "Face Anterolateral Externa do Antebraço Esquerdo"
+* $BRLocalAplicacao#15 "Face Externa Superior do Braço Esquerdo"
+* $BRLocalAplicacao#8 "Ferimento Local"
+* $BRLocalAplicacao#17 "Face Anterolateral Externa da Coxa Direita"
+* $BRLocalAplicacao#19 "Face Anterolateral Externa do Braço Direito"
+* $BRLocalAplicacao#6 "Ventroglúteo Esquerdo"
+* $BRLocalAplicacao#1 "Deltóide Direito"
+* $BRLocalAplicacao#4 "Vasto Lateral da Coxa Esquerda"
+* $BRLocalAplicacao#2 "Deltóide Esquerdo"
+* $BRLocalAplicacao#5 "Ventroglúteo Direito"
+* $BRLocalAplicacao#11 "Dorso Glúteo Esquerdo"
+* $BRLocalAplicacao#12 "Face Externa Inferior do Braço Direito"
+* $BRLocalAplicacao#14 "Face Externa Superior do Braço Direito"
+* $BRLocalAplicacao#13 "Face Externa Inferior do Braço Esquerdo"
+* $BRLocalAplicacao#3 "Vasto Lateral da Coxa Direita"
+* $BRLocalAplicacao#7 "Glúteo (descontinuado)"
+* $BRLocalAplicacao#21 "Face Anterolateral Externa do Antebraço Direito"
+* $BRLocalAplicacao#20 "Face Anterolateral Externa do Braço Esquerdo"
