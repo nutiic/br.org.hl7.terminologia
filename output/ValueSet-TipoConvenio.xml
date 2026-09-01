@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="TipoConvenio"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet TipoConvenio</b></p><a name="TipoConvenio"> </a><a name="hcTipoConvenio"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-TipoConvenio.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-TipoConvenio.html#TipoConvenio-05">05</a></td><td>PLANO DE SAUDE PUBLICO</td></tr><tr><td><a href="CodeSystem-TipoConvenio.html#TipoConvenio-07">07</a></td><td>GRATUIDADE</td></tr><tr><td><a href="CodeSystem-TipoConvenio.html#TipoConvenio-02">02</a></td><td>PARTICULAR</td></tr><tr><td><a href="CodeSystem-TipoConvenio.html#TipoConvenio-06">06</a></td><td>PLANO DE SAUDE PRIVADO</td></tr><tr><td><a href="CodeSystem-TipoConvenio.html#TipoConvenio-01">01</a></td><td>SUS</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/TipoConvenio"/>
+  <version value="1.1.0"/>
+  <name value="TipoConvenio"/>
+  <title value="Tipo Convenio"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio"/>
+      <concept>
+        <code value="05"/>
+        <display value="PLANO DE SAUDE PUBLICO"/>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="GRATUIDADE"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="PARTICULAR"/>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="PLANO DE SAUDE PRIVADO"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="SUS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

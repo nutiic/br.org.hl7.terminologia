@@ -1,0 +1,352 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRProgramaSaude",
+  "meta" : {
+    "lastUpdated" : "2024-12-18T20:40:39.501+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRProgramaSaude</b></p><a name=\"BRProgramaSaude\"> </a><a name=\"hcBRProgramaSaude\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2024-12-18 20:40:39+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"BRProgramaSaude-501\"> </a></td><td>Estratégicos</td></tr><tr><td style=\"white-space:nowrap\">981<a name=\"BRProgramaSaude-981\"> </a></td><td>Alimentação e Nutrição</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRProgramaSaude-5\"> </a></td><td>Hipertensão</td></tr><tr><td style=\"white-space:nowrap\">961<a name=\"BRProgramaSaude-961\"> </a></td><td>Estratégico</td></tr><tr><td style=\"white-space:nowrap\">481<a name=\"BRProgramaSaude-481\"> </a></td><td>Assistência Social</td></tr><tr><td style=\"white-space:nowrap\">941<a name=\"BRProgramaSaude-941\"> </a></td><td>Malária</td></tr><tr><td style=\"white-space:nowrap\">461<a name=\"BRProgramaSaude-461\"> </a></td><td>Cólera</td></tr><tr><td style=\"white-space:nowrap\">923<a name=\"BRProgramaSaude-923\"> </a></td><td>Infecções Oportunistas</td></tr><tr><td style=\"white-space:nowrap\">441<a name=\"BRProgramaSaude-441\"> </a></td><td>UPA</td></tr><tr><td style=\"white-space:nowrap\">922<a name=\"BRProgramaSaude-922\"> </a></td><td>Influenza</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"BRProgramaSaude-421\"> </a></td><td>Especializado</td></tr><tr><td style=\"white-space:nowrap\">921<a name=\"BRProgramaSaude-921\"> </a></td><td>Chagas</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"BRProgramaSaude-401\"> </a></td><td>SAMU</td></tr><tr><td style=\"white-space:nowrap\">903<a name=\"BRProgramaSaude-903\"> </a></td><td>Meningite</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRProgramaSaude-4\"> </a></td><td>Judicialização</td></tr><tr><td style=\"white-space:nowrap\">902<a name=\"BRProgramaSaude-902\"> </a></td><td>Leishmaniose</td></tr><tr><td style=\"white-space:nowrap\">381<a name=\"BRProgramaSaude-381\"> </a></td><td>Saúde da Criança</td></tr><tr><td style=\"white-space:nowrap\">901<a name=\"BRProgramaSaude-901\"> </a></td><td>Tracoma</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"BRProgramaSaude-361\"> </a></td><td>Assitência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">882<a name=\"BRProgramaSaude-882\"> </a></td><td>Epidemias</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"BRProgramaSaude-341\"> </a></td><td>Assistência Farmacêutica Básica</td></tr><tr><td style=\"white-space:nowrap\">881<a name=\"BRProgramaSaude-881\"> </a></td><td>Edemias Focais</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRProgramaSaude-3\"> </a></td><td>DST/AIDS</td></tr><tr><td style=\"white-space:nowrap\">861<a name=\"BRProgramaSaude-861\"> </a></td><td>Saúde Prisional</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"BRProgramaSaude-281\"> </a></td><td>Tabagismo</td></tr><tr><td style=\"white-space:nowrap\">801<a name=\"BRProgramaSaude-801\"> </a></td><td>Doença Enxerto Hospedeiro</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"BRProgramaSaude-261\"> </a></td><td>Tuberculose</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRProgramaSaude-8\"> </a></td><td>Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRProgramaSaude-2\"> </a></td><td>Diabetes</td></tr><tr><td style=\"white-space:nowrap\">781<a name=\"BRProgramaSaude-781\"> </a></td><td>Atenção Secundária</td></tr><tr><td style=\"white-space:nowrap\">1421<a name=\"BRProgramaSaude-1421\"> </a></td><td>Órteses e Prósteses</td></tr><tr><td style=\"white-space:nowrap\">767<a name=\"BRProgramaSaude-767\"> </a></td><td>Suplementos Alimentares</td></tr><tr><td style=\"white-space:nowrap\">1401<a name=\"BRProgramaSaude-1401\"> </a></td><td>Multidroga Resistente</td></tr><tr><td style=\"white-space:nowrap\">766<a name=\"BRProgramaSaude-766\"> </a></td><td>Fraldas</td></tr><tr><td style=\"white-space:nowrap\">1381<a name=\"BRProgramaSaude-1381\"> </a></td><td>SESAI</td></tr><tr><td style=\"white-space:nowrap\">765<a name=\"BRProgramaSaude-765\"> </a></td><td>Administrativos</td></tr><tr><td style=\"white-space:nowrap\">1361<a name=\"BRProgramaSaude-1361\"> </a></td><td>Calamidade Pública</td></tr><tr><td style=\"white-space:nowrap\">764<a name=\"BRProgramaSaude-764\"> </a></td><td>Diversos</td></tr><tr><td style=\"white-space:nowrap\">1341<a name=\"BRProgramaSaude-1341\"> </a></td><td>DPOC</td></tr><tr><td style=\"white-space:nowrap\">763<a name=\"BRProgramaSaude-763\"> </a></td><td>Oncologia</td></tr><tr><td style=\"white-space:nowrap\">1321<a name=\"BRProgramaSaude-1321\"> </a></td><td>DPOC</td></tr><tr><td style=\"white-space:nowrap\">762<a name=\"BRProgramaSaude-762\"> </a></td><td>Alzheimer</td></tr><tr><td style=\"white-space:nowrap\">1301<a name=\"BRProgramaSaude-1301\"> </a></td><td>Assistência Farmacêutica SESAI</td></tr><tr><td style=\"white-space:nowrap\">761<a name=\"BRProgramaSaude-761\"> </a></td><td>DPOC</td></tr><tr><td style=\"white-space:nowrap\">1281<a name=\"BRProgramaSaude-1281\"> </a></td><td>Assitência Farmacêutica SESAI</td></tr><tr><td style=\"white-space:nowrap\">721<a name=\"BRProgramaSaude-721\"> </a></td><td>Mieloma Múltiplo</td></tr><tr><td style=\"white-space:nowrap\">1261<a name=\"BRProgramaSaude-1261\"> </a></td><td>Peste</td></tr><tr><td style=\"white-space:nowrap\">701<a name=\"BRProgramaSaude-701\"> </a></td><td>Antimicrobianos</td></tr><tr><td style=\"white-space:nowrap\">1241<a name=\"BRProgramaSaude-1241\"> </a></td><td>Micoses Sistêmicas</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRProgramaSaude-7\"> </a></td><td>Saúde Mental</td></tr><tr><td style=\"white-space:nowrap\">1221<a name=\"BRProgramaSaude-1221\"> </a></td><td>Micoses Sistêmicas</td></tr><tr><td style=\"white-space:nowrap\">683<a name=\"BRProgramaSaude-683\"> </a></td><td>Lúpus Eritematoso Sistêmico</td></tr><tr><td style=\"white-space:nowrap\">1202<a name=\"BRProgramaSaude-1202\"> </a></td><td>Coagulopatias</td></tr><tr><td style=\"white-space:nowrap\">682<a name=\"BRProgramaSaude-682\"> </a></td><td>Infecções Oportunistas DST/AIDS</td></tr><tr><td style=\"white-space:nowrap\">1201<a name=\"BRProgramaSaude-1201\"> </a></td><td>Filariose</td></tr><tr><td style=\"white-space:nowrap\">681<a name=\"BRProgramaSaude-681\"> </a></td><td>Suplementos Alimentares</td></tr><tr><td style=\"white-space:nowrap\">1181<a name=\"BRProgramaSaude-1181\"> </a></td><td>Remédio em Casa</td></tr><tr><td style=\"white-space:nowrap\">662<a name=\"BRProgramaSaude-662\"> </a></td><td>Insumos</td></tr><tr><td style=\"white-space:nowrap\">1161<a name=\"BRProgramaSaude-1161\"> </a></td><td>Toxoplasmose</td></tr><tr><td style=\"white-space:nowrap\">661<a name=\"BRProgramaSaude-661\"> </a></td><td>Lúpus Eritematoso Sistêmico</td></tr><tr><td style=\"white-space:nowrap\">1141<a name=\"BRProgramaSaude-1141\"> </a></td><td>Imunização</td></tr><tr><td style=\"white-space:nowrap\">641<a name=\"BRProgramaSaude-641\"> </a></td><td>Infecções Oportunistas DST/AIDS</td></tr><tr><td style=\"white-space:nowrap\">1121<a name=\"BRProgramaSaude-1121\"> </a></td><td>Nutrição</td></tr><tr><td style=\"white-space:nowrap\">621<a name=\"BRProgramaSaude-621\"> </a></td><td>Ação Civil Pública</td></tr><tr><td style=\"white-space:nowrap\">1102<a name=\"BRProgramaSaude-1102\"> </a></td><td>Esquitossomose</td></tr><tr><td style=\"white-space:nowrap\">601<a name=\"BRProgramaSaude-601\"> </a></td><td>Estratégicos - Estado</td></tr><tr><td style=\"white-space:nowrap\">1101<a name=\"BRProgramaSaude-1101\"> </a></td><td>Dengue</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRProgramaSaude-6\"> </a></td><td>Saúde da Mulher</td></tr><tr><td style=\"white-space:nowrap\">1081<a name=\"BRProgramaSaude-1081\"> </a></td><td>Cólera</td></tr><tr><td style=\"white-space:nowrap\">581<a name=\"BRProgramaSaude-581\"> </a></td><td>Suplementação de Ferro</td></tr><tr><td style=\"white-space:nowrap\">1021<a name=\"BRProgramaSaude-1021\"> </a></td><td>Insulino-Dependente- DM II</td></tr><tr><td style=\"white-space:nowrap\">561<a name=\"BRProgramaSaude-561\"> </a></td><td>Sem dor</td></tr><tr><td style=\"white-space:nowrap\">1001<a name=\"BRProgramaSaude-1001\"> </a></td><td>Insulino-Dependente- DM I</td></tr><tr><td style=\"white-space:nowrap\">541<a name=\"BRProgramaSaude-541\"> </a></td><td>Glaucoma</td></tr><tr><td style=\"white-space:nowrap\">521<a name=\"BRProgramaSaude-521\"> </a></td><td>Urgência e Emergência</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRProgramaSaude-1\"> </a></td><td>Hanseníase</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+  "version" : "1.1.0",
+  "name" : "BRProgramaSaude",
+  "title" : "BRProgramaSaude",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 76,
+  "concept" : [{
+    "code" : "501",
+    "display" : "Estratégicos"
+  },
+  {
+    "code" : "981",
+    "display" : "Alimentação e Nutrição"
+  },
+  {
+    "code" : "5",
+    "display" : "Hipertensão"
+  },
+  {
+    "code" : "961",
+    "display" : "Estratégico"
+  },
+  {
+    "code" : "481",
+    "display" : "Assistência Social"
+  },
+  {
+    "code" : "941",
+    "display" : "Malária"
+  },
+  {
+    "code" : "461",
+    "display" : "Cólera"
+  },
+  {
+    "code" : "923",
+    "display" : "Infecções Oportunistas"
+  },
+  {
+    "code" : "441",
+    "display" : "UPA"
+  },
+  {
+    "code" : "922",
+    "display" : "Influenza"
+  },
+  {
+    "code" : "421",
+    "display" : "Especializado"
+  },
+  {
+    "code" : "921",
+    "display" : "Chagas"
+  },
+  {
+    "code" : "401",
+    "display" : "SAMU"
+  },
+  {
+    "code" : "903",
+    "display" : "Meningite"
+  },
+  {
+    "code" : "4",
+    "display" : "Judicialização"
+  },
+  {
+    "code" : "902",
+    "display" : "Leishmaniose"
+  },
+  {
+    "code" : "381",
+    "display" : "Saúde da Criança"
+  },
+  {
+    "code" : "901",
+    "display" : "Tracoma"
+  },
+  {
+    "code" : "361",
+    "display" : "Assitência Farmacêutica"
+  },
+  {
+    "code" : "882",
+    "display" : "Epidemias"
+  },
+  {
+    "code" : "341",
+    "display" : "Assistência Farmacêutica Básica"
+  },
+  {
+    "code" : "881",
+    "display" : "Edemias Focais"
+  },
+  {
+    "code" : "3",
+    "display" : "DST/AIDS"
+  },
+  {
+    "code" : "861",
+    "display" : "Saúde Prisional"
+  },
+  {
+    "code" : "281",
+    "display" : "Tabagismo"
+  },
+  {
+    "code" : "801",
+    "display" : "Doença Enxerto Hospedeiro"
+  },
+  {
+    "code" : "261",
+    "display" : "Tuberculose"
+  },
+  {
+    "code" : "8",
+    "display" : "Hospitalar"
+  },
+  {
+    "code" : "2",
+    "display" : "Diabetes"
+  },
+  {
+    "code" : "781",
+    "display" : "Atenção Secundária"
+  },
+  {
+    "code" : "1421",
+    "display" : "Órteses e Prósteses"
+  },
+  {
+    "code" : "767",
+    "display" : "Suplementos Alimentares"
+  },
+  {
+    "code" : "1401",
+    "display" : "Multidroga Resistente"
+  },
+  {
+    "code" : "766",
+    "display" : "Fraldas"
+  },
+  {
+    "code" : "1381",
+    "display" : "SESAI"
+  },
+  {
+    "code" : "765",
+    "display" : "Administrativos"
+  },
+  {
+    "code" : "1361",
+    "display" : "Calamidade Pública"
+  },
+  {
+    "code" : "764",
+    "display" : "Diversos"
+  },
+  {
+    "code" : "1341",
+    "display" : "DPOC"
+  },
+  {
+    "code" : "763",
+    "display" : "Oncologia"
+  },
+  {
+    "code" : "1321",
+    "display" : "DPOC"
+  },
+  {
+    "code" : "762",
+    "display" : "Alzheimer"
+  },
+  {
+    "code" : "1301",
+    "display" : "Assistência Farmacêutica SESAI"
+  },
+  {
+    "code" : "761",
+    "display" : "DPOC"
+  },
+  {
+    "code" : "1281",
+    "display" : "Assitência Farmacêutica SESAI"
+  },
+  {
+    "code" : "721",
+    "display" : "Mieloma Múltiplo"
+  },
+  {
+    "code" : "1261",
+    "display" : "Peste"
+  },
+  {
+    "code" : "701",
+    "display" : "Antimicrobianos"
+  },
+  {
+    "code" : "1241",
+    "display" : "Micoses Sistêmicas"
+  },
+  {
+    "code" : "7",
+    "display" : "Saúde Mental"
+  },
+  {
+    "code" : "1221",
+    "display" : "Micoses Sistêmicas"
+  },
+  {
+    "code" : "683",
+    "display" : "Lúpus Eritematoso Sistêmico"
+  },
+  {
+    "code" : "1202",
+    "display" : "Coagulopatias"
+  },
+  {
+    "code" : "682",
+    "display" : "Infecções Oportunistas DST/AIDS"
+  },
+  {
+    "code" : "1201",
+    "display" : "Filariose"
+  },
+  {
+    "code" : "681",
+    "display" : "Suplementos Alimentares"
+  },
+  {
+    "code" : "1181",
+    "display" : "Remédio em Casa"
+  },
+  {
+    "code" : "662",
+    "display" : "Insumos"
+  },
+  {
+    "code" : "1161",
+    "display" : "Toxoplasmose"
+  },
+  {
+    "code" : "661",
+    "display" : "Lúpus Eritematoso Sistêmico"
+  },
+  {
+    "code" : "1141",
+    "display" : "Imunização"
+  },
+  {
+    "code" : "641",
+    "display" : "Infecções Oportunistas DST/AIDS"
+  },
+  {
+    "code" : "1121",
+    "display" : "Nutrição"
+  },
+  {
+    "code" : "621",
+    "display" : "Ação Civil Pública"
+  },
+  {
+    "code" : "1102",
+    "display" : "Esquitossomose"
+  },
+  {
+    "code" : "601",
+    "display" : "Estratégicos - Estado"
+  },
+  {
+    "code" : "1101",
+    "display" : "Dengue"
+  },
+  {
+    "code" : "6",
+    "display" : "Saúde da Mulher"
+  },
+  {
+    "code" : "1081",
+    "display" : "Cólera"
+  },
+  {
+    "code" : "581",
+    "display" : "Suplementação de Ferro"
+  },
+  {
+    "code" : "1021",
+    "display" : "Insulino-Dependente- DM II"
+  },
+  {
+    "code" : "561",
+    "display" : "Sem dor"
+  },
+  {
+    "code" : "1001",
+    "display" : "Insulino-Dependente- DM I"
+  },
+  {
+    "code" : "541",
+    "display" : "Glaucoma"
+  },
+  {
+    "code" : "521",
+    "display" : "Urgência e Emergência"
+  },
+  {
+    "code" : "1",
+    "display" : "Hanseníase"
+  }]
+}

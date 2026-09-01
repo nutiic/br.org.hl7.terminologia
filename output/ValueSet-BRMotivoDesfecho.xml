@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRMotivoDesfecho"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRMotivoDesfecho</b></p><a name="BRMotivoDesfecho"> </a><a name="hcBRMotivoDesfecho"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRMotivoDesfecho.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-99">99</a></td><td>Sem registro no modelo de informação de origem</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-09">09</a></td><td>Transferência</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-08">08</a></td><td>Retorno</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-07">07</a></td><td>Permanência</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-06">06</a></td><td>Óbito</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-05">05</a></td><td>Ordem Judicial</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-04">04</a></td><td>Evasão</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-03">03</a></td><td>Encaminhamento</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-02">02</a></td><td>Alta Voluntária</td></tr><tr><td><a href="CodeSystem-BRMotivoDesfecho.html#BRMotivoDesfecho-01">01</a></td><td>Alta clínica</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho"/>
+  <version value="1.1.0"/>
+  <name value="BRMotivoDesfecho"/>
+  <title value="BR Motivo Desfecho"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho"/>
+      <concept>
+        <code value="99"/>
+        <display value="Sem registro no modelo de informação de origem"/>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Transferência"/>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Retorno"/>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="Permanência"/>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Óbito"/>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Ordem Judicial"/>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Evasão"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Encaminhamento"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Alta Voluntária"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="Alta clínica"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

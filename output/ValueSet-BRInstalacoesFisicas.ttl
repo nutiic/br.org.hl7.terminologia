@@ -1,0 +1,239 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRInstalacoesFisicas> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRInstalacoesFisicas"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRInstalacoesFisicas</b></p><a name=\"BRInstalacoesFisicas\"> </a><a name=\"hcBRInstalacoesFisicas\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRInstalacoesFisicas.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-22\">22</a></td><td>SALA DE REPOUSO/OBSERVACAO - INDIFERENCIADO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-21\">21</a></td><td>SALA REPOUSO/OBSERVACAO - PEDIATRICA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-43\">43</a></td><td>BRINQUEDOTECA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-20\">20</a></td><td>SALA REPOUSO/OBSERVACAO - MASCULINO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-42\">42</a></td><td>SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-19\">19</a></td><td>SALA REPOUSO/OBSERVACAO - FEMININO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-41\">41</a></td><td>SALA DE ATENDIMENTO A PACIENTE CRITICO/SALA DE ESTABILIZACAO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-18\">18</a></td><td>OUTROS CONSULTORIOS NAO MEDICOS</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-40\">40</a></td><td>LEITOS DE ALOJAMENTO CONJUNTO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-17\">17</a></td><td>CLINICAS INDIFERENCIADO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-39\">39</a></td><td>LEITOS RN PATOLOGICO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-16\">16</a></td><td>CLINICAS ESPECIALIZADAS</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-38\">38</a></td><td>LEITOS RN NORMAL</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-15\">15</a></td><td>CLINICAS BASICAS</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-37\">37</a></td><td>SALA DE CIRURGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-14\">14</a></td><td>CONSULTORIOS MEDICOS</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-36\">36</a></td><td>SALA DE CURETAGEM</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-13\">13</a></td><td>SALA PEQUENA CIRURGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-35\">35</a></td><td>SALA DE PARTO NORMAL</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-12\">12</a></td><td>SALA DE CURATIVO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-34\">34</a></td><td>SALA DE PREPARTO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-11\">11</a></td><td>SALA DE GESSO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-33\">33</a></td><td>SALA DE CIRURGIA AMBULATORIAL</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-10\">10</a></td><td>SALA DE HIGIENIZACAO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-32\">32</a></td><td>SALA DE RECUPERACAO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-09\">09</a></td><td>ODONTOLOGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-31\">31</a></td><td>SALA DE CIRURGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-08\">08</a></td><td>SALA REPOUSO/OBSERVACAO - INDIFERENCIADO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-30\">30</a></td><td>SALA DE CIRURGIA AMBULATORIAL</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-07\">07</a></td><td>SALA REPOUSO/OBSERVACAO - MASCULINO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-29\">29</a></td><td>SALA DE CURATIVO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-06\">06</a></td><td>SALA REPOUSO/OBSERVACAO - FEMININO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-28\">28</a></td><td>SALA DE GESSO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-05\">05</a></td><td>SALA REPOUSO/OBSERVACAO - PEDIATRICA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-27\">27</a></td><td>SALA DE NEBULIZACAO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-04\">04</a></td><td>SALA DE ATENDIMENTO INDIFERENCIADO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-26\">26</a></td><td>SALA DE IMUNIZACAO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-03\">03</a></td><td>SALA DE ATENDIMENTO MASCULINO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-25\">25</a></td><td>SALA DE ENFERMAGEM - SERVICOS</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-02\">02</a></td><td>SALA DE ATENDIMENTO FEMININO</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-24\">24</a></td><td>SALA DE PEQUENA CIRURGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-23\">23</a></td><td>ODONTOLOGIA</td></tr><tr><td><a href=\"CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-01\">01</a></td><td>SALA DE ATENDIMENTO PEDIATRICO</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRInstalacoesFisicas"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRInstalacoesFisicas"] ;
+  fhir:ValueSet.title [ fhir:value "BR Instalacoes Fisicas"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE REPOUSO/OBSERVACAO - INDIFERENCIADO" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - PEDIATRICA" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BRINQUEDOTECA" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - MASCULINO" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - FEMININO" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ATENDIMENTO A PACIENTE CRITICO/SALA DE ESTABILIZACAO" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OUTROS CONSULTORIOS NAO MEDICOS" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "LEITOS DE ALOJAMENTO CONJUNTO" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CLINICAS INDIFERENCIADO" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "39" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "LEITOS RN PATOLOGICO" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CLINICAS ESPECIALIZADAS" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "38" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "LEITOS RN NORMAL" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CLINICAS BASICAS" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CIRURGIA" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CONSULTORIOS MEDICOS" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "36" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CURETAGEM" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA PEQUENA CIRURGIA" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE PARTO NORMAL" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CURATIVO" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE PREPARTO" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE GESSO" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CIRURGIA AMBULATORIAL" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE HIGIENIZACAO" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE RECUPERACAO" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "09" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ODONTOLOGIA" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CIRURGIA" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "08" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - INDIFERENCIADO" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CIRURGIA AMBULATORIAL" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "07" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - MASCULINO" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE CURATIVO" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "06" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - FEMININO" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE GESSO" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA REPOUSO/OBSERVACAO - PEDIATRICA" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE NEBULIZACAO" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "04" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ATENDIMENTO INDIFERENCIADO" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE IMUNIZACAO" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "03" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ATENDIMENTO MASCULINO" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ENFERMAGEM - SERVICOS" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ATENDIMENTO FEMININO" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE PEQUENA CIRURGIA" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ODONTOLOGIA" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "01" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALA DE ATENDIMENTO PEDIATRICO" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRInstalacoesFisicas.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

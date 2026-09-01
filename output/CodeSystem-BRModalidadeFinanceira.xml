@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRModalidadeFinanceira"/>
+  <meta>
+    <lastUpdated value="2025-07-17T17:36:25.078+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRModalidadeFinanceira</b></p><a name="BRModalidadeFinanceira"> </a><a name="hcBRModalidadeFinanceira"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 17:36:25+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">02<a name="BRModalidadeFinanceira-02"> </a></td><td>Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil</td></tr><tr><td style="white-space:nowrap">01<a name="BRModalidadeFinanceira-01"> </a></td><td>Unidade de saúde pública ou privada, com pagamento pelo SUS</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira"/>
+  <version value="1.1.0"/>
+  <name value="BRModalidadeFinanceira"/>
+  <title value="BRModalidadeFinanceira"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="02"/>
+    <display value="Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"/>
+  </concept>
+  <concept>
+    <code value="01"/>
+    <display value="Unidade de saúde pública ou privada, com pagamento pelo SUS"/>
+  </concept>
+</CodeSystem>

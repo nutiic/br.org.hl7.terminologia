@@ -1,0 +1,511 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRImunobiologico> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRImunobiologico"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRImunobiologico.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-107\">107</a></td><td>VPC20</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-108\">108</a></td><td>VVSR-Rec</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-111\">111</a></td><td>dTpa/VIP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-110\">110</a></td><td>Vacina Influenza Tetravalente - Alta Dosagem</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-109\">109</a></td><td>VVSR-RecAdj</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-106\">106</a></td><td>VPC15</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-105\">105</a></td><td>COVID-19 MODERNA - SPIKEVAX BIVALENTE</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-104\">104</a></td><td>DNG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-65\">65</a></td><td>ROTA5</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-66\">66</a></td><td>MEN BC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-18\">18</a></td><td>VR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-19\">19</a></td><td>IGHV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-67\">67</a></td><td>HPV4</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-64\">64</a></td><td>FLU ID</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-17\">17</a></td><td>Hib</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-63\">63</a></td><td>HAeHB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-16\">16</a></td><td>SACROT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-15\">15</a></td><td>BCG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-62\">62</a></td><td>HAeHBped</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-61\">61</a></td><td>TT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-60\">60</a></td><td>HPV2</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-11\">11</a></td><td>SABOCR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-12\">12</a></td><td>SABOLA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-58\">58</a></td><td>TETRA acelular</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-6\">6</a></td><td>SAELAP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-103\">103</a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-57\">57</a></td><td>dTpa</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-102\">102</a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-100\">100</a></td><td>VVBN</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-55\">55</a></td><td>HepAinf</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-1\">1</a></td><td>IGHT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-53\">53</a></td><td>DILSR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-54\">54</a></td><td>DILVAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-10\">10</a></td><td>SAD</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-2\">2</a></td><td>SAT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-20\">20</a></td><td>IGHHB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-21\">21</a></td><td>VPP23</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-69\">69</a></td><td>SABOT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-22\">22</a></td><td>VIP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-7\">7</a></td><td>SAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-23\">23</a></td><td>IGHR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-70\">70</a></td><td>Sarampo</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-24\">24</a></td><td>SCR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-71\">71</a></td><td>Rubeola</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-25\">25</a></td><td>dT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-72\">72</a></td><td>Gripe Sazonal</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-26\">26</a></td><td>VPC10</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-14\">14</a></td><td>VFA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-73\">73</a></td><td>Quadrupla Viral</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-27\">27</a></td><td>SLATRO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-74\">74</a></td><td>MenACWY</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-28\">28</a></td><td>VOP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-29\">29</a></td><td>PENTA acelular</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-75\">75</a></td><td>COLERA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-30\">30</a></td><td>FTp</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-101\">101</a></td><td>VZR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-59\">59</a></td><td>VPC13</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-3\">3</a></td><td>SARC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-76\">76</a></td><td>VHZ</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-13\">13</a></td><td>Meningo AC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-68\">68</a></td><td>HPV Bi</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-56\">56</a></td><td>SCRV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-41\">41</a></td><td>MenC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-42\">42</a></td><td>PENTA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-87\">87</a></td><td>COVID-19 PFIZER - COMIRNATY</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-86\">86</a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-85\">85</a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-84\">84</a></td><td>VFA-F</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-4\">4</a></td><td>SAESCOR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-79\">79</a></td><td>DILBCG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-83\">83</a></td><td>HEPAad</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-77\">77</a></td><td>INF4</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-39\">39</a></td><td>Tetra</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-82\">82</a></td><td>Dengue</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-37\">37</a></td><td>Vero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-38\">38</a></td><td>SBOTULTRI</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-81\">81</a></td><td>DILMenC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-80\">80</a></td><td>DILVRvero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-36\">36</a></td><td>SR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-40\">40</a></td><td>Pncc7V</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-35\">35</a></td><td>HA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-78\">78</a></td><td>MenB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-31\">31</a></td><td>SALOXO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-8\">8</a></td><td>SABOTR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-33\">33</a></td><td>INF3</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-32\">32</a></td><td>SALONO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-88\">88</a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-43\">43</a></td><td>HEXA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-92\">92</a></td><td>VRvero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-44\">44</a></td><td>H1N1</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-46\">46</a></td><td>DTP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-9\">9</a></td><td>HepB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-91\">91</a></td><td>DILVR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-45\">45</a></td><td>ROTA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-89\">89</a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-47\">47</a></td><td>DTPa</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-48\">48</a></td><td>DILSRC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-90\">90</a></td><td>DILSCRV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-49\">49</a></td><td>DILVFA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-97\">97</a></td><td>COVID-19 MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-50\">50</a></td><td>DILHib</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-93\">93</a></td><td>HPV9</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-99\">99</a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-34\">34</a></td><td>VAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-5\">5</a></td><td>DT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-52\">52</a></td><td>DilMengAC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-51\">51</a></td><td>Fta</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-96\">96</a></td><td>COVID-19 BHARAT - COVAXIN</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-94\">94</a></td><td>DILCOV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-95\">95</a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-98\">98</a></td><td>COVID-19 SINOVAC - CORONAVAC</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRImunobiologico"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRImunobiologico"] ;
+  fhir:ValueSet.title [ fhir:value "BR Imunobiologico"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "107" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VPC20" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "108" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VVSR-Rec" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "dTpa/VIP" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "110" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vacina Influenza Tetravalente - Alta Dosagem" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VVSR-RecAdj" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "106" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VPC15" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "105" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 MODERNA - SPIKEVAX BIVALENTE" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "104" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DNG" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "65" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ROTA5" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "66" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MEN BC" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VR" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IGHV" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "67" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HPV4" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "64" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FLU ID" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hib" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HAeHB" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SACROT" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BCG" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "62" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HAeHBped" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TT" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HPV2" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SABOCR" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SABOLA" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "58" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TETRA acelular" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAELAP" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "103" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY BIVALENTE" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "dTpa" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VVBN" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "55" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HepAinf" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IGHT" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILSR" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "54" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILVAR" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAD" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAT" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IGHHB" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VPP23" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SABOT" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VIP" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAR" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IGHR" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sarampo" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SCR" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "71" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rubeola" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "dT" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gripe Sazonal" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VPC10" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VFA" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "73" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Quadrupla Viral" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SLATRO" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MenACWY" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VOP" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PENTA acelular" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COLERA" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FTp" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VZR" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VPC13" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SARC" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "76" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VHZ" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Meningo AC" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "68" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HPV Bi" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "56" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SCRV" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MenC" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PENTA" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "87" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "86" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 SINOVAC/BUTANTAN - CORONAVAC" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "85" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "84" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VFA-F" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAESCOR" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "79" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILBCG" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "83" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HEPAad" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INF4" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "39" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tetra" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "82" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dengue" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vero" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "38" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SBOTULTRI" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "81" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILMenC" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILVRvero" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "36" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SR" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pncc7V" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HA" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MenB" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALOXO" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SABOTR" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INF3" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SALONO" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "88" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 JANSSEN - Ad26.COV2.S" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HEXA" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "92" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VRvero" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "H1N1" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "46" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DTP" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HepB" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "91" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILVR" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ROTA" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "89" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 ASTRAZENECA - ChAdOx1-S" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DTPa" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "48" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILSRC" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "90" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILSCRV" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "49" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILVFA" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "97" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 MODERNA" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILHib" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "93" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HPV9" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VAR" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DT" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DilMengAC" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fta" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "96" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 BHARAT - COVAXIN" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "94" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DILCOV" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "95" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 GAMALEYA - SPUTNIK V" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "98" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COVID-19 SINOVAC - CORONAVAC" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRImunobiologico.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

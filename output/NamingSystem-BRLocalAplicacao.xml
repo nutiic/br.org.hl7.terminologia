@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="BRLocalAplicacao"/>
+  <language value="pt"/>
+  <text>
+    <status value="generated"/><div xml:lang="pt" xmlns="http://www.w3.org/1999/xhtml" lang="pt"><p class="res-header-id"><b>Narrativa gerada: NamingSystem BRLocalAplicacao</b></p><a name="BRLocalAplicacao"> </a><a name="hcBRLocalAplicacao"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: pt</p></div><h3>Resumo</h3><table class="grid"><tr><td>Definição de URL</td><td>https://terminologia.saude.gov.br/fhir/NamingSystem/BRLocalAplicacao</td></tr><tr><td>Versão</td><td>1.1.0</td></tr><tr><td>Nome</td><td>BRLocalAplicacao</td></tr><tr><td>Estado</td><td>active</td></tr><tr><td>Definição</td><td><div><p>Local de Aplicação</p>
+</div></td></tr><tr><td>Editor</td><td>Ministério do Saúde do Brasil</td></tr></table><h3>Identificadores</h3><table class="grid"><tr><td><b>Tipo</b></td><td><b>Valor</b></td><td><b>Preferenciais</b></td></tr><tr><td>URI</td><td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao</td><td>false</td></tr><tr><td>URI</td><td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="https://terminologia.saude.gov.br/fhir/NamingSystem/BRLocalAplicacao"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="1.1.0"/>
+  </extension>
+  <name value="BRLocalAplicacao"/>
+  <status value="active"/>
+  <kind value="codesystem"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Local de Aplicação"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"/>
+    <preferred value="false"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

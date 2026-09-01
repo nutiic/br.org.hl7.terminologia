@@ -1,0 +1,91 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRRacaCor"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRRacaCor</b></p><a name=\"BRRacaCor\"> </a><a name=\"hcBRRacaCor\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRRacaCor.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-99\">99</a></td><td>Sem informação</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-05\">05</a></td><td>Indígena</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-04\">04</a></td><td>Amarela</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-03\">03</a></td><td>Parda</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-02\">02</a></td><td>Preta</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-01\">01</a></td><td>Branca</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRRacaCor"] ;
+  fhir:ValueSet.title [ fhir:value "BR Raca Cor"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sem informação" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "05" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indígena" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "04" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Amarela" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "03" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Parda" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Preta" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "01" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Branca" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

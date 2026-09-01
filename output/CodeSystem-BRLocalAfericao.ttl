@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRLocalAfericao"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:40:41.865+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRLocalAfericao</b></p><a name=\"BRLocalAfericao\"> </a><a name=\"hcBRLocalAfericao\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:40:41+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRLocalAfericao-9\"> </a></td><td>Dedo da mão</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRLocalAfericao-4\"> </a></td><td>Coxa esquerda</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRLocalAfericao-8\"> </a></td><td>Tornozelo esquerdo</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRLocalAfericao-6\"> </a></td><td>Pulso esquerdo</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRLocalAfericao-3\"> </a></td><td>Coxa direita</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRLocalAfericao-7\"> </a></td><td>Tornozelo direito</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRLocalAfericao-2\"> </a></td><td>Braço esquerdo</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRLocalAfericao-1\"> </a></td><td>Braço direito</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRLocalAfericao-10\"> </a></td><td>Dedo do pé</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRLocalAfericao-5\"> </a></td><td>Pulso direito</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRLocalAfericao"] ;
+  fhir:CodeSystem.title [ fhir:value "BRLocalAfericao"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dedo da mão" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coxa esquerda" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tornozelo esquerdo" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pulso esquerdo" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coxa direita" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tornozelo direito" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Braço esquerdo" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Braço direito" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dedo do pé" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pulso direito" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

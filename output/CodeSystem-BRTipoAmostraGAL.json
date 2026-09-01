@@ -1,0 +1,240 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTipoAmostraGAL",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:33:34.370+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoAmostraGAL</b></p><a name=\"BRTipoAmostraGAL\"> </a><a name=\"hcBRTipoAmostraGAL\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:33:34+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">SECORF<a name=\"BRTipoAmostraGAL-SECORF\"> </a></td><td>Secreção Orofaríngea</td></tr><tr><td style=\"white-space:nowrap\">SGHEM<a name=\"BRTipoAmostraGAL-SGHEM\"> </a></td><td>Sangue</td></tr><tr><td style=\"white-space:nowrap\">ASNAFA<a name=\"BRTipoAmostraGAL-ASNAFA\"> </a></td><td>Aspirado Nasofaríngeo</td></tr><tr><td style=\"white-space:nowrap\">MTBIO<a name=\"BRTipoAmostraGAL-MTBIO\"> </a></td><td>Material Não Biológico</td></tr><tr><td style=\"white-space:nowrap\">FRACOR<a name=\"BRTipoAmostraGAL-FRACOR\"> </a></td><td>Fragmentos de coração</td></tr><tr><td style=\"white-space:nowrap\">FRAFIG<a name=\"BRTipoAmostraGAL-FRAFIG\"> </a></td><td>Fragmentos de fígado</td></tr><tr><td style=\"white-space:nowrap\">FLUORA<a name=\"BRTipoAmostraGAL-FLUORA\"> </a></td><td>Fluido oral</td></tr><tr><td style=\"white-space:nowrap\">FRABAC<a name=\"BRTipoAmostraGAL-FRABAC\"> </a></td><td>Fragmentos de baço</td></tr><tr><td style=\"white-space:nowrap\">SGEDT<a name=\"BRTipoAmostraGAL-SGEDT\"> </a></td><td>Sangue com EDTA</td></tr><tr><td style=\"white-space:nowrap\">SECTRA<a name=\"BRTipoAmostraGAL-SECTRA\"> </a></td><td>Secreção Traqueal</td></tr><tr><td style=\"white-space:nowrap\">ASPBRO<a name=\"BRTipoAmostraGAL-ASPBRO\"> </a></td><td>Aspirado Brônquico</td></tr><tr><td style=\"white-space:nowrap\">FRAAMI<a name=\"BRTipoAmostraGAL-FRAAMI\"> </a></td><td>Fragmentos de ampigdalas</td></tr><tr><td style=\"white-space:nowrap\">RASPEL<a name=\"BRTipoAmostraGAL-RASPEL\"> </a></td><td>Raspado de pele</td></tr><tr><td style=\"white-space:nowrap\">FGMT<a name=\"BRTipoAmostraGAL-FGMT\"> </a></td><td>Fragmento</td></tr><tr><td style=\"white-space:nowrap\">SECPEN<a name=\"BRTipoAmostraGAL-SECPEN\"> </a></td><td>Secreção peniana</td></tr><tr><td style=\"white-space:nowrap\">EXSORO<a name=\"BRTipoAmostraGAL-EXSORO\"> </a></td><td>Exsudato de Orofaringe</td></tr><tr><td style=\"white-space:nowrap\">CORIZA<a name=\"BRTipoAmostraGAL-CORIZA\"> </a></td><td>Coriza</td></tr><tr><td style=\"white-space:nowrap\">SECBRO<a name=\"BRTipoAmostraGAL-SECBRO\"> </a></td><td>Secreção brônquica</td></tr><tr><td style=\"white-space:nowrap\">FGMP<a name=\"BRTipoAmostraGAL-FGMP\"> </a></td><td>Fragmentos do pulmão</td></tr><tr><td style=\"white-space:nowrap\">SECONF<a name=\"BRTipoAmostraGAL-SECONF\"> </a></td><td>Secreção Orofaríngea e Nasofaríngea</td></tr><tr><td style=\"white-space:nowrap\">SECNAS<a name=\"BRTipoAmostraGAL-SECNAS\"> </a></td><td>Secreção Nasofaríngea</td></tr><tr><td style=\"white-space:nowrap\">EXSNAS<a name=\"BRTipoAmostraGAL-EXSNAS\"> </a></td><td>Exsudato de Nasofaringe</td></tr><tr><td style=\"white-space:nowrap\">SECOC<a name=\"BRTipoAmostraGAL-SECOC\"> </a></td><td>Secreção ocular</td></tr><tr><td style=\"white-space:nowrap\">SNCCEB<a name=\"BRTipoAmostraGAL-SNCCEB\"> </a></td><td>Fragmento do tecido do SNC - cérebro</td></tr><tr><td style=\"white-space:nowrap\">FRBRON<a name=\"BRTipoAmostraGAL-FRBRON\"> </a></td><td>Fragmentos de brônquio</td></tr><tr><td style=\"white-space:nowrap\">FRAGT<a name=\"BRTipoAmostraGAL-FRAGT\"> </a></td><td>Fragmento de tecido</td></tr><tr><td style=\"white-space:nowrap\">FRATRA<a name=\"BRTipoAmostraGAL-FRATRA\"> </a></td><td>Fragmentos de traquéia</td></tr><tr><td style=\"white-space:nowrap\">SWLES<a name=\"BRTipoAmostraGAL-SWLES\"> </a></td><td>Swab de lesão</td></tr><tr><td style=\"white-space:nowrap\">SWBAN<a name=\"BRTipoAmostraGAL-SWBAN\"> </a></td><td>Swab Anal</td></tr><tr><td style=\"white-space:nowrap\">FRAPAN<a name=\"BRTipoAmostraGAL-FRAPAN\"> </a></td><td>Fragmentos de pâncreas</td></tr><tr><td style=\"white-space:nowrap\">FRAMOR<a name=\"BRTipoAmostraGAL-FRAMOR\"> </a></td><td>Fragmentos de múltiplos órgãos</td></tr><tr><td style=\"white-space:nowrap\">FRARIM<a name=\"BRTipoAmostraGAL-FRARIM\"> </a></td><td>Fragmentos de rim</td></tr><tr><td style=\"white-space:nowrap\">SWAB<a name=\"BRTipoAmostraGAL-SWAB\"> </a></td><td>Swab</td></tr><tr><td style=\"white-space:nowrap\">SWNAFA<a name=\"BRTipoAmostraGAL-SWNAFA\"> </a></td><td>Swab Nasofaríngeo</td></tr><tr><td style=\"white-space:nowrap\">SNOF<a name=\"BRTipoAmostraGAL-SNOF\"> </a></td><td>Swab Naso-Orofaríngeo</td></tr><tr><td style=\"white-space:nowrap\">SWOCU<a name=\"BRTipoAmostraGAL-SWOCU\"> </a></td><td>Swab Ocular</td></tr><tr><td style=\"white-space:nowrap\">INFP<a name=\"BRTipoAmostraGAL-INFP\"> </a></td><td>Infiltrado pulmonar</td></tr><tr><td style=\"white-space:nowrap\">SWNAS<a name=\"BRTipoAmostraGAL-SWNAS\"> </a></td><td>Swab Nasal</td></tr><tr><td style=\"white-space:nowrap\">SWLSP<a name=\"BRTipoAmostraGAL-SWLSP\"> </a></td><td>Swab de lesão de pele</td></tr><tr><td style=\"white-space:nowrap\">INODER<a name=\"BRTipoAmostraGAL-INODER\"> </a></td><td>Inoculação intradérmica</td></tr><tr><td style=\"white-space:nowrap\">LAVBRO<a name=\"BRTipoAmostraGAL-LAVBRO\"> </a></td><td>Lavado Brônquico</td></tr><tr><td style=\"white-space:nowrap\">LAVBRA<a name=\"BRTipoAmostraGAL-LAVBRA\"> </a></td><td>Lavado Brônquico Alveolar</td></tr><tr><td style=\"white-space:nowrap\">SWRET<a name=\"BRTipoAmostraGAL-SWRET\"> </a></td><td>Swab retal</td></tr><tr><td style=\"white-space:nowrap\">SWORA<a name=\"BRTipoAmostraGAL-SWORA\"> </a></td><td>Swab Oral</td></tr><tr><td style=\"white-space:nowrap\">LAVORO<a name=\"BRTipoAmostraGAL-LAVORO\"> </a></td><td>Lavado de orofaringe</td></tr><tr><td style=\"white-space:nowrap\">SWORO<a name=\"BRTipoAmostraGAL-SWORO\"> </a></td><td>Swab Orofaríngeo</td></tr><tr><td style=\"white-space:nowrap\">LAVTBR<a name=\"BRTipoAmostraGAL-LAVTBR\"> </a></td><td>Lavado Traqueo-Brônquico</td></tr><tr><td style=\"white-space:nowrap\">TECPM<a name=\"BRTipoAmostraGAL-TECPM\"> </a></td><td>Tecido pós-mortem</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+  "version" : "1.1.0",
+  "name" : "BRTipoAmostraGAL",
+  "title" : "BRTipoAmostraGAL",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 48,
+  "concept" : [{
+    "code" : "SECORF",
+    "display" : "Secreção Orofaríngea"
+  },
+  {
+    "code" : "SGHEM",
+    "display" : "Sangue"
+  },
+  {
+    "code" : "ASNAFA",
+    "display" : "Aspirado Nasofaríngeo"
+  },
+  {
+    "code" : "MTBIO",
+    "display" : "Material Não Biológico"
+  },
+  {
+    "code" : "FRACOR",
+    "display" : "Fragmentos de coração"
+  },
+  {
+    "code" : "FRAFIG",
+    "display" : "Fragmentos de fígado"
+  },
+  {
+    "code" : "FLUORA",
+    "display" : "Fluido oral"
+  },
+  {
+    "code" : "FRABAC",
+    "display" : "Fragmentos de baço"
+  },
+  {
+    "code" : "SGEDT",
+    "display" : "Sangue com EDTA"
+  },
+  {
+    "code" : "SECTRA",
+    "display" : "Secreção Traqueal"
+  },
+  {
+    "code" : "ASPBRO",
+    "display" : "Aspirado Brônquico"
+  },
+  {
+    "code" : "FRAAMI",
+    "display" : "Fragmentos de ampigdalas"
+  },
+  {
+    "code" : "RASPEL",
+    "display" : "Raspado de pele"
+  },
+  {
+    "code" : "FGMT",
+    "display" : "Fragmento"
+  },
+  {
+    "code" : "SECPEN",
+    "display" : "Secreção peniana"
+  },
+  {
+    "code" : "EXSORO",
+    "display" : "Exsudato de Orofaringe"
+  },
+  {
+    "code" : "CORIZA",
+    "display" : "Coriza"
+  },
+  {
+    "code" : "SECBRO",
+    "display" : "Secreção brônquica"
+  },
+  {
+    "code" : "FGMP",
+    "display" : "Fragmentos do pulmão"
+  },
+  {
+    "code" : "SECONF",
+    "display" : "Secreção Orofaríngea e Nasofaríngea"
+  },
+  {
+    "code" : "SECNAS",
+    "display" : "Secreção Nasofaríngea"
+  },
+  {
+    "code" : "EXSNAS",
+    "display" : "Exsudato de Nasofaringe"
+  },
+  {
+    "code" : "SECOC",
+    "display" : "Secreção ocular"
+  },
+  {
+    "code" : "SNCCEB",
+    "display" : "Fragmento do tecido do SNC - cérebro"
+  },
+  {
+    "code" : "FRBRON",
+    "display" : "Fragmentos de brônquio"
+  },
+  {
+    "code" : "FRAGT",
+    "display" : "Fragmento de tecido"
+  },
+  {
+    "code" : "FRATRA",
+    "display" : "Fragmentos de traquéia"
+  },
+  {
+    "code" : "SWLES",
+    "display" : "Swab de lesão"
+  },
+  {
+    "code" : "SWBAN",
+    "display" : "Swab Anal"
+  },
+  {
+    "code" : "FRAPAN",
+    "display" : "Fragmentos de pâncreas"
+  },
+  {
+    "code" : "FRAMOR",
+    "display" : "Fragmentos de múltiplos órgãos"
+  },
+  {
+    "code" : "FRARIM",
+    "display" : "Fragmentos de rim"
+  },
+  {
+    "code" : "SWAB",
+    "display" : "Swab"
+  },
+  {
+    "code" : "SWNAFA",
+    "display" : "Swab Nasofaríngeo"
+  },
+  {
+    "code" : "SNOF",
+    "display" : "Swab Naso-Orofaríngeo"
+  },
+  {
+    "code" : "SWOCU",
+    "display" : "Swab Ocular"
+  },
+  {
+    "code" : "INFP",
+    "display" : "Infiltrado pulmonar"
+  },
+  {
+    "code" : "SWNAS",
+    "display" : "Swab Nasal"
+  },
+  {
+    "code" : "SWLSP",
+    "display" : "Swab de lesão de pele"
+  },
+  {
+    "code" : "INODER",
+    "display" : "Inoculação intradérmica"
+  },
+  {
+    "code" : "LAVBRO",
+    "display" : "Lavado Brônquico"
+  },
+  {
+    "code" : "LAVBRA",
+    "display" : "Lavado Brônquico Alveolar"
+  },
+  {
+    "code" : "SWRET",
+    "display" : "Swab retal"
+  },
+  {
+    "code" : "SWORA",
+    "display" : "Swab Oral"
+  },
+  {
+    "code" : "LAVORO",
+    "display" : "Lavado de orofaringe"
+  },
+  {
+    "code" : "SWORO",
+    "display" : "Swab Orofaríngeo"
+  },
+  {
+    "code" : "LAVTBR",
+    "display" : "Lavado Traqueo-Brônquico"
+  },
+  {
+    "code" : "TECPM",
+    "display" : "Tecido pós-mortem"
+  }]
+}

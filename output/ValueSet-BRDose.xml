@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRDose"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRDose</b></p><a name="BRDose"> </a><a name="hcBRDose"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRDose.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-23">23</a></td><td>Tratamento com treze doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-60">60</a></td><td>Profilaxia com 2 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-22">22</a></td><td>Tratamento com doze doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-2">2</a></td><td>2ª Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-57">57</a></td><td>Dose Zero</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-6">6</a></td><td>1º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-20">20</a></td><td>Tratamento com dez doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-21">21</a></td><td>Tratamento com onze doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-59">59</a></td><td>Profilaxia com 1 frasco-ampola/ampola</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-19">19</a></td><td>Tratamento com nove doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-18">18</a></td><td>Tratamento com oito doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-17">17</a></td><td>Tratamento com sete doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-16">16</a></td><td>Tratamento com seis doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-52">52</a></td><td>4ª Dose Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-15">15</a></td><td>Tratamento com cinco doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-51">51</a></td><td>3ª Dose Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-14">14</a></td><td>Tratamento com quatro doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-49">49</a></td><td>1ª Dose Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-12">12</a></td><td>Tratamento com duas doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-11">11</a></td><td>Tratamento com uma dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-48">48</a></td><td>5ª Dose Fracionada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-10">10</a></td><td>Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-47">47</a></td><td>4ª Dose Fracionada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-1">1</a></td><td>1ª Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-50">50</a></td><td>2ª Dose Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-13">13</a></td><td>Tratamento com três doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-5">5</a></td><td>5ª Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-35">35</a></td><td>4ª Dose Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-71">71</a></td><td>Profilaxia com 13 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-34">34</a></td><td>3ª Dose Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-70">70</a></td><td>Profilaxia com 12 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-7">7</a></td><td>2º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-33">33</a></td><td>2ª Dose Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-32">32</a></td><td>1ª Dose Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-31">31</a></td><td>Tratamento com vinte e quatro doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-28">28</a></td><td>Tratamento com dezoito doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-68">68</a></td><td>Profilaxia com 10 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-69">69</a></td><td>Profilaxia com 11 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-66">66</a></td><td>Profilaxia com 8 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-3">3</a></td><td>3ª Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-30">30</a></td><td>Tratamento com vinte doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-65">65</a></td><td>Profilaxia com 7 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-67">67</a></td><td>Profilaxia com 9 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-29">29</a></td><td>Tratamento com dezenove doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-64">64</a></td><td>Profilaxia com 6 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-27">27</a></td><td>Tratamento com dezessete doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-63">63</a></td><td>Profilaxia com 5 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-26">26</a></td><td>Tratamento com dezesseis doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-25">25</a></td><td>Tratamento com quinze doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-62">62</a></td><td>Profilaxia com 4 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-61">61</a></td><td>Profilaxia com 3 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-24">24</a></td><td>Tratamento com quartorze doses</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-75">75</a></td><td>Profilaxia com 17 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-38">38</a></td><td>Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-37">37</a></td><td>Dose Adicional</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-74">74</a></td><td>Profilaxia com 16 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-36">36</a></td><td>Dose Inicial</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-73">73</a></td><td>Profilaxia com 15 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-72">72</a></td><td>Profilaxia com 14 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-39">39</a></td><td>3º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-76">76</a></td><td>Profilaxia com 18 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-4">4</a></td><td>4ª Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-77">77</a></td><td>Profilaxia com 19 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-40">40</a></td><td>4º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-78">78</a></td><td>Profilaxia com 20 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-41">41</a></td><td>5º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-79">79</a></td><td>Profilaxia com 21 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-42">42</a></td><td>6º Reforço</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-8">8</a></td><td>Dose</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-43">43</a></td><td>5ª Dose Revacinação</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-80">80</a></td><td>Profilaxia com 22 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-44">44</a></td><td>1ª Dose Fracionada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-81">81</a></td><td>Profilaxia com 23 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-45">45</a></td><td>2ª Dose Fracionada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-82">82</a></td><td>Profilaxia com 24 frascos-ampolas/ampolas</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-46">46</a></td><td>3ª Dose Fracionada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-9">9</a></td><td>Única</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-58">58</a></td><td>Reforço Zero</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-56">56</a></td><td>4ª Dose Revacinação Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-55">55</a></td><td>3ª Dose Revacinação Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-54">54</a></td><td>2ª Dose Revacinação Dobrada</td></tr><tr><td><a href="CodeSystem-BRDose.html#BRDose-53">53</a></td><td>1ª Dose Revacinação Dobrada</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRDose"/>
+  <version value="1.1.0"/>
+  <name value="BRDose"/>
+  <title value="BR Dose"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose"/>
+      <concept>
+        <code value="23"/>
+        <display value="Tratamento com treze doses"/>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="Profilaxia com 2 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Tratamento com doze doses"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="2ª Dose"/>
+      </concept>
+      <concept>
+        <code value="57"/>
+        <display value="Dose Zero"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="1º Reforço"/>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Tratamento com dez doses"/>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Tratamento com onze doses"/>
+      </concept>
+      <concept>
+        <code value="59"/>
+        <display value="Profilaxia com 1 frasco-ampola/ampola"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Tratamento com nove doses"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Tratamento com oito doses"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Tratamento com sete doses"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Tratamento com seis doses"/>
+      </concept>
+      <concept>
+        <code value="52"/>
+        <display value="4ª Dose Dobrada"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Tratamento com cinco doses"/>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="3ª Dose Dobrada"/>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Tratamento com quatro doses"/>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="1ª Dose Dobrada"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Tratamento com duas doses"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Tratamento com uma dose"/>
+      </concept>
+      <concept>
+        <code value="48"/>
+        <display value="5ª Dose Fracionada"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Revacinação"/>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="4ª Dose Fracionada"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="1ª Dose"/>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="2ª Dose Dobrada"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Tratamento com três doses"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="5ª Dose"/>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="4ª Dose Revacinação"/>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Profilaxia com 13 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="34"/>
+        <display value="3ª Dose Revacinação"/>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Profilaxia com 12 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="2º Reforço"/>
+      </concept>
+      <concept>
+        <code value="33"/>
+        <display value="2ª Dose Revacinação"/>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="1ª Dose Revacinação"/>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="Tratamento com vinte e quatro doses"/>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Tratamento com dezoito doses"/>
+      </concept>
+      <concept>
+        <code value="68"/>
+        <display value="Profilaxia com 10 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Profilaxia com 11 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="66"/>
+        <display value="Profilaxia com 8 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="3ª Dose"/>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="Tratamento com vinte doses"/>
+      </concept>
+      <concept>
+        <code value="65"/>
+        <display value="Profilaxia com 7 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="67"/>
+        <display value="Profilaxia com 9 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="29"/>
+        <display value="Tratamento com dezenove doses"/>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="Profilaxia com 6 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="Tratamento com dezessete doses"/>
+      </concept>
+      <concept>
+        <code value="63"/>
+        <display value="Profilaxia com 5 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="Tratamento com dezesseis doses"/>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Tratamento com quinze doses"/>
+      </concept>
+      <concept>
+        <code value="62"/>
+        <display value="Profilaxia com 4 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="61"/>
+        <display value="Profilaxia com 3 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Tratamento com quartorze doses"/>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="Profilaxia com 17 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Reforço"/>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Dose Adicional"/>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="Profilaxia com 16 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Dose Inicial"/>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="Profilaxia com 15 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="Profilaxia com 14 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="3º Reforço"/>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="Profilaxia com 18 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="4ª Dose"/>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="Profilaxia com 19 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="4º Reforço"/>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="Profilaxia com 20 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="5º Reforço"/>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="Profilaxia com 21 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="6º Reforço"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="Dose"/>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="5ª Dose Revacinação"/>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Profilaxia com 22 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="1ª Dose Fracionada"/>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Profilaxia com 23 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="2ª Dose Fracionada"/>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="Profilaxia com 24 frascos-ampolas/ampolas"/>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="3ª Dose Fracionada"/>
+      </concept>
+      <concept>
+        <code value="9"/>
+        <display value="Única"/>
+      </concept>
+      <concept>
+        <code value="58"/>
+        <display value="Reforço Zero"/>
+      </concept>
+      <concept>
+        <code value="56"/>
+        <display value="4ª Dose Revacinação Dobrada"/>
+      </concept>
+      <concept>
+        <code value="55"/>
+        <display value="3ª Dose Revacinação Dobrada"/>
+      </concept>
+      <concept>
+        <code value="54"/>
+        <display value="2ª Dose Revacinação Dobrada"/>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="1ª Dose Revacinação Dobrada"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

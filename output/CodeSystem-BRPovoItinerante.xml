@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRPovoItinerante"/>
+  <meta>
+    <lastUpdated value="2025-07-17T17:28:24.765+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRPovoItinerante</b></p><a name="BRPovoItinerante"> </a><a name="hcBRPovoItinerante"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 17:28:24+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">4<a name="BRPovoItinerante-4"> </a></td><td>Andarilhos</td></tr><tr><td style="white-space:nowrap">7<a name="BRPovoItinerante-7"> </a></td><td>Trabalhadores de área adstrita</td></tr><tr><td style="white-space:nowrap">3<a name="BRPovoItinerante-3"> </a></td><td>Circenses</td></tr><tr><td style="white-space:nowrap">6<a name="BRPovoItinerante-6"> </a></td><td>Assentados</td></tr><tr><td style="white-space:nowrap">2<a name="BRPovoItinerante-2"> </a></td><td>Ciganos</td></tr><tr><td style="white-space:nowrap">5<a name="BRPovoItinerante-5"> </a></td><td>Acampados</td></tr><tr><td style="white-space:nowrap">1<a name="BRPovoItinerante-1"> </a></td><td>Situação de rua</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante"/>
+  <version value="1.1.0"/>
+  <name value="BRPovoItinerante"/>
+  <title value="BRPovoItinerante"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="4"/>
+    <display value="Andarilhos"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Trabalhadores de área adstrita"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Circenses"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Assentados"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Ciganos"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Acampados"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="Situação de rua"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTabelaSUS",
+  "meta" : {
+    "lastUpdated" : "2025-07-16T16:51:33.410+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTabelaSUS</b></p><a name=\"BRTabelaSUS\"> </a><a name=\"hcBRTabelaSUS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-16 16:51:33+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code> define códigos, mas nenhum código é representado aqui</p></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRTabelaSUS",
+  "title" : "BRTabelaSUS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "not-present"
+}

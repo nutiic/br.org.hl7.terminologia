@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TipoConvenio"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:28:07.840+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem TipoConvenio</b></p><a name=\"TipoConvenio\"> </a><a name=\"hcTipoConvenio\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:28:07+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TipoConvenio-05\"> </a></td><td>PLANO DE SAUDE PUBLICO</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TipoConvenio-07\"> </a></td><td>GRATUIDADE</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TipoConvenio-02\"> </a></td><td>PARTICULAR</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TipoConvenio-06\"> </a></td><td>PLANO DE SAUDE PRIVADO</td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TipoConvenio-01\"> </a></td><td>SUS</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "TipoConvenio"] ;
+  fhir:CodeSystem.title [ fhir:value "TipoConvenio"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "05" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PLANO DE SAUDE PUBLICO" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "07" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRATUIDADE" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "02" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PARTICULAR" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "06" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PLANO DE SAUDE PRIVADO" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "01" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SUS" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,74 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRPovoItinerante",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRPovoItinerante</b></p><a name=\"BRPovoItinerante\"> </a><a name=\"hcBRPovoItinerante\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRPovoItinerante.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-4\">4</a></td><td>Andarilhos</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-7\">7</a></td><td>Trabalhadores de área adstrita</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-3\">3</a></td><td>Circenses</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-6\">6</a></td><td>Assentados</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-2\">2</a></td><td>Ciganos</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-5\">5</a></td><td>Acampados</td></tr><tr><td><a href=\"CodeSystem-BRPovoItinerante.html#BRPovoItinerante-1\">1</a></td><td>Situação de rua</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPovoItinerante",
+  "version" : "1.1.0",
+  "name" : "BRPovoItinerante",
+  "title" : "BR Povo Itinerante",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+      "concept" : [{
+        "code" : "4",
+        "display" : "Andarilhos"
+      },
+      {
+        "code" : "7",
+        "display" : "Trabalhadores de área adstrita"
+      },
+      {
+        "code" : "3",
+        "display" : "Circenses"
+      },
+      {
+        "code" : "6",
+        "display" : "Assentados"
+      },
+      {
+        "code" : "2",
+        "display" : "Ciganos"
+      },
+      {
+        "code" : "5",
+        "display" : "Acampados"
+      },
+      {
+        "code" : "1",
+        "display" : "Situação de rua"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoLogradouro"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTipoLogradouro</b></p><a name="BRTipoLogradouro"> </a><a name="hcBRTipoLogradouro"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTipoLogradouro.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRTipoLogradouro.html#BRTipoLogradouro-081">081</a></td><td>Rua</td></tr><tr><td><a href="CodeSystem-BRTipoLogradouro.html#BRTipoLogradouro-008">008</a></td><td>Avenida</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoLogradouro"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoLogradouro"/>
+  <title value="BR Tipo Logradouro"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro"/>
+      <concept>
+        <code value="081"/>
+        <display value="Rua"/>
+      </concept>
+      <concept>
+        <code value="008"/>
+        <display value="Avenida"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

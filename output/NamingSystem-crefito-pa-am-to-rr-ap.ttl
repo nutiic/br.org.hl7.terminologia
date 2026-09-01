@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pa-am-to-rr-ap> a fhir:NamingSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "crefito-pa-am-to-rr-ap"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: NamingSystem crefito-pa-am-to-rr-ap</b></p><a name=\"crefito-pa-am-to-rr-ap\"> </a><a name=\"hccrefito-pa-am-to-rr-ap\"> </a><h3>Resumo</h3><table class=\"grid\"><tr><td>Definição de URL</td><td>https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pa-am-to-rr-ap</td></tr><tr><td>Versão</td><td>1.1.0</td></tr><tr><td>Nome</td><td>NamingSystemCREFITOPAAMTORRAP</td></tr><tr><td>Estado</td><td>active</td></tr><tr><td>Definição</td><td><div><p>CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL</p>\n</div></td></tr><tr><td>Editor</td><td>Ministério do Saúde do Brasil</td></tr></table><h3>Identificadores</h3><table class=\"grid\"><tr><td><b>Tipo</b></td><td><b>Valor</b></td><td><b>Preferenciais</b></td></tr><tr><td>URI</td><td>https://saude.gov.br/fhir/sid/crefito-pa-am-to-rr-ap</td><td>true</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url" ] ;
+     fhir:Extension.valueUri [ fhir:value "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pa-am-to-rr-ap" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version" ] ;
+     fhir:Extension.valueString [ fhir:value "1.1.0" ]
+  ] ;
+  fhir:NamingSystem.name [ fhir:value "NamingSystemCREFITOPAAMTORRAP"] ;
+  fhir:NamingSystem.status [ fhir:value "active"] ;
+  fhir:NamingSystem.kind [ fhir:value "identifier"] ;
+  fhir:NamingSystem.date [ fhir:value "2024-06-24T13:12:57-03:00"^^xsd:dateTime] ;
+  fhir:NamingSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:NamingSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:NamingSystem.responsible [ fhir:value "Responsável por definir o identificador do conselho regional de farmácia"] ;
+  fhir:NamingSystem.description [ fhir:value "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"] ;
+  fhir:NamingSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:NamingSystem.usage [ fhir:value "CONSELHO REGIONAS DE FISIOTERAPIA E TERAPIA OCUPACIONAL"] ;
+  fhir:NamingSystem.uniqueId [
+     fhir:index 0 ;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ] ;
+     fhir:NamingSystem.uniqueId.value [ fhir:value "https://saude.gov.br/fhir/sid/crefito-pa-am-to-rr-ap" ] ;
+     fhir:NamingSystem.uniqueId.preferred [ fhir:value "true"^^xsd:boolean ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pa-am-to-rr-ap.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

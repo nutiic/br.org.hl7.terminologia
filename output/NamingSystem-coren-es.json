@@ -1,0 +1,55 @@
+{
+  "resourceType" : "NamingSystem",
+  "id" : "coren-es",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: NamingSystem coren-es</b></p><a name=\"coren-es\"> </a><a name=\"hccoren-es\"> </a><h3>Resumo</h3><table class=\"grid\"><tr><td>Definição de URL</td><td>https://terminologia.saude.gov.br/fhir/NamingSystem/coren-es</td></tr><tr><td>Versão</td><td>1.1.0</td></tr><tr><td>Nome</td><td>NamingSystemCORENES</td></tr><tr><td>Estado</td><td>active</td></tr><tr><td>Definição</td><td><div><p>CONSELHO REGIONAL DE ENFERMAGEM</p>\n</div></td></tr><tr><td>Editor</td><td>Ministério do Saúde do Brasil</td></tr></table><h3>Identificadores</h3><table class=\"grid\"><tr><td><b>Tipo</b></td><td><b>Valor</b></td><td><b>Preferenciais</b></td></tr><tr><td>URI</td><td>https://saude.gov.br/fhir/sid/coren-es</td><td>true</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
+    "valueUri" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-es"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
+    "valueString" : "1.1.0"
+  }],
+  "name" : "NamingSystemCORENES",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2024-06-24T13:12:57-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "responsible" : "Responsável por definir o identificador do conselho regional de farmácia",
+  "description" : "CONSELHO REGIONAL DE ENFERMAGEM",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "usage" : "CONSELHO REGIONAL DE ENFERMAGEM",
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "https://saude.gov.br/fhir/sid/coren-es",
+    "preferred" : true
+  }]
+}

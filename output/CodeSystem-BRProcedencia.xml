@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRProcedencia"/>
+  <meta>
+    <lastUpdated value="2025-06-02T18:46:34.954+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRProcedencia</b></p><a name="BRProcedencia"> </a><a name="hcBRProcedencia"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-06-02 18:46:34+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">99<a name="BRProcedencia-99"> </a></td><td>Informação ausente no modelo de origem</td></tr><tr><td style="white-space:nowrap">12<a name="BRProcedencia-12"> </a></td><td>Demanda referenciada</td></tr><tr><td style="white-space:nowrap">11<a name="BRProcedencia-11"> </a></td><td>Retorno</td></tr><tr><td style="white-space:nowrap">10<a name="BRProcedencia-10"> </a></td><td>Ordem Judicial</td></tr><tr><td style="white-space:nowrap">09<a name="BRProcedencia-09"> </a></td><td>Demanda espontânea</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia"/>
+  <version value="1.1.0"/>
+  <name value="BRProcedencia"/>
+  <title value="BRProcedencia"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="99"/>
+    <display value="Informação ausente no modelo de origem"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Demanda referenciada"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Retorno"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Ordem Judicial"/>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Demanda espontânea"/>
+  </concept>
+</CodeSystem>

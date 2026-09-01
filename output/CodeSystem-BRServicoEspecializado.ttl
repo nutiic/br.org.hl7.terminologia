@@ -1,0 +1,352 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRServicoEspecializado"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:30:25.662+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRServicoEspecializado</b></p><a name=\"BRServicoEspecializado\"> </a><a name=\"hcBRServicoEspecializado\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:30:25+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"BRServicoEspecializado-135\"> </a></td><td>SERVICO DE REABILITACAO</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"BRServicoEspecializado-134\"> </a></td><td>SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"BRServicoEspecializado-133\"> </a></td><td>SERVICO DE PNEUMOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"BRServicoEspecializado-132\"> </a></td><td>SERVICO DE ONCOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"BRServicoEspecializado-131\"> </a></td><td>SERVICO DE OFTALMOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"BRServicoEspecializado-130\"> </a></td><td>ATENCAO A DOENCA RENAL CRONICA</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"BRServicoEspecializado-129\"> </a></td><td>SERVICO DE LABORATORIO DE HISTOCOMPATIBILIDADE</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"BRServicoEspecializado-128\"> </a></td><td>SERVICO DE HEMOTERAPIA</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"BRServicoEspecializado-127\"> </a></td><td>SERVICO DE ATENCAO A OBESIDADE</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"BRServicoEspecializado-126\"> </a></td><td>SERVICO DE FISIOTERAPIA</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"BRServicoEspecializado-125\"> </a></td><td>SERVICO DE FARMACIA</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"BRServicoEspecializado-124\"> </a></td><td>SERVICO DE ENDOCRINOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"BRServicoEspecializado-123\"> </a></td><td>SERVICO DE DISPENSACAO DE ORTESES PROTESES E MATERIAIS ESPE</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"BRServicoEspecializado-122\"> </a></td><td>SERVICO DE DIAGNOSTICO POR METODOS GRAFICOS DINAMICOS</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"BRServicoEspecializado-121\"> </a></td><td>SERVICO DE DIAGNOSTICO POR IMAGEM</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"BRServicoEspecializado-174\"> </a></td><td>IMUNIZACAO</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"BRServicoEspecializado-173\"> </a></td><td>LOGISTICA DE IMUNOBIOLOGICOS</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"BRServicoEspecializado-170\"> </a></td><td>COMISSOES E COMITES</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"BRServicoEspecializado-169\"> </a></td><td>ATENCAO EM UROLOGIA</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"BRServicoEspecializado-168\"> </a></td><td>ATENCAO A PESSOAS COM DOENCAS RARAS</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"BRServicoEspecializado-167\"> </a></td><td>ATENDIMENTO ITINERANTE DE ASSISTENCIA E ENSINO EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"BRServicoEspecializado-166\"> </a></td><td>SERV ANALISE LABORATORIAL DE PROD SUJEITOS A VIG SANITARIA</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"BRServicoEspecializado-165\"> </a></td><td>ATENCAO AS PESSOAS EM SITUACAO DE VIOLENCIA SEXUAL</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"BRServicoEspecializado-164\"> </a></td><td>SERVICO DE ORTESES, PROTESES E MAT ESPECIAIS EM REABILITACAO</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"BRServicoEspecializado-163\"> </a></td><td>SERVICO DE CUIDADOS INTERMEDIARIOS</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"BRServicoEspecializado-162\"> </a></td><td>SERVICO DE TERAPIA INTENSIVA</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"BRServicoEspecializado-161\"> </a></td><td>CONSULTORIO NA RUA</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"BRServicoEspecializado-160\"> </a></td><td>TELECONSULTORIA</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"BRServicoEspecializado-159\"> </a></td><td>ATENCAO BASICA</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"BRServicoEspecializado-158\"> </a></td><td>SERVICO DE ATENCAO INTEGRAL EM HANSENIASE</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"BRServicoEspecializado-157\"> </a></td><td>SERVICO DE LABORATORIO DE PROTESE DENTARIA</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"BRServicoEspecializado-156\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DAS PESSOAS OSTOMIZADAS</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"BRServicoEspecializado-155\"> </a></td><td>SERVICO DE TRAUMATOLOGIA E ORTOPEDIA</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"BRServicoEspecializado-154\"> </a></td><td>SERVICO DE BANCO DE TECIDOS</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"BRServicoEspecializado-153\"> </a></td><td>ATENCAO ESPECIALIZADA NO PROCESSO TRANSEXUALIZADOR</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"BRServicoEspecializado-152\"> </a></td><td>ATENCAO A SAUDE DE POPULACOES INDIGENAS</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"BRServicoEspecializado-151\"> </a></td><td>MEDICINA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"BRServicoEspecializado-150\"> </a></td><td>CIRURGIA VASCULAR</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"BRServicoEspecializado-149\"> </a></td><td>TRANSPLANTE</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"BRServicoEspecializado-148\"> </a></td><td>HOSPITAL DIA</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"BRServicoEspecializado-147\"> </a></td><td>SERVICO DE APOIO A SAUDE DA FAMILIA</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"BRServicoEspecializado-146\"> </a></td><td>SERVICO DE VIDEOLAPAROSCOPIA</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"BRServicoEspecializado-145\"> </a></td><td>SERVICO DE DIAGNOSTICO DE LABORATORIO CLINICO</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"BRServicoEspecializado-144\"> </a></td><td>SERVICO POSTO DE COLETA DE MATERIAIS BIOLOGICOS</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"BRServicoEspecializado-143\"> </a></td><td>SERVICO MOVEL DE URGENCIA (EXCETO SAMU)</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"BRServicoEspecializado-142\"> </a></td><td>SERVICO DE ENDOSCOPIA</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"BRServicoEspecializado-141\"> </a></td><td>SERVICO DE VIGILANCIA EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"BRServicoEspecializado-140\"> </a></td><td>SERVICO DE URGENCIA E EMERGENCIA</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"BRServicoEspecializado-139\"> </a></td><td>SERVICO DE TRIAGEM NEONATAL</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"BRServicoEspecializado-136\"> </a></td><td>SERVICO DE SUPORTE NUTRICIONAL</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRServicoEspecializado-110\"> </a></td><td>SERVICO DE ATENCAO A SAUDE REPRODUTIVA</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"BRServicoEspecializado-120\"> </a></td><td>SERVICO DE DIAGNOSTICO POR ANATOMIA PATOLOGICA EOU CITOPATO</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRServicoEspecializado-109\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DOS ADOLESCENTES EM CONFLITO COM</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRServicoEspecializado-108\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DO TRABALHADOR</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"BRServicoEspecializado-119\"> </a></td><td>SERVICO DE CONTROLE DE TABAGISMO</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRServicoEspecializado-107\"> </a></td><td>SERVICO DE ATENCAO A SAUDE AUDITIVA</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"BRServicoEspecializado-118\"> </a></td><td>SERVICO DE CIRURGIA TORACICA</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRServicoEspecializado-106\"> </a></td><td>SERVICO DE ATENCAO A DST/HIV/AIDS</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"BRServicoEspecializado-117\"> </a></td><td>SERVICO DE CIRURGIA REPARADORA</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"BRServicoEspecializado-105\"> </a></td><td>SERVICO DE ATENCAO EM NEUROLOGIA / NEUROCIRURGIA</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRServicoEspecializado-116\"> </a></td><td>SERVICO DE ATENCAO CARDIOVASCULAR / CARDIOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRServicoEspecializado-104\"> </a></td><td>REGULACAO DO ACESSO A ACOES E SERVICOS DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRServicoEspecializado-115\"> </a></td><td>SERVICO DE ATENCAO PSICOSSOCIAL</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRServicoEspecializado-103\"> </a></td><td>SERVICO DE ATENDIMENTO MOVEL DE URGENCIAS</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRServicoEspecializado-114\"> </a></td><td>SERVICO DE ATENCAO EM SAUDE BUCAL</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRServicoEspecializado-102\"> </a></td><td>ESTRATEGIA DE AGENTES COMUNITARIOS DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRServicoEspecializado-113\"> </a></td><td>SERVICO DE ATENCAO DOMICILIAR</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRServicoEspecializado-101\"> </a></td><td>ESTRATEGIA DE SAUDE DA FAMILIA</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRServicoEspecializado-112\"> </a></td><td>SERVICO DE ATENCAO AO PRE-NATAL, PARTO E NASCIMENTO</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRServicoEspecializado-100\"> </a></td><td>ATENCAO A SAUDE NO SISTEMA PENITENCIARIO</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRServicoEspecializado-111\"> </a></td><td>SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRServicoEspecializado"] ;
+  fhir:CodeSystem.title [ fhir:value "BRServicoEspecializado"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "71"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "135" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE REABILITACAO" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "134" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "133" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE PNEUMOLOGIA" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "132" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ONCOLOGIA" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "131" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE OFTALMOLOGIA" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "130" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO A DOENCA RENAL CRONICA" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "129" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE LABORATORIO DE HISTOCOMPATIBILIDADE" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "128" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE HEMOTERAPIA" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "127" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A OBESIDADE" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "126" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE FISIOTERAPIA" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "125" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE FARMACIA" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "124" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ENDOCRINOLOGIA" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "123" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE DISPENSACAO DE ORTESES PROTESES E MATERIAIS ESPE" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE DIAGNOSTICO POR METODOS GRAFICOS DINAMICOS" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "121" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE DIAGNOSTICO POR IMAGEM" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "174" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IMUNIZACAO" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "173" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LOGISTICA DE IMUNOBIOLOGICOS" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "170" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COMISSOES E COMITES" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO EM UROLOGIA" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "168" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO A PESSOAS COM DOENCAS RARAS" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "167" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENDIMENTO ITINERANTE DE ASSISTENCIA E ENSINO EM SAUDE" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "166" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERV ANALISE LABORATORIAL DE PROD SUJEITOS A VIG SANITARIA" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO AS PESSOAS EM SITUACAO DE VIOLENCIA SEXUAL" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ORTESES, PROTESES E MAT ESPECIAIS EM REABILITACAO" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE CUIDADOS INTERMEDIARIOS" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE TERAPIA INTENSIVA" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CONSULTORIO NA RUA" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TELECONSULTORIA" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO BASICA" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "158" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO INTEGRAL EM HANSENIASE" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "157" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE LABORATORIO DE PROTESE DENTARIA" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "156" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A SAUDE DAS PESSOAS OSTOMIZADAS" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "155" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE TRAUMATOLOGIA E ORTOPEDIA" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "154" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE BANCO DE TECIDOS" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO ESPECIALIZADA NO PROCESSO TRANSEXUALIZADOR" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO A SAUDE DE POPULACOES INDIGENAS" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "151" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MEDICINA NUCLEAR" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CIRURGIA VASCULAR" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "149" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TRANSPLANTE" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "148" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HOSPITAL DIA" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "147" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE APOIO A SAUDE DA FAMILIA" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "146" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE VIDEOLAPAROSCOPIA" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "145" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE DIAGNOSTICO DE LABORATORIO CLINICO" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "144" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO POSTO DE COLETA DE MATERIAIS BIOLOGICOS" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "143" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO MOVEL DE URGENCIA (EXCETO SAMU)" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "142" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ENDOSCOPIA" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE VIGILANCIA EM SAUDE" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "140" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE URGENCIA E EMERGENCIA" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "139" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE TRIAGEM NEONATAL" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "136" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE SUPORTE NUTRICIONAL" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A SAUDE REPRODUTIVA" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "120" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE DIAGNOSTICO POR ANATOMIA PATOLOGICA EOU CITOPATO" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A SAUDE DOS ADOLESCENTES EM CONFLITO COM" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A SAUDE DO TRABALHADOR" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "119" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE CONTROLE DE TABAGISMO" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A SAUDE AUDITIVA" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE CIRURGIA TORACICA" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO A DST/HIV/AIDS" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE CIRURGIA REPARADORA" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO EM NEUROLOGIA / NEUROCIRURGIA" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO CARDIOVASCULAR / CARDIOLOGIA" ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REGULACAO DO ACESSO A ACOES E SERVICOS DE SAUDE" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO PSICOSSOCIAL" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENDIMENTO MOVEL DE URGENCIAS" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO EM SAUDE BUCAL" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTRATEGIA DE AGENTES COMUNITARIOS DE SAUDE" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO DOMICILIAR" ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTRATEGIA DE SAUDE DA FAMILIA" ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO AO PRE-NATAL, PARTO E NASCIMENTO" ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ATENCAO A SAUDE NO SISTEMA PENITENCIARIO" ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

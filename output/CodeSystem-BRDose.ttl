@@ -1,0 +1,396 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRDose"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:30:44.803+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRDose</b></p><a name=\"BRDose\"> </a><a name=\"hcBRDose\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:30:44+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRDose-23\"> </a></td><td>Tratamento com treze doses</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRDose-60\"> </a></td><td>Profilaxia com 2 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRDose-22\"> </a></td><td>Tratamento com doze doses</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRDose-2\"> </a></td><td>2ª Dose</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRDose-57\"> </a></td><td>Dose Zero</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRDose-6\"> </a></td><td>1º Reforço</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRDose-20\"> </a></td><td>Tratamento com dez doses</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRDose-21\"> </a></td><td>Tratamento com onze doses</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRDose-59\"> </a></td><td>Profilaxia com 1 frasco-ampola/ampola</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRDose-19\"> </a></td><td>Tratamento com nove doses</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"BRDose-18\"> </a></td><td>Tratamento com oito doses</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRDose-17\"> </a></td><td>Tratamento com sete doses</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRDose-16\"> </a></td><td>Tratamento com seis doses</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRDose-52\"> </a></td><td>4ª Dose Dobrada</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRDose-15\"> </a></td><td>Tratamento com cinco doses</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRDose-51\"> </a></td><td>3ª Dose Dobrada</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRDose-14\"> </a></td><td>Tratamento com quatro doses</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRDose-49\"> </a></td><td>1ª Dose Dobrada</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRDose-12\"> </a></td><td>Tratamento com duas doses</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRDose-11\"> </a></td><td>Tratamento com uma dose</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRDose-48\"> </a></td><td>5ª Dose Fracionada</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRDose-10\"> </a></td><td>Revacinação</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRDose-47\"> </a></td><td>4ª Dose Fracionada</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRDose-1\"> </a></td><td>1ª Dose</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRDose-50\"> </a></td><td>2ª Dose Dobrada</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRDose-13\"> </a></td><td>Tratamento com três doses</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRDose-5\"> </a></td><td>5ª Dose</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRDose-35\"> </a></td><td>4ª Dose Revacinação</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRDose-71\"> </a></td><td>Profilaxia com 13 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRDose-34\"> </a></td><td>3ª Dose Revacinação</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRDose-70\"> </a></td><td>Profilaxia com 12 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRDose-7\"> </a></td><td>2º Reforço</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRDose-33\"> </a></td><td>2ª Dose Revacinação</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRDose-32\"> </a></td><td>1ª Dose Revacinação</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRDose-31\"> </a></td><td>Tratamento com vinte e quatro doses</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRDose-28\"> </a></td><td>Tratamento com dezoito doses</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRDose-68\"> </a></td><td>Profilaxia com 10 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRDose-69\"> </a></td><td>Profilaxia com 11 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRDose-66\"> </a></td><td>Profilaxia com 8 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRDose-3\"> </a></td><td>3ª Dose</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRDose-30\"> </a></td><td>Tratamento com vinte doses</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRDose-65\"> </a></td><td>Profilaxia com 7 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRDose-67\"> </a></td><td>Profilaxia com 9 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRDose-29\"> </a></td><td>Tratamento com dezenove doses</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRDose-64\"> </a></td><td>Profilaxia com 6 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRDose-27\"> </a></td><td>Tratamento com dezessete doses</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRDose-63\"> </a></td><td>Profilaxia com 5 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRDose-26\"> </a></td><td>Tratamento com dezesseis doses</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRDose-25\"> </a></td><td>Tratamento com quinze doses</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRDose-62\"> </a></td><td>Profilaxia com 4 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRDose-61\"> </a></td><td>Profilaxia com 3 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRDose-24\"> </a></td><td>Tratamento com quartorze doses</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRDose-75\"> </a></td><td>Profilaxia com 17 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRDose-38\"> </a></td><td>Reforço</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRDose-37\"> </a></td><td>Dose Adicional</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRDose-74\"> </a></td><td>Profilaxia com 16 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRDose-36\"> </a></td><td>Dose Inicial</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRDose-73\"> </a></td><td>Profilaxia com 15 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRDose-72\"> </a></td><td>Profilaxia com 14 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRDose-39\"> </a></td><td>3º Reforço</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRDose-76\"> </a></td><td>Profilaxia com 18 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRDose-4\"> </a></td><td>4ª Dose</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRDose-77\"> </a></td><td>Profilaxia com 19 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRDose-40\"> </a></td><td>4º Reforço</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRDose-78\"> </a></td><td>Profilaxia com 20 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRDose-41\"> </a></td><td>5º Reforço</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRDose-79\"> </a></td><td>Profilaxia com 21 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRDose-42\"> </a></td><td>6º Reforço</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRDose-8\"> </a></td><td>Dose</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRDose-43\"> </a></td><td>5ª Dose Revacinação</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRDose-80\"> </a></td><td>Profilaxia com 22 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRDose-44\"> </a></td><td>1ª Dose Fracionada</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRDose-81\"> </a></td><td>Profilaxia com 23 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRDose-45\"> </a></td><td>2ª Dose Fracionada</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRDose-82\"> </a></td><td>Profilaxia com 24 frascos-ampolas/ampolas</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRDose-46\"> </a></td><td>3ª Dose Fracionada</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRDose-9\"> </a></td><td>Única</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRDose-58\"> </a></td><td>Reforço Zero</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRDose-56\"> </a></td><td>4ª Dose Revacinação Dobrada</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRDose-55\"> </a></td><td>3ª Dose Revacinação Dobrada</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRDose-54\"> </a></td><td>2ª Dose Revacinação Dobrada</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRDose-53\"> </a></td><td>1ª Dose Revacinação Dobrada</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRDose"] ;
+  fhir:CodeSystem.title [ fhir:value "BRDose"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "82"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com treze doses" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "60" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 2 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com doze doses" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2ª Dose" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "57" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dose Zero" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1º Reforço" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com dez doses" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com onze doses" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "59" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 1 frasco-ampola/ampola" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com nove doses" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com oito doses" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com sete doses" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com seis doses" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4ª Dose Dobrada" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com cinco doses" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3ª Dose Dobrada" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com quatro doses" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "49" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1ª Dose Dobrada" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com duas doses" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com uma dose" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "5ª Dose Fracionada" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Revacinação" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "47" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4ª Dose Fracionada" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1ª Dose" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2ª Dose Dobrada" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com três doses" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "5ª Dose" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4ª Dose Revacinação" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "71" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 13 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3ª Dose Revacinação" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "70" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 12 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2º Reforço" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2ª Dose Revacinação" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1ª Dose Revacinação" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com vinte e quatro doses" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com dezoito doses" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "68" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 10 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "69" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 11 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 8 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3ª Dose" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com vinte doses" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 7 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "67" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 9 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com dezenove doses" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "64" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 6 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com dezessete doses" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "63" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 5 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com dezesseis doses" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com quinze doses" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 4 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "61" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 3 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento com quartorze doses" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 17 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reforço" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dose Adicional" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "74" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 16 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "36" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dose Inicial" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "73" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 15 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "72" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 14 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3º Reforço" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "76" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 18 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4ª Dose" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 19 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4º Reforço" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "78" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 20 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "5º Reforço" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 21 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "6º Reforço" ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dose" ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "5ª Dose Revacinação" ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "80" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 22 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1ª Dose Fracionada" ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 23 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2ª Dose Fracionada" ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "82" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profilaxia com 24 frascos-ampolas/ampolas" ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3ª Dose Fracionada" ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Única" ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "58" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reforço Zero" ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "56" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "4ª Dose Revacinação Dobrada" ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "3ª Dose Revacinação Dobrada" ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "2ª Dose Revacinação Dobrada" ]
+  ], [
+     fhir:index 81 ;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1ª Dose Revacinação Dobrada" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

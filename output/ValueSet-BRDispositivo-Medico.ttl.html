@@ -1,0 +1,963 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BRDispositivo_Medico - TTL Representation - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4.87"}
+    h3,h4,h5,h6{--heading-prefix:"4.87"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - STU1
+
+
+
+  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Início</a></li>
+  <li><a href="toc.html">Índice</a></li>  
+  <li><a href="changes.html">Histórico de mudanças</a></li>
+  <li><a href="artifacts.html">Lista de artefatos</a></li>
+  <li><a href="downloads.html">Baixar</a></li>
+</ul>      
+
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Lista de artefatos</b></a></li><li><b>BRDispositivo_Medico</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1 - Compilação de desenvolvimento local (v1.1.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://terminologia.saude.gov.br/fhir/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-BRDispositivo-Medico.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-BRDispositivo-Medico.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-BRDispositivo-Medico.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: BRDispositivo_Medico - TTL Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2026-08-31
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-BRDispositivo-Medico.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-BRDispositivo-Medico.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/ValueSet/BRDispositivo-Medico&gt; a fhir:ValueSet ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BRDispositivo-Medico&quot;] ;
+  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narrativa gerada: ValueSet BRDispositivo-Medico&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BRDispositivo-Medico\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBRDispositivo-Medico\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include estes códigos, tal como definidos em &lt;a href=\&quot;CodeSystem-BRTabelaSUS.html\&quot;&gt;&lt;code&gt;https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS&lt;/code&gt;&lt;/a&gt;&lt;span title=\&quot;Version is not explicitly stated. No matching Code System found\&quot;&gt; versão Not Stated (use latest from terminology server)&lt;/span&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Código&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Ecrã&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0211020010&lt;/td&gt;&lt;td&gt;CATETERISMO CARDIACO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0211020060&lt;/td&gt;&lt;td&gt;TESTE DE ESFORÇO / TESTE ERGOMETRICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0211070378&lt;/td&gt;&lt;td&gt;AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0301040141&lt;/td&gt;&lt;td&gt;INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0301040176&lt;/td&gt;&lt;td&gt;INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0301040222&lt;/td&gt;&lt;td&gt;INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0303060158&lt;/td&gt;&lt;td&gt;TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0303090235&lt;/td&gt;&lt;td&gt;TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0403010349&lt;/td&gt;&lt;td&gt;TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0403080010&lt;/td&gt;&lt;td&gt;IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0403080029&lt;/td&gt;&lt;td&gt;IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0403080037&lt;/td&gt;&lt;td&gt;IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404010148&lt;/td&gt;&lt;td&gt;IMPLANTE COCLEAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404010571&lt;/td&gt;&lt;td&gt;CIRURGIA DE IMPLANTE COCLEAR UNILATERAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404010580&lt;/td&gt;&lt;td&gt;CIRURGIA DE IMPLANTE COCLEAR BILATERAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404020569&lt;/td&gt;&lt;td&gt;ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404030068&lt;/td&gt;&lt;td&gt;OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0404030220&lt;/td&gt;&lt;td&gt;IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050100&lt;/td&gt;&lt;td&gt;FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050119&lt;/td&gt;&lt;td&gt;FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050135&lt;/td&gt;&lt;td&gt;IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050143&lt;/td&gt;&lt;td&gt;IMPLANTE INTRA-ESTROMAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050151&lt;/td&gt;&lt;td&gt;IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0405050372&lt;/td&gt;&lt;td&gt;FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010552&lt;/td&gt;&lt;td&gt;IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010579&lt;/td&gt;&lt;td&gt;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010587&lt;/td&gt;&lt;td&gt;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010595&lt;/td&gt;&lt;td&gt;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010609&lt;/td&gt;&lt;td&gt;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010617&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010625&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010633&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010641&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010650&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010668&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010676&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010684&lt;/td&gt;&lt;td&gt;IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406010692&lt;/td&gt;&lt;td&gt;IMPLANTE DE PRÓTESE VALVAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406011478&lt;/td&gt;&lt;td&gt;IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406011524&lt;/td&gt;&lt;td&gt;IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406030022&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406030030&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406030057&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406030073&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040028&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040060&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040095&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040109&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040117&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040133&lt;/td&gt;&lt;td&gt;ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040265&lt;/td&gt;&lt;td&gt;IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0406040281&lt;/td&gt;&lt;td&gt;RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0407030085&lt;/td&gt;&lt;td&gt;COLOCAÇÃO DE PRÓTESE BILIAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408010037&lt;/td&gt;&lt;td&gt;ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408020040&lt;/td&gt;&lt;td&gt;ARTROPLASTIA DE ARTICULAÇÃO DA MÃO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408020059&lt;/td&gt;&lt;td&gt;ARTROPLASTIA DE CABEÇA DO RÁDIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408020075&lt;/td&gt;&lt;td&gt;ARTROPLASTIA TOTAL DE COTOVELO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408040084&lt;/td&gt;&lt;td&gt;ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408040092&lt;/td&gt;&lt;td&gt;ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408040130&lt;/td&gt;&lt;td&gt;EPIFISIODESE FEMORAL PROXIMAL IN SITU&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408050047&lt;/td&gt;&lt;td&gt;ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408050055&lt;/td&gt;&lt;td&gt;ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0408050071&lt;/td&gt;&lt;td&gt;ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0409010162&lt;/td&gt;&lt;td&gt;IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0410010090&lt;/td&gt;&lt;td&gt;PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0412010038&lt;/td&gt;&lt;td&gt;COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0412010127&lt;/td&gt;&lt;td&gt;TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0414020421&lt;/td&gt;&lt;td&gt;IMPLANTE DENTÁRIO OSTEOINTEGRADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0418010048&lt;/td&gt;&lt;td&gt;IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0418010064&lt;/td&gt;&lt;td&gt;IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0418010072&lt;/td&gt;&lt;td&gt;IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0418010080&lt;/td&gt;&lt;td&gt;IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701020342&lt;/td&gt;&lt;td&gt;PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701020490&lt;/td&gt;&lt;td&gt;PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701040068&lt;/td&gt;&lt;td&gt;PRÓTESE OCULAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701070099&lt;/td&gt;&lt;td&gt;PROTESE PARCIAL MANDIBULAR REMOVIVEL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701070102&lt;/td&gt;&lt;td&gt;PROTESE PARCIAL MAXILAR REMOVIVEL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0701070137&lt;/td&gt;&lt;td&gt;PROTESE TOTAL MAXILAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702010030&lt;/td&gt;&lt;td&gt;CATETER ATRIAL / PERITONEAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702010049&lt;/td&gt;&lt;td&gt;CATETER GUIA CALIBRE 6F A 8F&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702010065&lt;/td&gt;&lt;td&gt;CATETER VENTRICULAR ISOLADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030074&lt;/td&gt;&lt;td&gt;CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030163&lt;/td&gt;&lt;td&gt;COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030171&lt;/td&gt;&lt;td&gt;COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030210&lt;/td&gt;&lt;td&gt;COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030228&lt;/td&gt;&lt;td&gt;COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030465&lt;/td&gt;&lt;td&gt;HASTE DE ENDER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030627&lt;/td&gt;&lt;td&gt;PARAFUSO CANULADO 3,5 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030635&lt;/td&gt;&lt;td&gt;PARAFUSO CANULADO 4,5 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030643&lt;/td&gt;&lt;td&gt;PARAFUSO CANULADO 7,0 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030660&lt;/td&gt;&lt;td&gt;PARAFUSO CORTICAL 1,5 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030678&lt;/td&gt;&lt;td&gt;PARAFUSO CORTICAL 2,0 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030686&lt;/td&gt;&lt;td&gt;PARAFUSO CORTICAL 2,7 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030694&lt;/td&gt;&lt;td&gt;PARAFUSO CORTICAL 3,5 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030708&lt;/td&gt;&lt;td&gt;PARAFUSO CORTICAL 4,5 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030724&lt;/td&gt;&lt;td&gt;PARAFUSO ESPONJOSO 4,0 MM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030740&lt;/td&gt;&lt;td&gt;PARAFUSO MALEOLAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030791&lt;/td&gt;&lt;td&gt;PINO DE KNOWLES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030805&lt;/td&gt;&lt;td&gt;PINO DE SHANTZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030848&lt;/td&gt;&lt;td&gt;PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030856&lt;/td&gt;&lt;td&gt;PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030872&lt;/td&gt;&lt;td&gt;PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030880&lt;/td&gt;&lt;td&gt;PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030899&lt;/td&gt;&lt;td&gt;PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030902&lt;/td&gt;&lt;td&gt;PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030910&lt;/td&gt;&lt;td&gt;PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030929&lt;/td&gt;&lt;td&gt;PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030937&lt;/td&gt;&lt;td&gt;PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030945&lt;/td&gt;&lt;td&gt;PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030961&lt;/td&gt;&lt;td&gt;PLACA EM L 3,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030970&lt;/td&gt;&lt;td&gt;PLACA EM L 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702030988&lt;/td&gt;&lt;td&gt;PLACA EM T 2,7MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031003&lt;/td&gt;&lt;td&gt;PLACA EM T 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031020&lt;/td&gt;&lt;td&gt;PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031038&lt;/td&gt;&lt;td&gt;PLACA OCCIPITO-CERVICAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031062&lt;/td&gt;&lt;td&gt;PLACA PONTE 4,5 MM (INCLUI PARAFUSO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031070&lt;/td&gt;&lt;td&gt;PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031089&lt;/td&gt;&lt;td&gt;PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031097&lt;/td&gt;&lt;td&gt;PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031100&lt;/td&gt;&lt;td&gt;PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031127&lt;/td&gt;&lt;td&gt;PROTESE DE CABECA DE RADIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031135&lt;/td&gt;&lt;td&gt;PROTESE INTERFALANGEANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031143&lt;/td&gt;&lt;td&gt;PROTESE METACARPO-FALANGEANA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031151&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031160&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031178&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031186&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031208&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL DIAFISARIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031216&lt;/td&gt;&lt;td&gt;PROTESE NAO CONVENCIONAL EXTENSIVEL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031224&lt;/td&gt;&lt;td&gt;PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031232&lt;/td&gt;&lt;td&gt;PROTESE TENDINOSA DE SILICONE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031259&lt;/td&gt;&lt;td&gt;RESTRITOR DE CIMENTO FEMORAL/UMERAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031305&lt;/td&gt;&lt;td&gt;PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031321&lt;/td&gt;&lt;td&gt;PARAFUSO BLOQUEADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031364&lt;/td&gt;&lt;td&gt;MINI PLACA EM T OU L (INCLUI PARAFUSO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702031399&lt;/td&gt;&lt;td&gt;PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040142&lt;/td&gt;&lt;td&gt;CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040410&lt;/td&gt;&lt;td&gt;MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040428&lt;/td&gt;&lt;td&gt;MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040517&lt;/td&gt;&lt;td&gt;STENT PARA ARTÉRIA PERIFÉRICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040541&lt;/td&gt;&lt;td&gt;PROTESE VALVULAR BIOLÓGICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040568&lt;/td&gt;&lt;td&gt;PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702040614&lt;/td&gt;&lt;td&gt;STENT FARMACOLÓGICO PARA ARTERIA CORONARIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050377&lt;/td&gt;&lt;td&gt;PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050407&lt;/td&gt;&lt;td&gt;PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050458&lt;/td&gt;&lt;td&gt;PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050466&lt;/td&gt;&lt;td&gt;PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050474&lt;/td&gt;&lt;td&gt;PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050482&lt;/td&gt;&lt;td&gt;PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050504&lt;/td&gt;&lt;td&gt;PROTESE P/ ESOFAGO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702050830&lt;/td&gt;&lt;td&gt;STENT ESOFÁGICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702060011&lt;/td&gt;&lt;td&gt;CATETER DUPLO J&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702060020&lt;/td&gt;&lt;td&gt;PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702060038&lt;/td&gt;&lt;td&gt;PROTESE TESTICULAR EM GEL DE SILICONE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702080020&lt;/td&gt;&lt;td&gt;PROTESE GLUTEA DE SILICONE (PAR)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702080039&lt;/td&gt;&lt;td&gt;PROTESE MAMARIA DE SILICONE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702090018&lt;/td&gt;&lt;td&gt;PROTESE DE ACO-TEFLON&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702090034&lt;/td&gt;&lt;td&gt;PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702090050&lt;/td&gt;&lt;td&gt;IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0702090093&lt;/td&gt;&lt;td&gt;PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;1.1.0&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BRDispositivo_Medico&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BRDispositivo_Medico&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2026-08-31T22:41:20-04:00&quot;^^xsd:dateTime] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ministério do Saúde do Brasil&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ministério do Saúde do Brasil&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;url&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;https://gov.br/saude&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;contato@gointerop.com&quot; ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Italo Macedo&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;italo@gointerop.com&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">fhir:ContactPoint.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;work&quot; ]
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:ValueSet.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BR&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Brazil&quot; ]
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0211020010&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETERISMO CARDIACO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0211020060&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TESTE DE ESFORÇO / TESTE ERGOMETRICO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0211070378&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0301040141&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0301040176&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0301040222&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0303060158&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0303090235&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0403010349&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0403080010&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0403080029&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0403080037&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404010148&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE COCLEAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404010571&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CIRURGIA DE IMPLANTE COCLEAR UNILATERAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404010580&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CIRURGIA DE IMPLANTE COCLEAR BILATERAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404020569&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404030068&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 17 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0404030220&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 18 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050100&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 19 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050119&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 20 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050135&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 21 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050143&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE INTRA-ESTROMAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 22 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050151&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 23 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0405050372&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 24 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010552&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 25 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010579&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 26 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010587&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 27 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010595&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR &quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 28 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010609&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 29 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010617&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 30 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010625&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 31 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010633&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 32 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010641&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 33 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010650&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 34 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010668&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 35 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010676&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 36 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010684&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 37 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406010692&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE PRÓTESE VALVAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 38 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406011478&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 39 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406011524&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 40 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406030022&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 41 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406030030&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 42 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406030057&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 43 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406030073&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 44 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040028&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 45 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040060&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 46 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040095&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 47 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040109&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 48 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040117&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 49 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040133&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 50 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040265&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 51 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0406040281&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 52 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0407030085&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COLOCAÇÃO DE PRÓTESE BILIAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 53 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408010037&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 54 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408020040&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA DE ARTICULAÇÃO DA MÃO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 55 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408020059&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA DE CABEÇA DO RÁDIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 56 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408020075&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA TOTAL DE COTOVELO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 57 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408040084&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 58 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408040092&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 59 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408040130&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;EPIFISIODESE FEMORAL PROXIMAL IN SITU&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 60 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408050047&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 61 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408050055&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 62 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0408050071&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 63 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0409010162&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 64 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0410010090&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 65 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0412010038&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 66 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0412010127&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 67 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0414020421&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DENTÁRIO OSTEOINTEGRADO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 68 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0418010048&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 69 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0418010064&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 70 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0418010072&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 71 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0418010080&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 72 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701020342&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 73 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701020490&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 74 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701040068&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PRÓTESE OCULAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 75 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701070099&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE PARCIAL MANDIBULAR REMOVIVEL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 76 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701070102&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE PARCIAL MAXILAR REMOVIVEL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 77 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0701070137&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE TOTAL MAXILAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 78 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702010030&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETER ATRIAL / PERITONEAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 79 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702010049&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETER GUIA CALIBRE 6F A 8F&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 80 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702010065&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETER VENTRICULAR ISOLADO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 81 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030074&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 82 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030163&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 83 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030171&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 84 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030210&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 85 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030228&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 86 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030465&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;HASTE DE ENDER&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 87 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030627&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CANULADO 3,5 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 88 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030635&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CANULADO 4,5 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 89 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030643&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CANULADO 7,0 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 90 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030660&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CORTICAL 1,5 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 91 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030678&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CORTICAL 2,0 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 92 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030686&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CORTICAL 2,7 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 93 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030694&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CORTICAL 3,5 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 94 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030708&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO CORTICAL 4,5 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 95 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030724&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO ESPONJOSO 4,0 MM&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 96 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030740&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO MALEOLAR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 97 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030791&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PINO DE KNOWLES&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 98 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030805&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PINO DE SHANTZ&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 99 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030848&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 100 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030856&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 101 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030872&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 102 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030880&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 103 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030899&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 104 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030902&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 105 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030910&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 106 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030929&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 107 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030937&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 108 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030945&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 109 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030961&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA EM L 3,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 110 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030970&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA EM L 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 111 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702030988&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA EM T 2,7MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 112 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031003&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA EM T 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 113 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031020&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 114 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031038&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA OCCIPITO-CERVICAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 115 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031062&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA PONTE 4,5 MM (INCLUI PARAFUSO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 116 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031070&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 117 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031089&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 118 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031097&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 119 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031100&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 120 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031127&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE DE CABECA DE RADIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 121 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031135&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE INTERFALANGEANA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 122 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031143&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE METACARPO-FALANGEANA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 123 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031151&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 124 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031160&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 125 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031178&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 126 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031186&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 127 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031208&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL DIAFISARIA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 128 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031216&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE NAO CONVENCIONAL EXTENSIVEL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 129 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031224&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 130 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031232&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE TENDINOSA DE SILICONE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 131 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031259&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;RESTRITOR DE CIMENTO FEMORAL/UMERAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 132 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031305&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 133 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031321&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO BLOQUEADO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 134 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031364&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MINI PLACA EM T OU L (INCLUI PARAFUSO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 135 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702031399&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 136 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040142&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 137 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040410&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 138 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040428&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 139 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040517&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;STENT PARA ARTÉRIA PERIFÉRICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 140 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040541&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE VALVULAR BIOLÓGICA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 141 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040568&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 142 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702040614&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;STENT FARMACOLÓGICO PARA ARTERIA CORONARIA&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 143 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050377&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL.&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 144 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050407&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 145 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050458&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 146 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050466&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 147 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050474&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 148 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050482&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 149 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050504&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE P/ ESOFAGO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 150 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702050830&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;STENT ESOFÁGICO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 151 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702060011&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CATETER DUPLO J&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 152 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702060020&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 153 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702060038&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE TESTICULAR EM GEL DE SILICONE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 154 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702080020&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE GLUTEA DE SILICONE (PAR)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 155 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702080039&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE MAMARIA DE SILICONE&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 156 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702090018&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PROTESE DE ACO-TEFLON&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 157 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702090034&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 158 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702090050&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 159 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;0702090093&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL&quot; ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/ValueSet/BRDispositivo-Medico.ttl&gt; a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI &lt;http://build.fhir.org/ValueSet/BRDispositivo-Medico.ttl&gt; .
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gov.br/saude">Ministério do Saúde do Brasil</a>.  Package br.gov.saude.terminologia.fhir#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 31, 2026 22:41-0400">2026-08-31</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

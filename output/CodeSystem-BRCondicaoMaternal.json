@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRCondicaoMaternal",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:32:14.820+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRCondicaoMaternal</b></p><a name=\"BRCondicaoMaternal\"> </a><a name=\"hcBRCondicaoMaternal\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:32:14+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRCondicaoMaternal-3\"> </a></td><td>Puérpera</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRCondicaoMaternal-1\"> </a></td><td>Nenhuma</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRCondicaoMaternal-2\"> </a></td><td>Gestante</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoMaternal",
+  "title" : "BRCondicaoMaternal",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "3",
+    "display" : "Puérpera"
+  },
+  {
+    "code" : "1",
+    "display" : "Nenhuma"
+  },
+  {
+    "code" : "2",
+    "display" : "Gestante"
+  }]
+}

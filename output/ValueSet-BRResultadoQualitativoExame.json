@@ -1,0 +1,178 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRResultadoQualitativoExame",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRResultadoQualitativoExame</b></p><a name=\"BRResultadoQualitativoExame\"> </a><a name=\"hcBRResultadoQualitativoExame\"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoDTNT.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-1\">1</a></td><td>Detectable</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-2\">2</a></td><td>Não Detectável</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-3\">3</a></td><td>Indeterminado        </td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoHISPT.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-2\">2</a></td><td>Não Compatível</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-1\">1</a></td><td>Compatível</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-3\">3</a></td><td>Inconclusivo</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoPRAU.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-2\">2</a></td><td>Ausência</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-1\">1</a></td><td>Presença</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-3\">3</a></td><td>Inconclusivo</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRSBAC.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-2\">2</a></td><td>Não Foram visualizados</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-1\">1</a></td><td>Foram visualizados</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-2\">2</a></td><td>Alta Avidez</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-1\">1</a></td><td>Baixa Avidez</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-3\">3</a></td><td>Indeterminado        </td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRGNR.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-2\">2</a></td><td>Não Reagente</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-1\">1</a></td><td>Reagente</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-3\">3</a></td><td>Indeterminado</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRSCUL.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-2\">2</a></td><td>Houve crescimento</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-1\">1</a></td><td>Não houve crescimento</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRResultadoQualitativoExame.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-1\">1</a></td><td>Detectável</td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-2\">2</a></td><td>Não Detectável</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoPSNG.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-2\">2</a></td><td>Negativo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-1\">1</a></td><td>Positivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-3\">3</a></td><td>Inconclusivo</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
+  "version" : "1.1.0",
+  "name" : "BRResultadoQualitativoExame",
+  "title" : "BR Resultado Qualitativo Exame",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Detectable"
+      },
+      {
+        "code" : "2",
+        "display" : "Não Detectável"
+      },
+      {
+        "code" : "3",
+        "display" : "Indeterminado        "
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Não Compatível"
+      },
+      {
+        "code" : "1",
+        "display" : "Compatível"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Ausência"
+      },
+      {
+        "code" : "1",
+        "display" : "Presença"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Não Foram visualizados"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      },
+      {
+        "code" : "1",
+        "display" : "Foram visualizados"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Alta Avidez"
+      },
+      {
+        "code" : "1",
+        "display" : "Baixa Avidez"
+      },
+      {
+        "code" : "3",
+        "display" : "Indeterminado        "
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Não Reagente"
+      },
+      {
+        "code" : "1",
+        "display" : "Reagente"
+      },
+      {
+        "code" : "3",
+        "display" : "Indeterminado"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Houve crescimento"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      },
+      {
+        "code" : "1",
+        "display" : "Não houve crescimento"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Detectável"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      },
+      {
+        "code" : "2",
+        "display" : "Não Detectável"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+      "concept" : [{
+        "code" : "2",
+        "display" : "Negativo"
+      },
+      {
+        "code" : "1",
+        "display" : "Positivo"
+      },
+      {
+        "code" : "3",
+        "display" : "Inconclusivo"
+      }]
+    }]
+  }
+}

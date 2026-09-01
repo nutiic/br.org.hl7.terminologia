@@ -1,0 +1,707 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRDispositivo-Medico"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRDispositivo-Medico</b></p><a name=\"BRDispositivo-Medico\"> </a><a name=\"hcBRDispositivo-Medico\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRTabelaSUS.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0211020010</td><td>CATETERISMO CARDIACO</td></tr><tr><td>0211020060</td><td>TESTE DE ESFORÇO / TESTE ERGOMETRICO</td></tr><tr><td>0211070378</td><td>AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR</td></tr><tr><td>0301040141</td><td>INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)</td></tr><tr><td>0301040176</td><td>INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL</td></tr><tr><td>0301040222</td><td>INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG</td></tr><tr><td>0303060158</td><td>TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR</td></tr><tr><td>0303090235</td><td>TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE</td></tr><tr><td>0403010349</td><td>TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC</td></tr><tr><td>0403080010</td><td>IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL</td></tr><tr><td>0403080029</td><td>IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)</td></tr><tr><td>0403080037</td><td>IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS</td></tr><tr><td>0404010148</td><td>IMPLANTE COCLEAR</td></tr><tr><td>0404010571</td><td>CIRURGIA DE IMPLANTE COCLEAR UNILATERAL</td></tr><tr><td>0404010580</td><td>CIRURGIA DE IMPLANTE COCLEAR BILATERAL</td></tr><tr><td>0404020569</td><td>ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)</td></tr><tr><td>0404030068</td><td>OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO</td></tr><tr><td>0404030220</td><td>IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL</td></tr><tr><td>0405050100</td><td>FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR</td></tr><tr><td>0405050119</td><td>FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA</td></tr><tr><td>0405050135</td><td>IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA</td></tr><tr><td>0405050143</td><td>IMPLANTE INTRA-ESTROMAL</td></tr><tr><td>0405050151</td><td>IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO</td></tr><tr><td>0405050372</td><td>FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL</td></tr><tr><td>0406010552</td><td>IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)</td></tr><tr><td>0406010579</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P</td></tr><tr><td>0406010587</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO</td></tr><tr><td>0406010595</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR </td></tr><tr><td>0406010609</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO</td></tr><tr><td>0406010617</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO</td></tr><tr><td>0406010625</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO</td></tr><tr><td>0406010633</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO</td></tr><tr><td>0406010641</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO</td></tr><tr><td>0406010650</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO</td></tr><tr><td>0406010668</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO</td></tr><tr><td>0406010676</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO</td></tr><tr><td>0406010684</td><td>IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO</td></tr><tr><td>0406010692</td><td>IMPLANTE DE PRÓTESE VALVAR</td></tr><tr><td>0406011478</td><td>IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)</td></tr><tr><td>0406011524</td><td>IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)</td></tr><tr><td>0406030022</td><td>ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS</td></tr><tr><td>0406030030</td><td>ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT</td></tr><tr><td>0406030057</td><td>ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS</td></tr><tr><td>0406030073</td><td>ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)</td></tr><tr><td>0406040028</td><td>ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)</td></tr><tr><td>0406040060</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)</td></tr><tr><td>0406040095</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)</td></tr><tr><td>0406040109</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO</td></tr><tr><td>0406040117</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO</td></tr><tr><td>0406040133</td><td>ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)</td></tr><tr><td>0406040265</td><td>IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO</td></tr><tr><td>0406040281</td><td>RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS</td></tr><tr><td>0407030085</td><td>COLOCAÇÃO DE PRÓTESE BILIAR</td></tr><tr><td>0408010037</td><td>ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)</td></tr><tr><td>0408020040</td><td>ARTROPLASTIA DE ARTICULAÇÃO DA MÃO</td></tr><tr><td>0408020059</td><td>ARTROPLASTIA DE CABEÇA DO RÁDIO</td></tr><tr><td>0408020075</td><td>ARTROPLASTIA TOTAL DE COTOVELO</td></tr><tr><td>0408040084</td><td>ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA</td></tr><tr><td>0408040092</td><td>ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA</td></tr><tr><td>0408040130</td><td>EPIFISIODESE FEMORAL PROXIMAL IN SITU</td></tr><tr><td>0408050047</td><td>ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)</td></tr><tr><td>0408050055</td><td>ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO</td></tr><tr><td>0408050071</td><td>ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO</td></tr><tr><td>0409010162</td><td>IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA</td></tr><tr><td>0410010090</td><td>PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE</td></tr><tr><td>0412010038</td><td>COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I</td></tr><tr><td>0412010127</td><td>TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA</td></tr><tr><td>0414020421</td><td>IMPLANTE DENTÁRIO OSTEOINTEGRADO</td></tr><tr><td>0418010048</td><td>IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE</td></tr><tr><td>0418010064</td><td>IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE</td></tr><tr><td>0418010072</td><td>IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)</td></tr><tr><td>0418010080</td><td>IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC</td></tr><tr><td>0701020342</td><td>PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)</td></tr><tr><td>0701020490</td><td>PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA</td></tr><tr><td>0701040068</td><td>PRÓTESE OCULAR</td></tr><tr><td>0701070099</td><td>PROTESE PARCIAL MANDIBULAR REMOVIVEL</td></tr><tr><td>0701070102</td><td>PROTESE PARCIAL MAXILAR REMOVIVEL</td></tr><tr><td>0701070137</td><td>PROTESE TOTAL MAXILAR</td></tr><tr><td>0702010030</td><td>CATETER ATRIAL / PERITONEAL</td></tr><tr><td>0702010049</td><td>CATETER GUIA CALIBRE 6F A 8F</td></tr><tr><td>0702010065</td><td>CATETER VENTRICULAR ISOLADO</td></tr><tr><td>0702030074</td><td>CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR</td></tr><tr><td>0702030163</td><td>COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO</td></tr><tr><td>0702030171</td><td>COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY</td></tr><tr><td>0702030210</td><td>COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO</td></tr><tr><td>0702030228</td><td>COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA</td></tr><tr><td>0702030465</td><td>HASTE DE ENDER</td></tr><tr><td>0702030627</td><td>PARAFUSO CANULADO 3,5 MM</td></tr><tr><td>0702030635</td><td>PARAFUSO CANULADO 4,5 MM</td></tr><tr><td>0702030643</td><td>PARAFUSO CANULADO 7,0 MM</td></tr><tr><td>0702030660</td><td>PARAFUSO CORTICAL 1,5 MM</td></tr><tr><td>0702030678</td><td>PARAFUSO CORTICAL 2,0 MM</td></tr><tr><td>0702030686</td><td>PARAFUSO CORTICAL 2,7 MM</td></tr><tr><td>0702030694</td><td>PARAFUSO CORTICAL 3,5 MM</td></tr><tr><td>0702030708</td><td>PARAFUSO CORTICAL 4,5 MM</td></tr><tr><td>0702030724</td><td>PARAFUSO ESPONJOSO 4,0 MM</td></tr><tr><td>0702030740</td><td>PARAFUSO MALEOLAR</td></tr><tr><td>0702030791</td><td>PINO DE KNOWLES</td></tr><tr><td>0702030805</td><td>PINO DE SHANTZ</td></tr><tr><td>0702030848</td><td>PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030856</td><td>PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030872</td><td>PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030880</td><td>PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030899</td><td>PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030902</td><td>PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)</td></tr><tr><td>0702030910</td><td>PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)</td></tr><tr><td>0702030929</td><td>PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030937</td><td>PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)</td></tr><tr><td>0702030945</td><td>PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030961</td><td>PLACA EM L 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030970</td><td>PLACA EM L 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030988</td><td>PLACA EM T 2,7MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031003</td><td>PLACA EM T 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031020</td><td>PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031038</td><td>PLACA OCCIPITO-CERVICAL</td></tr><tr><td>0702031062</td><td>PLACA PONTE 4,5 MM (INCLUI PARAFUSO)</td></tr><tr><td>0702031070</td><td>PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031089</td><td>PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031097</td><td>PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031100</td><td>PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO</td></tr><tr><td>0702031127</td><td>PROTESE DE CABECA DE RADIO</td></tr><tr><td>0702031135</td><td>PROTESE INTERFALANGEANA</td></tr><tr><td>0702031143</td><td>PROTESE METACARPO-FALANGEANA</td></tr><tr><td>0702031151</td><td>PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR</td></tr><tr><td>0702031160</td><td>PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR</td></tr><tr><td>0702031178</td><td>PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR</td></tr><tr><td>0702031186</td><td>PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR</td></tr><tr><td>0702031208</td><td>PROTESE NAO CONVENCIONAL DIAFISARIA</td></tr><tr><td>0702031216</td><td>PROTESE NAO CONVENCIONAL EXTENSIVEL</td></tr><tr><td>0702031224</td><td>PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)</td></tr><tr><td>0702031232</td><td>PROTESE TENDINOSA DE SILICONE</td></tr><tr><td>0702031259</td><td>RESTRITOR DE CIMENTO FEMORAL/UMERAL</td></tr><tr><td>0702031305</td><td>PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031321</td><td>PARAFUSO BLOQUEADO</td></tr><tr><td>0702031364</td><td>MINI PLACA EM T OU L (INCLUI PARAFUSO)</td></tr><tr><td>0702031399</td><td>PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)</td></tr><tr><td>0702040142</td><td>CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)</td></tr><tr><td>0702040410</td><td>MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA</td></tr><tr><td>0702040428</td><td>MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA</td></tr><tr><td>0702040517</td><td>STENT PARA ARTÉRIA PERIFÉRICA</td></tr><tr><td>0702040541</td><td>PROTESE VALVULAR BIOLÓGICA</td></tr><tr><td>0702040568</td><td>PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)</td></tr><tr><td>0702040614</td><td>STENT FARMACOLÓGICO PARA ARTERIA CORONARIA</td></tr><tr><td>0702050377</td><td>PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL.</td></tr><tr><td>0702050407</td><td>PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL</td></tr><tr><td>0702050458</td><td>PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO</td></tr><tr><td>0702050466</td><td>PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES</td></tr><tr><td>0702050474</td><td>PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)</td></tr><tr><td>0702050482</td><td>PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)</td></tr><tr><td>0702050504</td><td>PROTESE P/ ESOFAGO</td></tr><tr><td>0702050830</td><td>STENT ESOFÁGICO</td></tr><tr><td>0702060011</td><td>CATETER DUPLO J</td></tr><tr><td>0702060020</td><td>PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)</td></tr><tr><td>0702060038</td><td>PROTESE TESTICULAR EM GEL DE SILICONE</td></tr><tr><td>0702080020</td><td>PROTESE GLUTEA DE SILICONE (PAR)</td></tr><tr><td>0702080039</td><td>PROTESE MAMARIA DE SILICONE</td></tr><tr><td>0702090018</td><td>PROTESE DE ACO-TEFLON</td></tr><tr><td>0702090034</td><td>PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL</td></tr><tr><td>0702090050</td><td>IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO</td></tr><tr><td>0702090093</td><td>PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRDispositivo_Medico"] ;
+  fhir:ValueSet.title [ fhir:value "BRDispositivo_Medico"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-08-31T22:41:20-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0211020010" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETERISMO CARDIACO" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0211020060" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TESTE DE ESFORÇO / TESTE ERGOMETRICO" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0211070378" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0301040141" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0301040176" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0301040222" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0303060158" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0303090235" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0403010349" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0403080010" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0403080029" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0403080037" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404010148" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE COCLEAR" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404010571" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CIRURGIA DE IMPLANTE COCLEAR UNILATERAL" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404010580" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CIRURGIA DE IMPLANTE COCLEAR BILATERAL" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404020569" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404030068" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0404030220" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050119" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050135" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050143" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE INTRA-ESTROMAL" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050151" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0405050372" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010552" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010579" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010587" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010595" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR " ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010609" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010617" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010625" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010633" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010641" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010650" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010668" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010676" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010684" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406010692" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE PRÓTESE VALVAR" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406011478" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406011524" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406030022" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406030030" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406030057" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406030073" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040028" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040060" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040095" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040117" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040133" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040265" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0406040281" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0407030085" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COLOCAÇÃO DE PRÓTESE BILIAR" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408010037" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408020040" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA DE ARTICULAÇÃO DA MÃO" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408020059" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA DE CABEÇA DO RÁDIO" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408020075" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA TOTAL DE COTOVELO" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408040084" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408040092" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408040130" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EPIFISIODESE FEMORAL PROXIMAL IN SITU" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408050047" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408050055" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0408050071" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0409010162" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0410010090" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0412010038" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0412010127" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0414020421" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DENTÁRIO OSTEOINTEGRADO" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0418010048" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0418010064" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0418010072" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0418010080" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701020342" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701020490" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701040068" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PRÓTESE OCULAR" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701070099" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE PARCIAL MANDIBULAR REMOVIVEL" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701070102" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE PARCIAL MAXILAR REMOVIVEL" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0701070137" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE TOTAL MAXILAR" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702010030" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETER ATRIAL / PERITONEAL" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702010049" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETER GUIA CALIBRE 6F A 8F" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702010065" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETER VENTRICULAR ISOLADO" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030074" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030163" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030171" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030210" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030228" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030465" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HASTE DE ENDER" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030627" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CANULADO 3,5 MM" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030635" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CANULADO 4,5 MM" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030643" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CANULADO 7,0 MM" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030660" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CORTICAL 1,5 MM" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030678" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CORTICAL 2,0 MM" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030686" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CORTICAL 2,7 MM" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030694" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CORTICAL 3,5 MM" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030708" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO CORTICAL 4,5 MM" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030724" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO ESPONJOSO 4,0 MM" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030740" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO MALEOLAR" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030791" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PINO DE KNOWLES" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030805" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PINO DE SHANTZ" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030848" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030856" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030872" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030880" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030899" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030902" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030910" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030929" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030937" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030945" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030961" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA EM L 3,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030970" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA EM L 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702030988" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA EM T 2,7MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031003" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA EM T 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031020" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031038" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA OCCIPITO-CERVICAL" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031062" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA PONTE 4,5 MM (INCLUI PARAFUSO)" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031070" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031089" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031097" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031127" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE DE CABECA DE RADIO" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031135" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE INTERFALANGEANA" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031143" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE METACARPO-FALANGEANA" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031151" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031160" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031178" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031186" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031208" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL DIAFISARIA" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031216" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE NAO CONVENCIONAL EXTENSIVEL" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031224" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031232" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE TENDINOSA DE SILICONE" ]
+       ], [
+         fhir:index 131 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031259" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "RESTRITOR DE CIMENTO FEMORAL/UMERAL" ]
+       ], [
+         fhir:index 132 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031305" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 133 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031321" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO BLOQUEADO" ]
+       ], [
+         fhir:index 134 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031364" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MINI PLACA EM T OU L (INCLUI PARAFUSO)" ]
+       ], [
+         fhir:index 135 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702031399" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)" ]
+       ], [
+         fhir:index 136 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040142" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)" ]
+       ], [
+         fhir:index 137 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040410" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA" ]
+       ], [
+         fhir:index 138 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040428" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA" ]
+       ], [
+         fhir:index 139 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040517" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "STENT PARA ARTÉRIA PERIFÉRICA" ]
+       ], [
+         fhir:index 140 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040541" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE VALVULAR BIOLÓGICA" ]
+       ], [
+         fhir:index 141 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040568" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)" ]
+       ], [
+         fhir:index 142 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702040614" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "STENT FARMACOLÓGICO PARA ARTERIA CORONARIA" ]
+       ], [
+         fhir:index 143 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050377" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL." ]
+       ], [
+         fhir:index 144 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050407" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL" ]
+       ], [
+         fhir:index 145 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050458" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO" ]
+       ], [
+         fhir:index 146 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050466" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES" ]
+       ], [
+         fhir:index 147 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050474" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 148 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050482" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)" ]
+       ], [
+         fhir:index 149 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050504" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE P/ ESOFAGO" ]
+       ], [
+         fhir:index 150 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702050830" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "STENT ESOFÁGICO" ]
+       ], [
+         fhir:index 151 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702060011" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATETER DUPLO J" ]
+       ], [
+         fhir:index 152 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702060020" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)" ]
+       ], [
+         fhir:index 153 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702060038" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE TESTICULAR EM GEL DE SILICONE" ]
+       ], [
+         fhir:index 154 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702080020" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE GLUTEA DE SILICONE (PAR)" ]
+       ], [
+         fhir:index 155 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702080039" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE MAMARIA DE SILICONE" ]
+       ], [
+         fhir:index 156 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702090018" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PROTESE DE ACO-TEFLON" ]
+       ], [
+         fhir:index 157 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702090034" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL" ]
+       ], [
+         fhir:index 158 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702090050" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO" ]
+       ], [
+         fhir:index 159 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "0702090093" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

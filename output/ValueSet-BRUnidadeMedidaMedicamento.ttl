@@ -1,0 +1,371 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeMedidaMedicamento> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRUnidadeMedidaMedicamento"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRUnidadeMedidaMedicamento</b></p><a name=\"BRUnidadeMedidaMedicamento\"> </a><a name=\"hcBRUnidadeMedidaMedicamento\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRUnidadeMedida.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-82\">82</a></td><td>Glóbulo</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-43\">43</a></td><td>mg (Miligrama)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-42\">42</a></td><td>mEq (Miliequivalente)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-41\">41</a></td><td>m (Metro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-9\">9</a></td><td>Bisnaga</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-40\">40</a></td><td>Lata</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-80\">80</a></td><td>Tubo</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-4\">4</a></td><td>Aplicação</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-8\">8</a></td><td>Barra</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-39\">39</a></td><td>L (Litro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-79\">79</a></td><td>Tubete</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-38\">38</a></td><td>kg (Quilograma)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-78\">78</a></td><td>Tablete</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-37\">37</a></td><td>Implante</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-77\">77</a></td><td>Seringa preenchida</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-36\">36</a></td><td>Hora</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-76\">76</a></td><td>Sachê</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-35\">35</a></td><td>Gota</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-75\">75</a></td><td>Pote</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-34\">34</a></td><td>Goma</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-74\">74</a></td><td>Drágea</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-33\">33</a></td><td>g (Grama)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-71\">71</a></td><td>Cartela</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-70\">70</a></td><td>Cartão</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-32\">32</a></td><td>Frasco-ampola</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-7\">7</a></td><td>Bandagem</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-31\">31</a></td><td>Frasco</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-69\">69</a></td><td>Capsula inalante</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-30\">30</a></td><td>Flaconete</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-66\">66</a></td><td>Bastão</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-3\">3</a></td><td>Anel</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-64\">64</a></td><td>Óvulo</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-29\">29</a></td><td>Filme</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-63\">63</a></td><td>UTR (Unidade Redutora da Turbidez)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-28\">28</a></td><td>Estojo</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-62\">62</a></td><td>Unidade</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-27\">27</a></td><td>Envelope</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-61\">61</a></td><td>UIC (Unidade Inibidora de Calicreína)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-26\">26</a></td><td>Enema</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-60\">60</a></td><td>UI (Unidade Internacional)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-25\">25</a></td><td>Endosporos</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-6\">6</a></td><td>Atomização</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-24\">24</a></td><td>Emplastro</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-59\">59</a></td><td>Supositório</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-23\">23</a></td><td>Dose</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-58\">58</a></td><td>Strip</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-22\">22</a></td><td>Dispositivo de injeção pré-carregado</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-57\">57</a></td><td>Seringa</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-21\">21</a></td><td>Dispositivo</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-56\">56</a></td><td>Saco</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-20\">20</a></td><td>Desconhecido</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-55\">55</a></td><td>Pílula</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-2\">2</a></td><td>Ampola</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-54\">54</a></td><td>Pastilha gomosa</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-19\">19</a></td><td>Comprimido</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-53\">53</a></td><td>Pastilha dura</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-18\">18</a></td><td>cm² (Centímetro Quadrado)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-52\">52</a></td><td>Pastilha</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-17\">17</a></td><td>cm (Centímetro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-51\">51</a></td><td>nL (Nanolitro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-50\">50</a></td><td>ng (Nanograma)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-16\">16</a></td><td>Catéter</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-5\">5</a></td><td>Aplicador</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-15\">15</a></td><td>Cartucho</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-49\">49</a></td><td>mm (Milímetro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-14\">14</a></td><td>Carpule</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-48\">48</a></td><td>mL (Mililitro)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-13\">13</a></td><td>Cápsula</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-47\">47</a></td><td>MUI (Milhões de unidades internacionais)</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-12\">12</a></td><td>Caixa</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-46\">46</a></td><td>Milhões</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-11\">11</a></td><td>Bolsa</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-10\">10</a></td><td>Blíster</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-45\">45</a></td><td>Microlitro</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-44\">44</a></td><td>Micrograma</td></tr><tr><td><a href=\"CodeSystem-BRUnidadeMedida.html#BRUnidadeMedida-1\">1</a></td><td>Adesivo</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeMedidaMedicamento"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRUnidadeMedidaMedicamento"] ;
+  fhir:ValueSet.title [ fhir:value "BR Unidade Medida Medicamento"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "82" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glóbulo" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "mg (Miligrama)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "mEq (Miliequivalente)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "m (Metro)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bisnaga" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lata" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "80" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tubo" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aplicação" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Barra" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "39" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "L (Litro)" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "79" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tubete" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "38" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "kg (Quilograma)" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "78" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tablete" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Implante" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "77" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seringa preenchida" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "36" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hora" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "76" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sachê" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gota" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "75" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pote" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Goma" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drágea" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "g (Grama)" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "71" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cartela" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "70" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cartão" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Frasco-ampola" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bandagem" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Frasco" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Capsula inalante" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Flaconete" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "66" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bastão" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anel" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "64" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Óvulo" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filme" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "63" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UTR (Unidade Redutora da Turbidez)" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estojo" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "62" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unidade" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Envelope" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UIC (Unidade Inibidora de Calicreína)" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enema" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "60" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UI (Unidade Internacional)" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Endosporos" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atomização" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "24" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Emplastro" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Supositório" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "23" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dose" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "58" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Strip" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositivo de injeção pré-carregado" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seringa" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositivo" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "56" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saco" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Desconhecido" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "55" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pílula" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ampola" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "54" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pastilha gomosa" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "19" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Comprimido" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pastilha dura" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "cm² (Centímetro Quadrado)" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pastilha" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "cm (Centímetro)" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "nL (Nanolitro)" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ng (Nanograma)" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Catéter" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aplicador" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cartucho" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "49" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "mm (Milímetro)" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carpule" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "48" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "mL (Mililitro)" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cápsula" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "47" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MUI (Milhões de unidades internacionais)" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caixa" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "46" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Milhões" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bolsa" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Blíster" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microlitro" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Micrograma" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adesivo" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeMedidaMedicamento.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="OCIOrtopedia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet OCIOrtopedia</b></p><a name="OCIOrtopedia"> </a><a name="hcOCIOrtopedia"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTabelaSUS.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0903010011</td><td>OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA</td></tr><tr><td>0903010020</td><td>OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA</td></tr><tr><td>0903010046</td><td>OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA</td></tr><tr><td>0903010038</td><td>OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/OCIOrtopedia"/>
+  <version value="1.1.0"/>
+  <name value="OCIOrtopedia"/>
+  <title value="OCIOrtopedia"/>
+  <status value="active"/>
+  <date value="2026-08-31T22:41:20-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS"/>
+      <concept>
+        <code value="0903010011"/>
+        <display value="OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA"/>
+      </concept>
+      <concept>
+        <code value="0903010020"/>
+        <display value="OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA"/>
+      </concept>
+      <concept>
+        <code value="0903010046"/>
+        <display value="OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA"/>
+      </concept>
+      <concept>
+        <code value="0903010038"/>
+        <display value="OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

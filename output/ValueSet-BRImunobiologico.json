@@ -1,0 +1,490 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRImunobiologico",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRImunobiologico.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-107\">107</a></td><td>VPC20</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-108\">108</a></td><td>VVSR-Rec</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-111\">111</a></td><td>dTpa/VIP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-110\">110</a></td><td>Vacina Influenza Tetravalente - Alta Dosagem</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-109\">109</a></td><td>VVSR-RecAdj</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-106\">106</a></td><td>VPC15</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-105\">105</a></td><td>COVID-19 MODERNA - SPIKEVAX BIVALENTE</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-104\">104</a></td><td>DNG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-65\">65</a></td><td>ROTA5</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-66\">66</a></td><td>MEN BC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-18\">18</a></td><td>VR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-19\">19</a></td><td>IGHV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-67\">67</a></td><td>HPV4</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-64\">64</a></td><td>FLU ID</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-17\">17</a></td><td>Hib</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-63\">63</a></td><td>HAeHB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-16\">16</a></td><td>SACROT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-15\">15</a></td><td>BCG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-62\">62</a></td><td>HAeHBped</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-61\">61</a></td><td>TT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-60\">60</a></td><td>HPV2</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-11\">11</a></td><td>SABOCR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-12\">12</a></td><td>SABOLA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-58\">58</a></td><td>TETRA acelular</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-6\">6</a></td><td>SAELAP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-103\">103</a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-57\">57</a></td><td>dTpa</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-102\">102</a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-100\">100</a></td><td>VVBN</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-55\">55</a></td><td>HepAinf</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-1\">1</a></td><td>IGHT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-53\">53</a></td><td>DILSR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-54\">54</a></td><td>DILVAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-10\">10</a></td><td>SAD</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-2\">2</a></td><td>SAT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-20\">20</a></td><td>IGHHB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-21\">21</a></td><td>VPP23</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-69\">69</a></td><td>SABOT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-22\">22</a></td><td>VIP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-7\">7</a></td><td>SAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-23\">23</a></td><td>IGHR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-70\">70</a></td><td>Sarampo</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-24\">24</a></td><td>SCR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-71\">71</a></td><td>Rubeola</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-25\">25</a></td><td>dT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-72\">72</a></td><td>Gripe Sazonal</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-26\">26</a></td><td>VPC10</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-14\">14</a></td><td>VFA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-73\">73</a></td><td>Quadrupla Viral</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-27\">27</a></td><td>SLATRO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-74\">74</a></td><td>MenACWY</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-28\">28</a></td><td>VOP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-29\">29</a></td><td>PENTA acelular</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-75\">75</a></td><td>COLERA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-30\">30</a></td><td>FTp</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-101\">101</a></td><td>VZR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-59\">59</a></td><td>VPC13</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-3\">3</a></td><td>SARC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-76\">76</a></td><td>VHZ</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-13\">13</a></td><td>Meningo AC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-68\">68</a></td><td>HPV Bi</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-56\">56</a></td><td>SCRV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-41\">41</a></td><td>MenC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-42\">42</a></td><td>PENTA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-87\">87</a></td><td>COVID-19 PFIZER - COMIRNATY</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-86\">86</a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-85\">85</a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-84\">84</a></td><td>VFA-F</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-4\">4</a></td><td>SAESCOR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-79\">79</a></td><td>DILBCG</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-83\">83</a></td><td>HEPAad</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-77\">77</a></td><td>INF4</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-39\">39</a></td><td>Tetra</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-82\">82</a></td><td>Dengue</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-37\">37</a></td><td>Vero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-38\">38</a></td><td>SBOTULTRI</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-81\">81</a></td><td>DILMenC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-80\">80</a></td><td>DILVRvero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-36\">36</a></td><td>SR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-40\">40</a></td><td>Pncc7V</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-35\">35</a></td><td>HA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-78\">78</a></td><td>MenB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-31\">31</a></td><td>SALOXO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-8\">8</a></td><td>SABOTR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-33\">33</a></td><td>INF3</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-32\">32</a></td><td>SALONO</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-88\">88</a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-43\">43</a></td><td>HEXA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-92\">92</a></td><td>VRvero</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-44\">44</a></td><td>H1N1</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-46\">46</a></td><td>DTP</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-9\">9</a></td><td>HepB</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-91\">91</a></td><td>DILVR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-45\">45</a></td><td>ROTA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-89\">89</a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-47\">47</a></td><td>DTPa</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-48\">48</a></td><td>DILSRC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-90\">90</a></td><td>DILSCRV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-49\">49</a></td><td>DILVFA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-97\">97</a></td><td>COVID-19 MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-50\">50</a></td><td>DILHib</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-93\">93</a></td><td>HPV9</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-99\">99</a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-34\">34</a></td><td>VAR</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-5\">5</a></td><td>DT</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-52\">52</a></td><td>DilMengAC</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-51\">51</a></td><td>Fta</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-96\">96</a></td><td>COVID-19 BHARAT - COVAXIN</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-94\">94</a></td><td>DILCOV</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-95\">95</a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td></tr><tr><td><a href=\"CodeSystem-BRImunobiologico.html#BRImunobiologico-98\">98</a></td><td>COVID-19 SINOVAC - CORONAVAC</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRImunobiologico",
+  "title" : "BR Imunobiologico",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
+      "concept" : [{
+        "code" : "107",
+        "display" : "VPC20"
+      },
+      {
+        "code" : "108",
+        "display" : "VVSR-Rec"
+      },
+      {
+        "code" : "111",
+        "display" : "dTpa/VIP"
+      },
+      {
+        "code" : "110",
+        "display" : "Vacina Influenza Tetravalente - Alta Dosagem"
+      },
+      {
+        "code" : "109",
+        "display" : "VVSR-RecAdj"
+      },
+      {
+        "code" : "106",
+        "display" : "VPC15"
+      },
+      {
+        "code" : "105",
+        "display" : "COVID-19 MODERNA - SPIKEVAX BIVALENTE"
+      },
+      {
+        "code" : "104",
+        "display" : "DNG"
+      },
+      {
+        "code" : "65",
+        "display" : "ROTA5"
+      },
+      {
+        "code" : "66",
+        "display" : "MEN BC"
+      },
+      {
+        "code" : "18",
+        "display" : "VR"
+      },
+      {
+        "code" : "19",
+        "display" : "IGHV"
+      },
+      {
+        "code" : "67",
+        "display" : "HPV4"
+      },
+      {
+        "code" : "64",
+        "display" : "FLU ID"
+      },
+      {
+        "code" : "17",
+        "display" : "Hib"
+      },
+      {
+        "code" : "63",
+        "display" : "HAeHB"
+      },
+      {
+        "code" : "16",
+        "display" : "SACROT"
+      },
+      {
+        "code" : "15",
+        "display" : "BCG"
+      },
+      {
+        "code" : "62",
+        "display" : "HAeHBped"
+      },
+      {
+        "code" : "61",
+        "display" : "TT"
+      },
+      {
+        "code" : "60",
+        "display" : "HPV2"
+      },
+      {
+        "code" : "11",
+        "display" : "SABOCR"
+      },
+      {
+        "code" : "12",
+        "display" : "SABOLA"
+      },
+      {
+        "code" : "58",
+        "display" : "TETRA acelular"
+      },
+      {
+        "code" : "6",
+        "display" : "SAELAP"
+      },
+      {
+        "code" : "103",
+        "display" : "COVID-19 PFIZER - COMIRNATY BIVALENTE"
+      },
+      {
+        "code" : "57",
+        "display" : "dTpa"
+      },
+      {
+        "code" : "102",
+        "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
+      },
+      {
+        "code" : "100",
+        "display" : "VVBN"
+      },
+      {
+        "code" : "55",
+        "display" : "HepAinf"
+      },
+      {
+        "code" : "1",
+        "display" : "IGHT"
+      },
+      {
+        "code" : "53",
+        "display" : "DILSR"
+      },
+      {
+        "code" : "54",
+        "display" : "DILVAR"
+      },
+      {
+        "code" : "10",
+        "display" : "SAD"
+      },
+      {
+        "code" : "2",
+        "display" : "SAT"
+      },
+      {
+        "code" : "20",
+        "display" : "IGHHB"
+      },
+      {
+        "code" : "21",
+        "display" : "VPP23"
+      },
+      {
+        "code" : "69",
+        "display" : "SABOT"
+      },
+      {
+        "code" : "22",
+        "display" : "VIP"
+      },
+      {
+        "code" : "7",
+        "display" : "SAR"
+      },
+      {
+        "code" : "23",
+        "display" : "IGHR"
+      },
+      {
+        "code" : "70",
+        "display" : "Sarampo"
+      },
+      {
+        "code" : "24",
+        "display" : "SCR"
+      },
+      {
+        "code" : "71",
+        "display" : "Rubeola"
+      },
+      {
+        "code" : "25",
+        "display" : "dT"
+      },
+      {
+        "code" : "72",
+        "display" : "Gripe Sazonal"
+      },
+      {
+        "code" : "26",
+        "display" : "VPC10"
+      },
+      {
+        "code" : "14",
+        "display" : "VFA"
+      },
+      {
+        "code" : "73",
+        "display" : "Quadrupla Viral"
+      },
+      {
+        "code" : "27",
+        "display" : "SLATRO"
+      },
+      {
+        "code" : "74",
+        "display" : "MenACWY"
+      },
+      {
+        "code" : "28",
+        "display" : "VOP"
+      },
+      {
+        "code" : "29",
+        "display" : "PENTA acelular"
+      },
+      {
+        "code" : "75",
+        "display" : "COLERA"
+      },
+      {
+        "code" : "30",
+        "display" : "FTp"
+      },
+      {
+        "code" : "101",
+        "display" : "VZR"
+      },
+      {
+        "code" : "59",
+        "display" : "VPC13"
+      },
+      {
+        "code" : "3",
+        "display" : "SARC"
+      },
+      {
+        "code" : "76",
+        "display" : "VHZ"
+      },
+      {
+        "code" : "13",
+        "display" : "Meningo AC"
+      },
+      {
+        "code" : "68",
+        "display" : "HPV Bi"
+      },
+      {
+        "code" : "56",
+        "display" : "SCRV"
+      },
+      {
+        "code" : "41",
+        "display" : "MenC"
+      },
+      {
+        "code" : "42",
+        "display" : "PENTA"
+      },
+      {
+        "code" : "87",
+        "display" : "COVID-19 PFIZER - COMIRNATY"
+      },
+      {
+        "code" : "86",
+        "display" : "COVID-19 SINOVAC/BUTANTAN - CORONAVAC"
+      },
+      {
+        "code" : "85",
+        "display" : "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+      },
+      {
+        "code" : "84",
+        "display" : "VFA-F"
+      },
+      {
+        "code" : "4",
+        "display" : "SAESCOR"
+      },
+      {
+        "code" : "79",
+        "display" : "DILBCG"
+      },
+      {
+        "code" : "83",
+        "display" : "HEPAad"
+      },
+      {
+        "code" : "77",
+        "display" : "INF4"
+      },
+      {
+        "code" : "39",
+        "display" : "Tetra"
+      },
+      {
+        "code" : "82",
+        "display" : "Dengue"
+      },
+      {
+        "code" : "37",
+        "display" : "Vero"
+      },
+      {
+        "code" : "38",
+        "display" : "SBOTULTRI"
+      },
+      {
+        "code" : "81",
+        "display" : "DILMenC"
+      },
+      {
+        "code" : "80",
+        "display" : "DILVRvero"
+      },
+      {
+        "code" : "36",
+        "display" : "SR"
+      },
+      {
+        "code" : "40",
+        "display" : "Pncc7V"
+      },
+      {
+        "code" : "35",
+        "display" : "HA"
+      },
+      {
+        "code" : "78",
+        "display" : "MenB"
+      },
+      {
+        "code" : "31",
+        "display" : "SALOXO"
+      },
+      {
+        "code" : "8",
+        "display" : "SABOTR"
+      },
+      {
+        "code" : "33",
+        "display" : "INF3"
+      },
+      {
+        "code" : "32",
+        "display" : "SALONO"
+      },
+      {
+        "code" : "88",
+        "display" : "COVID-19 JANSSEN - Ad26.COV2.S"
+      },
+      {
+        "code" : "43",
+        "display" : "HEXA"
+      },
+      {
+        "code" : "92",
+        "display" : "VRvero"
+      },
+      {
+        "code" : "44",
+        "display" : "H1N1"
+      },
+      {
+        "code" : "46",
+        "display" : "DTP"
+      },
+      {
+        "code" : "9",
+        "display" : "HepB"
+      },
+      {
+        "code" : "91",
+        "display" : "DILVR"
+      },
+      {
+        "code" : "45",
+        "display" : "ROTA"
+      },
+      {
+        "code" : "89",
+        "display" : "COVID-19 ASTRAZENECA - ChAdOx1-S"
+      },
+      {
+        "code" : "47",
+        "display" : "DTPa"
+      },
+      {
+        "code" : "48",
+        "display" : "DILSRC"
+      },
+      {
+        "code" : "90",
+        "display" : "DILSCRV"
+      },
+      {
+        "code" : "49",
+        "display" : "DILVFA"
+      },
+      {
+        "code" : "97",
+        "display" : "COVID-19 MODERNA"
+      },
+      {
+        "code" : "50",
+        "display" : "DILHib"
+      },
+      {
+        "code" : "93",
+        "display" : "HPV9"
+      },
+      {
+        "code" : "99",
+        "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
+      },
+      {
+        "code" : "34",
+        "display" : "VAR"
+      },
+      {
+        "code" : "5",
+        "display" : "DT"
+      },
+      {
+        "code" : "52",
+        "display" : "DilMengAC"
+      },
+      {
+        "code" : "51",
+        "display" : "Fta"
+      },
+      {
+        "code" : "96",
+        "display" : "COVID-19 BHARAT - COVAXIN"
+      },
+      {
+        "code" : "94",
+        "display" : "DILCOV"
+      },
+      {
+        "code" : "95",
+        "display" : "COVID-19 GAMALEYA - SPUTNIK V"
+      },
+      {
+        "code" : "98",
+        "display" : "COVID-19 SINOVAC - CORONAVAC"
+      }]
+    }]
+  }
+}

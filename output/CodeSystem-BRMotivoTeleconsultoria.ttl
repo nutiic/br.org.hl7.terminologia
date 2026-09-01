@@ -1,0 +1,170 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRMotivoTeleconsultoria"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2026-06-10T14:18:27.485Z"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRMotivoTeleconsultoria</b></p><a name=\"BRMotivoTeleconsultoria\"> </a><a name=\"hcBRMotivoTeleconsultoria\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2026-06-10 14:18:27+0000</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>code</td><td>code</td><td>http://hl7.org/fhir/concept-properties#code</td><td>code</td><td>Concept code</td></tr><tr><td>display</td><td>display</td><td/><td>string</td><td>Concept display text</td></tr><tr><td>definition</td><td>definition</td><td/><td>string</td><td>Concept definition text</td></tr><tr><td>inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#status</td><td>boolean</td><td>Whether concept is inactive (retired)</td></tr></table><p><b>Filtros</b></p><table class=\"grid\"><tr><td><b>Código</b></td><td><b>Descrição</b></td><td><b>Op</b></td><td><b>Valor</b></td></tr><tr><td>code</td><td>Match concept code</td><td>= in regex </td><td>code</td></tr><tr><td>display</td><td>Match concept display text</td><td>= in regex </td><td>string</td></tr><tr><td>definition</td><td>Match concept definition text</td><td>= in regex </td><td>string</td></tr><tr><td>inactive</td><td>Match inactive (retired) status</td><td>= in </td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>htttps://terminologia.saude.gov.br/CodeSystem/BRMotivoTeleconsultoria</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">apoio-conduta<a name=\"BRMotivoTeleconsultoria-apoio-conduta\"> </a></td><td>Apoio à conduta terapêutica</td></tr><tr><td style=\"white-space:nowrap\">apoio-diagnostico<a name=\"BRMotivoTeleconsultoria-apoio-diagnostico\"> </a></td><td>Apoio na hipótese diagnóstica</td></tr><tr><td style=\"white-space:nowrap\">avaliacao-encaminhamento<a name=\"BRMotivoTeleconsultoria-avaliacao-encaminhamento\"> </a></td><td>Avaliação da necessidade de encaminhamento</td></tr><tr><td style=\"white-space:nowrap\">cuidado-compartilhado<a name=\"BRMotivoTeleconsultoria-cuidado-compartilhado\"> </a></td><td>Cuidado compartilhado com outro profissional de saúde</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "htttps://terminologia.saude.gov.br/CodeSystem/BRMotivoTeleconsultoria"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRMotivoTeleconsultoria"] ;
+  fhir:CodeSystem.title [ fhir:value "BRMotivoTeleconsultoria"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-31T22:41:20-04:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "code" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept code" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "display" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept display text" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "definition" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept definition text" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.filter.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match inactive (retired) status" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "code" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#code" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept code" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "display" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept display text" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "definition" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept definition text" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Whether concept is inactive (retired)" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "apoio-conduta" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Apoio à conduta terapêutica" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "apoio-diagnostico" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Apoio na hipótese diagnóstica" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "avaliacao-encaminhamento" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Avaliação da necessidade de encaminhamento" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cuidado-compartilhado" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cuidado compartilhado com outro profissional de saúde" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

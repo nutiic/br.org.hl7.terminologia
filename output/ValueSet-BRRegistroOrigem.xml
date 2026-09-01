@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRRegistroOrigem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRRegistroOrigem</b></p><a name="BRRegistroOrigem"> </a><a name="hcBRRegistroOrigem"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRRegistroOrigem.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRRegistroOrigem.html#BRRegistroOrigem-1">1</a></td><td>Registro anterior/Transcrição de caderneta</td></tr><tr><td><a href="CodeSystem-BRRegistroOrigem.html#BRRegistroOrigem-2">2</a></td><td>Vacina no Exterior</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRRegistroOrigem"/>
+  <version value="1.1.0"/>
+  <name value="BRRegistroOrigem"/>
+  <title value="BR Registro Origem"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem"/>
+      <concept>
+        <code value="1"/>
+        <display value="Registro anterior/Transcrição de caderneta"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Vacina no Exterior"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TipoConvenio"/>
+  <meta>
+    <lastUpdated value="2025-07-17T17:28:07.840+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem TipoConvenio</b></p><a name="TipoConvenio"> </a><a name="hcTipoConvenio"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 17:28:07+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">05<a name="TipoConvenio-05"> </a></td><td>PLANO DE SAUDE PUBLICO</td></tr><tr><td style="white-space:nowrap">07<a name="TipoConvenio-07"> </a></td><td>GRATUIDADE</td></tr><tr><td style="white-space:nowrap">02<a name="TipoConvenio-02"> </a></td><td>PARTICULAR</td></tr><tr><td style="white-space:nowrap">06<a name="TipoConvenio-06"> </a></td><td>PLANO DE SAUDE PRIVADO</td></tr><tr><td style="white-space:nowrap">01<a name="TipoConvenio-01"> </a></td><td>SUS</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio"/>
+  <version value="1.1.0"/>
+  <name value="TipoConvenio"/>
+  <title value="TipoConvenio"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="05"/>
+    <display value="PLANO DE SAUDE PUBLICO"/>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="GRATUIDADE"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="PARTICULAR"/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="PLANO DE SAUDE PRIVADO"/>
+  </concept>
+  <concept>
+    <code value="01"/>
+    <display value="SUS"/>
+  </concept>
+</CodeSystem>

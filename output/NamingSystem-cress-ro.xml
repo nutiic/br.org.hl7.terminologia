@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="cress-ro"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: NamingSystem cress-ro</b></p><a name="cress-ro"> </a><a name="hccress-ro"> </a><h3>Resumo</h3><table class="grid"><tr><td>Definição de URL</td><td>https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ro</td></tr><tr><td>Versão</td><td>1.1.0</td></tr><tr><td>Nome</td><td>NamingSystemCRESSRO</td></tr><tr><td>Estado</td><td>active</td></tr><tr><td>Definição</td><td><div><p>Conselho Regional de Serviço Social 23ª Região</p>
+</div></td></tr><tr><td>Editor</td><td>Ministério do Saúde do Brasil</td></tr></table><h3>Identificadores</h3><table class="grid"><tr><td><b>Tipo</b></td><td><b>Valor</b></td><td><b>Preferenciais</b></td></tr><tr><td>URI</td><td>https://saude.gov.br/fhir/sid/cress-ro</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ro"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="1.1.0"/>
+  </extension>
+  <name value="NamingSystemCRESSRO"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2024-06-24T13:12:57-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <responsible value="Responsável por definir o identificador do conselho regional de serviço social"/>
+  <description value="Conselho Regional de Serviço Social 23ª Região"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <usage value="Conselho Regional de Serviço Social 23ª Região"/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="https://saude.gov.br/fhir/sid/cress-ro"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

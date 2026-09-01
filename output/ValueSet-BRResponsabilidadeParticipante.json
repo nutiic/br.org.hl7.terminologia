@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRResponsabilidadeParticipante",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRResponsabilidadeParticipante</b></p><a name=\"BRResponsabilidadeParticipante\"> </a><a name=\"hcBRResponsabilidadeParticipante\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRResponsabilidadeParticipante.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRResponsabilidadeParticipante.html#BRResponsabilidadeParticipante-atendimento\">atendimento</a></td><td>Profissional responsável pelo atendimento clínico Contato Assistencial</td></tr><tr><td><a href=\"CodeSystem-BRResponsabilidadeParticipante.html#BRResponsabilidadeParticipante-alta\">alta</a></td><td>Profissional que realizou a alta do indivíduo no Contato Assistencial</td></tr><tr><td><a href=\"CodeSystem-BRResponsabilidadeParticipante.html#BRResponsabilidadeParticipante-admissao\">admissao</a></td><td>Profissional que admitiu do indivíduo no Contato Assistencial</td></tr><tr><td><a href=\"CodeSystem-BRResponsabilidadeParticipante.html#BRResponsabilidadeParticipante-autorizador\">autorizador</a></td><td>Profissional que autorizou a realização do Contato Assistencial</td></tr><tr><td><a href=\"CodeSystem-BRResponsabilidadeParticipante.html#BRResponsabilidadeParticipante-solicitante\">solicitante</a></td><td>Profissional que solicitou o Contato Assistencial</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRResponsabilidadeParticipante",
+  "version" : "1.1.0",
+  "name" : "BRResponsabilidadeParticipante",
+  "title" : "BR Responsabilidade Participante",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+      "concept" : [{
+        "code" : "atendimento",
+        "display" : "Profissional responsável pelo atendimento clínico Contato Assistencial"
+      },
+      {
+        "code" : "alta",
+        "display" : "Profissional que realizou a alta do indivíduo no Contato Assistencial"
+      },
+      {
+        "code" : "admissao",
+        "display" : "Profissional que admitiu do indivíduo no Contato Assistencial"
+      },
+      {
+        "code" : "autorizador",
+        "display" : "Profissional que autorizou a realização do Contato Assistencial"
+      },
+      {
+        "code" : "solicitante",
+        "display" : "Profissional que solicitou o Contato Assistencial"
+      }]
+    }]
+  }
+}

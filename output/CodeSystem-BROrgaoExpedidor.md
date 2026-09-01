@@ -1,0 +1,236 @@
+# BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BROrgaoExpedidor - FHIR v4.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Lista de artefatos**](artifacts.md)
+* **BROrgaoExpedidor**
+
+## CodeSystem: BROrgaoExpedidor 
+
+| | |
+| :--- | :--- |
+| *URL Canônica*:https://terminologia.saude.gov.br/fhir/CodeSystem/BROrgaoExpedidor | *Versão*:1.1.0 |
+| Active as of 2026-03-09 | *Nome computável*:BROrgaoExpedidor |
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [BR Orgao Expedidor](ValueSet-BROrgaoExpedidor.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BROrgaoExpedidor",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:33:51.989+00:00"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrgaoExpedidor",
+  "version" : "1.1.0",
+  "name" : "BROrgaoExpedidor",
+  "title" : "BROrgaoExpedidor",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 42,
+  "concept" : [{
+    "code" : "CRM",
+    "display" : "Conselho Regional de Medicina (CRM)"
+  },
+  {
+    "code" : "CRFA",
+    "display" : "Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+  },
+  {
+    "code" : "other",
+    "display" : "Outro órgão não listado"
+  },
+  {
+    "code" : "CRF",
+    "display" : "Conselho Regional de Farmácia (CRF)"
+  },
+  {
+    "code" : "SSP",
+    "display" : "Serviço de Segurança Pública"
+  },
+  {
+    "code" : "CRESS",
+    "display" : "Conselho Regional de Serviço Social (CRESS)"
+  },
+  {
+    "code" : "RFB",
+    "display" : "Receita Federal do Brasil"
+  },
+  {
+    "code" : "CREFITO",
+    "display" : "Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+  },
+  {
+    "code" : "PM",
+    "display" : "Polícia Militar"
+  },
+  {
+    "code" : "CREF",
+    "display" : "Conselho Regional de Educação Física (CREF)"
+  },
+  {
+    "code" : "PF",
+    "display" : "Polícia Federal"
+  },
+  {
+    "code" : "CRECI",
+    "display" : "Conselho Regional de Corretores de Imóveis (CRECI)"
+  },
+  {
+    "code" : "PCE",
+    "display" : "Polícia Civil do Estado"
+  },
+  {
+    "code" : "CREA",
+    "display" : "Conselho Regional de Engenharia e Agronomia (CREA)"
+  },
+  {
+    "code" : "OAB",
+    "display" : "Ordem dos Advogados do BRAasil (OAB)"
+  },
+  {
+    "code" : "CRC",
+    "display" : "Conselho Regional de Contabilidade (CRC)"
+  },
+  {
+    "code" : "MS",
+    "display" : "Ministério da Saúde"
+  },
+  {
+    "code" : "MC",
+    "display" : "Ministério da Cidadania"
+  },
+  {
+    "code" : "CRBM",
+    "display" : "Conselho Regional de Biomedicina (CRBM)"
+  },
+  {
+    "code" : "MB",
+    "display" : "Marinha do Brasil"
+  },
+  {
+    "code" : "CRBIO",
+    "display" : "Conselho Regional de Biologia (CRBio)"
+  },
+  {
+    "code" : "II",
+    "display" : "Instituto de Identificação"
+  },
+  {
+    "code" : "CRB",
+    "display" : "Conselho Regional de Biblioteconomia (CRB)"
+  },
+  {
+    "code" : "FAB",
+    "display" : "Força Aérea Brasileira"
+  },
+  {
+    "code" : "CRA",
+    "display" : "Conselho Regional de Administração (CRA)"
+  },
+  {
+    "code" : "EB",
+    "display" : "Exército Brasileiro"
+  },
+  {
+    "code" : "COREN",
+    "display" : "Conselho Regional de Enfermagem (COREn)"
+  },
+  {
+    "code" : "DETRAN",
+    "display" : "Departamento Estadual de Trânsito"
+  },
+  {
+    "code" : "CORECON",
+    "display" : "Conselho Regional de Economia (CORECON)"
+  },
+  {
+    "code" : "CRTR",
+    "display" : "Conselho Regional de Técnicos em Radiologia (CRTR)"
+  },
+  {
+    "code" : "CORE",
+    "display" : "Conselho Regional de Representantes Comerciais (CORE)"
+  },
+  {
+    "code" : "CRT",
+    "display" : "Conselho Regional dos Técnicos Industriais (CRT)"
+  },
+  {
+    "code" : "CONRERP",
+    "display" : "Conselho Regional de Reçações Públicas (CONRERP)"
+  },
+  {
+    "code" : "CRQ",
+    "display" : "Conselho Regional de Química (CRQ)"
+  },
+  {
+    "code" : "CONFRE",
+    "display" : "Conselho Regional de Estatística (CONRE)"
+  },
+  {
+    "code" : "CRP",
+    "display" : "Conselho Regional de Psicologia (CRP)"
+  },
+  {
+    "code" : "CBM",
+    "display" : "Corpo de Bombeiros Militar"
+  },
+  {
+    "code" : "CRO",
+    "display" : "Conselho Regional de Odontologia (CRO)"
+  },
+  {
+    "code" : "CAU",
+    "display" : "Conselho Regional de Arquitetura e Urbanismo (CAU)"
+  },
+  {
+    "code" : "CRN",
+    "display" : "Conselho Regional de Nutrição (CRN)"
+  },
+  {
+    "code" : "CRMV",
+    "display" : "Conselho Regional de Medicina Veterinária (CRMV)"
+  },
+  {
+    "code" : "CARTORIO",
+    "display" : "Cartório de Registro Civil"
+  }]
+}
+
+```

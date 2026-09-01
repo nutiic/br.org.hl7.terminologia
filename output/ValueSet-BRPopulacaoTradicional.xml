@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRPopulacaoTradicional"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRPopulacaoTradicional</b></p><a name="BRPopulacaoTradicional"> </a><a name="hcBRPopulacaoTradicional"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRPopulacaoTradicional.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XIV">XIV</a></td><td>Isqueiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXVIII">XXVIII</a></td><td>Varjeiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XIII">XIII</a></td><td>Jangadeiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXVII">XXVII</a></td><td>Vazanteiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XII">XII</a></td><td>Geraizeiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXVI">XXVI</a></td><td>Seringueiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XI">XI</a></td><td>Faxinalenses</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXV">XXV</a></td><td>Ribeirinhos</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-X">X</a></td><td>Extrativistas</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXIV">XXIV</a></td><td>Retireiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-VIII">VIII</a></td><td>Ciganos</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXIII">XXIII</a></td><td>Quebradeiras de coco babaçu</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-VII">VII</a></td><td>Cerrado</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXII">XXII</a></td><td>Povos de terreiro/matriz africana</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XXI">XXI</a></td><td>Povos quilombolas</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-VI">VI</a></td><td>Catadores de mangaba</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XX">XX</a></td><td>Povos indígenas</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-V">V</a></td><td>Castanheiras</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XVIII">XVIII</a></td><td>Pescadores artesanais</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-IX">IX</a></td><td>Comunidades de fundo e fecho de pasto</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XVII">XVII</a></td><td>Pantaneiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-IV">IV</a></td><td>Caiçaras</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XVI">XVI</a></td><td>Marisqueiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-III">III</a></td><td>Caatingueiros</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XV">XV</a></td><td>Morroquianos</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-II">II</a></td><td>Agroextrativistas</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-XIX">XIX</a></td><td>Pomeranos</td></tr><tr><td><a href="CodeSystem-BRPopulacaoTradicional.html#BRPopulacaoTradicional-I">I</a></td><td>Andirobeiras</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRPopulacaoTradicional"/>
+  <version value="1.1.0"/>
+  <name value="BRPopulacaoTradicional"/>
+  <title value="BR Populacao Tradicional"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional"/>
+      <concept>
+        <code value="XIV"/>
+        <display value="Isqueiros"/>
+      </concept>
+      <concept>
+        <code value="XXVIII"/>
+        <display value="Varjeiros"/>
+      </concept>
+      <concept>
+        <code value="XIII"/>
+        <display value="Jangadeiros"/>
+      </concept>
+      <concept>
+        <code value="XXVII"/>
+        <display value="Vazanteiros"/>
+      </concept>
+      <concept>
+        <code value="XII"/>
+        <display value="Geraizeiros"/>
+      </concept>
+      <concept>
+        <code value="XXVI"/>
+        <display value="Seringueiros"/>
+      </concept>
+      <concept>
+        <code value="XI"/>
+        <display value="Faxinalenses"/>
+      </concept>
+      <concept>
+        <code value="XXV"/>
+        <display value="Ribeirinhos"/>
+      </concept>
+      <concept>
+        <code value="X"/>
+        <display value="Extrativistas"/>
+      </concept>
+      <concept>
+        <code value="XXIV"/>
+        <display value="Retireiros"/>
+      </concept>
+      <concept>
+        <code value="VIII"/>
+        <display value="Ciganos"/>
+      </concept>
+      <concept>
+        <code value="XXIII"/>
+        <display value="Quebradeiras de coco babaçu"/>
+      </concept>
+      <concept>
+        <code value="VII"/>
+        <display value="Cerrado"/>
+      </concept>
+      <concept>
+        <code value="XXII"/>
+        <display value="Povos de terreiro/matriz africana"/>
+      </concept>
+      <concept>
+        <code value="XXI"/>
+        <display value="Povos quilombolas"/>
+      </concept>
+      <concept>
+        <code value="VI"/>
+        <display value="Catadores de mangaba"/>
+      </concept>
+      <concept>
+        <code value="XX"/>
+        <display value="Povos indígenas"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="Castanheiras"/>
+      </concept>
+      <concept>
+        <code value="XVIII"/>
+        <display value="Pescadores artesanais"/>
+      </concept>
+      <concept>
+        <code value="IX"/>
+        <display value="Comunidades de fundo e fecho de pasto"/>
+      </concept>
+      <concept>
+        <code value="XVII"/>
+        <display value="Pantaneiros"/>
+      </concept>
+      <concept>
+        <code value="IV"/>
+        <display value="Caiçaras"/>
+      </concept>
+      <concept>
+        <code value="XVI"/>
+        <display value="Marisqueiros"/>
+      </concept>
+      <concept>
+        <code value="III"/>
+        <display value="Caatingueiros"/>
+      </concept>
+      <concept>
+        <code value="XV"/>
+        <display value="Morroquianos"/>
+      </concept>
+      <concept>
+        <code value="II"/>
+        <display value="Agroextrativistas"/>
+      </concept>
+      <concept>
+        <code value="XIX"/>
+        <display value="Pomeranos"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Andirobeiras"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

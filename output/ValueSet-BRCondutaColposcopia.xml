@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRCondutaColposcopia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRCondutaColposcopia</b></p><a name="BRCondutaColposcopia"> </a><a name="hcBRCondutaColposcopia"> </a><ul><li>Include estes códigos, tal como definidos em <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</code><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>AESP</td><td>Prosseguir investigação na Atenção Especializada</td></tr><tr><td>AESPABL</td><td>Prosseguir investigação na Atenção Especializada/Tratamento Ablativo</td></tr><tr><td>ENCABL</td><td>Encaminhamento para tratamento excisional/Tratamento ablativo</td></tr><tr><td>ENCONC</td><td>Encaminhamento para Centro de Referência em Oncologia</td></tr><tr><td>REAV1</td><td>Reavaliação em 1 (hum) ano</td></tr><tr><td>ROT5</td><td>Rotina em cinco anos</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRCondutaColposcopia"/>
+  <version value="1.1.0"/>
+  <name value="BRCondutaColposcopia"/>
+  <title value="BRCondutaColposcopia"/>
+  <status value="active"/>
+  <date value="2026-08-31T22:41:20-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia"/>
+      <concept>
+        <code value="AESP"/>
+        <display value="Prosseguir investigação na Atenção Especializada"/>
+      </concept>
+      <concept>
+        <code value="AESPABL"/>
+        <display value="Prosseguir investigação na Atenção Especializada/Tratamento Ablativo"/>
+      </concept>
+      <concept>
+        <code value="ENCABL"/>
+        <display value="Encaminhamento para tratamento excisional/Tratamento ablativo"/>
+      </concept>
+      <concept>
+        <code value="ENCONC"/>
+        <display value="Encaminhamento para Centro de Referência em Oncologia"/>
+      </concept>
+      <concept>
+        <code value="REAV1"/>
+        <display value="Reavaliação em 1 (hum) ano"/>
+      </concept>
+      <concept>
+        <code value="ROT5"/>
+        <display value="Rotina em cinco anos"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

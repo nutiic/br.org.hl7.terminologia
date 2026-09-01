@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoCivil"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BREstadoCivil</b></p><a name="BREstadoCivil"> </a><a name="hcBREstadoCivil"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a><span title="Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references"> versão &#x1F4E6;3.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-L">L</a></td><td>Separação Judicial</td><td/></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D">D</a></td><td>Divorciado</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-S">S</a></td><td>Nunca casado</td><td>No marriage contract has ever been entered</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M">M</a></td><td>Casado</td><td>A current marriage contract is active</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W">W</a></td><td>Viúvo (a)</td><td>The spouse has died</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-NullFlavor.html"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references"> versão &#x1F4E6;3.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-UNK">UNK</a></td><td>unknown</td><td>**Description:**A proper value is applicable, but not known.<br/><br/>**Usage Notes**: This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:<br/><br/>1.  Those properties themselves directly translate to a semantic of &quot;unknown&quot;. (E.g. a local code sent as a translation that conveys 'unknown')<br/>2.  Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoCivil"/>
+  <version value="1.1.0"/>
+  <name value="BREstadoCivil"/>
+  <title value="BR Estado Civil"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <concept>
+        <code value="L"/>
+        <display value="Separação Judicial"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Divorciado"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Nunca casado"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Casado"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Viúvo (a)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="UNK"/>
+        <display value="unknown"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

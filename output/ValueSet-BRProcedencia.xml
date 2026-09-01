@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRProcedencia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRProcedencia</b></p><a name="BRProcedencia"> </a><a name="hcBRProcedencia"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRProcedencia.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRProcedencia.html#BRProcedencia-99">99</a></td><td>Informação ausente no modelo de origem</td></tr><tr><td><a href="CodeSystem-BRProcedencia.html#BRProcedencia-12">12</a></td><td>Demanda referenciada</td></tr><tr><td><a href="CodeSystem-BRProcedencia.html#BRProcedencia-11">11</a></td><td>Retorno</td></tr><tr><td><a href="CodeSystem-BRProcedencia.html#BRProcedencia-10">10</a></td><td>Ordem Judicial</td></tr><tr><td><a href="CodeSystem-BRProcedencia.html#BRProcedencia-09">09</a></td><td>Demanda espontânea</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedencia"/>
+  <version value="1.1.0"/>
+  <name value="BRProcedencia"/>
+  <title value="BR Procedencia"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia"/>
+      <concept>
+        <code value="99"/>
+        <display value="Informação ausente no modelo de origem"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Demanda referenciada"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Retorno"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Ordem Judicial"/>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Demanda espontânea"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,332 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRServicoEspecializado",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:30:25.662+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRServicoEspecializado</b></p><a name=\"BRServicoEspecializado\"> </a><a name=\"hcBRServicoEspecializado\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:30:25+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"BRServicoEspecializado-135\"> </a></td><td>SERVICO DE REABILITACAO</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"BRServicoEspecializado-134\"> </a></td><td>SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"BRServicoEspecializado-133\"> </a></td><td>SERVICO DE PNEUMOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"BRServicoEspecializado-132\"> </a></td><td>SERVICO DE ONCOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"BRServicoEspecializado-131\"> </a></td><td>SERVICO DE OFTALMOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"BRServicoEspecializado-130\"> </a></td><td>ATENCAO A DOENCA RENAL CRONICA</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"BRServicoEspecializado-129\"> </a></td><td>SERVICO DE LABORATORIO DE HISTOCOMPATIBILIDADE</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"BRServicoEspecializado-128\"> </a></td><td>SERVICO DE HEMOTERAPIA</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"BRServicoEspecializado-127\"> </a></td><td>SERVICO DE ATENCAO A OBESIDADE</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"BRServicoEspecializado-126\"> </a></td><td>SERVICO DE FISIOTERAPIA</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"BRServicoEspecializado-125\"> </a></td><td>SERVICO DE FARMACIA</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"BRServicoEspecializado-124\"> </a></td><td>SERVICO DE ENDOCRINOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"BRServicoEspecializado-123\"> </a></td><td>SERVICO DE DISPENSACAO DE ORTESES PROTESES E MATERIAIS ESPE</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"BRServicoEspecializado-122\"> </a></td><td>SERVICO DE DIAGNOSTICO POR METODOS GRAFICOS DINAMICOS</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"BRServicoEspecializado-121\"> </a></td><td>SERVICO DE DIAGNOSTICO POR IMAGEM</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"BRServicoEspecializado-174\"> </a></td><td>IMUNIZACAO</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"BRServicoEspecializado-173\"> </a></td><td>LOGISTICA DE IMUNOBIOLOGICOS</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"BRServicoEspecializado-170\"> </a></td><td>COMISSOES E COMITES</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"BRServicoEspecializado-169\"> </a></td><td>ATENCAO EM UROLOGIA</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"BRServicoEspecializado-168\"> </a></td><td>ATENCAO A PESSOAS COM DOENCAS RARAS</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"BRServicoEspecializado-167\"> </a></td><td>ATENDIMENTO ITINERANTE DE ASSISTENCIA E ENSINO EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"BRServicoEspecializado-166\"> </a></td><td>SERV ANALISE LABORATORIAL DE PROD SUJEITOS A VIG SANITARIA</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"BRServicoEspecializado-165\"> </a></td><td>ATENCAO AS PESSOAS EM SITUACAO DE VIOLENCIA SEXUAL</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"BRServicoEspecializado-164\"> </a></td><td>SERVICO DE ORTESES, PROTESES E MAT ESPECIAIS EM REABILITACAO</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"BRServicoEspecializado-163\"> </a></td><td>SERVICO DE CUIDADOS INTERMEDIARIOS</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"BRServicoEspecializado-162\"> </a></td><td>SERVICO DE TERAPIA INTENSIVA</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"BRServicoEspecializado-161\"> </a></td><td>CONSULTORIO NA RUA</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"BRServicoEspecializado-160\"> </a></td><td>TELECONSULTORIA</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"BRServicoEspecializado-159\"> </a></td><td>ATENCAO BASICA</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"BRServicoEspecializado-158\"> </a></td><td>SERVICO DE ATENCAO INTEGRAL EM HANSENIASE</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"BRServicoEspecializado-157\"> </a></td><td>SERVICO DE LABORATORIO DE PROTESE DENTARIA</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"BRServicoEspecializado-156\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DAS PESSOAS OSTOMIZADAS</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"BRServicoEspecializado-155\"> </a></td><td>SERVICO DE TRAUMATOLOGIA E ORTOPEDIA</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"BRServicoEspecializado-154\"> </a></td><td>SERVICO DE BANCO DE TECIDOS</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"BRServicoEspecializado-153\"> </a></td><td>ATENCAO ESPECIALIZADA NO PROCESSO TRANSEXUALIZADOR</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"BRServicoEspecializado-152\"> </a></td><td>ATENCAO A SAUDE DE POPULACOES INDIGENAS</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"BRServicoEspecializado-151\"> </a></td><td>MEDICINA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"BRServicoEspecializado-150\"> </a></td><td>CIRURGIA VASCULAR</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"BRServicoEspecializado-149\"> </a></td><td>TRANSPLANTE</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"BRServicoEspecializado-148\"> </a></td><td>HOSPITAL DIA</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"BRServicoEspecializado-147\"> </a></td><td>SERVICO DE APOIO A SAUDE DA FAMILIA</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"BRServicoEspecializado-146\"> </a></td><td>SERVICO DE VIDEOLAPAROSCOPIA</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"BRServicoEspecializado-145\"> </a></td><td>SERVICO DE DIAGNOSTICO DE LABORATORIO CLINICO</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"BRServicoEspecializado-144\"> </a></td><td>SERVICO POSTO DE COLETA DE MATERIAIS BIOLOGICOS</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"BRServicoEspecializado-143\"> </a></td><td>SERVICO MOVEL DE URGENCIA (EXCETO SAMU)</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"BRServicoEspecializado-142\"> </a></td><td>SERVICO DE ENDOSCOPIA</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"BRServicoEspecializado-141\"> </a></td><td>SERVICO DE VIGILANCIA EM SAUDE</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"BRServicoEspecializado-140\"> </a></td><td>SERVICO DE URGENCIA E EMERGENCIA</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"BRServicoEspecializado-139\"> </a></td><td>SERVICO DE TRIAGEM NEONATAL</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"BRServicoEspecializado-136\"> </a></td><td>SERVICO DE SUPORTE NUTRICIONAL</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRServicoEspecializado-110\"> </a></td><td>SERVICO DE ATENCAO A SAUDE REPRODUTIVA</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"BRServicoEspecializado-120\"> </a></td><td>SERVICO DE DIAGNOSTICO POR ANATOMIA PATOLOGICA EOU CITOPATO</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRServicoEspecializado-109\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DOS ADOLESCENTES EM CONFLITO COM</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRServicoEspecializado-108\"> </a></td><td>SERVICO DE ATENCAO A SAUDE DO TRABALHADOR</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"BRServicoEspecializado-119\"> </a></td><td>SERVICO DE CONTROLE DE TABAGISMO</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRServicoEspecializado-107\"> </a></td><td>SERVICO DE ATENCAO A SAUDE AUDITIVA</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"BRServicoEspecializado-118\"> </a></td><td>SERVICO DE CIRURGIA TORACICA</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRServicoEspecializado-106\"> </a></td><td>SERVICO DE ATENCAO A DST/HIV/AIDS</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"BRServicoEspecializado-117\"> </a></td><td>SERVICO DE CIRURGIA REPARADORA</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"BRServicoEspecializado-105\"> </a></td><td>SERVICO DE ATENCAO EM NEUROLOGIA / NEUROCIRURGIA</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRServicoEspecializado-116\"> </a></td><td>SERVICO DE ATENCAO CARDIOVASCULAR / CARDIOLOGIA</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRServicoEspecializado-104\"> </a></td><td>REGULACAO DO ACESSO A ACOES E SERVICOS DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRServicoEspecializado-115\"> </a></td><td>SERVICO DE ATENCAO PSICOSSOCIAL</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRServicoEspecializado-103\"> </a></td><td>SERVICO DE ATENDIMENTO MOVEL DE URGENCIAS</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRServicoEspecializado-114\"> </a></td><td>SERVICO DE ATENCAO EM SAUDE BUCAL</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRServicoEspecializado-102\"> </a></td><td>ESTRATEGIA DE AGENTES COMUNITARIOS DE SAUDE</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRServicoEspecializado-113\"> </a></td><td>SERVICO DE ATENCAO DOMICILIAR</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRServicoEspecializado-101\"> </a></td><td>ESTRATEGIA DE SAUDE DA FAMILIA</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRServicoEspecializado-112\"> </a></td><td>SERVICO DE ATENCAO AO PRE-NATAL, PARTO E NASCIMENTO</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRServicoEspecializado-100\"> </a></td><td>ATENCAO A SAUDE NO SISTEMA PENITENCIARIO</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRServicoEspecializado-111\"> </a></td><td>SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
+  "version" : "1.1.0",
+  "name" : "BRServicoEspecializado",
+  "title" : "BRServicoEspecializado",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 71,
+  "concept" : [{
+    "code" : "135",
+    "display" : "SERVICO DE REABILITACAO"
+  },
+  {
+    "code" : "134",
+    "display" : "SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES"
+  },
+  {
+    "code" : "133",
+    "display" : "SERVICO DE PNEUMOLOGIA"
+  },
+  {
+    "code" : "132",
+    "display" : "SERVICO DE ONCOLOGIA"
+  },
+  {
+    "code" : "131",
+    "display" : "SERVICO DE OFTALMOLOGIA"
+  },
+  {
+    "code" : "130",
+    "display" : "ATENCAO A DOENCA RENAL CRONICA"
+  },
+  {
+    "code" : "129",
+    "display" : "SERVICO DE LABORATORIO DE HISTOCOMPATIBILIDADE"
+  },
+  {
+    "code" : "128",
+    "display" : "SERVICO DE HEMOTERAPIA"
+  },
+  {
+    "code" : "127",
+    "display" : "SERVICO DE ATENCAO A OBESIDADE"
+  },
+  {
+    "code" : "126",
+    "display" : "SERVICO DE FISIOTERAPIA"
+  },
+  {
+    "code" : "125",
+    "display" : "SERVICO DE FARMACIA"
+  },
+  {
+    "code" : "124",
+    "display" : "SERVICO DE ENDOCRINOLOGIA"
+  },
+  {
+    "code" : "123",
+    "display" : "SERVICO DE DISPENSACAO DE ORTESES PROTESES E MATERIAIS ESPE"
+  },
+  {
+    "code" : "122",
+    "display" : "SERVICO DE DIAGNOSTICO POR METODOS GRAFICOS DINAMICOS"
+  },
+  {
+    "code" : "121",
+    "display" : "SERVICO DE DIAGNOSTICO POR IMAGEM"
+  },
+  {
+    "code" : "174",
+    "display" : "IMUNIZACAO"
+  },
+  {
+    "code" : "173",
+    "display" : "LOGISTICA DE IMUNOBIOLOGICOS"
+  },
+  {
+    "code" : "170",
+    "display" : "COMISSOES E COMITES"
+  },
+  {
+    "code" : "169",
+    "display" : "ATENCAO EM UROLOGIA"
+  },
+  {
+    "code" : "168",
+    "display" : "ATENCAO A PESSOAS COM DOENCAS RARAS"
+  },
+  {
+    "code" : "167",
+    "display" : "ATENDIMENTO ITINERANTE DE ASSISTENCIA E ENSINO EM SAUDE"
+  },
+  {
+    "code" : "166",
+    "display" : "SERV ANALISE LABORATORIAL DE PROD SUJEITOS A VIG SANITARIA"
+  },
+  {
+    "code" : "165",
+    "display" : "ATENCAO AS PESSOAS EM SITUACAO DE VIOLENCIA SEXUAL"
+  },
+  {
+    "code" : "164",
+    "display" : "SERVICO DE ORTESES, PROTESES E MAT ESPECIAIS EM REABILITACAO"
+  },
+  {
+    "code" : "163",
+    "display" : "SERVICO DE CUIDADOS INTERMEDIARIOS"
+  },
+  {
+    "code" : "162",
+    "display" : "SERVICO DE TERAPIA INTENSIVA"
+  },
+  {
+    "code" : "161",
+    "display" : "CONSULTORIO NA RUA"
+  },
+  {
+    "code" : "160",
+    "display" : "TELECONSULTORIA"
+  },
+  {
+    "code" : "159",
+    "display" : "ATENCAO BASICA"
+  },
+  {
+    "code" : "158",
+    "display" : "SERVICO DE ATENCAO INTEGRAL EM HANSENIASE"
+  },
+  {
+    "code" : "157",
+    "display" : "SERVICO DE LABORATORIO DE PROTESE DENTARIA"
+  },
+  {
+    "code" : "156",
+    "display" : "SERVICO DE ATENCAO A SAUDE DAS PESSOAS OSTOMIZADAS"
+  },
+  {
+    "code" : "155",
+    "display" : "SERVICO DE TRAUMATOLOGIA E ORTOPEDIA"
+  },
+  {
+    "code" : "154",
+    "display" : "SERVICO DE BANCO DE TECIDOS"
+  },
+  {
+    "code" : "153",
+    "display" : "ATENCAO ESPECIALIZADA NO PROCESSO TRANSEXUALIZADOR"
+  },
+  {
+    "code" : "152",
+    "display" : "ATENCAO A SAUDE DE POPULACOES INDIGENAS"
+  },
+  {
+    "code" : "151",
+    "display" : "MEDICINA NUCLEAR"
+  },
+  {
+    "code" : "150",
+    "display" : "CIRURGIA VASCULAR"
+  },
+  {
+    "code" : "149",
+    "display" : "TRANSPLANTE"
+  },
+  {
+    "code" : "148",
+    "display" : "HOSPITAL DIA"
+  },
+  {
+    "code" : "147",
+    "display" : "SERVICO DE APOIO A SAUDE DA FAMILIA"
+  },
+  {
+    "code" : "146",
+    "display" : "SERVICO DE VIDEOLAPAROSCOPIA"
+  },
+  {
+    "code" : "145",
+    "display" : "SERVICO DE DIAGNOSTICO DE LABORATORIO CLINICO"
+  },
+  {
+    "code" : "144",
+    "display" : "SERVICO POSTO DE COLETA DE MATERIAIS BIOLOGICOS"
+  },
+  {
+    "code" : "143",
+    "display" : "SERVICO MOVEL DE URGENCIA (EXCETO SAMU)"
+  },
+  {
+    "code" : "142",
+    "display" : "SERVICO DE ENDOSCOPIA"
+  },
+  {
+    "code" : "141",
+    "display" : "SERVICO DE VIGILANCIA EM SAUDE"
+  },
+  {
+    "code" : "140",
+    "display" : "SERVICO DE URGENCIA E EMERGENCIA"
+  },
+  {
+    "code" : "139",
+    "display" : "SERVICO DE TRIAGEM NEONATAL"
+  },
+  {
+    "code" : "136",
+    "display" : "SERVICO DE SUPORTE NUTRICIONAL"
+  },
+  {
+    "code" : "110",
+    "display" : "SERVICO DE ATENCAO A SAUDE REPRODUTIVA"
+  },
+  {
+    "code" : "120",
+    "display" : "SERVICO DE DIAGNOSTICO POR ANATOMIA PATOLOGICA EOU CITOPATO"
+  },
+  {
+    "code" : "109",
+    "display" : "SERVICO DE ATENCAO A SAUDE DOS ADOLESCENTES EM CONFLITO COM"
+  },
+  {
+    "code" : "108",
+    "display" : "SERVICO DE ATENCAO A SAUDE DO TRABALHADOR"
+  },
+  {
+    "code" : "119",
+    "display" : "SERVICO DE CONTROLE DE TABAGISMO"
+  },
+  {
+    "code" : "107",
+    "display" : "SERVICO DE ATENCAO A SAUDE AUDITIVA"
+  },
+  {
+    "code" : "118",
+    "display" : "SERVICO DE CIRURGIA TORACICA"
+  },
+  {
+    "code" : "106",
+    "display" : "SERVICO DE ATENCAO A DST/HIV/AIDS"
+  },
+  {
+    "code" : "117",
+    "display" : "SERVICO DE CIRURGIA REPARADORA"
+  },
+  {
+    "code" : "105",
+    "display" : "SERVICO DE ATENCAO EM NEUROLOGIA / NEUROCIRURGIA"
+  },
+  {
+    "code" : "116",
+    "display" : "SERVICO DE ATENCAO CARDIOVASCULAR / CARDIOLOGIA"
+  },
+  {
+    "code" : "104",
+    "display" : "REGULACAO DO ACESSO A ACOES E SERVICOS DE SAUDE"
+  },
+  {
+    "code" : "115",
+    "display" : "SERVICO DE ATENCAO PSICOSSOCIAL"
+  },
+  {
+    "code" : "103",
+    "display" : "SERVICO DE ATENDIMENTO MOVEL DE URGENCIAS"
+  },
+  {
+    "code" : "114",
+    "display" : "SERVICO DE ATENCAO EM SAUDE BUCAL"
+  },
+  {
+    "code" : "102",
+    "display" : "ESTRATEGIA DE AGENTES COMUNITARIOS DE SAUDE"
+  },
+  {
+    "code" : "113",
+    "display" : "SERVICO DE ATENCAO DOMICILIAR"
+  },
+  {
+    "code" : "101",
+    "display" : "ESTRATEGIA DE SAUDE DA FAMILIA"
+  },
+  {
+    "code" : "112",
+    "display" : "SERVICO DE ATENCAO AO PRE-NATAL, PARTO E NASCIMENTO"
+  },
+  {
+    "code" : "100",
+    "display" : "ATENCAO A SAUDE NO SISTEMA PENITENCIARIO"
+  },
+  {
+    "code" : "111",
+    "display" : "SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE"
+  }]
+}

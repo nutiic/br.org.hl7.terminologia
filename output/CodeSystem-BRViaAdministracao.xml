@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRViaAdministracao"/>
+  <meta>
+    <lastUpdated value="2025-07-16T16:52:24.744+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRViaAdministracao</b></p><a name="BRViaAdministracao"> </a><a name="hcBRViaAdministracao"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-16 16:52:24+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">0<a name="BRViaAdministracao-0"> </a></td><td>Sem registro no sistema de informação de origem</td></tr><tr><td style="white-space:nowrap">10899<a name="BRViaAdministracao-10899"> </a></td><td>Intraventricular cardíaca</td></tr><tr><td style="white-space:nowrap">779038<a name="BRViaAdministracao-779038"> </a></td><td>Mucosa</td></tr><tr><td style="white-space:nowrap">10898<a name="BRViaAdministracao-10898"> </a></td><td>Intravenosa</td></tr><tr><td style="white-space:nowrap">608808<a name="BRViaAdministracao-608808"> </a></td><td>Infiltração</td></tr><tr><td style="white-space:nowrap">10897<a name="BRViaAdministracao-10897"> </a></td><td>Intrauterina</td></tr><tr><td style="white-space:nowrap">608807<a name="BRViaAdministracao-608807"> </a></td><td>Retrobulbar</td></tr><tr><td style="white-space:nowrap">10896<a name="BRViaAdministracao-10896"> </a></td><td>Intratecal</td></tr><tr><td style="white-space:nowrap">464159<a name="BRViaAdministracao-464159"> </a></td><td>Mucosa Oral</td></tr><tr><td style="white-space:nowrap">10895<a name="BRViaAdministracao-10895"> </a></td><td>Intraesternal</td></tr><tr><td style="white-space:nowrap">464158<a name="BRViaAdministracao-464158"> </a></td><td>Tecidos Moles</td></tr><tr><td style="white-space:nowrap">10894<a name="BRViaAdministracao-10894"> </a></td><td>Intrapleural</td></tr><tr><td style="white-space:nowrap">464157<a name="BRViaAdministracao-464157"> </a></td><td>Subtenoniana</td></tr><tr><td style="white-space:nowrap">10893<a name="BRViaAdministracao-10893"> </a></td><td>Intraperitoneal</td></tr><tr><td style="white-space:nowrap">464156<a name="BRViaAdministracao-464156"> </a></td><td>Intrabronquial</td></tr><tr><td style="white-space:nowrap">10892<a name="BRViaAdministracao-10892"> </a></td><td>Intraóssea</td></tr><tr><td style="white-space:nowrap">459531<a name="BRViaAdministracao-459531"> </a></td><td>Intratraqueal</td></tr><tr><td style="white-space:nowrap">10891<a name="BRViaAdministracao-10891"> </a></td><td>Intraocular</td></tr><tr><td style="white-space:nowrap">459530<a name="BRViaAdministracao-459530"> </a></td><td>Subcapsular</td></tr><tr><td style="white-space:nowrap">10890<a name="BRViaAdministracao-10890"> </a></td><td>Intramuscular</td></tr><tr><td style="white-space:nowrap">459120<a name="BRViaAdministracao-459120"> </a></td><td>Espinhal</td></tr><tr><td style="white-space:nowrap">10889<a name="BRViaAdministracao-10889"> </a></td><td>Intralinfática</td></tr><tr><td style="white-space:nowrap">244899<a name="BRViaAdministracao-244899"> </a></td><td>Peridural</td></tr><tr><td style="white-space:nowrap">10888<a name="BRViaAdministracao-10888"> </a></td><td>Intralesional</td></tr><tr><td style="white-space:nowrap">10928<a name="BRViaAdministracao-10928"> </a></td><td>Parenteral</td></tr><tr><td style="white-space:nowrap">10887<a name="BRViaAdministracao-10887"> </a></td><td>Intraepidermal</td></tr><tr><td style="white-space:nowrap">10926<a name="BRViaAdministracao-10926"> </a></td><td>Local</td></tr><tr><td style="white-space:nowrap">10886<a name="BRViaAdministracao-10886"> </a></td><td>Intradiscal</td></tr><tr><td style="white-space:nowrap">10923<a name="BRViaAdministracao-10923"> </a></td><td>Não disponível</td></tr><tr><td style="white-space:nowrap">10885<a name="BRViaAdministracao-10885"> </a></td><td>Intradérmica</td></tr><tr><td style="white-space:nowrap">10922<a name="BRViaAdministracao-10922"> </a></td><td>Capilar</td></tr><tr><td style="white-space:nowrap">10884<a name="BRViaAdministracao-10884"> </a></td><td>Intracoronariana</td></tr><tr><td style="white-space:nowrap">10921<a name="BRViaAdministracao-10921"> </a></td><td>Vaginal</td></tr><tr><td style="white-space:nowrap">10882<a name="BRViaAdministracao-10882"> </a></td><td>Intracerebroventricular</td></tr><tr><td style="white-space:nowrap">10920<a name="BRViaAdministracao-10920"> </a></td><td>Uretral</td></tr><tr><td style="white-space:nowrap">10881<a name="BRViaAdministracao-10881"> </a></td><td>Intracavernosa</td></tr><tr><td style="white-space:nowrap">10919<a name="BRViaAdministracao-10919"> </a></td><td>Transdérmica</td></tr><tr><td style="white-space:nowrap">10880<a name="BRViaAdministracao-10880"> </a></td><td>Intracardíaca</td></tr><tr><td style="white-space:nowrap">10917<a name="BRViaAdministracao-10917"> </a></td><td>Sublingual</td></tr><tr><td style="white-space:nowrap">10879<a name="BRViaAdministracao-10879"> </a></td><td>Intracameral</td></tr><tr><td style="white-space:nowrap">10916<a name="BRViaAdministracao-10916"> </a></td><td>Subcutânea</td></tr><tr><td style="white-space:nowrap">10878<a name="BRViaAdministracao-10878"> </a></td><td>Intrabursal</td></tr><tr><td style="white-space:nowrap">10915<a name="BRViaAdministracao-10915"> </a></td><td>Subconjuntival</td></tr><tr><td style="white-space:nowrap">10877<a name="BRViaAdministracao-10877"> </a></td><td>Intra-articular</td></tr><tr><td style="white-space:nowrap">10913<a name="BRViaAdministracao-10913"> </a></td><td>Perfusão Regional</td></tr><tr><td style="white-space:nowrap">10876<a name="BRViaAdministracao-10876"> </a></td><td>Intra-arterial</td></tr><tr><td style="white-space:nowrap">10912<a name="BRViaAdministracao-10912"> </a></td><td>Retal</td></tr><tr><td style="white-space:nowrap">10875<a name="BRViaAdministracao-10875"> </a></td><td>Intra-aminiótica</td></tr><tr><td style="white-space:nowrap">10911<a name="BRViaAdministracao-10911"> </a></td><td>Perineural</td></tr><tr><td style="white-space:nowrap">10874<a name="BRViaAdministracao-10874"> </a></td><td>Inalatória</td></tr><tr><td style="white-space:nowrap">10910<a name="BRViaAdministracao-10910"> </a></td><td>Periarticular</td></tr><tr><td style="white-space:nowrap">10871<a name="BRViaAdministracao-10871"> </a></td><td>Gastroenteral</td></tr><tr><td style="white-space:nowrap">10908<a name="BRViaAdministracao-10908"> </a></td><td>Inalatória por Via Oral</td></tr><tr><td style="white-space:nowrap">10870<a name="BRViaAdministracao-10870"> </a></td><td>Extraminiótica</td></tr><tr><td style="white-space:nowrap">10907<a name="BRViaAdministracao-10907"> </a></td><td>Oral</td></tr><tr><td style="white-space:nowrap">10869<a name="BRViaAdministracao-10869"> </a></td><td>Epilesional</td></tr><tr><td style="white-space:nowrap">10906<a name="BRViaAdministracao-10906"> </a></td><td>Oftálmica</td></tr><tr><td style="white-space:nowrap">10868<a name="BRViaAdministracao-10868"> </a></td><td>Epidural</td></tr><tr><td style="white-space:nowrap">10905<a name="BRViaAdministracao-10905"> </a></td><td>Inalatória por Via Nasal</td></tr><tr><td style="white-space:nowrap">10867<a name="BRViaAdministracao-10867"> </a></td><td>Endotraqueopulmonar</td></tr><tr><td style="white-space:nowrap">10904<a name="BRViaAdministracao-10904"> </a></td><td>Nasal</td></tr><tr><td style="white-space:nowrap">10866<a name="BRViaAdministracao-10866"> </a></td><td>Endosinusial</td></tr><tr><td style="white-space:nowrap">10903<a name="BRViaAdministracao-10903"> </a></td><td>Irrigação</td></tr><tr><td style="white-space:nowrap">10865<a name="BRViaAdministracao-10865"> </a></td><td>Intracervical</td></tr><tr><td style="white-space:nowrap">10902<a name="BRViaAdministracao-10902"> </a></td><td>Iontoforese</td></tr><tr><td style="white-space:nowrap">10864<a name="BRViaAdministracao-10864"> </a></td><td>Dermatológica</td></tr><tr><td style="white-space:nowrap">10901<a name="BRViaAdministracao-10901"> </a></td><td>Intravitreal</td></tr><tr><td style="white-space:nowrap">10863<a name="BRViaAdministracao-10863"> </a></td><td>Bucal</td></tr><tr><td style="white-space:nowrap">10900<a name="BRViaAdministracao-10900"> </a></td><td>Intravesical</td></tr><tr><td style="white-space:nowrap">10862<a name="BRViaAdministracao-10862"> </a></td><td>Otológica</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao"/>
+  <version value="1.1.0"/>
+  <name value="BRViaAdministracao"/>
+  <title value="BRViaAdministracao"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="70"/>
+  <concept>
+    <code value="0"/>
+    <display value="Sem registro no sistema de informação de origem"/>
+  </concept>
+  <concept>
+    <code value="10899"/>
+    <display value="Intraventricular cardíaca"/>
+  </concept>
+  <concept>
+    <code value="779038"/>
+    <display value="Mucosa"/>
+  </concept>
+  <concept>
+    <code value="10898"/>
+    <display value="Intravenosa"/>
+  </concept>
+  <concept>
+    <code value="608808"/>
+    <display value="Infiltração"/>
+  </concept>
+  <concept>
+    <code value="10897"/>
+    <display value="Intrauterina"/>
+  </concept>
+  <concept>
+    <code value="608807"/>
+    <display value="Retrobulbar"/>
+  </concept>
+  <concept>
+    <code value="10896"/>
+    <display value="Intratecal"/>
+  </concept>
+  <concept>
+    <code value="464159"/>
+    <display value="Mucosa Oral"/>
+  </concept>
+  <concept>
+    <code value="10895"/>
+    <display value="Intraesternal"/>
+  </concept>
+  <concept>
+    <code value="464158"/>
+    <display value="Tecidos Moles"/>
+  </concept>
+  <concept>
+    <code value="10894"/>
+    <display value="Intrapleural"/>
+  </concept>
+  <concept>
+    <code value="464157"/>
+    <display value="Subtenoniana"/>
+  </concept>
+  <concept>
+    <code value="10893"/>
+    <display value="Intraperitoneal"/>
+  </concept>
+  <concept>
+    <code value="464156"/>
+    <display value="Intrabronquial"/>
+  </concept>
+  <concept>
+    <code value="10892"/>
+    <display value="Intraóssea"/>
+  </concept>
+  <concept>
+    <code value="459531"/>
+    <display value="Intratraqueal"/>
+  </concept>
+  <concept>
+    <code value="10891"/>
+    <display value="Intraocular"/>
+  </concept>
+  <concept>
+    <code value="459530"/>
+    <display value="Subcapsular"/>
+  </concept>
+  <concept>
+    <code value="10890"/>
+    <display value="Intramuscular"/>
+  </concept>
+  <concept>
+    <code value="459120"/>
+    <display value="Espinhal"/>
+  </concept>
+  <concept>
+    <code value="10889"/>
+    <display value="Intralinfática"/>
+  </concept>
+  <concept>
+    <code value="244899"/>
+    <display value="Peridural"/>
+  </concept>
+  <concept>
+    <code value="10888"/>
+    <display value="Intralesional"/>
+  </concept>
+  <concept>
+    <code value="10928"/>
+    <display value="Parenteral"/>
+  </concept>
+  <concept>
+    <code value="10887"/>
+    <display value="Intraepidermal"/>
+  </concept>
+  <concept>
+    <code value="10926"/>
+    <display value="Local"/>
+  </concept>
+  <concept>
+    <code value="10886"/>
+    <display value="Intradiscal"/>
+  </concept>
+  <concept>
+    <code value="10923"/>
+    <display value="Não disponível"/>
+  </concept>
+  <concept>
+    <code value="10885"/>
+    <display value="Intradérmica"/>
+  </concept>
+  <concept>
+    <code value="10922"/>
+    <display value="Capilar"/>
+  </concept>
+  <concept>
+    <code value="10884"/>
+    <display value="Intracoronariana"/>
+  </concept>
+  <concept>
+    <code value="10921"/>
+    <display value="Vaginal"/>
+  </concept>
+  <concept>
+    <code value="10882"/>
+    <display value="Intracerebroventricular"/>
+  </concept>
+  <concept>
+    <code value="10920"/>
+    <display value="Uretral"/>
+  </concept>
+  <concept>
+    <code value="10881"/>
+    <display value="Intracavernosa"/>
+  </concept>
+  <concept>
+    <code value="10919"/>
+    <display value="Transdérmica"/>
+  </concept>
+  <concept>
+    <code value="10880"/>
+    <display value="Intracardíaca"/>
+  </concept>
+  <concept>
+    <code value="10917"/>
+    <display value="Sublingual"/>
+  </concept>
+  <concept>
+    <code value="10879"/>
+    <display value="Intracameral"/>
+  </concept>
+  <concept>
+    <code value="10916"/>
+    <display value="Subcutânea"/>
+  </concept>
+  <concept>
+    <code value="10878"/>
+    <display value="Intrabursal"/>
+  </concept>
+  <concept>
+    <code value="10915"/>
+    <display value="Subconjuntival"/>
+  </concept>
+  <concept>
+    <code value="10877"/>
+    <display value="Intra-articular"/>
+  </concept>
+  <concept>
+    <code value="10913"/>
+    <display value="Perfusão Regional"/>
+  </concept>
+  <concept>
+    <code value="10876"/>
+    <display value="Intra-arterial"/>
+  </concept>
+  <concept>
+    <code value="10912"/>
+    <display value="Retal"/>
+  </concept>
+  <concept>
+    <code value="10875"/>
+    <display value="Intra-aminiótica"/>
+  </concept>
+  <concept>
+    <code value="10911"/>
+    <display value="Perineural"/>
+  </concept>
+  <concept>
+    <code value="10874"/>
+    <display value="Inalatória"/>
+  </concept>
+  <concept>
+    <code value="10910"/>
+    <display value="Periarticular"/>
+  </concept>
+  <concept>
+    <code value="10871"/>
+    <display value="Gastroenteral"/>
+  </concept>
+  <concept>
+    <code value="10908"/>
+    <display value="Inalatória por Via Oral"/>
+  </concept>
+  <concept>
+    <code value="10870"/>
+    <display value="Extraminiótica"/>
+  </concept>
+  <concept>
+    <code value="10907"/>
+    <display value="Oral"/>
+  </concept>
+  <concept>
+    <code value="10869"/>
+    <display value="Epilesional"/>
+  </concept>
+  <concept>
+    <code value="10906"/>
+    <display value="Oftálmica"/>
+  </concept>
+  <concept>
+    <code value="10868"/>
+    <display value="Epidural"/>
+  </concept>
+  <concept>
+    <code value="10905"/>
+    <display value="Inalatória por Via Nasal"/>
+  </concept>
+  <concept>
+    <code value="10867"/>
+    <display value="Endotraqueopulmonar"/>
+  </concept>
+  <concept>
+    <code value="10904"/>
+    <display value="Nasal"/>
+  </concept>
+  <concept>
+    <code value="10866"/>
+    <display value="Endosinusial"/>
+  </concept>
+  <concept>
+    <code value="10903"/>
+    <display value="Irrigação"/>
+  </concept>
+  <concept>
+    <code value="10865"/>
+    <display value="Intracervical"/>
+  </concept>
+  <concept>
+    <code value="10902"/>
+    <display value="Iontoforese"/>
+  </concept>
+  <concept>
+    <code value="10864"/>
+    <display value="Dermatológica"/>
+  </concept>
+  <concept>
+    <code value="10901"/>
+    <display value="Intravitreal"/>
+  </concept>
+  <concept>
+    <code value="10863"/>
+    <display value="Bucal"/>
+  </concept>
+  <concept>
+    <code value="10900"/>
+    <display value="Intravesical"/>
+  </concept>
+  <concept>
+    <code value="10862"/>
+    <display value="Otológica"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,3584 @@
+[{
+  "id" : "BRDireitoTitularDados",
+  "type" : "CodeSystem",
+  "url" : "http://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados",
+  "version" : "1.1.0",
+  "name" : "BRDireitoTitularDados"
+},
+{
+  "id" : "BRFinalidadeTratamentoDados",
+  "type" : "CodeSystem",
+  "url" : "http://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados",
+  "version" : "1.1.0",
+  "name" : "BRFinalidadeTratamentoDados"
+},
+{
+  "id" : "BRTipoDadoPessoalLGPD",
+  "type" : "CodeSystem",
+  "url" : "http://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD",
+  "version" : "1.1.0",
+  "name" : "BRTipoDadoPessoalLGPD"
+},
+{
+  "id" : "BREtniasMangara",
+  "type" : "CodeSystem",
+  "url" : "https://mangara.hsl.org.br/fhir/CodeSystem/etnias",
+  "version" : "1.1.0",
+  "name" : "BREtniasMangara"
+},
+{
+  "id" : "BRTipoTeleconsultoria",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/CodeSystem/BRTipoTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRTipoTeleconsultoria"
+},
+{
+  "id" : "BRCondutaColposcopia",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/BRCondutaColposcopia",
+  "version" : "1.1.0",
+  "name" : "BRCondutaColposcopia"
+},
+{
+  "id" : "BREstadoCivil",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/BREstadoCivil",
+  "version" : "1.1.0",
+  "name" : "BREstadoCivil"
+},
+{
+  "id" : "BRAlergenosCBARA",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA",
+  "version" : "1.1.0",
+  "name" : "BRAlergenosCBARA"
+},
+{
+  "id" : "BRAtendimentoPrestado",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
+  "version" : "1.1.0",
+  "name" : "BRAtendimentoPrestado"
+},
+{
+  "id" : "BRBaseLegalLGPD",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD",
+  "version" : "1.1.0",
+  "name" : "BRBaseLegalLGPD"
+},
+{
+  "id" : "BRCBHPMTUSS",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBHPMTUSS",
+  "version" : "1.1.0",
+  "name" : "BRCBHPMTUSS"
+},
+{
+  "id" : "BRCBO",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO",
+  "version" : "1.1.0",
+  "name" : "BRCBO"
+},
+{
+  "id" : "BRCIAP2",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCIAP2",
+  "version" : "1.1.0",
+  "name" : "BRCIAP2"
+},
+{
+  "id" : "BRCID10",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
+  "version" : "1.1.0",
+  "name" : "BRCID10"
+},
+{
+  "id" : "BRCaraterAtendimento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRCaraterAtendimento"
+},
+{
+  "id" : "BRCategoriaDiagnostico",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCategoriaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaDiagnostico"
+},
+{
+  "id" : "BRConclusaoColposcopia",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia",
+  "version" : "1.1.0",
+  "name" : "BRConclusaoColposcopia"
+},
+{
+  "id" : "BRCondicaoAmostra",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoAmostra"
+},
+{
+  "id" : "BRCondicaoMaternal",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoMaternal",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoMaternal"
+},
+{
+  "id" : "BRCondutaTeleconsultoria",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRCondutaTeleconsultoria"
+},
+{
+  "id" : "BRConselhoProfissional",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRConselhoProfissional",
+  "version" : "1.1.0",
+  "name" : "BRConselhoProfissional"
+},
+{
+  "id" : "BRDadoAusenteOuDesconhecido",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
+  "version" : "1.1.0",
+  "name" : "BRDadoAusenteOuDesconhecido"
+},
+{
+  "id" : "BRDesfechoProcedimento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRDesfechoProcedimento"
+},
+{
+  "id" : "BRDivisaoGeograficaBrasil",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+  "version" : "1.1.0",
+  "name" : "BRDivisaoGeograficaBrasil"
+},
+{
+  "id" : "BRDose",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDose",
+  "version" : "1.1.0",
+  "name" : "BRDose"
+},
+{
+  "id" : "BRElegibilidadeImunobiologico",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRElegibilidadeImunobiologico"
+},
+{
+  "id" : "BREstrategiaVacinacao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
+  "version" : "1.1.0",
+  "name" : "BREstrategiaVacinacao"
+},
+{
+  "id" : "BREtniaIndigena",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BREtniaIndigena",
+  "version" : "1.1.0",
+  "name" : "BREtniaIndigena"
+},
+{
+  "id" : "BRFabricantePNI",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
+  "version" : "1.1.0",
+  "name" : "BRFabricantePNI"
+},
+{
+  "id" : "BRFinanciamento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinanciamento",
+  "version" : "1.1.0",
+  "name" : "BRFinanciamento"
+},
+{
+  "id" : "BRFormaOrganizacaoTabelaSUS",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRFormaOrganizacaoTabelaSUS"
+},
+{
+  "id" : "BRFrequenciaUsoSubstancia",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFrequenciaUsoSubstancia",
+  "version" : "1.1.0",
+  "name" : "BRFrequenciaUsoSubstancia"
+},
+{
+  "id" : "BRGrupoAtendimento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRGrupoAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRGrupoAtendimento"
+},
+{
+  "id" : "BRHPVInterpretacao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao",
+  "version" : "1.1.0",
+  "name" : "BRHPVInterpretacao"
+},
+{
+  "id" : "BRIBGE",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRIBGE",
+  "version" : "1.1.0",
+  "name" : "BRIBGE"
+},
+{
+  "id" : "BRIdentidadeGenero",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRIdentidadeGenero",
+  "version" : "1.1.0",
+  "name" : "BRIdentidadeGenero"
+},
+{
+  "id" : "BRImunobiologico",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRImunobiologico"
+},
+{
+  "id" : "BRInstalacoesFisicas",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
+  "version" : "1.1.0",
+  "name" : "BRInstalacoesFisicas"
+},
+{
+  "id" : "BRJustificativaIndividuoNaoIdentificado",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+  "version" : "1.1.0",
+  "name" : "BRJustificativaIndividuoNaoIdentificado"
+},
+{
+  "id" : "BRLocalAfericao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAfericao"
+},
+{
+  "id" : "BRLocalAplicacao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAplicacao"
+},
+{
+  "id" : "BRLocalAtendimento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRLocalAtendimento"
+},
+{
+  "id" : "BRMedDRA",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
+  "version" : "1.1.0",
+  "name" : "BRMedDRA"
+},
+{
+  "id" : "BRMedicamento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
+  "version" : "1.1.0",
+  "name" : "BRMedicamento"
+},
+{
+  "id" : "BRModalidadeAssistencial",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeAssistencial"
+},
+{
+  "id" : "BRModalidadeFinanceira",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeFinanceira"
+},
+{
+  "id" : "BRMotivoDesfecho",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
+  "version" : "1.1.0",
+  "name" : "BRMotivoDesfecho"
+},
+{
+  "id" : "BRMotivoProcedimentoNaoRealizado",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+  "version" : "1.1.0",
+  "name" : "BRMotivoProcedimentoNaoRealizado"
+},
+{
+  "id" : "BRMotivoRealizacaoExame",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame",
+  "version" : "1.1.0",
+  "name" : "BRMotivoRealizacaoExame"
+},
+{
+  "id" : "BRNacionalidade",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNacionalidade",
+  "version" : "1.1.0",
+  "name" : "BRNacionalidade"
+},
+{
+  "id" : "BRNomeExameGAL",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameGAL"
+},
+{
+  "id" : "BRNomeExameLOINC",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameLOINC"
+},
+{
+  "id" : "BRObmAMPP",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmAMPP",
+  "version" : "1.1.0",
+  "name" : "BRObmAMPP"
+},
+{
+  "id" : "BRObmANVISA",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA",
+  "version" : "1.1.0",
+  "name" : "BRObmANVISA"
+},
+{
+  "id" : "BRObmCATMAT",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT",
+  "version" : "1.1.0",
+  "name" : "BRObmCATMAT"
+},
+{
+  "id" : "BRObmEAN",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmEAN",
+  "version" : "1.1.0",
+  "name" : "BRObmEAN"
+},
+{
+  "id" : "BRObmVMP",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVMP",
+  "version" : "1.1.0",
+  "name" : "BRObmVMP"
+},
+{
+  "id" : "BRObmVTM",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM",
+  "version" : "1.1.0",
+  "name" : "BRObmVTM"
+},
+{
+  "id" : "BROrgaoExpedidor",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrgaoExpedidor",
+  "version" : "1.1.0",
+  "name" : "BROrgaoExpedidor"
+},
+{
+  "id" : "BROrtesesProtesesImplantaveis",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+  "version" : "1.1.0",
+  "name" : "BROrtesesProtesesImplantaveis"
+},
+{
+  "id" : "BRPais",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPais",
+  "version" : "1.1.0",
+  "name" : "BRPais"
+},
+{
+  "id" : "BRPapelProblemaDiagnostico",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPapelProblemaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRPapelProblemaDiagnostico"
+},
+{
+  "id" : "BRParentesco",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
+  "version" : "1.1.0",
+  "name" : "BRParentesco"
+},
+{
+  "id" : "BRPopulacaoTradicional",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
+  "version" : "1.1.0",
+  "name" : "BRPopulacaoTradicional"
+},
+{
+  "id" : "BRPosicaoIndividuo",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
+  "version" : "1.1.0",
+  "name" : "BRPosicaoIndividuo"
+},
+{
+  "id" : "BRPovoItinerante",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+  "version" : "1.1.0",
+  "name" : "BRPovoItinerante"
+},
+{
+  "id" : "BRPresenteAusente",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPresenteAusente",
+  "version" : "1.1.0",
+  "name" : "BRPresenteAusente"
+},
+{
+  "id" : "BRProcedencia",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia",
+  "version" : "1.1.0",
+  "name" : "BRProcedencia"
+},
+{
+  "id" : "BRProgramaSaude",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
+  "version" : "1.1.0",
+  "name" : "BRProgramaSaude"
+},
+{
+  "id" : "BRRacaCor",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+  "version" : "1.1.0",
+  "name" : "BRRacaCor"
+},
+{
+  "id" : "BRRegistroOrigem",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
+  "version" : "1.1.0",
+  "name" : "BRRegistroOrigem"
+},
+{
+  "id" : "BRResponsabilidadeParticipante",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResponsabilidadeParticipante",
+  "version" : "1.1.0",
+  "name" : "BRResponsabilidadeParticipante"
+},
+{
+  "id" : "BRResultadoQualitativoExame",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
+  "version" : "1.1.0",
+  "name" : "BRResultadoQualitativoExame"
+},
+{
+  "id" : "BRServicoEspecializado",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
+  "version" : "1.1.0",
+  "name" : "BRServicoEspecializado"
+},
+{
+  "id" : "BRStatusAgendamentoRegulacaoAssistencial",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRStatusAgendamentoRegulacaoAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRStatusAgendamentoRegulacaoAssistencial"
+},
+{
+  "id" : "BRStatusRegulacaoAssistencial",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRStatusRegulacaoAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRStatusRegulacaoAssistencial"
+},
+{
+  "id" : "BRSubGrupoTabelaSUS",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRSubGrupoTabelaSUS"
+},
+{
+  "id" : "BRTabelaSUS",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRTabelaSUS"
+},
+{
+  "id" : "BRTerminologiaPatogeno",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaPatogeno"
+},
+{
+  "id" : "BRTerminologiaSuspeitaDiagnostica",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaSuspeitaDiagnostica",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaSuspeitaDiagnostica"
+},
+{
+  "id" : "BRTipoAleitamentoMaterno",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+  "version" : "1.1.0",
+  "name" : "BRTipoAleitamentoMaterno"
+},
+{
+  "id" : "BRTipoAmostraGAL",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+  "version" : "1.1.0",
+  "name" : "BRTipoAmostraGAL"
+},
+{
+  "id" : "BRTipoDeficiencia",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia",
+  "version" : "1.1.0",
+  "name" : "BRTipoDeficiencia"
+},
+{
+  "id" : "BRTipoDispensacaoRealizada",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDispensacaoRealizada",
+  "version" : "1.1.0",
+  "name" : "BRTipoDispensacaoRealizada"
+},
+{
+  "id" : "BRTipoDocumento",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
+  "version" : "1.1.0",
+  "name" : "BRTipoDocumento"
+},
+{
+  "id" : "BRTipoEstabelecimentoSaude",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude",
+  "version" : "1.1.0",
+  "name" : "BRTipoEstabelecimentoSaude"
+},
+{
+  "id" : "BRTipoIdentificador",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoIdentificador",
+  "version" : "1.1.0",
+  "name" : "BRTipoIdentificador"
+},
+{
+  "id" : "BRTipoLogradouro",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLogradouro",
+  "version" : "1.1.0",
+  "name" : "BRTipoLogradouro"
+},
+{
+  "id" : "BRTipoObservacao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
+  "version" : "1.1.0",
+  "name" : "BRTipoObservacao"
+},
+{
+  "id" : "BRTipoParticipante",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
+  "version" : "1.1.0",
+  "name" : "BRTipoParticipante"
+},
+{
+  "id" : "BRTipoResultadoAVIDEZ",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoAVIDEZ"
+},
+{
+  "id" : "BRTipoResultadoDTNT",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoDTNT"
+},
+{
+  "id" : "BRTipoResultadoHISPT",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoHISPT"
+},
+{
+  "id" : "BRTipoResultadoPRAU",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoPRAU"
+},
+{
+  "id" : "BRTipoResultadoPSNG",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoPSNG"
+},
+{
+  "id" : "BRTipoResultadoRGNR",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRGNR"
+},
+{
+  "id" : "BRTipoResultadoRSBAC",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRSBAC"
+},
+{
+  "id" : "BRTipoResultadoRSCUL",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRSCUL"
+},
+{
+  "id" : "BRTipoSubstanciaUso",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso",
+  "version" : "1.1.0",
+  "name" : "BRTipoSubstanciaUso"
+},
+{
+  "id" : "BRTurno",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTurno",
+  "version" : "1.1.0",
+  "name" : "BRTurno"
+},
+{
+  "id" : "BRUnidadeMedida",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeMedida"
+},
+{
+  "id" : "BRUnidadeTempo",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeTempo",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeTempo"
+},
+{
+  "id" : "BRViaAdministracao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao",
+  "version" : "1.1.0",
+  "name" : "BRViaAdministracao"
+},
+{
+  "id" : "FormaOrganizacao",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/FormaOrganizacao",
+  "version" : "1.1.0",
+  "name" : "FormaOrganizacao"
+},
+{
+  "id" : "TipoConvenio",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/TipoConvenio",
+  "version" : "1.1.0",
+  "name" : "TipoConvenio"
+},
+{
+  "id" : "BRExameHPVCEPHEID",
+  "type" : "CodeSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/Codesystem/BRExameHPVCEPHEID",
+  "version" : "1.1.0",
+  "name" : "BRExameHPVCEPHEID"
+},
+{
+  "id" : "br.gov.saude.terminologia.fhir",
+  "type" : "ImplementationGuide",
+  "url" : "https://terminologia.saude.gov.br/fhir/ImplementationGuide/br.gov.saude.terminologia.fhir",
+  "version" : "1.1.0",
+  "name" : "TerminologiaBrasil"
+},
+{
+  "id" : "BRAlergenosCBARA",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRAlergenosCBARA",
+  "version" : "1.1.0",
+  "name" : "BRAlergenosCBARA"
+},
+{
+  "id" : "BRAtendimentoPrestado",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRAtendimentoPrestado",
+  "version" : "1.1.0",
+  "name" : "BRAtendimentoPrestado"
+},
+{
+  "id" : "BRCBHPMTUSS",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCBHPMTUSS",
+  "version" : "1.1.0",
+  "name" : "BRCBHPMTUSS"
+},
+{
+  "id" : "BRCBO",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCBO",
+  "version" : "1.1.0",
+  "name" : "BRCBO"
+},
+{
+  "id" : "BRCIAP2",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCIAP2",
+  "version" : "1.1.0",
+  "name" : "BRCIAP2"
+},
+{
+  "id" : "BRCID10",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCID10",
+  "version" : "1.1.0",
+  "name" : "BRCID10"
+},
+{
+  "id" : "BRCategoriaDiagnostico",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCategoriaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaDiagnostico"
+},
+{
+  "id" : "BRCondicaoMaternal",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRCondicaoMaternal",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoMaternal"
+},
+{
+  "id" : "BRConselhoProfissional",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRConselhoProfissional",
+  "version" : "1.1.0",
+  "name" : "BRConselhoProfissional"
+},
+{
+  "id" : "BRDadoAusenteOuDesconhecido",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRDadoAusenteOuDesconhecido",
+  "version" : "1.1.0",
+  "name" : "BRDadoAusenteOuDesconhecido"
+},
+{
+  "id" : "BRDesfechoProcedimento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRDesfechoProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRDesfechoProcedimento"
+},
+{
+  "id" : "BRDivisaoGeograficaBrasil",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRDivisaoGeograficaBrasil",
+  "version" : "1.1.0",
+  "name" : "BRDivisaoGeograficaBrasil"
+},
+{
+  "id" : "BRDose",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRDose",
+  "version" : "1.1.0",
+  "name" : "BRDose"
+},
+{
+  "id" : "BRElegibilidadeImunobiologico",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRElegibilidadeImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRElegibilidadeImunobiologico"
+},
+{
+  "id" : "BREstrategiaVacinacao",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BREstrategiaVacinacao",
+  "version" : "1.1.0",
+  "name" : "BREstrategiaVacinacao"
+},
+{
+  "id" : "BREtniaIndigena",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BREtniaIndigena",
+  "version" : "1.1.0",
+  "name" : "BREtniaIndigena"
+},
+{
+  "id" : "BRFabricantePNI",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRFabricantePNI",
+  "version" : "1.1.0",
+  "name" : "BRFabricantePNI"
+},
+{
+  "id" : "BRFinanciamento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRFinanciamento",
+  "version" : "1.1.0",
+  "name" : "BRFinanciamento"
+},
+{
+  "id" : "BRFrequenciaUsoSubstancia",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRFrequenciaUsoSubstancia",
+  "version" : "1.1.0",
+  "name" : "BRFrequenciaUsoSubstancia"
+},
+{
+  "id" : "BRGrupoAtendimento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRGrupoAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRGrupoAtendimento"
+},
+{
+  "id" : "BRIBGE",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRIBGE",
+  "version" : "1.1.0",
+  "name" : "BRIBGE"
+},
+{
+  "id" : "BRImunobiologico",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRImunobiologico"
+},
+{
+  "id" : "BRInstalacoesFisicas",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRInstalacoesFisicas",
+  "version" : "1.1.0",
+  "name" : "BRInstalacoesFisicas"
+},
+{
+  "id" : "BRJustificativaIndividuoNaoIdentificado",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRJustificativaIndividuoNaoIdentificado",
+  "version" : "1.1.0",
+  "name" : "BRJustificativaIndividuoNaoIdentificado"
+},
+{
+  "id" : "BRLocalAfericao",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRLocalAfericao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAfericao"
+},
+{
+  "id" : "BRLocalAplicacao",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRLocalAplicacao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAplicacao"
+},
+{
+  "id" : "BRLocalAtendimento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRLocalAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRLocalAtendimento"
+},
+{
+  "id" : "BRMedDRA",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRMedDRA",
+  "version" : "1.1.0",
+  "name" : "BRMedDRA"
+},
+{
+  "id" : "BRMedicamento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRMedicamento",
+  "version" : "1.1.0",
+  "name" : "BRMedicamento"
+},
+{
+  "id" : "BRModalidadeAssistencial",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRModalidadeAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeAssistencial"
+},
+{
+  "id" : "BRModalidadeFinanceira",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRModalidadeFinanceira",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeFinanceira"
+},
+{
+  "id" : "BRMotivoProcedimentoNaoRealizado",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRMotivoProcedimentoNaoRealizado",
+  "version" : "1.1.0",
+  "name" : "BRMotivoProcedimentoNaoRealizado"
+},
+{
+  "id" : "BRNacionalidade",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRNacionalidade",
+  "version" : "1.1.0",
+  "name" : "BRNacionalidade"
+},
+{
+  "id" : "BRNomeExameGAL",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRNomeExameGAL",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameGAL"
+},
+{
+  "id" : "BRNomeExameLOINC",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRNomeExameLOINC",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameLOINC"
+},
+{
+  "id" : "BRObmAMPP",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmAMPP",
+  "version" : "1.1.0",
+  "name" : "BRObmAMPP"
+},
+{
+  "id" : "BRObmANVISA",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmANVISA",
+  "version" : "1.1.0",
+  "name" : "BRObmANVISA"
+},
+{
+  "id" : "BRObmCATMAT",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmCATMAT",
+  "version" : "1.1.0",
+  "name" : "BRObmCATMAT"
+},
+{
+  "id" : "BRObmEAN",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmEAN",
+  "version" : "1.1.0",
+  "name" : "BRObmEAN"
+},
+{
+  "id" : "BRObmVMP",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmVMP",
+  "version" : "1.1.0",
+  "name" : "BRObmVMP"
+},
+{
+  "id" : "BRObmVTM",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRObmVTM",
+  "version" : "1.1.0",
+  "name" : "BRObmVTM"
+},
+{
+  "id" : "BROrgaoExpedidor",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BROrgaoExpedidor",
+  "version" : "1.1.0",
+  "name" : "BROrgaoExpedidor"
+},
+{
+  "id" : "BROrtesesProtesesImplantaveis",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BROrtesesProtesesImplantaveis",
+  "version" : "1.1.0",
+  "name" : "BROrtesesProtesesImplantaveis"
+},
+{
+  "id" : "BRPais",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPais",
+  "version" : "1.1.0",
+  "name" : "BRPais"
+},
+{
+  "id" : "BRPapelProblemaDiagnostico",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPapelProblemaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRPapelProblemaDiagnostico"
+},
+{
+  "id" : "BRParentesco",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRParentesco",
+  "version" : "1.1.0",
+  "name" : "BRParentesco"
+},
+{
+  "id" : "BRPopulacaoTradicional",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPopulacaoTradicional",
+  "version" : "1.1.0",
+  "name" : "BRPopulacaoTradicional"
+},
+{
+  "id" : "BRPosicaoIndividuo",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPosicaoIndividuo",
+  "version" : "1.1.0",
+  "name" : "BRPosicaoIndividuo"
+},
+{
+  "id" : "BRPovoItinerante",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPovoItinerante",
+  "version" : "1.1.0",
+  "name" : "BRPovoItinerante"
+},
+{
+  "id" : "BRPresenteAusente",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRPresenteAusente",
+  "version" : "1.1.0",
+  "name" : "BRPresenteAusente"
+},
+{
+  "id" : "BRProgramaSaude",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRProgramaSaude",
+  "version" : "1.1.0",
+  "name" : "BRProgramaSaude"
+},
+{
+  "id" : "BRRacaCor",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRRacaCor",
+  "version" : "1.1.0",
+  "name" : "BRRacaCor"
+},
+{
+  "id" : "BRRegistroOrigem",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRRegistroOrigem",
+  "version" : "1.1.0",
+  "name" : "BRRegistroOrigem"
+},
+{
+  "id" : "BRResultadoQualitativoExame",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRResultadoQualitativoExame",
+  "version" : "1.1.0",
+  "name" : "BRResultadoQualitativoExame"
+},
+{
+  "id" : "BRServicoEspecializado",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRServicoEspecializado",
+  "version" : "1.1.0",
+  "name" : "BRServicoEspecializado"
+},
+{
+  "id" : "BRStatusAgendamentoRegulacaoAssistencial",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRStatusAgendamentoRegulacaoAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRStatusAgendamentoRegulacaoAssistencial"
+},
+{
+  "id" : "BRStatusRegulacaoAssistencial",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRStatusRegulacaoAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRStatusRegulacaoAssistencial"
+},
+{
+  "id" : "BRSubGrupoTabelaSUS",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRSubGrupoTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRSubGrupoTabelaSUS"
+},
+{
+  "id" : "BRTabelaSUS",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRTabelaSUS"
+},
+{
+  "id" : "BRTerminologiaPatogeno",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTerminologiaPatogeno",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaPatogeno"
+},
+{
+  "id" : "BRTerminologiaSuspeitaDiagnostica",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTerminologiaSuspeitaDiagnostica",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaSuspeitaDiagnostica"
+},
+{
+  "id" : "BRTipoAleitamentoMaterno",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoAleitamentoMaterno",
+  "version" : "1.1.0",
+  "name" : "BRTipoAleitamentoMaterno"
+},
+{
+  "id" : "BRTipoAmostraGAL",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoAmostraGAL",
+  "version" : "1.1.0",
+  "name" : "BRTipoAmostraGAL"
+},
+{
+  "id" : "BRTipoDispensacaoRealizada",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoDispensacaoRealizada",
+  "version" : "1.1.0",
+  "name" : "BRTipoDispensacaoRealizada"
+},
+{
+  "id" : "BRTipoDocumento",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoDocumento",
+  "version" : "1.1.0",
+  "name" : "BRTipoDocumento"
+},
+{
+  "id" : "BRTipoEstabelecimentoSaude",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoEstabelecimentoSaude",
+  "version" : "1.1.0",
+  "name" : "BRTipoEstabelecimentoSaude"
+},
+{
+  "id" : "BRTipoIdentificador",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoIdentificador",
+  "version" : "1.1.0",
+  "name" : "BRTipoIdentificador"
+},
+{
+  "id" : "BRTipoLogradouro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoLogradouro",
+  "version" : "1.1.0",
+  "name" : "BRTipoLogradouro"
+},
+{
+  "id" : "BRTipoObservacao",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoObservacao",
+  "version" : "1.1.0",
+  "name" : "BRTipoObservacao"
+},
+{
+  "id" : "BRTipoParticipante",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoParticipante",
+  "version" : "1.1.0",
+  "name" : "BRTipoParticipante"
+},
+{
+  "id" : "BRTipoResultadoAVIDEZ",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoAVIDEZ",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoAVIDEZ"
+},
+{
+  "id" : "BRTipoResultadoDTNT",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoDTNT",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoDTNT"
+},
+{
+  "id" : "BRTipoResultadoHISPT",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoHISPT",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoHISPT"
+},
+{
+  "id" : "BRTipoResultadoPRAU",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoPRAU",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoPRAU"
+},
+{
+  "id" : "BRTipoResultadoPSNG",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoPSNG",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoPSNG"
+},
+{
+  "id" : "BRTipoResultadoRGNR",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoRGNR",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRGNR"
+},
+{
+  "id" : "BRTipoResultadoRSBAC",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoRSBAC",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRSBAC"
+},
+{
+  "id" : "BRTipoResultadoRSCUL",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoResultadoRSCUL",
+  "version" : "1.1.0",
+  "name" : "BRTipoResultadoRSCUL"
+},
+{
+  "id" : "BRTipoSubstanciaUso",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTipoSubstanciaUso",
+  "version" : "1.1.0",
+  "name" : "BRTipoSubstanciaUso"
+},
+{
+  "id" : "BRTurno",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRTurno",
+  "version" : "1.1.0",
+  "name" : "BRTurno"
+},
+{
+  "id" : "BRUnidadeMedida",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRUnidadeMedida",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeMedida"
+},
+{
+  "id" : "BRUnidadeTempo",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRUnidadeTempo",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeTempo"
+},
+{
+  "id" : "BRViaAdministracao",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/BRViaAdministracao",
+  "version" : "1.1.0",
+  "name" : "BRViaAdministracao"
+},
+{
+  "id" : "TipoConvenio",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/TipoConvenio",
+  "version" : "1.1.0",
+  "name" : "TipoConvenio"
+},
+{
+  "id" : "cnes",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cnes",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCNES"
+},
+{
+  "id" : "cnpj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cnpj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCNPJ"
+},
+{
+  "id" : "cns",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cns",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCNS"
+},
+{
+  "id" : "coren-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENAC"
+},
+{
+  "id" : "coren-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENAL"
+},
+{
+  "id" : "coren-am",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-am",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENAM"
+},
+{
+  "id" : "coren-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENAP"
+},
+{
+  "id" : "coren-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENBA"
+},
+{
+  "id" : "coren-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENCE"
+},
+{
+  "id" : "coren-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENDF"
+},
+{
+  "id" : "coren-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENES"
+},
+{
+  "id" : "coren-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENGO"
+},
+{
+  "id" : "coren-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENMA"
+},
+{
+  "id" : "coren-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENMG"
+},
+{
+  "id" : "coren-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENMS"
+},
+{
+  "id" : "coren-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENMT"
+},
+{
+  "id" : "coren-pa",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-pa",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENPA"
+},
+{
+  "id" : "coren-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENPB"
+},
+{
+  "id" : "coren-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENPE"
+},
+{
+  "id" : "coren-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENPI"
+},
+{
+  "id" : "coren-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENPR"
+},
+{
+  "id" : "coren-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENRJ"
+},
+{
+  "id" : "coren-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENRN"
+},
+{
+  "id" : "coren-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENRO"
+},
+{
+  "id" : "coren-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENRR"
+},
+{
+  "id" : "coren-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENRS"
+},
+{
+  "id" : "coren-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENSC"
+},
+{
+  "id" : "coren-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENSE"
+},
+{
+  "id" : "coren-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENSP"
+},
+{
+  "id" : "coren-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/coren-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCORENTO"
+},
+{
+  "id" : "cpf",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cpf",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCPF"
+},
+{
+  "id" : "crefito-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOBA"
+},
+{
+  "id" : "crefito-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOCE"
+},
+{
+  "id" : "crefito-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOES"
+},
+{
+  "id" : "crefito-go-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-go-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOGODF"
+},
+{
+  "id" : "crefito-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOMA"
+},
+{
+  "id" : "crefito-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOMG"
+},
+{
+  "id" : "crefito-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOMS"
+},
+{
+  "id" : "crefito-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOMT"
+},
+{
+  "id" : "crefito-pa-am-to-rr-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pa-am-to-rr-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOPAAMTORRAP"
+},
+{
+  "id" : "crefito-pe-pb-al-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pe-pb-al-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOPEPBALRN"
+},
+{
+  "id" : "crefito-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOPI"
+},
+{
+  "id" : "crefito-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOPR"
+},
+{
+  "id" : "crefito-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITORJ"
+},
+{
+  "id" : "crefito-ro-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-ro-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOROAC"
+},
+{
+  "id" : "crefito-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITORS"
+},
+{
+  "id" : "crefito-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOSC"
+},
+{
+  "id" : "crefito-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOSE"
+},
+{
+  "id" : "crefito-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefito-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFITOSP"
+},
+{
+  "id" : "crefono-am-ac-ap-pa-ro-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-am-ac-ap-pa-ro-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOAMACAPPARORR"
+},
+{
+  "id" : "crefono-ce-ma-pi-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-ce-ma-pi-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOCEMAPIRN"
+},
+{
+  "id" : "crefono-go-df-ms-mt-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-go-df-ms-mt-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOGODFMSMTTO"
+},
+{
+  "id" : "crefono-mg-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-mg-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOMGES"
+},
+{
+  "id" : "crefono-pe-al-ba-pb-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-pe-al-ba-pb-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOPEALBAPBSE"
+},
+{
+  "id" : "crefono-pr-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-pr-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOPRSC"
+},
+{
+  "id" : "crefono-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONORJ"
+},
+{
+  "id" : "crefono-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONORS"
+},
+{
+  "id" : "crefono-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crefono-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCREFONOSP"
+},
+{
+  "id" : "cress-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSAC"
+},
+{
+  "id" : "cress-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSAL"
+},
+{
+  "id" : "cress-am",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-am",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSAM"
+},
+{
+  "id" : "cress-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSAP"
+},
+{
+  "id" : "cress-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSBA"
+},
+{
+  "id" : "cress-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSCE"
+},
+{
+  "id" : "cress-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSDF"
+},
+{
+  "id" : "cress-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSES"
+},
+{
+  "id" : "cress-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSGO"
+},
+{
+  "id" : "cress-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSMA"
+},
+{
+  "id" : "cress-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSMG"
+},
+{
+  "id" : "cress-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSMS"
+},
+{
+  "id" : "cress-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSMT"
+},
+{
+  "id" : "cress-pa",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-pa",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSPA"
+},
+{
+  "id" : "cress-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSPB"
+},
+{
+  "id" : "cress-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSPE"
+},
+{
+  "id" : "cress-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSPI"
+},
+{
+  "id" : "cress-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSPR"
+},
+{
+  "id" : "cress-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSRJ"
+},
+{
+  "id" : "cress-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSRN"
+},
+{
+  "id" : "cress-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSRO"
+},
+{
+  "id" : "cress-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSRR"
+},
+{
+  "id" : "cress-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSRS"
+},
+{
+  "id" : "cress-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSSC"
+},
+{
+  "id" : "cress-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSSE"
+},
+{
+  "id" : "cress-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSSP"
+},
+{
+  "id" : "cress-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cress-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRESSTO"
+},
+{
+  "id" : "crf-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFAC"
+},
+{
+  "id" : "crf-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFAL"
+},
+{
+  "id" : "crf-am",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-am",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFAM"
+},
+{
+  "id" : "crf-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFAP"
+},
+{
+  "id" : "crf-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFBA"
+},
+{
+  "id" : "crf-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFCE"
+},
+{
+  "id" : "crf-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFDF"
+},
+{
+  "id" : "crf-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFES"
+},
+{
+  "id" : "crf-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFGO"
+},
+{
+  "id" : "crf-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFMA"
+},
+{
+  "id" : "crf-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFMG"
+},
+{
+  "id" : "crf-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFMS"
+},
+{
+  "id" : "crf-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFMT"
+},
+{
+  "id" : "crf-pa",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-pa",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFPA"
+},
+{
+  "id" : "crf-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFPB"
+},
+{
+  "id" : "crf-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFPE"
+},
+{
+  "id" : "crf-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFPI"
+},
+{
+  "id" : "crf-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFPR"
+},
+{
+  "id" : "crf-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFRJ"
+},
+{
+  "id" : "crf-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFRN"
+},
+{
+  "id" : "crf-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFRO"
+},
+{
+  "id" : "crf-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFRR"
+},
+{
+  "id" : "crf-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFRS"
+},
+{
+  "id" : "crf-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFSC"
+},
+{
+  "id" : "crf-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFSE"
+},
+{
+  "id" : "crf-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFSP"
+},
+{
+  "id" : "crf-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crf-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRFTO"
+},
+{
+  "id" : "crm-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMAC"
+},
+{
+  "id" : "crm-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMAL"
+},
+{
+  "id" : "crm-am",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-am",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMAM"
+},
+{
+  "id" : "crm-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMAP"
+},
+{
+  "id" : "crm-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMBA"
+},
+{
+  "id" : "crm-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMCE"
+},
+{
+  "id" : "crm-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMDF"
+},
+{
+  "id" : "crm-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMES"
+},
+{
+  "id" : "crm-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMGO"
+},
+{
+  "id" : "crm-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMMA"
+},
+{
+  "id" : "crm-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMMG"
+},
+{
+  "id" : "crm-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMMS"
+},
+{
+  "id" : "crm-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMMT"
+},
+{
+  "id" : "crm-pa",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-pa",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMPA"
+},
+{
+  "id" : "crm-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMPB"
+},
+{
+  "id" : "crm-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMPE"
+},
+{
+  "id" : "crm-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMPI"
+},
+{
+  "id" : "crm-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMPR"
+},
+{
+  "id" : "crm-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMRJ"
+},
+{
+  "id" : "crm-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMRN"
+},
+{
+  "id" : "crm-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMRO"
+},
+{
+  "id" : "crm-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMRR"
+},
+{
+  "id" : "crm-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMRS"
+},
+{
+  "id" : "crm-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMSC"
+},
+{
+  "id" : "crm-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMSE"
+},
+{
+  "id" : "crm-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMSP"
+},
+{
+  "id" : "crm-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crm-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRMTO"
+},
+{
+  "id" : "crn-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNAL"
+},
+{
+  "id" : "crn-ba-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-ba-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNBASE"
+},
+{
+  "id" : "crn-ce-ma-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-ce-ma-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNCEMAPI"
+},
+{
+  "id" : "crn-df-go-mt-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-df-go-mt-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNDFGOMTTO"
+},
+{
+  "id" : "crn-pa-ac-am-ap-ro-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-pa-ac-am-ap-ro-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNPAACAMAPRORR"
+},
+{
+  "id" : "crn-pe-al-pb-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-pe-al-pb-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNPEALPBRN"
+},
+{
+  "id" : "crn-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNPR"
+},
+{
+  "id" : "crn-rj-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-rj-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNRJES"
+},
+{
+  "id" : "crn-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNRS"
+},
+{
+  "id" : "crn-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNSC"
+},
+{
+  "id" : "crn-sp-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crn-sp-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRNSPMS"
+},
+{
+  "id" : "cro-ac",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ac",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROAC"
+},
+{
+  "id" : "cro-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROAL"
+},
+{
+  "id" : "cro-am",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-am",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROAM"
+},
+{
+  "id" : "cro-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROAP"
+},
+{
+  "id" : "cro-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROBA"
+},
+{
+  "id" : "cro-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROCE"
+},
+{
+  "id" : "cro-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRODF"
+},
+{
+  "id" : "cro-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROES"
+},
+{
+  "id" : "cro-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROGO"
+},
+{
+  "id" : "cro-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROMA"
+},
+{
+  "id" : "cro-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROMG"
+},
+{
+  "id" : "cro-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROMS"
+},
+{
+  "id" : "cro-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROMT"
+},
+{
+  "id" : "cro-pa",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-pa",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROPA"
+},
+{
+  "id" : "cro-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROPB"
+},
+{
+  "id" : "cro-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROPE"
+},
+{
+  "id" : "cro-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROPI"
+},
+{
+  "id" : "cro-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROPR"
+},
+{
+  "id" : "cro-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRORJ"
+},
+{
+  "id" : "cro-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRORN"
+},
+{
+  "id" : "cro-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRORO"
+},
+{
+  "id" : "cro-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRORR"
+},
+{
+  "id" : "cro-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRORS"
+},
+{
+  "id" : "cro-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROSC"
+},
+{
+  "id" : "cro-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROSE"
+},
+{
+  "id" : "cro-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROSP"
+},
+{
+  "id" : "cro-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/cro-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCROTO"
+},
+{
+  "id" : "crp-ac-ro",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-ac-ro",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPACRO"
+},
+{
+  "id" : "crp-al",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-al",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPAL"
+},
+{
+  "id" : "crp-am-rr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-am-rr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPAMRR"
+},
+{
+  "id" : "crp-ba",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-ba",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPBA"
+},
+{
+  "id" : "crp-ce",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-ce",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPCE"
+},
+{
+  "id" : "crp-df",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-df",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPDF"
+},
+{
+  "id" : "crp-es",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-es",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPES"
+},
+{
+  "id" : "crp-go",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-go",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPGO"
+},
+{
+  "id" : "crp-ma",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-ma",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPMA"
+},
+{
+  "id" : "crp-mg",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-mg",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPMG"
+},
+{
+  "id" : "crp-ms",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-ms",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPMS"
+},
+{
+  "id" : "crp-mt",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-mt",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPMT"
+},
+{
+  "id" : "crp-pa-ap",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-pa-ap",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPPAAP"
+},
+{
+  "id" : "crp-pb",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-pb",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPPB"
+},
+{
+  "id" : "crp-pe",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-pe",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPPE"
+},
+{
+  "id" : "crp-pi",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-pi",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPPI"
+},
+{
+  "id" : "crp-pr",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-pr",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPPR"
+},
+{
+  "id" : "crp-rj",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-rj",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPRJ"
+},
+{
+  "id" : "crp-rn",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-rn",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPRN"
+},
+{
+  "id" : "crp-rs",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-rs",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPRS"
+},
+{
+  "id" : "crp-sc",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-sc",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPSC"
+},
+{
+  "id" : "crp-se",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-se",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPSE"
+},
+{
+  "id" : "crp-sp",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-sp",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPSP"
+},
+{
+  "id" : "crp-to",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/crp-to",
+  "version" : "1.1.0",
+  "name" : "NamingSystemCRPTO"
+},
+{
+  "id" : "rne",
+  "type" : "NamingSystem",
+  "url" : "https://terminologia.saude.gov.br/fhir/NamingSystem/rne",
+  "version" : "1.1.0",
+  "name" : "NamingSystemRNE"
+},
+{
+  "id" : "BRAlergenos",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRAlergenos",
+  "version" : "1.1.0",
+  "name" : "BRAlergenos"
+},
+{
+  "id" : "BRAtendimentoPrestado",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRAtendimentoPrestado",
+  "version" : "1.1.0",
+  "name" : "BRAtendimentoPrestado"
+},
+{
+  "id" : "BRBaseLegalLGPD",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRBaseLegalLGPD",
+  "version" : "1.1.0",
+  "name" : "BRBaseLegalLGPD"
+},
+{
+  "id" : "BRCIAP2",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCIAP2",
+  "version" : "1.1.0",
+  "name" : "BRCIAP2"
+},
+{
+  "id" : "BRCID10",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCID10",
+  "version" : "1.1.0",
+  "name" : "BRCID10"
+},
+{
+  "id" : "BRCOREN",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCOREN",
+  "version" : "1.1.0",
+  "name" : "BRCOREN"
+},
+{
+  "id" : "BRCRF",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCRF",
+  "version" : "1.1.0",
+  "name" : "BRCRF"
+},
+{
+  "id" : "BRCRM",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCRM",
+  "version" : "1.1.0",
+  "name" : "BRCRM"
+},
+{
+  "id" : "BRCRO",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCRO",
+  "version" : "1.1.0",
+  "name" : "BRCRO"
+},
+{
+  "id" : "BRCaraterAtendimento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimento",
+  "version" : "1.1.0",
+  "name" : "BRCaraterAtendimento"
+},
+{
+  "id" : "BRCaraterAtendimentoMIRA",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimentoMIRA",
+  "version" : "1.1.0",
+  "name" : "BRCaraterAtendimentoMIRA"
+},
+{
+  "id" : "BRCategoriaAgenteAlergiasReacoesAdversas",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaAgenteAlergiasReacoesAdversas"
+},
+{
+  "id" : "BRCategoriaDiagnostico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaDiagnostico"
+},
+{
+  "id" : "BRCategoriaExame",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaExame",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaExame"
+},
+{
+  "id" : "BRCategoriaProcedimento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRCategoriaProcedimento"
+},
+{
+  "id" : "BRConclusaoColposcopia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRConclusaoColposcopia",
+  "version" : "1.1.0",
+  "name" : "BRConclusaoColposcopia"
+},
+{
+  "id" : "BRCondicaoAmostra",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCondicaoAmostra",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoAmostra"
+},
+{
+  "id" : "BRCondicaoMaternal",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCondicaoMaternal",
+  "version" : "1.1.0",
+  "name" : "BRCondicaoMaternal"
+},
+{
+  "id" : "BRCondutaColposcopia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCondutaColposcopia",
+  "version" : "1.1.0",
+  "name" : "BRCondutaColposcopia"
+},
+{
+  "id" : "BRCondutaTeleconsultoria",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCondutaTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRCondutaTeleconsultoria"
+},
+{
+  "id" : "BRCoreMedicationNotGiven",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCoreMedicationNotGiven",
+  "version" : "1.1.0",
+  "name" : "BRCoreMedicationNotGiven"
+},
+{
+  "id" : "BRCriticidadeAlergiasReacoesAdversas",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRCriticidadeAlergiasReacoesAdversas",
+  "version" : "1.1.0",
+  "name" : "BRCriticidadeAlergiasReacoesAdversas"
+},
+{
+  "id" : "BRDeficiencias",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRDeficiencias",
+  "version" : "1.1.0",
+  "name" : "BRDeficiencias"
+},
+{
+  "id" : "BRDesfechoProcedimento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRDesfechoProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRDesfechoProcedimento"
+},
+{
+  "id" : "BRDireitoTitularDados",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRDireitoTitularDados",
+  "version" : "1.1.0",
+  "name" : "BRDireitoTitularDados"
+},
+{
+  "id" : "BRDispositivo-Medico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico",
+  "version" : "1.1.0",
+  "name" : "BRDispositivo_Medico"
+},
+{
+  "id" : "BRDose",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRDose",
+  "version" : "1.1.0",
+  "name" : "BRDose"
+},
+{
+  "id" : "BRElegibilidadeImunobiologico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRElegibilidadeImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRElegibilidadeImunobiologico"
+},
+{
+  "id" : "BREstadoCivil",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoCivil",
+  "version" : "1.1.0",
+  "name" : "BREstadoCivil"
+},
+{
+  "id" : "BREstadoEvento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoEvento",
+  "version" : "1.1.0",
+  "name" : "BREstadoEvento"
+},
+{
+  "id" : "BREstadoObservacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoObservacao",
+  "version" : "1.1.0",
+  "name" : "BREstadoObservacao"
+},
+{
+  "id" : "BREstadoResolucaoDiagnosticoProblema",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoResolucaoDiagnosticoProblema",
+  "version" : "1.1.0",
+  "name" : "BREstadoResolucaoDiagnosticoProblema"
+},
+{
+  "id" : "BREstadoSolicitacaoMedicamento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento",
+  "version" : "1.1.0",
+  "name" : "BREstadoSolicitacaoMedicamento"
+},
+{
+  "id" : "BREstrategiaVacinacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREstrategiaVacinacao",
+  "version" : "1.1.0",
+  "name" : "BREstrategiaVacinacao"
+},
+{
+  "id" : "BREtniaIndigena",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BREtniaIndigena",
+  "version" : "1.1.0",
+  "name" : "BREtniaIndigena"
+},
+{
+  "id" : "BRExameHPV",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV",
+  "version" : "1.1.0",
+  "name" : "BRExameHPV"
+},
+{
+  "id" : "BRFabricanteImunobiologico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRFabricanteImunobiologico"
+},
+{
+  "id" : "BRFinalidadeTratamentoDados",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFinalidadeTratamentoDados",
+  "version" : "1.1.0",
+  "name" : "BRFinalidadeTratamentoDados"
+},
+{
+  "id" : "BRFormaOrganizacaoTabelaSUS",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFormaOrganizacaoTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRFormaOrganizacaoTabelaSUS"
+},
+{
+  "id" : "BRFreqUsoSubstancia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFreqUsoSubstancia",
+  "version" : "1.1.0",
+  "name" : "BRFreqUsoSubstancia"
+},
+{
+  "id" : "BRGrauCertezaAlergiasReacoesAdversas",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRGrauCertezaAlergiasReacoesAdversas",
+  "version" : "1.1.0",
+  "name" : "BRGrauCertezaAlergiasReacoesAdversas"
+},
+{
+  "id" : "BRHPVInterpretacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao",
+  "version" : "1.1.0",
+  "name" : "BRHPVInterpretacao"
+},
+{
+  "id" : "BRIdentidadeGenero",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRIdentidadeGenero",
+  "version" : "1.1.0",
+  "name" : "BRIdentidadeGenero"
+},
+{
+  "id" : "BRImunobiologico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRImunobiologico"
+},
+{
+  "id" : "BRInstalacoesFisicas",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRInstalacoesFisicas",
+  "version" : "1.1.0",
+  "name" : "BRInstalacoesFisicas"
+},
+{
+  "id" : "BRJustificativaIndividuoNaoIdentificado",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRJustificativaIndividuoNaoIdentificado",
+  "version" : "1.1.0",
+  "name" : "BRJustificativaIndividuoNaoIdentificado"
+},
+{
+  "id" : "BRLocalAfericao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAfericao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAfericao"
+},
+{
+  "id" : "BRLocalAplicacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRLocalAplicacao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAplicacao"
+},
+{
+  "id" : "BRModalidadeAssistencial",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeAssistencial"
+},
+{
+  "id" : "BRModalidadeAssistencialMIRA",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeAssistencialMIRA",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeAssistencialMIRA"
+},
+{
+  "id" : "BRModalidadeFinanceira",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeFinanceira",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeFinanceira"
+},
+{
+  "id" : "BRModalidadeImagem",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeImagem",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeImagem"
+},
+{
+  "id" : "BRModalidadeTelessaude",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeTelessaude",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeTelessaude"
+},
+{
+  "id" : "BRMotivoDesfecho",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho",
+  "version" : "1.1.0",
+  "name" : "BRMotivoDesfecho"
+},
+{
+  "id" : "BRMotivoProcedimentoNaoRealizado",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoProcedimentoNaoRealizado",
+  "version" : "1.1.0",
+  "name" : "BRMotivoProcedimentoNaoRealizado"
+},
+{
+  "id" : "BRMotivoRealizacaoExame",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoRealizacaoExame",
+  "version" : "1.1.0",
+  "name" : "BRMotivoRealizacaoExame"
+},
+{
+  "id" : "BRMotivoTeleconsultoria",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRMotivoTeleconsultoria"
+},
+{
+  "id" : "BRMunicipio",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMunicipio",
+  "version" : "1.1.0",
+  "name" : "BRMunicipio"
+},
+{
+  "id" : "BRNomeExame",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExame",
+  "version" : "1.1.0",
+  "name" : "BRNomeExame"
+},
+{
+  "id" : "BRNomeExameLOINC",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExameLOINC",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameLOINC"
+},
+{
+  "id" : "BRNomeExameTRCOVID19LOINC",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExameTRCOVID19LOINC",
+  "version" : "1.1.0",
+  "name" : "BRNomeExameTRCOVID19LOINC"
+},
+{
+  "id" : "BROCI-IC",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROCI-IC",
+  "version" : "1.1.0",
+  "name" : "BROCI-IC"
+},
+{
+  "id" : "BRObservationReferencia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationReferencia",
+  "version" : "1.1.0",
+  "name" : "BRObservationReferencia"
+},
+{
+  "id" : "BRObservationRestricaoIntervaloReferencia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia",
+  "version" : "1.1.0",
+  "name" : "BRObservationRestricaoIntervaloReferencia"
+},
+{
+  "id" : "BROcupacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROcupacao",
+  "version" : "1.1.0",
+  "name" : "BROcupacao"
+},
+{
+  "id" : "BROrgaoExpedidor",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROrgaoExpedidor",
+  "version" : "1.1.0",
+  "name" : "BROrgaoExpedidor"
+},
+{
+  "id" : "BROrtesesProtesesImplantaveis",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis",
+  "version" : "1.1.0",
+  "name" : "BROrtesesProtesesImplantaveis"
+},
+{
+  "id" : "BROutrosProfissionais",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROutrosProfissionais",
+  "version" : "1.1.0",
+  "name" : "BROutrosProfissionais"
+},
+{
+  "id" : "BRPais",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPais",
+  "version" : "1.1.0",
+  "name" : "BRPais"
+},
+{
+  "id" : "BRParentesco",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco",
+  "version" : "1.1.0",
+  "name" : "BRParentesco"
+},
+{
+  "id" : "BRPopulacaoTradicional",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPopulacaoTradicional",
+  "version" : "1.1.0",
+  "name" : "BRPopulacaoTradicional"
+},
+{
+  "id" : "BRPosicaoIndividuo",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPosicaoIndividuo",
+  "version" : "1.1.0",
+  "name" : "BRPosicaoIndividuo"
+},
+{
+  "id" : "BRPovoItinerante",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPovoItinerante",
+  "version" : "1.1.0",
+  "name" : "BRPovoItinerante"
+},
+{
+  "id" : "BRPrescricaoNaoEstruturada",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada",
+  "version" : "1.1.0",
+  "name" : "BRPrescricaoNaoEstruturada"
+},
+{
+  "id" : "BRProblemaDiagnostico",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRProblemaDiagnostico",
+  "version" : "1.1.0",
+  "name" : "BRProblemaDiagnostico"
+},
+{
+  "id" : "BRProcedencia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedencia",
+  "version" : "1.1.0",
+  "name" : "BRProcedencia"
+},
+{
+  "id" : "BRProcedimentosNacionais",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedimentosNacionais",
+  "version" : "1.1.0",
+  "name" : "BRProcedimentosNacionais"
+},
+{
+  "id" : "BRProgramaSaude",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude",
+  "version" : "1.1.0",
+  "name" : "BRProgramaSaude"
+},
+{
+  "id" : "BRRacaCor",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor",
+  "version" : "1.1.0",
+  "name" : "BRRacaCor"
+},
+{
+  "id" : "BRReacoesAdversasMedDRA",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRReacoesAdversasMedDRA",
+  "version" : "1.1.0",
+  "name" : "BRReacoesAdversasMedDRA"
+},
+{
+  "id" : "BRReasonEncounter",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRReasonEncounter",
+  "version" : "1.1.0",
+  "name" : "BRReasonEncounter"
+},
+{
+  "id" : "BRRegistroOrigem",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRRegistroOrigem",
+  "version" : "1.1.0",
+  "name" : "BRRegistroOrigem"
+},
+{
+  "id" : "BRResponsabilidadeParticipante",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRResponsabilidadeParticipante",
+  "version" : "1.1.0",
+  "name" : "BRResponsabilidadeParticipante"
+},
+{
+  "id" : "BRResultadoQualitativoExame",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
+  "version" : "1.1.0",
+  "name" : "BRResultadoQualitativoExame"
+},
+{
+  "id" : "BRResultadoQualitativoHPV",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoHPV",
+  "version" : "1.1.0",
+  "name" : "BRResultadoQualitativoHPV"
+},
+{
+  "id" : "BRServicoEspecializado",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRServicoEspecializado",
+  "version" : "1.1.0",
+  "name" : "BRServicoEspecializado"
+},
+{
+  "id" : "BRSexo",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexo",
+  "version" : "1.1.0",
+  "name" : "BRSexo"
+},
+{
+  "id" : "BRSexoNascimento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRSexoNascimento",
+  "version" : "1.1.0",
+  "name" : "BRSexoNascimento"
+},
+{
+  "id" : "BRSinaisVitais",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRSinaisVitais",
+  "version" : "1.1.0",
+  "name" : "BRSinaisVitais"
+},
+{
+  "id" : "BRSubGrupoTabelaSUS",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRSubGrupoTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRSubGrupoTabelaSUS"
+},
+{
+  "id" : "BRTabelaSUS",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTabelaSUS",
+  "version" : "1.1.0",
+  "name" : "BRTabelaSUS"
+},
+{
+  "id" : "BRTabelaSUSOCI-IC",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTabelaSUSOCI-IC",
+  "version" : "1.1.0",
+  "name" : "BRTabelaSUSOCI_IC"
+},
+{
+  "id" : "BRTerminologiaMedicamento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTerminologiaMedicamento",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaMedicamento"
+},
+{
+  "id" : "BRTerminologiaPatogeno",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTerminologiaPatogeno",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaPatogeno"
+},
+{
+  "id" : "BRTerminologiaSuspeitaDiagnostica",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTerminologiaSuspeitaDiagnostica",
+  "version" : "1.1.0",
+  "name" : "BRTerminologiaSuspeitaDiagnostica"
+},
+{
+  "id" : "BRTipoAleitamentoMaterno",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoAleitamentoMaterno",
+  "version" : "1.1.0",
+  "name" : "BRTipoAleitamentoMaterno"
+},
+{
+  "id" : "BRTipoAmostra",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoAmostra",
+  "version" : "1.1.0",
+  "name" : "BRTipoAmostra"
+},
+{
+  "id" : "BRTipoDadoPessoal",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDadoPessoal",
+  "version" : "1.1.0",
+  "name" : "BRTipoDadoPessoal"
+},
+{
+  "id" : "BRTipoDadoPessoalLGPD",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDadoPessoalLGPD",
+  "version" : "1.1.0",
+  "name" : "BRTipoDadoPessoalLGPD"
+},
+{
+  "id" : "BRTipoDeficiencia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDeficiencia",
+  "version" : "1.1.0",
+  "name" : "BRTipoDeficiencia"
+},
+{
+  "id" : "BRTipoDocumento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento",
+  "version" : "1.1.0",
+  "name" : "BRTipoDocumento"
+},
+{
+  "id" : "BRTipoDocumentoIndividuo",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumentoIndividuo",
+  "version" : "1.1.0",
+  "name" : "BRTipoDocumentoIndividuo"
+},
+{
+  "id" : "BRTipoEstabelecimentoSaude",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoEstabelecimentoSaude",
+  "version" : "1.1.0",
+  "name" : "BRTipoEstabelecimentoSaude"
+},
+{
+  "id" : "BRTipoIdentificador",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoIdentificador",
+  "version" : "1.1.0",
+  "name" : "BRTipoIdentificador"
+},
+{
+  "id" : "BRTipoIdentificadorProcedimento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoIdentificadorProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRTipoIdentificadorProcedimento"
+},
+{
+  "id" : "BRTipoLogradouro",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoLogradouro",
+  "version" : "1.1.0",
+  "name" : "BRTipoLogradouro"
+},
+{
+  "id" : "BRTipoObservacao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoObservacao",
+  "version" : "1.1.0",
+  "name" : "BRTipoObservacao"
+},
+{
+  "id" : "BRTipoParticipante",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoParticipante",
+  "version" : "1.1.0",
+  "name" : "BRTipoParticipante"
+},
+{
+  "id" : "BRTipoTeleconsultoria",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRTipoTeleconsultoria"
+},
+{
+  "id" : "BRUnidadeFederativa",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeFederativa",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeFederativa"
+},
+{
+  "id" : "BRUnidadeMedidaMedicamento",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRUnidadeMedidaMedicamento",
+  "version" : "1.1.0",
+  "name" : "BRUnidadeMedidaMedicamento"
+},
+{
+  "id" : "BRViaAdministracao",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRViaAdministracao",
+  "version" : "1.1.0",
+  "name" : "BRViaAdministracao"
+},
+{
+  "id" : "OCIOftalmo",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOftalmo",
+  "version" : "1.1.0",
+  "name" : "OCIOftalmo"
+},
+{
+  "id" : "OCIOnco",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOnco",
+  "version" : "1.1.0",
+  "name" : "OCIOnco"
+},
+{
+  "id" : "OCIOrtopedia",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOrtopedia",
+  "version" : "1.1.0",
+  "name" : "OCIOrtopedia"
+},
+{
+  "id" : "OCIOtorrino",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOtorrino",
+  "version" : "1.1.0",
+  "name" : "OCIOtorrino"
+},
+{
+  "id" : "TipoConvenio",
+  "type" : "ValueSet",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/TipoConvenio",
+  "version" : "1.1.0",
+  "name" : "TipoConvenio"
+},
+{
+  "id" : "BRModalidadeTelessaude",
+  "type" : "CodeSystem",
+  "url" : "https://termnologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeTelessaude"
+},
+{
+  "id" : "BRMotivoTeleconsultoria",
+  "type" : "CodeSystem",
+  "url" : "htttps://terminologia.saude.gov.br/CodeSystem/BRMotivoTeleconsultoria",
+  "version" : "1.1.0",
+  "name" : "BRMotivoTeleconsultoria"
+}]

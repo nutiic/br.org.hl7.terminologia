@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoEstabelecimentoSaude"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTipoEstabelecimentoSaude</b></p><a name="BRTipoEstabelecimentoSaude"> </a><a name="hcBRTipoEstabelecimentoSaude"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTipoEstabelecimentoSaude.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-67">67</a></td><td>LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-64">64</a></td><td>CENTRAL DE REGULACAO DE SERVICOS DE SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-85">85</a></td><td>CENTRO DE IMUNIZACAO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-84">84</a></td><td>CENTRAL DE ABASTECIMENTO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-62">62</a></td><td>HOSPITAL/DIA - ISOLADO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-61">61</a></td><td>CENTRO DE PARTO NORMAL - ISOLADO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-83">83</a></td><td>POLO DE PREVENCAO DE DOENCAS E AGRAVOS E PROMOCAO DA SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-60">60</a></td><td>COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-82">82</a></td><td>CENTRAL DE NOTIFICACAO,CAPTACAO E DISTRIB DE ORGAOS ESTADUAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-50">50</a></td><td>UNIDADE DE VIGILANCIA EM SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-81">81</a></td><td>CENTRAL DE REGULACAO DO ACESSO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-5">5</a></td><td>HOSPITAL GERAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-80">80</a></td><td>LABORATORIO DE SAUDE PUBLICA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-43">43</a></td><td>FARMACIA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-79">79</a></td><td>OFICINA ORTOPEDICA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-42">42</a></td><td>UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-78">78</a></td><td>UNIDADE DE ATENCAO EM REGIME RESIDENCIAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-40">40</a></td><td>UNIDADE MOVEL TERRESTRE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-77">77</a></td><td>SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-76">76</a></td><td>CENTRAL DE REGULACAO MEDICA DAS URGENCIAS</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-4">4</a></td><td>POLICLINICA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-75">75</a></td><td>TELESSAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-39">39</a></td><td>UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-74">74</a></td><td>POLO ACADEMIA DA SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-36">36</a></td><td>CLINICA/CENTRO DE ESPECIALIDADE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-73">73</a></td><td>PRONTO ATENDIMENTO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-32">32</a></td><td>UNIDADE MOVEL FLUVIAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-72">72</a></td><td>UNIDADE DE ATENCAO A SAUDE INDIGENA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-22">22</a></td><td>CONSULTORIO ISOLADO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-71">71</a></td><td>CENTRO DE APOIO A SAUDE DA FAMILIA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-21">21</a></td><td>PRONTO SOCORRO ESPECIALIZADO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-70">70</a></td><td>CENTRO DE ATENCAO PSICOSSOCIAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-20">20</a></td><td>PRONTO SOCORRO GERAL</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-7">7</a></td><td>HOSPITAL ESPECIALIZADO</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-2">2</a></td><td>CENTRO DE SAUDE/UNIDADE BASICA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-69">69</a></td><td>CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-15">15</a></td><td>UNIDADE MISTA</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-68">68</a></td><td>CENTRAL DE GESTAO EM SAUDE</td></tr><tr><td><a href="CodeSystem-BRTipoEstabelecimentoSaude.html#BRTipoEstabelecimentoSaude-1">1</a></td><td>POSTO DE SAUDE</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoEstabelecimentoSaude"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoEstabelecimentoSaude"/>
+  <title value="BR Tipo Estabelecimento Saude"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoEstabelecimentoSaude"/>
+      <concept>
+        <code value="67"/>
+        <display value="LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN"/>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="CENTRAL DE REGULACAO DE SERVICOS DE SAUDE"/>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="CENTRO DE IMUNIZACAO"/>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="CENTRAL DE ABASTECIMENTO"/>
+      </concept>
+      <concept>
+        <code value="62"/>
+        <display value="HOSPITAL/DIA - ISOLADO"/>
+      </concept>
+      <concept>
+        <code value="61"/>
+        <display value="CENTRO DE PARTO NORMAL - ISOLADO"/>
+      </concept>
+      <concept>
+        <code value="83"/>
+        <display value="POLO DE PREVENCAO DE DOENCAS E AGRAVOS E PROMOCAO DA SAUDE"/>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="COOPERATIVA OU EMPRESA DE CESSAO DE TRABALHADORES NA SAUDE"/>
+      </concept>
+      <concept>
+        <code value="82"/>
+        <display value="CENTRAL DE NOTIFICACAO,CAPTACAO E DISTRIB DE ORGAOS ESTADUAL"/>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="UNIDADE DE VIGILANCIA EM SAUDE"/>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="CENTRAL DE REGULACAO DO ACESSO"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="HOSPITAL GERAL"/>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="LABORATORIO DE SAUDE PUBLICA"/>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="FARMACIA"/>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="OFICINA ORTOPEDICA"/>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA"/>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="UNIDADE DE ATENCAO EM REGIME RESIDENCIAL"/>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="UNIDADE MOVEL TERRESTRE"/>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="SERVICO DE ATENCAO DOMICILIAR ISOLADO(HOME CARE)"/>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="CENTRAL DE REGULACAO MEDICA DAS URGENCIAS"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="POLICLINICA"/>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="TELESSAUDE"/>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)"/>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="POLO ACADEMIA DA SAUDE"/>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="CLINICA/CENTRO DE ESPECIALIDADE"/>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="PRONTO ATENDIMENTO"/>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="UNIDADE MOVEL FLUVIAL"/>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="UNIDADE DE ATENCAO A SAUDE INDIGENA"/>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="CONSULTORIO ISOLADO"/>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="CENTRO DE APOIO A SAUDE DA FAMILIA"/>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="PRONTO SOCORRO ESPECIALIZADO"/>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="CENTRO DE ATENCAO PSICOSSOCIAL"/>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="PRONTO SOCORRO GERAL"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="HOSPITAL ESPECIALIZADO"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="CENTRO DE SAUDE/UNIDADE BASICA"/>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="UNIDADE MISTA"/>
+      </concept>
+      <concept>
+        <code value="68"/>
+        <display value="CENTRAL DE GESTAO EM SAUDE"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="POSTO DE SAUDE"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRDesfechoProcedimento"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRDesfechoProcedimento</b></p><a name="BRDesfechoProcedimento"> </a><a name="hcBRDesfechoProcedimento"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRDesfechoProcedimento.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRDesfechoProcedimento.html#BRDesfechoProcedimento-04">04</a></td><td>Óbito</td></tr><tr><td><a href="CodeSystem-BRDesfechoProcedimento.html#BRDesfechoProcedimento-03">03</a></td><td>Estabilidade Clínica</td></tr><tr><td><a href="CodeSystem-BRDesfechoProcedimento.html#BRDesfechoProcedimento-02">02</a></td><td>Piora Clínica</td></tr><tr><td><a href="CodeSystem-BRDesfechoProcedimento.html#BRDesfechoProcedimento-01">01</a></td><td>Melhora Clínica</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRDesfechoProcedimento"/>
+  <version value="1.1.0"/>
+  <name value="BRDesfechoProcedimento"/>
+  <title value="BR Desfecho Procedimento"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento"/>
+      <concept>
+        <code value="04"/>
+        <display value="Óbito"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Estabilidade Clínica"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Piora Clínica"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="Melhora Clínica"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

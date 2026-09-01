@@ -1,0 +1,4087 @@
+# BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BR Procedimentos Nacionais - FHIR v4.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Lista de artefatos**](artifacts.md)
+* **BR Procedimentos Nacionais**
+
+## ValueSet: BR Procedimentos Nacionais 
+
+| | |
+| :--- | :--- |
+| *URL Canônica*:https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedimentosNacionais | *Versão*:1.1.0 |
+| Active as of 2026-03-09 | *Nome computável*:BRProcedimentosNacionais |
+
+ **References** 
+
+Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local (por exemplo, especificações e/ou implementações que utilizem este conteúdo)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+No Expansion for this valueset (Unknown Code System)
+
+-------
+
+ Explanation of the columns that may appear on this page: 
+
+| | |
+| :--- | :--- |
+| Level | A few code lists that FHIR defines are hierarchical - each code is assigned a level. In this scheme, some codes are under other codes, and imply that the code they are under also applies |
+| System | The source of the definition of the code (when the value set draws in codes defined elsewhere) |
+| Code | The code (used as the code in the resource instance) |
+| Display | The display (used in the*display*element of a[Coding](http://hl7.org/fhir/R4/datatypes.html#Coding)). If there is no display, implementers should not simply display the code, but map the concept into their application |
+| Definition | An explanation of the meaning of the concept |
+| Comments | Additional notes about how to use the code |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRProcedimentosNacionais",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedimentosNacionais",
+  "version" : "1.1.0",
+  "name" : "BRProcedimentosNacionais",
+  "title" : "BR Procedimentos Nacionais",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://fhir.ans.gov.br/CodeSystem/tuss-22",
+      "concept" : [{
+        "code" : "40302067",
+        "display" : "Haptoglobina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40302059",
+        "display" : "Glicose-6-fosfato deidrogenase (G6FD) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40302040",
+        "display" : "Glicose - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40302032",
+        "display" : "Glicemia após sobrecarga com dextrosol ou glicose - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40302024",
+        "display" : "Gasometria + Hb + Ht + Na + K + Cl + Ca + glicose + lactato (quando efetuado no gasômetro) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000199",
+        "display" : "Colocação de aparelho ortodôntico removível"
+      },
+      {
+        "code" : "87000180",
+        "display" : "Sedação medicamentosa ambulatorial em pacientes com necessidades especiais em odontologia"
+      },
+      {
+        "code" : "40302016",
+        "display" : "Gasometria (pH, pCO2, SA, O2, excesso base) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000164",
+        "display" : "Sedação consciente com óxido nitroso e oxigênio em pacientes com necessidades especiais em odontologia"
+      },
+      {
+        "code" : "40301990",
+        "display" : "Gama-glutamil transferase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000148",
+        "display" : "Estabilização por meio de contenção física e/ou mecânica em pacientes com necessidades especiais em odontologia"
+      },
+      {
+        "code" : "40301982",
+        "display" : "Galactose 1-fosfatouridil transferase, pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000067",
+        "display" : "Coroa de policarbonato em dente permanente"
+      },
+      {
+        "code" : "40301974",
+        "display" : "Galactose - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000059",
+        "display" : "Coroa de aço em dente permanente"
+      },
+      {
+        "code" : "40301966",
+        "display" : "Frutose - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000040",
+        "display" : "Coroa de acetato em dente permanente"
+      },
+      {
+        "code" : "40301958",
+        "display" : "Frutosaminas (proteínas glicosiladas) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000032",
+        "display" : "Condicionamento em odontologia para pacientes com necessidades especiais"
+      },
+      {
+        "code" : "40301940",
+        "display" : "Fósforo, prova de reabsorção tubular"
+      },
+      {
+        "code" : "87000024",
+        "display" : "Atividade educativa para pais e/ou cuidadores"
+      },
+      {
+        "code" : "40301931",
+        "display" : "Fósforo - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "87000016",
+        "display" : "Atividade educativa em odontologia para pais e/ou cuidadores de pacientes com necessidades especiais"
+      },
+      {
+        "code" : "40301923",
+        "display" : "Fosfolipídios - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000616",
+        "display" : "Recolocação de mantenedor de espaço"
+      },
+      {
+        "code" : "40301915",
+        "display" : "Fosfatase alcalina termo-estável - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000608",
+        "display" : "Placa de contenção ortodôntica"
+      },
+      {
+        "code" : "40301907",
+        "display" : "Fosfatase alcalina fração óssea - Elisa - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000594",
+        "display" : "Splinter"
+      },
+      {
+        "code" : "40301893",
+        "display" : "Fosfatase alcalina com fracionamento de isoenzimas - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301885",
+        "display" : "Fosfatase alcalina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000586",
+        "display" : "Simões Network"
+      },
+      {
+        "code" : "40301877",
+        "display" : "Fosfatase ácida total - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000578",
+        "display" : "Regulador de função de Frankel"
+      },
+      {
+        "code" : "86000560",
+        "display" : "Quadrihélice"
+      },
+      {
+        "code" : "40301869",
+        "display" : "Fosfatase ácida fração prostática - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000551",
+        "display" : "Plano inclinado"
+      },
+      {
+        "code" : "40301850",
+        "display" : "Formaldeído - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000543",
+        "display" : "Plano anterior fixo"
+      },
+      {
+        "code" : "40301842",
+        "display" : "Ferro sérico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301834",
+        "display" : "Fenobarbital - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000535",
+        "display" : "Placa lábio-ativa"
+      },
+      {
+        "code" : "86000527",
+        "display" : "Placa encapsulada de Maurício"
+      },
+      {
+        "code" : "40301826",
+        "display" : "Fenitoína - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301818",
+        "display" : "Fenilalanina, pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000519",
+        "display" : "Placa dupla de Sanders"
+      },
+      {
+        "code" : "40301800",
+        "display" : "Etossuximida - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000500",
+        "display" : "Placa de verticalização de caninos"
+      },
+      {
+        "code" : "40301796",
+        "display" : "Enolase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000497",
+        "display" : "Placa de Schwarz"
+      },
+      {
+        "code" : "40301788",
+        "display" : "Eletroforese de lipoproteínas"
+      },
+      {
+        "code" : "86000489",
+        "display" : "Placa de mordida ortodôntica"
+      },
+      {
+        "code" : "40301770",
+        "display" : "Eletroforese de glicoproteínas"
+      },
+      {
+        "code" : "86000470",
+        "display" : "Placa de Hawley - com torno expansor"
+      },
+      {
+        "code" : "40301761",
+        "display" : "Eletroferese de proteínas"
+      },
+      {
+        "code" : "86000462",
+        "display" : "Placa de Hawley"
+      },
+      {
+        "code" : "40301753",
+        "display" : "Digitoxina ou digoxina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000454",
+        "display" : "Placa de distalização de molares"
+      },
+      {
+        "code" : "86000446",
+        "display" : "Pistas indiretas de Planas"
+      },
+      {
+        "code" : "40301745",
+        "display" : "Benzodiazepínicos e similares (cada) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301737",
+        "display" : "Desidrogenase láctica - isoenzimas fracionadas - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000438",
+        "display" : "Pistas diretas de Planas - superior e inferior"
+      },
+      {
+        "code" : "86000420",
+        "display" : "Obtenção de modelos gnatostáticos de Planas"
+      },
+      {
+        "code" : "40301729",
+        "display" : "Desidrogenase láctica - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000411",
+        "display" : "Monobloco"
+      },
+      {
+        "code" : "40301710",
+        "display" : "Desidrogenase isocítrica - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000403",
+        "display" : "Modelador elástico de Bimler"
+      },
+      {
+        "code" : "40301702",
+        "display" : "Desidrogenase glutâmica - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000390",
+        "display" : "Mentoneira"
+      },
+      {
+        "code" : "40301699",
+        "display" : "Desidrogenase alfa-hidroxibutírica - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000381",
+        "display" : "Máscara facial – Delaire e Tração Reversa"
+      },
+      {
+        "code" : "40301680",
+        "display" : "Curva glicêmica (4 dosagens) via oral ou endovenosa"
+      },
+      {
+        "code" : "86000373",
+        "display" : "Manutenção de aparelho ortodôntico - aparelho removível"
+      },
+      {
+        "code" : "40301672",
+        "display" : "Cromatografia de aminoácidos (perfil qualitatitivo) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301664",
+        "display" : "Creatino fosfoquinase - fração MB - atividade - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000365",
+        "display" : "Manutenção de aparelho ortodôntico - aparelho ortopédico"
+      },
+      {
+        "code" : "40301656",
+        "display" : "Creatino fosfoquinase - fração MB - massa - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000357",
+        "display" : "Manutenção de aparelho ortodôntico - aparelho fixo"
+      },
+      {
+        "code" : "40301648",
+        "display" : "Creatino fosfoquinase total (CK) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000330",
+        "display" : "Herbst encapsulado"
+      },
+      {
+        "code" : "40301630",
+        "display" : "Creatinina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000322",
+        "display" : "Grade palatina removível"
+      },
+      {
+        "code" : "40301621",
+        "display" : "Creatina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000314",
+        "display" : "Grade palatina fixa"
+      },
+      {
+        "code" : "40301613",
+        "display" : "Cotinina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000306",
+        "display" : "Gianelly"
+      },
+      {
+        "code" : "40301605",
+        "display" : "Colesterol total - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000292",
+        "display" : "Documentação eletromiográfica"
+      },
+      {
+        "code" : "40301591",
+        "display" : "Colesterol (LDL) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000284",
+        "display" : "Distalizador tipo Jones Jig"
+      },
+      {
+        "code" : "86000276",
+        "display" : "Distalizador Pendulo/Pendex"
+      },
+      {
+        "code" : "40301583",
+        "display" : "Colesterol (HDL) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "40301575",
+        "display" : "Cocaína, pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000268",
+        "display" : "Distalizador Distal Jet"
+      },
+      {
+        "code" : "40301567",
+        "display" : "Cobre - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000250",
+        "display" : "Distalizador de Hilgers"
+      },
+      {
+        "code" : "40301559",
+        "display" : "Cloro - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000241",
+        "display" : "Distalizador com mola nitinol"
+      },
+      {
+        "code" : "40301540",
+        "display" : "Clomipramina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000233",
+        "display" : "Disjuntor palatino - Macnamara"
+      },
+      {
+        "code" : "86000225",
+        "display" : "Disjuntor palatino - Hirax"
+      },
+      {
+        "code" : "40301532",
+        "display" : "Clearance osmolar"
+      },
+      {
+        "code" : "86000209",
+        "display" : "Contenção fixa por arcada, em ortodontia"
+      },
+      {
+        "code" : "40301524",
+        "display" : "Clearance de uréia"
+      },
+      {
+        "code" : "86000195",
+        "display" : "Botão de Nance"
+      },
+      {
+        "code" : "40301516",
+        "display" : "Clearance de fosfato"
+      },
+      {
+        "code" : "86000187",
+        "display" : "Blocos geminados de Clark – twinblock"
+      },
+      {
+        "code" : "40301508",
+        "display" : "Clearance de creatinina"
+      },
+      {
+        "code" : "86000179",
+        "display" : "Bionator de Balters"
+      },
+      {
+        "code" : "40301494",
+        "display" : "Clearance de ácido úrico"
+      },
+      {
+        "code" : "40301486",
+        "display" : "Ciclosporina, methotrexate - cada - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000160",
+        "display" : "Barra transpalatina removível"
+      },
+      {
+        "code" : "40301478",
+        "display" : "Ceruloplasmina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000152",
+        "display" : "Barra transpalatina fixa"
+      },
+      {
+        "code" : "40301460",
+        "display" : "Caroteno - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000144",
+        "display" : "Arco lingual"
+      },
+      {
+        "code" : "40301451",
+        "display" : "Carnitina total e frações - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000128",
+        "display" : "Aparelho removível com alças bionator invertida ou de Escheler"
+      },
+      {
+        "code" : "40301443",
+        "display" : "Carnitina livre - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000110",
+        "display" : "Aparelho ortodôntico fixo metálico parcial"
+      },
+      {
+        "code" : "40301435",
+        "display" : "Carbamazepina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000098",
+        "display" : "Aparelho ortodôntico fixo metálico"
+      },
+      {
+        "code" : "40301427",
+        "display" : "Capacidade de fixação de ferro - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000080",
+        "display" : "Aparelho ortodôntico fixo estético parcial"
+      },
+      {
+        "code" : "40301419",
+        "display" : "Cálcio iônico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000063",
+        "display" : "Aparelho ortodôntico fixo estético"
+      },
+      {
+        "code" : "40301400",
+        "display" : "Cálcio - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000055",
+        "display" : "Aparelho extra-bucal"
+      },
+      {
+        "code" : "40301397",
+        "display" : "Bilirrubinas (direta, indireta e total) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000047",
+        "display" : "Aparelho de Thurow"
+      },
+      {
+        "code" : "40301389",
+        "display" : "Beta-glicuronidase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000039",
+        "display" : "Aparelho de protração mandibular - APM"
+      },
+      {
+        "code" : "40301370",
+        "display" : "Barbitúricos, antidepressivos tricíclicos (cada) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "86000020",
+        "display" : "Aparelho de Klammt"
+      },
+      {
+        "code" : "86000012",
+        "display" : "Aletas Gomes"
+      },
+      {
+        "code" : "40301362",
+        "display" : "Apolipoproteína B (Apo B) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500224",
+        "display" : "Tratamento de perimplantite por implante"
+      },
+      {
+        "code" : "40301354",
+        "display" : "Apolipoproteína A (Apo A) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500216",
+        "display" : "Plasma rico em plaquetas (PRP)"
+      },
+      {
+        "code" : "40301346",
+        "display" : "Antibióticos, pesquisa e/ou dosagem no soro, cada"
+      },
+      {
+        "code" : "40301338",
+        "display" : "Anfetaminas, pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500208",
+        "display" : "Barra clipe"
+      },
+      {
+        "code" : "85500194",
+        "display" : "Protocolo Branemark provisório para 5 implantes"
+      },
+      {
+        "code" : "40301320",
+        "display" : "Amônia - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500186",
+        "display" : "Protocolo Branemark provisório para 4 implantes"
+      },
+      {
+        "code" : "40301311",
+        "display" : "Amitriptilina, nortriptilina (cada) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500178",
+        "display" : "Protocolo Branemark para 5 implantes"
+      },
+      {
+        "code" : "40301303",
+        "display" : "Amiodarona - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500160",
+        "display" : "Protocolo Branemark para 4 implantes"
+      },
+      {
+        "code" : "40301290",
+        "display" : "Aminoácidos, fracionamento e quantificação"
+      },
+      {
+        "code" : "85500151",
+        "display" : "Protocolo Branemark em carga imediata para 5 implantes - parte protética"
+      },
+      {
+        "code" : "40301281",
+        "display" : "Amilase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500143",
+        "display" : "Protocolo Branemark em carga imediata para 4 implantes - parte protética"
+      },
+      {
+        "code" : "40301273",
+        "display" : "Alumínio, pesquisa e/ou dosagem no soro"
+      },
+      {
+        "code" : "85500135",
+        "display" : "Prótese parcial fixa provisória em carga imediata"
+      },
+      {
+        "code" : "40301265",
+        "display" : "Alfa-2-macroglobulina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500127",
+        "display" : "Prótese parcial fixa implanto suportada"
+      },
+      {
+        "code" : "40301257",
+        "display" : "Alfa-1-glicoproteína ácida - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500119",
+        "display" : "Overdenture barra clipe ou o'ring sobre três implantes"
+      },
+      {
+        "code" : "40301249",
+        "display" : "Alfa-1-antitripsina, pesquisa e/ou dosagem no soro"
+      },
+      {
+        "code" : "85500100",
+        "display" : "Overdenture barra clipe ou o'ring sobre quatro ou mais implantes"
+      },
+      {
+        "code" : "40301230",
+        "display" : "Aldolase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500097",
+        "display" : "Overdenture barra clipe ou o'ring sobre dois implantes"
+      },
+      {
+        "code" : "40301222",
+        "display" : "Albumina - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500089",
+        "display" : "Manutenção de prótese sobre implantes"
+      },
+      {
+        "code" : "40301214",
+        "display" : "Acilcarnitinas (perfil quantitativo)"
+      },
+      {
+        "code" : "85500070",
+        "display" : "Intermediário protético (para implantes)"
+      },
+      {
+        "code" : "40301206",
+        "display" : "Acilcarnitinas (perfil qualitativo)"
+      },
+      {
+        "code" : "85500062",
+        "display" : "Guia cirúrgico para implante"
+      },
+      {
+        "code" : "40301192",
+        "display" : "Ácidos orgânicos (perfil quantitativo)"
+      },
+      {
+        "code" : "85500054",
+        "display" : "Coroa total metalo plástica sobre implante – resina acrílica"
+      },
+      {
+        "code" : "40301184",
+        "display" : "Ácidos graxos livres - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500046",
+        "display" : "Coroa total metalo plástica sobre implante – cerômero"
+      },
+      {
+        "code" : "40301176",
+        "display" : "Ácidos biliares - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500038",
+        "display" : "Coroa total metalo cerâmica sobre implante"
+      },
+      {
+        "code" : "40301168",
+        "display" : "Ácido valpróico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500020",
+        "display" : "Coroa provisória sobre implante com carga imediata"
+      },
+      {
+        "code" : "40301150",
+        "display" : "Ácido úrico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85500011",
+        "display" : "Coroa provisória sobre implante"
+      },
+      {
+        "code" : "40301141",
+        "display" : "Ácido siálico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400610",
+        "display" : "Prótese total caracterizada"
+      },
+      {
+        "code" : "40301133",
+        "display" : "Ácido pirúvico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400602",
+        "display" : "Ponto de solda"
+      },
+      {
+        "code" : "40301125",
+        "display" : "Ácido oxálico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400599",
+        "display" : "Planejamento em prótese"
+      },
+      {
+        "code" : "40301117",
+        "display" : "Ácido orótico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400580",
+        "display" : "JIG ou Front plato - órtese reposicionadora"
+      },
+      {
+        "code" : "40301109",
+        "display" : "Ácido láctico (lactato) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400572",
+        "display" : "Coroa 3/4 ou 4/5"
+      },
+      {
+        "code" : "40301095",
+        "display" : "Ácido glioxílico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400564",
+        "display" : "Prótese total imediata sobre implantes"
+      },
+      {
+        "code" : "40301087",
+        "display" : "Ácido fólico, pesquisa e/ou dosagem nos eritrócitos"
+      },
+      {
+        "code" : "85400556",
+        "display" : "Restauração metálica fundida"
+      },
+      {
+        "code" : "40301079",
+        "display" : "Ácido beta hidroxi butírico - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400548",
+        "display" : "Restauração em cerômero - inlay"
+      },
+      {
+        "code" : "40301060",
+        "display" : "Ácido ascórbico (vitamina C) - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400530",
+        "display" : "Restauração em cerômero - onlay"
+      },
+      {
+        "code" : "40301052",
+        "display" : "Acetona, pesquisa e/ou dosagem no soro"
+      },
+      {
+        "code" : "85400521",
+        "display" : "Restauração em cerâmica pura - onlay"
+      },
+      {
+        "code" : "40301044",
+        "display" : "Acetilcolinesterase, em eritrócitos - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400513",
+        "display" : "Restauração em cerâmica pura - inlay"
+      },
+      {
+        "code" : "40301036",
+        "display" : "Acetaminofen - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400505",
+        "display" : "Remoção de trabalho protético"
+      },
+      {
+        "code" : "40301028",
+        "display" : "5-nucleotidase - pesquisa e/ou dosagem"
+      },
+      {
+        "code" : "85400491",
+        "display" : "Reembasamento de prótese total ou parcial - mediato (em laboratório)"
+      },
+      {
+        "code" : "40301010",
+        "display" : "3-metil histidina, pesquisa e/ou dosagem no soro"
+      },
+      {
+        "code" : "85400483",
+        "display" : "Reembasamento de prótese total ou parcial - imediato (em consultório)"
+      },
+      {
+        "code" : "40202836",
+        "display" : "Retirada endoscópica de balão intragástrico"
+      },
+      {
+        "code" : "85400475",
+        "display" : "Reembasamento de coroa provisória"
+      },
+      {
+        "code" : "40202828",
+        "display" : "Calibração endoscópica de balão de longa permanência"
+      },
+      {
+        "code" : "85400467",
+        "display" : "Recimentação de trabalhos protéticos"
+      },
+      {
+        "code" : "40202810",
+        "display" : "Colocação endoscópica de balão intragástrico de longa permanência (9 - 12 meses)"
+      },
+      {
+        "code" : "85400459",
+        "display" : "Provisório para Restauração metálica fundida"
+      },
+      {
+        "code" : "40202801",
+        "display" : "Colocação endoscópica de balão intragástrco de curta permanência (6 meses)"
+      },
+      {
+        "code" : "85400440",
+        "display" : "Provisório para Inlay/Onlay"
+      },
+      {
+        "code" : "40202798",
+        "display" : "Ecobroncoscopia com punção aspirativa com agulha fina"
+      },
+      {
+        "code" : "85400432",
+        "display" : "Provisório para Faceta"
+      },
+      {
+        "code" : "40202780",
+        "display" : "Biópsia endoscópica por órgão"
+      },
+      {
+        "code" : "85400424",
+        "display" : "Prótese total incolor"
+      },
+      {
+        "code" : "40202771",
+        "display" : "Retirada de balão intragástrico por via endoscópica"
+      },
+      {
+        "code" : "85400416",
+        "display" : "Prótese total imediata"
+      },
+      {
+        "code" : "40202763",
+        "display" : "Laringoscopia/traqueoscopia com laser para exérese de papiloma/tumor"
+      },
+      {
+        "code" : "85400408",
+        "display" : "Prótese total"
+      },
+      {
+        "code" : "40202755",
+        "display" : "Colonoscopia com tratamento de fístula"
+      },
+      {
+        "code" : "85400394",
+        "display" : "Prótese parcial removível provisória em acrílico com ou sem grampos"
+      },
+      {
+        "code" : "40202747",
+        "display" : "Endoscopia digestiva alta com cromoscopia e biópsia e/ou citologia"
+      },
+      {
+        "code" : "85400386",
+        "display" : "Prótese parcial removível com grampos bilateral"
+      },
+      {
+        "code" : "40202739",
+        "display" : "Retossigmoidoscopia rígida com polipectomia"
+      },
+      {
+        "code" : "85400378",
+        "display" : "Prótese parcial removível com encaixes de precisão ou de semi precisão"
+      },
+      {
+        "code" : "40202720",
+        "display" : "Retossigmoidoscopia rígida com biópsia e/ou citologia"
+      },
+      {
+        "code" : "85400360",
+        "display" : "Prótese parcial fixa provisória"
+      },
+      {
+        "code" : "40202712",
+        "display" : "Colonoscopia com mucosectomia"
+      },
+      {
+        "code" : "85400351",
+        "display" : "Prótese parcial fixa In Ceran livre de metal (metal free)"
+      },
+      {
+        "code" : "40202704",
+        "display" : "Colonoscopia com estenostomia"
+      },
+      {
+        "code" : "85400343",
+        "display" : "Prótese parcial fixa em metalo plástica"
+      },
+      {
+        "code" : "40202690",
+        "display" : "Retossigmoidoscopia flexível com biópsia e/ou citologia"
+      },
+      {
+        "code" : "85400335",
+        "display" : "Prótese parcial fixa em metalo cerâmica"
+      },
+      {
+        "code" : "40202682",
+        "display" : "Retossigmoidoscopia flexível com polipectomia"
+      },
+      {
+        "code" : "85400327",
+        "display" : "Prótese parcial fixa em cerômero livre de metal (metal free)"
+      },
+      {
+        "code" : "40202674",
+        "display" : "Colonoscopia com dilatação segmentar"
+      },
+      {
+        "code" : "85400319",
+        "display" : "Prótese fixa adesiva indireta em metalo plástica"
+      },
+      {
+        "code" : "40202666",
+        "display" : "Colonoscopia com biópsia e/ou citologia"
+      },
+      {
+        "code" : "85400300",
+        "display" : "Prótese fixa adesiva indireta em metalo cerâmica"
+      },
+      {
+        "code" : "40202658",
+        "display" : "Colocação de balão intragástrico por via endoscópica para obesidade mórbida"
+      },
+      {
+        "code" : "85400297",
+        "display" : "Prótese fixa adesiva em cerômero livre de metal (metal free)"
+      },
+      {
+        "code" : "40202640",
+        "display" : "Uretrotomia endoscópica"
+      },
+      {
+        "code" : "85400289",
+        "display" : "Prótese fixa adesiva direta (provisória)"
+      },
+      {
+        "code" : "40202631",
+        "display" : "Tratamento endoscópico de hemoptise"
+      },
+      {
+        "code" : "85400270",
+        "display" : "Placa oclusal resiliente"
+      },
+      {
+        "code" : "40202623",
+        "display" : "Traqueostomia por punção percutânea"
+      },
+      {
+        "code" : "85400262",
+        "display" : "Pino pré fabricado"
+      },
+      {
+        "code" : "40202615",
+        "display" : "Endoscopia digestiva alta com biópsia e teste de urease (pesquisa Helicobacter pylori)"
+      },
+      {
+        "code" : "40202607",
+        "display" : "Tamponamento de varizes do esôfago e estômago"
+      },
+      {
+        "code" : "85400254",
+        "display" : "Órtese reposicionadora (placa oclusal reposicionadora)"
+      },
+      {
+        "code" : "85400246",
+        "display" : "Órtese miorrelaxante (placa oclusal estabilizadora)"
+      },
+      {
+        "code" : "40202593",
+        "display" : "Retirada de tumor ou papiloma por broncoscopia"
+      },
+      {
+        "code" : "85400238",
+        "display" : "Onlay de Resina Indireta"
+      },
+      {
+        "code" : "40202585",
+        "display" : "Retirada de corpo estranho no brônquio ou brônquico"
+      },
+      {
+        "code" : "40202577",
+        "display" : "Retirada de corpo estranho do esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85400220",
+        "display" : "Núcleo metálico fundido"
+      },
+      {
+        "code" : "40202569",
+        "display" : "Retirada de corpo estranho do cólon"
+      },
+      {
+        "code" : "85400211",
+        "display" : "Núcleo de preenchimento"
+      },
+      {
+        "code" : "40202550",
+        "display" : "Polipectomia do esôfago, estômago ou duodeno (independente do número de pólipos)"
+      },
+      {
+        "code" : "85400203",
+        "display" : "Guia cirúrgico para prótese total imediata"
+      },
+      {
+        "code" : "40202542",
+        "display" : "Polipectomia de cólon (independente do número de pólipos)"
+      },
+      {
+        "code" : "85400190",
+        "display" : "Faceta em cerômero"
+      },
+      {
+        "code" : "40202534",
+        "display" : "Passagem de sonda naso-enteral"
+      },
+      {
+        "code" : "85400181",
+        "display" : "Faceta em cerâmica pura"
+      },
+      {
+        "code" : "40202526",
+        "display" : "Papilotomia, dilatação e colocação de prótese ou dreno biliar ou pancreático"
+      },
+      {
+        "code" : "85400173",
+        "display" : "Coroa total metalo plástica – resina acrílica"
+      },
+      {
+        "code" : "40202518",
+        "display" : "Papilotomia endoscópica (para retirada de cálculos coledocianos ou drenagem biliar)"
+      },
+      {
+        "code" : "85400165",
+        "display" : "Coroa total metalo plástica – cerômero"
+      },
+      {
+        "code" : "40202500",
+        "display" : "Papilotomia e dilatação biliar ou pancreática"
+      },
+      {
+        "code" : "85400157",
+        "display" : "Coroa total metalo cerâmica"
+      },
+      {
+        "code" : "40202496",
+        "display" : "Papilotomia biópsia e/ou citologia biliar e pancreática"
+      },
+      {
+        "code" : "85400149",
+        "display" : "Coroa total metálica"
+      },
+      {
+        "code" : "40202488",
+        "display" : "Nasofibrolaringoscopia para dignóstico e/ou biópsia"
+      },
+      {
+        "code" : "85400130",
+        "display" : "Coroa total livre de metal (metalfree) sobre implante - cerômero"
+      },
+      {
+        "code" : "40202470",
+        "display" : "Mucosectomia"
+      },
+      {
+        "code" : "85400122",
+        "display" : "Coroa total livre de metal (metalfree) sobre implante - cerâmica"
+      },
+      {
+        "code" : "40202453",
+        "display" : "Ligadura elástica do esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85400114",
+        "display" : "Coroa total em cerômero"
+      },
+      {
+        "code" : "85400106",
+        "display" : "Coroa total em cerâmica pura"
+      },
+      {
+        "code" : "40202445",
+        "display" : "Laringoscopia/traqueoscopia para intubação oro ou nasotraqueal"
+      },
+      {
+        "code" : "40202437",
+        "display" : "Laringoscopia/traqueoscopia para diagnóstico e biópsia com aparelho flexível"
+      },
+      {
+        "code" : "85400092",
+        "display" : "Coroa total acrílica prensada"
+      },
+      {
+        "code" : "40202429",
+        "display" : "Laringoscopia/traqueoscopia para diagnóstico e biópsia (tubo rígido)"
+      },
+      {
+        "code" : "85400084",
+        "display" : "Coroa provisória sem pino"
+      },
+      {
+        "code" : "40202410",
+        "display" : "Laringoscopia/traqueoscopia com retirada de corpo estranho (tubo rígido)"
+      },
+      {
+        "code" : "85400076",
+        "display" : "Coroa provisória com pino"
+      },
+      {
+        "code" : "40202399",
+        "display" : "Laringoscopia/traqueoscopia com exérese de pólipo/nódulo/papiloma"
+      },
+      {
+        "code" : "85400068",
+        "display" : "Conserto em prótese total (exclusivamente em consultório)"
+      },
+      {
+        "code" : "40202372",
+        "display" : "Laringoscopia com retirada de corpo estranho de laringe/faringe (tubo flexível)"
+      },
+      {
+        "code" : "85400050",
+        "display" : "Conserto em prótese total (em consultório e em laboratório)"
+      },
+      {
+        "code" : "85400041",
+        "display" : "Conserto em prótese parcial removível (exclusivamente em consultório)"
+      },
+      {
+        "code" : "40202364",
+        "display" : "Laringoscopia com microscopia para exérese de pólipo/nódulo/papiloma"
+      },
+      {
+        "code" : "85400033",
+        "display" : "Conserto em prótese parcial removível (em consultório e em laboratório)"
+      },
+      {
+        "code" : "40202356",
+        "display" : "Jejunostomia endoscópica"
+      },
+      {
+        "code" : "40202348",
+        "display" : "Introdução de prótese no esôfago"
+      },
+      {
+        "code" : "85400025",
+        "display" : "Ajuste Oclusal por desgaste seletivo"
+      },
+      {
+        "code" : "40202330",
+        "display" : "Injeção de substância medicamentosa por endoscopia"
+      },
+      {
+        "code" : "85400017",
+        "display" : "Ajuste Oclusal por acréscimo"
+      },
+      {
+        "code" : "40202313",
+        "display" : "Hemostasias de cólon"
+      },
+      {
+        "code" : "85300101",
+        "display" : "Tracionamento de raiz residual"
+      },
+      {
+        "code" : "40202305",
+        "display" : "Hemostasia térmica do esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85300098",
+        "display" : "Manutenção periodontal"
+      },
+      {
+        "code" : "40202291",
+        "display" : "Hemostasia mecânica do esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85300080",
+        "display" : "Tratamento de pericoronarite"
+      },
+      {
+        "code" : "40202283",
+        "display" : "Gastrostomia endoscópica"
+      },
+      {
+        "code" : "85300071",
+        "display" : "Tratamento de gengivite necrosante aguda - GNA"
+      },
+      {
+        "code" : "40202267",
+        "display" : "Estenostomia endoscópica"
+      },
+      {
+        "code" : "85300063",
+        "display" : "Tratamento de abscesso periodontal agudo"
+      },
+      {
+        "code" : "40202259",
+        "display" : "Esclerose ou hemostasia química de varizes ou outras patologias hemorrágicas de esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85300055",
+        "display" : "Remoção dos fatores de retenção do Biofilme Dental (Placa Bacteriana)"
+      },
+      {
+        "code" : "40202240",
+        "display" : "Ecoendoscopia com punção por agulha"
+      },
+      {
+        "code" : "85300047",
+        "display" : "Raspagem supra-gengival"
+      },
+      {
+        "code" : "40202232",
+        "display" : "Ecoendoscopia com neurólise de plexo celíaco"
+      },
+      {
+        "code" : "85300039",
+        "display" : "Raspagem sub-gengival/alisamento radicular"
+      },
+      {
+        "code" : "40202224",
+        "display" : "Ecoendoscopia com cistoenterostomia"
+      },
+      {
+        "code" : "85300020",
+        "display" : "Imobilização dentária em dentes permanentes"
+      },
+      {
+        "code" : "40202216",
+        "display" : "Drenagem cavitária por laparoscopia"
+      },
+      {
+        "code" : "85300012",
+        "display" : "Dessensibilização dentária"
+      },
+      {
+        "code" : "85200182",
+        "display" : "Curetagem apical"
+      },
+      {
+        "code" : "40202208",
+        "display" : "Diverticulotomia - aparelho digestivo"
+      },
+      {
+        "code" : "85200174",
+        "display" : "Curativo endodôntico em situação de urgência"
+      },
+      {
+        "code" : "40202194",
+        "display" : "Dilatação instrumental e injeção de substância medicamentosa por endoscopia"
+      },
+      {
+        "code" : "85200166",
+        "display" : "Tratamento endodôntico unirradicular"
+      },
+      {
+        "code" : "40202186",
+        "display" : "Dilatação instrumental do esôfago, estômago ou duodeno"
+      },
+      {
+        "code" : "85200158",
+        "display" : "Tratamento endodôntico multirradicular"
+      },
+      {
+        "code" : "40202178",
+        "display" : "Dilatação de estenose laringo-traqueo-brônquica"
+      },
+      {
+        "code" : "85200140",
+        "display" : "Tratamento endodôntico birradicular"
+      },
+      {
+        "code" : "40202160",
+        "display" : "Desobstrução brônquica por broncoaspiração"
+      },
+      {
+        "code" : "40202151",
+        "display" : "Desobstrução brônquica com laser ou eletrocautério"
+      },
+      {
+        "code" : "85200131",
+        "display" : "Tratamento endodôndico de dente com rizogênese incompleta"
+      },
+      {
+        "code" : "85200123",
+        "display" : "Tratamento de perfuração endodôntica"
+      },
+      {
+        "code" : "40202143",
+        "display" : "Descompressão colônica por colonoscopia"
+      },
+      {
+        "code" : "40202135",
+        "display" : "Colonoscopia com magnificação e tatuagem"
+      },
+      {
+        "code" : "85200115",
+        "display" : "Retratamento endodôntico unirradicular"
+      },
+      {
+        "code" : "40202127",
+        "display" : "Colocação de prótese traqueal ou brônquica"
+      },
+      {
+        "code" : "85200107",
+        "display" : "Retratamento endodôntico multirradicular"
+      },
+      {
+        "code" : "40202119",
+        "display" : "Colocação de prótese coledociana por via endoscópica"
+      },
+      {
+        "code" : "85200093",
+        "display" : "Retratamento endodôntico birradicular"
+      },
+      {
+        "code" : "40202100",
+        "display" : "Colocação de cateter para braquiterapia endobrônquica"
+      },
+      {
+        "code" : "85200085",
+        "display" : "Restauração temporária / tratamento expectante"
+      },
+      {
+        "code" : "85200077",
+        "display" : "Remoção de núcleo intrarradicular"
+      },
+      {
+        "code" : "40202097",
+        "display" : "Colocação de cânula sob orientação endoscópica"
+      },
+      {
+        "code" : "85200069",
+        "display" : "Remoção de material obturador intracanal para retratamento endodôntico"
+      },
+      {
+        "code" : "40202089",
+        "display" : "Colagem de fístula por via endoscópica"
+      },
+      {
+        "code" : "40202070",
+        "display" : "Cistoenterostomia com colocação de prótese ou dreno"
+      },
+      {
+        "code" : "85200050",
+        "display" : "Remoção de corpo estranho intracanal"
+      },
+      {
+        "code" : "40202062",
+        "display" : "Cecostomia"
+      },
+      {
+        "code" : "85200042",
+        "display" : "Pulpotomia"
+      },
+      {
+        "code" : "85200034",
+        "display" : "Pulpectomia"
+      },
+      {
+        "code" : "40202054",
+        "display" : "Broncoscopia com biópsia transbrônquica com acompanhamento radioscópico"
+      },
+      {
+        "code" : "85200026",
+        "display" : "Preparo para núcleo intrarradicular"
+      },
+      {
+        "code" : "40202046",
+        "display" : "Biópsias por laparoscopia"
+      },
+      {
+        "code" : "85200018",
+        "display" : "Clareamento de dente desvitalizado"
+      },
+      {
+        "code" : "40202038",
+        "display" : "Endoscopia digestiva alta com biópsia e/ou citologia"
+      },
+      {
+        "code" : "85100269",
+        "display" : "Dessensibilização dentinária"
+      },
+      {
+        "code" : "40202011",
+        "display" : "Aritenoidectomia microcirúrgica endoscópica"
+      },
+      {
+        "code" : "85100250",
+        "display" : "Aplicação de laser terapêutico"
+      },
+      {
+        "code" : "40201406",
+        "display" : "Aplicação de plasma de argônio por sigmoidoscopia"
+      },
+      {
+        "code" : "85100242",
+        "display" : "Adequação do meio bucal"
+      },
+      {
+        "code" : "40201392",
+        "display" : "Aplicação de plasma de argônio por colonoscopia"
+      },
+      {
+        "code" : "85100234",
+        "display" : "Tratamento de fluorose - microabrasão"
+      },
+      {
+        "code" : "40201384",
+        "display" : "Aplicação de plasma de argônio por broncoscopia"
+      },
+      {
+        "code" : "85100226",
+        "display" : "Restauração em resina fotopolimerizável 4 faces"
+      },
+      {
+        "code" : "40201376",
+        "display" : "Aplicação de plasma de argônio por endoscopia digestiva alta"
+      },
+      {
+        "code" : "85100218",
+        "display" : "Restauração em resina fotopolimerizável 3 faces"
+      },
+      {
+        "code" : "40201368",
+        "display" : "Broncoscopia com cromoscopia"
+      },
+      {
+        "code" : "85100200",
+        "display" : "Restauração em resina fotopolimerizável 2 faces"
+      },
+      {
+        "code" : "40201350",
+        "display" : "Colonoscopia com cromoscopia"
+      },
+      {
+        "code" : "85100196",
+        "display" : "Restauração em resina fotopolimerizável 1 face"
+      },
+      {
+        "code" : "40201341",
+        "display" : "Enteroscopia do intestino delgado com cápsula endoscópica"
+      },
+      {
+        "code" : "85100170",
+        "display" : "Restauração em resina (indireta) - Inlay"
+      },
+      {
+        "code" : "40201333",
+        "display" : "Endoscopia digestiva alta com cromoscopia"
+      },
+      {
+        "code" : "40201325",
+        "display" : "Videoquimografia laríngea"
+      },
+      {
+        "code" : "85100161",
+        "display" : "Restauração em ionômero de vidro - 4 faces"
+      },
+      {
+        "code" : "85100153",
+        "display" : "Restauração em ionômero de vidro - 3 faces"
+      },
+      {
+        "code" : "40201317",
+        "display" : "Medida de pressão de varizes de esôfago endoscópica"
+      },
+      {
+        "code" : "85100145",
+        "display" : "Restauração em ionômero de vidro - 2 faces"
+      },
+      {
+        "code" : "40201309",
+        "display" : "Avaliação endoscópica da deglutição (FEES)"
+      },
+      {
+        "code" : "85100137",
+        "display" : "Restauração em ionômero de vidro - 1 face"
+      },
+      {
+        "code" : "40201287",
+        "display" : "Ureteroscopia rígida unilateral"
+      },
+      {
+        "code" : "85100129",
+        "display" : "Restauração de amálgama - 4 faces"
+      },
+      {
+        "code" : "40201279",
+        "display" : "Ureteroscopia flexível unilateral"
+      },
+      {
+        "code" : "85100110",
+        "display" : "Restauração de amálgama - 3 faces"
+      },
+      {
+        "code" : "40201260",
+        "display" : "Vídeo-faringo-laringoscopia com endoscópio rígido"
+      },
+      {
+        "code" : "85100102",
+        "display" : "Restauração de amálgama - 2 faces"
+      },
+      {
+        "code" : "40201252",
+        "display" : "Vídeo-faringo-laringoscopia com endoscópio flexível"
+      },
+      {
+        "code" : "40201244",
+        "display" : "Vídeo-laringo-estroboscopia com endoscópio rígido"
+      },
+      {
+        "code" : "85100099",
+        "display" : "Restauração de amálgama - 1 face"
+      },
+      {
+        "code" : "40201236",
+        "display" : "Vídeo-laringo-estroboscopia com endoscópio flexível"
+      },
+      {
+        "code" : "85100080",
+        "display" : "Restauração atraumática em dente permanente"
+      },
+      {
+        "code" : "40201228",
+        "display" : "Vídeo-endoscopia naso-sinusal com ótica rígida"
+      },
+      {
+        "code" : "85100072",
+        "display" : "Placa de Acetato para Clareamento Caseiro"
+      },
+      {
+        "code" : "40201210",
+        "display" : "Vídeo-endoscopia naso-sinusal com ótica flexível"
+      },
+      {
+        "code" : "85100064",
+        "display" : "Faceta direta em resina fotopolimerizável"
+      },
+      {
+        "code" : "40201201",
+        "display" : "Vídeo-endoscopia do esfíncter velo-palatino com ótica rígida"
+      },
+      {
+        "code" : "85100056",
+        "display" : "Curativo de demora em endodontia"
+      },
+      {
+        "code" : "40201198",
+        "display" : "Vídeo-endoscopia do esfíncter velo-palatino com ótica flexível"
+      },
+      {
+        "code" : "85100048",
+        "display" : "Colagem de fragmentos dentários"
+      },
+      {
+        "code" : "40201180",
+        "display" : "Retossigmoidoscopia rígida"
+      },
+      {
+        "code" : "85100030",
+        "display" : "Clareamento dentário de consultório"
+      },
+      {
+        "code" : "40201171",
+        "display" : "Retossigmoidoscopia flexível"
+      },
+      {
+        "code" : "85100021",
+        "display" : "Clareamento dentário caseiro"
+      },
+      {
+        "code" : "40201163",
+        "display" : "Laparoscopia"
+      },
+      {
+        "code" : "85100013",
+        "display" : "Capeamento pulpar direto"
+      },
+      {
+        "code" : "40201155",
+        "display" : "Histeroscopia diagnóstica com biópsia"
+      },
+      {
+        "code" : "85000787",
+        "display" : "Imobilização dentária em dentes decíduos"
+      },
+      {
+        "code" : "40201147",
+        "display" : "Enteroscopia (push enteroscopia)"
+      },
+      {
+        "code" : "84000252",
+        "display" : "Teste de PH salivar"
+      },
+      {
+        "code" : "40201139",
+        "display" : "Endoscopia digestiva alta com magnificação"
+      },
+      {
+        "code" : "84000236",
+        "display" : "Teste de contagem microbiológica"
+      },
+      {
+        "code" : "40201120",
+        "display" : "Endoscopia digestiva alta"
+      },
+      {
+        "code" : "84000228",
+        "display" : "Teste de capacidade tampão da saliva"
+      },
+      {
+        "code" : "40201112",
+        "display" : "Ecoendoscopia baixa"
+      },
+      {
+        "code" : "84000201",
+        "display" : "Remineralização"
+      },
+      {
+        "code" : "40201104",
+        "display" : "Ecoendoscopia alta"
+      },
+      {
+        "code" : "84000198",
+        "display" : "Profilaxia: polimento coronário"
+      },
+      {
+        "code" : "40201090",
+        "display" : "Colonoscopia com magnificação"
+      },
+      {
+        "code" : "84000171",
+        "display" : "Controle de cárie incipiente"
+      },
+      {
+        "code" : "40201082",
+        "display" : "Colonoscopia (inclui a retossigmoidoscopia)"
+      },
+      {
+        "code" : "84000163",
+        "display" : "Controle de biofilme (placa bacteriana)"
+      },
+      {
+        "code" : "40201074",
+        "display" : "Colangiopancreatografia retrógrada endoscópica"
+      },
+      {
+        "code" : "84000139",
+        "display" : "Atividade educativa em saúde bucal"
+      },
+      {
+        "code" : "40201066",
+        "display" : "Cistoscopia e/ou uretroscopia"
+      },
+      {
+        "code" : "84000112",
+        "display" : "Aplicação tópica de verniz fluoretado"
+      },
+      {
+        "code" : "40201058",
+        "display" : "Broncoscopia com ou sem aspirado ou lavado brônquico bilateral"
+      },
+      {
+        "code" : "84000090",
+        "display" : "Aplicação tópica de flúor"
+      },
+      {
+        "code" : "40201031",
+        "display" : "Broncoscopia com biópsia transbrônquica"
+      },
+      {
+        "code" : "84000074",
+        "display" : "Aplicação de selante de fóssulas e fissuras"
+      },
+      {
+        "code" : "40201023",
+        "display" : "Anuscopia (interna e externa)"
+      },
+      {
+        "code" : "84000058",
+        "display" : "Aplicação de selante - técnica invasiva"
+      },
+      {
+        "code" : "40201015",
+        "display" : "Amnioscopia"
+      },
+      {
+        "code" : "84000031",
+        "display" : "Aplicação de cariostático"
+      },
+      {
+        "code" : "40105148",
+        "display" : "Espirometria"
+      },
+      {
+        "code" : "84000015",
+        "display" : "Aparelho protetor bucal"
+      },
+      {
+        "code" : "40105130",
+        "display" : "Regulação ventilatória - 3) resposta a hipoxia e hipercapnia"
+      },
+      {
+        "code" : "83000151",
+        "display" : "Tratamento endodôntico em dente decíduo"
+      },
+      {
+        "code" : "40105121",
+        "display" : "Regulação ventilatória - 2) determinação da pressão de oclusão"
+      },
+      {
+        "code" : "83000135",
+        "display" : "Restauração atraumática em dente decíduo"
+      },
+      {
+        "code" : "40105113",
+        "display" : "Regulação ventilatória - 1) medida de ventilação e do padrão ventilatório"
+      },
+      {
+        "code" : "83000127",
+        "display" : "Pulpotomia em dente decíduo"
+      },
+      {
+        "code" : "40105105",
+        "display" : "Espirografia Simples - capacidade vital lenta"
+      },
+      {
+        "code" : "83000100",
+        "display" : "Mantenedor de espaço removível"
+      },
+      {
+        "code" : "40105091",
+        "display" : "Resistência das vias aéreas por pletismografia"
+      },
+      {
+        "code" : "83000097",
+        "display" : "Mantenedor de espaço fixo"
+      },
+      {
+        "code" : "40105083",
+        "display" : "Resistência das vias aéreas por oscilometria"
+      },
+      {
+        "code" : "83000089",
+        "display" : "Exodontia simples de decíduo"
+      },
+      {
+        "code" : "40105075",
+        "display" : "Prova de função pulmonar completa (ou espirometria)"
+      },
+      {
+        "code" : "83000062",
+        "display" : "Coroa de policarbonato em dente decíduo"
+      },
+      {
+        "code" : "40105067",
+        "display" : "Medida seriada por 3 semanas do pico de fluxo expiratório"
+      },
+      {
+        "code" : "83000046",
+        "display" : "Coroa de aço em dente decíduo"
+      },
+      {
+        "code" : "40105059",
+        "display" : "Medida de pico de fluxo expiratório"
+      },
+      {
+        "code" : "83000020",
+        "display" : "Coroa de acetato em dente decíduo"
+      },
+      {
+        "code" : "40105040",
+        "display" : "Medida da difusão do monóxido de carbono"
+      },
+      {
+        "code" : "82001766",
+        "display" : "Placa de contenção cirúrgica"
+      },
+      {
+        "code" : "40105032",
+        "display" : "Determinação dos volumes pulmonares por pletismografia"
+      },
+      {
+        "code" : "82001758",
+        "display" : "Marsupialização de cistos odontológicos"
+      },
+      {
+        "code" : "40105024",
+        "display" : "Determinação dos volumes pulmonares por diluição de gases"
+      },
+      {
+        "code" : "82001740",
+        "display" : "Exodontia de incluso/impactado supra numerário"
+      },
+      {
+        "code" : "40105016",
+        "display" : "Determinação das pressões respiratórias máximas"
+      },
+      {
+        "code" : "82001731",
+        "display" : "Exodontia de semi-incluso/impactado supra numerário"
+      },
+      {
+        "code" : "40104125",
+        "display" : "Sistema tridimensional de avaliação do movimento que inclui vídeo acoplado à plataforma da força e eletromiografia"
+      },
+      {
+        "code" : "82001723",
+        "display" : "Aplicação de laser pós cirúrgico"
+      },
+      {
+        "code" : "40104044",
+        "display" : "Ergotonometria músculo-esquelético (tetra, paraparesia e hemiparesia)"
+      },
+      {
+        "code" : "82001715",
+        "display" : "Ulotomia"
+      },
+      {
+        "code" : "40104036",
+        "display" : "Curva I/T - medida de latência de nervo periférico"
+      },
+      {
+        "code" : "82001707",
+        "display" : "Ulectomia"
+      },
+      {
+        "code" : "40104028",
+        "display" : "Cronaximetria"
+      },
+      {
+        "code" : "82001685",
+        "display" : "Tunelização"
+      },
+      {
+        "code" : "40104010",
+        "display" : "Avaliação muscular por dinamometria computadorizada (isocinética) - por articulação"
+      },
+      {
+        "code" : "82001669",
+        "display" : "Tratamento odontológico regenerativo com enxerto de osso autógeno"
+      },
+      {
+        "code" : "40103927",
+        "display" : "Teste de impulso cefálico ou vHIT (Vídeo Head Impulse Teste (Vídeo HT))"
+      },
+      {
+        "code" : "82001650",
+        "display" : "Tratamento de alveolite"
+      },
+      {
+        "code" : "40103919",
+        "display" : "Vídeoeletroencefalograma contínua invasiva para avaliação de tratamento cirúrgico de epilepsia - a cada 12 horas"
+      },
+      {
+        "code" : "82001642",
+        "display" : "Tratamento conservador de luxação da articulação têmporo-mandibular - ATM"
+      },
+      {
+        "code" : "40103897",
+        "display" : "Processamento auditivo central (a partir dos 7 anos e adulto)"
+      },
+      {
+        "code" : "82001634",
+        "display" : "Tratamento Cirúrgico para tumores odontogênicos benignos – sem reconstrução"
+      },
+      {
+        "code" : "40103889",
+        "display" : "Processamento auditivo central infantil (de 3 a 7 anos)"
+      },
+      {
+        "code" : "82001618",
+        "display" : "Tratamento cirúrgico dos tumores benignos de tecidos moles na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103870",
+        "display" : "Potencial evocado do nervo trigêmeo"
+      },
+      {
+        "code" : "82001596",
+        "display" : "Tratamento cirúrgico de tumores benignos de tecidos ósseos/cartilaginosos na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103862",
+        "display" : "Eletroencefalograma com eletrodos especiais"
+      },
+      {
+        "code" : "82001588",
+        "display" : "Tratamento cirúrgico de hiperplasias de tecidos ósseos/cartilaginosos na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103854",
+        "display" : "Teste de Fowler"
+      },
+      {
+        "code" : "82001553",
+        "display" : "Tratamento cirúrgico de hiperplasias de tecidos moles na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103846",
+        "display" : "Prova de Stenger"
+      },
+      {
+        "code" : "82001545",
+        "display" : "Tratamento cirúrgico de bridas constritivas da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103838",
+        "display" : "Prova de Doerfler-Stewart"
+      },
+      {
+        "code" : "82001529",
+        "display" : "Tratamento cirúrgico das fístulas buco sinusal"
+      },
+      {
+        "code" : "40103820",
+        "display" : "Pesquisa do nistagmo optocinético"
+      },
+      {
+        "code" : "82001510",
+        "display" : "Tratamento cirúrgico das fístulas buco nasal"
+      },
+      {
+        "code" : "40103811",
+        "display" : "Eletrodiagnóstico"
+      },
+      {
+        "code" : "82001502",
+        "display" : "Tracionamento cirúrgico com finalidade ortodôntica"
+      },
+      {
+        "code" : "40103803",
+        "display" : "Avaliação da função auditiva central"
+      },
+      {
+        "code" : "82001499",
+        "display" : "Sutura de ferida em região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103790",
+        "display" : "Audiometrias de altas frequências"
+      },
+      {
+        "code" : "82001464",
+        "display" : "Sepultamento radicular"
+      },
+      {
+        "code" : "40103781",
+        "display" : "Audiometria ocupacional ou de seleção"
+      },
+      {
+        "code" : "82001456",
+        "display" : "Sedação medicamentosa ambulatorial em odontologia"
+      },
+      {
+        "code" : "40103765",
+        "display" : "Videonistagmografia infravermelha"
+      },
+      {
+        "code" : "82001448",
+        "display" : "Sedação consciente com óxido nitroso e oxigênio em odontologia"
+      },
+      {
+        "code" : "40103757",
+        "display" : "Vídeo-EEG contínua não invasiva - a cada 12 horas"
+      },
+      {
+        "code" : "82001430",
+        "display" : "Retirada dos meios de fixação da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103749",
+        "display" : "Vectoeletronistagmografia - computadorizada"
+      },
+      {
+        "code" : "82001413",
+        "display" : "Retirada de corpo estranho subcutâneo ou submucoso da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103730",
+        "display" : "Teste de latências múltiplas de sono (TLMS) diurno pós PSG"
+      },
+      {
+        "code" : "82001391",
+        "display" : "Retirada de corpo estranho oroantral ou oronasal da região buco-maxilo-facial"
+      },
+      {
+        "code" : "82001375",
+        "display" : "Remoção de tamponamento nasal"
+      },
+      {
+        "code" : "40103722",
+        "display" : "Teste de fístula perilinfática com eletronistagmografia"
+      },
+      {
+        "code" : "82001367",
+        "display" : "Remoção de odontoma"
+      },
+      {
+        "code" : "40103714",
+        "display" : "Teste de estimulação repetitiva (um ou mais músculos)"
+      },
+      {
+        "code" : "82001332",
+        "display" : "Remoção de implante dentário ósseo integrado no seio maxilar"
+      },
+      {
+        "code" : "40103684",
+        "display" : "Reflexo cutâneo-simpático"
+      },
+      {
+        "code" : "82001324",
+        "display" : "Remoção de implante dentário não ósseo integrado"
+      },
+      {
+        "code" : "40103676",
+        "display" : "Rinometria acústica"
+      },
+      {
+        "code" : "82001316",
+        "display" : "Remoção de dreno intra-oral"
+      },
+      {
+        "code" : "40103668",
+        "display" : "Rinomanometria computadorizada"
+      },
+      {
+        "code" : "40103650",
+        "display" : "Registro do nistagmo pendular e optocinético"
+      },
+      {
+        "code" : "82001308",
+        "display" : "Remoção de dreno extra-oral"
+      },
+      {
+        "code" : "82001294",
+        "display" : "Remoção de dentes semi-inclusos / impactados"
+      },
+      {
+        "code" : "40103641",
+        "display" : "Provas de função tubária"
+      },
+      {
+        "code" : "40103633",
+        "display" : "Potencial evocado visual (PEV)"
+      },
+      {
+        "code" : "82001286",
+        "display" : "Remoção de dentes inclusos / impactados"
+      },
+      {
+        "code" : "40103625",
+        "display" : "Potencial evocado somato-sensitivo - membros superiores (PESS)"
+      },
+      {
+        "code" : "82001251",
+        "display" : "Reimplante dentário com contenção"
+      },
+      {
+        "code" : "40103617",
+        "display" : "Potencial evocado somato-sensitivo - membros inferiores (PESS)"
+      },
+      {
+        "code" : "82001243",
+        "display" : "Regeneração tecidual guiada – RTG"
+      },
+      {
+        "code" : "40103609",
+        "display" : "Potencial evocado motor - PEM (bilateral)"
+      },
+      {
+        "code" : "82001235",
+        "display" : "Reeducação e/ou reabilitação de sequela em traumatismo buco-maxilo-facial"
+      },
+      {
+        "code" : "40103595",
+        "display" : "Potencial evocado gênito-cortical (PEGC)"
+      },
+      {
+        "code" : "82001219",
+        "display" : "Reeducação e/ou reabilitação de distúrbio buco-maxilo-facial"
+      },
+      {
+        "code" : "40103587",
+        "display" : "Potencial somato-sensitivo para localização funcional da área central (monitorização por hora) até 3 horas"
+      },
+      {
+        "code" : "82001197",
+        "display" : "Redução simples de luxação de Articulação Têmporo-mandibular (ATM)"
+      },
+      {
+        "code" : "40103579",
+        "display" : "Potencial evocado auditivo de média latência (PEA-ML) bilateral"
+      },
+      {
+        "code" : "82001189",
+        "display" : "Redução incruenta de fratura alvéolo dentária"
+      },
+      {
+        "code" : "82001170",
+        "display" : "Redução cruenta de fratura alvéolo dentária"
+      },
+      {
+        "code" : "40103560",
+        "display" : "Potencial evocado - P300"
+      },
+      {
+        "code" : "40103552",
+        "display" : "Posturografia"
+      },
+      {
+        "code" : "82001138",
+        "display" : "Reabertura - colocação de cicatrizador"
+      },
+      {
+        "code" : "40103544",
+        "display" : "Polissonograma com teste de CPAP/BIPAP nasal"
+      },
+      {
+        "code" : "82001120",
+        "display" : "Punção aspirativa orientada por imagem na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103536",
+        "display" : "Polissonograma com EEG de noite inteira"
+      },
+      {
+        "code" : "82001103",
+        "display" : "Punção aspirativa na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103528",
+        "display" : "Polissonografia de noite inteira (PSG) (inclui polissonogramas)"
+      },
+      {
+        "code" : "82001073",
+        "display" : "Odonto-secção"
+      },
+      {
+        "code" : "40103510",
+        "display" : "Poligrafia de recém-nascido (maior ou igual 2 horas) (PG/RN)"
+      },
+      {
+        "code" : "82001065",
+        "display" : "Levantamento do seio maxilar com osso liofilizado"
+      },
+      {
+        "code" : "40103501",
+        "display" : "Pesquisa do fenômeno de Tullio"
+      },
+      {
+        "code" : "82001057",
+        "display" : "Levantamento do seio maxilar com osso homólogo"
+      },
+      {
+        "code" : "40103498",
+        "display" : "Potencial evocado auditivo de tronco cerebral (PEA-TC)"
+      },
+      {
+        "code" : "82001049",
+        "display" : "Levantamento do seio maxilar com osso autógeno"
+      },
+      {
+        "code" : "40103480",
+        "display" : "Pesquisa de pares cranianos relacionados com o VIII PAR"
+      },
+      {
+        "code" : "82001030",
+        "display" : "Incisão e Drenagem intra-oral de abscesso, hematoma e/ou flegmão da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103471",
+        "display" : "Perimetria com scanning laser ophthalmoscope - monocular"
+      },
+      {
+        "code" : "82001022",
+        "display" : "Incisão e Drenagem extra-oral de abscesso, hematoma e/ou flegmão da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103463",
+        "display" : "Otoemissões evocadas transientes"
+      },
+      {
+        "code" : "82001006",
+        "display" : "Implante Zigomático"
+      },
+      {
+        "code" : "40103455",
+        "display" : "Otoemissões acústicas produto de distorção"
+      },
+      {
+        "code" : "82000980",
+        "display" : "Implante ósseo integrado"
+      },
+      {
+        "code" : "82000964",
+        "display" : "Implante ortodôntico"
+      },
+      {
+        "code" : "40103447",
+        "display" : "Método de Proetz (por sessão)"
+      },
+      {
+        "code" : "40103439",
+        "display" : "Impedanciometria - timpanometria"
+      },
+      {
+        "code" : "82000948",
+        "display" : "Gengivoplastia"
+      },
+      {
+        "code" : "40103420",
+        "display" : "Imitanciometria de alta frequência"
+      },
+      {
+        "code" : "82000921",
+        "display" : "Gengivectomia"
+      },
+      {
+        "code" : "40103412",
+        "display" : "Gustometria"
+      },
+      {
+        "code" : "82000913",
+        "display" : "Frenulotomia lingual"
+      },
+      {
+        "code" : "40103404",
+        "display" : "Espectrografia vocal"
+      },
+      {
+        "code" : "82000905",
+        "display" : "Frenulotomia labial"
+      },
+      {
+        "code" : "40103390",
+        "display" : "EMG quantitativa ou EMG de fibra única"
+      },
+      {
+        "code" : "82000891",
+        "display" : "Frenulectomia lingual"
+      },
+      {
+        "code" : "40103382",
+        "display" : "EMG para monitoração de quimodenervação (por sessão)"
+      },
+      {
+        "code" : "82000883",
+        "display" : "Frenulectomia labial"
+      },
+      {
+        "code" : "40103374",
+        "display" : "EMG com registro de movimento involuntário (teste dinâmico de escrita; estudo funcional de tremores)"
+      },
+      {
+        "code" : "82000875",
+        "display" : "Exodontia simples de permanente"
+      },
+      {
+        "code" : "40103366",
+        "display" : "Eletroneuromiografia genitoperineal"
+      },
+      {
+        "code" : "82000859",
+        "display" : "Exodontia de raiz residual"
+      },
+      {
+        "code" : "40103358",
+        "display" : "Eletroneuromiografia de segmento especial"
+      },
+      {
+        "code" : "82000832",
+        "display" : "Exodontia de permanente por indicação ortodôntica/protética"
+      },
+      {
+        "code" : "40103340",
+        "display" : "Eletroneuromiografia de segmento complementar"
+      },
+      {
+        "code" : "82000816",
+        "display" : "Exodontia a retalho"
+      },
+      {
+        "code" : "40103331",
+        "display" : "Eletroneuromiografia de MMSS e MMII"
+      },
+      {
+        "code" : "82000808",
+        "display" : "Exérese ou excisão de rânula"
+      },
+      {
+        "code" : "40103323",
+        "display" : "Eletroneuromiografia de MMSS"
+      },
+      {
+        "code" : "82000794",
+        "display" : "Exérese ou excisão de mucocele"
+      },
+      {
+        "code" : "40103315",
+        "display" : "Eletroneuromiografia de MMII"
+      },
+      {
+        "code" : "82000786",
+        "display" : "Exérese ou excisão de cistos odontológicos"
+      },
+      {
+        "code" : "40103307",
+        "display" : "Eletroneuromiografia (velocidade de condução) testes de estímulos para paralisia facial"
+      },
+      {
+        "code" : "82000778",
+        "display" : "Exérese ou excisão de cálculo salivar"
+      },
+      {
+        "code" : "40103285",
+        "display" : "Eletroglotografia"
+      },
+      {
+        "code" : "82000743",
+        "display" : "Exérese de lipoma na região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103277",
+        "display" : "Eletrocorticografia intra-operatória (ECOG) - por hora de monitorização"
+      },
+      {
+        "code" : "82000700",
+        "display" : "Estabilização de paciente por meio de contenção física e/ou mecânica"
+      },
+      {
+        "code" : "40103269",
+        "display" : "Eletrococleografia (Ecochg)"
+      },
+      {
+        "code" : "82000689",
+        "display" : "Enxerto pediculado"
+      },
+      {
+        "code" : "40103250",
+        "display" : "Eletro-retinografia - monocular"
+      },
+      {
+        "code" : "82000662",
+        "display" : "Enxerto gengival livre"
+      },
+      {
+        "code" : "40103242",
+        "display" : "Eletro-oculografia - monocular"
+      },
+      {
+        "code" : "82000646",
+        "display" : "Enxerto conjuntivo subepitelial"
+      },
+      {
+        "code" : "40103234",
+        "display" : "Eletrencefalograma em vigília, e sono espontâneo ou induzido"
+      },
+      {
+        "code" : "82000620",
+        "display" : "Enxerto com osso liofilizado"
+      },
+      {
+        "code" : "40103200",
+        "display" : "Eletrencefalograma especial: terapia intensiva, morte encefálica, EEG prolongado (até 2 horas)"
+      },
+      {
+        "code" : "82000603",
+        "display" : "Enxerto com osso autógeno do mento"
+      },
+      {
+        "code" : "82000581",
+        "display" : "Enxerto com osso autógeno da linha oblíqua"
+      },
+      {
+        "code" : "40103196",
+        "display" : "EEGQ quantitativo (mapeamento cerebral)"
+      },
+      {
+        "code" : "82000557",
+        "display" : "Cunha proximal"
+      },
+      {
+        "code" : "40103188",
+        "display" : "EEG intra-operatório para monitorização cirúrgica (EEG/IO) - por hora de monitorização"
+      },
+      {
+        "code" : "82000549",
+        "display" : "Crioterapia ou termoterapia em odontologia"
+      },
+      {
+        "code" : "40103170",
+        "display" : "EEG de rotina"
+      },
+      {
+        "code" : "82000522",
+        "display" : "Criocirurgia de neoplasias da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103161",
+        "display" : "Decay do reflexo estapédico"
+      },
+      {
+        "code" : "82000506",
+        "display" : "Controle pós-operatório em odontologia"
+      },
+      {
+        "code" : "40103153",
+        "display" : "Craniocorporografia"
+      },
+      {
+        "code" : "82000484",
+        "display" : "Controle de hemorragia sem aplicação de agente hemostático em região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103145",
+        "display" : "Variação de contingente negativo (PE/Tardio)"
+      },
+      {
+        "code" : "82000468",
+        "display" : "Controle de hemorragia com aplicação de agente hemostático em região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103137",
+        "display" : "Campimetria computadorizada - monocular"
+      },
+      {
+        "code" : "40103110",
+        "display" : "Audiometria vocal com mensagem competitiva (SSI, SSW)"
+      },
+      {
+        "code" : "82000441",
+        "display" : "Coleta de raspado em lesões ou sítios específicos da região buco-maxilo-facial"
+      },
+      {
+        "code" : "40103102",
+        "display" : "Audiometria vocal - pesquisa de limiar de inteligibilidade"
+      },
+      {
+        "code" : "82000417",
+        "display" : "Cirurgia periodontal a retalho"
+      },
+      {
+        "code" : "40103099",
+        "display" : "Audiometria vocal - pesquisa de limiar de discriminação"
+      },
+      {
+        "code" : "82000395",
+        "display" : "Cirurgia para torus palatino"
+      },
+      {
+        "code" : "40103080",
+        "display" : "Audiometria tonal limiar infantil condicionada (qualquer técnica) - Peep-show"
+      },
+      {
+        "code" : "82000387",
+        "display" : "Cirurgia para torus mandibular – unilateral"
+      },
+      {
+        "code" : "40103072",
+        "display" : "Audiometria tonal limiar com testes de discriminação"
+      },
+      {
+        "code" : "82000360",
+        "display" : "Cirurgia para torus mandibular – bilateral"
+      },
+      {
+        "code" : "40103064",
+        "display" : "Audiometria de tronco cerebral (PEA) BERA"
+      },
+      {
+        "code" : "82000352",
+        "display" : "Cirurgia para exostose maxilar"
+      },
+      {
+        "code" : "40103056",
+        "display" : "Potencial evocado auditivo Steady State (ASSR)"
+      },
+      {
+        "code" : "82000344",
+        "display" : "Cirurgia odontológica com aplicação de aloenxertos"
+      },
+      {
+        "code" : "40103048",
+        "display" : "Audiometria (tipo Von Bekesy)"
+      },
+      {
+        "code" : "82000336",
+        "display" : "Cirurgia odontológica a retalho"
+      },
+      {
+        "code" : "40103030",
+        "display" : "Análise computadorizada do segmento anterior - monocular"
+      },
+      {
+        "code" : "82000301",
+        "display" : "Bridotomia"
+      },
+      {
+        "code" : "40103021",
+        "display" : "Análise computadorizada de papila e/ou fibras nervosas - monocular (GDX)"
+      },
+      {
+        "code" : "82000298",
+        "display" : "Bridectomia"
+      },
+      {
+        "code" : "40103013",
+        "display" : "Análise computadorizada da voz"
+      },
+      {
+        "code" : "82000280",
+        "display" : "Biópsia de maxila"
+      },
+      {
+        "code" : "40102149",
+        "display" : "Manometria Biliar"
+      },
+      {
+        "code" : "82000212",
+        "display" : "Aumento de coroa clínica"
+      },
+      {
+        "code" : "40102130",
+        "display" : "pH-metria esofágica de 24 horas com quatro canais"
+      },
+      {
+        "code" : "82000190",
+        "display" : "Aprofundamento/aumento de vestíbulo"
+      },
+      {
+        "code" : "40102122",
+        "display" : "pH-metria gástrica de 24 horas com quatro canais"
+      },
+      {
+        "code" : "82000182",
+        "display" : "Apicetomia unirradiculares sem obturação retrógrada"
+      },
+      {
+        "code" : "40102114",
+        "display" : "Impedâncio pH-metria esofágica"
+      },
+      {
+        "code" : "82000174",
+        "display" : "Apicetomia unirradiculares com obturação retrógrada"
+      },
+      {
+        "code" : "82000166",
+        "display" : "Apicetomia multirradiculares sem obturação retrógrada"
+      },
+      {
+        "code" : "40102106",
+        "display" : "pH-metria esofágica computadorizada com três canais"
+      },
+      {
+        "code" : "82000158",
+        "display" : "Apicetomia multirradiculares com obturação retrógrada"
+      },
+      {
+        "code" : "40102092",
+        "display" : "pH-metria esofágica computadorizada com dois canais"
+      },
+      {
+        "code" : "82000085",
+        "display" : "Apicetomia birradiculares sem obturação retrógrada"
+      },
+      {
+        "code" : "40102084",
+        "display" : "pH-metria esofágica computadorizada com um canal"
+      },
+      {
+        "code" : "82000077",
+        "display" : "Apicetomia birradiculares com obturação retrógrada"
+      },
+      {
+        "code" : "40102076",
+        "display" : "Manometria esofágica para localização dos esfíncteres pré-pH-metria"
+      },
+      {
+        "code" : "82000069",
+        "display" : "Amputação radicular sem obturação retrógrada"
+      },
+      {
+        "code" : "40102068",
+        "display" : "Manometria esofágica computadorizada sem teste provocativo"
+      },
+      {
+        "code" : "82000050",
+        "display" : "Amputação radicular com obturação retrógrada"
+      },
+      {
+        "code" : "40102050",
+        "display" : "Manometria esofágica computadorizada com teste provocativo"
+      },
+      {
+        "code" : "82000034",
+        "display" : "Alveoloplastia"
+      },
+      {
+        "code" : "40102041",
+        "display" : "Manometria computadorizada anorretal para biofeedback - demais sessões"
+      },
+      {
+        "code" : "82000026",
+        "display" : "Acompanhamento de tratamento/procedimento cirúrgico em odontologia"
+      },
+      {
+        "code" : "40102033",
+        "display" : "Manometria computadorizada anorretal para biofeedback - 1ª sessão"
+      },
+      {
+        "code" : "81000570",
+        "display" : "Técnica de localização radiográfica"
+      },
+      {
+        "code" : "40102025",
+        "display" : "Manometria computadorizada anorretal"
+      },
+      {
+        "code" : "81000561",
+        "display" : "Radiografia lateral corpo da mandíbula"
+      },
+      {
+        "code" : "40102017",
+        "display" : "Bilimetria gástrica ou esofágica de 24 horas"
+      },
+      {
+        "code" : "81000553",
+        "display" : "Documentação odontológica em mídia digital"
+      },
+      {
+        "code" : "40101061",
+        "display" : "Ergoespirometria ou teste cardiopulmonar de exercício completo (espirometria forçada, consumo de O2, produção de CO2 e derivados, ECG, oximetria)"
+      },
+      {
+        "code" : "81000545",
+        "display" : "Diagnóstico e tratamento de trismo"
+      },
+      {
+        "code" : "40101053",
+        "display" : "Variabilidade da frequência cardíaca"
+      },
+      {
+        "code" : "81000537",
+        "display" : "Traçado Cefalométrico"
+      },
+      {
+        "code" : "40101045",
+        "display" : "Teste ergométrico convencional - 3 ou mais derivações simultâneas (inclui ECG basal convencional)"
+      },
+      {
+        "code" : "40101037",
+        "display" : "Teste ergométrico computadorizado (inclui ECG basal convencional)"
+      },
+      {
+        "code" : "81000529",
+        "display" : "Tomografia convencional – linear ou multi-direcional"
+      },
+      {
+        "code" : "81000510",
+        "display" : "Tomografia computadorizada por feixe cônico – cone beam"
+      },
+      {
+        "code" : "40101029",
+        "display" : "ECG de alta resolução"
+      },
+      {
+        "code" : "81000480",
+        "display" : "Telerradiografia com traçado cefalométrico"
+      },
+      {
+        "code" : "40101010",
+        "display" : "ECG convencional de até 12 derivações"
+      },
+      {
+        "code" : "31603017",
+        "display" : "Atendimento médico do plantonista em sala de recuperação pós-anestésica geral ou pediátrica, por paciente, por hora (até 6 horas)"
+      },
+      {
+        "code" : "81000472",
+        "display" : "Telerradiografia"
+      },
+      {
+        "code" : "31602355",
+        "display" : "Anestesia realizada pelo anestesiologista para as situações de imperativo clínico."
+      },
+      {
+        "code" : "81000456",
+        "display" : "Slide"
+      },
+      {
+        "code" : "81000430",
+        "display" : "Radiografia póstero-anterior"
+      },
+      {
+        "code" : "31602347",
+        "display" : "Anestesia realizada pelo anestesiologista em atos médicos que não tenham seus portes especialmente previstos."
+      },
+      {
+        "code" : "81000421",
+        "display" : "Radiografia periapical"
+      },
+      {
+        "code" : "31602339",
+        "display" : "Bloqueio anestésico de plexos nervosos (lombossacro, braquial, cervical) para tratamento de dor"
+      },
+      {
+        "code" : "81000413",
+        "display" : "Radiografia panorâmica de mandíbula/maxila (ortopantomografia) com traçado para implantes"
+      },
+      {
+        "code" : "31602320",
+        "display" : "Anestesia para procedimentos de medicina nuclear"
+      },
+      {
+        "code" : "81000405",
+        "display" : "Radiografia panorâmica de mandíbula/maxila (ortopantomografia)"
+      },
+      {
+        "code" : "31602312",
+        "display" : "Anestesia para procedimentos clínicos ambulatoriais e hospitalares"
+      },
+      {
+        "code" : "81000375",
+        "display" : "Radiografia interproximal - bite-wing"
+      },
+      {
+        "code" : "31602304",
+        "display" : "Anestesia para exames específicos, teste para diagnóstico e outros procedimentos diagnósticos"
+      },
+      {
+        "code" : "81000367",
+        "display" : "Radiografia da mão e punho - carpal"
+      },
+      {
+        "code" : "31602290",
+        "display" : "Anestesia para procedimentos de radioterapia"
+      },
+      {
+        "code" : "81000340",
+        "display" : "Radiografia da ATM"
+      },
+      {
+        "code" : "31602282",
+        "display" : "Anestesia para exames de ressonância magnética"
+      },
+      {
+        "code" : "81000324",
+        "display" : "Radiografia antero-posterior"
+      },
+      {
+        "code" : "31602274",
+        "display" : "Anestesia para exames de tomografia computadorizada"
+      },
+      {
+        "code" : "81000308",
+        "display" : "Modelos ortodônticos"
+      },
+      {
+        "code" : "31602266",
+        "display" : "Anestesia para exames de ultrassonografia"
+      },
+      {
+        "code" : "81000294",
+        "display" : "Levantamento Radiográfico (Exame Radiodôntico)"
+      },
+      {
+        "code" : "31602258",
+        "display" : "Anestesia para exames radiológicos de angiorradiologia"
+      },
+      {
+        "code" : "81000278",
+        "display" : "Fotografia"
+      },
+      {
+        "code" : "31602240",
+        "display" : "Anestesia para endoscopia intervencionista"
+      },
+      {
+        "code" : "81000260",
+        "display" : "Diagnóstico por meio de procedimentos laboratoriais"
+      },
+      {
+        "code" : "31602231",
+        "display" : "Anestesia para endoscopia diagnóstica"
+      },
+      {
+        "code" : "81000243",
+        "display" : "Diagnóstico por meio de enceramento"
+      },
+      {
+        "code" : "31602223",
+        "display" : "Passagem de catéter peridural ou subaracnóideo com bloqueio de prova"
+      },
+      {
+        "code" : "81000235",
+        "display" : "Diagnóstico e tratamento de xerostomia"
+      },
+      {
+        "code" : "31602215",
+        "display" : "Laser - por sessão"
+      },
+      {
+        "code" : "81000219",
+        "display" : "Diagnóstico e tratamento de halitose"
+      },
+      {
+        "code" : "31602207",
+        "display" : "Instalação de bomba de infusão para analgesia em dor aguda ou crônica, por qualquer via"
+      },
+      {
+        "code" : "81000200",
+        "display" : "Diagnóstico e tratamento de estomatite por candidose"
+      },
+      {
+        "code" : "31602185",
+        "display" : "Estimulação elétrica transcutânea"
+      },
+      {
+        "code" : "81000197",
+        "display" : "Diagnóstico e tratamento de estomatite herpética"
+      },
+      {
+        "code" : "31602177",
+        "display" : "Bloqueio simpático por via venosa"
+      },
+      {
+        "code" : "81000189",
+        "display" : "Diagnóstico e planejamento para tratamento odontológico"
+      },
+      {
+        "code" : "31602169",
+        "display" : "Bloqueio peridural ou subaracnóideo com corticóide"
+      },
+      {
+        "code" : "81000170",
+        "display" : "Diagnóstico anatomopatológico em punção na região buco-maxilo-facial"
+      },
+      {
+        "code" : "31602150",
+        "display" : "Bloqueio neurolítico peridural ou subaracnóideo"
+      },
+      {
+        "code" : "81000154",
+        "display" : "Diagnóstico anatomopatológico em peça cirúrgica na região buco-maxilo-facial"
+      },
+      {
+        "code" : "31602142",
+        "display" : "Bloqueio neurolítico do plexo celíaco, simpático lombar ou torácico"
+      },
+      {
+        "code" : "81000138",
+        "display" : "Diagnóstico anatomopatológico em material de biópsia na região buco-maxilo-facial"
+      },
+      {
+        "code" : "31602134",
+        "display" : "Bloqueio neurolítico de nervos cranianos ou cérvico-torácico"
+      },
+      {
+        "code" : "81000111",
+        "display" : "Diagnóstico anatomopatológico em citologia esfoliativa na região buco-maxilo-facial"
+      },
+      {
+        "code" : "31602126",
+        "display" : "Bloqueio facetário para-espinhoso"
+      },
+      {
+        "code" : "81000090",
+        "display" : "Consulta para Técnica de Clareamento Dentário Caseiro"
+      },
+      {
+        "code" : "31602118",
+        "display" : "Bloqueio de nervo periférico - bloqueios anestésicos de nervos e estímulos neurovasculares"
+      },
+      {
+        "code" : "81000073",
+        "display" : "Consulta odontológica para avaliação técnica de auditoria"
+      },
+      {
+        "code" : "31602100",
+        "display" : "Bloqueio de gânglio estrelado com neurolítico"
+      },
+      {
+        "code" : "81000065",
+        "display" : "Consulta odontológica inicial"
+      },
+      {
+        "code" : "31602096",
+        "display" : "Bloqueio de gânglio estrelado com anestésico local"
+      },
+      {
+        "code" : "81000057",
+        "display" : "Consulta odontológica de Urgência 24 hs"
+      },
+      {
+        "code" : "31602088",
+        "display" : "Bloqueio de articulação têmporo-mandibular"
+      },
+      {
+        "code" : "81000049",
+        "display" : "Consulta odontológica de Urgência"
+      },
+      {
+        "code" : "31602070",
+        "display" : "Bloqueio anestésico simpático"
+      },
+      {
+        "code" : "81000030",
+        "display" : "Consulta odontológica"
+      },
+      {
+        "code" : "31602061",
+        "display" : "Bloqueio anestésico de simpático lombar"
+      },
+      {
+        "code" : "81000014",
+        "display" : "Condicionamento em Odontologia"
+      },
+      {
+        "code" : "31602053",
+        "display" : "Bloqueio anestésico de plexo celíaco"
+      },
+      {
+        "code" : "50001248",
+        "display" : "CONSULTA DOMICILIAR EM PSICOLOGIA"
+      },
+      {
+        "code" : "31602045",
+        "display" : "Bloqueio anestésico de nervos cranianos"
+      },
+      {
+        "code" : "50001230",
+        "display" : "CONSULTA HOSPITALAR EM PSICOLOGIA"
+      },
+      {
+        "code" : "31602037",
+        "display" : "Anestesia geral ou condutiva para realização de bloqueio neurolítico"
+      },
+      {
+        "code" : "50001221",
+        "display" : "CONSULTA AMBULATORIAL EM PSICOLOGIA"
+      },
+      {
+        "code" : "31602029",
+        "display" : "Analgesia por dia subsequente. Acompanhamento de analgesia por cateter peridural"
+      },
+      {
+        "code" : "50001213",
+        "display" : "MUSICOTERAPIA - POR SESSÃO"
+      },
+      {
+        "code" : "31602010",
+        "display" : "Analgesia controlada pelo paciente - por dia subsequente"
+      },
+      {
+        "code" : "50001205",
+        "display" : "Consulta com enfermeiro obstetra ou obstetriz"
+      },
+      {
+        "code" : "31601014",
+        "display" : "Acupuntura por sessão"
+      },
+      {
+        "code" : "50001191",
+        "display" : "Sessão em psicologia em grupo"
+      },
+      {
+        "code" : "31507026",
+        "display" : "Transplante pancreático (doador)"
+      },
+      {
+        "code" : "50001183",
+        "display" : "Sessão em psicologia individual"
+      },
+      {
+        "code" : "31507018",
+        "display" : "Transplante pancreático (receptor)"
+      },
+      {
+        "code" : "50001167",
+        "display" : "Confecção de recursos de tecnologia assistiva"
+      },
+      {
+        "code" : "31506046",
+        "display" : "Nefrectomia laparoscópica em doador vivo - para transplante"
+      },
+      {
+        "code" : "50001078",
+        "display" : "Atendimento fisioterapêutico ambulatorial ao paciente com dependência total com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31506038",
+        "display" : "Nefrectomia em doador vivo - para transplante"
+      },
+      {
+        "code" : "50001051",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com dependência total com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31506011",
+        "display" : "Transplante renal (receptor e doador vivo ou doador falecido)"
+      },
+      {
+        "code" : "50001043",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com dependência parcial com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31505023",
+        "display" : "Transplante hepático (doador)"
+      },
+      {
+        "code" : "50001019",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações no sistema respiratório com Assistência Ventilatória Mecânica."
+      },
+      {
+        "code" : "31505015",
+        "display" : "Transplante hepático (receptor)"
+      },
+      {
+        "code" : "50001000",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações no sistema respiratório sem Assistência Ventilatória Mecânica."
+      },
+      {
+        "code" : "31504027",
+        "display" : "Transplante pulmonar unilateral (receptor)"
+      },
+      {
+        "code" : "50000934",
+        "display" : "Análise Eletroterapêutica não invasiva, identificação de ponto motor, cronaximetria, reobase, acomodação e curva I/T - por segmento ou membro"
+      },
+      {
+        "code" : "31504019",
+        "display" : "Transplante pulmonar (doador)"
+      },
+      {
+        "code" : "50000926",
+        "display" : "Ventilometria (incluindo Capacidade Vital, Capacidade Inspiratoria, volume minuto, volume corrente e todos índices derivados destas avaliações)"
+      },
+      {
+        "code" : "31503020",
+        "display" : "Transplante cardiopulmonar (receptor)"
+      },
+      {
+        "code" : "50000918",
+        "display" : "Estabilometria"
+      },
+      {
+        "code" : "31503012",
+        "display" : "Transplante cardiopulmonar (doador)"
+      },
+      {
+        "code" : "50000900",
+        "display" : "EMG não invasivo"
+      },
+      {
+        "code" : "31502024",
+        "display" : "Transplante cardíaco (receptor)"
+      },
+      {
+        "code" : "50000896",
+        "display" : "Avaliação ergonômica"
+      },
+      {
+        "code" : "31502016",
+        "display" : "Transplante cardíaco (doador)"
+      },
+      {
+        "code" : "50000888",
+        "display" : "Baropodometria"
+      },
+      {
+        "code" : "31501028",
+        "display" : "Retirada para transplante - córnea"
+      },
+      {
+        "code" : "50000870",
+        "display" : "Atendimento Fisioterapêutico em Quiropraxia"
+      },
+      {
+        "code" : "31501010",
+        "display" : "Transplante penetrante da córnea"
+      },
+      {
+        "code" : "50000861",
+        "display" : "Atendimento Fisioterapêutico em grupo em Pilates"
+      },
+      {
+        "code" : "31405037",
+        "display" : "Tratamento cirúrgico da síndrome do desfiladeiro cérvico torácico"
+      },
+      {
+        "code" : "50000853",
+        "display" : "Atendimento Fisioterapêutico individual em Pilates"
+      },
+      {
+        "code" : "31405029",
+        "display" : "Tratamento cirúrgico de lesão do sistema nervoso autônomo - qualquer método"
+      },
+      {
+        "code" : "50000845",
+        "display" : "Fisioterapia aquatica em grupo (Hidroterapia)"
+      },
+      {
+        "code" : "31405010",
+        "display" : "Bloqueio do sistema nervoso autônomo"
+      },
+      {
+        "code" : "50000837",
+        "display" : "Fisioterapia aquatica individual (Hidroterapia)"
+      },
+      {
+        "code" : "31404030",
+        "display" : "Tratamento de nevralgia do trigêmio por técnica cirúrgica percutânea - qualquer método (quando orientado por imagem, cobrar código correspondente)"
+      },
+      {
+        "code" : "50000829",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações no sistema respiratório sem assistência ventilatória"
+      },
+      {
+        "code" : "31404022",
+        "display" : "Neurotomia seletiva do trigêmio"
+      },
+      {
+        "code" : "50000810",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações no sistema respiratório com assistência ventilatória."
+      },
+      {
+        "code" : "31404014",
+        "display" : "Descompressão vascular de nervos cranianos"
+      },
+      {
+        "code" : "50000802",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente dependente com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31403387",
+        "display" : "Neurotomia"
+      },
+      {
+        "code" : "50000799",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente independente ou com dependência parcial, com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31403379",
+        "display" : "Simpatectomia por videotoracoscopia"
+      },
+      {
+        "code" : "50000780",
+        "display" : "Atendimento fisioterapêutico ambulatorial em grupo por alterações endocrino-metabólicas"
+      },
+      {
+        "code" : "31403360",
+        "display" : "Tratamento microcirúrgico das neuropatias compressivas (tumoral, inflamatório, etc)"
+      },
+      {
+        "code" : "50000772",
+        "display" : "Atendimento fisioterapêutico ambulatorial individual por alterações endocrino-metabólicas"
+      },
+      {
+        "code" : "31403352",
+        "display" : "Transposição de nervo"
+      },
+      {
+        "code" : "50000764",
+        "display" : "Atendimento fisioterapêutico ambulatorial em grupo aos pacientes com disfunção decorrente de alterações do sistema cardiovascular"
+      },
+      {
+        "code" : "31403344",
+        "display" : "Simpatectomia"
+      },
+      {
+        "code" : "50000756",
+        "display" : "Atendimento fisioterapêutico ambulatorial individual ao paciente com disfunção decorrente de alterações do sistema cardiovascular"
+      },
+      {
+        "code" : "31403336",
+        "display" : "Rizotomia percutânea por segmento - qualquer método"
+      },
+      {
+        "code" : "50000748",
+        "display" : "Atendimento fisioterapêutico ambulatorial em grupo aos pacientes com disfunção decorrente de alterações no sistema respiratório"
+      },
+      {
+        "code" : "31403328",
+        "display" : "Revisão de sistema implantados para infusão de fármacos"
+      },
+      {
+        "code" : "50000730",
+        "display" : "Atendimento fisioterapêutico ambulatorial individual ao paciente com disfunção decorrente de alterações no sistema respiratório"
+      },
+      {
+        "code" : "31403310",
+        "display" : "Ressecção de neuroma"
+      },
+      {
+        "code" : "50000713",
+        "display" : "Atendimento fisioterapêutico ambulatorial ao paciente independente ou com dependência parcial, com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31403301",
+        "display" : "Reposição de fármaco(s) em bombas implantadas"
+      },
+      {
+        "code" : "50000705",
+        "display" : "Consulta ambulatorial de enfermagem"
+      },
+      {
+        "code" : "31403298",
+        "display" : "Neurotripsia (cada extremidade)"
+      },
+      {
+        "code" : "50000691",
+        "display" : "Consulta hospitalar por nutricionista"
+      },
+      {
+        "code" : "31403280",
+        "display" : "Neurólise das síndromes compressivas"
+      },
+      {
+        "code" : "50000683",
+        "display" : "Visita de assistente social"
+      },
+      {
+        "code" : "31403271",
+        "display" : "Microneurorrafia única"
+      },
+      {
+        "code" : "50000675",
+        "display" : "Avaliação do processamento auditivo central por fonoaudiólogo"
+      },
+      {
+        "code" : "31403263",
+        "display" : "Microneurorrafia múltipla (plexo nervoso)"
+      },
+      {
+        "code" : "50000667",
+        "display" : "Análise acústica da voz por fonoaudiólogo"
+      },
+      {
+        "code" : "31403255",
+        "display" : "Microneurorrafia de dedos da mão"
+      },
+      {
+        "code" : "50000659",
+        "display" : "Orientação fonoaudiológica aos pais/escolar/cuidador"
+      },
+      {
+        "code" : "31403239",
+        "display" : "Microneurólise única"
+      },
+      {
+        "code" : "50000640",
+        "display" : "Sessão de fonoaudiologia em grupo"
+      },
+      {
+        "code" : "31403220",
+        "display" : "Microneurólise múltiplas"
+      },
+      {
+        "code" : "50000632",
+        "display" : "Sessão individual hospitalar de fonoaudiologia"
+      },
+      {
+        "code" : "50000624",
+        "display" : "Sessão individual domiciliar de fonoaudiologia"
+      },
+      {
+        "code" : "31403212",
+        "display" : "Microneurólise intraneural ou intrafascicular de dois ou mais nervos"
+      },
+      {
+        "code" : "50000616",
+        "display" : "Sessão individual ambulatorial de fonoaudiologia"
+      },
+      {
+        "code" : "31403204",
+        "display" : "Microneurólise intraneural ou intrafascicular de um nervo"
+      },
+      {
+        "code" : "50000608",
+        "display" : "Consulta individual hospitalar de fonoaudiologia"
+      },
+      {
+        "code" : "31403182",
+        "display" : "Microcirurgia do plexo braquial com exploração e neurólise"
+      },
+      {
+        "code" : "50000594",
+        "display" : "Consulta individual domiciliar de fonoaudiologia"
+      },
+      {
+        "code" : "31403174",
+        "display" : "Microcirurgia do plexo braquial com a exploração, neurólise e enxertos interfasciculares para reparo das lesões"
+      },
+      {
+        "code" : "50000586",
+        "display" : "Consulta individual ambulatorial de fonoaudiologia"
+      },
+      {
+        "code" : "31403166",
+        "display" : "Lesão estereotáxica de estruturas profundas para tratamento da dor ou movimento anormal"
+      },
+      {
+        "code" : "50000578",
+        "display" : "Consulta domiciliar por nutricionista"
+      },
+      {
+        "code" : "31403158",
+        "display" : "Lesão de nervos associada à lesão óssea - tratamento cirúrgico"
+      },
+      {
+        "code" : "50000560",
+        "display" : "Consulta ambulatorial por nutricionista"
+      },
+      {
+        "code" : "31403140",
+        "display" : "Implante de gerador para neuroestimulação"
+      },
+      {
+        "code" : "31403131",
+        "display" : "Extirpação de neuroma"
+      },
+      {
+        "code" : "50000551",
+        "display" : "Acompanhamento de cuidador para paciente psiquiátrico"
+      },
+      {
+        "code" : "31403123",
+        "display" : "Exploração cirúrgica de nervo (neurólise externa)"
+      },
+      {
+        "code" : "50000543",
+        "display" : "Acompanhamento de cuidador domiciliar"
+      },
+      {
+        "code" : "50000535",
+        "display" : "Consulta domiciliar de enfermagem"
+      },
+      {
+        "code" : "31403115",
+        "display" : "Excisão de tumores dos nervos periféricos"
+      },
+      {
+        "code" : "50000527",
+        "display" : "Consulta hospitalar de enfermagem"
+      },
+      {
+        "code" : "31403107",
+        "display" : "Excisão de tumores de nervos periféricos com enxerto interfascicular"
+      },
+      {
+        "code" : "50000519",
+        "display" : "Acompanhamento e reabilitação profissional por psicólogo"
+      },
+      {
+        "code" : "31403093",
+        "display" : "Enxerto para reparo de 2 ou mais nervos"
+      },
+      {
+        "code" : "50000500",
+        "display" : "Sessão de psicoterapia familiar por psicólogo"
+      },
+      {
+        "code" : "31403085",
+        "display" : "Enxerto interfascicular"
+      },
+      {
+        "code" : "50000497",
+        "display" : "Sessão de psicoterapia em casal por psicólogo"
+      },
+      {
+        "code" : "31403077",
+        "display" : "Enxerto interfascicular de nervo vascularizado"
+      },
+      {
+        "code" : "31403069",
+        "display" : "Enxerto de nervo interfascicular, pediculado (2º estágio)"
+      },
+      {
+        "code" : "50000489",
+        "display" : "Sessão de psicoterapia em grupo por psicólogo"
+      },
+      {
+        "code" : "31403050",
+        "display" : "Enxerto de nervo interfascicular, pediculado (1º estágio)"
+      },
+      {
+        "code" : "50000470",
+        "display" : "Sessão de psicoterapia individual por psicólogo"
+      },
+      {
+        "code" : "31403042",
+        "display" : "Enxerto de nervo"
+      },
+      {
+        "code" : "50000454",
+        "display" : "Atendimento fisioterapêutico hospitalar para alterações inflamatórias e ou degenerativas do aparelho genito-urinário, reprodutor e/ou proctológico"
+      },
+      {
+        "code" : "31403034",
+        "display" : "Denervação percutânea de faceta articular - por segmento"
+      },
+      {
+        "code" : "50000446",
+        "display" : "Reeducação Postural Global"
+      },
+      {
+        "code" : "31403026",
+        "display" : "Bloqueio de nervo periférico - nervos periféricos"
+      },
+      {
+        "code" : "50000420",
+        "display" : "Atendimento fisioterapêutico hospitalar por alterações endocrino-metabólicas"
+      },
+      {
+        "code" : "50000411",
+        "display" : "Atendimento fisioterapêutico hospitalar no pré e pós cirúrgico e em recuperação de tecidos"
+      },
+      {
+        "code" : "31403018",
+        "display" : "Biópsia de nervo"
+      },
+      {
+        "code" : "50000403",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações do sistema linfático e/ou vascular periférico"
+      },
+      {
+        "code" : "31402038",
+        "display" : "Tampão sanguíneo peridural para tratamento de cefaléia após punção (não indicada na profilaxia da cefaléia)"
+      },
+      {
+        "code" : "31402020",
+        "display" : "Lesão de substância gelatinosa medular (DREZ) por radiofrequência"
+      },
+      {
+        "code" : "50000390",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de queimaduras"
+      },
+      {
+        "code" : "50000381",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações do sistema cardiovascular"
+      },
+      {
+        "code" : "31402011",
+        "display" : "Cordotomia-mielotomias por radiofrequência"
+      },
+      {
+        "code" : "31401430",
+        "display" : "Implante intracerebroventricular de bomba de infusão de fármacos"
+      },
+      {
+        "code" : "50000365",
+        "display" : "Atendimento fisioterapêutico hospitalar ao paciente com disfunção decorrente de alterações do sistema músculo-esquelético"
+      },
+      {
+        "code" : "31401414",
+        "display" : "Localização/intervenção estereotáxica de lesões/estruturas de crânio por neuronavegação com intervenção"
+      },
+      {
+        "code" : "50000349",
+        "display" : "Consulta hospitalar em fisioterapia"
+      },
+      {
+        "code" : "31401406",
+        "display" : "Tumores extracranianos - tratamento cirúrgico"
+      },
+      {
+        "code" : "50000330",
+        "display" : "Atendimento fisioterapêutico domiciliar para alterações inflamatórias e ou degenerativas do aparelho genito-urinário, reprodutor e/ou proctológico"
+      },
+      {
+        "code" : "50000322",
+        "display" : "Atendimento fisioterapêutico domiciliar por alterações endocrino-metabólicas"
+      },
+      {
+        "code" : "31401392",
+        "display" : "Trepanação para propedêutica neurocirúrgica"
+      },
+      {
+        "code" : "31401384",
+        "display" : "Traumatismo cranioencefálico - tratamento cirúrgico"
+      },
+      {
+        "code" : "50000314",
+        "display" : "Atendimento fisioterapêutico domiciliar no pré e pós cirúrgico e em recuperação de tecidos"
+      },
+      {
+        "code" : "31401376",
+        "display" : "Craniotomia exploradora com ou sem biópsia"
+      },
+      {
+        "code" : "50000306",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de alterações do sistema linfático e/ou vascular periférico"
+      },
+      {
+        "code" : "31401368",
+        "display" : "Craniectomia para tumores cerebelares"
+      },
+      {
+        "code" : "50000292",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de queimaduras"
+      },
+      {
+        "code" : "31401350",
+        "display" : "Implantação de halo para radiocirurgia"
+      },
+      {
+        "code" : "50000284",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de alterações do sistema cardiovascular"
+      },
+      {
+        "code" : "31401341",
+        "display" : "Acesso endoscópico ao tratamento cirúrgico dos tumores da região selar"
+      },
+      {
+        "code" : "50000276",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de alterações no sistema respiratório"
+      },
+      {
+        "code" : "31401333",
+        "display" : "Tratamento pré-natal das hidrocefalias e cistos cerebrais"
+      },
+      {
+        "code" : "50000268",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de alterações do sistema músculo-esquelético"
+      },
+      {
+        "code" : "31401309",
+        "display" : "Tratamento cirúrgico do hematoma intracraniano"
+      },
+      {
+        "code" : "50000250",
+        "display" : "Atendimento fisioterapêutico domiciliar ao paciente com disfunção decorrente de lesão do sistema nervoso central e/ou periférico"
+      },
+      {
+        "code" : "31401295",
+        "display" : "Tratamento cirúrgico do abscesso encefálico"
+      },
+      {
+        "code" : "50000241",
+        "display" : "Consulta domiciliar em fisioterapia"
+      },
+      {
+        "code" : "31401287",
+        "display" : "Tratamento cirúrgico de tumores cerebrais sem microscopia"
+      },
+      {
+        "code" : "50000233",
+        "display" : "Atendimento fisioterapêutico ambulatorial para alterações inflamatórias e ou degenerativas do aparelho genito-urinário e reprodutor, e/ou proctológico"
+      },
+      {
+        "code" : "31401279",
+        "display" : "Tratamento cirúrgico da meningoencefalocele"
+      },
+      {
+        "code" : "50000217",
+        "display" : "Atendimento fisioterapêutico ambulatorial no pré e pós cirúrgico e em recuperação de tecidos"
+      },
+      {
+        "code" : "31401260",
+        "display" : "Tratamento cirúrgico da fístula liquórica"
+      },
+      {
+        "code" : "50000209",
+        "display" : "Atendimento fisioterapêutico ambulatorial ao paciente com disfunção decorrente de alterações do sistema linfático e/ou vascular periférico"
+      },
+      {
+        "code" : "31401252",
+        "display" : "Tratamento cirúrgico da epilepsia"
+      },
+      {
+        "code" : "50000195",
+        "display" : "Atendimento fisioterapêutico ambulatorial ao paciente com disfunção decorrente de queimaduras"
+      },
+      {
+        "code" : "31401244",
+        "display" : "Terceiro ventriculostomia"
+      },
+      {
+        "code" : "50000160",
+        "display" : "Atendimento fisioterapêutico ambulatorial ao paciente com disfunção decorrente de alterações do sistema músculo-esquelético"
+      },
+      {
+        "code" : "31401236",
+        "display" : "Sistema de derivação ventricular interna com válvulas ou revisões"
+      },
+      {
+        "code" : "50000144",
+        "display" : "Consulta ambulatorial em fisioterapia"
+      },
+      {
+        "code" : "50000136",
+        "display" : "Sessão de terapia ocupacional para treinamento órteses, próteses e adaptações"
+      },
+      {
+        "code" : "31401228",
+        "display" : "Revisão de sistema de neuroestimulação"
+      },
+      {
+        "code" : "31401201",
+        "display" : "Ressecção de mucocele frontal"
+      },
+      {
+        "code" : "50000128",
+        "display" : "Sessão de terapia ocupacional em grupo"
+      },
+      {
+        "code" : "50000110",
+        "display" : "Sessão de terapia ocupacional familiar"
+      },
+      {
+        "code" : "31401198",
+        "display" : "Punção subdural ou ventricular transfontanela"
+      },
+      {
+        "code" : "50000101",
+        "display" : "Sessão individual hospitalar, em terapia ocupacional"
+      },
+      {
+        "code" : "31401171",
+        "display" : "Microcirurgia vascular intracraniana"
+      },
+      {
+        "code" : "50000098",
+        "display" : "Sessão individual domiciliar, em terapia ocupacional"
+      },
+      {
+        "code" : "31401163",
+        "display" : "Microcirurgia por via transesfenoidal"
+      },
+      {
+        "code" : "50000080",
+        "display" : "Sessão individual ambulatorial, em terapia ocupacional"
+      },
+      {
+        "code" : "31401155",
+        "display" : "Microcirurgia para tumores intracranianos"
+      },
+      {
+        "code" : "31401147",
+        "display" : "Localização estereotáxica de lesões intracranianas com remoção"
+      },
+      {
+        "code" : "50000071",
+        "display" : "Consulta individual hospitalar, em terapia ocupacional"
+      },
+      {
+        "code" : "50000063",
+        "display" : "Consulta individual domiciliar, em terapia ocupacional"
+      },
+      {
+        "code" : "31401139",
+        "display" : "Localização estereotáxica de corpo estranho intracraniano com remoção"
+      },
+      {
+        "code" : "31401120",
+        "display" : "Implante intratecal de bombas para infusão de fármacos"
+      },
+      {
+        "code" : "50000055",
+        "display" : "Consulta individual ambulatorial, em terapia ocupacional"
+      },
+      {
+        "code" : "31401112",
+        "display" : "Implante estereotáxico de cateter para braquiterapia"
+      },
+      {
+        "code" : "50000047",
+        "display" : "Sessão de ludoterapia em grupo"
+      },
+      {
+        "code" : "31401104",
+        "display" : "Implante de eletrodos cerebral ou medular"
+      },
+      {
+        "code" : "50000039",
+        "display" : "Sessão de ludoterapia individual"
+      },
+      {
+        "code" : "31401090",
+        "display" : "Implante de eletrodo cerebral profundo"
+      },
+      {
+        "code" : "50000020",
+        "display" : "Sessão de psicomotricidade em grupo"
+      },
+      {
+        "code" : "50000012",
+        "display" : "Sessão de psicomotricidade individual"
+      },
+      {
+        "code" : "31401082",
+        "display" : "Implante de cateter intracraniano"
+      },
+      {
+        "code" : "31401074",
+        "display" : "Hipofisectomia por qualquer método"
+      },
+      {
+        "code" : "41501349",
+        "display" : "Biometria ultrassônica (Ecobiometria) - monocular - indicação específica"
+      },
+      {
+        "code" : "31401066",
+        "display" : "Drenagem estereotáxica - cistos, hematomas ou abscessos"
+      },
+      {
+        "code" : "41501330",
+        "display" : "Paquimetria ultrassônica - monocular - indicação específica"
+      },
+      {
+        "code" : "31401058",
+        "display" : "Derivação ventricular externa"
+      },
+      {
+        "code" : "41501322",
+        "display" : "Angiotomografia ocular (ATO)"
+      },
+      {
+        "code" : "41501314",
+        "display" : "Angiografia de grande angular (AGA)"
+      },
+      {
+        "code" : "31401040",
+        "display" : "Craniotomia para remoção de corpo estranho"
+      },
+      {
+        "code" : "31401031",
+        "display" : "Cirurgia intracraniana por via endoscópica"
+      },
+      {
+        "code" : "41501306",
+        "display" : "Perfusão pulmonar por tomografia por impedância elétrica"
+      },
+      {
+        "code" : "31401023",
+        "display" : "Cingulotomia ou capsulotomia unilateral"
+      },
+      {
+        "code" : "41501292",
+        "display" : "Titulação da PEEP decremental orientada por tomografia por impedância elétrica"
+      },
+      {
+        "code" : "31401015",
+        "display" : "Biópsia estereotáxica de encéfalo"
+      },
+      {
+        "code" : "41501284",
+        "display" : "Tomografia por impedância elétrica do tórax"
+      },
+      {
+        "code" : "31309291",
+        "display" : "Cerclagem do colo uterino via laparoscópica"
+      },
+      {
+        "code" : "41501276",
+        "display" : "Biometria óptica"
+      },
+      {
+        "code" : "31309283",
+        "display" : "Cerclagem do colo uterino via abdominal"
+      },
+      {
+        "code" : "41501268",
+        "display" : "Pressão arterial peniana"
+      },
+      {
+        "code" : "31309267",
+        "display" : "Tamponamento uterino para hemorragia pós-parto (pós-cesárea ou parto vaginal) - qualquer tipo de balão intrauterino"
+      },
+      {
+        "code" : "41501250",
+        "display" : "Pressão intra abdominal urológica"
+      },
+      {
+        "code" : "31309259",
+        "display" : "Amniodrenagem ou amnioinfusão guiadas por ultrassonografia"
+      },
+      {
+        "code" : "41501241",
+        "display" : "Perfil de pressão uretral"
+      },
+      {
+        "code" : "41501233",
+        "display" : "Oximetria venosa, perfil"
+      },
+      {
+        "code" : "31309240",
+        "display" : "Cordocentese guiada por ultrassonografia"
+      },
+      {
+        "code" : "41501225",
+        "display" : "Oximetria arterial, perfil"
+      },
+      {
+        "code" : "31309232",
+        "display" : "Intervenção do obstetra na cirurgia fetal a céu aberto"
+      },
+      {
+        "code" : "41501217",
+        "display" : "Injeção intracavernosa"
+      },
+      {
+        "code" : "31309224",
+        "display" : "Cirurgia fetal endoscópica (guiada por ultrassonografia e fetoscópio)"
+      },
+      {
+        "code" : "41501209",
+        "display" : "Medida de pressão hepática"
+      },
+      {
+        "code" : "31309216",
+        "display" : "Cirurgia fetal guiada por ultrassonografia"
+      },
+      {
+        "code" : "41501195",
+        "display" : "Pletismografia (qualquer tipo) por lateralidade ou território"
+      },
+      {
+        "code" : "31309208",
+        "display" : "Cesariana com histerectomia"
+      },
+      {
+        "code" : "41501187",
+        "display" : "Medida de pressão segmentar (nos quatro segmentos)"
+      },
+      {
+        "code" : "31309194",
+        "display" : "Inversão uterina - tratamento cirúrgico laparoscópico"
+      },
+      {
+        "code" : "41501179",
+        "display" : "Fotopletismografia (venosa ou arterial) por lateralidade ou segmento"
+      },
+      {
+        "code" : "31309186",
+        "display" : "Gravidez ectópica - cirurgia laparoscópica"
+      },
+      {
+        "code" : "31309178",
+        "display" : "Versão cefálica externa"
+      },
+      {
+        "code" : "41501144",
+        "display" : "Tomografia de coerência óptica - monocular"
+      },
+      {
+        "code" : "41501136",
+        "display" : "Termometria cutânea (por lateralidade: pescoço, membros, bolsa escrotal, por território peniano)"
+      },
+      {
+        "code" : "31309151",
+        "display" : "Revisão obstétrica de parto ocorrido fora do hospital (inclui exame, dequitação e sutura de lacerações até de 2º grau)"
+      },
+      {
+        "code" : "41501128",
+        "display" : "Paquimetria ultrassônica - monocular"
+      },
+      {
+        "code" : "31309143",
+        "display" : "Punção escalpofetal para avaliação PH fetal"
+      },
+      {
+        "code" : "41501110",
+        "display" : "Medida de índice de artelhos com registro gráfico"
+      },
+      {
+        "code" : "31309135",
+        "display" : "Parto múltiplo (cada um subsequente ao inicial)"
+      },
+      {
+        "code" : "31309127",
+        "display" : "Parto (via vaginal)"
+      },
+      {
+        "code" : "41501101",
+        "display" : "Investigação ultrassônica sem registro gráfico (qualquer área)"
+      },
+      {
+        "code" : "31309119",
+        "display" : "Inversão uterina - tratamento cirúrgico"
+      },
+      {
+        "code" : "41501098",
+        "display" : "Investigação ultrassônica com teste de stress em esteira e com registro gráfico"
+      },
+      {
+        "code" : "31309100",
+        "display" : "Inversão uterina aguda - redução manual"
+      },
+      {
+        "code" : "41501080",
+        "display" : "Investigação ultrassônica com teste de stress e sem registro gráfico"
+      },
+      {
+        "code" : "31309097",
+        "display" : "Maturação cervical para indução de abortamento ou de trabalho de parto"
+      },
+      {
+        "code" : "41501071",
+        "display" : "Investigação ultrassônica com teste de stress e com registro gráfico"
+      },
+      {
+        "code" : "31309089",
+        "display" : "Gravidez ectópica - cirurgia"
+      },
+      {
+        "code" : "41501063",
+        "display" : "Investigação ultrassônica com registro gráfico (qualquer área)"
+      },
+      {
+        "code" : "31309062",
+        "display" : "Curetagem pós-abortamento"
+      },
+      {
+        "code" : "41501047",
+        "display" : "Dopplermetria dos cordões espermáticos"
+      },
+      {
+        "code" : "31309054",
+        "display" : "Cesariana"
+      },
+      {
+        "code" : "41501020",
+        "display" : "Cavernosometria"
+      },
+      {
+        "code" : "31309046",
+        "display" : "Cerclagem do colo uterino via vaginal"
+      },
+      {
+        "code" : "41501012",
+        "display" : "Biometria ultrassônica - monocular"
+      },
+      {
+        "code" : "31309038",
+        "display" : "Assistência ao trabalho de parto, por hora (até o limite de 6 horas). Não deverá ser considerado se o parto ocorrer na primeira hora após o início da assistência. Após a primeira hora, além da assistência, remunera-se o parto (via baixa ou cesariana)."
+      },
+      {
+        "code" : "41401808",
+        "display" : "Teste de contato bateria agentes ocupacionais"
+      },
+      {
+        "code" : "31309020",
+        "display" : "Aspiração manual intra-uterina (AMIU) pós-abortamento"
+      }]
+    }]
+  }
+}
+
+```

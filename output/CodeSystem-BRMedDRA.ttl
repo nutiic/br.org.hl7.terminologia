@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRMedDRA"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:31:34.729+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRMedDRA</b></p><a name=\"BRMedDRA\"> </a><a name=\"hcBRMedDRA\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:31:34+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">10013968<a name=\"BRMedDRA-10013968\"> </a></td><td>Dispnéia</td></tr><tr><td style=\"white-space:nowrap\">10014184<a name=\"BRMedDRA-10014184\"> </a></td><td>Eczema</td></tr><tr><td style=\"white-space:nowrap\">10023845<a name=\"BRMedDRA-10023845\"> </a></td><td>Edema de Glote</td></tr><tr><td style=\"white-space:nowrap\">10028116<a name=\"BRMedDRA-10028116\"> </a></td><td>Mucosite</td></tr><tr><td style=\"white-space:nowrap\">10002424<a name=\"BRMedDRA-10002424\"> </a></td><td>Angioedema</td></tr><tr><td style=\"white-space:nowrap\">10037868<a name=\"BRMedDRA-10037868\"> </a></td><td>Exantema maculopapular</td></tr><tr><td style=\"white-space:nowrap\">10029117<a name=\"BRMedDRA-10029117\"> </a></td><td>Nefrite</td></tr><tr><td style=\"white-space:nowrap\">10003639<a name=\"BRMedDRA-10003639\"> </a></td><td>Dermatite atópica</td></tr><tr><td style=\"white-space:nowrap\">10003553<a name=\"BRMedDRA-10003553\"> </a></td><td>Asma</td></tr><tr><td style=\"white-space:nowrap\">10012735<a name=\"BRMedDRA-10012735\"> </a></td><td>Diarréia</td></tr><tr><td style=\"white-space:nowrap\">10007617<a name=\"BRMedDRA-10007617\"> </a></td><td>Parada Cardiorespiratória</td></tr><tr><td style=\"white-space:nowrap\">10042033<a name=\"BRMedDRA-10042033\"> </a></td><td>Síndrome de Stevens-Johnson</td></tr><tr><td style=\"white-space:nowrap\">10012442<a name=\"BRMedDRA-10012442\"> </a></td><td>Dermatite de contato</td></tr><tr><td style=\"white-space:nowrap\">10039083<a name=\"BRMedDRA-10039083\"> </a></td><td>Rinite</td></tr><tr><td style=\"white-space:nowrap\">10046735<a name=\"BRMedDRA-10046735\"> </a></td><td>Urticária</td></tr><tr><td style=\"white-space:nowrap\">10010741<a name=\"BRMedDRA-10010741\"> </a></td><td>Conjuntivite</td></tr><tr><td style=\"white-space:nowrap\">10047115<a name=\"BRMedDRA-10047115\"> </a></td><td>Vasculite</td></tr><tr><td style=\"white-space:nowrap\">10011224<a name=\"BRMedDRA-10011224\"> </a></td><td>Tosse</td></tr><tr><td style=\"white-space:nowrap\">10006482<a name=\"BRMedDRA-10006482\"> </a></td><td>Broncoespasmo</td></tr><tr><td style=\"white-space:nowrap\">10034972<a name=\"BRMedDRA-10034972\"> </a></td><td>Fotossensibilidade</td></tr><tr><td style=\"white-space:nowrap\">10073508<a name=\"BRMedDRA-10073508\"> </a></td><td>Síndrome de DRESS</td></tr><tr><td style=\"white-space:nowrap\">10037087<a name=\"BRMedDRA-10037087\"> </a></td><td>Prurido</td></tr><tr><td style=\"white-space:nowrap\">10044223<a name=\"BRMedDRA-10044223\"> </a></td><td>Síndrome de Lyell</td></tr><tr><td style=\"white-space:nowrap\">10015218<a name=\"BRMedDRA-10015218\"> </a></td><td>Eritema Multiforme</td></tr><tr><td style=\"white-space:nowrap\">10012441<a name=\"BRMedDRA-10012441\"> </a></td><td>Exantema bolhoso</td></tr><tr><td style=\"white-space:nowrap\">10003246<a name=\"BRMedDRA-10003246\"> </a></td><td>Artrite</td></tr><tr><td style=\"white-space:nowrap\">10002198<a name=\"BRMedDRA-10002198\"> </a></td><td>Anafilaxia</td></tr><tr><td style=\"white-space:nowrap\">10047700<a name=\"BRMedDRA-10047700\"> </a></td><td>Vômito</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRMedDRA"] ;
+  fhir:CodeSystem.title [ fhir:value "BRMedDRA"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "28"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10013968" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dispnéia" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10014184" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Eczema" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10023845" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Edema de Glote" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10028116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mucosite" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10002424" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Angioedema" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10037868" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Exantema maculopapular" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10029117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nefrite" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10003639" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dermatite atópica" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10003553" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Asma" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10012735" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diarréia" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10007617" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Parada Cardiorespiratória" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10042033" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Síndrome de Stevens-Johnson" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10012442" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dermatite de contato" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10039083" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rinite" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10046735" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urticária" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10010741" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Conjuntivite" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10047115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vasculite" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10011224" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tosse" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10006482" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Broncoespasmo" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10034972" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fotossensibilidade" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10073508" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Síndrome de DRESS" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10037087" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prurido" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10044223" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Síndrome de Lyell" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10015218" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Eritema Multiforme" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10012441" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Exantema bolhoso" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10003246" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Artrite" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10002198" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anafilaxia" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10047700" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vômito" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstrategiaVacinacao"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BREstrategiaVacinacao</b></p><a name="BREstrategiaVacinacao"> </a><a name="hcBREstrategiaVacinacao"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BREstrategiaVacinacao.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-3">3</a></td><td>Bloqueio</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-2">2</a></td><td>Especial</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-9">9</a></td><td>Monitoramento rápido de cobertura vacinal</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-13">13</a></td><td>Reexposição</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-8">8</a></td><td>Serviço Privado</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-12">12</a></td><td>Pós-exposição</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-7">7</a></td><td>Soroterapia</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-11">11</a></td><td>Pré-exposição</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-6">6</a></td><td>Campanha seletiva</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-10">10</a></td><td>Pesquisa</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-5">5</a></td><td>Campanha indiscriminada</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-4">4</a></td><td>Intensificação</td></tr><tr><td><a href="CodeSystem-BREstrategiaVacinacao.html#BREstrategiaVacinacao-1">1</a></td><td>Rotina</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BREstrategiaVacinacao"/>
+  <version value="1.1.0"/>
+  <name value="BREstrategiaVacinacao"/>
+  <title value="BR Estrategia Vacinacao"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao"/>
+      <concept>
+        <code value="3"/>
+        <display value="Bloqueio"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Especial"/>
+      </concept>
+      <concept>
+        <code value="9"/>
+        <display value="Monitoramento rápido de cobertura vacinal"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Reexposição"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="Serviço Privado"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Pós-exposição"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="Soroterapia"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Pré-exposição"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="Campanha seletiva"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Pesquisa"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Campanha indiscriminada"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Intensificação"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="Rotina"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BROCI-IC"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BROCI-IC</b></p><a name="BROCI-IC"> </a><a name="hcBROCI-IC"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTabelaSUS.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0202020380</td><td>HEMOGRAMA COMPLETO</td></tr><tr><td>0202010562</td><td>DOSAGEM DE MAGNESIO</td></tr><tr><td>0202010600</td><td>DOSAGEM DE POTASSIO</td></tr><tr><td>0202010635</td><td>DOSAGEM DE SODIO</td></tr><tr><td>0202010317</td><td>DOSAGEM DE CREATININA</td></tr><tr><td>0202010473</td><td>DOSAGEM DE GLICOSE</td></tr><tr><td>0202010694</td><td>DOSAGEM DE UREIA</td></tr><tr><td>0202010503</td><td>DOSAGEM DE HEMOGLOBINA GLICOSILADA</td></tr><tr><td>0202010295</td><td>DOSAGEM DE COLESTEROL TOTAL</td></tr><tr><td>0202010287</td><td>DOSAGEM DE COLESTEROL LDL</td></tr><tr><td>0202010279</td><td>DOSAGEM DE COLESTEROL HDL</td></tr><tr><td>0202060250</td><td>DOSAGEM DE HORMONIO TIREOESTIMULANTE (TSH)</td></tr><tr><td>0202010678</td><td>DOSAGEM DE TRIGLICERIDEOS</td></tr><tr><td>0202010643</td><td>DOSAGEM DE TRANSAMINASE GLUTAMICO-OXALACETICA (TGO)</td></tr><tr><td>0202010120</td><td>DOSAGEM DE ACIDO URICO</td></tr><tr><td>0202010392</td><td>DOSAGEM DE FERRO SERICO</td></tr><tr><td>0202010384</td><td>DOSAGEM DE FERRITINA</td></tr><tr><td>0202010660</td><td>DOSAGEM DE TRANSFERRINA</td></tr><tr><td>0202010791</td><td>DOSAGEM DE PEPTÍDEOS NATRIURÉTICOS TIPO B (BNP E NT-PROBNP)</td></tr><tr><td>0301010072</td><td>CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA</td></tr><tr><td>0301010307</td><td>TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA</td></tr><tr><td>0211020036</td><td>ELETROCARDIOGRAMA</td></tr><tr><td>0205010032</td><td>ECOCARDIOGRAFIA TRANSTORÁCICA</td></tr><tr><td>0205010024</td><td>ECOCARDIOGRAFIA TRANSESOFAGICA</td></tr><tr><td>0211020060</td><td>TESTE DE ESFORÇO / TESTE ERGOMETRICO</td></tr><tr><td>0211020044</td><td>MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BROCI-IC"/>
+  <version value="1.1.0"/>
+  <name value="BROCI-IC"/>
+  <title value="BROCI-IC"/>
+  <status value="active"/>
+  <date value="2026-08-31T22:41:20-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS"/>
+      <concept>
+        <code value="0202020380"/>
+        <display value="HEMOGRAMA COMPLETO"/>
+      </concept>
+      <concept>
+        <code value="0202010562"/>
+        <display value="DOSAGEM DE MAGNESIO"/>
+      </concept>
+      <concept>
+        <code value="0202010600"/>
+        <display value="DOSAGEM DE POTASSIO"/>
+      </concept>
+      <concept>
+        <code value="0202010635"/>
+        <display value="DOSAGEM DE SODIO"/>
+      </concept>
+      <concept>
+        <code value="0202010317"/>
+        <display value="DOSAGEM DE CREATININA"/>
+      </concept>
+      <concept>
+        <code value="0202010473"/>
+        <display value="DOSAGEM DE GLICOSE"/>
+      </concept>
+      <concept>
+        <code value="0202010694"/>
+        <display value="DOSAGEM DE UREIA"/>
+      </concept>
+      <concept>
+        <code value="0202010503"/>
+        <display value="DOSAGEM DE HEMOGLOBINA GLICOSILADA"/>
+      </concept>
+      <concept>
+        <code value="0202010295"/>
+        <display value="DOSAGEM DE COLESTEROL TOTAL"/>
+      </concept>
+      <concept>
+        <code value="0202010287"/>
+        <display value="DOSAGEM DE COLESTEROL LDL"/>
+      </concept>
+      <concept>
+        <code value="0202010279"/>
+        <display value="DOSAGEM DE COLESTEROL HDL"/>
+      </concept>
+      <concept>
+        <code value="0202060250"/>
+        <display value="DOSAGEM DE HORMONIO TIREOESTIMULANTE (TSH)"/>
+      </concept>
+      <concept>
+        <code value="0202010678"/>
+        <display value="DOSAGEM DE TRIGLICERIDEOS"/>
+      </concept>
+      <concept>
+        <code value="0202010643"/>
+        <display value="DOSAGEM DE TRANSAMINASE GLUTAMICO-OXALACETICA (TGO)"/>
+      </concept>
+      <concept>
+        <code value="0202010120"/>
+        <display value="DOSAGEM DE ACIDO URICO"/>
+      </concept>
+      <concept>
+        <code value="0202010392"/>
+        <display value="DOSAGEM DE FERRO SERICO"/>
+      </concept>
+      <concept>
+        <code value="0202010384"/>
+        <display value="DOSAGEM DE FERRITINA"/>
+      </concept>
+      <concept>
+        <code value="0202010660"/>
+        <display value="DOSAGEM DE TRANSFERRINA"/>
+      </concept>
+      <concept>
+        <code value="0202010791"/>
+        <display value="DOSAGEM DE PEPTÍDEOS NATRIURÉTICOS TIPO B (BNP E NT-PROBNP)"/>
+      </concept>
+      <concept>
+        <code value="0301010072"/>
+        <display value="CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA"/>
+      </concept>
+      <concept>
+        <code value="0301010307"/>
+        <display value="TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA"/>
+      </concept>
+      <concept>
+        <code value="0211020036"/>
+        <display value="ELETROCARDIOGRAMA"/>
+      </concept>
+      <concept>
+        <code value="0205010032"/>
+        <display value="ECOCARDIOGRAFIA TRANSTORÁCICA"/>
+      </concept>
+      <concept>
+        <code value="0205010024"/>
+        <display value="ECOCARDIOGRAFIA TRANSESOFAGICA"/>
+      </concept>
+      <concept>
+        <code value="0211020060"/>
+        <display value="TESTE DE ESFORÇO / TESTE ERGOMETRICO"/>
+      </concept>
+      <concept>
+        <code value="0211020044"/>
+        <display value="MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

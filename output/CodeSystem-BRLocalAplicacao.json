@@ -1,0 +1,144 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRLocalAplicacao",
+  "meta" : {
+    "lastUpdated" : "2025-07-16T16:49:36.124+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRLocalAplicacao</b></p><a name=\"BRLocalAplicacao\"> </a><a name=\"hcBRLocalAplicacao\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-16 16:49:36+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"BRLocalAplicacao-0\"> </a></td><td>Sem registro no sistema de informação de origem</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRLocalAplicacao-99\"> </a></td><td>Outro</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRLocalAplicacao-10\"> </a></td><td>Dorso Glúteo Direito</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRLocalAplicacao-16\"> </a></td><td>Rede Venosa</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"BRLocalAplicacao-18\"> </a></td><td>Face Anterolateral Externa da Coxa Esquerda</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRLocalAplicacao-9\"> </a></td><td>Boca</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRLocalAplicacao-22\"> </a></td><td>Face Anterolateral Externa do Antebraço Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRLocalAplicacao-15\"> </a></td><td>Face Externa Superior do Braço Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRLocalAplicacao-8\"> </a></td><td>Ferimento Local</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRLocalAplicacao-17\"> </a></td><td>Face Anterolateral Externa da Coxa Direita</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRLocalAplicacao-19\"> </a></td><td>Face Anterolateral Externa do Braço Direito</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRLocalAplicacao-6\"> </a></td><td>Ventroglúteo Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRLocalAplicacao-1\"> </a></td><td>Deltóide Direito</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRLocalAplicacao-4\"> </a></td><td>Vasto Lateral da Coxa Esquerda</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRLocalAplicacao-2\"> </a></td><td>Deltóide Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRLocalAplicacao-5\"> </a></td><td>Ventroglúteo Direito</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRLocalAplicacao-11\"> </a></td><td>Dorso Glúteo Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRLocalAplicacao-12\"> </a></td><td>Face Externa Inferior do Braço Direito</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRLocalAplicacao-14\"> </a></td><td>Face Externa Superior do Braço Direito</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRLocalAplicacao-13\"> </a></td><td>Face Externa Inferior do Braço Esquerdo</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRLocalAplicacao-3\"> </a></td><td>Vasto Lateral da Coxa Direita</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRLocalAplicacao-7\"> </a></td><td>Glúteo (descontinuado)</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRLocalAplicacao-21\"> </a></td><td>Face Anterolateral Externa do Antebraço Direito</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRLocalAplicacao-20\"> </a></td><td>Face Anterolateral Externa do Braço Esquerdo</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAplicacao",
+  "version" : "1.1.0",
+  "name" : "BRLocalAplicacao",
+  "title" : "BRLocalAplicacao",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 24,
+  "concept" : [{
+    "code" : "0",
+    "display" : "Sem registro no sistema de informação de origem"
+  },
+  {
+    "code" : "99",
+    "display" : "Outro"
+  },
+  {
+    "code" : "10",
+    "display" : "Dorso Glúteo Direito"
+  },
+  {
+    "code" : "16",
+    "display" : "Rede Venosa"
+  },
+  {
+    "code" : "18",
+    "display" : "Face Anterolateral Externa da Coxa Esquerda"
+  },
+  {
+    "code" : "9",
+    "display" : "Boca"
+  },
+  {
+    "code" : "22",
+    "display" : "Face Anterolateral Externa do Antebraço Esquerdo"
+  },
+  {
+    "code" : "15",
+    "display" : "Face Externa Superior do Braço Esquerdo"
+  },
+  {
+    "code" : "8",
+    "display" : "Ferimento Local"
+  },
+  {
+    "code" : "17",
+    "display" : "Face Anterolateral Externa da Coxa Direita"
+  },
+  {
+    "code" : "19",
+    "display" : "Face Anterolateral Externa do Braço Direito"
+  },
+  {
+    "code" : "6",
+    "display" : "Ventroglúteo Esquerdo"
+  },
+  {
+    "code" : "1",
+    "display" : "Deltóide Direito"
+  },
+  {
+    "code" : "4",
+    "display" : "Vasto Lateral da Coxa Esquerda"
+  },
+  {
+    "code" : "2",
+    "display" : "Deltóide Esquerdo"
+  },
+  {
+    "code" : "5",
+    "display" : "Ventroglúteo Direito"
+  },
+  {
+    "code" : "11",
+    "display" : "Dorso Glúteo Esquerdo"
+  },
+  {
+    "code" : "12",
+    "display" : "Face Externa Inferior do Braço Direito"
+  },
+  {
+    "code" : "14",
+    "display" : "Face Externa Superior do Braço Direito"
+  },
+  {
+    "code" : "13",
+    "display" : "Face Externa Inferior do Braço Esquerdo"
+  },
+  {
+    "code" : "3",
+    "display" : "Vasto Lateral da Coxa Direita"
+  },
+  {
+    "code" : "7",
+    "display" : "Glúteo (descontinuado)"
+  },
+  {
+    "code" : "21",
+    "display" : "Face Anterolateral Externa do Antebraço Direito"
+  },
+  {
+    "code" : "20",
+    "display" : "Face Anterolateral Externa do Braço Esquerdo"
+  }]
+}

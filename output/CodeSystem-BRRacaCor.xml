@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRRacaCor"/>
+  <meta>
+    <lastUpdated value="2025-07-17T16:59:38.636+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRRacaCor</b></p><a name="BRRacaCor"> </a><a name="hcBRRacaCor"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 16:59:38+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">05<a name="BRRacaCor-05"> </a></td><td>Indígena</td></tr><tr><td style="white-space:nowrap">04<a name="BRRacaCor-04"> </a></td><td>Amarela</td></tr><tr><td style="white-space:nowrap">03<a name="BRRacaCor-03"> </a></td><td>Parda</td></tr><tr><td style="white-space:nowrap">02<a name="BRRacaCor-02"> </a></td><td>Preta</td></tr><tr><td style="white-space:nowrap">01<a name="BRRacaCor-01"> </a></td><td>Branca</td></tr><tr><td style="white-space:nowrap">99<a name="BRRacaCor-99"> </a></td><td>Sem informação</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+  <version value="1.1.0"/>
+  <name value="BRRacaCor"/>
+  <title value="BRRacaCor"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="05"/>
+    <display value="Indígena"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Amarela"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Parda"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Preta"/>
+  </concept>
+  <concept>
+    <code value="01"/>
+    <display value="Branca"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="Sem informação"/>
+  </concept>
+</CodeSystem>

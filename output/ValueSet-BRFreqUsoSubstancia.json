@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRFreqUsoSubstancia",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRFreqUsoSubstancia</b></p><a name=\"BRFreqUsoSubstancia\"> </a><a name=\"hcBRFreqUsoSubstancia\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"https://loinc.org/LA18934-2/\">LA18934-2</a></td><td>Daily or almost daily</td></tr><tr><td><a href=\"https://loinc.org/LA26460-8/\">LA26460-8</a></td><td>Once or twice</td></tr><tr><td><a href=\"https://loinc.org/LA18891-4/\">LA18891-4</a></td><td>Weekly</td></tr><tr><td><a href=\"https://loinc.org/LA18876-5/\">LA18876-5</a></td><td>Monthly</td></tr><tr><td><a href=\"https://loinc.org/LA6270-8/\">LA6270-8</a></td><td>Never</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFreqUsoSubstancia",
+  "version" : "1.1.0",
+  "name" : "BRFreqUsoSubstancia",
+  "title" : "BRFreqUsoSubstancia",
+  "status" : "active",
+  "date" : "2026-08-31T22:41:20-04:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA18934-2",
+        "display" : "Daily or almost daily"
+      },
+      {
+        "code" : "LA26460-8",
+        "display" : "Once or twice"
+      },
+      {
+        "code" : "LA18891-4",
+        "display" : "Weekly"
+      },
+      {
+        "code" : "LA18876-5",
+        "display" : "Monthly"
+      },
+      {
+        "code" : "LA6270-8",
+        "display" : "Never"
+      }]
+    }]
+  }
+}

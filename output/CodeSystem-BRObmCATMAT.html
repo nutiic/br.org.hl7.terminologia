@@ -1,0 +1,2287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BRObmCATMAT - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4.172"}
+    h3,h4,h5,h6{--heading-prefix:"4.172"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1</span>
+            <br/>
+            <span style="display:inline-block;">1.1.0 - STU1
+
+
+
+  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Início</a></li>
+  <li><a href="toc.html">Índice</a></li>  
+  <li><a href="changes.html">Histórico de mudanças</a></li>
+  <li><a href="artifacts.html">Lista de artefatos</a></li>
+  <li><a href="downloads.html">Baixar</a></li>
+</ul>      
+
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Lista de artefatos</b></a></li><li><b>BRObmCATMAT</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Guia de implementação de Terminologias do Brasil: Release 1 - BR Realm | STU1 - Compilação de desenvolvimento local (v1.1.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://terminologia.saude.gov.br/fhir/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-BRObmCATMAT.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-BRObmCATMAT.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-BRObmCATMAT.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: BRObmCATMAT
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>URL Canônica</i>: <span class="copy-text">https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT<button title="Clique para copiar a URL!" class="btn-copy" data-clipboard-text="https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT"/></span>
+      </td>
+      <td><i>Versão</i>:
+      <span class="copy-text">1.1.0<button title="Clique para copiar URL versioned" class="btn-copy" data-clipboard-text="https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT|1.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2026-03-09
+          
+        
+      </td>
+
+
+
+      <td><i>Nome computável</i>: <span style="font-family: monospace;">BRObmCATMAT</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-BRTerminologiaMedicamento.html">BR Terminologia Medicamento</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="BRObmCATMAT"> </a><a name="hcBRObmCATMAT"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-16 16:50:37+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmCATMAT</code> define o seguinte códigos:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr>
+<tr><td style="white-space:nowrap">BR0282714<a name="BRObmCATMAT-BR0282714"> </a></td>
+<td>Hidróxido de Magnésio 80 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0282580<a name="BRObmCATMAT-BR0282580"> </a></td>
+<td>Oleato de Etanolamina 100 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0282313<a name="BRObmCATMAT-BR0282313"> </a></td>
+<td>Ciclobenzaprina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0282299<a name="BRObmCATMAT-BR0282299"> </a></td>
+<td>Sulpirida 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0282298<a name="BRObmCATMAT-BR0282298"> </a></td>
+<td>Sulpirida 20 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0282237<a name="BRObmCATMAT-BR0282237"> </a></td>
+<td>Carnitina 200 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0282224-2<a name="BRObmCATMAT-BR0282224-2"> </a></td>
+<td>Carbocisteína 50 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0282224-1<a name="BRObmCATMAT-BR0282224-1"> </a></td>
+<td>Carbocisteína 50 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0282223<a name="BRObmCATMAT-BR0282223"> </a></td>
+<td>Carbocisteína 50 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0282222-2<a name="BRObmCATMAT-BR0282222-2"> </a></td>
+<td>Carbocisteína 20 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0282222-1<a name="BRObmCATMAT-BR0282222-1"> </a></td>
+<td>Carbocisteína 20 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0282220<a name="BRObmCATMAT-BR0282220"> </a></td>
+<td>Carbacol 0,2 mg/2 mL solução para injeção intraocular; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0282151<a name="BRObmCATMAT-BR0282151"> </a></td>
+<td>Exemestano 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0282149<a name="BRObmCATMAT-BR0282149"> </a></td>
+<td>Betametasona 4 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0282040<a name="BRObmCATMAT-BR0282040"> </a></td>
+<td>Gefitinibe 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0281470<a name="BRObmCATMAT-BR0281470"> </a></td>
+<td>Candesartana 8 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0281135-3<a name="BRObmCATMAT-BR0281135-3"> </a></td>
+<td>Amoxicilina 40 mg/mL + Ácido Clavulânico 5,7 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0281135-2<a name="BRObmCATMAT-BR0281135-2"> </a></td>
+<td>Amoxicilina 50 mg/mL + Ácido Clavulânico 12,5 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0281135-1<a name="BRObmCATMAT-BR0281135-1"> </a></td>
+<td>Amoxicilina 50 mg/mL + Ácido Clavulânico 12,5 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0280947<a name="BRObmCATMAT-BR0280947"> </a></td>
+<td>Ofloxacino 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280883<a name="BRObmCATMAT-BR0280883"> </a></td>
+<td>Glicosamina 1,5 g + Condroitina 1,2 g pó para solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0280881<a name="BRObmCATMAT-BR0280881"> </a></td>
+<td>Propionato de Fluticasona 250 microgramas/dose + Salmeterol 25 microgramas/dose suspensão aerossol; inalador</td></tr>
+<tr><td style="white-space:nowrap">BR0280877<a name="BRObmCATMAT-BR0280877"> </a></td>
+<td>Espironolactona 100 mg + Furosemida 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280876<a name="BRObmCATMAT-BR0280876"> </a></td>
+<td>Espironolactona 50 mg + Hidroclorotiazida 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280873<a name="BRObmCATMAT-BR0280873"> </a></td>
+<td>Candesartana 16 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280627<a name="BRObmCATMAT-BR0280627"> </a></td>
+<td>Levobupivacaína 0,25% solução para injeção 20 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0280505<a name="BRObmCATMAT-BR0280505"> </a></td>
+<td>Adefovir 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280205E<a name="BRObmCATMAT-BR0280205E"> </a></td>
+<td>Adefovir 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280201<a name="BRObmCATMAT-BR0280201"> </a></td>
+<td>Bortezomibe 3,5 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0280116E<a name="BRObmCATMAT-BR0280116E"> </a></td>
+<td>Bosentana 62,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280116<a name="BRObmCATMAT-BR0280116"> </a></td>
+<td>Bosentana 62,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280115E<a name="BRObmCATMAT-BR0280115E"> </a></td>
+<td>Bosentana 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0280115<a name="BRObmCATMAT-BR0280115"> </a></td>
+<td>Bosentana 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-6<a name="BRObmCATMAT-BR0279493-6"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-5<a name="BRObmCATMAT-BR0279493-5"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-4<a name="BRObmCATMAT-BR0279493-4"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-3<a name="BRObmCATMAT-BR0279493-3"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-2<a name="BRObmCATMAT-BR0279493-2"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279493-1<a name="BRObmCATMAT-BR0279493-1"> </a></td>
+<td>Retinol 5.000 unidades internacionais/g + Colecalciferol 900 unidades internacionais/g + Óxido de Zinco 150 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0279432<a name="BRObmCATMAT-BR0279432"> </a></td>
+<td>Loteprednol 5 mg/mL suspensão oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0279338-2<a name="BRObmCATMAT-BR0279338-2"> </a></td>
+<td>Carbômer 2 mg/g (0,2%) gel oftálmico</td></tr>
+<tr><td style="white-space:nowrap">BR0279338-1<a name="BRObmCATMAT-BR0279338-1"> </a></td>
+<td>Carbômer 2 mg/g (0,2%) gel oftálmico</td></tr>
+<tr><td style="white-space:nowrap">BR0279298<a name="BRObmCATMAT-BR0279298"> </a></td>
+<td>Fenoterol 0,1 mg /dose + Brometo de Ipratrópio 0,04 mg/dose solução aerossol; inalador</td></tr>
+<tr><td style="white-space:nowrap">BR0279297-2<a name="BRObmCATMAT-BR0279297-2"> </a></td>
+<td>Nistatina 100.000 unidades internacionais/g + Óxido de Zinco 200 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0279297-1<a name="BRObmCATMAT-BR0279297-1"> </a></td>
+<td>Nistatina 100.000 unidades internacionais/g + Óxido de Zinco 200 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0279271<a name="BRObmCATMAT-BR0279271"> </a></td>
+<td>Varfarina 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0279270<a name="BRObmCATMAT-BR0279270"> </a></td>
+<td>Varfarina 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0279269<a name="BRObmCATMAT-BR0279269"> </a></td>
+<td>Varfarina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0279118<a name="BRObmCATMAT-BR0279118"> </a></td>
+<td>Ticarcilina 3 g + Clavulanato de Potássio 100 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278649<a name="BRObmCATMAT-BR0278649"> </a></td>
+<td>Glibenclamida 5 mg + Metformina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278648<a name="BRObmCATMAT-BR0278648"> </a></td>
+<td>Glibenclamida 2,5 mg + Metformina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278647<a name="BRObmCATMAT-BR0278647"> </a></td>
+<td>Glibenclamida 1,25 mg + Metformina 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278646<a name="BRObmCATMAT-BR0278646"> </a></td>
+<td>Ácido Épsilon-Aminocaproico 1 g/20 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278589-2<a name="BRObmCATMAT-BR0278589-2"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 3 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0278589-1<a name="BRObmCATMAT-BR0278589-1"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 3 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0278588-1<a name="BRObmCATMAT-BR0278588-1"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 5 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0278588<a name="BRObmCATMAT-BR0278588"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 5 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0278587-2<a name="BRObmCATMAT-BR0278587-2"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 5 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0278587-1<a name="BRObmCATMAT-BR0278587-1"> </a></td>
+<td>Polissulfato de Mucopolissacarídeo 5 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0278490<a name="BRObmCATMAT-BR0278490"> </a></td>
+<td>Ácido Fólico 0,4 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0278489<a name="BRObmCATMAT-BR0278489"> </a></td>
+<td>Ácido Fólico 0,2 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0278482E<a name="BRObmCATMAT-BR0278482E"> </a></td>
+<td>Primidona 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278482<a name="BRObmCATMAT-BR0278482"> </a></td>
+<td>Primidona 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278429-1<a name="BRObmCATMAT-BR0278429-1"> </a></td>
+<td>Bupivacaína 50 mg/20 mL (0,25%) + Epinefrina 100 microgramas/20 mL (1:200.000) solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278393<a name="BRObmCATMAT-BR0278393"> </a></td>
+<td>Tretinoína 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0278378<a name="BRObmCATMAT-BR0278378"> </a></td>
+<td>Tretinoína 0,25 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0278357<a name="BRObmCATMAT-BR0278357"> </a></td>
+<td>Azelastina 1 mg/mL solução aerossol</td></tr>
+<tr><td style="white-space:nowrap">BR0278356<a name="BRObmCATMAT-BR0278356"> </a></td>
+<td>Azelastina 1 mg/mL solução spray</td></tr>
+<tr><td style="white-space:nowrap">BR0278348<a name="BRObmCATMAT-BR0278348"> </a></td>
+<td>Anastrozol 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278338<a name="BRObmCATMAT-BR0278338"> </a></td>
+<td>Ácido Tranexâmico 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278316<a name="BRObmCATMAT-BR0278316"> </a></td>
+<td>Zolpidem 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278283E<a name="BRObmCATMAT-BR0278283E"> </a></td>
+<td>Acetazolamida 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278283<a name="BRObmCATMAT-BR0278283"> </a></td>
+<td>Acetazolamida 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278281<a name="BRObmCATMAT-BR0278281"> </a></td>
+<td>Adenosina 6 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278268-1<a name="BRObmCATMAT-BR0278268-1"> </a></td>
+<td>Trifluoperazina 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278268<a name="BRObmCATMAT-BR0278268"> </a></td>
+<td>Trifluoperazina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278265<a name="BRObmCATMAT-BR0278265"> </a></td>
+<td>Hidroxiquinolina 0,04 mg/mL + Trolamina 140 mg/mL solução otológica</td></tr>
+<tr><td style="white-space:nowrap">BR0278261<a name="BRObmCATMAT-BR0278261"> </a></td>
+<td>Tiopental 1 g pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278260<a name="BRObmCATMAT-BR0278260"> </a></td>
+<td>Tiopental 500 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0278259<a name="BRObmCATMAT-BR0278259"> </a></td>
+<td>Tiocolchicosídeo 4 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0278257<a name="BRObmCATMAT-BR0278257"> </a></td>
+<td>Tinidazol 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0277973<a name="BRObmCATMAT-BR0277973"> </a></td>
+<td>Ergometrina 0,2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0277934-1<a name="BRObmCATMAT-BR0277934-1"> </a></td>
+<td>Atropina 0,5 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0277649<a name="BRObmCATMAT-BR0277649"> </a></td>
+<td>Anagrelida 0,5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0277526-2<a name="BRObmCATMAT-BR0277526-2"> </a></td>
+<td>Didanosina 400 mg cápsula gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0277526-1<a name="BRObmCATMAT-BR0277526-1"> </a></td>
+<td>Didanosina 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0277525-2<a name="BRObmCATMAT-BR0277525-2"> </a></td>
+<td>Didanosina 250 mg cápsula gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0277519<a name="BRObmCATMAT-BR0277519"> </a></td>
+<td>Ácido Ursodesoxicólico 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0277513<a name="BRObmCATMAT-BR0277513"> </a></td>
+<td>Fluoxetina 20 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0277438E<a name="BRObmCATMAT-BR0277438E"> </a></td>
+<td>Betainterferona 1b 9.600.000 unidades internacionais (300 microgramas) pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0277435E<a name="BRObmCATMAT-BR0277435E"> </a></td>
+<td>Betainterferona 1a 6.000.000 unidades internacionais (22 microgramas)/0,5 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0277434E<a name="BRObmCATMAT-BR0277434E"> </a></td>
+<td>Betainterferona 1a 12.000.000 unidades internacionais (44 microgramas)/0,5 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0277433<a name="BRObmCATMAT-BR0277433"> </a></td>
+<td>Betainterferona 1a 6.000.000 unidades internacionais (30 microgramas) solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0277319-1<a name="BRObmCATMAT-BR0277319-1"> </a></td>
+<td>Peróxido de Hidrogênio 3% solução</td></tr>
+<tr><td style="white-space:nowrap">BR0277319<a name="BRObmCATMAT-BR0277319"> </a></td>
+<td>Peróxido de Hidrogênio 3% solução</td></tr>
+<tr><td style="white-space:nowrap">BR0277184<a name="BRObmCATMAT-BR0277184"> </a></td>
+<td>Valganciclovir 450 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276966<a name="BRObmCATMAT-BR0276966"> </a></td>
+<td>Telmisartana 80 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276965<a name="BRObmCATMAT-BR0276965"> </a></td>
+<td>Telmisartana 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276961<a name="BRObmCATMAT-BR0276961"> </a></td>
+<td>Tizanidina 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276959<a name="BRObmCATMAT-BR0276959"> </a></td>
+<td>Alfatirotropina 1,1 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276948<a name="BRObmCATMAT-BR0276948"> </a></td>
+<td>Trazodona 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276871-4<a name="BRObmCATMAT-BR0276871-4"> </a></td>
+<td>Fluoruracila 50 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0276871-3<a name="BRObmCATMAT-BR0276871-3"> </a></td>
+<td>Fluoruracila 50 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0276871-2<a name="BRObmCATMAT-BR0276871-2"> </a></td>
+<td>Fluoruracila 50 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0276871-1<a name="BRObmCATMAT-BR0276871-1"> </a></td>
+<td>Fluoruracila 50 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0276867-1<a name="BRObmCATMAT-BR0276867-1"> </a></td>
+<td>Secnidazol 1 g comprimido e Tioconazol 20 mg/g + Tinidazol 30 mg/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0276867<a name="BRObmCATMAT-BR0276867"> </a></td>
+<td>Tioconazol 20 mg/g + Tinidazol 30 mg/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0276866<a name="BRObmCATMAT-BR0276866"> </a></td>
+<td>Tioconazol 10 mg/mL loção</td></tr>
+<tr><td style="white-space:nowrap">BR0276862<a name="BRObmCATMAT-BR0276862"> </a></td>
+<td>Tioconazol 65 mg/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0276856<a name="BRObmCATMAT-BR0276856"> </a></td>
+<td>Acetato de Noretisterona 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-9<a name="BRObmCATMAT-BR0276839-9"> </a></td>
+<td>Água para injeção 2 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-8<a name="BRObmCATMAT-BR0276839-8"> </a></td>
+<td>Água para injeção 100 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-7<a name="BRObmCATMAT-BR0276839-7"> </a></td>
+<td>Água para injeção 2 L; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-6<a name="BRObmCATMAT-BR0276839-6"> </a></td>
+<td>Água para injeção 1 L; bolsa</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-5<a name="BRObmCATMAT-BR0276839-5"> </a></td>
+<td>Água para injeção 250 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-4<a name="BRObmCATMAT-BR0276839-4"> </a></td>
+<td>Água para injeção 10 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-3<a name="BRObmCATMAT-BR0276839-3"> </a></td>
+<td>Água para injeção 500 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-2<a name="BRObmCATMAT-BR0276839-2"> </a></td>
+<td>Água para injeção 20 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-10<a name="BRObmCATMAT-BR0276839-10"> </a></td>
+<td>Água para injeção 4 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276839-1<a name="BRObmCATMAT-BR0276839-1"> </a></td>
+<td>Água para injeção 5 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276823<a name="BRObmCATMAT-BR0276823"> </a></td>
+<td>Anfotericina B Lipossomal 100 mg/20 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276774<a name="BRObmCATMAT-BR0276774"> </a></td>
+<td>Acetato de Sódio 20 mEq/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276670<a name="BRObmCATMAT-BR0276670"> </a></td>
+<td>Ioxitalamato de Meglumina 350 mg/mL solução para injeção 50 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276664<a name="BRObmCATMAT-BR0276664"> </a></td>
+<td>Iobitridol 300 mg/1 mL solução para injeção 50 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276658<a name="BRObmCATMAT-BR0276658"> </a></td>
+<td>Metoprolol 100 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276657<a name="BRObmCATMAT-BR0276657"> </a></td>
+<td>Metoprolol 50 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276656<a name="BRObmCATMAT-BR0276656"> </a></td>
+<td>Metoprolol 25 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276456<a name="BRObmCATMAT-BR0276456"> </a></td>
+<td>Silimarina 70 mg + Metionina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276393<a name="BRObmCATMAT-BR0276393"> </a></td>
+<td>Cetorolaco 50 mg/mL (5%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0276388E<a name="BRObmCATMAT-BR0276388E"> </a></td>
+<td>Galantamina 8 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276388<a name="BRObmCATMAT-BR0276388"> </a></td>
+<td>Galantamina 8 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276384<a name="BRObmCATMAT-BR0276384"> </a></td>
+<td>Budesonida 3 mg cápsula gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0276378<a name="BRObmCATMAT-BR0276378"> </a></td>
+<td>Cilostazol 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276377<a name="BRObmCATMAT-BR0276377"> </a></td>
+<td>Cilostazol 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276375<a name="BRObmCATMAT-BR0276375"> </a></td>
+<td>Diltiazem 300 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276374<a name="BRObmCATMAT-BR0276374"> </a></td>
+<td>Diltiazem 240 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0276336<a name="BRObmCATMAT-BR0276336"> </a></td>
+<td>Amitriptilina 12,5 mg + Clordiazepóxido 5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0276333<a name="BRObmCATMAT-BR0276333"> </a></td>
+<td>Amitriptilina 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276332<a name="BRObmCATMAT-BR0276332"> </a></td>
+<td>Picossulfato de Sódio 0,334 mg/mL + Óleo Mineral 282,25 mg/mL + Ágar-Ágar 2,72 mg/mL emulsão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0276283<a name="BRObmCATMAT-BR0276283"> </a></td>
+<td>Deslanosídeo 0,4 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276271<a name="BRObmCATMAT-BR0276271"> </a></td>
+<td>Montelucaste 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276270<a name="BRObmCATMAT-BR0276270"> </a></td>
+<td>Montelucaste 5 mg comprimido mastigável</td></tr>
+<tr><td style="white-space:nowrap">BR0276264<a name="BRObmCATMAT-BR0276264"> </a></td>
+<td>Anlodipino 5 mg + Ramipril 5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0276263<a name="BRObmCATMAT-BR0276263"> </a></td>
+<td>Anlodipino 2,5 mg + Ramipril 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276262<a name="BRObmCATMAT-BR0276262"> </a></td>
+<td>Ramipril 5 mg + Hidroclorotiazida 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276261<a name="BRObmCATMAT-BR0276261"> </a></td>
+<td>Ramipril 5 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276260<a name="BRObmCATMAT-BR0276260"> </a></td>
+<td>Ramipril 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276259<a name="BRObmCATMAT-BR0276259"> </a></td>
+<td>Ramipril 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276258<a name="BRObmCATMAT-BR0276258"> </a></td>
+<td>Ramipril 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0276235<a name="BRObmCATMAT-BR0276235"> </a></td>
+<td>Insulina Lispro Bifásica (25/75) 100 unidades/mL suspensão para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0276234-2<a name="BRObmCATMAT-BR0276234-2"> </a></td>
+<td>Insulina Asparte 100 unidades/mL solução para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0276234-1<a name="BRObmCATMAT-BR0276234-1"> </a></td>
+<td>Insulina Asparte 100 unidades/mL solução para injeção 10 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276233-2<a name="BRObmCATMAT-BR0276233-2"> </a></td>
+<td>Insulina Lispro 100 unidades/mL solução para injeção 10 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276233-1<a name="BRObmCATMAT-BR0276233-1"> </a></td>
+<td>Insulina Lispro 100 unidades/mL solução para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0276097<a name="BRObmCATMAT-BR0276097"> </a></td>
+<td>Bicarbonato de Sódio 10% solução para injeção 10 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0276095<a name="BRObmCATMAT-BR0276095"> </a></td>
+<td>Levotiroxina Sódica 200 microgramas comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275989-1<a name="BRObmCATMAT-BR0275989-1"> </a></td>
+<td>Saccharomyces boulardii 200 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0275989<a name="BRObmCATMAT-BR0275989"> </a></td>
+<td>Saccharomyces boulardii 200 mg pó para solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0275964<a name="BRObmCATMAT-BR0275964"> </a></td>
+<td>Finasterida 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275963<a name="BRObmCATMAT-BR0275963"> </a></td>
+<td>Finasterida 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275944<a name="BRObmCATMAT-BR0275944"> </a></td>
+<td>Rilmenidina 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275937<a name="BRObmCATMAT-BR0275937"> </a></td>
+<td>Racecadotrila 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275888<a name="BRObmCATMAT-BR0275888"> </a></td>
+<td>Colistina 150 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275884<a name="BRObmCATMAT-BR0275884"> </a></td>
+<td>Colistimetato de Sódio 1.000.000 unidades internacionais pó para solução; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275852-2<a name="BRObmCATMAT-BR0275852-2"> </a></td>
+<td>Pimecrolimo 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0275852-1<a name="BRObmCATMAT-BR0275852-1"> </a></td>
+<td>Pimecrolimo 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0275651<a name="BRObmCATMAT-BR0275651"> </a></td>
+<td>Alfacoriogonadotropina 6.500 unidades internacionais (250 microgramas)/0,5 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0275478<a name="BRObmCATMAT-BR0275478"> </a></td>
+<td>Periciazina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275476<a name="BRObmCATMAT-BR0275476"> </a></td>
+<td>Dipirona 750 mg/ 2 mL + Prometazina 25 mg/ 2 mL + Adifenina 25 mg/ 2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275475-3<a name="BRObmCATMAT-BR0275475-3"> </a></td>
+<td>Dipirona 500 mg + Prometazina 5 mg + Adifenina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275475-2<a name="BRObmCATMAT-BR0275475-2"> </a></td>
+<td>Dipirona 500 mg/1,5 mL + Prometazina 5 mg/1,5 mL + Adifenina 10 mg/1,5 mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0275475-1<a name="BRObmCATMAT-BR0275475-1"> </a></td>
+<td>Dipirona 500 mg/1,5 mL + Prometazina 5 mg/1,5 mL + Adifenina 10 mg/1,5 mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0275475<a name="BRObmCATMAT-BR0275475"> </a></td>
+<td>Dipirona 500 mg/1,5 mL + Prometazina 5 mg/1,5 mL + Adifenina 10 mg/1,5 mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0275440-3<a name="BRObmCATMAT-BR0275440-3"> </a></td>
+<td>Triancinolona Acetonida 100 mg/5 mL solução para injeção; frasco</td></tr>
+<tr><td style="white-space:nowrap">BR0275436<a name="BRObmCATMAT-BR0275436"> </a></td>
+<td>Sucralfato 1g comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275428-1<a name="BRObmCATMAT-BR0275428-1"> </a></td>
+<td>Acetato de Clostebol 5 mg/g + Neomicina 5 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0275428<a name="BRObmCATMAT-BR0275428"> </a></td>
+<td>Acetato de Clostebol 5 mg/g + Neomicina 5 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0275423<a name="BRObmCATMAT-BR0275423"> </a></td>
+<td>Alteplase 50 mg pó e diluente para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275422<a name="BRObmCATMAT-BR0275422"> </a></td>
+<td>Alteplase 400 mg/20 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275402<a name="BRObmCATMAT-BR0275402"> </a></td>
+<td>Lidocaína 200 mg/20 mL (1%) + Epinefrina 100 microgramas/20 mL (1:200.000) solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275124<a name="BRObmCATMAT-BR0275124"> </a></td>
+<td>Piracetam 800 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275123<a name="BRObmCATMAT-BR0275123"> </a></td>
+<td>Piracetam 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275122<a name="BRObmCATMAT-BR0275122"> </a></td>
+<td>Piracetam 60 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0275121<a name="BRObmCATMAT-BR0275121"> </a></td>
+<td>Piracetam 1 g/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0275119<a name="BRObmCATMAT-BR0275119"> </a></td>
+<td>Prednisolona 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275118<a name="BRObmCATMAT-BR0275118"> </a></td>
+<td>Prednisolona 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275117<a name="BRObmCATMAT-BR0275117"> </a></td>
+<td>Nitrendipino 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0275116-1<a name="BRObmCATMAT-BR0275116-1"> </a></td>
+<td>Nitrendipino 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274996-2<a name="BRObmCATMAT-BR0274996-2"> </a></td>
+<td>Ferripolimaltose 10 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0274996-1<a name="BRObmCATMAT-BR0274996-1"> </a></td>
+<td>Ferripolimaltose 10 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0274995-2<a name="BRObmCATMAT-BR0274995-2"> </a></td>
+<td>Ferripolimaltose 100 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0274995-1<a name="BRObmCATMAT-BR0274995-1"> </a></td>
+<td>Ferripolimaltose 100 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0274995<a name="BRObmCATMAT-BR0274995"> </a></td>
+<td>Ferripolimaltose 100 mg comprimido mastigável</td></tr>
+<tr><td style="white-space:nowrap">BR0274989<a name="BRObmCATMAT-BR0274989"> </a></td>
+<td>Hidróxido Férrico 100 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0274936<a name="BRObmCATMAT-BR0274936"> </a></td>
+<td>Triancinolona Acetonida 1 mg/g + Neomicina 2,5 mg/g + Gramicidina 0,25 mg/g + Nistatina 100.000 unidades internacionais/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0274922<a name="BRObmCATMAT-BR0274922"> </a></td>
+<td>Mesilato de Codergocrina 1 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0274921<a name="BRObmCATMAT-BR0274921"> </a></td>
+<td>Pindolol 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274918-2<a name="BRObmCATMAT-BR0274918-2"> </a></td>
+<td>Retinol 10.000 unidades internacionais/g + Aminoácidos 25 mg/g + Metionina 5 mg/g + Cloranfenicol 5 mg/g pomada oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0274918-1<a name="BRObmCATMAT-BR0274918-1"> </a></td>
+<td>Retinol 10.000 unidades internacionais/g + Aminoácidos 25 mg/g + Metionina 5 mg/g + Cloranfenicol 5 mg/g pomada oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0274811<a name="BRObmCATMAT-BR0274811"> </a></td>
+<td>Clonixinato de Lisina 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274808<a name="BRObmCATMAT-BR0274808"> </a></td>
+<td>Clortalidona 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274807<a name="BRObmCATMAT-BR0274807"> </a></td>
+<td>Betaistina 8 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274806<a name="BRObmCATMAT-BR0274806"> </a></td>
+<td>Acetilcisteína 600 mg granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0274704<a name="BRObmCATMAT-BR0274704"> </a></td>
+<td>Imatinibe 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274647<a name="BRObmCATMAT-BR0274647"> </a></td>
+<td>Sotalol 160 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274631-2<a name="BRObmCATMAT-BR0274631-2"> </a></td>
+<td>Montelucaste 4 mg granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0274631-1<a name="BRObmCATMAT-BR0274631-1"> </a></td>
+<td>Montelucaste 4 mg comprimido mastigável</td></tr>
+<tr><td style="white-space:nowrap">BR0274576<a name="BRObmCATMAT-BR0274576"> </a></td>
+<td>Di-hidroergocristina 6 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0274575<a name="BRObmCATMAT-BR0274575"> </a></td>
+<td>Bronfeniramina 12 mg + Fenilefrina 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274573<a name="BRObmCATMAT-BR0274573"> </a></td>
+<td>Fenilefrina 10 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0274561<a name="BRObmCATMAT-BR0274561"> </a></td>
+<td>Tropicamida 10 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0274527<a name="BRObmCATMAT-BR0274527"> </a></td>
+<td>Nitrofural 2mg/mL solução</td></tr>
+<tr><td style="white-space:nowrap">BR0274506<a name="BRObmCATMAT-BR0274506"> </a></td>
+<td>Candesartana 8 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274502-1<a name="BRObmCATMAT-BR0274502-1"> </a></td>
+<td>Cefaclor 50 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0274502<a name="BRObmCATMAT-BR0274502"> </a></td>
+<td>Cefaclor 50 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0274497<a name="BRObmCATMAT-BR0274497"> </a></td>
+<td>Clortalidona 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274482<a name="BRObmCATMAT-BR0274482"> </a></td>
+<td>Isoxsuprina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274467-2<a name="BRObmCATMAT-BR0274467-2"> </a></td>
+<td>Hialuronato de Sódio 25 mg/2,5 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0274467-1<a name="BRObmCATMAT-BR0274467-1"> </a></td>
+<td>Hialuronato de Sódio 20 mg/2 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0274438<a name="BRObmCATMAT-BR0274438"> </a></td>
+<td>Valsartana 80 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274393<a name="BRObmCATMAT-BR0274393"> </a></td>
+<td>Brometo de Ipratrópio 20 microgramas/dose + Salbutamol 100 microgramas/dose suspensão aerossol</td></tr>
+<tr><td style="white-space:nowrap">BR0274227<a name="BRObmCATMAT-BR0274227"> </a></td>
+<td>Sulfato de Glicosamina 500 mg + Sulfato de Condroitina 400 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0274226<a name="BRObmCATMAT-BR0274226"> </a></td>
+<td>Femprocumona 3 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274191-2<a name="BRObmCATMAT-BR0274191-2"> </a></td>
+<td>Brimonidina 1,5 mg/mL (0,15%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0274191-1<a name="BRObmCATMAT-BR0274191-1"> </a></td>
+<td>Brimonidina 1,5 mg/mL (0,15%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0274150<a name="BRObmCATMAT-BR0274150"> </a></td>
+<td>Nifedipino 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274149<a name="BRObmCATMAT-BR0274149"> </a></td>
+<td>Ertapeném 1 g pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0274115<a name="BRObmCATMAT-BR0274115"> </a></td>
+<td>Gelatina 3,5% solução para injeção 500 mL; frasco</td></tr>
+<tr><td style="white-space:nowrap">BR0274105<a name="BRObmCATMAT-BR0274105"> </a></td>
+<td>Penfluridol 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0274049-2<a name="BRObmCATMAT-BR0274049-2"> </a></td>
+<td>Propionato de Fluticasona 50 microgramas/dose suspensão spray</td></tr>
+<tr><td style="white-space:nowrap">BR0274049-1<a name="BRObmCATMAT-BR0274049-1"> </a></td>
+<td>Propionato de Fluticasona 50 microgramas/dose suspensão spray</td></tr>
+<tr><td style="white-space:nowrap">BR0274041<a name="BRObmCATMAT-BR0274041"> </a></td>
+<td>Piroxicam 5 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0274036-2<a name="BRObmCATMAT-BR0274036-2"> </a></td>
+<td>Piroxicam 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0274036-1<a name="BRObmCATMAT-BR0274036-1"> </a></td>
+<td>Piroxicam 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273953<a name="BRObmCATMAT-BR0273953"> </a></td>
+<td>Progesterona 100 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273952<a name="BRObmCATMAT-BR0273952"> </a></td>
+<td>Progesterona 200 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273944<a name="BRObmCATMAT-BR0273944"> </a></td>
+<td>Perindopril Erbumina 4 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273941<a name="BRObmCATMAT-BR0273941"> </a></td>
+<td>Paroxetina 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273940<a name="BRObmCATMAT-BR0273940"> </a></td>
+<td>Paroxetina 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273931<a name="BRObmCATMAT-BR0273931"> </a></td>
+<td>Orlistate 120 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273893<a name="BRObmCATMAT-BR0273893"> </a></td>
+<td>Budesonida 0,25 mg/mL suspensão para inalação 2 mL; frasco</td></tr>
+<tr><td style="white-space:nowrap">BR0273892-1<a name="BRObmCATMAT-BR0273892-1"> </a></td>
+<td>Budesonida 0,5 mg/mL suspensão para inalação 5 mL; frasco</td></tr>
+<tr><td style="white-space:nowrap">BR0273839<a name="BRObmCATMAT-BR0273839"> </a></td>
+<td>Sibutramina 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273838<a name="BRObmCATMAT-BR0273838"> </a></td>
+<td>Sibutramina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273836-2<a name="BRObmCATMAT-BR0273836-2"> </a></td>
+<td>Insulina Glargina 100 unidades/mL solução para injeção 10 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273836-1<a name="BRObmCATMAT-BR0273836-1"> </a></td>
+<td>Insulina Glargina 100 unidades/mL solução para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0273830<a name="BRObmCATMAT-BR0273830"> </a></td>
+<td>Citidina 2,5 mg + Uridina 1,5 mg + Hidroxocobalamina 1 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273824<a name="BRObmCATMAT-BR0273824"> </a></td>
+<td>Ácido Fólico 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273821E<a name="BRObmCATMAT-BR0273821E"> </a></td>
+<td>Sildenafila 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273821<a name="BRObmCATMAT-BR0273821"> </a></td>
+<td>Sildenafila 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273820E<a name="BRObmCATMAT-BR0273820E"> </a></td>
+<td>Sildenafila 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273820<a name="BRObmCATMAT-BR0273820"> </a></td>
+<td>Sildenafila 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273818<a name="BRObmCATMAT-BR0273818"> </a></td>
+<td>Diosmina 450 mg + Hesperidina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273810<a name="BRObmCATMAT-BR0273810"> </a></td>
+<td>Olanzapina 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273719<a name="BRObmCATMAT-BR0273719"> </a></td>
+<td>Nitroprusseto de Sódio 50 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273712<a name="BRObmCATMAT-BR0273712"> </a></td>
+<td>Nimesulida 10 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0273711<a name="BRObmCATMAT-BR0273711"> </a></td>
+<td>Nimesulida 50 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0273710<a name="BRObmCATMAT-BR0273710"> </a></td>
+<td>Nimesulida 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273706<a name="BRObmCATMAT-BR0273706"> </a></td>
+<td>Naratriptana 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273704<a name="BRObmCATMAT-BR0273704"> </a></td>
+<td>Naproxeno Sódico 275 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273703E<a name="BRObmCATMAT-BR0273703E"> </a></td>
+<td>Naproxeno 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273702E<a name="BRObmCATMAT-BR0273702E"> </a></td>
+<td>Naproxeno 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273700<a name="BRObmCATMAT-BR0273700"> </a></td>
+<td>Tiamazol 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273694<a name="BRObmCATMAT-BR0273694"> </a></td>
+<td>Metilcelulose 30 mg/1,5 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0273690<a name="BRObmCATMAT-BR0273690"> </a></td>
+<td>Metilcelulose 2% solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0273675-2<a name="BRObmCATMAT-BR0273675-2"> </a></td>
+<td>Metaraminol 100 mg/ 10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273675-1<a name="BRObmCATMAT-BR0273675-1"> </a></td>
+<td>Metaraminol 10 mg/ 1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273675<a name="BRObmCATMAT-BR0273675"> </a></td>
+<td>Metaraminol 10 mg/ 1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273668<a name="BRObmCATMAT-BR0273668"> </a></td>
+<td>Mesilato de Pralidoxima 200 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273664<a name="BRObmCATMAT-BR0273664"> </a></td>
+<td>Mesna 400 mg/4 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273642<a name="BRObmCATMAT-BR0273642"> </a></td>
+<td>Hidróxido de Alumínio 200 mg + Hidróxido de Magnésio 200 mg comprimido mastigável</td></tr>
+<tr><td style="white-space:nowrap">BR0273626<a name="BRObmCATMAT-BR0273626"> </a></td>
+<td>Fenobarbital 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273621<a name="BRObmCATMAT-BR0273621"> </a></td>
+<td>Sulfato Ferroso 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273619<a name="BRObmCATMAT-BR0273619"> </a></td>
+<td>Teclozana 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273618<a name="BRObmCATMAT-BR0273618"> </a></td>
+<td>Teclozana 10 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0273599<a name="BRObmCATMAT-BR0273599"> </a></td>
+<td>Terbinafina 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273598<a name="BRObmCATMAT-BR0273598"> </a></td>
+<td>Tioridazina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273597<a name="BRObmCATMAT-BR0273597"> </a></td>
+<td>Tioridazina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273596<a name="BRObmCATMAT-BR0273596"> </a></td>
+<td>Tioridazina 200 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0273589<a name="BRObmCATMAT-BR0273589"> </a></td>
+<td>Propiltiouracila 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273579<a name="BRObmCATMAT-BR0273579"> </a></td>
+<td>Cloridrato de Difenidramina 1,5 mg/mL + Paracetamol 12 mg/mL + Pseudoefedrina 1,5 mg/mL + Dropropizina 1,5 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0273557<a name="BRObmCATMAT-BR0273557"> </a></td>
+<td>Ocitocina 5 unidades internacionais/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273555<a name="BRObmCATMAT-BR0273555"> </a></td>
+<td>Meloxicam 15 mg/1,5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273554<a name="BRObmCATMAT-BR0273554"> </a></td>
+<td>Meloxicam 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273553<a name="BRObmCATMAT-BR0273553"> </a></td>
+<td>Meloxicam 7,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273484<a name="BRObmCATMAT-BR0273484"> </a></td>
+<td>Mometasona 1 mg/g (0,1%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0273483<a name="BRObmCATMAT-BR0273483"> </a></td>
+<td>Mitotano 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273479<a name="BRObmCATMAT-BR0273479"> </a></td>
+<td>Minoxidil 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273474<a name="BRObmCATMAT-BR0273474"> </a></td>
+<td>Milrinona 10 mg/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273473<a name="BRObmCATMAT-BR0273473"> </a></td>
+<td>Lorazepam 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273472<a name="BRObmCATMAT-BR0273472"> </a></td>
+<td>Lorazepam 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273471<a name="BRObmCATMAT-BR0273471"> </a></td>
+<td>Loratadina 1 mg/mL + Pseudoefedrina 12 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0273470<a name="BRObmCATMAT-BR0273470"> </a></td>
+<td>Loratadina 5 mg + Pseudoefedrina 120 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273469<a name="BRObmCATMAT-BR0273469"> </a></td>
+<td>Loratadina 10 mg + Pseudoefedrina 240 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273467-2<a name="BRObmCATMAT-BR0273467-2"> </a></td>
+<td>Loratadina 1 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0273467-1<a name="BRObmCATMAT-BR0273467-1"> </a></td>
+<td>Loratadina 1 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0273467<a name="BRObmCATMAT-BR0273467"> </a></td>
+<td>Loratadina 1 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0273466<a name="BRObmCATMAT-BR0273466"> </a></td>
+<td>Loratadina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273457<a name="BRObmCATMAT-BR0273457"> </a></td>
+<td>Neostigmina 0,5 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273455<a name="BRObmCATMAT-BR0273455"> </a></td>
+<td>Mupirocina 20 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0273450<a name="BRObmCATMAT-BR0273450"> </a></td>
+<td>Moxifloxacino 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273434<a name="BRObmCATMAT-BR0273434"> </a></td>
+<td>Sorbitol 2,7% + Manitol 0,54% solução para irrigação 1 L; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273413<a name="BRObmCATMAT-BR0273413"> </a></td>
+<td>Linezolida 600 mg/300 mL solução para injeção; frasco</td></tr>
+<tr><td style="white-space:nowrap">BR0273412<a name="BRObmCATMAT-BR0273412"> </a></td>
+<td>Linezolida 600 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273407<a name="BRObmCATMAT-BR0273407"> </a></td>
+<td>Letrozol 2,5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273404<a name="BRObmCATMAT-BR0273404"> </a></td>
+<td>Mononitrato de Isossorbida 10 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273403<a name="BRObmCATMAT-BR0273403"> </a></td>
+<td>Mononitrato de Isossorbida 50 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0273402<a name="BRObmCATMAT-BR0273402"> </a></td>
+<td>Mononitrato de Isossorbida 5 mg comprimido sublingual</td></tr>
+<tr><td style="white-space:nowrap">BR0273401<a name="BRObmCATMAT-BR0273401"> </a></td>
+<td>Mononitrato de Isossorbida 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273400<a name="BRObmCATMAT-BR0273400"> </a></td>
+<td>Mononitrato de Isossorbida 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273396<a name="BRObmCATMAT-BR0273396"> </a></td>
+<td>Dinitrato de Isossorbida 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273395<a name="BRObmCATMAT-BR0273395"> </a></td>
+<td>Dinitrato de Isossorbida 5 mg comprimido sublingual</td></tr>
+<tr><td style="white-space:nowrap">BR0273390<a name="BRObmCATMAT-BR0273390"> </a></td>
+<td>Irbesartana 300 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273389<a name="BRObmCATMAT-BR0273389"> </a></td>
+<td>Irbesartana 150 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273388<a name="BRObmCATMAT-BR0273388"> </a></td>
+<td>Irbesartana 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273387<a name="BRObmCATMAT-BR0273387"> </a></td>
+<td>Irbesartana 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273328<a name="BRObmCATMAT-BR0273328"> </a></td>
+<td>Ivermectina 6 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273320<a name="BRObmCATMAT-BR0273320"> </a></td>
+<td>Indometacina 50 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273319<a name="BRObmCATMAT-BR0273319"> </a></td>
+<td>Indometacina 25 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273317<a name="BRObmCATMAT-BR0273317"> </a></td>
+<td>Imatinibe 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273314<a name="BRObmCATMAT-BR0273314"> </a></td>
+<td>Cianocobalamina 5 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273311<a name="BRObmCATMAT-BR0273311"> </a></td>
+<td>Hidroxizina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273310<a name="BRObmCATMAT-BR0273310"> </a></td>
+<td>Hidroxizina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273266<a name="BRObmCATMAT-BR0273266"> </a></td>
+<td>Naltrexona 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273264<a name="BRObmCATMAT-BR0273264"> </a></td>
+<td>Loperamida 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273258E<a name="BRObmCATMAT-BR0273258E"> </a></td>
+<td>Pamidronato Dissódico 90 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273258<a name="BRObmCATMAT-BR0273258"> </a></td>
+<td>Pamidronato Dissódico 90 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0273257<a name="BRObmCATMAT-BR0273257"> </a></td>
+<td>Oxcarbazepina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273256<a name="BRObmCATMAT-BR0273256"> </a></td>
+<td>Oxcarbazepina 600 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273255<a name="BRObmCATMAT-BR0273255"> </a></td>
+<td>Oxcarbazepina 60 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0273221<a name="BRObmCATMAT-BR0273221"> </a></td>
+<td>Memantina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273195<a name="BRObmCATMAT-BR0273195"> </a></td>
+<td>Temozolomida 100 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273194<a name="BRObmCATMAT-BR0273194"> </a></td>
+<td>Temozolomida 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273193<a name="BRObmCATMAT-BR0273193"> </a></td>
+<td>Temozolomida 5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273192<a name="BRObmCATMAT-BR0273192"> </a></td>
+<td>Temozolomida 250 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0273167-4<a name="BRObmCATMAT-BR0273167-4"> </a></td>
+<td>Neomicina 5 mg/g + Bacitracina 250 unidades internacionais/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0273167-3<a name="BRObmCATMAT-BR0273167-3"> </a></td>
+<td>Neomicina 5 mg/g + Bacitracina 250 unidades internacionais/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0273167-2<a name="BRObmCATMAT-BR0273167-2"> </a></td>
+<td>Neomicina 5 mg/g + Bacitracina 250 unidades internacionais/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0273167-1<a name="BRObmCATMAT-BR0273167-1"> </a></td>
+<td>Neomicina 5 mg/g + Bacitracina 250 unidades internacionais/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0273166<a name="BRObmCATMAT-BR0273166"> </a></td>
+<td>Neomicina 3,5 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0273150<a name="BRObmCATMAT-BR0273150"> </a></td>
+<td>Deflazacorte 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273149<a name="BRObmCATMAT-BR0273149"> </a></td>
+<td>Deflazacorte 7,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273148<a name="BRObmCATMAT-BR0273148"> </a></td>
+<td>Deflazacorte 6 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273140<a name="BRObmCATMAT-BR0273140"> </a></td>
+<td>Verapamil 240 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0273137<a name="BRObmCATMAT-BR0273137"> </a></td>
+<td>Diclofenaco Sódico 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273132<a name="BRObmCATMAT-BR0273132"> </a></td>
+<td>Cloridrato de Difenidramina 10 mg/mL + Calamina 80 mg/mL + Cânfora 1 mg/mL loção</td></tr>
+<tr><td style="white-space:nowrap">BR0273121<a name="BRObmCATMAT-BR0273121"> </a></td>
+<td>Glimepirida 4 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273120<a name="BRObmCATMAT-BR0273120"> </a></td>
+<td>Glimepirida 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273119<a name="BRObmCATMAT-BR0273119"> </a></td>
+<td>Glimepirida 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273116<a name="BRObmCATMAT-BR0273116"> </a></td>
+<td>Gliclazida 30 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0273115<a name="BRObmCATMAT-BR0273115"> </a></td>
+<td>Gliclazida 80 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273112<a name="BRObmCATMAT-BR0273112"> </a></td>
+<td>Griseofulvina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273011<a name="BRObmCATMAT-BR0273011"> </a></td>
+<td>Flurazepam 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273009-2<a name="BRObmCATMAT-BR0273009-2"> </a></td>
+<td>Fluoxetina 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0273009-1<a name="BRObmCATMAT-BR0273009-1"> </a></td>
+<td>Fluoxetina 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272996<a name="BRObmCATMAT-BR0272996"> </a></td>
+<td>Famotidina 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272980<a name="BRObmCATMAT-BR0272980"> </a></td>
+<td>Fenazopiridina 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272979<a name="BRObmCATMAT-BR0272979"> </a></td>
+<td>Fenazopiridina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272974<a name="BRObmCATMAT-BR0272974"> </a></td>
+<td>Fenoximetilpenicilina Potássica 1.200.000 unidades internacionais solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272972<a name="BRObmCATMAT-BR0272972"> </a></td>
+<td>Fenoximetilpenicilina Potássica 80.000 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272971<a name="BRObmCATMAT-BR0272971"> </a></td>
+<td>Fenoximetilpenicilina Potássica 500.000 unidades internacionais comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272948<a name="BRObmCATMAT-BR0272948"> </a></td>
+<td>Fluoresceína 10% solução para injeção 5 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272945<a name="BRObmCATMAT-BR0272945"> </a></td>
+<td>Fluoresceína 2% solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272944<a name="BRObmCATMAT-BR0272944"> </a></td>
+<td>Fluoresceína 1% solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272931<a name="BRObmCATMAT-BR0272931"> </a></td>
+<td>Flunitrazepam 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272903<a name="BRObmCATMAT-BR0272903"> </a></td>
+<td>Citalopram 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272902E<a name="BRObmCATMAT-BR0272902E"> </a></td>
+<td>Clobazam 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272902<a name="BRObmCATMAT-BR0272902"> </a></td>
+<td>Clobazam 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272901E<a name="BRObmCATMAT-BR0272901E"> </a></td>
+<td>Clobazam 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272901<a name="BRObmCATMAT-BR0272901"> </a></td>
+<td>Clobazam 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272896<a name="BRObmCATMAT-BR0272896"> </a></td>
+<td>Dexclorfeniramina 0,4 mg/mL + Betametasona 0,05 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0272853E<a name="BRObmCATMAT-BR0272853E"> </a></td>
+<td>Vigabatrina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272853<a name="BRObmCATMAT-BR0272853"> </a></td>
+<td>Vigabatrina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272852E<a name="BRObmCATMAT-BR0272852E"> </a></td>
+<td>Triexifenidil 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272852<a name="BRObmCATMAT-BR0272852"> </a></td>
+<td>Triexifenidil 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272851E<a name="BRObmCATMAT-BR0272851E"> </a></td>
+<td>Topiramato 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272851<a name="BRObmCATMAT-BR0272851"> </a></td>
+<td>Topiramato 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272850E<a name="BRObmCATMAT-BR0272850E"> </a></td>
+<td>Topiramato 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272850<a name="BRObmCATMAT-BR0272850"> </a></td>
+<td>Topiramato 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272849E<a name="BRObmCATMAT-BR0272849E"> </a></td>
+<td>Topiramato 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272849<a name="BRObmCATMAT-BR0272849"> </a></td>
+<td>Topiramato 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272848<a name="BRObmCATMAT-BR0272848"> </a></td>
+<td>Tolcapona 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272847E<a name="BRObmCATMAT-BR0272847E"> </a></td>
+<td>Tolcapona 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272846<a name="BRObmCATMAT-BR0272846"> </a></td>
+<td>Talidomida 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272843<a name="BRObmCATMAT-BR0272843"> </a></td>
+<td>Sinvastatina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272839E<a name="BRObmCATMAT-BR0272839E"> </a></td>
+<td>Risperidona 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272839<a name="BRObmCATMAT-BR0272839"> </a></td>
+<td>Risperidona 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272838E<a name="BRObmCATMAT-BR0272838E"> </a></td>
+<td>Riluzol 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272838<a name="BRObmCATMAT-BR0272838"> </a></td>
+<td>Riluzol 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272837<a name="BRObmCATMAT-BR0272837"> </a></td>
+<td>Rifampicina 300 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0392113<a name="BRObmCATMAT-BR0392113"> </a></td>
+<td>Risperidona 0,25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272835E<a name="BRObmCATMAT-BR0272835E"> </a></td>
+<td>Ribavirina 250 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0392111<a name="BRObmCATMAT-BR0392111"> </a></td>
+<td>Pregabalina 150 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272835<a name="BRObmCATMAT-BR0272835"> </a></td>
+<td>Ribavirina 250 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0391938<a name="BRObmCATMAT-BR0391938"> </a></td>
+<td>Colecalciferol 3.300 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272834E<a name="BRObmCATMAT-BR0272834E"> </a></td>
+<td>Raloxifeno 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0391336E<a name="BRObmCATMAT-BR0391336E"> </a></td>
+<td>Alfataliglicerase 200 unidades pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272834<a name="BRObmCATMAT-BR0272834"> </a></td>
+<td>Raloxifeno 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0391336<a name="BRObmCATMAT-BR0391336"> </a></td>
+<td>Alfataliglicerase 200 unidades pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272833E<a name="BRObmCATMAT-BR0272833E"> </a></td>
+<td>Quetiapina 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0391324<a name="BRObmCATMAT-BR0391324"> </a></td>
+<td>Hidroquinona 40 mg/g + Tretinoína 0,5 mg/g + Fluocinolona Acetonida 0,1 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0272833<a name="BRObmCATMAT-BR0272833"> </a></td>
+<td>Quetiapina 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390643<a name="BRObmCATMAT-BR0390643"> </a></td>
+<td>Tensirolimo 30 mg/1,2 mL solução e diluente para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272832E<a name="BRObmCATMAT-BR0272832E"> </a></td>
+<td>Quetiapina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272832<a name="BRObmCATMAT-BR0272832"> </a></td>
+<td>Quetiapina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390598-3<a name="BRObmCATMAT-BR0390598-3"> </a></td>
+<td>Fator VIII (Recombinante) 1.000 unidades internacionais pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0390598-2<a name="BRObmCATMAT-BR0390598-2"> </a></td>
+<td>Fator VIII (Recombinante) 500 unidades internacionais pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272831E<a name="BRObmCATMAT-BR0272831E"> </a></td>
+<td>Quetiapina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390598-1<a name="BRObmCATMAT-BR0390598-1"> </a></td>
+<td>Fator VIII (Recombinante) 250 unidades internacionais pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272831<a name="BRObmCATMAT-BR0272831"> </a></td>
+<td>Quetiapina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272828<a name="BRObmCATMAT-BR0272828"> </a></td>
+<td>Primaquina 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390441-2<a name="BRObmCATMAT-BR0390441-2"> </a></td>
+<td>Carbômer 3 mg/g (0,3%) gel oftálmico</td></tr>
+<tr><td style="white-space:nowrap">BR0272827<a name="BRObmCATMAT-BR0272827"> </a></td>
+<td>Primaquina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390441-1<a name="BRObmCATMAT-BR0390441-1"> </a></td>
+<td>Carbômer 3 mg/g (0,3%) gel oftálmico</td></tr>
+<tr><td style="white-space:nowrap">BR0272826E<a name="BRObmCATMAT-BR0272826E"> </a></td>
+<td>Pramipexol 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390440-2<a name="BRObmCATMAT-BR0390440-2"> </a></td>
+<td>Exenatida 600 microgramas/2,4 mL solução para injeção; dispositivo para injeção</td></tr>
+<tr><td style="white-space:nowrap">BR0272826<a name="BRObmCATMAT-BR0272826"> </a></td>
+<td>Pramipexol 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390440-1<a name="BRObmCATMAT-BR0390440-1"> </a></td>
+<td>Exenatida 300 microgramas/1,2 mL solução para injeção; dispositivo para injeção</td></tr>
+<tr><td style="white-space:nowrap">BR0272825E<a name="BRObmCATMAT-BR0272825E"> </a></td>
+<td>Pramipexol 0,25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390354<a name="BRObmCATMAT-BR0390354"> </a></td>
+<td>Fosamprenavir 50 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272825<a name="BRObmCATMAT-BR0272825"> </a></td>
+<td>Pramipexol 0,25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390333<a name="BRObmCATMAT-BR0390333"> </a></td>
+<td>Tipranavir 100 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272824E<a name="BRObmCATMAT-BR0272824E"> </a></td>
+<td>Pramipexol 0,125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390008-4<a name="BRObmCATMAT-BR0390008-4"> </a></td>
+<td>Cetuximabe 500 mg/10 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272824<a name="BRObmCATMAT-BR0272824"> </a></td>
+<td>Pramipexol 0,125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390008-2<a name="BRObmCATMAT-BR0390008-2"> </a></td>
+<td>Cetuximabe 100 mg/20 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272822<a name="BRObmCATMAT-BR0272822"> </a></td>
+<td>Pirazinamida 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390008-1<a name="BRObmCATMAT-BR0390008-1"> </a></td>
+<td>Cetuximabe 50 mg/10 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272817<a name="BRObmCATMAT-BR0272817"> </a></td>
+<td>Midazolam 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390007<a name="BRObmCATMAT-BR0390007"> </a></td>
+<td>Quetiapina 200 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272815E<a name="BRObmCATMAT-BR0272815E"> </a></td>
+<td>Penicilamina 250 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0390006E<a name="BRObmCATMAT-BR0390006E"> </a></td>
+<td>Quetiapina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272815<a name="BRObmCATMAT-BR0272815"> </a></td>
+<td>Penicilamina 250 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0390006<a name="BRObmCATMAT-BR0390006"> </a></td>
+<td>Quetiapina 300 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272809E<a name="BRObmCATMAT-BR0272809E"> </a></td>
+<td>Lamotrigina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0390005<a name="BRObmCATMAT-BR0390005"> </a></td>
+<td>Quetiapina 50 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272809<a name="BRObmCATMAT-BR0272809"> </a></td>
+<td>Lamotrigina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0389957-2<a name="BRObmCATMAT-BR0389957-2"> </a></td>
+<td>Dipirona 300 mg/mL + Escopolamina 6,5 microgramas/mL + Hiosciamina 104 microgramas/mL + Homatropina 1 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272808E<a name="BRObmCATMAT-BR0272808E"> </a></td>
+<td>Isotretinoína 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0389957-1<a name="BRObmCATMAT-BR0389957-1"> </a></td>
+<td>Dipirona 300 mg + Escopolamina 6,5 microgramas + Hiosciamina 104 microgramas + Homatropina 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272808<a name="BRObmCATMAT-BR0272808"> </a></td>
+<td>Isotretinoína 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0389863-1<a name="BRObmCATMAT-BR0389863-1"> </a></td>
+<td>Sugamadex 500 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272807E<a name="BRObmCATMAT-BR0272807E"> </a></td>
+<td>Isotretinoína 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0389863<a name="BRObmCATMAT-BR0389863"> </a></td>
+<td>Sugamadex 200 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272807<a name="BRObmCATMAT-BR0272807"> </a></td>
+<td>Isotretinoína 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0389802<a name="BRObmCATMAT-BR0389802"> </a></td>
+<td>Gestodeno 0,06 mg + Etinilestradiol 0,015 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272796<a name="BRObmCATMAT-BR0272796"> </a></td>
+<td>Heparina Sódica 25.000 unidades internacionais/5 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0389710<a name="BRObmCATMAT-BR0389710"> </a></td>
+<td>Adapaleno 3 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0272793E<a name="BRObmCATMAT-BR0272793E"> </a></td>
+<td>Fludrocortisona 0,1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0389637-2<a name="BRObmCATMAT-BR0389637-2"> </a></td>
+<td>Fexofenadina 6 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272793<a name="BRObmCATMAT-BR0272793"> </a></td>
+<td>Fludrocortisona 0,1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0389637-1<a name="BRObmCATMAT-BR0389637-1"> </a></td>
+<td>Fexofenadina 6 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272792E<a name="BRObmCATMAT-BR0272792E"> </a></td>
+<td>Etossuximida 50 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0389480<a name="BRObmCATMAT-BR0389480"> </a></td>
+<td>Tobramicina 60 mg/mL solução para inalação 5 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272792<a name="BRObmCATMAT-BR0272792"> </a></td>
+<td>Etossuximida 50 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0389398<a name="BRObmCATMAT-BR0389398"> </a></td>
+<td>Trióxido de Arsênio 10 mg/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272791<a name="BRObmCATMAT-BR0272791"> </a></td>
+<td>Etossuximida 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388866<a name="BRObmCATMAT-BR0388866"> </a></td>
+<td>Alentuzumabe 30 mg/ 1 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272790<a name="BRObmCATMAT-BR0272790"> </a></td>
+<td>Etionamida 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388797<a name="BRObmCATMAT-BR0388797"> </a></td>
+<td>Metformina 750 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272789U0042<a name="BRObmCATMAT-BR0272789U0042"> </a></td>
+<td>Levonorgestrel 0,15 mg + Etinilestradiol 0,03 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388796<a name="BRObmCATMAT-BR0388796"> </a></td>
+<td>Metformina 500 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272787E<a name="BRObmCATMAT-BR0272787E"> </a></td>
+<td>Alfadornase 1 mg/mL solução para inalação 2,5 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0388712<a name="BRObmCATMAT-BR0388712"> </a></td>
+<td>Pregabalina 75 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272787<a name="BRObmCATMAT-BR0272787"> </a></td>
+<td>Alfadornase 1 mg/mL solução para inalação 2,5 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0388569<a name="BRObmCATMAT-BR0388569"> </a></td>
+<td>Ácido Ibandrônico 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272786E<a name="BRObmCATMAT-BR0272786E"> </a></td>
+<td>Donepezila 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388556<a name="BRObmCATMAT-BR0388556"> </a></td>
+<td>Ornitina 3 g granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272786<a name="BRObmCATMAT-BR0272786"> </a></td>
+<td>Donepezila 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388555<a name="BRObmCATMAT-BR0388555"> </a></td>
+<td>Aspartato de Ornitina 5 g/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272785E<a name="BRObmCATMAT-BR0272785E"> </a></td>
+<td>Donepezila 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388403<a name="BRObmCATMAT-BR0388403"> </a></td>
+<td>Glimepirida 3 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272785<a name="BRObmCATMAT-BR0272785"> </a></td>
+<td>Donepezila 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388402<a name="BRObmCATMAT-BR0388402"> </a></td>
+<td>Olmesartana Medoxomila 40 mg + Anlodipino 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272784E<a name="BRObmCATMAT-BR0272784E"> </a></td>
+<td>Codeína 3 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0388401<a name="BRObmCATMAT-BR0388401"> </a></td>
+<td>Olmesartana Medoxomila 40 mg + Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272784<a name="BRObmCATMAT-BR0272784"> </a></td>
+<td>Codeína 3 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0388399<a name="BRObmCATMAT-BR0388399"> </a></td>
+<td>Olmesartana Medoxomila 20 mg + Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272782E<a name="BRObmCATMAT-BR0272782E"> </a></td>
+<td>Codeína 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388392<a name="BRObmCATMAT-BR0388392"> </a></td>
+<td>Rosuvastatina 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272782<a name="BRObmCATMAT-BR0272782"> </a></td>
+<td>Codeína 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388387<a name="BRObmCATMAT-BR0388387"> </a></td>
+<td>Levodopa 50 + Carbidopa 12,5 mg + Entacapona 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272780E<a name="BRObmCATMAT-BR0272780E"> </a></td>
+<td>Cloroquina 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0388383E<a name="BRObmCATMAT-BR0388383E"> </a></td>
+<td>Tocilizumabe 80 mg/4 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272780<a name="BRObmCATMAT-BR0272780"> </a></td>
+<td>Cloroquina 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272737<a name="BRObmCATMAT-BR0272737"> </a></td>
+<td>Antimoniato de Meglumina 300 mg/mL solução para injeção 5 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0388383-2<a name="BRObmCATMAT-BR0388383-2"> </a></td>
+<td>Tocilizumabe 200 mg/10 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272690<a name="BRObmCATMAT-BR0272690"> </a></td>
+<td>Nandrolona 50 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0388383-1<a name="BRObmCATMAT-BR0388383-1"> </a></td>
+<td>Tocilizumabe 80 mg/4 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272689<a name="BRObmCATMAT-BR0272689"> </a></td>
+<td>Nandrolona 25 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0387985<a name="BRObmCATMAT-BR0387985"> </a></td>
+<td>Zuclopentixol 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272653E<a name="BRObmCATMAT-BR0272653E"> </a></td>
+<td>Entacapona 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0387983<a name="BRObmCATMAT-BR0387983"> </a></td>
+<td>Risperidona 50 mg pó e diluente para suspensão para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272653<a name="BRObmCATMAT-BR0272653"> </a></td>
+<td>Entacapona 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0387982<a name="BRObmCATMAT-BR0387982"> </a></td>
+<td>Risperidona 37,5 mg pó e diluente para suspensão para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272645<a name="BRObmCATMAT-BR0272645"> </a></td>
+<td>Enoxaparina Sódica 40 mg/0,4 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0272644<a name="BRObmCATMAT-BR0272644"> </a></td>
+<td>Enoxaparina Sódica 20 mg/0,2 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0387981<a name="BRObmCATMAT-BR0387981"> </a></td>
+<td>Risperidona 25 mg pó e diluente para suspensão para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272636<a name="BRObmCATMAT-BR0272636"> </a></td>
+<td>Enflurano líquido para inalação 100 mL</td></tr>
+<tr><td style="white-space:nowrap">BR0387628<a name="BRObmCATMAT-BR0387628"> </a></td>
+<td>Arginina 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272603-1<a name="BRObmCATMAT-BR0272603-1"> </a></td>
+<td>Dropropizina 1,5 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0387438<a name="BRObmCATMAT-BR0387438"> </a></td>
+<td>Cafeína 5 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0272603<a name="BRObmCATMAT-BR0272603"> </a></td>
+<td>Dropropizina 1,5 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0387341E<a name="BRObmCATMAT-BR0387341E"> </a></td>
+<td>Formoterol 6 microgramas + Budesonida 200 microgramas cápsula para inalação</td></tr>
+<tr><td style="white-space:nowrap">BR0272602-3<a name="BRObmCATMAT-BR0272602-3"> </a></td>
+<td>Dropropizina 3 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0387341<a name="BRObmCATMAT-BR0387341"> </a></td>
+<td>Formoterol 6 microgramas + Budesonida 200 microgramas cápsula para inalação</td></tr>
+<tr><td style="white-space:nowrap">BR0272602<a name="BRObmCATMAT-BR0272602"> </a></td>
+<td>Dropropizina 3 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR038719<a name="BRObmCATMAT-BR038719"> </a></td>
+<td>Acitretina 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272589<a name="BRObmCATMAT-BR0272589"> </a></td>
+<td>Divalproato de sódio 500 mg comprimido gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0386959<a name="BRObmCATMAT-BR0386959"> </a></td>
+<td>Paracetamol 32 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272588<a name="BRObmCATMAT-BR0272588"> </a></td>
+<td>Divalproato de sódio 250 mg comprimido gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0386846<a name="BRObmCATMAT-BR0386846"> </a></td>
+<td>Policarbofila 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272587<a name="BRObmCATMAT-BR0272587"> </a></td>
+<td>Dissulfiram 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0386482<a name="BRObmCATMAT-BR0386482"> </a></td>
+<td>Fosfato de Cálcio Tribásico 1.661 g (Cálcio 600 mg) + Colecalciferol 400 unidades internacionais comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272585<a name="BRObmCATMAT-BR0272585"> </a></td>
+<td>Decanoato de Zuclopentixol 200 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0386396<a name="BRObmCATMAT-BR0386396"> </a></td>
+<td>Amoxicilina 80 mg/mL + Ácido Clavulânico 11,4 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272582U0106<a name="BRObmCATMAT-BR0272582U0106"> </a></td>
+<td>Timolol 2,5 mg/mL (0,25%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0386041<a name="BRObmCATMAT-BR0386041"> </a></td>
+<td>Hidroxicloroquina 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272581U0106<a name="BRObmCATMAT-BR0272581U0106"> </a></td>
+<td>Timolol 5 mg/mL (0,5%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0386026<a name="BRObmCATMAT-BR0386026"> </a></td>
+<td>Ácido Folínico 0,5 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0385450<a name="BRObmCATMAT-BR0385450"> </a></td>
+<td>Hidroquinona 40 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0272581<a name="BRObmCATMAT-BR0272581"> </a></td>
+<td>Timolol 5 mg/mL (0,5%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0385446<a name="BRObmCATMAT-BR0385446"> </a></td>
+<td>Betametasona 0,5 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272580E<a name="BRObmCATMAT-BR0272580E"> </a></td>
+<td>Dorzolamida 20 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0385436<a name="BRObmCATMAT-BR0385436"> </a></td>
+<td>Betametasona 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272580<a name="BRObmCATMAT-BR0272580"> </a></td>
+<td>Dorzolamida 20 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0385435<a name="BRObmCATMAT-BR0385435"> </a></td>
+<td>Betametasona 0,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272579<a name="BRObmCATMAT-BR0272579"> </a></td>
+<td>Dorzolamida 20 mg/mL + Timolol 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0385153<a name="BRObmCATMAT-BR0385153"> </a></td>
+<td>Trometamol Cetorolaco 10 mg comprimido sublingual</td></tr>
+<tr><td style="white-space:nowrap">BR0272573<a name="BRObmCATMAT-BR0272573"> </a></td>
+<td>Buspirona 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0384894<a name="BRObmCATMAT-BR0384894"> </a></td>
+<td>Propafenona 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272572<a name="BRObmCATMAT-BR0272572"> </a></td>
+<td>Buspirona 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0384830<a name="BRObmCATMAT-BR0384830"> </a></td>
+<td>Ácido Tranexâmico 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272568-2<a name="BRObmCATMAT-BR0272568-2"> </a></td>
+<td>Retinol 50.000 unidades internacionais/mL + Colecalciferol 10.000 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0384537-2<a name="BRObmCATMAT-BR0384537-2"> </a></td>
+<td>Peróxido de Benzoíla 25 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0272568<a name="BRObmCATMAT-BR0272568"> </a></td>
+<td>Retinol 50.000 unidades internacionais/mL + Colecalciferol 10.000 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0384537<a name="BRObmCATMAT-BR0384537"> </a></td>
+<td>Peróxido de Benzoíla 25 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0272567<a name="BRObmCATMAT-BR0272567"> </a></td>
+<td>Retinol 5.500 unidades internacionais/mL + Colecalciferol 2.200 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0384467<a name="BRObmCATMAT-BR0384467"> </a></td>
+<td>Nepafenaco 1 mg/mL suspensão oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272565<a name="BRObmCATMAT-BR0272565"> </a></td>
+<td>Retinol 150.000 unidades internacionais/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0384298<a name="BRObmCATMAT-BR0384298"> </a></td>
+<td>Hidrocortisona 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272525<a name="BRObmCATMAT-BR0272525"> </a></td>
+<td>Dipiridamol 10 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0384297<a name="BRObmCATMAT-BR0384297"> </a></td>
+<td>Mercaptamina 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272490<a name="BRObmCATMAT-BR0272490"> </a></td>
+<td>Dietilestilbestrol 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383791<a name="BRObmCATMAT-BR0383791"> </a></td>
+<td>Ácido Alendrônico 70 mg + Colecalciferol 2.800 unidades internacionais comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272489<a name="BRObmCATMAT-BR0272489"> </a></td>
+<td>Citrato de Dietilcarbamazina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383790<a name="BRObmCATMAT-BR0383790"> </a></td>
+<td>Vinorelbina 30 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272488<a name="BRObmCATMAT-BR0272488"> </a></td>
+<td>Didanosina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383788<a name="BRObmCATMAT-BR0383788"> </a></td>
+<td>Vinorelbina 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272487<a name="BRObmCATMAT-BR0272487"> </a></td>
+<td>Didanosina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383786-1<a name="BRObmCATMAT-BR0383786-1"> </a></td>
+<td>Vinorelbina 50 mg/5 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272482<a name="BRObmCATMAT-BR0272482"> </a></td>
+<td>Zuclopentixol 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383786<a name="BRObmCATMAT-BR0383786"> </a></td>
+<td>Vinorelbina 10 mg/1 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0383688-1<a name="BRObmCATMAT-BR0383688-1"> </a></td>
+<td>Insulina Asparte bifásica (30/70) 100 unidades/mL suspensão para injeção 3 mL; dispositivo para injeção</td></tr>
+<tr><td style="white-space:nowrap">BR0272478<a name="BRObmCATMAT-BR0272478"> </a></td>
+<td>Flunarizina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272477<a name="BRObmCATMAT-BR0272477"> </a></td>
+<td>Cetirizina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383688<a name="BRObmCATMAT-BR0383688"> </a></td>
+<td>Insulina Asparte bifásica (30/70) 100 unidades/mL suspensão para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0272476<a name="BRObmCATMAT-BR0272476"> </a></td>
+<td>Dapsona 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383660<a name="BRObmCATMAT-BR0383660"> </a></td>
+<td>Brometo de Tiotrópio 2,5 microgramas/dose solução para inalação; inalador</td></tr>
+<tr><td style="white-space:nowrap">BR0272475<a name="BRObmCATMAT-BR0272475"> </a></td>
+<td>Dantroleno 20 mg pó e diluente para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0383485<a name="BRObmCATMAT-BR0383485"> </a></td>
+<td>Tenecteplase 50 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272473E<a name="BRObmCATMAT-BR0272473E"> </a></td>
+<td>Danazol 100 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0383436<a name="BRObmCATMAT-BR0383436"> </a></td>
+<td>Azacitidina 100 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272473<a name="BRObmCATMAT-BR0272473"> </a></td>
+<td>Danazol 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0383417<a name="BRObmCATMAT-BR0383417"> </a></td>
+<td>Ciclesonida 160 microgramas solução para inalação</td></tr>
+<tr><td style="white-space:nowrap">BR0272472E<a name="BRObmCATMAT-BR0272472E"> </a></td>
+<td>Danazol 200 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0383409-3<a name="BRObmCATMAT-BR0383409-3"> </a></td>
+<td>Carmelose Sódica 5 mg/mL (0,5%) + Glicerol 9 mg/mL (0,9%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272471E<a name="BRObmCATMAT-BR0272471E"> </a></td>
+<td>Danazol 50 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0383409<a name="BRObmCATMAT-BR0383409"> </a></td>
+<td>Carmelose Sódica 5 mg/mL (0,5%) + Glicerol 9 mg/mL (0,9%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272470<a name="BRObmCATMAT-BR0272470"> </a></td>
+<td>Dalteparina Sódica 2.500 unidades internacionais /0,2 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0383272E<a name="BRObmCATMAT-BR0383272E"> </a></td>
+<td>Imiglucerase 400 unidades pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272469<a name="BRObmCATMAT-BR0272469"> </a></td>
+<td>Dalteparina Sódica 5.000 unidades internacionais /0,2 mL solução para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0383272<a name="BRObmCATMAT-BR0383272"> </a></td>
+<td>Imiglucerase 400 unidades pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272458<a name="BRObmCATMAT-BR0272458"> </a></td>
+<td>Carbamazepina 200 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0382939<a name="BRObmCATMAT-BR0382939"> </a></td>
+<td>Decitabina 50 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272457<a name="BRObmCATMAT-BR0272457"> </a></td>
+<td>Carbamazepina 400 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0382563<a name="BRObmCATMAT-BR0382563"> </a></td>
+<td>Cloreto de Sódio 10% solução para injeção 10 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272454-2<a name="BRObmCATMAT-BR0272454-2"> </a></td>
+<td>Carbamazepina 20 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0382197<a name="BRObmCATMAT-BR0382197"> </a></td>
+<td>Trimetazidina 35 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272454-1<a name="BRObmCATMAT-BR0272454-1"> </a></td>
+<td>Carbamazepina 20 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0381881<a name="BRObmCATMAT-BR0381881"> </a></td>
+<td>Omeprazol 40 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0381880<a name="BRObmCATMAT-BR0381880"> </a></td>
+<td>Omeprazol 20 mg comprimido gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0272445<a name="BRObmCATMAT-BR0272445"> </a></td>
+<td>Ciclofenila 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272435<a name="BRObmCATMAT-BR0272435"> </a></td>
+<td>Anlodipino 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0381879<a name="BRObmCATMAT-BR0381879"> </a></td>
+<td>Omeprazol 10 mg comprimido gastrorresistente</td></tr>
+<tr><td style="white-space:nowrap">BR0272434<a name="BRObmCATMAT-BR0272434"> </a></td>
+<td>Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0381288<a name="BRObmCATMAT-BR0381288"> </a></td>
+<td>Rifabutina 150 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272431E<a name="BRObmCATMAT-BR0272431E"> </a></td>
+<td>Clozapina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0381073<a name="BRObmCATMAT-BR0381073"> </a></td>
+<td>Mercaptamina 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272431<a name="BRObmCATMAT-BR0272431"> </a></td>
+<td>Clozapina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0381066<a name="BRObmCATMAT-BR0381066"> </a></td>
+<td>Anlodipino 5 mg + Ramipril 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272429E<a name="BRObmCATMAT-BR0272429E"> </a></td>
+<td>Clozapina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0381063<a name="BRObmCATMAT-BR0381063"> </a></td>
+<td>Sitagliptina 50 mg + Metformina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272429<a name="BRObmCATMAT-BR0272429"> </a></td>
+<td>Clozapina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0380865<a name="BRObmCATMAT-BR0380865"> </a></td>
+<td>Polimixina B 10.000 unidades internacionais/mL + Neomicina 3,5 mg/mL + Fluocinolona 0,25 mg/mL + Lidocaína 20 mg/mL solução otológica</td></tr>
+<tr><td style="white-space:nowrap">BR0272423-3<a name="BRObmCATMAT-BR0272423-3"> </a></td>
+<td>Clotrimazol 10 mg/g (1%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0380855<a name="BRObmCATMAT-BR0380855"> </a></td>
+<td>Diclofenaco Dietilamônio 11,6 mg/g solução aerossol</td></tr>
+<tr><td style="white-space:nowrap">BR0272423-2<a name="BRObmCATMAT-BR0272423-2"> </a></td>
+<td>Clotrimazol 10 mg/g (1%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0380823<a name="BRObmCATMAT-BR0380823"> </a></td>
+<td>Paliperidona 6 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0272423-1<a name="BRObmCATMAT-BR0272423-1"> </a></td>
+<td>Clotrimazol 10 mg/g (1%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0380545<a name="BRObmCATMAT-BR0380545"> </a></td>
+<td>Lopinavir 100 mg + Ritonavir 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272423<a name="BRObmCATMAT-BR0272423"> </a></td>
+<td>Clotrimazol 10 mg/g (1%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0380419<a name="BRObmCATMAT-BR0380419"> </a></td>
+<td>Bimatoprosta 0,3 mg/mL + Timolol 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272420<a name="BRObmCATMAT-BR0272420"> </a></td>
+<td>Clortalidona 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0380017<a name="BRObmCATMAT-BR0380017"> </a></td>
+<td>Insulina Glulisina 100 unidades internacionais/mL solução para injeção 3 mL; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0272417<a name="BRObmCATMAT-BR0272417"> </a></td>
+<td>Cloroquina 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0379962<a name="BRObmCATMAT-BR0379962"> </a></td>
+<td>Oseltamivir 45 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272412<a name="BRObmCATMAT-BR0272412"> </a></td>
+<td>Propafenona 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0379902<a name="BRObmCATMAT-BR0379902"> </a></td>
+<td>Oseltamivir 30 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272411<a name="BRObmCATMAT-BR0272411"> </a></td>
+<td>Nafazolina 0,5 mg/mL + Zinco 1 mg/mL + Berberina 0,025 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0379469-2<a name="BRObmCATMAT-BR0379469-2"> </a></td>
+<td>Hidrato de Cloral 100 mg/mL (10%) solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272410<a name="BRObmCATMAT-BR0272410"> </a></td>
+<td>Fluocinolona 0,25 mg/mL + Nafazolina 0,5 mg/mL + Zinco 4 mg/mL + Neomicina 7 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0379469-1<a name="BRObmCATMAT-BR0379469-1"> </a></td>
+<td>Hidrato de Cloral 100 mg/mL (10%) solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272406<a name="BRObmCATMAT-BR0272406"> </a></td>
+<td>Nafazolina 0,25 mg/mL + Feniramina 3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0379002<a name="BRObmCATMAT-BR0379002"> </a></td>
+<td>Anidulafungina 100 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272402<a name="BRObmCATMAT-BR0272402"> </a></td>
+<td>Nafazolina 0,5 mg/mL + Cloreto de Benzalcônio 0,1 mg/mL solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0378055<a name="BRObmCATMAT-BR0378055"> </a></td>
+<td>Fosfomicina 3 g granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272400-1<a name="BRObmCATMAT-BR0272400-1"> </a></td>
+<td>Nafazolina 0,5 mg/mL solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0377899<a name="BRObmCATMAT-BR0377899"> </a></td>
+<td>Valeriana officinalis 50 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272400<a name="BRObmCATMAT-BR0272400"> </a></td>
+<td>Nafazolina 0,5 mg/mL solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0377422<a name="BRObmCATMAT-BR0377422"> </a></td>
+<td>Ácido Fusídico 20 mg/g + Valerato de Betametasona 1 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0272383<a name="BRObmCATMAT-BR0272383"> </a></td>
+<td>Venlafaxina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0377008<a name="BRObmCATMAT-BR0377008"> </a></td>
+<td>Zanamivir 5 mg/dose pó para inalação; inalador</td></tr>
+<tr><td style="white-space:nowrap">BR0272382<a name="BRObmCATMAT-BR0272382"> </a></td>
+<td>Venlafaxina 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0376695<a name="BRObmCATMAT-BR0376695"> </a></td>
+<td>Piridoxina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272381<a name="BRObmCATMAT-BR0272381"> </a></td>
+<td>Venlafaxina 37,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0376502-1<a name="BRObmCATMAT-BR0376502-1"> </a></td>
+<td>Ranelato de Estrôncio 2 g granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272380<a name="BRObmCATMAT-BR0272380"> </a></td>
+<td>Venlafaxina 150 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0376502<a name="BRObmCATMAT-BR0376502"> </a></td>
+<td>Ranelato de Estrôncio 2 g granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272379<a name="BRObmCATMAT-BR0272379"> </a></td>
+<td>Venlafaxina 75 mg cápsula de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0376357<a name="BRObmCATMAT-BR0376357"> </a></td>
+<td>Valsartana 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272369<a name="BRObmCATMAT-BR0272369"> </a></td>
+<td>Valaciclovir 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0376107<a name="BRObmCATMAT-BR0376107"> </a></td>
+<td>Nicotina 21 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0272367<a name="BRObmCATMAT-BR0272367"> </a></td>
+<td>Tioridazina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0376106<a name="BRObmCATMAT-BR0376106"> </a></td>
+<td>Nicotina 14 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0272366<a name="BRObmCATMAT-BR0272366"> </a></td>
+<td>Tioridazina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0376105<a name="BRObmCATMAT-BR0376105"> </a></td>
+<td>Nicotina 7 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0272365<a name="BRObmCATMAT-BR0272365"> </a></td>
+<td>Sertralina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0375474-3<a name="BRObmCATMAT-BR0375474-3"> </a></td>
+<td>Cloreto de Sódio 9 mg/mL (0,9%) solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0272364-1<a name="BRObmCATMAT-BR0272364-1"> </a></td>
+<td>Sertralina 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0375474-2<a name="BRObmCATMAT-BR0375474-2"> </a></td>
+<td>Cloreto de Sódio 9 mg/mL (0,9%) solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0272364<a name="BRObmCATMAT-BR0272364"> </a></td>
+<td>Sertralina 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0375474-1<a name="BRObmCATMAT-BR0375474-1"> </a></td>
+<td>Cloreto de Sódio 9 mg/mL (0,9%) solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0272363<a name="BRObmCATMAT-BR0272363"> </a></td>
+<td>Sertralina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272362<a name="BRObmCATMAT-BR0272362"> </a></td>
+<td>Protamina 50 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0375387-3<a name="BRObmCATMAT-BR0375387-3"> </a></td>
+<td>Polietilenoglicol (400) 3 mg/mL + Propilenoglicol 4 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272343<a name="BRObmCATMAT-BR0272343"> </a></td>
+<td>Tiamina 100 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0375387-2<a name="BRObmCATMAT-BR0375387-2"> </a></td>
+<td>Polietilenoglicol (400) 3 mg/mL + Propilenoglicol 4 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0375387-1<a name="BRObmCATMAT-BR0375387-1"> </a></td>
+<td>Polietilenoglicol (400) 3 mg/mL + Propilenoglicol 4 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272341<a name="BRObmCATMAT-BR0272341"> </a></td>
+<td>Tiamina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0374967<a name="BRObmCATMAT-BR0374967"> </a></td>
+<td>Nilotinibe 200 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272340<a name="BRObmCATMAT-BR0272340"> </a></td>
+<td>Tiamina 100 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272338<a name="BRObmCATMAT-BR0272338"> </a></td>
+<td>Piridoxina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0374816<a name="BRObmCATMAT-BR0374816"> </a></td>
+<td>Cipionato de Testosterona 200 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272337<a name="BRObmCATMAT-BR0272337"> </a></td>
+<td>Piridoxina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0374313<a name="BRObmCATMAT-BR0374313"> </a></td>
+<td>Ácido Paraminossalicílico 4 g granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272336<a name="BRObmCATMAT-BR0272336"> </a></td>
+<td>Dimenidrinato 30 mg/10 mL + Piridoxina 50 mg/10 mL + Glicose 1 g/10 mL + Frutose 1 g/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0374155<a name="BRObmCATMAT-BR0374155"> </a></td>
+<td>Rifampicina 150 mg + Isoniazida 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272335<a name="BRObmCATMAT-BR0272335"> </a></td>
+<td>Dimenidrinato 25 mg/mL + Piridoxina 5 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0373949<a name="BRObmCATMAT-BR0373949"> </a></td>
+<td>Pindolol 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272334-2<a name="BRObmCATMAT-BR0272334-2"> </a></td>
+<td>Dimenidrinato 500 mg/10 mL + Piridoxina 500 mg/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0373910-3<a name="BRObmCATMAT-BR0373910-3"> </a></td>
+<td>Hipromelose 2 mg/mL (0,2%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272334-1<a name="BRObmCATMAT-BR0272334-1"> </a></td>
+<td>Dimenidrinato 50 mg/1 mL + Piridoxina 50 mg/1 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0373910-2<a name="BRObmCATMAT-BR0373910-2"> </a></td>
+<td>Hipromelose 2 mg/mL (0,2%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272333<a name="BRObmCATMAT-BR0272333"> </a></td>
+<td>Dimenidrinato 50 mg + Piridoxina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0373910-1<a name="BRObmCATMAT-BR0373910-1"> </a></td>
+<td>Hipromelose 2 mg/mL (0,2%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272331<a name="BRObmCATMAT-BR0272331"> </a></td>
+<td>Dimenidrinato 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0373909-4<a name="BRObmCATMAT-BR0373909-4"> </a></td>
+<td>Hipromelose 0,2 mg/mL (0,02%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272330<a name="BRObmCATMAT-BR0272330"> </a></td>
+<td>Piperidolato 100 mg + Hesperidina 50 mg + Ácido Ascórbico 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0373909-3<a name="BRObmCATMAT-BR0373909-3"> </a></td>
+<td>Hipromelose 3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272329<a name="BRObmCATMAT-BR0272329"> </a></td>
+<td>Petidina 100 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0373909-2<a name="BRObmCATMAT-BR0373909-2"> </a></td>
+<td>Hipromelose 3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272328<a name="BRObmCATMAT-BR0272328"> </a></td>
+<td>Oxibutinina 1 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0373909-1<a name="BRObmCATMAT-BR0373909-1"> </a></td>
+<td>Hipromelose 3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272327<a name="BRObmCATMAT-BR0272327"> </a></td>
+<td>Oxibutinina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0373792<a name="BRObmCATMAT-BR0373792"> </a></td>
+<td>Ibuprofeno 400 mg + Arginina 370 mg granulado</td></tr>
+<tr><td style="white-space:nowrap">BR0272326<a name="BRObmCATMAT-BR0272326"> </a></td>
+<td>Naloxona 0,4 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0373415<a name="BRObmCATMAT-BR0373415"> </a></td>
+<td>Daptomicina 500 mg pó para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272320<a name="BRObmCATMAT-BR0272320"> </a></td>
+<td>Metilfenidato 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0373165<a name="BRObmCATMAT-BR0373165"> </a></td>
+<td>Capreomicina 1 g pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272234<a name="BRObmCATMAT-BR0272234"> </a></td>
+<td>Levobunolol 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0372372<a name="BRObmCATMAT-BR0372372"> </a></td>
+<td>Gentamicina 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0272229<a name="BRObmCATMAT-BR0272229"> </a></td>
+<td>Lercanidipino 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0372335<a name="BRObmCATMAT-BR0372335"> </a></td>
+<td>Metronidazol 100 mg/g gel vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0272220<a name="BRObmCATMAT-BR0272220"> </a></td>
+<td>Femproporex 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0372204<a name="BRObmCATMAT-BR0372204"> </a></td>
+<td>Dutasterida 0,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272217<a name="BRObmCATMAT-BR0272217"> </a></td>
+<td>Difenidramina 50 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0371273-2<a name="BRObmCATMAT-BR0371273-2"> </a></td>
+<td>Cloreto de Sódio 9 mg/mL (0,9%) solução</td></tr>
+<tr><td style="white-space:nowrap">BR0272201<a name="BRObmCATMAT-BR0272201"> </a></td>
+<td>Etilefrina 7,5 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0371273-1<a name="BRObmCATMAT-BR0371273-1"> </a></td>
+<td>Cloreto de Sódio 9 mg/mL (0,9%) solução</td></tr>
+<tr><td style="white-space:nowrap">BR0272198<a name="BRObmCATMAT-BR0272198"> </a></td>
+<td>Etilefrina 10 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0370560<a name="BRObmCATMAT-BR0370560"> </a></td>
+<td>Alfa1antitripsina 1 g /50 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272194<a name="BRObmCATMAT-BR0272194"> </a></td>
+<td>Esmolol 100 mg/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0370525<a name="BRObmCATMAT-BR0370525"> </a></td>
+<td>Valsartana 160 mg + Hidroclorotiazida 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272178<a name="BRObmCATMAT-BR0272178"> </a></td>
+<td>Clobutinol 4 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0370120-2<a name="BRObmCATMAT-BR0370120-2"> </a></td>
+<td>Artesunato 100 mg + Mefloquina 220 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272174<a name="BRObmCATMAT-BR0272174"> </a></td>
+<td>Benzidamina 30 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0370120-1<a name="BRObmCATMAT-BR0370120-1"> </a></td>
+<td>Artesunato 100 mg + Mefloquina 220 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272166<a name="BRObmCATMAT-BR0272166"> </a></td>
+<td>Ciclobenzaprina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0370120<a name="BRObmCATMAT-BR0370120"> </a></td>
+<td>Artesunato 100 mg + Mefloquina 220 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272134<a name="BRObmCATMAT-BR0272134"> </a></td>
+<td>Ciclopentolato 10 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0370119-2<a name="BRObmCATMAT-BR0370119-2"> </a></td>
+<td>Artesunato 25 mg + Mefloquina 55 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272131<a name="BRObmCATMAT-BR0272131"> </a></td>
+<td>Sulfato de Quinina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0370119-1<a name="BRObmCATMAT-BR0370119-1"> </a></td>
+<td>Artesunato 25 mg + Mefloquina 55 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272094<a name="BRObmCATMAT-BR0272094"> </a></td>
+<td>Lamivudina 150 mg + Zidovudina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0370119<a name="BRObmCATMAT-BR0370119"> </a></td>
+<td>Artesunato 25 mg + Mefloquina 55 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-8<a name="BRObmCATMAT-BR0272089-8"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0370117<a name="BRObmCATMAT-BR0370117"> </a></td>
+<td>Etexilato de Dabigatrana 110 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-7<a name="BRObmCATMAT-BR0272089-7"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0369179E<a name="BRObmCATMAT-BR0369179E"> </a></td>
+<td>Everolimo 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-6<a name="BRObmCATMAT-BR0272089-6"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0369179<a name="BRObmCATMAT-BR0369179"> </a></td>
+<td>Everolimo 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-5<a name="BRObmCATMAT-BR0272089-5"> </a></td>
+<td>Sulfadiazina de Prata 1% pasta</td></tr>
+<tr><td style="white-space:nowrap">BR0369178E<a name="BRObmCATMAT-BR0369178E"> </a></td>
+<td>Everolimo 0,75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-4<a name="BRObmCATMAT-BR0272089-4"> </a></td>
+<td>Sulfadiazina de Prata 1% pasta</td></tr>
+<tr><td style="white-space:nowrap">BR0369178<a name="BRObmCATMAT-BR0369178"> </a></td>
+<td>Everolimo 0,75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-3<a name="BRObmCATMAT-BR0272089-3"> </a></td>
+<td>Sulfadiazina de Prata 1% pasta</td></tr>
+<tr><td style="white-space:nowrap">BR0369176E<a name="BRObmCATMAT-BR0369176E"> </a></td>
+<td>Everolimo 0,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-2<a name="BRObmCATMAT-BR0272089-2"> </a></td>
+<td>Sulfadiazina de Prata 1% pasta</td></tr>
+<tr><td style="white-space:nowrap">BR0369176<a name="BRObmCATMAT-BR0369176"> </a></td>
+<td>Everolimo 0,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272089-1<a name="BRObmCATMAT-BR0272089-1"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0369175E<a name="BRObmCATMAT-BR0369175E"> </a></td>
+<td>Mesalazina 10 mg/mL suspensão retal</td></tr>
+<tr><td style="white-space:nowrap">BR0272089<a name="BRObmCATMAT-BR0272089"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0369106<a name="BRObmCATMAT-BR0369106"> </a></td>
+<td>Vimpocetina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272088-4<a name="BRObmCATMAT-BR0272088-4"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g (1%) + Nitrato de Cério 4 mg/g (0,4%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0368922-2<a name="BRObmCATMAT-BR0368922-2"> </a></td>
+<td>Ácido Acético 2%</td></tr>
+<tr><td style="white-space:nowrap">BR0272088-3<a name="BRObmCATMAT-BR0272088-3"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g (1%) + Nitrato de Cério 4 mg/g (0,4%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0368922-1<a name="BRObmCATMAT-BR0368922-1"> </a></td>
+<td>Ácido Acético 2%</td></tr>
+<tr><td style="white-space:nowrap">BR0272088-2<a name="BRObmCATMAT-BR0272088-2"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g (1%) + Nitrato de Cério 4 mg/g (0,4%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0272088-1<a name="BRObmCATMAT-BR0272088-1"> </a></td>
+<td>Sulfadiazina de Prata 10 mg/g (1%) + Nitrato de Cério 4 mg/g (0,4%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0368922<a name="BRObmCATMAT-BR0368922"> </a></td>
+<td>Ácido Acético 2%</td></tr>
+<tr><td style="white-space:nowrap">BR0272083E<a name="BRObmCATMAT-BR0272083E"> </a></td>
+<td>Cloridrato de Sevelâmer 800 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368921-3<a name="BRObmCATMAT-BR0368921-3"> </a></td>
+<td>Ácido Acético 3%</td></tr>
+<tr><td style="white-space:nowrap">BR0272083<a name="BRObmCATMAT-BR0272083"> </a></td>
+<td>Cloridrato de Sevelâmer 800 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368921<a name="BRObmCATMAT-BR0368921"> </a></td>
+<td>Ácido Acético 3%</td></tr>
+<tr><td style="white-space:nowrap">BR0272082<a name="BRObmCATMAT-BR0272082"> </a></td>
+<td>Cloridrato de Sevelâmer 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368919-4<a name="BRObmCATMAT-BR0368919-4"> </a></td>
+<td>Ácido Acético 5%</td></tr>
+<tr><td style="white-space:nowrap">BR0272050<a name="BRObmCATMAT-BR0272050"> </a></td>
+<td>Clordiazepóxido 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368919-3<a name="BRObmCATMAT-BR0368919-3"> </a></td>
+<td>Ácido Acético 5%</td></tr>
+<tr><td style="white-space:nowrap">BR0272049<a name="BRObmCATMAT-BR0272049"> </a></td>
+<td>Clordiazepóxido 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368919-2<a name="BRObmCATMAT-BR0368919-2"> </a></td>
+<td>Ácido Acético 5%</td></tr>
+<tr><td style="white-space:nowrap">BR0272045E<a name="BRObmCATMAT-BR0272045E"> </a></td>
+<td>Clopidogrel 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368919-1<a name="BRObmCATMAT-BR0368919-1"> </a></td>
+<td>Ácido Acético 5%</td></tr>
+<tr><td style="white-space:nowrap">BR0272045<a name="BRObmCATMAT-BR0272045"> </a></td>
+<td>Clopidogrel 75 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368919<a name="BRObmCATMAT-BR0368919"> </a></td>
+<td>Ácido Acético 5%</td></tr>
+<tr><td style="white-space:nowrap">BR0272044<a name="BRObmCATMAT-BR0272044"> </a></td>
+<td>Clonidina 0,15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368903<a name="BRObmCATMAT-BR0368903"> </a></td>
+<td>Bisacodil 5 mg + Docusato de Sódio 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272043<a name="BRObmCATMAT-BR0272043"> </a></td>
+<td>Clonidina 0,1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368899<a name="BRObmCATMAT-BR0368899"> </a></td>
+<td>Clindamicina 10 mg/mL (1%) + Peróxido de Benzoíla 50 mg/mL (5%) gel</td></tr>
+<tr><td style="white-space:nowrap">BR0272042<a name="BRObmCATMAT-BR0272042"> </a></td>
+<td>Clonidina 0,2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368799<a name="BRObmCATMAT-BR0368799"> </a></td>
+<td>Ubidecarenona 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272041<a name="BRObmCATMAT-BR0272041"> </a></td>
+<td>Clomipramina 75 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0368694<a name="BRObmCATMAT-BR0368694"> </a></td>
+<td>Eculizumabe 300 mg/30 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272028<a name="BRObmCATMAT-BR0272028"> </a></td>
+<td>Bamifilina 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368654<a name="BRObmCATMAT-BR0368654"> </a></td>
+<td>Cloreto de Sódio 0,9% solução para injeção 10 mL; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272027<a name="BRObmCATMAT-BR0272027"> </a></td>
+<td>Bamifilina 600 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368640<a name="BRObmCATMAT-BR0368640"> </a></td>
+<td>Nitazoxanida 20 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0272023<a name="BRObmCATMAT-BR0272023"> </a></td>
+<td>Tamoxifeno 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368612<a name="BRObmCATMAT-BR0368612"> </a></td>
+<td>Nitazoxanida 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0272022<a name="BRObmCATMAT-BR0272022"> </a></td>
+<td>Tamoxifeno 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0368168<a name="BRObmCATMAT-BR0368168"> </a></td>
+<td>Fosfato Dissódico de Dexametasona 2 mg/1 mL + Acetato de Dexametasona 8 mg/1 mL suspensão para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0272005<a name="BRObmCATMAT-BR0272005"> </a></td>
+<td>Citicolina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0367897<a name="BRObmCATMAT-BR0367897"> </a></td>
+<td>Imunoglobulina humana 500 mg/10 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271992<a name="BRObmCATMAT-BR0271992"> </a></td>
+<td>Celecoxibe 100 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0367765<a name="BRObmCATMAT-BR0367765"> </a></td>
+<td>Gelatina 3,5% solução para injeção 500 mL; bisnaga</td></tr>
+<tr><td style="white-space:nowrap">BR0271990<a name="BRObmCATMAT-BR0271990"> </a></td>
+<td>Cefuroxima 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271989<a name="BRObmCATMAT-BR0271989"> </a></td>
+<td>Cefuroxima 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0367725<a name="BRObmCATMAT-BR0367725"> </a></td>
+<td>Policresuleno 50 mg/g + Cinchocaína 10 mg/g pomada</td></tr>
+<tr><td style="white-space:nowrap">BR0367724<a name="BRObmCATMAT-BR0367724"> </a></td>
+<td>Levodopa 150 + Carbidopa 37,5 mg + Entacapona 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271988<a name="BRObmCATMAT-BR0271988"> </a></td>
+<td>Cefuroxima 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271987<a name="BRObmCATMAT-BR0271987"> </a></td>
+<td>Cefuroxima 750 mg pó para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0367699<a name="BRObmCATMAT-BR0367699"> </a></td>
+<td>Hidroxiapatita 800 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271986<a name="BRObmCATMAT-BR0271986"> </a></td>
+<td>Cefuroxima 25 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0367693E<a name="BRObmCATMAT-BR0367693E"> </a></td>
+<td>Ácido Nicotínico 750 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271982<a name="BRObmCATMAT-BR0271982"> </a></td>
+<td>Cefadroxila 500 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0367693<a name="BRObmCATMAT-BR0367693"> </a></td>
+<td>Ácido Nicotínico 750 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271980<a name="BRObmCATMAT-BR0271980"> </a></td>
+<td>Cefadroxila 50 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0367692E<a name="BRObmCATMAT-BR0367692E"> </a></td>
+<td>Ácido Nicotínico 500 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271953-1<a name="BRObmCATMAT-BR0271953-1"> </a></td>
+<td>Droperidol 2,5 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0367692<a name="BRObmCATMAT-BR0367692"> </a></td>
+<td>Ácido Nicotínico 500 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271950-3<a name="BRObmCATMAT-BR0271950-3"> </a></td>
+<td>Fentanila 0,5 mg/10 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0367664<a name="BRObmCATMAT-BR0367664"> </a></td>
+<td>Natalizumabe 300 mg/15 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271950-2<a name="BRObmCATMAT-BR0271950-2"> </a></td>
+<td>Fentanila 0,25 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0367514<a name="BRObmCATMAT-BR0367514"> </a></td>
+<td>Hidróxido de Alumínio 230 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271950-1<a name="BRObmCATMAT-BR0271950-1"> </a></td>
+<td>Fentanila 0,1 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0367512<a name="BRObmCATMAT-BR0367512"> </a></td>
+<td>Pirimetamina 5 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0271949<a name="BRObmCATMAT-BR0271949"> </a></td>
+<td>Fentanila 50 microgramas/hora adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0366914<a name="BRObmCATMAT-BR0366914"> </a></td>
+<td>Nafazolina 0,12 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271948<a name="BRObmCATMAT-BR0271948"> </a></td>
+<td>Fentanila 100 microgramas/hora adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0366913<a name="BRObmCATMAT-BR0366913"> </a></td>
+<td>Cloreto de Sódio 0,9% + Glicose 5% solução para injeção 500 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271946<a name="BRObmCATMAT-BR0271946"> </a></td>
+<td>Fentanila 25 microgramas/hora adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0366884<a name="BRObmCATMAT-BR0366884"> </a></td>
+<td>Alisquireno 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271913<a name="BRObmCATMAT-BR0271913"> </a></td>
+<td>Retinol 50.000 unidades internacionais comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0366883<a name="BRObmCATMAT-BR0366883"> </a></td>
+<td>Alisquireno 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271876<a name="BRObmCATMAT-BR0271876"> </a></td>
+<td>Ringer solução para injeção 500 mL; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0366861-3<a name="BRObmCATMAT-BR0366861-3"> </a></td>
+<td>Peróxido de Benzoíla 50 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271866E<a name="BRObmCATMAT-BR0271866E"> </a></td>
+<td>Brinzolamida 10 mg/mL suspensão oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0366861 -2<a name="BRObmCATMAT-BR0366861-2"> </a></td>
+<td>Peróxido de Benzoíla 50 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271866-2<a name="BRObmCATMAT-BR0271866-2"> </a></td>
+<td>Brinzolamida 10 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0366861<a name="BRObmCATMAT-BR0366861"> </a></td>
+<td>Peróxido de Benzoíla 50 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271866-1<a name="BRObmCATMAT-BR0271866-1"> </a></td>
+<td>Brinzolamida 10 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365454<a name="BRObmCATMAT-BR0365454"> </a></td>
+<td>Sorbitol 714 mg/g + Laurilsulfato de Sódio 7,7 mg/g supositório</td></tr>
+<tr><td style="white-space:nowrap">BR0271848E<a name="BRObmCATMAT-BR0271848E"> </a></td>
+<td>Bimatoprosta 0,3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365451E<a name="BRObmCATMAT-BR0365451E"> </a></td>
+<td>Abatacepte 250 mg pó para suspensão para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271848-2<a name="BRObmCATMAT-BR0271848-2"> </a></td>
+<td>Bimatoprosta 0,3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365451<a name="BRObmCATMAT-BR0365451"> </a></td>
+<td>Abatacepte 250 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271848-1<a name="BRObmCATMAT-BR0271848-1"> </a></td>
+<td>Bimatoprosta 0,3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365441<a name="BRObmCATMAT-BR0365441"> </a></td>
+<td>Oxibutinina 10 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271790-3<a name="BRObmCATMAT-BR0271790-3"> </a></td>
+<td>Fenilefrina 100 mg/mL (10%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365048<a name="BRObmCATMAT-BR0365048"> </a></td>
+<td>Lenalidomida 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271790-2<a name="BRObmCATMAT-BR0271790-2"> </a></td>
+<td>Fenilefrina 100 mg/mL (10%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0365047<a name="BRObmCATMAT-BR0365047"> </a></td>
+<td>Lenalidomida 5 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271790-1<a name="BRObmCATMAT-BR0271790-1"> </a></td>
+<td>Fenilefrina 100 mg/mL (10%) solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0364917<a name="BRObmCATMAT-BR0364917"> </a></td>
+<td>Anlodipino 5 mg + Benazepril 20 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271774<a name="BRObmCATMAT-BR0271774"> </a></td>
+<td>Bromazepam 6 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0364816<a name="BRObmCATMAT-BR0364816"> </a></td>
+<td>Lenalidomida 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271773<a name="BRObmCATMAT-BR0271773"> </a></td>
+<td>Bromazepam 3 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0364789<a name="BRObmCATMAT-BR0364789"> </a></td>
+<td>Isotretinoína 0,5 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271764E<a name="BRObmCATMAT-BR0271764E"> </a></td>
+<td>Brometo de Piridostigmina 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0364781<a name="BRObmCATMAT-BR0364781"> </a></td>
+<td>Aripiprazol 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271764<a name="BRObmCATMAT-BR0271764"> </a></td>
+<td>Brometo de Piridostigmina 60 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0364780<a name="BRObmCATMAT-BR0364780"> </a></td>
+<td>Aripiprazol 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271761<a name="BRObmCATMAT-BR0271761"> </a></td>
+<td>Bicalutamida 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0364324<a name="BRObmCATMAT-BR0364324"> </a></td>
+<td>Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271758<a name="BRObmCATMAT-BR0271758"> </a></td>
+<td>Betanecol 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0364037<a name="BRObmCATMAT-BR0364037"> </a></td>
+<td>Rifampicina 150 mg + Isoniazida 75 mg + Pirazinamida 400 mg + Etambutol 275 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271748<a name="BRObmCATMAT-BR0271748"> </a></td>
+<td>Benciclano 200 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363934<a name="BRObmCATMAT-BR0363934"> </a></td>
+<td>Maraviroque 300 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271747<a name="BRObmCATMAT-BR0271747"> </a></td>
+<td>Benciclano 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363933<a name="BRObmCATMAT-BR0363933"> </a></td>
+<td>Maraviroque 150 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271746<a name="BRObmCATMAT-BR0271746"> </a></td>
+<td>Baclofeno 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363843<a name="BRObmCATMAT-BR0363843"> </a></td>
+<td>Atazanavir 300 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271727E<a name="BRObmCATMAT-BR0271727E"> </a></td>
+<td>Pravastatina 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363778<a name="BRObmCATMAT-BR0363778"> </a></td>
+<td>Flunitrazepam 2 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271727<a name="BRObmCATMAT-BR0271727"> </a></td>
+<td>Pravastatina 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363597-2<a name="BRObmCATMAT-BR0363597-2"> </a></td>
+<td>Permetrina 50 mg/mL loção</td></tr>
+<tr><td style="white-space:nowrap">BR0271725<a name="BRObmCATMAT-BR0271725"> </a></td>
+<td>Piperacilina 4 g + Tazobactam 500 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0363597-1<a name="BRObmCATMAT-BR0363597-1"> </a></td>
+<td>Permetrina 50 mg/mL loção</td></tr>
+<tr><td style="white-space:nowrap">BR0271724<a name="BRObmCATMAT-BR0271724"> </a></td>
+<td>Piperacilina 2 g + Tazobactam 250 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0363561<a name="BRObmCATMAT-BR0363561"> </a></td>
+<td>Hidroxocobalamina 5 mg/1 mL solução para injeção; ampola e Dipirona 500 mg/1 mL + Dexametasona 1,5 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271710<a name="BRObmCATMAT-BR0271710"> </a></td>
+<td>Amiodarona 150 mg/3 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0363560<a name="BRObmCATMAT-BR0363560"> </a></td>
+<td>Diclofenaco Sódico 50 mg + Tiamina 50 mg + Piridoxina 50 mg + Cianocobalamina 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271709<a name="BRObmCATMAT-BR0271709"> </a></td>
+<td>Amiodarona 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0363379<a name="BRObmCATMAT-BR0363379"> </a></td>
+<td>Cloridrato de Quinina 100 mg + Papaverina 40 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271691<a name="BRObmCATMAT-BR0271691"> </a></td>
+<td>Ácido Ascórbico 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0362802<a name="BRObmCATMAT-BR0362802"> </a></td>
+<td>Vildagliptina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271689-2<a name="BRObmCATMAT-BR0271689-2"> </a></td>
+<td>Ácido Ascórbico 200 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0362721<a name="BRObmCATMAT-BR0362721"> </a></td>
+<td>Bisoprolol 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271689-1<a name="BRObmCATMAT-BR0271689-1"> </a></td>
+<td>Ácido Ascórbico 200 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0362720<a name="BRObmCATMAT-BR0362720"> </a></td>
+<td>Bisoprolol 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271687<a name="BRObmCATMAT-BR0271687"> </a></td>
+<td>Ácido Ascórbico 500 mg/5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0362719<a name="BRObmCATMAT-BR0362719"> </a></td>
+<td>Bisoprolol 1,25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271686<a name="BRObmCATMAT-BR0271686"> </a></td>
+<td>Ácido Ascórbico 2 g comprimido efervescente</td></tr>
+<tr><td style="white-space:nowrap">BR0362718<a name="BRObmCATMAT-BR0362718"> </a></td>
+<td>Bisoprolol 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271685<a name="BRObmCATMAT-BR0271685"> </a></td>
+<td>Ácido Ascórbico 1 g comprimido efervescente</td></tr>
+<tr><td style="white-space:nowrap">BR0362661-2<a name="BRObmCATMAT-BR0362661-2"> </a></td>
+<td>Clindamicina 20 mg/g (2%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0271670<a name="BRObmCATMAT-BR0271670"> </a></td>
+<td>Ácido Mefenâmico 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0362661-1<a name="BRObmCATMAT-BR0362661-1"> </a></td>
+<td>Clindamicina 20 mg/g (2%) creme</td></tr>
+<tr><td style="white-space:nowrap">BR0271666<a name="BRObmCATMAT-BR0271666"> </a></td>
+<td>Aceclofenaco 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0362266<a name="BRObmCATMAT-BR0362266"> </a></td>
+<td>Aprepitanto 80 mg cápsula e Aprepitanto 125 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271661-2<a name="BRObmCATMAT-BR0271661-2"> </a></td>
+<td>Ambroxol 7,5 mg/mL solução</td></tr>
+<tr><td style="white-space:nowrap">BR0362260<a name="BRObmCATMAT-BR0362260"> </a></td>
+<td>Trazodona 150 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271661-1<a name="BRObmCATMAT-BR0271661-1"> </a></td>
+<td>Ambroxol 7,5 mg/mL solução</td></tr>
+<tr><td style="white-space:nowrap">BR0362259<a name="BRObmCATMAT-BR0362259"> </a></td>
+<td>Trazodona 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271660-2<a name="BRObmCATMAT-BR0271660-2"> </a></td>
+<td>Ambroxol 3 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0362059<a name="BRObmCATMAT-BR0362059"> </a></td>
+<td>Rivastigmina 13,3 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0271660-1<a name="BRObmCATMAT-BR0271660-1"> </a></td>
+<td>Ambroxol 3 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0362058<a name="BRObmCATMAT-BR0362058"> </a></td>
+<td>Rivastigmina 9,5 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0271659-2<a name="BRObmCATMAT-BR0271659-2"> </a></td>
+<td>Ambroxol 6 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0362057<a name="BRObmCATMAT-BR0362057"> </a></td>
+<td>Rivastigmina 4,6 mg/24 horas adesivo transdérmico</td></tr>
+<tr><td style="white-space:nowrap">BR0271659-1<a name="BRObmCATMAT-BR0271659-1"> </a></td>
+<td>Ambroxol 6 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0361791<a name="BRObmCATMAT-BR0361791"> </a></td>
+<td>Diclofenaco Dietilamônio 11,6 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271657<a name="BRObmCATMAT-BR0271657"> </a></td>
+<td>Caspofungina 50 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0361382E<a name="BRObmCATMAT-BR0361382E"> </a></td>
+<td>Deferiprona 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271656<a name="BRObmCATMAT-BR0271656"> </a></td>
+<td>Caspofungina 70 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0361382<a name="BRObmCATMAT-BR0361382"> </a></td>
+<td>Deferiprona 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271654<a name="BRObmCATMAT-BR0271654"> </a></td>
+<td>Megestrol 160 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0361174<a name="BRObmCATMAT-BR0361174"> </a></td>
+<td>Lapatinibe 250 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271653-2<a name="BRObmCATMAT-BR0271653-2"> </a></td>
+<td>Hidroxocobalamina 2 mg/2 mL solução par a injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0360826<a name="BRObmCATMAT-BR0360826"> </a></td>
+<td>Paliperidona 9 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271653-1<a name="BRObmCATMAT-BR0271653-1"> </a></td>
+<td>Hidroxocobalamina 1 mg/1 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271652<a name="BRObmCATMAT-BR0271652"> </a></td>
+<td>Hidroxocobalamina 15 mg/2 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0360824<a name="BRObmCATMAT-BR0360824"> </a></td>
+<td>Paliperidona 3 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271647<a name="BRObmCATMAT-BR0271647"> </a></td>
+<td>Oximetazolina 0,25 mg/mL solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0359766<a name="BRObmCATMAT-BR0359766"> </a></td>
+<td>Hialuronato de Sódio 40 mg/50 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271645<a name="BRObmCATMAT-BR0271645"> </a></td>
+<td>Oximetazolina 0,5 mg/mL solução nasal</td></tr>
+<tr><td style="white-space:nowrap">BR0359286<a name="BRObmCATMAT-BR0359286"> </a></td>
+<td>Hedera helix 7 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0271644<a name="BRObmCATMAT-BR0271644"> </a></td>
+<td>Oximetolona 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0359136<a name="BRObmCATMAT-BR0359136"> </a></td>
+<td>Dasatinibe 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271621E<a name="BRObmCATMAT-BR0271621E"> </a></td>
+<td>Olanzapina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0359135<a name="BRObmCATMAT-BR0359135"> </a></td>
+<td>Dasatinibe 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271621<a name="BRObmCATMAT-BR0271621"> </a></td>
+<td>Olanzapina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0358755<a name="BRObmCATMAT-BR0358755"> </a></td>
+<td>Misoprostol 200 microgramas comprimido vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0271620E<a name="BRObmCATMAT-BR0271620E"> </a></td>
+<td>Olanzapina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0358754<a name="BRObmCATMAT-BR0358754"> </a></td>
+<td>Misoprostol 100 microgramas comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271620<a name="BRObmCATMAT-BR0271620"> </a></td>
+<td>Olanzapina 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0358753<a name="BRObmCATMAT-BR0358753"> </a></td>
+<td>Misoprostol 25 microgramas comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271610-1<a name="BRObmCATMAT-BR0271610-1"> </a></td>
+<td>Nortriptilina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0358450<a name="BRObmCATMAT-BR0358450"> </a></td>
+<td>Darifenacina 15 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271610<a name="BRObmCATMAT-BR0271610"> </a></td>
+<td>Nortriptilina 50 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0358449<a name="BRObmCATMAT-BR0358449"> </a></td>
+<td>Darifenacina 7,5 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271609-2<a name="BRObmCATMAT-BR0271609-2"> </a></td>
+<td>Nortriptilina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0358123<a name="BRObmCATMAT-BR0358123"> </a></td>
+<td>Ranibizumabe 2,3 mg/2,3 mL suspensão para injeção; seringa preenchida</td></tr>
+<tr><td style="white-space:nowrap">BR0271609-1<a name="BRObmCATMAT-BR0271609-1"> </a></td>
+<td>Nortriptilina 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0357788<a name="BRObmCATMAT-BR0357788"> </a></td>
+<td>Mepivacaína 54 mg/1,8 mL solução para injeção; carpule</td></tr>
+<tr><td style="white-space:nowrap">BR0271608<a name="BRObmCATMAT-BR0271608"> </a></td>
+<td>Nortriptilina 2 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0357657<a name="BRObmCATMAT-BR0357657"> </a></td>
+<td>Etravirina 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271607<a name="BRObmCATMAT-BR0271607"> </a></td>
+<td>Nortriptilina 75 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0357239<a name="BRObmCATMAT-BR0357239"> </a></td>
+<td>Álcool Etílico 99% Solução</td></tr>
+<tr><td style="white-space:nowrap">BR0271606<a name="BRObmCATMAT-BR0271606"> </a></td>
+<td>Nortriptilina 25 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0357213<a name="BRObmCATMAT-BR0357213"> </a></td>
+<td>Metoclopramida 7 mg + Simeticona 40 mg + Pepsina 50 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271604<a name="BRObmCATMAT-BR0271604"> </a></td>
+<td>Aceponato de Metilprednisolona 1 mg/g creme</td></tr>
+<tr><td style="white-space:nowrap">BR0357119<a name="BRObmCATMAT-BR0357119"> </a></td>
+<td>Beta-agalsidase 35 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271600<a name="BRObmCATMAT-BR0271600"> </a></td>
+<td>Succinato Sódico de Metilprednisolona 125 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0357118<a name="BRObmCATMAT-BR0357118"> </a></td>
+<td>Beta-agalsidase 5 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271599<a name="BRObmCATMAT-BR0271599"> </a></td>
+<td>Succinato Sódico de Metilprednisolona 500 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0357071<a name="BRObmCATMAT-BR0357071"> </a></td>
+<td>Citrato de Cálcio 2.370 mg (Cálcio 500 mg) + Colecalciferol 200 unidades internacionais pó para suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0271582<a name="BRObmCATMAT-BR0271582"> </a></td>
+<td>Tobramicina 3 mg/g pomada oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0357066<a name="BRObmCATMAT-BR0357066"> </a></td>
+<td>Vildagliptina 50 mg + Metformina 850 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271581<a name="BRObmCATMAT-BR0271581"> </a></td>
+<td>Tobramicina 3 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0357064<a name="BRObmCATMAT-BR0357064"> </a></td>
+<td>Vildagliptina 50 mg + Metformina 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271578<a name="BRObmCATMAT-BR0271578"> </a></td>
+<td>Tobramicina 75 mg/1,5 mL solução para injeção; ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0357063<a name="BRObmCATMAT-BR0357063"> </a></td>
+<td>Valsartana 320 mg + Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR02715701<a name="BRObmCATMAT-BR02715701"> </a></td>
+<td>Dexametasona 1 mg/g pomada oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271570<a name="BRObmCATMAT-BR0271570"> </a></td>
+<td>Tobramicina 3 mg/g + Dexametasona 1 mg/g pomada oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0357062<a name="BRObmCATMAT-BR0357062"> </a></td>
+<td>Valsartana 160 mg + Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271556<a name="BRObmCATMAT-BR0271556"> </a></td>
+<td>Midazolam 2 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0357061<a name="BRObmCATMAT-BR0357061"> </a></td>
+<td>Valsartana 80 mg + Anlodipino 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271445<a name="BRObmCATMAT-BR0271445"> </a></td>
+<td>Medroxiprogesterona 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0357058<a name="BRObmCATMAT-BR0357058"> </a></td>
+<td>Paroxetina 15 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271444<a name="BRObmCATMAT-BR0271444"> </a></td>
+<td>Medroxiprogesterona 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0356952<a name="BRObmCATMAT-BR0356952"> </a></td>
+<td>Acetilcisteína 600 mg comprimido efervescente</td></tr>
+<tr><td style="white-space:nowrap">BR0271435<a name="BRObmCATMAT-BR0271435"> </a></td>
+<td>Estrogênios Conjugados 0,625 mg/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0356705<a name="BRObmCATMAT-BR0356705"> </a></td>
+<td>Mercaptamina 50 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271434<a name="BRObmCATMAT-BR0271434"> </a></td>
+<td>Estrogênios Conjugados 0,625 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0356701<a name="BRObmCATMAT-BR0356701"> </a></td>
+<td>Desogestrel 75 microgramas comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271394E<a name="BRObmCATMAT-BR0271394E"> </a></td>
+<td>Sulfato de Morfina 10 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0356602<a name="BRObmCATMAT-BR0356602"> </a></td>
+<td>Estrogênios Conjugados 0,3 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271394<a name="BRObmCATMAT-BR0271394"> </a></td>
+<td>Sulfato de Morfina 10 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0356453<a name="BRObmCATMAT-BR0356453"> </a></td>
+<td>Tianeptina 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0356452-1<a name="BRObmCATMAT-BR0356452-1"> </a></td>
+<td>Travoprosta 0,04 mg/mL + Timolol 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271392E<a name="BRObmCATMAT-BR0271392E"> </a></td>
+<td>Morfina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0356452<a name="BRObmCATMAT-BR0356452"> </a></td>
+<td>Travoprosta 0,04 mg/mL + Timolol 5 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271392<a name="BRObmCATMAT-BR0271392"> </a></td>
+<td>Morfina 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271391E<a name="BRObmCATMAT-BR0271391E"> </a></td>
+<td>Morfina 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0356051<a name="BRObmCATMAT-BR0356051"> </a></td>
+<td>Ácido Zoledrônico 5 mg/100 mL solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271391<a name="BRObmCATMAT-BR0271391"> </a></td>
+<td>Morfina 30 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0355794<a name="BRObmCATMAT-BR0355794"> </a></td>
+<td>Moxifloxacino 5 mg/mL + Dexametasona 1 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271373E<a name="BRObmCATMAT-BR0271373E"> </a></td>
+<td>Formoterol 12 microgramas cápsula para inalação</td></tr>
+<tr><td style="white-space:nowrap">BR0355786-1<a name="BRObmCATMAT-BR0355786-1"> </a></td>
+<td>Acetilcisteína 40 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0271360<a name="BRObmCATMAT-BR0271360"> </a></td>
+<td>Carbonato de Cálcio + Lactogliconato de Cálcio 1.000 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0355786<a name="BRObmCATMAT-BR0355786"> </a></td>
+<td>Acetilcisteína 40 mg/mL xarope</td></tr>
+<tr><td style="white-space:nowrap">BR0271359<a name="BRObmCATMAT-BR0271359"> </a></td>
+<td>Carbonato de Cálcio + Lactogliconato de Cálcio 500 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0354953<a name="BRObmCATMAT-BR0354953"> </a></td>
+<td>Somatostatina 3 mg pó para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271358<a name="BRObmCATMAT-BR0271358"> </a></td>
+<td>Alprazolam 0,25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0354633<a name="BRObmCATMAT-BR0354633"> </a></td>
+<td>Olopatadina 2 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271357-1<a name="BRObmCATMAT-BR0271357-1"> </a></td>
+<td>Alprazolam 0,5 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0354632<a name="BRObmCATMAT-BR0354632"> </a></td>
+<td>Olopatadina 1 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0271357<a name="BRObmCATMAT-BR0271357"> </a></td>
+<td>Alprazolam 0,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0354627E<a name="BRObmCATMAT-BR0354627E"> </a></td>
+<td>Hidróxido de Alumínio 230 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271356-1<a name="BRObmCATMAT-BR0271356-1"> </a></td>
+<td>Alprazolam 1 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0354516<a name="BRObmCATMAT-BR0354516"> </a></td>
+<td>Glipizida 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271356<a name="BRObmCATMAT-BR0271356"> </a></td>
+<td>Alprazolam 1 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0354498<a name="BRObmCATMAT-BR0354498"> </a></td>
+<td>Lercanidipino 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271355<a name="BRObmCATMAT-BR0271355"> </a></td>
+<td>Metronidazol 100 mg/g + Nistatina 20.000 unidades internacionais/g creme vaginal</td></tr>
+<tr><td style="white-space:nowrap">BR0354317<a name="BRObmCATMAT-BR0354317"> </a></td>
+<td>Acarbose 100 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271354<a name="BRObmCATMAT-BR0271354"> </a></td>
+<td>Cloridrato de Pilocarpina 40 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0354314<a name="BRObmCATMAT-BR0354314"> </a></td>
+<td>Cimetidina 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271353E<a name="BRObmCATMAT-BR0271353E"> </a></td>
+<td>Cloridrato de Pilocarpina 20 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0354242<a name="BRObmCATMAT-BR0354242"> </a></td>
+<td>Metoxisaleno 10 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271353-1<a name="BRObmCATMAT-BR0271353-1"> </a></td>
+<td>Cloridrato de Pilocarpina 20 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0353813<a name="BRObmCATMAT-BR0353813"> </a></td>
+<td>Mirtazapina 15 mg comprimido para suspensão</td></tr>
+<tr><td style="white-space:nowrap">BR0271353<a name="BRObmCATMAT-BR0271353"> </a></td>
+<td>Cloridrato de Pilocarpina 20 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0353398-2<a name="BRObmCATMAT-BR0353398-2"> </a></td>
+<td>Alfaporactanto 240 mg/3 mL suspensão intratraqueal; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271352<a name="BRObmCATMAT-BR0271352"> </a></td>
+<td>Cloridrato de Pilocarpina 10 mg/mL solução oftálmica</td></tr>
+<tr><td style="white-space:nowrap">BR0353398-1<a name="BRObmCATMAT-BR0353398-1"> </a></td>
+<td>Alfaporactanto 120 mg/1,5 mL suspensão intratraqueal; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271218<a name="BRObmCATMAT-BR0271218"> </a></td>
+<td>Amoxicilina 25 mg/mL + Ácido Clavulânico 6,25 mg/mL suspensão oral</td></tr>
+<tr><td style="white-space:nowrap">BR0353397-2<a name="BRObmCATMAT-BR0353397-2"> </a></td>
+<td>Beractanto 200 mg/8 mL suspensão intratraqueal; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271217<a name="BRObmCATMAT-BR0271217"> </a></td>
+<td>Amoxicilina 500 mg + Ácido Clavulânico 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0353397-1<a name="BRObmCATMAT-BR0353397-1"> </a></td>
+<td>Beractanto 100 mg/4 mL suspensão intratraqueal; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271197<a name="BRObmCATMAT-BR0271197"> </a></td>
+<td>Pindolol 10 mg + Clopamida 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0353334<a name="BRObmCATMAT-BR0353334"> </a></td>
+<td>Pegvisomanto 10 mg pó para solução para injeção; frasco-ampola</td></tr>
+<tr><td style="white-space:nowrap">BR0271172<a name="BRObmCATMAT-BR0271172"> </a></td>
+<td>Enalapril 10 mg + Hidroclorotiazida 25 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0353333<a name="BRObmCATMAT-BR0353333"> </a></td>
+<td>Amoxicilina 875 mg + Ácido Clavulânico 125 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271171<a name="BRObmCATMAT-BR0271171"> </a></td>
+<td>Enalapril 20 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0353332<a name="BRObmCATMAT-BR0353332"> </a></td>
+<td>Raltegravir 400 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271170<a name="BRObmCATMAT-BR0271170"> </a></td>
+<td>Lisinopril 20 mg + Hidroclorotiazida 12,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352933-3<a name="BRObmCATMAT-BR0352933-3"> </a></td>
+<td>Levetiracetam 100 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0271169<a name="BRObmCATMAT-BR0271169"> </a></td>
+<td>Lisinopril 20 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352933-2<a name="BRObmCATMAT-BR0352933-2"> </a></td>
+<td>Levetiracetam 100 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0271168<a name="BRObmCATMAT-BR0271168"> </a></td>
+<td>Lisinopril 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352933-1<a name="BRObmCATMAT-BR0352933-1"> </a></td>
+<td>Levetiracetam 100 mg/mL solução oral</td></tr>
+<tr><td style="white-space:nowrap">BR0271167<a name="BRObmCATMAT-BR0271167"> </a></td>
+<td>Lisinopril 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352932<a name="BRObmCATMAT-BR0352932"> </a></td>
+<td>Ácido Salicílico 270 mg/g gel</td></tr>
+<tr><td style="white-space:nowrap">BR0271166<a name="BRObmCATMAT-BR0271166"> </a></td>
+<td>Furosemida 40 mg + Amilorida 10 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352912<a name="BRObmCATMAT-BR0352912"> </a></td>
+<td>Divalproato de sódio 500 mg comprimido de liberação prolongada</td></tr>
+<tr><td style="white-space:nowrap">BR0271165<a name="BRObmCATMAT-BR0271165"> </a></td>
+<td>Hidroclorotiazida 25 mg + Amilorida 2,5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0271162<a name="BRObmCATMAT-BR0271162"> </a></td>
+<td>Hidroclorotiazida 50 mg + Amilorida 5 mg comprimido</td></tr>
+<tr><td style="white-space:nowrap">BR0352911<a name="BRObmCATMAT-BR0352911"> </a></td>
+<td>Divalproato de sódio 125 mg cápsula</td></tr>
+<tr><td style="white-space:nowrap">BR0271157U0137<a name="BRObmCATMAT-BR0271157U0137"> </a></td>
+<td>Insulina Humana NPH 100 unidades internacionais/mL suspensão para injeção 3 mL; carpule</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gov.br/saude">Ministério do Saúde do Brasil</a>.  Package br.gov.saude.terminologia.fhir#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 31, 2026 22:41-0400">2026-08-31</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

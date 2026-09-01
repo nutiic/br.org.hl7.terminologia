@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRModalidadeImagem"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRModalidadeImagem</b></p><a name="BRModalidadeImagem"> </a><a name="hcBRModalidadeImagem"> </a><ul><li>Include estes códigos, tal como definidos em <a href="http://dicom.nema.org/resources/ontology/DCM"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><span title="Version is not explicitly stated, which means it is fixed to 01, the version found through the package references"> versão &#x1F4E6;01</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-OAM">OAM</a></td><td>Ophthalmic Axial Measurements</td><td>Measurements of the axial length of the eye, which are done by various devices</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-NM">NM</a></td><td>Nuclear Medicine</td><td>Nuclear Medicine device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-XC">XC</a></td><td>External-camera Photography</td><td>External-camera Photography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-MR">MR</a></td><td>Magnetic Resonance</td><td>Magnetic Resonance device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-XA">XA</a></td><td>X-Ray Angiography</td><td>X-Ray Angiography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-MG">MG</a></td><td>Mammography</td><td>Mammography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-VA">VA</a></td><td>Visual Acuity</td><td>Visual Acuity device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-LS">LS</a></td><td>Laser Scan</td><td>Laser surface scan device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-US">US</a></td><td>Ultrasound</td><td>Ultrasound device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-LEN">LEN</a></td><td>Lensometry</td><td>Lensometry device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-TG">TG</a></td><td>Thermography</td><td>Thermography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-KER">KER</a></td><td>Keratometry</td><td>Keratometry device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-SRF">SRF</a></td><td>Subjective Refraction</td><td>Subjective Refraction device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-SM">SM</a></td><td>Slide Microscopy</td><td>Slide Microscopy</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-IVUS">IVUS</a></td><td>Intravascular Ultrasound</td><td>Intravascular Ultrasound device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-RTIMAGE">RTIMAGE</a></td><td>RT Image</td><td>Radiotherapy Imaging device; includes portal imaging</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-IVOCT">IVOCT</a></td><td>Intravascular Optical Coherence Tomography</td><td>An acquisition device, process or method that performs intravascular optical coherence tomography</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-IO">IO</a></td><td>Intra-oral Radiography</td><td>Intra-oral Radiography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-RG">RG</a></td><td>Radiographic imaging</td><td>Radiographic imaging (conventional film/screen)</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-GM">GM</a></td><td>General Microscopy</td><td>General Microscopy device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-RF">RF</a></td><td>Radiofluoroscopy</td><td>Radiofluoroscopy device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-ES">ES</a></td><td>Endoscopy</td><td>Endoscopy device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-PX">PX</a></td><td>Panoramic X-Ray</td><td>Panoramic X-Ray device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-DX">DX</a></td><td>Digital Radiography</td><td>Digital Radiography device</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-PT">PT</a></td><td>Positron emission tomography</td><td>Positron emission tomography (PET) device</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeImagem"/>
+  <version value="1.1.0"/>
+  <name value="BRModalidadeImagem"/>
+  <title value="BR Modalidade Imagem"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+      <concept>
+        <code value="OAM"/>
+        <display value="Ophthalmic Axial Measurements"/>
+      </concept>
+      <concept>
+        <code value="NM"/>
+        <display value="Nuclear Medicine"/>
+      </concept>
+      <concept>
+        <code value="XC"/>
+        <display value="External-camera Photography"/>
+      </concept>
+      <concept>
+        <code value="MR"/>
+        <display value="Magnetic Resonance"/>
+      </concept>
+      <concept>
+        <code value="XA"/>
+        <display value="X-Ray Angiography"/>
+      </concept>
+      <concept>
+        <code value="MG"/>
+        <display value="Mammography"/>
+      </concept>
+      <concept>
+        <code value="VA"/>
+        <display value="Visual Acuity"/>
+      </concept>
+      <concept>
+        <code value="LS"/>
+        <display value="Laser Scan"/>
+      </concept>
+      <concept>
+        <code value="US"/>
+        <display value="Ultrasound"/>
+      </concept>
+      <concept>
+        <code value="LEN"/>
+        <display value="Lensometry"/>
+      </concept>
+      <concept>
+        <code value="TG"/>
+        <display value="Thermography"/>
+      </concept>
+      <concept>
+        <code value="KER"/>
+        <display value="Keratometry"/>
+      </concept>
+      <concept>
+        <code value="SRF"/>
+        <display value="Subjective Refraction"/>
+      </concept>
+      <concept>
+        <code value="SM"/>
+        <display value="Slide Microscopy"/>
+      </concept>
+      <concept>
+        <code value="IVUS"/>
+        <display value="Intravascular Ultrasound"/>
+      </concept>
+      <concept>
+        <code value="RTIMAGE"/>
+        <display value="RT Image"/>
+      </concept>
+      <concept>
+        <code value="IVOCT"/>
+        <display value="Intravascular Optical Coherence Tomography"/>
+      </concept>
+      <concept>
+        <code value="IO"/>
+        <display value="Intra-oral Radiography"/>
+      </concept>
+      <concept>
+        <code value="RG"/>
+        <display value="Radiographic imaging"/>
+      </concept>
+      <concept>
+        <code value="GM"/>
+        <display value="General Microscopy"/>
+      </concept>
+      <concept>
+        <code value="RF"/>
+        <display value="Radiofluoroscopy"/>
+      </concept>
+      <concept>
+        <code value="ES"/>
+        <display value="Endoscopy"/>
+      </concept>
+      <concept>
+        <code value="PX"/>
+        <display value="Panoramic X-Ray"/>
+      </concept>
+      <concept>
+        <code value="DX"/>
+        <display value="Digital Radiography"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="Positron emission tomography"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

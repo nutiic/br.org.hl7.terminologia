@@ -1,0 +1,391 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRFabricanteImunobiologico"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRFabricanteImunobiologico</b></p><a name=\"BRFabricanteImunobiologico\"> </a><a name=\"hcBRFabricanteImunobiologico\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRFabricantePNI.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-26313\">26313</a></td><td>MERCK-GO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-9406\">9406</a></td><td>HALEXISTAR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2560\">2560</a></td><td>HEBER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-712\">712</a></td><td>BIOMERIEUX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-25538\">25538</a></td><td>MERCK-CAMPI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-608\">608</a></td><td>BAXTER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-239\">239</a></td><td>BAYER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42932\">42932</a></td><td>MSD-LLC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2355\">2355</a></td><td>NOVARTIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42931\">42931</a></td><td>MERCK-SP</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-235\">235</a></td><td>INCQS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42655\">42655</a></td><td>SK-BIOSCEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-22942\">22942</a></td><td>LGLIFE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42507\">42507</a></td><td>ADIUM</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2263\">2263</a></td><td>WYETH</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42490\">42490</a></td><td>SINOVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2260\">2260</a></td><td>CSL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42489\">42489</a></td><td>CATALENT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2250\">2250</a></td><td>IIMUNO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42488\">42488</a></td><td>ROVI-PHARMA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-1913\">1913</a></td><td>CPPI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42430\">42430</a></td><td>MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-18190\">18190</a></td><td>BB-NCIPD</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-39263\">39263</a></td><td>TAKEDA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-18189\">18189</a></td><td>INTERVAX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-39262\">39262</a></td><td>IDT BIOLOGIKA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-17934\">17934</a></td><td>BIOLOGICAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-37646\">37646</a></td><td>EMERGENT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-169\">169</a></td><td>FINLAY</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-36271\">36271</a></td><td>ABBOTT-HOLAN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-168\">168</a></td><td>BERNE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35979\">35979</a></td><td>BHARAT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-16763\">16763</a></td><td>BIOFARMA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35978\">35978</a></td><td>MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-167\">167</a></td><td>SEVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35977\">35977</a></td><td>GAMALEYA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-166\">166</a></td><td>BIKEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-3521\">3521</a></td><td>BIOVET</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-1659\">1659</a></td><td>CYANAMID</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-33713\">33713</a></td><td>AMYIN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-165\">165</a></td><td>MERCK</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-33502\">33502</a></td><td>BAV-NORDIC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-164\">164</a></td><td>LGCHEMICAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30587\">30587</a></td><td>JANSSEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-163\">163</a></td><td>SERUM-INDIA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30357\">30357</a></td><td>EQUIPLEX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-162\">162</a></td><td>CHIRON SPA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-29909\">29909</a></td><td>ASTRAZENECA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-161\">161</a></td><td>AVENTIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-29501\">29501</a></td><td>SINOVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-160\">160</a></td><td>GREENCROSS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2901\">2901</a></td><td>MERIAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-159\">159</a></td><td>SMITHKLINE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28738\">28738</a></td><td>BOEHRINGER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-156\">156</a></td><td>DADO B.</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2862\">2862</a></td><td>SANPASTEUR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-153\">153</a></td><td>TECPAR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28425\">28425</a></td><td>BIOGENESIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-152\">152</a></td><td>BUTANTAN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28303\">28303</a></td><td>PANACEA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-151\">151</a></td><td>F.A.P.</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28290\">28290</a></td><td>PFIZER-BELGICA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-150\">150</a></td><td>FUNED</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28289\">28289</a></td><td>GLAXO-BIO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-149\">149</a></td><td>FIOCRUZ</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28283\">28283</a></td><td>VINS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-142\">142</a></td><td>PFIZER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28251\">28251</a></td><td>SANMEDLEY</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-141\">141</a></td><td>IVB</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28211\">28211</a></td><td>KAMADA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-13688\">13688</a></td><td>SHANTHA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27883\">27883</a></td><td>MERCK-RJ</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-13219\">13219</a></td><td>BIOGENESIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27880\">27880</a></td><td>GSK-BRASIL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-12572\">12572</a></td><td>KEDRION</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27816\">27816</a></td><td>EUBIOLOGI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-12551\">12551</a></td><td>GRIFOLS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2769\">2769</a></td><td>BERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-11347\">11347</a></td><td>VIRBAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-26513\">26513</a></td><td>BEHRING</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-10534\">10534</a></td><td>CRUCELL</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRFabricanteImunobiologico"] ;
+  fhir:ValueSet.title [ fhir:value "BR Fabricante Imunobiologico"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26313" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERCK-GO" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9406" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HALEXISTAR" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2560" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HEBER" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "712" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOMERIEUX" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25538" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERCK-CAMPI" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "608" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BAXTER" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "239" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BAYER" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42932" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MSD-LLC" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2355" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NOVARTIS" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42931" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERCK-SP" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "235" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INCQS" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42655" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SK-BIOSCEN" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "22942" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "LGLIFE" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42507" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ADIUM" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2263" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "WYETH" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42490" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SINOVAC" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2260" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CSL" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42489" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CATALENT" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2250" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IIMUNO" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42488" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ROVI-PHARMA" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1913" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CPPI" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42430" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MODERNA" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18190" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BB-NCIPD" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "39263" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TAKEDA" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "18189" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "INTERVAX" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "39262" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IDT BIOLOGIKA" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17934" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOLOGICAL" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37646" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EMERGENT" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "169" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FINLAY" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "36271" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ABBOTT-HOLAN" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "168" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BERNE" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35979" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BHARAT" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "16763" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOFARMA" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35978" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MODERNA" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "167" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SEVAC" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35977" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GAMALEYA" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "166" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIKEN" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3521" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOVET" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1659" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CYANAMID" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33713" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AMYIN" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "165" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERCK" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33502" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BAV-NORDIC" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "164" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "LGCHEMICAL" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30587" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "JANSSEN" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "163" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SERUM-INDIA" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30357" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EQUIPLEX" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "162" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CHIRON SPA" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29909" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ASTRAZENECA" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "161" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "AVENTIS" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29501" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SINOVAC" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "160" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GREENCROSS" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2901" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERIAL" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "159" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SMITHKLINE" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28738" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BOEHRINGER" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "156" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DADO B." ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2862" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SANPASTEUR" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "153" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "TECPAR" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28425" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOGENESIS" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "152" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BUTANTAN" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28303" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PANACEA" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "151" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "F.A.P." ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28290" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PFIZER-BELGICA" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "150" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FUNED" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28289" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GLAXO-BIO" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "149" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "FIOCRUZ" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28283" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VINS" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "142" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PFIZER" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28251" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SANMEDLEY" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "141" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IVB" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "28211" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "KAMADA" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13688" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SHANTHA" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27883" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "MERCK-RJ" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13219" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BIOGENESIS" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27880" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GSK-BRASIL" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12572" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "KEDRION" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27816" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "EUBIOLOGI" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12551" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "GRIFOLS" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2769" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BERNA" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11347" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "VIRBAC" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "26513" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "BEHRING" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10534" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CRUCELL" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

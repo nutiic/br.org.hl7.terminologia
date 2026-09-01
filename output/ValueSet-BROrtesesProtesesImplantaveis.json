@@ -1,0 +1,146 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BROrtesesProtesesImplantaveis",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BROrtesesProtesesImplantaveis</b></p><a name=\"BROrtesesProtesesImplantaveis\"> </a><a name=\"hcBROrtesesProtesesImplantaveis\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BROrtesesProtesesImplantaveis.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0000000143</td><td>Órtese brônquica reta expansível sintética</td></tr><tr><td>0000000142</td><td>Órtese brônquica reta não\nexpansível sintética</td></tr><tr><td>0000000285</td><td>Válvula brônquica para\ntratamento de fuga aérea e  sintética</td></tr><tr><td>0000000141</td><td>Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível metálica</td></tr><tr><td>0000000284</td><td>Tubo de ventilação para\nouvido médio permanente sintético</td></tr><tr><td>0000000140</td><td>Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível\nvários tamanhos sintética</td></tr><tr><td>0000000283</td><td>Tubo de ventilação para\nouvido médio temporário sintético</td></tr><tr><td>0000000139</td><td>Órtese auto-expansível de  sintética</td></tr><tr><td>0000000282</td><td>Tela para correção de incontinência\nurinária masculina sintética</td></tr><tr><td>0000000138</td><td>Órtese auto-expansível de reto auto-expansível metálica</td></tr><tr><td>0000000281</td><td>Tela para correção de incontinência\nurinária feminina sintética</td></tr><tr><td>0000000137</td><td>Órtese auto-expansível de intestino delgado auto-expansível metálica</td></tr><tr><td>0000000280</td><td>Tela  absorvível</td></tr><tr><td>0000000136</td><td>Órtese auto-expansível de estômago auto-expansível metálica</td></tr><tr><td>0000000279</td><td>Tela  sintética / biológica</td></tr><tr><td>0000000135</td><td>Órtese auto-expansível de auto-expansível plástica</td></tr><tr><td>0000000278</td><td>Tela  inorgânica e sintética</td></tr><tr><td>0000000134</td><td>Órtese auto-expansível de esôfago auto-expansível metálica</td></tr><tr><td>0000000277</td><td>Suspensor palpebral vários tamanhos biológica/sintética</td></tr><tr><td>0000000133</td><td>Órtese auto-expansível de duodeno auto-expansível metálica</td></tr><tr><td>0000000276</td><td>Stent vascular vários tamanhos metálico/sintético</td></tr><tr><td>0000000132</td><td>Órtese auto-expansível de cólon auto-expansível metálica</td></tr><tr><td>0000000275</td><td>Stent vascular artérias ilíacas metálico/sintético</td></tr><tr><td>0000000131</td><td>Molde laríngeo  sintética</td></tr><tr><td>0000000274</td><td>Stent vascular artérias viscerais metálico/sintético</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis",
+  "version" : "1.1.0",
+  "name" : "BROrtesesProtesesImplantaveis",
+  "title" : "BROrtesesProtesesImplantaveis",
+  "status" : "active",
+  "date" : "2026-08-31T22:41:20-04:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
+      "concept" : [{
+        "code" : "0000000143",
+        "display" : "Órtese brônquica reta expansível sintética"
+      },
+      {
+        "code" : "0000000142",
+        "display" : "Órtese brônquica reta não\nexpansível sintética"
+      },
+      {
+        "code" : "0000000285",
+        "display" : "Válvula brônquica para\ntratamento de fuga aérea e  sintética"
+      },
+      {
+        "code" : "0000000141",
+        "display" : "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível metálica"
+      },
+      {
+        "code" : "0000000284",
+        "display" : "Tubo de ventilação para\nouvido médio permanente sintético"
+      },
+      {
+        "code" : "0000000140",
+        "display" : "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível\nvários tamanhos sintética"
+      },
+      {
+        "code" : "0000000283",
+        "display" : "Tubo de ventilação para\nouvido médio temporário sintético"
+      },
+      {
+        "code" : "0000000139",
+        "display" : "Órtese auto-expansível de  sintética"
+      },
+      {
+        "code" : "0000000282",
+        "display" : "Tela para correção de incontinência\nurinária masculina sintética"
+      },
+      {
+        "code" : "0000000138",
+        "display" : "Órtese auto-expansível de reto auto-expansível metálica"
+      },
+      {
+        "code" : "0000000281",
+        "display" : "Tela para correção de incontinência\nurinária feminina sintética"
+      },
+      {
+        "code" : "0000000137",
+        "display" : "Órtese auto-expansível de intestino delgado auto-expansível metálica"
+      },
+      {
+        "code" : "0000000280",
+        "display" : "Tela  absorvível"
+      },
+      {
+        "code" : "0000000136",
+        "display" : "Órtese auto-expansível de estômago auto-expansível metálica"
+      },
+      {
+        "code" : "0000000279",
+        "display" : "Tela  sintética / biológica"
+      },
+      {
+        "code" : "0000000135",
+        "display" : "Órtese auto-expansível de auto-expansível plástica"
+      },
+      {
+        "code" : "0000000278",
+        "display" : "Tela  inorgânica e sintética"
+      },
+      {
+        "code" : "0000000134",
+        "display" : "Órtese auto-expansível de esôfago auto-expansível metálica"
+      },
+      {
+        "code" : "0000000277",
+        "display" : "Suspensor palpebral vários tamanhos biológica/sintética"
+      },
+      {
+        "code" : "0000000133",
+        "display" : "Órtese auto-expansível de duodeno auto-expansível metálica"
+      },
+      {
+        "code" : "0000000276",
+        "display" : "Stent vascular vários tamanhos metálico/sintético"
+      },
+      {
+        "code" : "0000000132",
+        "display" : "Órtese auto-expansível de cólon auto-expansível metálica"
+      },
+      {
+        "code" : "0000000275",
+        "display" : "Stent vascular artérias ilíacas metálico/sintético"
+      },
+      {
+        "code" : "0000000131",
+        "display" : "Molde laríngeo  sintética"
+      },
+      {
+        "code" : "0000000274",
+        "display" : "Stent vascular artérias viscerais metálico/sintético"
+      }]
+    }]
+  }
+}

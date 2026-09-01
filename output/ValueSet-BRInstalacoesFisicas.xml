@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRInstalacoesFisicas"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRInstalacoesFisicas</b></p><a name="BRInstalacoesFisicas"> </a><a name="hcBRInstalacoesFisicas"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRInstalacoesFisicas.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-22">22</a></td><td>SALA DE REPOUSO/OBSERVACAO - INDIFERENCIADO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-21">21</a></td><td>SALA REPOUSO/OBSERVACAO - PEDIATRICA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-43">43</a></td><td>BRINQUEDOTECA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-20">20</a></td><td>SALA REPOUSO/OBSERVACAO - MASCULINO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-42">42</a></td><td>SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-19">19</a></td><td>SALA REPOUSO/OBSERVACAO - FEMININO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-41">41</a></td><td>SALA DE ATENDIMENTO A PACIENTE CRITICO/SALA DE ESTABILIZACAO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-18">18</a></td><td>OUTROS CONSULTORIOS NAO MEDICOS</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-40">40</a></td><td>LEITOS DE ALOJAMENTO CONJUNTO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-17">17</a></td><td>CLINICAS INDIFERENCIADO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-39">39</a></td><td>LEITOS RN PATOLOGICO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-16">16</a></td><td>CLINICAS ESPECIALIZADAS</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-38">38</a></td><td>LEITOS RN NORMAL</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-15">15</a></td><td>CLINICAS BASICAS</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-37">37</a></td><td>SALA DE CIRURGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-14">14</a></td><td>CONSULTORIOS MEDICOS</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-36">36</a></td><td>SALA DE CURETAGEM</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-13">13</a></td><td>SALA PEQUENA CIRURGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-35">35</a></td><td>SALA DE PARTO NORMAL</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-12">12</a></td><td>SALA DE CURATIVO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-34">34</a></td><td>SALA DE PREPARTO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-11">11</a></td><td>SALA DE GESSO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-33">33</a></td><td>SALA DE CIRURGIA AMBULATORIAL</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-10">10</a></td><td>SALA DE HIGIENIZACAO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-32">32</a></td><td>SALA DE RECUPERACAO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-09">09</a></td><td>ODONTOLOGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-31">31</a></td><td>SALA DE CIRURGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-08">08</a></td><td>SALA REPOUSO/OBSERVACAO - INDIFERENCIADO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-30">30</a></td><td>SALA DE CIRURGIA AMBULATORIAL</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-07">07</a></td><td>SALA REPOUSO/OBSERVACAO - MASCULINO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-29">29</a></td><td>SALA DE CURATIVO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-06">06</a></td><td>SALA REPOUSO/OBSERVACAO - FEMININO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-28">28</a></td><td>SALA DE GESSO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-05">05</a></td><td>SALA REPOUSO/OBSERVACAO - PEDIATRICA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-27">27</a></td><td>SALA DE NEBULIZACAO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-04">04</a></td><td>SALA DE ATENDIMENTO INDIFERENCIADO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-26">26</a></td><td>SALA DE IMUNIZACAO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-03">03</a></td><td>SALA DE ATENDIMENTO MASCULINO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-25">25</a></td><td>SALA DE ENFERMAGEM - SERVICOS</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-02">02</a></td><td>SALA DE ATENDIMENTO FEMININO</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-24">24</a></td><td>SALA DE PEQUENA CIRURGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-23">23</a></td><td>ODONTOLOGIA</td></tr><tr><td><a href="CodeSystem-BRInstalacoesFisicas.html#BRInstalacoesFisicas-01">01</a></td><td>SALA DE ATENDIMENTO PEDIATRICO</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRInstalacoesFisicas"/>
+  <version value="1.1.0"/>
+  <name value="BRInstalacoesFisicas"/>
+  <title value="BR Instalacoes Fisicas"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas"/>
+      <concept>
+        <code value="22"/>
+        <display value="SALA DE REPOUSO/OBSERVACAO - INDIFERENCIADO"/>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="SALA REPOUSO/OBSERVACAO - PEDIATRICA"/>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="BRINQUEDOTECA"/>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="SALA REPOUSO/OBSERVACAO - MASCULINO"/>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="SALA REPOUSO/OBSERVACAO - FEMININO"/>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="SALA DE ATENDIMENTO A PACIENTE CRITICO/SALA DE ESTABILIZACAO"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="OUTROS CONSULTORIOS NAO MEDICOS"/>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="LEITOS DE ALOJAMENTO CONJUNTO"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="CLINICAS INDIFERENCIADO"/>
+      </concept>
+      <concept>
+        <code value="39"/>
+        <display value="LEITOS RN PATOLOGICO"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="CLINICAS ESPECIALIZADAS"/>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="LEITOS RN NORMAL"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="CLINICAS BASICAS"/>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="SALA DE CIRURGIA"/>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="CONSULTORIOS MEDICOS"/>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="SALA DE CURETAGEM"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="SALA PEQUENA CIRURGIA"/>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="SALA DE PARTO NORMAL"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="SALA DE CURATIVO"/>
+      </concept>
+      <concept>
+        <code value="34"/>
+        <display value="SALA DE PREPARTO"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="SALA DE GESSO"/>
+      </concept>
+      <concept>
+        <code value="33"/>
+        <display value="SALA DE CIRURGIA AMBULATORIAL"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="SALA DE HIGIENIZACAO"/>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="SALA DE RECUPERACAO"/>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="ODONTOLOGIA"/>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="SALA DE CIRURGIA"/>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="SALA REPOUSO/OBSERVACAO - INDIFERENCIADO"/>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="SALA DE CIRURGIA AMBULATORIAL"/>
+      </concept>
+      <concept>
+        <code value="07"/>
+        <display value="SALA REPOUSO/OBSERVACAO - MASCULINO"/>
+      </concept>
+      <concept>
+        <code value="29"/>
+        <display value="SALA DE CURATIVO"/>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="SALA REPOUSO/OBSERVACAO - FEMININO"/>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="SALA DE GESSO"/>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="SALA REPOUSO/OBSERVACAO - PEDIATRICA"/>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="SALA DE NEBULIZACAO"/>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="SALA DE ATENDIMENTO INDIFERENCIADO"/>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="SALA DE IMUNIZACAO"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="SALA DE ATENDIMENTO MASCULINO"/>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="SALA DE ENFERMAGEM - SERVICOS"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="SALA DE ATENDIMENTO FEMININO"/>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="SALA DE PEQUENA CIRURGIA"/>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="ODONTOLOGIA"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="SALA DE ATENDIMENTO PEDIATRICO"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

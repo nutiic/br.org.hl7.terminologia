@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRPovoItinerante",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:28:24.765+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRPovoItinerante</b></p><a name=\"BRPovoItinerante\"> </a><a name=\"hcBRPovoItinerante\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:28:24+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRPovoItinerante-4\"> </a></td><td>Andarilhos</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRPovoItinerante-7\"> </a></td><td>Trabalhadores de área adstrita</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRPovoItinerante-3\"> </a></td><td>Circenses</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRPovoItinerante-6\"> </a></td><td>Assentados</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRPovoItinerante-2\"> </a></td><td>Ciganos</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRPovoItinerante-5\"> </a></td><td>Acampados</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRPovoItinerante-1\"> </a></td><td>Situação de rua</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
+  "version" : "1.1.0",
+  "name" : "BRPovoItinerante",
+  "title" : "BRPovoItinerante",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "4",
+    "display" : "Andarilhos"
+  },
+  {
+    "code" : "7",
+    "display" : "Trabalhadores de área adstrita"
+  },
+  {
+    "code" : "3",
+    "display" : "Circenses"
+  },
+  {
+    "code" : "6",
+    "display" : "Assentados"
+  },
+  {
+    "code" : "2",
+    "display" : "Ciganos"
+  },
+  {
+    "code" : "5",
+    "display" : "Acampados"
+  },
+  {
+    "code" : "1",
+    "display" : "Situação de rua"
+  }]
+}

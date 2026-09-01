@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoObservacao"/>
+  <meta>
+    <lastUpdated value="2025-07-17T17:40:00.008+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRTipoObservacao</b></p><a name="BRTipoObservacao"> </a><a name="hcBRTipoObservacao"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 17:40:00+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">IAC<a name="BRTipoObservacao-IAC"> </a></td><td>Informações Adicionais/Complementares</td></tr><tr><td style="white-space:nowrap">RECIDI<a name="BRTipoObservacao-RECIDI"> </a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td style="white-space:nowrap">DSIA<a name="BRTipoObservacao-DSIA"> </a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td style="white-space:nowrap">DF<a name="BRTipoObservacao-DF"> </a></td><td>Dados do desfecho</td></tr><tr><td style="white-space:nowrap">PC<a name="BRTipoObservacao-PC"> </a></td><td>Perímetro Cefálico</td></tr><tr><td style="white-space:nowrap">CA<a name="BRTipoObservacao-CA"> </a></td><td>Circunferência Abdominal</td></tr><tr><td style="white-space:nowrap">PA<a name="BRTipoObservacao-PA"> </a></td><td>Pressão Arterial</td></tr><tr><td style="white-space:nowrap">P<a name="BRTipoObservacao-P"> </a></td><td>Peso</td></tr><tr><td style="white-space:nowrap">A<a name="BRTipoObservacao-A"> </a></td><td>Altura</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoObservacao"/>
+  <title value="BRTipoObservacao"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="IAC"/>
+    <display value="Informações Adicionais/Complementares"/>
+  </concept>
+  <concept>
+    <code value="RECIDI"/>
+    <display value="Resumo da evolução clínica do indivíduo durante a internação"/>
+  </concept>
+  <concept>
+    <code value="DSIA"/>
+    <display value="Declaração Subjetiva do Indivíudo para o Atendimento"/>
+  </concept>
+  <concept>
+    <code value="DF"/>
+    <display value="Dados do desfecho"/>
+  </concept>
+  <concept>
+    <code value="PC"/>
+    <display value="Perímetro Cefálico"/>
+  </concept>
+  <concept>
+    <code value="CA"/>
+    <display value="Circunferência Abdominal"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Pressão Arterial"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Peso"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="Altura"/>
+  </concept>
+</CodeSystem>

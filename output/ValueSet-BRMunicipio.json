@@ -1,0 +1,178 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRMunicipio",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRMunicipio</b></p><a name=\"BRMunicipio\"> </a><a name=\"hcBRMunicipio\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-28\">28</a></td><td>Sergipe</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-27\">27</a></td><td>Alagoas</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-53\">53</a></td><td>Distrito Federal</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-26\">26</a></td><td>Pernambuco</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-52\">52</a></td><td>Goiás</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-25\">25</a></td><td>Paraíba</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-51\">51</a></td><td>Mato Grosso</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-24\">24</a></td><td>Rio Grande do Norte</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-50\">50</a></td><td>Mato Grosso do Sul</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-23\">23</a></td><td>Ceará</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-5\">5</a></td><td>Centro-Oeste</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-22\">22</a></td><td>Piauí</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-43\">43</a></td><td>Rio Grande do Sul</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-21\">21</a></td><td>Maranhão</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-42\">42</a></td><td>Santa Catarina</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-2\">2</a></td><td>Nordeste</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-41\">41</a></td><td>Paraná</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-17\">17</a></td><td>Tocantins</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-4\">4</a></td><td>Sul</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-16\">16</a></td><td>Amapá</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-34\">34</a></td><td>São Paulo</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-15\">15</a></td><td>Pará</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-33\">33</a></td><td>Rio de Janeiro</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-14\">14</a></td><td>Roraima</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-32\">32</a></td><td>Espírito Santo</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-13\">13</a></td><td>Amazonas</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-315780\">315780</a></td><td>Santa Luzia</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-12\">12</a></td><td>Acre</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-31\">31</a></td><td>Minas Gerais</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-11\">11</a></td><td>Rondônia</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-3\">3</a></td><td>Sudeste</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-1\">1</a></td><td>Norte</td></tr><tr><td><a href=\"CodeSystem-BRDivisaoGeograficaBrasil.html#BRDivisaoGeograficaBrasil-29\">29</a></td><td>Bahia</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMunicipio",
+  "version" : "1.1.0",
+  "name" : "BRMunicipio",
+  "title" : "BR Municipio",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+      "concept" : [{
+        "code" : "28",
+        "display" : "Sergipe"
+      },
+      {
+        "code" : "27",
+        "display" : "Alagoas"
+      },
+      {
+        "code" : "53",
+        "display" : "Distrito Federal"
+      },
+      {
+        "code" : "26",
+        "display" : "Pernambuco"
+      },
+      {
+        "code" : "52",
+        "display" : "Goiás"
+      },
+      {
+        "code" : "25",
+        "display" : "Paraíba"
+      },
+      {
+        "code" : "51",
+        "display" : "Mato Grosso"
+      },
+      {
+        "code" : "24",
+        "display" : "Rio Grande do Norte"
+      },
+      {
+        "code" : "50",
+        "display" : "Mato Grosso do Sul"
+      },
+      {
+        "code" : "23",
+        "display" : "Ceará"
+      },
+      {
+        "code" : "5",
+        "display" : "Centro-Oeste"
+      },
+      {
+        "code" : "22",
+        "display" : "Piauí"
+      },
+      {
+        "code" : "43",
+        "display" : "Rio Grande do Sul"
+      },
+      {
+        "code" : "21",
+        "display" : "Maranhão"
+      },
+      {
+        "code" : "42",
+        "display" : "Santa Catarina"
+      },
+      {
+        "code" : "2",
+        "display" : "Nordeste"
+      },
+      {
+        "code" : "41",
+        "display" : "Paraná"
+      },
+      {
+        "code" : "17",
+        "display" : "Tocantins"
+      },
+      {
+        "code" : "4",
+        "display" : "Sul"
+      },
+      {
+        "code" : "16",
+        "display" : "Amapá"
+      },
+      {
+        "code" : "34",
+        "display" : "São Paulo"
+      },
+      {
+        "code" : "15",
+        "display" : "Pará"
+      },
+      {
+        "code" : "33",
+        "display" : "Rio de Janeiro"
+      },
+      {
+        "code" : "14",
+        "display" : "Roraima"
+      },
+      {
+        "code" : "32",
+        "display" : "Espírito Santo"
+      },
+      {
+        "code" : "13",
+        "display" : "Amazonas"
+      },
+      {
+        "code" : "315780",
+        "display" : "Santa Luzia"
+      },
+      {
+        "code" : "12",
+        "display" : "Acre"
+      },
+      {
+        "code" : "31",
+        "display" : "Minas Gerais"
+      },
+      {
+        "code" : "11",
+        "display" : "Rondônia"
+      },
+      {
+        "code" : "3",
+        "display" : "Sudeste"
+      },
+      {
+        "code" : "1",
+        "display" : "Norte"
+      },
+      {
+        "code" : "29",
+        "display" : "Bahia"
+      }]
+    }]
+  }
+}

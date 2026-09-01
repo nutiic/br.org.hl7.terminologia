@@ -1,0 +1,200 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRDivisaoGeograficaBrasil"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:37:28.792+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRDivisaoGeograficaBrasil</b></p><a name=\"BRDivisaoGeograficaBrasil\"> </a><a name=\"hcBRDivisaoGeograficaBrasil\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:37:28+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRDivisaoGeograficaBrasil-28\"> </a></td><td>Sergipe</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRDivisaoGeograficaBrasil-27\"> </a></td><td>Alagoas</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRDivisaoGeograficaBrasil-53\"> </a></td><td>Distrito Federal</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRDivisaoGeograficaBrasil-26\"> </a></td><td>Pernambuco</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRDivisaoGeograficaBrasil-52\"> </a></td><td>Goiás</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRDivisaoGeograficaBrasil-25\"> </a></td><td>Paraíba</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRDivisaoGeograficaBrasil-51\"> </a></td><td>Mato Grosso</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRDivisaoGeograficaBrasil-24\"> </a></td><td>Rio Grande do Norte</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRDivisaoGeograficaBrasil-50\"> </a></td><td>Mato Grosso do Sul</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRDivisaoGeograficaBrasil-23\"> </a></td><td>Ceará</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRDivisaoGeograficaBrasil-5\"> </a></td><td>Centro-Oeste</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRDivisaoGeograficaBrasil-22\"> </a></td><td>Piauí</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRDivisaoGeograficaBrasil-43\"> </a></td><td>Rio Grande do Sul</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRDivisaoGeograficaBrasil-21\"> </a></td><td>Maranhão</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRDivisaoGeograficaBrasil-42\"> </a></td><td>Santa Catarina</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRDivisaoGeograficaBrasil-2\"> </a></td><td>Nordeste</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRDivisaoGeograficaBrasil-41\"> </a></td><td>Paraná</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRDivisaoGeograficaBrasil-17\"> </a></td><td>Tocantins</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRDivisaoGeograficaBrasil-4\"> </a></td><td>Sul</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRDivisaoGeograficaBrasil-16\"> </a></td><td>Amapá</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRDivisaoGeograficaBrasil-34\"> </a></td><td>São Paulo</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRDivisaoGeograficaBrasil-15\"> </a></td><td>Pará</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRDivisaoGeograficaBrasil-33\"> </a></td><td>Rio de Janeiro</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRDivisaoGeograficaBrasil-14\"> </a></td><td>Roraima</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRDivisaoGeograficaBrasil-32\"> </a></td><td>Espírito Santo</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRDivisaoGeograficaBrasil-13\"> </a></td><td>Amazonas</td></tr><tr><td style=\"white-space:nowrap\">315780<a name=\"BRDivisaoGeograficaBrasil-315780\"> </a></td><td>Santa Luzia</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRDivisaoGeograficaBrasil-12\"> </a></td><td>Acre</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRDivisaoGeograficaBrasil-31\"> </a></td><td>Minas Gerais</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRDivisaoGeograficaBrasil-11\"> </a></td><td>Rondônia</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRDivisaoGeograficaBrasil-3\"> </a></td><td>Sudeste</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRDivisaoGeograficaBrasil-1\"> </a></td><td>Norte</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRDivisaoGeograficaBrasil-29\"> </a></td><td>Bahia</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRDivisaoGeograficaBrasil"] ;
+  fhir:CodeSystem.title [ fhir:value "BRDivisaoGeograficaBrasil"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "33"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sergipe" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alagoas" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Distrito Federal" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pernambuco" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Goiás" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paraíba" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mato Grosso" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rio Grande do Norte" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mato Grosso do Sul" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ceará" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Centro-Oeste" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Piauí" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rio Grande do Sul" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Maranhão" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Santa Catarina" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nordeste" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Paraná" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tocantins" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sul" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Amapá" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "São Paulo" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pará" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rio de Janeiro" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Roraima" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Espírito Santo" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Amazonas" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "315780" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Santa Luzia" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Acre" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Minas Gerais" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rondônia" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sudeste" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Norte" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bahia" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

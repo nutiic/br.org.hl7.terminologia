@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRCondicaoAmostra"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRCondicaoAmostra</b></p><a name="BRCondicaoAmostra"> </a><a name="hcBRCondicaoAmostra"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href="CodeSystem-BRCondicaoAmostra.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>QUE</td><td>Recipiente quebrado</td></tr><tr><td>TEC</td><td>Incidente técnico</td></tr><tr><td>CIN</td><td>Coleta inadequada da amostra</td></tr><tr><td>INS</td><td>Amostra insuficiente</td></tr><tr><td>INC</td><td>Cadastro incorreto da amostra</td></tr><tr><td>IMP</td><td>Amostra imprópria para análise solicitada.</td></tr><tr><td>NCI</td><td>Amostra não correpondente à identificada</td></tr><tr><td>FPC</td><td>Amostra fora do prazo de coleta</td></tr><tr><td>SID</td><td>Amostra sem identificação</td></tr><tr><td>ILE</td><td>Amostra com identificação ilegível</td></tr><tr><td>INA</td><td>Amostra com identificação inadequada</td></tr><tr><td>VAZ</td><td>Amostra vazada</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html"><code>http://terminology.hl7.org/CodeSystem/v2-0493</code></a><span title="Version is not explicitly stated, which means it is fixed to 2.0.0, the version found through the package references"> versão &#x1F4E6;2.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-CON">CON</a></td><td>Contaminated</td><td>Contaminated</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-LIVE">LIVE</a></td><td>Live</td><td>Live</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-HEM">HEM</a></td><td>Hemolyzed</td><td>Hemolyzed</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-FROZ">FROZ</a></td><td>Frozen</td><td>Frozen</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-CFU">CFU</a></td><td>Centrifuged</td><td>Centrifuged</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-AUT">AUT</a></td><td>Autolyzed</td><td>Autolyzed</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-CLOT">CLOT</a></td><td>Clotted</td><td>Clotted</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-ROOM">ROOM</a></td><td>Room temperature</td><td>Room temperature</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-SNR">SNR</a></td><td>Sample not received</td><td>Sample not received</td></tr><tr><td><a href="http://terminology.hl7.org/5.5.0/CodeSystem-v2-0493.html#v2-0493-COOL">COOL</a></td><td>Cool</td><td>Cool</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRCondicaoAmostra"/>
+  <version value="1.1.0"/>
+  <name value="BRCondicaoAmostra"/>
+  <title value="BRCondicaoAmostra"/>
+  <status value="active"/>
+  <date value="2026-08-31T22:41:20-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra"/>
+      <concept>
+        <code value="QUE"/>
+        <display value="Recipiente quebrado"/>
+      </concept>
+      <concept>
+        <code value="TEC"/>
+        <display value="Incidente técnico"/>
+      </concept>
+      <concept>
+        <code value="CIN"/>
+        <display value="Coleta inadequada da amostra"/>
+      </concept>
+      <concept>
+        <code value="INS"/>
+        <display value="Amostra insuficiente"/>
+      </concept>
+      <concept>
+        <code value="INC"/>
+        <display value="Cadastro incorreto da amostra"/>
+      </concept>
+      <concept>
+        <code value="IMP"/>
+        <display value="Amostra imprópria para análise solicitada."/>
+      </concept>
+      <concept>
+        <code value="NCI"/>
+        <display value="Amostra não correpondente à identificada"/>
+      </concept>
+      <concept>
+        <code value="FPC"/>
+        <display value="Amostra fora do prazo de coleta"/>
+      </concept>
+      <concept>
+        <code value="SID"/>
+        <display value="Amostra sem identificação"/>
+      </concept>
+      <concept>
+        <code value="ILE"/>
+        <display value="Amostra com identificação ilegível"/>
+      </concept>
+      <concept>
+        <code value="INA"/>
+        <display value="Amostra com identificação inadequada"/>
+      </concept>
+      <concept>
+        <code value="VAZ"/>
+        <display value="Amostra vazada"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0493"/>
+      <concept>
+        <code value="CON"/>
+        <display value="Contaminated"/>
+      </concept>
+      <concept>
+        <code value="LIVE"/>
+        <display value="Live"/>
+      </concept>
+      <concept>
+        <code value="HEM"/>
+        <display value="Hemolyzed"/>
+      </concept>
+      <concept>
+        <code value="FROZ"/>
+        <display value="Frozen"/>
+      </concept>
+      <concept>
+        <code value="CFU"/>
+        <display value="Centrifuged"/>
+      </concept>
+      <concept>
+        <code value="AUT"/>
+        <display value="Autolyzed"/>
+      </concept>
+      <concept>
+        <code value="CLOT"/>
+        <display value="Clotted"/>
+      </concept>
+      <concept>
+        <code value="ROOM"/>
+        <display value="Room temperature"/>
+      </concept>
+      <concept>
+        <code value="SNR"/>
+        <display value="Sample not received"/>
+      </concept>
+      <concept>
+        <code value="COOL"/>
+        <display value="Cool"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoAleitamentoMaterno"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTipoAleitamentoMaterno</b></p><a name="BRTipoAleitamentoMaterno"> </a><a name="hcBRTipoAleitamentoMaterno"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTipoAleitamentoMaterno.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRTipoAleitamentoMaterno.html#BRTipoAleitamentoMaterno-05">05</a></td><td>Aleitamento materno misto ou parcial</td></tr><tr><td><a href="CodeSystem-BRTipoAleitamentoMaterno.html#BRTipoAleitamentoMaterno-04">04</a></td><td>Aleitamento materno complementado</td></tr><tr><td><a href="CodeSystem-BRTipoAleitamentoMaterno.html#BRTipoAleitamentoMaterno-03">03</a></td><td>Aleitamento materno</td></tr><tr><td><a href="CodeSystem-BRTipoAleitamentoMaterno.html#BRTipoAleitamentoMaterno-02">02</a></td><td>Aleitamento materno predominante</td></tr><tr><td><a href="CodeSystem-BRTipoAleitamentoMaterno.html#BRTipoAleitamentoMaterno-01">01</a></td><td>Aleitamento materno  exclusivo</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoAleitamentoMaterno"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoAleitamentoMaterno"/>
+  <title value="BR Tipo Aleitamento Materno"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno"/>
+      <concept>
+        <code value="05"/>
+        <display value="Aleitamento materno misto ou parcial"/>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Aleitamento materno complementado"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Aleitamento materno"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Aleitamento materno predominante"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="Aleitamento materno  exclusivo"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

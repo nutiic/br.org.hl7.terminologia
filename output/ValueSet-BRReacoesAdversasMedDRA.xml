@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRReacoesAdversasMedDRA"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRReacoesAdversasMedDRA</b></p><a name="BRReacoesAdversasMedDRA"> </a><a name="hcBRReacoesAdversasMedDRA"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRMedDRA.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10013968">10013968</a></td><td>Dispnéia</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10014184">10014184</a></td><td>Eczema</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10023845">10023845</a></td><td>Edema de Glote</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10028116">10028116</a></td><td>Mucosite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10002424">10002424</a></td><td>Angioedema</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10037868">10037868</a></td><td>Exantema maculopapular</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10029117">10029117</a></td><td>Nefrite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10003639">10003639</a></td><td>Dermatite atópica</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10003553">10003553</a></td><td>Asma</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10012735">10012735</a></td><td>Diarréia</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10007617">10007617</a></td><td>Parada Cardiorespiratória</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10042033">10042033</a></td><td>Síndrome de Stevens-Johnson</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10012442">10012442</a></td><td>Dermatite de contato</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10039083">10039083</a></td><td>Rinite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10046735">10046735</a></td><td>Urticária</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10010741">10010741</a></td><td>Conjuntivite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10047115">10047115</a></td><td>Vasculite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10011224">10011224</a></td><td>Tosse</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10006482">10006482</a></td><td>Broncoespasmo</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10034972">10034972</a></td><td>Fotossensibilidade</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10073508">10073508</a></td><td>Síndrome de DRESS</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10037087">10037087</a></td><td>Prurido</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10044223">10044223</a></td><td>Síndrome de Lyell</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10015218">10015218</a></td><td>Eritema Multiforme</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10012441">10012441</a></td><td>Exantema bolhoso</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10003246">10003246</a></td><td>Artrite</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10002198">10002198</a></td><td>Anafilaxia</td></tr><tr><td><a href="CodeSystem-BRMedDRA.html#BRMedDRA-10047700">10047700</a></td><td>Vômito</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRReacoesAdversasMedDRA"/>
+  <version value="1.1.0"/>
+  <name value="BRReacoesAdversasMedDRA"/>
+  <title value="BR Reacoes Adversas Med DRA"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA"/>
+      <concept>
+        <code value="10013968"/>
+        <display value="Dispnéia"/>
+      </concept>
+      <concept>
+        <code value="10014184"/>
+        <display value="Eczema"/>
+      </concept>
+      <concept>
+        <code value="10023845"/>
+        <display value="Edema de Glote"/>
+      </concept>
+      <concept>
+        <code value="10028116"/>
+        <display value="Mucosite"/>
+      </concept>
+      <concept>
+        <code value="10002424"/>
+        <display value="Angioedema"/>
+      </concept>
+      <concept>
+        <code value="10037868"/>
+        <display value="Exantema maculopapular"/>
+      </concept>
+      <concept>
+        <code value="10029117"/>
+        <display value="Nefrite"/>
+      </concept>
+      <concept>
+        <code value="10003639"/>
+        <display value="Dermatite atópica"/>
+      </concept>
+      <concept>
+        <code value="10003553"/>
+        <display value="Asma"/>
+      </concept>
+      <concept>
+        <code value="10012735"/>
+        <display value="Diarréia"/>
+      </concept>
+      <concept>
+        <code value="10007617"/>
+        <display value="Parada Cardiorespiratória"/>
+      </concept>
+      <concept>
+        <code value="10042033"/>
+        <display value="Síndrome de Stevens-Johnson"/>
+      </concept>
+      <concept>
+        <code value="10012442"/>
+        <display value="Dermatite de contato"/>
+      </concept>
+      <concept>
+        <code value="10039083"/>
+        <display value="Rinite"/>
+      </concept>
+      <concept>
+        <code value="10046735"/>
+        <display value="Urticária"/>
+      </concept>
+      <concept>
+        <code value="10010741"/>
+        <display value="Conjuntivite"/>
+      </concept>
+      <concept>
+        <code value="10047115"/>
+        <display value="Vasculite"/>
+      </concept>
+      <concept>
+        <code value="10011224"/>
+        <display value="Tosse"/>
+      </concept>
+      <concept>
+        <code value="10006482"/>
+        <display value="Broncoespasmo"/>
+      </concept>
+      <concept>
+        <code value="10034972"/>
+        <display value="Fotossensibilidade"/>
+      </concept>
+      <concept>
+        <code value="10073508"/>
+        <display value="Síndrome de DRESS"/>
+      </concept>
+      <concept>
+        <code value="10037087"/>
+        <display value="Prurido"/>
+      </concept>
+      <concept>
+        <code value="10044223"/>
+        <display value="Síndrome de Lyell"/>
+      </concept>
+      <concept>
+        <code value="10015218"/>
+        <display value="Eritema Multiforme"/>
+      </concept>
+      <concept>
+        <code value="10012441"/>
+        <display value="Exantema bolhoso"/>
+      </concept>
+      <concept>
+        <code value="10003246"/>
+        <display value="Artrite"/>
+      </concept>
+      <concept>
+        <code value="10002198"/>
+        <display value="Anafilaxia"/>
+      </concept>
+      <concept>
+        <code value="10047700"/>
+        <display value="Vômito"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

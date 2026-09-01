@@ -1,0 +1,207 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRResultadoQualitativoExame"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRResultadoQualitativoExame</b></p><a name=\"BRResultadoQualitativoExame\"> </a><a name=\"hcBRResultadoQualitativoExame\"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoDTNT.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-1\">1</a></td><td>Detectable</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-2\">2</a></td><td>Não Detectável</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoDTNT.html#BRTipoResultadoDTNT-3\">3</a></td><td>Indeterminado        </td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoHISPT.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-2\">2</a></td><td>Não Compatível</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-1\">1</a></td><td>Compatível</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoHISPT.html#BRTipoResultadoHISPT-3\">3</a></td><td>Inconclusivo</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoPRAU.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-2\">2</a></td><td>Ausência</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-1\">1</a></td><td>Presença</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPRAU.html#BRTipoResultadoPRAU-3\">3</a></td><td>Inconclusivo</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRSBAC.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-2\">2</a></td><td>Não Foram visualizados</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSBAC.html#BRTipoResultadoRSBAC-1\">1</a></td><td>Foram visualizados</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-2\">2</a></td><td>Alta Avidez</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-1\">1</a></td><td>Baixa Avidez</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoAVIDEZ.html#BRTipoResultadoAVIDEZ-3\">3</a></td><td>Indeterminado        </td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRGNR.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-2\">2</a></td><td>Não Reagente</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-1\">1</a></td><td>Reagente</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRGNR.html#BRTipoResultadoRGNR-3\">3</a></td><td>Indeterminado</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoRSCUL.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-2\">2</a></td><td>Houve crescimento</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoRSCUL.html#BRTipoResultadoRSCUL-1\">1</a></td><td>Não houve crescimento</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRResultadoQualitativoExame.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-1\">1</a></td><td>Detectável</td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-3\">3</a></td><td>Inconclusivo</td></tr><tr><td><a href=\"CodeSystem-BRResultadoQualitativoExame.html#BRResultadoQualitativoExame-2\">2</a></td><td>Não Detectável</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoResultadoPSNG.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-2\">2</a></td><td>Negativo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-1\">1</a></td><td>Positivo</td></tr><tr><td><a href=\"CodeSystem-BRTipoResultadoPSNG.html#BRTipoResultadoPSNG-3\">3</a></td><td>Inconclusivo</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRResultadoQualitativoExame"] ;
+  fhir:ValueSet.title [ fhir:value "BR Resultado Qualitativo Exame"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Detectable" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não Detectável" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indeterminado        " ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não Compatível" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Compatível" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ausência" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Presença" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não Foram visualizados" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Foram visualizados" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alta Avidez" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Baixa Avidez" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indeterminado        " ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não Reagente" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Reagente" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indeterminado" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Houve crescimento" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não houve crescimento" ]
+       ]
+     ], [
+       fhir:index 7 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Detectável" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Não Detectável" ]
+       ]
+     ], [
+       fhir:index 8 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Negativo" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Positivo" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inconclusivo" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

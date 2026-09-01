@@ -1,0 +1,161 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRTipoObservacao",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRTipoObservacao</b></p><a name=\"BRTipoObservacao\"> </a><a name=\"hcBRTipoObservacao\"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRTipoObservacao.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-IAC\">IAC</a></td><td>Informações Adicionais/Complementares</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-RECIDI\">RECIDI</a></td><td>Resumo da evolução clínica do indivíduo durante a internação</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-DSIA\">DSIA</a></td><td>Declaração Subjetiva do Indivíudo para o Atendimento</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-DF\">DF</a></td><td>Dados do desfecho</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-PC\">PC</a></td><td>Perímetro Cefálico</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-CA\">CA</a></td><td>Circunferência Abdominal</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-PA\">PA</a></td><td>Pressão Arterial</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-P\">P</a></td><td>Peso</td></tr><tr><td><a href=\"CodeSystem-BRTipoObservacao.html#BRTipoObservacao-A\">A</a></td><td>Altura</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"https://loinc.org/8652-0/\">8652-0</a></td><td>Hospital discharge history</td></tr><tr><td><a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td>Hospital discharge disposition</td></tr><tr><td><a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td>Hospital course</td></tr><tr><td><a href=\"https://loinc.org/46696-1/\">46696-1</a></td><td>Additional comments</td></tr><tr><td><a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td>History general</td></tr><tr><td><a href=\"https://loinc.org/9843-4/\">9843-4</a></td><td>Circumference.occipital-frontal</td></tr><tr><td><a href=\"https://loinc.org/8665-2/\">8665-2</a></td><td>Date last menstrual period</td></tr><tr><td><a href=\"https://loinc.org/8480-6/\">8480-6</a></td><td>Intravascular systolic</td></tr><tr><td><a href=\"https://loinc.org/8462-4/\">8462-4</a></td><td>Intravascular diastolic</td></tr><tr><td><a href=\"https://loinc.org/8302-2/\">8302-2</a></td><td>Body height</td></tr><tr><td><a href=\"https://loinc.org/8280-0/\">8280-0</a></td><td>Circumference.at umbilicus</td></tr><tr><td><a href=\"https://loinc.org/63895-7/\">63895-7</a></td><td>Breastfeeding status</td></tr><tr><td><a href=\"https://loinc.org/48767-8/\">48767-8</a></td><td>Annotation comment</td></tr><tr><td><a href=\"https://loinc.org/56832-9/\">56832-9</a></td><td>Substance abused</td></tr><tr><td><a href=\"https://loinc.org/29463-7/\">29463-7</a></td><td>Body weight</td></tr><tr><td><a href=\"https://loinc.org/11996-6/\">11996-6</a></td><td>Pregnancies</td></tr><tr><td><a href=\"https://loinc.org/11885-1/\">11885-1</a></td><td>Gestational age</td></tr><tr><td><a href=\"https://loinc.org/11612-9/\">11612-9</a></td><td>Abortions</td></tr><tr><td><a href=\"https://loinc.org/18842-5/\">18842-5</a></td><td>Discharge summary note</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoObservacao",
+  "version" : "1.1.0",
+  "name" : "BRTipoObservacao",
+  "title" : "BR Tipo Observacao",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
+      "concept" : [{
+        "code" : "IAC",
+        "display" : "Informações Adicionais/Complementares"
+      },
+      {
+        "code" : "RECIDI",
+        "display" : "Resumo da evolução clínica do indivíduo durante a internação"
+      },
+      {
+        "code" : "DSIA",
+        "display" : "Declaração Subjetiva do Indivíudo para o Atendimento"
+      },
+      {
+        "code" : "DF",
+        "display" : "Dados do desfecho"
+      },
+      {
+        "code" : "PC",
+        "display" : "Perímetro Cefálico"
+      },
+      {
+        "code" : "CA",
+        "display" : "Circunferência Abdominal"
+      },
+      {
+        "code" : "PA",
+        "display" : "Pressão Arterial"
+      },
+      {
+        "code" : "P",
+        "display" : "Peso"
+      },
+      {
+        "code" : "A",
+        "display" : "Altura"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8652-0",
+        "display" : "Hospital discharge history"
+      },
+      {
+        "code" : "8650-4",
+        "display" : "Hospital discharge disposition"
+      },
+      {
+        "code" : "8648-8",
+        "display" : "Hospital course"
+      },
+      {
+        "code" : "46696-1",
+        "display" : "Additional comments"
+      },
+      {
+        "code" : "11329-0",
+        "display" : "History general"
+      },
+      {
+        "code" : "9843-4",
+        "display" : "Circumference.occipital-frontal"
+      },
+      {
+        "code" : "8665-2",
+        "display" : "Date last menstrual period"
+      },
+      {
+        "code" : "8480-6",
+        "display" : "Intravascular systolic"
+      },
+      {
+        "code" : "8462-4",
+        "display" : "Intravascular diastolic"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Body height"
+      },
+      {
+        "code" : "8280-0",
+        "display" : "Circumference.at umbilicus"
+      },
+      {
+        "code" : "63895-7",
+        "display" : "Breastfeeding status"
+      },
+      {
+        "code" : "48767-8",
+        "display" : "Annotation comment"
+      },
+      {
+        "code" : "56832-9",
+        "display" : "Substance abused"
+      },
+      {
+        "code" : "29463-7",
+        "display" : "Body weight"
+      },
+      {
+        "code" : "11996-6",
+        "display" : "Pregnancies"
+      },
+      {
+        "code" : "11885-1",
+        "display" : "Gestational age"
+      },
+      {
+        "code" : "11612-9",
+        "display" : "Abortions"
+      },
+      {
+        "code" : "18842-5",
+        "display" : "Discharge summary note"
+      }]
+    }]
+  }
+}

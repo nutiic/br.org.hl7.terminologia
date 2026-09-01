@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRDispositivo-Medico"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRDispositivo-Medico</b></p><a name="BRDispositivo-Medico"> </a><a name="hcBRDispositivo-Medico"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTabelaSUS.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0211020010</td><td>CATETERISMO CARDIACO</td></tr><tr><td>0211020060</td><td>TESTE DE ESFORÇO / TESTE ERGOMETRICO</td></tr><tr><td>0211070378</td><td>AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR</td></tr><tr><td>0301040141</td><td>INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)</td></tr><tr><td>0301040176</td><td>INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL</td></tr><tr><td>0301040222</td><td>INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG</td></tr><tr><td>0303060158</td><td>TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR</td></tr><tr><td>0303090235</td><td>TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE</td></tr><tr><td>0403010349</td><td>TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC</td></tr><tr><td>0403080010</td><td>IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL</td></tr><tr><td>0403080029</td><td>IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)</td></tr><tr><td>0403080037</td><td>IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS</td></tr><tr><td>0404010148</td><td>IMPLANTE COCLEAR</td></tr><tr><td>0404010571</td><td>CIRURGIA DE IMPLANTE COCLEAR UNILATERAL</td></tr><tr><td>0404010580</td><td>CIRURGIA DE IMPLANTE COCLEAR BILATERAL</td></tr><tr><td>0404020569</td><td>ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)</td></tr><tr><td>0404030068</td><td>OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO</td></tr><tr><td>0404030220</td><td>IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL</td></tr><tr><td>0405050100</td><td>FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR</td></tr><tr><td>0405050119</td><td>FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA</td></tr><tr><td>0405050135</td><td>IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA</td></tr><tr><td>0405050143</td><td>IMPLANTE INTRA-ESTROMAL</td></tr><tr><td>0405050151</td><td>IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO</td></tr><tr><td>0405050372</td><td>FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL</td></tr><tr><td>0406010552</td><td>IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)</td></tr><tr><td>0406010579</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P</td></tr><tr><td>0406010587</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO</td></tr><tr><td>0406010595</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR </td></tr><tr><td>0406010609</td><td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO</td></tr><tr><td>0406010617</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO</td></tr><tr><td>0406010625</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO</td></tr><tr><td>0406010633</td><td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO</td></tr><tr><td>0406010641</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO</td></tr><tr><td>0406010650</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO</td></tr><tr><td>0406010668</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO</td></tr><tr><td>0406010676</td><td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO</td></tr><tr><td>0406010684</td><td>IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO</td></tr><tr><td>0406010692</td><td>IMPLANTE DE PRÓTESE VALVAR</td></tr><tr><td>0406011478</td><td>IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)</td></tr><tr><td>0406011524</td><td>IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)</td></tr><tr><td>0406030022</td><td>ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS</td></tr><tr><td>0406030030</td><td>ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT</td></tr><tr><td>0406030057</td><td>ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS</td></tr><tr><td>0406030073</td><td>ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)</td></tr><tr><td>0406040028</td><td>ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)</td></tr><tr><td>0406040060</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)</td></tr><tr><td>0406040095</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)</td></tr><tr><td>0406040109</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO</td></tr><tr><td>0406040117</td><td>ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO</td></tr><tr><td>0406040133</td><td>ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)</td></tr><tr><td>0406040265</td><td>IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO</td></tr><tr><td>0406040281</td><td>RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS</td></tr><tr><td>0407030085</td><td>COLOCAÇÃO DE PRÓTESE BILIAR</td></tr><tr><td>0408010037</td><td>ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)</td></tr><tr><td>0408020040</td><td>ARTROPLASTIA DE ARTICULAÇÃO DA MÃO</td></tr><tr><td>0408020059</td><td>ARTROPLASTIA DE CABEÇA DO RÁDIO</td></tr><tr><td>0408020075</td><td>ARTROPLASTIA TOTAL DE COTOVELO</td></tr><tr><td>0408040084</td><td>ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA</td></tr><tr><td>0408040092</td><td>ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA</td></tr><tr><td>0408040130</td><td>EPIFISIODESE FEMORAL PROXIMAL IN SITU</td></tr><tr><td>0408050047</td><td>ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)</td></tr><tr><td>0408050055</td><td>ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO</td></tr><tr><td>0408050071</td><td>ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO</td></tr><tr><td>0409010162</td><td>IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA</td></tr><tr><td>0410010090</td><td>PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE</td></tr><tr><td>0412010038</td><td>COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I</td></tr><tr><td>0412010127</td><td>TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA</td></tr><tr><td>0414020421</td><td>IMPLANTE DENTÁRIO OSTEOINTEGRADO</td></tr><tr><td>0418010048</td><td>IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE</td></tr><tr><td>0418010064</td><td>IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE</td></tr><tr><td>0418010072</td><td>IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)</td></tr><tr><td>0418010080</td><td>IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC</td></tr><tr><td>0701020342</td><td>PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)</td></tr><tr><td>0701020490</td><td>PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA</td></tr><tr><td>0701040068</td><td>PRÓTESE OCULAR</td></tr><tr><td>0701070099</td><td>PROTESE PARCIAL MANDIBULAR REMOVIVEL</td></tr><tr><td>0701070102</td><td>PROTESE PARCIAL MAXILAR REMOVIVEL</td></tr><tr><td>0701070137</td><td>PROTESE TOTAL MAXILAR</td></tr><tr><td>0702010030</td><td>CATETER ATRIAL / PERITONEAL</td></tr><tr><td>0702010049</td><td>CATETER GUIA CALIBRE 6F A 8F</td></tr><tr><td>0702010065</td><td>CATETER VENTRICULAR ISOLADO</td></tr><tr><td>0702030074</td><td>CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR</td></tr><tr><td>0702030163</td><td>COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO</td></tr><tr><td>0702030171</td><td>COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY</td></tr><tr><td>0702030210</td><td>COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO</td></tr><tr><td>0702030228</td><td>COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA</td></tr><tr><td>0702030465</td><td>HASTE DE ENDER</td></tr><tr><td>0702030627</td><td>PARAFUSO CANULADO 3,5 MM</td></tr><tr><td>0702030635</td><td>PARAFUSO CANULADO 4,5 MM</td></tr><tr><td>0702030643</td><td>PARAFUSO CANULADO 7,0 MM</td></tr><tr><td>0702030660</td><td>PARAFUSO CORTICAL 1,5 MM</td></tr><tr><td>0702030678</td><td>PARAFUSO CORTICAL 2,0 MM</td></tr><tr><td>0702030686</td><td>PARAFUSO CORTICAL 2,7 MM</td></tr><tr><td>0702030694</td><td>PARAFUSO CORTICAL 3,5 MM</td></tr><tr><td>0702030708</td><td>PARAFUSO CORTICAL 4,5 MM</td></tr><tr><td>0702030724</td><td>PARAFUSO ESPONJOSO 4,0 MM</td></tr><tr><td>0702030740</td><td>PARAFUSO MALEOLAR</td></tr><tr><td>0702030791</td><td>PINO DE KNOWLES</td></tr><tr><td>0702030805</td><td>PINO DE SHANTZ</td></tr><tr><td>0702030848</td><td>PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030856</td><td>PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030872</td><td>PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030880</td><td>PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030899</td><td>PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030902</td><td>PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)</td></tr><tr><td>0702030910</td><td>PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)</td></tr><tr><td>0702030929</td><td>PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030937</td><td>PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)</td></tr><tr><td>0702030945</td><td>PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030961</td><td>PLACA EM L 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030970</td><td>PLACA EM L 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702030988</td><td>PLACA EM T 2,7MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031003</td><td>PLACA EM T 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031020</td><td>PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031038</td><td>PLACA OCCIPITO-CERVICAL</td></tr><tr><td>0702031062</td><td>PLACA PONTE 4,5 MM (INCLUI PARAFUSO)</td></tr><tr><td>0702031070</td><td>PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031089</td><td>PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031097</td><td>PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031100</td><td>PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO</td></tr><tr><td>0702031127</td><td>PROTESE DE CABECA DE RADIO</td></tr><tr><td>0702031135</td><td>PROTESE INTERFALANGEANA</td></tr><tr><td>0702031143</td><td>PROTESE METACARPO-FALANGEANA</td></tr><tr><td>0702031151</td><td>PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR</td></tr><tr><td>0702031160</td><td>PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR</td></tr><tr><td>0702031178</td><td>PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR</td></tr><tr><td>0702031186</td><td>PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR</td></tr><tr><td>0702031208</td><td>PROTESE NAO CONVENCIONAL DIAFISARIA</td></tr><tr><td>0702031216</td><td>PROTESE NAO CONVENCIONAL EXTENSIVEL</td></tr><tr><td>0702031224</td><td>PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)</td></tr><tr><td>0702031232</td><td>PROTESE TENDINOSA DE SILICONE</td></tr><tr><td>0702031259</td><td>RESTRITOR DE CIMENTO FEMORAL/UMERAL</td></tr><tr><td>0702031305</td><td>PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)</td></tr><tr><td>0702031321</td><td>PARAFUSO BLOQUEADO</td></tr><tr><td>0702031364</td><td>MINI PLACA EM T OU L (INCLUI PARAFUSO)</td></tr><tr><td>0702031399</td><td>PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)</td></tr><tr><td>0702040142</td><td>CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)</td></tr><tr><td>0702040410</td><td>MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA</td></tr><tr><td>0702040428</td><td>MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA</td></tr><tr><td>0702040517</td><td>STENT PARA ARTÉRIA PERIFÉRICA</td></tr><tr><td>0702040541</td><td>PROTESE VALVULAR BIOLÓGICA</td></tr><tr><td>0702040568</td><td>PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)</td></tr><tr><td>0702040614</td><td>STENT FARMACOLÓGICO PARA ARTERIA CORONARIA</td></tr><tr><td>0702050377</td><td>PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL.</td></tr><tr><td>0702050407</td><td>PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL</td></tr><tr><td>0702050458</td><td>PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO</td></tr><tr><td>0702050466</td><td>PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES</td></tr><tr><td>0702050474</td><td>PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)</td></tr><tr><td>0702050482</td><td>PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)</td></tr><tr><td>0702050504</td><td>PROTESE P/ ESOFAGO</td></tr><tr><td>0702050830</td><td>STENT ESOFÁGICO</td></tr><tr><td>0702060011</td><td>CATETER DUPLO J</td></tr><tr><td>0702060020</td><td>PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)</td></tr><tr><td>0702060038</td><td>PROTESE TESTICULAR EM GEL DE SILICONE</td></tr><tr><td>0702080020</td><td>PROTESE GLUTEA DE SILICONE (PAR)</td></tr><tr><td>0702080039</td><td>PROTESE MAMARIA DE SILICONE</td></tr><tr><td>0702090018</td><td>PROTESE DE ACO-TEFLON</td></tr><tr><td>0702090034</td><td>PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL</td></tr><tr><td>0702090050</td><td>IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO</td></tr><tr><td>0702090093</td><td>PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico"/>
+  <version value="1.1.0"/>
+  <name value="BRDispositivo_Medico"/>
+  <title value="BRDispositivo_Medico"/>
+  <status value="active"/>
+  <date value="2026-08-31T22:41:20-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS"/>
+      <concept>
+        <code value="0211020010"/>
+        <display value="CATETERISMO CARDIACO"/>
+      </concept>
+      <concept>
+        <code value="0211020060"/>
+        <display value="TESTE DE ESFORÇO / TESTE ERGOMETRICO"/>
+      </concept>
+      <concept>
+        <code value="0211070378"/>
+        <display value="AVALIAÇÃO E SELEÇÃO PRÉ-CIRÚRGICA PARA IMPLANTE COCLEAR"/>
+      </concept>
+      <concept>
+        <code value="0301040141"/>
+        <display value="INSERÇÃO DE DISPOSITIVO INTRA-UTERINO (DIU)"/>
+      </concept>
+      <concept>
+        <code value="0301040176"/>
+        <display value="INSERÇÃO DO IMPLANTE SUBDÉRMICO LIBERADOR DE ETONOGESTREL"/>
+      </concept>
+      <concept>
+        <code value="0301040222"/>
+        <display value="INSERÇÃO DO SISTEMA INTRAUTERINO LIBERADOR DELEVONORGESTREL 52MG"/>
+      </concept>
+      <concept>
+        <code value="0303060158"/>
+        <display value="TRATAMENTO DE ENDOCARDITE INFECCIOSA EM PROTESE VALVAR"/>
+      </concept>
+      <concept>
+        <code value="0303090235"/>
+        <display value="TRATAMENTO CONSERVADOR DE LESAO DA COLUNA TORACO-LOMBO-SACRA C/ ORTESE"/>
+      </concept>
+      <concept>
+        <code value="0403010349"/>
+        <display value="TREPANACAO CRANIANA PARA PROPEDEUTICA NEUROCIRURGICA / IMPLANTE PARA MONITORIZACAO PIC"/>
+      </concept>
+      <concept>
+        <code value="0403080010"/>
+        <display value="IMPLANTE DE ELETRODO PARA ESTIMULAÇÃO CEREBRAL"/>
+      </concept>
+      <concept>
+        <code value="0403080029"/>
+        <display value="IMPLANTE DE GERADOR DE PULSOS P/ARA ESTIMULAÇÃO CEREBRAL (INCLUI CONECTOR)"/>
+      </concept>
+      <concept>
+        <code value="0403080037"/>
+        <display value="IMPLANTE INTRAVENTRICULAR DE BOMBA DE INFUSÃO DE FARMACOS"/>
+      </concept>
+      <concept>
+        <code value="0404010148"/>
+        <display value="IMPLANTE COCLEAR"/>
+      </concept>
+      <concept>
+        <code value="0404010571"/>
+        <display value="CIRURGIA DE IMPLANTE COCLEAR UNILATERAL"/>
+      </concept>
+      <concept>
+        <code value="0404010580"/>
+        <display value="CIRURGIA DE IMPLANTE COCLEAR BILATERAL"/>
+      </concept>
+      <concept>
+        <code value="0404020569"/>
+        <display value="ARTROPLASTIA DA ARTICULAÇÃO TÊMPORO-MANDIBULAR (RECIDIVANTE OU NÃO)"/>
+      </concept>
+      <concept>
+        <code value="0404030068"/>
+        <display value="OSTEOPLASTIA DO MENTO COM OU SEM IMPLANTE ALOPLÁSTICO"/>
+      </concept>
+      <concept>
+        <code value="0404030220"/>
+        <display value="IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL"/>
+      </concept>
+      <concept>
+        <code value="0405050100"/>
+        <display value="FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR"/>
+      </concept>
+      <concept>
+        <code value="0405050119"/>
+        <display value="FACOEMULSIFICAÇÃOO C/ IMPLANTE DE LENTE INTRA-OCULAR RÍGIDA"/>
+      </concept>
+      <concept>
+        <code value="0405050135"/>
+        <display value="IMPLANTE DE PROTESE ANTI-GLAUCOMATOSA"/>
+      </concept>
+      <concept>
+        <code value="0405050143"/>
+        <display value="IMPLANTE INTRA-ESTROMAL"/>
+      </concept>
+      <concept>
+        <code value="0405050151"/>
+        <display value="IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO"/>
+      </concept>
+      <concept>
+        <code value="0405050372"/>
+        <display value="FACOEMULSIFICAÇÃO C/ IMPLANTE DE LENTE INTRA-OCULAR DOBRÁVEL"/>
+      </concept>
+      <concept>
+        <code value="0406010552"/>
+        <display value="IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)"/>
+      </concept>
+      <concept>
+        <code value="0406010579"/>
+        <display value="IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P"/>
+      </concept>
+      <concept>
+        <code value="0406010587"/>
+        <display value="IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010595"/>
+        <display value="IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR "/>
+      </concept>
+      <concept>
+        <code value="0406010609"/>
+        <display value="IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010617"/>
+        <display value="IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTO"/>
+      </concept>
+      <concept>
+        <code value="0406010625"/>
+        <display value="IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO"/>
+      </concept>
+      <concept>
+        <code value="0406010633"/>
+        <display value="IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010641"/>
+        <display value="IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO"/>
+      </concept>
+      <concept>
+        <code value="0406010650"/>
+        <display value="IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010668"/>
+        <display value="IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO"/>
+      </concept>
+      <concept>
+        <code value="0406010676"/>
+        <display value="IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010684"/>
+        <display value="IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO"/>
+      </concept>
+      <concept>
+        <code value="0406010692"/>
+        <display value="IMPLANTE DE PRÓTESE VALVAR"/>
+      </concept>
+      <concept>
+        <code value="0406011478"/>
+        <display value="IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)"/>
+      </concept>
+      <concept>
+        <code value="0406011524"/>
+        <display value="IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)"/>
+      </concept>
+      <concept>
+        <code value="0406030022"/>
+        <display value="ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS"/>
+      </concept>
+      <concept>
+        <code value="0406030030"/>
+        <display value="ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE STENT"/>
+      </concept>
+      <concept>
+        <code value="0406030057"/>
+        <display value="ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTÉRIA PULMONAR E RAMOS"/>
+      </concept>
+      <concept>
+        <code value="0406030073"/>
+        <display value="ANGIOPLASTIA EM ENXERTO CORONARIANO (C/ IMPLANTE DE STENT)"/>
+      </concept>
+      <concept>
+        <code value="0406040028"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (C/ STENT)"/>
+      </concept>
+      <concept>
+        <code value="0406040060"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (C/ STENT NÃO RECOBERTO)"/>
+      </concept>
+      <concept>
+        <code value="0406040095"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (C/ STENT NÃO RECOBERTO)"/>
+      </concept>
+      <concept>
+        <code value="0406040109"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT NÃO RECOBERTO"/>
+      </concept>
+      <concept>
+        <code value="0406040117"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS C/ STENT RECOBERTO"/>
+      </concept>
+      <concept>
+        <code value="0406040133"/>
+        <display value="ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (C/ STENT RECOBERTO)"/>
+      </concept>
+      <concept>
+        <code value="0406040265"/>
+        <display value="IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) C/ STENT NÃO RECOBERTO"/>
+      </concept>
+      <concept>
+        <code value="0406040281"/>
+        <display value="RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA C/ ANGIOPLASTIA E STENTS"/>
+      </concept>
+      <concept>
+        <code value="0407030085"/>
+        <display value="COLOCAÇÃO DE PRÓTESE BILIAR"/>
+      </concept>
+      <concept>
+        <code value="0408010037"/>
+        <display value="ARTROPLASTIA ESCAPULO-UMERAL (NÃO CONVENCIONAL)"/>
+      </concept>
+      <concept>
+        <code value="0408020040"/>
+        <display value="ARTROPLASTIA DE ARTICULAÇÃO DA MÃO"/>
+      </concept>
+      <concept>
+        <code value="0408020059"/>
+        <display value="ARTROPLASTIA DE CABEÇA DO RÁDIO"/>
+      </concept>
+      <concept>
+        <code value="0408020075"/>
+        <display value="ARTROPLASTIA TOTAL DE COTOVELO"/>
+      </concept>
+      <concept>
+        <code value="0408040084"/>
+        <display value="ARTROPLASTIA TOTAL PRIMÁRIA DO QUADRIL CIMENTADA"/>
+      </concept>
+      <concept>
+        <code value="0408040092"/>
+        <display value="ARTROPLASTIA TOTAL PRIMARIA DO QUADRIL NÃO CIMENTADA / HÍBRIDA"/>
+      </concept>
+      <concept>
+        <code value="0408040130"/>
+        <display value="EPIFISIODESE FEMORAL PROXIMAL IN SITU"/>
+      </concept>
+      <concept>
+        <code value="0408050047"/>
+        <display value="ARTROPLASTIA DE JOELHO (NAO CONVENCIONAL)"/>
+      </concept>
+      <concept>
+        <code value="0408050055"/>
+        <display value="ARTROPLASTIA TOTAL DE JOELHO - REVISÃO / RECONSTRUÇÃO"/>
+      </concept>
+      <concept>
+        <code value="0408050071"/>
+        <display value="ARTROPLASTIA UNICOMPARTIMENTAL PRIMARIA DO JOELHO"/>
+      </concept>
+      <concept>
+        <code value="0409010162"/>
+        <display value="IMPLANTE DE CATETER URETERAL POR TÉCNICA CISTOSCOPICA"/>
+      </concept>
+      <concept>
+        <code value="0410010090"/>
+        <display value="PLASTICA MAMARIA RECONSTRUTIVA - POS MASTECTOMIA C/ IMPLANTE DE PROTESE"/>
+      </concept>
+      <concept>
+        <code value="0412010038"/>
+        <display value="COLOCAÇÃO DE PROTESE LARINGO-TRAQUEAL, TRAQUEAL, TRAQUEO-BRÔNQUICA, BRÔNQUICA POR VIA ENDOSCÓPICA (I"/>
+      </concept>
+      <concept>
+        <code value="0412010127"/>
+        <display value="TRAQUEOSTOMIA COM COLOCAÇÃO DE ORTESE TRAQUEAL OU TRAQUEOBRONQUICA"/>
+      </concept>
+      <concept>
+        <code value="0414020421"/>
+        <display value="IMPLANTE DENTÁRIO OSTEOINTEGRADO"/>
+      </concept>
+      <concept>
+        <code value="0418010048"/>
+        <display value="IMPLANTE DE CATETER DE LONGA PERMANÊNCIA P/ HEMODIÁLISE"/>
+      </concept>
+      <concept>
+        <code value="0418010064"/>
+        <display value="IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE"/>
+      </concept>
+      <concept>
+        <code value="0418010072"/>
+        <display value="IMPLANTE DE CATETER TENCKHOFF OU SIMILAR DE LONGA PERMANÊNCIA NA IRA (INCLUI CATETER)"/>
+      </concept>
+      <concept>
+        <code value="0418010080"/>
+        <display value="IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC"/>
+      </concept>
+      <concept>
+        <code value="0701020342"/>
+        <display value="PRÓTESE CANADENSE EXOESQUELETICA.(DESARTICULAÇÃO DO QUADRIL)"/>
+      </concept>
+      <concept>
+        <code value="0701020490"/>
+        <display value="PROTESE FUNCIONAL EXOESQUELÉTICA TRANSRADIAL PARA PUNHO DE TROCA RÁPIDA COM GANCHO DE DUPLA FORÇA"/>
+      </concept>
+      <concept>
+        <code value="0701040068"/>
+        <display value="PRÓTESE OCULAR"/>
+      </concept>
+      <concept>
+        <code value="0701070099"/>
+        <display value="PROTESE PARCIAL MANDIBULAR REMOVIVEL"/>
+      </concept>
+      <concept>
+        <code value="0701070102"/>
+        <display value="PROTESE PARCIAL MAXILAR REMOVIVEL"/>
+      </concept>
+      <concept>
+        <code value="0701070137"/>
+        <display value="PROTESE TOTAL MAXILAR"/>
+      </concept>
+      <concept>
+        <code value="0702010030"/>
+        <display value="CATETER ATRIAL / PERITONEAL"/>
+      </concept>
+      <concept>
+        <code value="0702010049"/>
+        <display value="CATETER GUIA CALIBRE 6F A 8F"/>
+      </concept>
+      <concept>
+        <code value="0702010065"/>
+        <display value="CATETER VENTRICULAR ISOLADO"/>
+      </concept>
+      <concept>
+        <code value="0702030074"/>
+        <display value="CENTRALIZADOR PARA COMPONENTE FEMORAL CIMENTADO MODULAR"/>
+      </concept>
+      <concept>
+        <code value="0702030163"/>
+        <display value="COMPONENTE FEMORAL CIMENTADO MODULAR PRIMARIO"/>
+      </concept>
+      <concept>
+        <code value="0702030171"/>
+        <display value="COMPONENTE FEMORAL CIMENTADO MONOBLOCO TIPO CHARNLEY"/>
+      </concept>
+      <concept>
+        <code value="0702030210"/>
+        <display value="COMPONENTE FEMORAL NAO CIMENTADO MODULAR PRIMARIO"/>
+      </concept>
+      <concept>
+        <code value="0702030228"/>
+        <display value="COMPONENTE FEMORAL PRIMARIO CIMENTADO / FIXACAO BIOLOGICA"/>
+      </concept>
+      <concept>
+        <code value="0702030465"/>
+        <display value="HASTE DE ENDER"/>
+      </concept>
+      <concept>
+        <code value="0702030627"/>
+        <display value="PARAFUSO CANULADO 3,5 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030635"/>
+        <display value="PARAFUSO CANULADO 4,5 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030643"/>
+        <display value="PARAFUSO CANULADO 7,0 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030660"/>
+        <display value="PARAFUSO CORTICAL 1,5 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030678"/>
+        <display value="PARAFUSO CORTICAL 2,0 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030686"/>
+        <display value="PARAFUSO CORTICAL 2,7 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030694"/>
+        <display value="PARAFUSO CORTICAL 3,5 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030708"/>
+        <display value="PARAFUSO CORTICAL 4,5 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030724"/>
+        <display value="PARAFUSO ESPONJOSO 4,0 MM"/>
+      </concept>
+      <concept>
+        <code value="0702030740"/>
+        <display value="PARAFUSO MALEOLAR"/>
+      </concept>
+      <concept>
+        <code value="0702030791"/>
+        <display value="PINO DE KNOWLES"/>
+      </concept>
+      <concept>
+        <code value="0702030805"/>
+        <display value="PINO DE SHANTZ"/>
+      </concept>
+      <concept>
+        <code value="0702030848"/>
+        <display value="PLACA 1/3 TUBULAR 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030856"/>
+        <display value="PLACA ANGULADA 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030872"/>
+        <display value="PLACA COBRA 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030880"/>
+        <display value="PLACA CONDILEA 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030899"/>
+        <display value="PLACA DE COMPRESSAO DINAMICA 3,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030902"/>
+        <display value="PLACA DE COMPRESSAO DINAMICA 4,5 MM ESTREITA (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030910"/>
+        <display value="PLACA DE COMPRESSAO DINAMICA 4,5 MM LARGA (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030929"/>
+        <display value="PLACA DE RECONSTRUÇÃO 3,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030937"/>
+        <display value="PLACA DE RECONSTRUÇÃO DE 4,5 MM (INCLUÍ PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030945"/>
+        <display value="PLACA DE SUPORTE DE PLATEAU TIBIAL 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030961"/>
+        <display value="PLACA EM L 3,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030970"/>
+        <display value="PLACA EM L 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702030988"/>
+        <display value="PLACA EM T 2,7MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031003"/>
+        <display value="PLACA EM T 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031020"/>
+        <display value="PLACA EM TREVO 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031038"/>
+        <display value="PLACA OCCIPITO-CERVICAL"/>
+      </concept>
+      <concept>
+        <code value="0702031062"/>
+        <display value="PLACA PONTE 4,5 MM (INCLUI PARAFUSO)"/>
+      </concept>
+      <concept>
+        <code value="0702031070"/>
+        <display value="PLACA SEMITUBULAR 2,7 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031089"/>
+        <display value="PLACA SEMITUBULAR 3,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031097"/>
+        <display value="PLACA SEMITUBULAR 4,5 MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031100"/>
+        <display value="PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO"/>
+      </concept>
+      <concept>
+        <code value="0702031127"/>
+        <display value="PROTESE DE CABECA DE RADIO"/>
+      </concept>
+      <concept>
+        <code value="0702031135"/>
+        <display value="PROTESE INTERFALANGEANA"/>
+      </concept>
+      <concept>
+        <code value="0702031143"/>
+        <display value="PROTESE METACARPO-FALANGEANA"/>
+      </concept>
+      <concept>
+        <code value="0702031151"/>
+        <display value="PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO INFERIOR"/>
+      </concept>
+      <concept>
+        <code value="0702031160"/>
+        <display value="PROTESE NAO CONVENCIONAL ARTICULADA DISTAL DE MEMBRO SUPERIOR"/>
+      </concept>
+      <concept>
+        <code value="0702031178"/>
+        <display value="PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO INFERIOR"/>
+      </concept>
+      <concept>
+        <code value="0702031186"/>
+        <display value="PROTESE NAO CONVENCIONAL ARTICULADA PROXIMAL DE MEMBRO SUPERIOR"/>
+      </concept>
+      <concept>
+        <code value="0702031208"/>
+        <display value="PROTESE NAO CONVENCIONAL DIAFISARIA"/>
+      </concept>
+      <concept>
+        <code value="0702031216"/>
+        <display value="PROTESE NAO CONVENCIONAL EXTENSIVEL"/>
+      </concept>
+      <concept>
+        <code value="0702031224"/>
+        <display value="PROTESE PARCIAL DE QUADRIL CIMENTADA MONOBLOCO (TIPO THOMPSON)"/>
+      </concept>
+      <concept>
+        <code value="0702031232"/>
+        <display value="PROTESE TENDINOSA DE SILICONE"/>
+      </concept>
+      <concept>
+        <code value="0702031259"/>
+        <display value="RESTRITOR DE CIMENTO FEMORAL/UMERAL"/>
+      </concept>
+      <concept>
+        <code value="0702031305"/>
+        <display value="PLACA 1/3 TUBULAR 2,7MM (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702031321"/>
+        <display value="PARAFUSO BLOQUEADO"/>
+      </concept>
+      <concept>
+        <code value="0702031364"/>
+        <display value="MINI PLACA EM T OU L (INCLUI PARAFUSO)"/>
+      </concept>
+      <concept>
+        <code value="0702031399"/>
+        <display value="PLACA BLOQUEADA DE RÁDIO DISTAL (INCLUI PARAFUSO)"/>
+      </concept>
+      <concept>
+        <code value="0702040142"/>
+        <display value="CATETER MULTIPOLAR TERAPÊUTICO (QUADRI, DECA, DUODECAPOLAR, ETC)"/>
+      </concept>
+      <concept>
+        <code value="0702040410"/>
+        <display value="MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA DUPLA"/>
+      </concept>
+      <concept>
+        <code value="0702040428"/>
+        <display value="MARCAPASSO CARDIACO MULTIPROGRAMAVEL DE CAMARA UNICA"/>
+      </concept>
+      <concept>
+        <code value="0702040517"/>
+        <display value="STENT PARA ARTÉRIA PERIFÉRICA"/>
+      </concept>
+      <concept>
+        <code value="0702040541"/>
+        <display value="PROTESE VALVULAR BIOLÓGICA"/>
+      </concept>
+      <concept>
+        <code value="0702040568"/>
+        <display value="PROTESE VALVULAR MECÂNICA DE BAIXO PERFIL (DISCO)"/>
+      </concept>
+      <concept>
+        <code value="0702040614"/>
+        <display value="STENT FARMACOLÓGICO PARA ARTERIA CORONARIA"/>
+      </concept>
+      <concept>
+        <code value="0702050377"/>
+        <display value="PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL."/>
+      </concept>
+      <concept>
+        <code value="0702050407"/>
+        <display value="PARAFUSO DE TITÂNIO ASSOCIÁVEL A PLACA CERVICAL"/>
+      </concept>
+      <concept>
+        <code value="0702050458"/>
+        <display value="PLACA CERVICAL ASSOCIADA A PARAFUSOS INTRA-SOMATICOS DE TITANIO"/>
+      </concept>
+      <concept>
+        <code value="0702050466"/>
+        <display value="PLACA CERVICAL ASSOCIADA A PARAFUSOS DE TITANIO P/ FIXACAO EM ESTRUTURAS POSTERIORES"/>
+      </concept>
+      <concept>
+        <code value="0702050474"/>
+        <display value="PLACA DE RECONSTRUCAO EM TITANIO P/ FRATURA DE MANDIBULA (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702050482"/>
+        <display value="PLACA DE TITÂNIO SISTEMA MINI/MICROFRAGMENTOS (INCLUI PARAFUSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702050504"/>
+        <display value="PROTESE P/ ESOFAGO"/>
+      </concept>
+      <concept>
+        <code value="0702050830"/>
+        <display value="STENT ESOFÁGICO"/>
+      </concept>
+      <concept>
+        <code value="0702060011"/>
+        <display value="CATETER DUPLO J"/>
+      </concept>
+      <concept>
+        <code value="0702060020"/>
+        <display value="PROTESE PENIANA MALEAVEL (PAR DE CORPOS CAVERNOSOS)"/>
+      </concept>
+      <concept>
+        <code value="0702060038"/>
+        <display value="PROTESE TESTICULAR EM GEL DE SILICONE"/>
+      </concept>
+      <concept>
+        <code value="0702080020"/>
+        <display value="PROTESE GLUTEA DE SILICONE (PAR)"/>
+      </concept>
+      <concept>
+        <code value="0702080039"/>
+        <display value="PROTESE MAMARIA DE SILICONE"/>
+      </concept>
+      <concept>
+        <code value="0702090018"/>
+        <display value="PROTESE DE ACO-TEFLON"/>
+      </concept>
+      <concept>
+        <code value="0702090034"/>
+        <display value="PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL"/>
+      </concept>
+      <concept>
+        <code value="0702090050"/>
+        <display value="IMPLANTE DE TITÂNIO DA PRÓTESE AUDITIVA ANCORADA NO OSSO"/>
+      </concept>
+      <concept>
+        <code value="0702090093"/>
+        <display value="PRÓTESE PARA IMPLANTE COCLEAR MULTICANAL"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

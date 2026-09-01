@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRPosicaoIndividuo"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRPosicaoIndividuo</b></p><a name="BRPosicaoIndividuo"> </a><a name="hcBRPosicaoIndividuo"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRPosicaoIndividuo.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRPosicaoIndividuo.html#BRPosicaoIndividuo-5">5</a></td><td>Deitado com inclinação para esquerda</td></tr><tr><td><a href="CodeSystem-BRPosicaoIndividuo.html#BRPosicaoIndividuo-3">3</a></td><td>Reclinado</td></tr><tr><td><a href="CodeSystem-BRPosicaoIndividuo.html#BRPosicaoIndividuo-2">2</a></td><td>Sentado</td></tr><tr><td><a href="CodeSystem-BRPosicaoIndividuo.html#BRPosicaoIndividuo-1">1</a></td><td>Em pé</td></tr><tr><td><a href="CodeSystem-BRPosicaoIndividuo.html#BRPosicaoIndividuo-4">4</a></td><td>Deitado</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRPosicaoIndividuo"/>
+  <version value="1.1.0"/>
+  <name value="BRPosicaoIndividuo"/>
+  <title value="BR Posicao Individuo"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo"/>
+      <concept>
+        <code value="5"/>
+        <display value="Deitado com inclinação para esquerda"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Reclinado"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Sentado"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="Em pé"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Deitado"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

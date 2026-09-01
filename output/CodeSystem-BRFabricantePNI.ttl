@@ -1,0 +1,392 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRFabricantePNI"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-07-17T17:36:08.639+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRFabricantePNI</b></p><a name=\"BRFabricantePNI\"> </a><a name=\"hcBRFabricantePNI\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:36:08+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">26313<a name=\"BRFabricantePNI-26313\"> </a></td><td>MERCK-GO</td></tr><tr><td style=\"white-space:nowrap\">9406<a name=\"BRFabricantePNI-9406\"> </a></td><td>HALEXISTAR</td></tr><tr><td style=\"white-space:nowrap\">2560<a name=\"BRFabricantePNI-2560\"> </a></td><td>HEBER</td></tr><tr><td style=\"white-space:nowrap\">712<a name=\"BRFabricantePNI-712\"> </a></td><td>BIOMERIEUX</td></tr><tr><td style=\"white-space:nowrap\">25538<a name=\"BRFabricantePNI-25538\"> </a></td><td>MERCK-CAMPI</td></tr><tr><td style=\"white-space:nowrap\">608<a name=\"BRFabricantePNI-608\"> </a></td><td>BAXTER</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"BRFabricantePNI-239\"> </a></td><td>BAYER</td></tr><tr><td style=\"white-space:nowrap\">42932<a name=\"BRFabricantePNI-42932\"> </a></td><td>MSD-LLC</td></tr><tr><td style=\"white-space:nowrap\">2355<a name=\"BRFabricantePNI-2355\"> </a></td><td>NOVARTIS</td></tr><tr><td style=\"white-space:nowrap\">42931<a name=\"BRFabricantePNI-42931\"> </a></td><td>MERCK-SP</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"BRFabricantePNI-235\"> </a></td><td>INCQS</td></tr><tr><td style=\"white-space:nowrap\">42655<a name=\"BRFabricantePNI-42655\"> </a></td><td>SK-BIOSCEN</td></tr><tr><td style=\"white-space:nowrap\">22942<a name=\"BRFabricantePNI-22942\"> </a></td><td>LGLIFE</td></tr><tr><td style=\"white-space:nowrap\">42507<a name=\"BRFabricantePNI-42507\"> </a></td><td>ADIUM</td></tr><tr><td style=\"white-space:nowrap\">2263<a name=\"BRFabricantePNI-2263\"> </a></td><td>WYETH</td></tr><tr><td style=\"white-space:nowrap\">42490<a name=\"BRFabricantePNI-42490\"> </a></td><td>SINOVAC</td></tr><tr><td style=\"white-space:nowrap\">2260<a name=\"BRFabricantePNI-2260\"> </a></td><td>CSL</td></tr><tr><td style=\"white-space:nowrap\">42489<a name=\"BRFabricantePNI-42489\"> </a></td><td>CATALENT</td></tr><tr><td style=\"white-space:nowrap\">2250<a name=\"BRFabricantePNI-2250\"> </a></td><td>IIMUNO</td></tr><tr><td style=\"white-space:nowrap\">42488<a name=\"BRFabricantePNI-42488\"> </a></td><td>ROVI-PHARMA</td></tr><tr><td style=\"white-space:nowrap\">1913<a name=\"BRFabricantePNI-1913\"> </a></td><td>CPPI</td></tr><tr><td style=\"white-space:nowrap\">42430<a name=\"BRFabricantePNI-42430\"> </a></td><td>MODERNA</td></tr><tr><td style=\"white-space:nowrap\">18190<a name=\"BRFabricantePNI-18190\"> </a></td><td>BB-NCIPD</td></tr><tr><td style=\"white-space:nowrap\">39263<a name=\"BRFabricantePNI-39263\"> </a></td><td>TAKEDA</td></tr><tr><td style=\"white-space:nowrap\">18189<a name=\"BRFabricantePNI-18189\"> </a></td><td>INTERVAX</td></tr><tr><td style=\"white-space:nowrap\">39262<a name=\"BRFabricantePNI-39262\"> </a></td><td>IDT BIOLOGIKA</td></tr><tr><td style=\"white-space:nowrap\">17934<a name=\"BRFabricantePNI-17934\"> </a></td><td>BIOLOGICAL</td></tr><tr><td style=\"white-space:nowrap\">37646<a name=\"BRFabricantePNI-37646\"> </a></td><td>EMERGENT</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"BRFabricantePNI-169\"> </a></td><td>FINLAY</td></tr><tr><td style=\"white-space:nowrap\">36271<a name=\"BRFabricantePNI-36271\"> </a></td><td>ABBOTT-HOLAN</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"BRFabricantePNI-168\"> </a></td><td>BERNE</td></tr><tr><td style=\"white-space:nowrap\">35979<a name=\"BRFabricantePNI-35979\"> </a></td><td>BHARAT</td></tr><tr><td style=\"white-space:nowrap\">16763<a name=\"BRFabricantePNI-16763\"> </a></td><td>BIOFARMA</td></tr><tr><td style=\"white-space:nowrap\">35978<a name=\"BRFabricantePNI-35978\"> </a></td><td>MODERNA</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"BRFabricantePNI-167\"> </a></td><td>SEVAC</td></tr><tr><td style=\"white-space:nowrap\">35977<a name=\"BRFabricantePNI-35977\"> </a></td><td>GAMALEYA</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"BRFabricantePNI-166\"> </a></td><td>BIKEN</td></tr><tr><td style=\"white-space:nowrap\">3521<a name=\"BRFabricantePNI-3521\"> </a></td><td>BIOVET</td></tr><tr><td style=\"white-space:nowrap\">1659<a name=\"BRFabricantePNI-1659\"> </a></td><td>CYANAMID</td></tr><tr><td style=\"white-space:nowrap\">33713<a name=\"BRFabricantePNI-33713\"> </a></td><td>AMYIN</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"BRFabricantePNI-165\"> </a></td><td>MERCK</td></tr><tr><td style=\"white-space:nowrap\">33502<a name=\"BRFabricantePNI-33502\"> </a></td><td>BAV-NORDIC</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"BRFabricantePNI-164\"> </a></td><td>LGCHEMICAL</td></tr><tr><td style=\"white-space:nowrap\">30587<a name=\"BRFabricantePNI-30587\"> </a></td><td>JANSSEN</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"BRFabricantePNI-163\"> </a></td><td>SERUM-INDIA</td></tr><tr><td style=\"white-space:nowrap\">30357<a name=\"BRFabricantePNI-30357\"> </a></td><td>EQUIPLEX</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"BRFabricantePNI-162\"> </a></td><td>CHIRON SPA</td></tr><tr><td style=\"white-space:nowrap\">29909<a name=\"BRFabricantePNI-29909\"> </a></td><td>ASTRAZENECA</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"BRFabricantePNI-161\"> </a></td><td>AVENTIS</td></tr><tr><td style=\"white-space:nowrap\">29501<a name=\"BRFabricantePNI-29501\"> </a></td><td>SINOVAC</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"BRFabricantePNI-160\"> </a></td><td>GREENCROSS</td></tr><tr><td style=\"white-space:nowrap\">2901<a name=\"BRFabricantePNI-2901\"> </a></td><td>MERIAL</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"BRFabricantePNI-159\"> </a></td><td>SMITHKLINE</td></tr><tr><td style=\"white-space:nowrap\">28738<a name=\"BRFabricantePNI-28738\"> </a></td><td>BOEHRINGER</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"BRFabricantePNI-156\"> </a></td><td>DADO B.</td></tr><tr><td style=\"white-space:nowrap\">2862<a name=\"BRFabricantePNI-2862\"> </a></td><td>SANPASTEUR</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"BRFabricantePNI-153\"> </a></td><td>TECPAR</td></tr><tr><td style=\"white-space:nowrap\">28425<a name=\"BRFabricantePNI-28425\"> </a></td><td>BIOGENESIS</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"BRFabricantePNI-152\"> </a></td><td>BUTANTAN</td></tr><tr><td style=\"white-space:nowrap\">28303<a name=\"BRFabricantePNI-28303\"> </a></td><td>PANACEA</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"BRFabricantePNI-151\"> </a></td><td>F.A.P.</td></tr><tr><td style=\"white-space:nowrap\">28290<a name=\"BRFabricantePNI-28290\"> </a></td><td>PFIZER-BELGICA</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"BRFabricantePNI-150\"> </a></td><td>FUNED</td></tr><tr><td style=\"white-space:nowrap\">28289<a name=\"BRFabricantePNI-28289\"> </a></td><td>GLAXO-BIO</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"BRFabricantePNI-149\"> </a></td><td>FIOCRUZ</td></tr><tr><td style=\"white-space:nowrap\">28283<a name=\"BRFabricantePNI-28283\"> </a></td><td>VINS</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"BRFabricantePNI-142\"> </a></td><td>PFIZER</td></tr><tr><td style=\"white-space:nowrap\">28251<a name=\"BRFabricantePNI-28251\"> </a></td><td>SANMEDLEY</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"BRFabricantePNI-141\"> </a></td><td>IVB</td></tr><tr><td style=\"white-space:nowrap\">28211<a name=\"BRFabricantePNI-28211\"> </a></td><td>KAMADA</td></tr><tr><td style=\"white-space:nowrap\">13688<a name=\"BRFabricantePNI-13688\"> </a></td><td>SHANTHA</td></tr><tr><td style=\"white-space:nowrap\">27883<a name=\"BRFabricantePNI-27883\"> </a></td><td>MERCK-RJ</td></tr><tr><td style=\"white-space:nowrap\">13219<a name=\"BRFabricantePNI-13219\"> </a></td><td>BIOGENESIS</td></tr><tr><td style=\"white-space:nowrap\">27880<a name=\"BRFabricantePNI-27880\"> </a></td><td>GSK-BRASIL</td></tr><tr><td style=\"white-space:nowrap\">12572<a name=\"BRFabricantePNI-12572\"> </a></td><td>KEDRION</td></tr><tr><td style=\"white-space:nowrap\">27816<a name=\"BRFabricantePNI-27816\"> </a></td><td>EUBIOLOGI</td></tr><tr><td style=\"white-space:nowrap\">12551<a name=\"BRFabricantePNI-12551\"> </a></td><td>GRIFOLS</td></tr><tr><td style=\"white-space:nowrap\">2769<a name=\"BRFabricantePNI-2769\"> </a></td><td>BERNA</td></tr><tr><td style=\"white-space:nowrap\">11347<a name=\"BRFabricantePNI-11347\"> </a></td><td>VIRBAC</td></tr><tr><td style=\"white-space:nowrap\">26513<a name=\"BRFabricantePNI-26513\"> </a></td><td>BEHRING</td></tr><tr><td style=\"white-space:nowrap\">10534<a name=\"BRFabricantePNI-10534\"> </a></td><td>CRUCELL</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRFabricantePNI"] ;
+  fhir:CodeSystem.title [ fhir:value "BRFabricantePNI"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "81"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26313" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERCK-GO" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9406" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HALEXISTAR" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2560" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HEBER" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "712" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOMERIEUX" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "25538" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERCK-CAMPI" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "608" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAXTER" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "239" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAYER" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42932" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MSD-LLC" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2355" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NOVARTIS" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42931" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERCK-SP" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "235" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INCQS" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42655" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SK-BIOSCEN" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22942" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LGLIFE" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42507" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ADIUM" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2263" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "WYETH" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42490" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SINOVAC" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2260" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CSL" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42489" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CATALENT" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2250" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIMUNO" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42488" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ROVI-PHARMA" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1913" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CPPI" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42430" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MODERNA" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "18190" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BB-NCIPD" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "39263" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TAKEDA" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "18189" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INTERVAX" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "39262" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IDT BIOLOGIKA" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "17934" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOLOGICAL" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "37646" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EMERGENT" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FINLAY" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "36271" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ABBOTT-HOLAN" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "168" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BERNE" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35979" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BHARAT" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "16763" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOFARMA" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35978" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MODERNA" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "167" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SEVAC" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35977" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GAMALEYA" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "166" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIKEN" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3521" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOVET" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1659" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CYANAMID" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33713" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AMYIN" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERCK" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33502" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAV-NORDIC" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LGCHEMICAL" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "30587" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "JANSSEN" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERUM-INDIA" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "30357" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EQUIPLEX" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHIRON SPA" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29909" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ASTRAZENECA" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AVENTIS" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SINOVAC" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GREENCROSS" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2901" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERIAL" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SMITHKLINE" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28738" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BOEHRINGER" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "156" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DADO B." ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2862" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SANPASTEUR" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TECPAR" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28425" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOGENESIS" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BUTANTAN" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28303" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PANACEA" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "151" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "F.A.P." ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28290" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PFIZER-BELGICA" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FUNED" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28289" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GLAXO-BIO" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "149" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FIOCRUZ" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28283" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VINS" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "142" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PFIZER" ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28251" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SANMEDLEY" ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IVB" ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28211" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KAMADA" ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13688" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SHANTHA" ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27883" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MERCK-RJ" ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13219" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIOGENESIS" ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27880" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GSK-BRASIL" ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12572" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KEDRION" ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27816" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EUBIOLOGI" ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12551" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRIFOLS" ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2769" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BERNA" ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11347" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VIRBAC" ]
+  ], [
+     fhir:index 79 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26513" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BEHRING" ]
+  ], [
+     fhir:index 80 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10534" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CRUCELL" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

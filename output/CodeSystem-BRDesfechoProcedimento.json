@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRDesfechoProcedimento",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:28:59.436+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRDesfechoProcedimento</b></p><a name=\"BRDesfechoProcedimento\"> </a><a name=\"hcBRDesfechoProcedimento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:28:59+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRDesfechoProcedimento-04\"> </a></td><td>Óbito</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRDesfechoProcedimento-03\"> </a></td><td>Estabilidade Clínica</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRDesfechoProcedimento-02\"> </a></td><td>Piora Clínica</td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRDesfechoProcedimento-01\"> </a></td><td>Melhora Clínica</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDesfechoProcedimento",
+  "version" : "1.1.0",
+  "name" : "BRDesfechoProcedimento",
+  "title" : "BRDesfechoProcedimento",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "04",
+    "display" : "Óbito"
+  },
+  {
+    "code" : "03",
+    "display" : "Estabilidade Clínica"
+  },
+  {
+    "code" : "02",
+    "display" : "Piora Clínica"
+  },
+  {
+    "code" : "01",
+    "display" : "Melhora Clínica"
+  }]
+}

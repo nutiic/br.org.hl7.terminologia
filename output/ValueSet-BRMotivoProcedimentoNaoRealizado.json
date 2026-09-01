@@ -1,0 +1,74 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRMotivoProcedimentoNaoRealizado",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRMotivoProcedimentoNaoRealizado</b></p><a name=\"BRMotivoProcedimentoNaoRealizado\"> </a><a name=\"hcBRMotivoProcedimentoNaoRealizado\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-08\">08</a></td><td>Procedimento não concluído</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-06\">06</a></td><td>Procedimento não desejado</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-05\">05</a></td><td>Procedimento não oferecido</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-04\">04</a></td><td>Procedimento não indicado</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-03\">03</a></td><td>Procedimento não realizado</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-02\">02</a></td><td>Procedimento descontinuado</td></tr><tr><td><a href=\"CodeSystem-BRMotivoProcedimentoNaoRealizado.html#BRMotivoProcedimentoNaoRealizado-01\">01</a></td><td>Procedimento contraindicado</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoProcedimentoNaoRealizado",
+  "version" : "1.1.0",
+  "name" : "BRMotivoProcedimentoNaoRealizado",
+  "title" : "BR Motivo Procedimento Nao Realizado",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoProcedimentoNaoRealizado",
+      "concept" : [{
+        "code" : "08",
+        "display" : "Procedimento não concluído"
+      },
+      {
+        "code" : "06",
+        "display" : "Procedimento não desejado"
+      },
+      {
+        "code" : "05",
+        "display" : "Procedimento não oferecido"
+      },
+      {
+        "code" : "04",
+        "display" : "Procedimento não indicado"
+      },
+      {
+        "code" : "03",
+        "display" : "Procedimento não realizado"
+      },
+      {
+        "code" : "02",
+        "display" : "Procedimento descontinuado"
+      },
+      {
+        "code" : "01",
+        "display" : "Procedimento contraindicado"
+      }]
+    }]
+  }
+}

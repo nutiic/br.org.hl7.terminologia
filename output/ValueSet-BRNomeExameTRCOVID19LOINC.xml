@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRNomeExameTRCOVID19LOINC"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRNomeExameTRCOVID19LOINC</b></p><a name="BRNomeExameTRCOVID19LOINC"> </a><a name="hcBRNomeExameTRCOVID19LOINC"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRNomeExameLOINC.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRNomeExameLOINC.html#BRNomeExameLOINC-94508-9">94508-9</a></td><td>SARS Coronavírus 2, [presença de] anticorpos IgM em soro ou plasma por imunoensaio</td></tr><tr><td><a href="CodeSystem-BRNomeExameLOINC.html#BRNomeExameLOINC-94507-1">94507-1</a></td><td>SARS Coronavírus 2, [presença de] anticorpos IgG em soro ou plasma por imunoensaio</td></tr><tr><td><a href="CodeSystem-BRNomeExameLOINC.html#BRNomeExameLOINC-94558-4">94558-4</a></td><td>SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido</td></tr><tr><td><a href="CodeSystem-BRNomeExameLOINC.html#BRNomeExameLOINC-94768-9">94768-9</a></td><td>SARS Coronavírus 2 [Presença de] anticorpos IgA em Soro Plasma ou Sangue por Imunoensaio rápido</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRNomeExameTRCOVID19LOINC"/>
+  <version value="1.1.0"/>
+  <name value="BRNomeExameTRCOVID19LOINC"/>
+  <title value="BR Nome Exame TRCOVID 19 LOINC"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameLOINC"/>
+      <concept>
+        <code value="94508-9"/>
+        <display value="SARS Coronavírus 2, [presença de] anticorpos IgM em soro ou plasma por imunoensaio"/>
+      </concept>
+      <concept>
+        <code value="94507-1"/>
+        <display value="SARS Coronavírus 2, [presença de] anticorpos IgG em soro ou plasma por imunoensaio"/>
+      </concept>
+      <concept>
+        <code value="94558-4"/>
+        <display value="SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido"/>
+      </concept>
+      <concept>
+        <code value="94768-9"/>
+        <display value="SARS Coronavírus 2 [Presença de] anticorpos IgA em Soro Plasma ou Sangue por Imunoensaio rápido"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,84 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRModalidadeAssistencial",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:40:29.893+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRModalidadeAssistencial</b></p><a name=\"BRModalidadeAssistencial\"> </a><a name=\"hcBRModalidadeAssistencial\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:40:29+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRModalidadeAssistencial-05\"> </a></td><td>Atenção Psicossocial</td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRModalidadeAssistencial-01\"> </a></td><td>Atenção Básica</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"BRModalidadeAssistencial-06\"> </a></td><td>Atenção à Urgência/Emergência</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"BRModalidadeAssistencial-07\"> </a></td><td>Ambulatorial Especializada</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRModalidadeAssistencial-02\"> </a></td><td>Atenção Domiciliar</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRModalidadeAssistencial-03\"> </a></td><td>Atenção Intermediária</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"BRModalidadeAssistencial-08\"> </a></td><td>Assistência Farmacêutica</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRModalidadeAssistencial-04\"> </a></td><td>Atenção Hospitalar</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"BRModalidadeAssistencial-09\"> </a></td><td>Assistência Ambulatorial</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeAssistencial",
+  "version" : "1.1.0",
+  "name" : "BRModalidadeAssistencial",
+  "title" : "BRModalidadeAssistencial",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "05",
+    "display" : "Atenção Psicossocial"
+  },
+  {
+    "code" : "01",
+    "display" : "Atenção Básica"
+  },
+  {
+    "code" : "06",
+    "display" : "Atenção à Urgência/Emergência"
+  },
+  {
+    "code" : "07",
+    "display" : "Ambulatorial Especializada"
+  },
+  {
+    "code" : "02",
+    "display" : "Atenção Domiciliar"
+  },
+  {
+    "code" : "03",
+    "display" : "Atenção Intermediária"
+  },
+  {
+    "code" : "08",
+    "display" : "Assistência Farmacêutica"
+  },
+  {
+    "code" : "04",
+    "display" : "Atenção Hospitalar"
+  },
+  {
+    "code" : "09",
+    "display" : "Assistência Ambulatorial"
+  }]
+}

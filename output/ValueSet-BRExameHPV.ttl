@@ -1,0 +1,215 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRExameHPV"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRExameHPV</b></p><a name=\"BRExameHPV\"> </a><a name=\"hcBRExameHPV\"> </a><p>Este conjunto de valores inclui códigos baseados nas seguintes regras:</p><ul><li>Incluir estes códigos, tal como definidos em <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</code><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>OUT</td><td>Outros HPV ( 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68)</td></tr><tr><td>HPV1845</td><td>Human papilloma virus 18+45 mRNA</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"https://loinc.org/17399-7/\">17399-7</a></td><td>Human papilloma virus 16 Ag</td></tr></table></li><li>Incluir estes códigos, tal como definidos em <a href=\"CodeSystem-BRCID10.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.469\">M54.9</a></td><td>Dorsalgia não especificada</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.468\">M54.8</a></td><td>Outra dorsalgia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.466\">M54.6</a></td><td>Dor na coluna torácica</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.465\">M54.5</a></td><td>Dor lombar baixa</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.464\">M54.4</a></td><td>Lumbago com ciática</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.463\">M54.3</a></td><td>Ciática</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.462\">M54.2</a></td><td>Cervicalgia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.461\">M54.1</a></td><td>Radiculopatia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54.460\">M54.0</a></td><td>Paniculite atingindo regiões do pescoço e do dorso</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M54\">M54</a></td><td>Dorsalgia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.469\">M53.9</a></td><td>Dorsopatia não especificada</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.468\">M53.8</a></td><td>Outras dorsopatias especificadas</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.463\">M53.3</a></td><td>Transtornos sacroccígeos não classificados em outra parte</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.462\">M53.2</a></td><td>Instabilidades da coluna vertebral</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.461\">M53.1</a></td><td>Síndrome cervicobraquial</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53.460\">M53.0</a></td><td>Síndrome cervicocraniana</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M53\">M53</a></td><td>Outras dorsopatias não classificadas em outra parte</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.469\">M51.9</a></td><td>Transtorno não especificado de disco intervertebral</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.468\">M51.8</a></td><td>Outros transtornos especificados de discos intervertebrais</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.464\">M51.4</a></td><td>Nódulos de Schmorl</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.463\">M51.3</a></td><td>Outra degeneração especificada de disco intervertebral</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.462\">M51.2</a></td><td>Outros deslocamentos discais intervertebrais especificados</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.461\">M51.1</a></td><td>Transtornos de discos lombares e de outros discos intervertebrais com radiculopatia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51.460\">M51.0</a></td><td>Transtornos de discos lombares e de outros discos intervertebrais com mielopatia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M51\">M51</a></td><td>Outros transtornos de discos intervertebrais</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.469\">M50.9</a></td><td>Transtorno não especificado de disco cervical</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.468\">M50.8</a></td><td>Outros transtornos de discos cervicais</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.463\">M50.3</a></td><td>Outra degeneração de disco cervical</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.462\">M50.2</a></td><td>Outro deslocamento de disco cervical</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.461\">M50.1</a></td><td>Transtorno do disco cervical com radiculopatia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50.460\">M50.0</a></td><td>Transtorno do disco cervical com mielopatia</td></tr><tr><td><a href=\"CodeSystem-BRCID10.html#BRCID10-M50\">M50</a></td><td>Transtornos dos discos cervicais</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRExameHPV"] ;
+  fhir:ValueSet.title [ fhir:value "BRExameHPV"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-08-31T22:41:20-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outros HPV ( 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68)" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV1845" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Human papilloma virus 18+45 mRNA" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17399-7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Human papilloma virus 16 Ag" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dorsalgia não especificada" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outra dorsalgia" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dor na coluna torácica" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dor lombar baixa" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lumbago com ciática" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ciática" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cervicalgia" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Radiculopatia" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paniculite atingindo regiões do pescoço e do dorso" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M54" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dorsalgia" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dorsopatia não especificada" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outras dorsopatias especificadas" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtornos sacroccígeos não classificados em outra parte" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Instabilidades da coluna vertebral" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Síndrome cervicobraquial" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Síndrome cervicocraniana" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M53" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outras dorsopatias não classificadas em outra parte" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtorno não especificado de disco intervertebral" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outros transtornos especificados de discos intervertebrais" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nódulos de Schmorl" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outra degeneração especificada de disco intervertebral" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outros deslocamentos discais intervertebrais especificados" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtornos de discos lombares e de outros discos intervertebrais com radiculopatia" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtornos de discos lombares e de outros discos intervertebrais com mielopatia" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outros transtornos de discos intervertebrais" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtorno não especificado de disco cervical" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outros transtornos de discos cervicais" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outra degeneração de disco cervical" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Outro deslocamento de disco cervical" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtorno do disco cervical com radiculopatia" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtorno do disco cervical com mielopatia" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transtornos dos discos cervicais" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

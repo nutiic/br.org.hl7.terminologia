@@ -1,0 +1,370 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRFabricanteImunobiologico",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRFabricanteImunobiologico</b></p><a name=\"BRFabricanteImunobiologico\"> </a><a name=\"hcBRFabricanteImunobiologico\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRFabricantePNI.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-26313\">26313</a></td><td>MERCK-GO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-9406\">9406</a></td><td>HALEXISTAR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2560\">2560</a></td><td>HEBER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-712\">712</a></td><td>BIOMERIEUX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-25538\">25538</a></td><td>MERCK-CAMPI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-608\">608</a></td><td>BAXTER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-239\">239</a></td><td>BAYER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42932\">42932</a></td><td>MSD-LLC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2355\">2355</a></td><td>NOVARTIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42931\">42931</a></td><td>MERCK-SP</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-235\">235</a></td><td>INCQS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42655\">42655</a></td><td>SK-BIOSCEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-22942\">22942</a></td><td>LGLIFE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42507\">42507</a></td><td>ADIUM</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2263\">2263</a></td><td>WYETH</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42490\">42490</a></td><td>SINOVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2260\">2260</a></td><td>CSL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42489\">42489</a></td><td>CATALENT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2250\">2250</a></td><td>IIMUNO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42488\">42488</a></td><td>ROVI-PHARMA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-1913\">1913</a></td><td>CPPI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-42430\">42430</a></td><td>MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-18190\">18190</a></td><td>BB-NCIPD</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-39263\">39263</a></td><td>TAKEDA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-18189\">18189</a></td><td>INTERVAX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-39262\">39262</a></td><td>IDT BIOLOGIKA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-17934\">17934</a></td><td>BIOLOGICAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-37646\">37646</a></td><td>EMERGENT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-169\">169</a></td><td>FINLAY</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-36271\">36271</a></td><td>ABBOTT-HOLAN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-168\">168</a></td><td>BERNE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35979\">35979</a></td><td>BHARAT</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-16763\">16763</a></td><td>BIOFARMA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35978\">35978</a></td><td>MODERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-167\">167</a></td><td>SEVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-35977\">35977</a></td><td>GAMALEYA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-166\">166</a></td><td>BIKEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-3521\">3521</a></td><td>BIOVET</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-1659\">1659</a></td><td>CYANAMID</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-33713\">33713</a></td><td>AMYIN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-165\">165</a></td><td>MERCK</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-33502\">33502</a></td><td>BAV-NORDIC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-164\">164</a></td><td>LGCHEMICAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30587\">30587</a></td><td>JANSSEN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-163\">163</a></td><td>SERUM-INDIA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30357\">30357</a></td><td>EQUIPLEX</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-162\">162</a></td><td>CHIRON SPA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-29909\">29909</a></td><td>ASTRAZENECA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-161\">161</a></td><td>AVENTIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-29501\">29501</a></td><td>SINOVAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-160\">160</a></td><td>GREENCROSS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2901\">2901</a></td><td>MERIAL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-159\">159</a></td><td>SMITHKLINE</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28738\">28738</a></td><td>BOEHRINGER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-156\">156</a></td><td>DADO B.</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2862\">2862</a></td><td>SANPASTEUR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-153\">153</a></td><td>TECPAR</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28425\">28425</a></td><td>BIOGENESIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-152\">152</a></td><td>BUTANTAN</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28303\">28303</a></td><td>PANACEA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-151\">151</a></td><td>F.A.P.</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28290\">28290</a></td><td>PFIZER-BELGICA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-150\">150</a></td><td>FUNED</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28289\">28289</a></td><td>GLAXO-BIO</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-149\">149</a></td><td>FIOCRUZ</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28283\">28283</a></td><td>VINS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-142\">142</a></td><td>PFIZER</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28251\">28251</a></td><td>SANMEDLEY</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-141\">141</a></td><td>IVB</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-28211\">28211</a></td><td>KAMADA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-13688\">13688</a></td><td>SHANTHA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27883\">27883</a></td><td>MERCK-RJ</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-13219\">13219</a></td><td>BIOGENESIS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27880\">27880</a></td><td>GSK-BRASIL</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-12572\">12572</a></td><td>KEDRION</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-27816\">27816</a></td><td>EUBIOLOGI</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-12551\">12551</a></td><td>GRIFOLS</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-2769\">2769</a></td><td>BERNA</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-11347\">11347</a></td><td>VIRBAC</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-26513\">26513</a></td><td>BEHRING</td></tr><tr><td><a href=\"CodeSystem-BRFabricantePNI.html#BRFabricantePNI-10534\">10534</a></td><td>CRUCELL</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico",
+  "version" : "1.1.0",
+  "name" : "BRFabricanteImunobiologico",
+  "title" : "BR Fabricante Imunobiologico",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
+      "concept" : [{
+        "code" : "26313",
+        "display" : "MERCK-GO"
+      },
+      {
+        "code" : "9406",
+        "display" : "HALEXISTAR"
+      },
+      {
+        "code" : "2560",
+        "display" : "HEBER"
+      },
+      {
+        "code" : "712",
+        "display" : "BIOMERIEUX"
+      },
+      {
+        "code" : "25538",
+        "display" : "MERCK-CAMPI"
+      },
+      {
+        "code" : "608",
+        "display" : "BAXTER"
+      },
+      {
+        "code" : "239",
+        "display" : "BAYER"
+      },
+      {
+        "code" : "42932",
+        "display" : "MSD-LLC"
+      },
+      {
+        "code" : "2355",
+        "display" : "NOVARTIS"
+      },
+      {
+        "code" : "42931",
+        "display" : "MERCK-SP"
+      },
+      {
+        "code" : "235",
+        "display" : "INCQS"
+      },
+      {
+        "code" : "42655",
+        "display" : "SK-BIOSCEN"
+      },
+      {
+        "code" : "22942",
+        "display" : "LGLIFE"
+      },
+      {
+        "code" : "42507",
+        "display" : "ADIUM"
+      },
+      {
+        "code" : "2263",
+        "display" : "WYETH"
+      },
+      {
+        "code" : "42490",
+        "display" : "SINOVAC"
+      },
+      {
+        "code" : "2260",
+        "display" : "CSL"
+      },
+      {
+        "code" : "42489",
+        "display" : "CATALENT"
+      },
+      {
+        "code" : "2250",
+        "display" : "IIMUNO"
+      },
+      {
+        "code" : "42488",
+        "display" : "ROVI-PHARMA"
+      },
+      {
+        "code" : "1913",
+        "display" : "CPPI"
+      },
+      {
+        "code" : "42430",
+        "display" : "MODERNA"
+      },
+      {
+        "code" : "18190",
+        "display" : "BB-NCIPD"
+      },
+      {
+        "code" : "39263",
+        "display" : "TAKEDA"
+      },
+      {
+        "code" : "18189",
+        "display" : "INTERVAX"
+      },
+      {
+        "code" : "39262",
+        "display" : "IDT BIOLOGIKA"
+      },
+      {
+        "code" : "17934",
+        "display" : "BIOLOGICAL"
+      },
+      {
+        "code" : "37646",
+        "display" : "EMERGENT"
+      },
+      {
+        "code" : "169",
+        "display" : "FINLAY"
+      },
+      {
+        "code" : "36271",
+        "display" : "ABBOTT-HOLAN"
+      },
+      {
+        "code" : "168",
+        "display" : "BERNE"
+      },
+      {
+        "code" : "35979",
+        "display" : "BHARAT"
+      },
+      {
+        "code" : "16763",
+        "display" : "BIOFARMA"
+      },
+      {
+        "code" : "35978",
+        "display" : "MODERNA"
+      },
+      {
+        "code" : "167",
+        "display" : "SEVAC"
+      },
+      {
+        "code" : "35977",
+        "display" : "GAMALEYA"
+      },
+      {
+        "code" : "166",
+        "display" : "BIKEN"
+      },
+      {
+        "code" : "3521",
+        "display" : "BIOVET"
+      },
+      {
+        "code" : "1659",
+        "display" : "CYANAMID"
+      },
+      {
+        "code" : "33713",
+        "display" : "AMYIN"
+      },
+      {
+        "code" : "165",
+        "display" : "MERCK"
+      },
+      {
+        "code" : "33502",
+        "display" : "BAV-NORDIC"
+      },
+      {
+        "code" : "164",
+        "display" : "LGCHEMICAL"
+      },
+      {
+        "code" : "30587",
+        "display" : "JANSSEN"
+      },
+      {
+        "code" : "163",
+        "display" : "SERUM-INDIA"
+      },
+      {
+        "code" : "30357",
+        "display" : "EQUIPLEX"
+      },
+      {
+        "code" : "162",
+        "display" : "CHIRON SPA"
+      },
+      {
+        "code" : "29909",
+        "display" : "ASTRAZENECA"
+      },
+      {
+        "code" : "161",
+        "display" : "AVENTIS"
+      },
+      {
+        "code" : "29501",
+        "display" : "SINOVAC"
+      },
+      {
+        "code" : "160",
+        "display" : "GREENCROSS"
+      },
+      {
+        "code" : "2901",
+        "display" : "MERIAL"
+      },
+      {
+        "code" : "159",
+        "display" : "SMITHKLINE"
+      },
+      {
+        "code" : "28738",
+        "display" : "BOEHRINGER"
+      },
+      {
+        "code" : "156",
+        "display" : "DADO B."
+      },
+      {
+        "code" : "2862",
+        "display" : "SANPASTEUR"
+      },
+      {
+        "code" : "153",
+        "display" : "TECPAR"
+      },
+      {
+        "code" : "28425",
+        "display" : "BIOGENESIS"
+      },
+      {
+        "code" : "152",
+        "display" : "BUTANTAN"
+      },
+      {
+        "code" : "28303",
+        "display" : "PANACEA"
+      },
+      {
+        "code" : "151",
+        "display" : "F.A.P."
+      },
+      {
+        "code" : "28290",
+        "display" : "PFIZER-BELGICA"
+      },
+      {
+        "code" : "150",
+        "display" : "FUNED"
+      },
+      {
+        "code" : "28289",
+        "display" : "GLAXO-BIO"
+      },
+      {
+        "code" : "149",
+        "display" : "FIOCRUZ"
+      },
+      {
+        "code" : "28283",
+        "display" : "VINS"
+      },
+      {
+        "code" : "142",
+        "display" : "PFIZER"
+      },
+      {
+        "code" : "28251",
+        "display" : "SANMEDLEY"
+      },
+      {
+        "code" : "141",
+        "display" : "IVB"
+      },
+      {
+        "code" : "28211",
+        "display" : "KAMADA"
+      },
+      {
+        "code" : "13688",
+        "display" : "SHANTHA"
+      },
+      {
+        "code" : "27883",
+        "display" : "MERCK-RJ"
+      },
+      {
+        "code" : "13219",
+        "display" : "BIOGENESIS"
+      },
+      {
+        "code" : "27880",
+        "display" : "GSK-BRASIL"
+      },
+      {
+        "code" : "12572",
+        "display" : "KEDRION"
+      },
+      {
+        "code" : "27816",
+        "display" : "EUBIOLOGI"
+      },
+      {
+        "code" : "12551",
+        "display" : "GRIFOLS"
+      },
+      {
+        "code" : "2769",
+        "display" : "BERNA"
+      },
+      {
+        "code" : "11347",
+        "display" : "VIRBAC"
+      },
+      {
+        "code" : "26513",
+        "display" : "BEHRING"
+      },
+      {
+        "code" : "10534",
+        "display" : "CRUCELL"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BREstrategiaVacinacao",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:39:42.268+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BREstrategiaVacinacao</b></p><a name=\"BREstrategiaVacinacao\"> </a><a name=\"hcBREstrategiaVacinacao\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:39:42+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BREstrategiaVacinacao-3\"> </a></td><td>Bloqueio</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BREstrategiaVacinacao-2\"> </a></td><td>Especial</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BREstrategiaVacinacao-9\"> </a></td><td>Monitoramento rápido de cobertura vacinal</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BREstrategiaVacinacao-13\"> </a></td><td>Reexposição</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BREstrategiaVacinacao-8\"> </a></td><td>Serviço Privado</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BREstrategiaVacinacao-12\"> </a></td><td>Pós-exposição</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BREstrategiaVacinacao-7\"> </a></td><td>Soroterapia</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BREstrategiaVacinacao-11\"> </a></td><td>Pré-exposição</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BREstrategiaVacinacao-6\"> </a></td><td>Campanha seletiva</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BREstrategiaVacinacao-10\"> </a></td><td>Pesquisa</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BREstrategiaVacinacao-5\"> </a></td><td>Campanha indiscriminada</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BREstrategiaVacinacao-4\"> </a></td><td>Intensificação</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BREstrategiaVacinacao-1\"> </a></td><td>Rotina</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
+  "version" : "1.1.0",
+  "name" : "BREstrategiaVacinacao",
+  "title" : "BREstrategiaVacinacao",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 13,
+  "concept" : [{
+    "code" : "3",
+    "display" : "Bloqueio"
+  },
+  {
+    "code" : "2",
+    "display" : "Especial"
+  },
+  {
+    "code" : "9",
+    "display" : "Monitoramento rápido de cobertura vacinal"
+  },
+  {
+    "code" : "13",
+    "display" : "Reexposição"
+  },
+  {
+    "code" : "8",
+    "display" : "Serviço Privado"
+  },
+  {
+    "code" : "12",
+    "display" : "Pós-exposição"
+  },
+  {
+    "code" : "7",
+    "display" : "Soroterapia"
+  },
+  {
+    "code" : "11",
+    "display" : "Pré-exposição"
+  },
+  {
+    "code" : "6",
+    "display" : "Campanha seletiva"
+  },
+  {
+    "code" : "10",
+    "display" : "Pesquisa"
+  },
+  {
+    "code" : "5",
+    "display" : "Campanha indiscriminada"
+  },
+  {
+    "code" : "4",
+    "display" : "Intensificação"
+  },
+  {
+    "code" : "1",
+    "display" : "Rotina"
+  }]
+}

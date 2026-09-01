@@ -1,0 +1,371 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRProgramaSaude"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRProgramaSaude</b></p><a name=\"BRProgramaSaude\"> </a><a name=\"hcBRProgramaSaude\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRProgramaSaude.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão ?1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-501\">501</a></td><td>Estratégicos</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-981\">981</a></td><td>Alimentação e Nutrição</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-5\">5</a></td><td>Hipertensão</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-961\">961</a></td><td>Estratégico</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-481\">481</a></td><td>Assistência Social</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-941\">941</a></td><td>Malária</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-461\">461</a></td><td>Cólera</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-923\">923</a></td><td>Infecções Oportunistas</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-441\">441</a></td><td>UPA</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-922\">922</a></td><td>Influenza</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-421\">421</a></td><td>Especializado</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-921\">921</a></td><td>Chagas</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-401\">401</a></td><td>SAMU</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-903\">903</a></td><td>Meningite</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-4\">4</a></td><td>Judicialização</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-902\">902</a></td><td>Leishmaniose</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-381\">381</a></td><td>Saúde da Criança</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-901\">901</a></td><td>Tracoma</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-361\">361</a></td><td>Assitência Farmacêutica</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-882\">882</a></td><td>Epidemias</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-341\">341</a></td><td>Assistência Farmacêutica Básica</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-881\">881</a></td><td>Edemias Focais</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-3\">3</a></td><td>DST/AIDS</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-861\">861</a></td><td>Saúde Prisional</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-281\">281</a></td><td>Tabagismo</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-801\">801</a></td><td>Doença Enxerto Hospedeiro</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-261\">261</a></td><td>Tuberculose</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-8\">8</a></td><td>Hospitalar</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-2\">2</a></td><td>Diabetes</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-781\">781</a></td><td>Atenção Secundária</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1421\">1421</a></td><td>Órteses e Prósteses</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-767\">767</a></td><td>Suplementos Alimentares</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1401\">1401</a></td><td>Multidroga Resistente</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-766\">766</a></td><td>Fraldas</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1381\">1381</a></td><td>SESAI</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-765\">765</a></td><td>Administrativos</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1361\">1361</a></td><td>Calamidade Pública</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-764\">764</a></td><td>Diversos</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1341\">1341</a></td><td>DPOC</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-763\">763</a></td><td>Oncologia</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1321\">1321</a></td><td>DPOC</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-762\">762</a></td><td>Alzheimer</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1301\">1301</a></td><td>Assistência Farmacêutica SESAI</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-761\">761</a></td><td>DPOC</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1281\">1281</a></td><td>Assitência Farmacêutica SESAI</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-721\">721</a></td><td>Mieloma Múltiplo</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1261\">1261</a></td><td>Peste</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-701\">701</a></td><td>Antimicrobianos</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1241\">1241</a></td><td>Micoses Sistêmicas</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-7\">7</a></td><td>Saúde Mental</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1221\">1221</a></td><td>Micoses Sistêmicas</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-683\">683</a></td><td>Lúpus Eritematoso Sistêmico</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1202\">1202</a></td><td>Coagulopatias</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-682\">682</a></td><td>Infecções Oportunistas DST/AIDS</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1201\">1201</a></td><td>Filariose</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-681\">681</a></td><td>Suplementos Alimentares</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1181\">1181</a></td><td>Remédio em Casa</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-662\">662</a></td><td>Insumos</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1161\">1161</a></td><td>Toxoplasmose</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-661\">661</a></td><td>Lúpus Eritematoso Sistêmico</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1141\">1141</a></td><td>Imunização</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-641\">641</a></td><td>Infecções Oportunistas DST/AIDS</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1121\">1121</a></td><td>Nutrição</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-621\">621</a></td><td>Ação Civil Pública</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1102\">1102</a></td><td>Esquitossomose</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-601\">601</a></td><td>Estratégicos - Estado</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1101\">1101</a></td><td>Dengue</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-6\">6</a></td><td>Saúde da Mulher</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1081\">1081</a></td><td>Cólera</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-581\">581</a></td><td>Suplementação de Ferro</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1021\">1021</a></td><td>Insulino-Dependente- DM II</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-561\">561</a></td><td>Sem dor</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1001\">1001</a></td><td>Insulino-Dependente- DM I</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-541\">541</a></td><td>Glaucoma</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-521\">521</a></td><td>Urgência e Emergência</td></tr><tr><td><a href=\"CodeSystem-BRProgramaSaude.html#BRProgramaSaude-1\">1</a></td><td>Hanseníase</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRProgramaSaude"] ;
+  fhir:ValueSet.title [ fhir:value "BR Programa Saude"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "501" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estratégicos" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "981" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alimentação e Nutrição" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hipertensão" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "961" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estratégico" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "481" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistência Social" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "941" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malária" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "461" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cólera" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "923" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infecções Oportunistas" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "441" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "UPA" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "922" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Influenza" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "421" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Especializado" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "921" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chagas" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "401" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SAMU" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "903" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Meningite" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Judicialização" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "902" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Leishmaniose" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "381" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saúde da Criança" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "901" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tracoma" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "361" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assitência Farmacêutica" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "882" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Epidemias" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "341" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistência Farmacêutica Básica" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "881" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Edemias Focais" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DST/AIDS" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "861" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saúde Prisional" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "281" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tabagismo" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "801" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Doença Enxerto Hospedeiro" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "261" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tuberculose" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hospitalar" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diabetes" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "781" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atenção Secundária" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1421" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Órteses e Prósteses" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "767" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Suplementos Alimentares" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1401" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Multidroga Resistente" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "766" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fraldas" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1381" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SESAI" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "765" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Administrativos" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1361" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Calamidade Pública" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "764" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diversos" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1341" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPOC" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "763" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Oncologia" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1321" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPOC" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "762" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alzheimer" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1301" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistência Farmacêutica SESAI" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "761" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DPOC" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1281" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assitência Farmacêutica SESAI" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "721" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mieloma Múltiplo" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1261" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peste" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "701" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antimicrobianos" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1241" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Micoses Sistêmicas" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saúde Mental" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1221" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Micoses Sistêmicas" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "683" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lúpus Eritematoso Sistêmico" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1202" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Coagulopatias" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "682" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infecções Oportunistas DST/AIDS" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1201" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filariose" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "681" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Suplementos Alimentares" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1181" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Remédio em Casa" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "662" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Insumos" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1161" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Toxoplasmose" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "661" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lúpus Eritematoso Sistêmico" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1141" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Imunização" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "641" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infecções Oportunistas DST/AIDS" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1121" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nutrição" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "621" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ação Civil Pública" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1102" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Esquitossomose" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "601" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estratégicos - Estado" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dengue" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Saúde da Mulher" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1081" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cólera" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "581" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Suplementação de Ferro" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1021" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Insulino-Dependente- DM II" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "561" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sem dor" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1001" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Insulino-Dependente- DM I" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "541" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Glaucoma" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "521" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urgência e Emergência" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hanseníase" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRProgramaSaude.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

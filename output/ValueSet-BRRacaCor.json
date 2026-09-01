@@ -1,0 +1,70 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRRacaCor",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRRacaCor</b></p><a name=\"BRRacaCor\"> </a><a name=\"hcBRRacaCor\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRRacaCor.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versão &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-99\">99</a></td><td>Sem informação</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-05\">05</a></td><td>Indígena</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-04\">04</a></td><td>Amarela</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-03\">03</a></td><td>Parda</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-02\">02</a></td><td>Preta</td></tr><tr><td><a href=\"CodeSystem-BRRacaCor.html#BRRacaCor-01\">01</a></td><td>Branca</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRRacaCor",
+  "version" : "1.1.0",
+  "name" : "BRRacaCor",
+  "title" : "BR Raca Cor",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
+      "concept" : [{
+        "code" : "99",
+        "display" : "Sem informação"
+      },
+      {
+        "code" : "05",
+        "display" : "Indígena"
+      },
+      {
+        "code" : "04",
+        "display" : "Amarela"
+      },
+      {
+        "code" : "03",
+        "display" : "Parda"
+      },
+      {
+        "code" : "02",
+        "display" : "Preta"
+      },
+      {
+        "code" : "01",
+        "display" : "Branca"
+      }]
+    }]
+  }
+}

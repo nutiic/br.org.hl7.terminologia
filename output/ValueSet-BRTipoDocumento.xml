@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoDocumento"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTipoDocumento</b></p><a name="BRTipoDocumento"> </a><a name="hcBRTipoDocumento"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTipoDocumento.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> versão &#x1F4E6;1.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-ATM">ATM</a></td><td>Atestado Médico/Odontológico</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-RA">RA</a></td><td>Regulação Assistencial</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-REL">REL</a></td><td>Resultado de Exame(s) Laboratoriais(s)</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-RDM">RDM</a></td><td>Registro de Dispensação de Medicamento</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-RPM">RPM</a></td><td>Registro de Prescrição de Medicamento</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-RIA">RIA</a></td><td>Registro de Imunobiológico Administrado</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-RAC">RAC</a></td><td>Registro de Atendimento Clínico</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-SA">SA</a></td><td>Sumário de Alta</td></tr><tr><td><a href="CodeSystem-BRTipoDocumento.html#BRTipoDocumento-CMD">CMD</a></td><td>Conjunto Mínimo de Dados</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoDocumento"/>
+  <title value="BR Tipo Documento"/>
+  <status value="active"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento"/>
+      <concept>
+        <code value="ATM"/>
+        <display value="Atestado Médico/Odontológico"/>
+      </concept>
+      <concept>
+        <code value="RA"/>
+        <display value="Regulação Assistencial"/>
+      </concept>
+      <concept>
+        <code value="REL"/>
+        <display value="Resultado de Exame(s) Laboratoriais(s)"/>
+      </concept>
+      <concept>
+        <code value="RDM"/>
+        <display value="Registro de Dispensação de Medicamento"/>
+      </concept>
+      <concept>
+        <code value="RPM"/>
+        <display value="Registro de Prescrição de Medicamento"/>
+      </concept>
+      <concept>
+        <code value="RIA"/>
+        <display value="Registro de Imunobiológico Administrado"/>
+      </concept>
+      <concept>
+        <code value="RAC"/>
+        <display value="Registro de Atendimento Clínico"/>
+      </concept>
+      <concept>
+        <code value="SA"/>
+        <display value="Sumário de Alta"/>
+      </concept>
+      <concept>
+        <code value="CMD"/>
+        <display value="Conjunto Mínimo de Dados"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

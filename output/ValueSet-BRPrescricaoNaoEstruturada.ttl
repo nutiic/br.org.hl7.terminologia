@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRPrescricaoNaoEstruturada"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRPrescricaoNaoEstruturada</b></p><a name=\"BRPrescricaoNaoEstruturada\"> </a><a name=\"hcBRPrescricaoNaoEstruturada\"> </a><p>Esta expansão do conjunto de valores contém 2 conceitos.</p><table class=\"codes\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a name=\"BRPrescricaoNaoEstruturada-https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido-no-known-medications\"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-BRDadoAusenteOuDesconhecido.html#BRDadoAusenteOuDesconhecido-no-known-medications\">no-known-medications</a></td><td>Sem medicamentos conhecidos.</td></tr><tr><td><a name=\"BRPrescricaoNaoEstruturada-https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido-no-medication-info\"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-BRDadoAusenteOuDesconhecido.html#BRDadoAusenteOuDesconhecido-no-medication-info\">no-medication-info</a></td><td>Sem informação sobre medicamentos.</td></tr></table></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRPrescricaoNaoEstruturada"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "no-known-medications" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sem medicamentos conhecidos." ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "no-medication-info" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sem informação sobre medicamentos." ]
+       ]
+     ]
+  ] ;
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2025-07-21T15:18:39+00:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "no-known-medications" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Sem medicamentos conhecidos." ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "no-medication-info" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Sem informação sobre medicamentos." ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

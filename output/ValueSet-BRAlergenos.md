@@ -1,0 +1,4091 @@
+# BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BR Alergenos - FHIR v4.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Lista de artefatos**](artifacts.md)
+* **BR Alergenos**
+
+## ValueSet: BR Alergenos 
+
+| | |
+| :--- | :--- |
+| *URL Canônica*:https://terminologia.saude.gov.br/fhir/ValueSet/BRAlergenos | *Versão*:1.1.0 |
+| Active as of 2026-03-09 | *Nome computável*:BRAlergenos |
+
+ **References** 
+
+Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local (por exemplo, especificações e/ou implementações que utilizem este conteúdo)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ Explanation of the columns that may appear on this page: 
+
+| | |
+| :--- | :--- |
+| Level | A few code lists that FHIR defines are hierarchical - each code is assigned a level. In this scheme, some codes are under other codes, and imply that the code they are under also applies |
+| System | The source of the definition of the code (when the value set draws in codes defined elsewhere) |
+| Code | The code (used as the code in the resource instance) |
+| Display | The display (used in the*display*element of a[Coding](http://hl7.org/fhir/R4/datatypes.html#Coding)). If there is no display, implementers should not simply display the code, but map the concept into their application |
+| Definition | An explanation of the meaning of the concept |
+| Comments | Additional notes about how to use the code |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRAlergenos",
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/BRAlergenos",
+  "version" : "1.1.0",
+  "name" : "BRAlergenos",
+  "title" : "BR Alergenos",
+  "status" : "active",
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
+      "concept" : [{
+        "code" : "76",
+        "display" : "VHZ"
+      },
+      {
+        "code" : "104",
+        "display" : "DNG"
+      },
+      {
+        "code" : "82",
+        "display" : "Dengue"
+      },
+      {
+        "code" : "78",
+        "display" : "MenB"
+      },
+      {
+        "code" : "75",
+        "display" : "COLERA"
+      },
+      {
+        "code" : "74",
+        "display" : "MenACWY"
+      },
+      {
+        "code" : "73",
+        "display" : "Quadrupla Viral"
+      },
+      {
+        "code" : "71",
+        "display" : "Rubeola"
+      },
+      {
+        "code" : "70",
+        "display" : "Sarampo"
+      },
+      {
+        "code" : "72",
+        "display" : "Gripe Sazonal"
+      },
+      {
+        "code" : "67",
+        "display" : "HPV4"
+      },
+      {
+        "code" : "61",
+        "display" : "TT"
+      },
+      {
+        "code" : "59",
+        "display" : "VPC13"
+      },
+      {
+        "code" : "58",
+        "display" : "TETRA acelular"
+      },
+      {
+        "code" : "56",
+        "display" : "SCRV"
+      },
+      {
+        "code" : "47",
+        "display" : "DTPa"
+      },
+      {
+        "code" : "45",
+        "display" : "ROTA"
+      },
+      {
+        "code" : "44",
+        "display" : "H1N1"
+      },
+      {
+        "code" : "43",
+        "display" : "HEXA"
+      },
+      {
+        "code" : "42",
+        "display" : "PENTA"
+      },
+      {
+        "code" : "41",
+        "display" : "MenC"
+      },
+      {
+        "code" : "40",
+        "display" : "Pncc7V"
+      },
+      {
+        "code" : "39",
+        "display" : "Tetra"
+      },
+      {
+        "code" : "38",
+        "display" : "SBOTULTRI"
+      },
+      {
+        "code" : "37",
+        "display" : "Vero"
+      },
+      {
+        "code" : "36",
+        "display" : "SR"
+      },
+      {
+        "code" : "35",
+        "display" : "HA"
+      },
+      {
+        "code" : "34",
+        "display" : "VAR"
+      },
+      {
+        "code" : "32",
+        "display" : "SALONO"
+      },
+      {
+        "code" : "31",
+        "display" : "SALOXO"
+      },
+      {
+        "code" : "30",
+        "display" : "FTp"
+      },
+      {
+        "code" : "29",
+        "display" : "PENTA acelular"
+      },
+      {
+        "code" : "28",
+        "display" : "VOP"
+      },
+      {
+        "code" : "27",
+        "display" : "SLATRO"
+      },
+      {
+        "code" : "26",
+        "display" : "VPC10"
+      },
+      {
+        "code" : "24",
+        "display" : "SCR"
+      },
+      {
+        "code" : "23",
+        "display" : "IGHR"
+      },
+      {
+        "code" : "20",
+        "display" : "IGHHB"
+      },
+      {
+        "code" : "19",
+        "display" : "IGHV"
+      },
+      {
+        "code" : "18",
+        "display" : "VR"
+      },
+      {
+        "code" : "17",
+        "display" : "Hib"
+      },
+      {
+        "code" : "15",
+        "display" : "BCG"
+      },
+      {
+        "code" : "14",
+        "display" : "VFA"
+      },
+      {
+        "code" : "13",
+        "display" : "Meningo AC"
+      },
+      {
+        "code" : "11",
+        "display" : "SABOCR"
+      },
+      {
+        "code" : "3",
+        "display" : "SARC"
+      },
+      {
+        "code" : "2",
+        "display" : "SAT"
+      },
+      {
+        "code" : "8",
+        "display" : "SABOTR"
+      },
+      {
+        "code" : "16",
+        "display" : "SACROT"
+      },
+      {
+        "code" : "6",
+        "display" : "SAELAP"
+      },
+      {
+        "code" : "100",
+        "display" : "VVBN"
+      },
+      {
+        "code" : "101",
+        "display" : "VZR"
+      },
+      {
+        "code" : "10",
+        "display" : "SAD"
+      },
+      {
+        "code" : "49",
+        "display" : "DILVFA"
+      },
+      {
+        "code" : "97",
+        "display" : "COVID-19 MODERNA"
+      },
+      {
+        "code" : "50",
+        "display" : "DILHib"
+      },
+      {
+        "code" : "93",
+        "display" : "HPV9"
+      },
+      {
+        "code" : "99",
+        "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
+      },
+      {
+        "code" : "5",
+        "display" : "DT"
+      },
+      {
+        "code" : "52",
+        "display" : "DilMengAC"
+      },
+      {
+        "code" : "9",
+        "display" : "HepB"
+      },
+      {
+        "code" : "51",
+        "display" : "Fta"
+      },
+      {
+        "code" : "94",
+        "display" : "DILCOV"
+      },
+      {
+        "code" : "98",
+        "display" : "COVID-19 SINOVAC - CORONAVAC"
+      },
+      {
+        "code" : "68",
+        "display" : "HPV Bi"
+      },
+      {
+        "code" : "87",
+        "display" : "COVID-19 PFIZER - COMIRNATY"
+      },
+      {
+        "code" : "86",
+        "display" : "COVID-19 SINOVAC/BUTANTAN - CORONAVAC"
+      },
+      {
+        "code" : "85",
+        "display" : "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+      },
+      {
+        "code" : "84",
+        "display" : "VFA-F"
+      },
+      {
+        "code" : "4",
+        "display" : "SAESCOR"
+      },
+      {
+        "code" : "79",
+        "display" : "DILBCG"
+      },
+      {
+        "code" : "83",
+        "display" : "HEPAad"
+      },
+      {
+        "code" : "77",
+        "display" : "INF4"
+      },
+      {
+        "code" : "81",
+        "display" : "DILMenC"
+      },
+      {
+        "code" : "80",
+        "display" : "DILVRvero"
+      },
+      {
+        "code" : "33",
+        "display" : "INF3"
+      },
+      {
+        "code" : "46",
+        "display" : "DTP"
+      },
+      {
+        "code" : "88",
+        "display" : "COVID-19 JANSSEN - Ad26.COV2.S"
+      },
+      {
+        "code" : "107",
+        "display" : "VPC20"
+      },
+      {
+        "code" : "92",
+        "display" : "VRvero"
+      },
+      {
+        "code" : "89",
+        "display" : "COVID-19 ASTRAZENECA - ChAdOx1-S"
+      },
+      {
+        "code" : "91",
+        "display" : "DILVR"
+      },
+      {
+        "code" : "48",
+        "display" : "DILSRC"
+      },
+      {
+        "code" : "90",
+        "display" : "DILSCRV"
+      },
+      {
+        "code" : "105",
+        "display" : "COVID-19 MODERNA - SPIKEVAX BIVALENTE"
+      },
+      {
+        "code" : "108",
+        "display" : "VVSR-Rec"
+      },
+      {
+        "code" : "111",
+        "display" : "dTpa/VIP"
+      },
+      {
+        "code" : "110",
+        "display" : "Vacina Influenza Tetravalente - Alta Dosagem"
+      },
+      {
+        "code" : "109",
+        "display" : "VVSR-RecAdj"
+      },
+      {
+        "code" : "96",
+        "display" : "COVID-19 BHARAT - COVAXIN"
+      },
+      {
+        "code" : "95",
+        "display" : "COVID-19 GAMALEYA - SPUTNIK V"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
+      "concept" : [{
+        "code" : "BR0299690-1",
+        "display" : "METILPREDNISOLONA, ACETATO 40 MG/ML SUSPENSÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0299675-2",
+        "display" : "MANITOL 20% SOLUÇÃO INJETÁVEL 500 ML SISTEMA FECHADO"
+      },
+      {
+        "code" : "BR0299675",
+        "display" : "MANITOL 20 % SOLUÇÃO INJETÁVEL 250 ML SISTEMA FECHADO"
+      },
+      {
+        "code" : "BR0299656",
+        "display" : "LIDOCAÍNA, CLORIDRATO + CLORETO DE BENZALCÔNIO 20 + 1,3 MG/ML SPRAY TÓPICO 50 ML"
+      },
+      {
+        "code" : "BR0299317",
+        "display" : "FENTANILA, CITRATO + DROPERIDOL 0,05 + 2,5 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0299248U0102",
+        "display" : "DIDANOSINA 4 G PÓ PARA SUSPENSÃO"
+      },
+      {
+        "code" : "BR0299247",
+        "display" : "DIDANOSINA 2 G PÓ PARA SUSPENSÃO"
+      },
+      {
+        "code" : "BR0299236-2",
+        "display" : "DEXPANTENOL 50 MG/G POMADA 30 G"
+      },
+      {
+        "code" : "BR0299236-1",
+        "display" : "DEXPANTENOL 50 MG/G POMADA 20 G"
+      },
+      {
+        "code" : "BR0299129U0041",
+        "display" : "CLOFAZIMINA 100 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0299128U0041",
+        "display" : "CLOFAZIMINA 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0298769",
+        "display" : "PAROXETINA, CLORIDRATO 40 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0298768",
+        "display" : "PAROXETINA, CLORIDRATO 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0298734",
+        "display" : "CICLOSPORINA 0,5 MG/ML MG/ML SOLUÇÃO OFTÁLMICA 0,4 ML"
+      },
+      {
+        "code" : "BR0298582",
+        "display" : "PINAVÉRIO, BROMETO 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0298574-5",
+        "display" : "BAMBUTEROL, CLORIDRATO 1 MG/ML SOL ORAL (FR) 20 ML"
+      },
+      {
+        "code" : "BR0298574-4",
+        "display" : "BAMBUTEROL, CLORIDRATO 1 MG/ML SOL ORAL (FR) 60 ML"
+      },
+      {
+        "code" : "BR0298574-3",
+        "display" : "BAMBUTEROL, CLORIDRATO 1 MG/ML SOL ORAL (FR) 100 ML"
+      },
+      {
+        "code" : "BR0298574-2",
+        "display" : "BAMBUTEROL, CLORIDRATO 1 MG/ML SOL ORAL (FR) 120 ML"
+      },
+      {
+        "code" : "BR0298574-1",
+        "display" : "BAMBUTEROL, CLORIDRATO 1 MG/ML SOL ORAL (FR) 200 ML"
+      },
+      {
+        "code" : "BR0298530",
+        "display" : "ESTRADIOL, VALERATO + NORETISTERONA, ENANTATO 3,2 + 11,2 MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0298454U0067",
+        "display" : "DEXCLORFENIRAMINA, MALEATO 0,4 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0298454U0062",
+        "display" : "DEXCLORFENIRAMINA, MALEATO 0,4 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0298446",
+        "display" : "CROMOGLICATO DE SÓDIO 4 % SOLUÇÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0298445-1",
+        "display" : "CROMOGLICATO DE SÓDIO 2% SOLUÇÃO OFTÁLMICA 15 ML"
+      },
+      {
+        "code" : "BR0298445",
+        "display" : "CROMOGLICATO DE SÓDIO 2 % SOLUÇÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0298444",
+        "display" : "CROMOGLICATO DE SÓDIO 4 % % SOLUÇÃO NASAL 15 ML"
+      },
+      {
+        "code" : "BR0297787-2",
+        "display" : "CETIRIZINA, DICLORIDRATO 1 MG/ML SOLUÇÃO ORAL 120 ML"
+      },
+      {
+        "code" : "BR0297787-1",
+        "display" : "CETIRIZINA, DICLORIDRATO 1 MG/ML SOLUÇÃO ORAL 80 ML"
+      },
+      {
+        "code" : "BR0297787",
+        "display" : "CETIRIZINA, DICLORIDRATO 1 MG/ML MG/ML SOLUÇÃO ORAL 75 ML"
+      },
+      {
+        "code" : "BR0297775U0041",
+        "display" : "PANCREATINA 10.000 UI CAP GRUPO 1.B"
+      },
+      {
+        "code" : "BR0297775",
+        "display" : "PANCREATINA 10.000 UI CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0297697U0165",
+        "display" : "ARTICAÍNA ASSOCIADA COM EPINEFRINA 4% + 1/100.000 SOLUÇÃO INJETÁVEL 1,8 ML"
+      },
+      {
+        "code" : "BR0297697.1",
+        "display" : "LIDOCAÍNA, CLORIDRATO + EPINEFRINA 4% + 1/100.000 AMP"
+      },
+      {
+        "code" : "BR0297697",
+        "display" : "ARTICAÍNA ASSOCIADA COM EPINEFRINA 4 % AMP 1,8 ML"
+      },
+      {
+        "code" : "BR0297696U0165",
+        "display" : "ARTICAÍNA ASSOCIADA COM EPINEFRINA 4 % + 1/200.000 SOLUÇÃO INJETÁVEL 1,8 ML"
+      },
+      {
+        "code" : "BR0296940",
+        "display" : "ESTRADIOL + DIDROGESTERONA 1 + 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296876U0042",
+        "display" : "CARBONATO DE CÁLCIO + COLECALCIFEROL 500 MG + 400 UI COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296876",
+        "display" : "CARBONATO DE CÁLCIO + COLECALCIFEROL 1500 + 400 MG/ UI COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296825",
+        "display" : "ÁCIDO FÓLICO + FERRO AMINOÁCIDO QUELATO 5 MG + 150 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296793-2",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 50 + 500 MCG/DOSE AEROSSOL ORAL 60 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0296793-1",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 50 + 500 MCG PÓ PARA INALAÇÃO ORAL 28 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0296792-3",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 50 + 250 MCG/DOSE PÓ PARA INALAÇÃO ORAL 28 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0296792-2",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 50 + 250 MCG/DOSE AEROSSOL 120 DOSES"
+      },
+      {
+        "code" : "BR0296792-1",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 50 + 250 MCG/DOSE PÓ PARA INALAÇÃO ORAL 60 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0296749",
+        "display" : "PROMESTRIENO 10 MG CÁPSULA VAGINAL"
+      },
+      {
+        "code" : "BR0296745",
+        "display" : "OLMESARTANA + HIDROCLOROTIAZIDA 20 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296744",
+        "display" : "OLMESARTANA + HIDROCLOROTIAZIDA 40 + 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296743",
+        "display" : "OLMESARTANA + HIDROCLOROTIAZIDA 40 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296742",
+        "display" : "OLMESARTANA, MEDOXOMILA 40 MG COMP REV"
+      },
+      {
+        "code" : "BR0296741",
+        "display" : "OLMESARTANA 20 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296717U0042",
+        "display" : "RISEDRONATO 35 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0296717",
+        "display" : "RISEDRONATO SÓDICO 35 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0296715U0042",
+        "display" : "RISEDRONATO 5 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0296676",
+        "display" : "CIPROTERONA, ACETATO + ESTRADIOL, VALERATO 2 + 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296657",
+        "display" : "TRIMEBUTINA, MALEATO 200 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0296650",
+        "display" : "LEVOTIROXINA SÓDICA 112 MCG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296649",
+        "display" : "LEVOTIROXINA SÓDICA 88 MCG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296647",
+        "display" : "CUMARINA + TROXERRUTINA 15 + 90 MG DRÁGEA"
+      },
+      {
+        "code" : "BR0296594",
+        "display" : "NORGESTIMATO + ESTRADIOL 1 + 90 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296486U0042",
+        "display" : "METFORMINA, CLORIDRATO 1 G COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0296486",
+        "display" : "METFORMINA, CLORIDRATO 1 G COMPRIMIDO"
+      },
+      {
+        "code" : "BR0296389",
+        "display" : "CETOPROFENO 1MG/ML XAROPE 150 ML"
+      },
+      {
+        "code" : "BR0296302",
+        "display" : "PAROXETINA, CLORIDRATO 25 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0296120",
+        "display" : "OXIBUPROCAÍNA 4 MG/ML SOLUÇÃO OFTÁLMICA 10 ML"
+      },
+      {
+        "code" : "BR0296076",
+        "display" : "CANDESARTANA CILEXETILA 16 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0295856",
+        "display" : "LEVONORGESTREL 52 MG SISTEMA INTRAUTERINO"
+      },
+      {
+        "code" : "BR0295853U0042",
+        "display" : "LEVONORGESTREL 1,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0295624",
+        "display" : "ÁCIDO FUSÍDICO 20 MG/G CREME 10 G"
+      },
+      {
+        "code" : "BR0295605",
+        "display" : "ALGESTONA ACETOFENIDA + ESTRADIOL, ENANTATO 150 MG + 10 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0295393",
+        "display" : "MECLIZINA 50 mg COMPRIMIDO"
+      },
+      {
+        "code" : "BR0295391",
+        "display" : "MECLIZINA 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0295303",
+        "display" : "TRASTUZUMABE 150 MG PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0295302",
+        "display" : "TRASTUZUMABE 440 MG PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0295266",
+        "display" : "GLICEROFOSFATO DE SODIO 216 MG/ML SUSPENSÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0295040U0042",
+        "display" : "LAMOTRIGINA 25 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0295040",
+        "display" : "LAMOTRIGINA 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0294927",
+        "display" : "PROMESTRIENO 10 MG/G CREME VAGINAL 30 G"
+      },
+      {
+        "code" : "BR0294912-2",
+        "display" : "IRINOTECANO, CLORIDRATO 20 MG/ML SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0294912-1",
+        "display" : "IRINOTECANO, CLORIDRATO 20 MG/ML AMP 2 ML"
+      },
+      {
+        "code" : "BR0294887U0084",
+        "display" : "SALBUTAMOL, SULFATO 100 MCG/DOSE AEROSSOL 200 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0294887E",
+        "display" : "SALBUTAMOL 100 MCG AER BUCAL (FR DE 200 DOSES) GRUPO 2"
+      },
+      {
+        "code" : "BR0294881U0005",
+        "display" : "ILOPROSTA 10 MCG/ML SOL P/ NEBUL (AMP) 1 ML GRUPO 1.B"
+      },
+      {
+        "code" : "BR0294774",
+        "display" : "ALFAEPOETINA 40000 UI SERINGA 1 ML SOLUÇÃO INJETÁVEL COM SISTEMA DE APLICAÇÃO"
+      },
+      {
+        "code" : "BR0294729",
+        "display" : "VORICONAZOL 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0294648U0042",
+        "display" : "IBUPROFENO 200 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0294550",
+        "display" : "UBIDECARENONA (COENZIMA Q10) 20 MG/ML XAROPE 300 ML"
+      },
+      {
+        "code" : "BR0294537",
+        "display" : "MIRTAZAPINA 45 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0294536",
+        "display" : "MIRTAZAPINA 30 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0294521",
+        "display" : "LACIDIPINO 4 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0294520",
+        "display" : "LACIDIPINO 2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0294417U0081",
+        "display" : "LATANOPROSTA 0,05 MG/ML SOL OFT (FR) 2,5 ML GRUPO 1.A"
+      },
+      {
+        "code" : "BR0294417",
+        "display" : "LATANOPROSTA 50 MCG/ML SOLUÇÃO OFTÁLMICA 2,5 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0294202",
+        "display" : "DEXRAZOXANO 500 MG PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0294097U0118",
+        "display" : "CEFTRIAXONA SÓDICA 250 MG PÓ PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0294096U0118",
+        "display" : "CEFTRIAXONA SÓDICA 250 mg MG PÓ PARA SOLUÇÃO INJETÁVEL IV"
+      },
+      {
+        "code" : "BR0294094",
+        "display" : "LATANOPROSTA + TIMOLOL, MALEATO 50 MCG + 5 MG/ML SOLUÇÃO OFTÁLMICA 2,5 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0293981",
+        "display" : "MACROGOL + BICARBONATO DE SÓDIO + CLORETO DE SÓDIO E POTÁSSIO 13,1225 G + 0,1755 G + 0,0466 G PÓ 14 G"
+      },
+      {
+        "code" : "BR0293925",
+        "display" : "CLOBUTINOL, CLORIDRATO + DOXILAMINA 4 + 075 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0293892U0067",
+        "display" : "ACEBROFILINA 10 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0293892U0062",
+        "display" : "ACEBROFILINA 10 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR9278660",
+        "display" : "FERRO, QUELATO + ACIDO FOLICO + B12 300 + 5 + 0,015 MG COMP REV"
+      },
+      {
+        "code" : "BR0293880",
+        "display" : "TOLTERODINA, TARTARATO 2 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR436303",
+        "display" : "CODEINA + MELOXICAN + PARACETAMOL + RANITIDINA 40 + 7,5 + 500 + 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0293879",
+        "display" : "TOLTERODINA, TARTARATO 1 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR433940",
+        "display" : "MIKANIA GLOMERATA (GUACO) 60 MG/ML XPE (FR) 100 ML"
+      },
+      {
+        "code" : "BR0293839U0052",
+        "display" : "SAIS PARA REIDRATAÇÃO ORAL (NaCl 3,5G + Glicose 20G + Citrato Na 2,9G + KCl 1,5G) PÓ PARA SOLUÇÃO 8,5 G"
+      },
+      {
+        "code" : "BR392423",
+        "display" : "DEXPANTENOL 50 MG/G GEL 10 G"
+      },
+      {
+        "code" : "BR0293803",
+        "display" : "AMOXICILINA + SULBACTAM 875 MG + 125 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR390598-3",
+        "display" : "CONCENTRADO DE FATOR DE COAGULAÇÃO, FATOR VIII RECOMBINANTE 500 UI INJ (FR)"
+      },
+      {
+        "code" : "BR0293657",
+        "display" : "DOBUTAMINA, CLORIDRATO 1 MG/ML SOLUÇÃO INJETÁVEL 250 ML"
+      },
+      {
+        "code" : "BR390598-2",
+        "display" : "CONCENTRADO DE FATOR DE COAGULAÇÃO, FATOR VIII RECOMBINANTE 1000 UI INJ (FR)"
+      },
+      {
+        "code" : "BR0293327",
+        "display" : "BENJOIM 20% TINTURA 1 L"
+      },
+      {
+        "code" : "BR390598",
+        "display" : "CONCENTRADO DE FATOR DE COAGULAÇÃO, FATOR VIII RECOMBINANTE 250 UI INJ (FR)"
+      },
+      {
+        "code" : "BR0292791",
+        "display" : "VALSARTANA + HIDROCLOROTIAZIDA 160 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR337457-1",
+        "display" : "MOMETASONA, FUROATO 50 MCG SUSPENSÃO NASAL 60 DOSES"
+      },
+      {
+        "code" : "BR0292790",
+        "display" : "VALSARTANA + HIDROCLOROTIAZIDA 80 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR331223",
+        "display" : "TERIPARATIDA 250 MCG/ML SOLUÇÃO INJETÁVEL 3 ML"
+      },
+      {
+        "code" : "BR0292788",
+        "display" : "BENZIDAMINA, CLORIDRATO 500 MG PÓ SACHE 9,4 G"
+      },
+      {
+        "code" : "BR308805-1",
+        "display" : "CONCENTRADO DE FATOR IX 500UI MAIOR 50UI ALTA PUREZA INJ (FR)"
+      },
+      {
+        "code" : "BR0292778",
+        "display" : "METOPROLOL, TARTARATO + HIDROCLOROTIAZIDA 100 MG + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR308802-1",
+        "display" : "CONCENTRADO DE FATOR VIII 500 UI AE MAIOR 100 UI/MG INJ (FR)"
+      },
+      {
+        "code" : "BR0292770",
+        "display" : "EXTRATO DE ÓLEO INSAPONIFICÁVEL DE ABACATE (GLYCINE MAX) E SOJA (PERSEA GRATISSIMA) 100 + 200 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0609095U0109",
+        "display" : "FORMOTEROL + BUDESONIDA 6 + 200 MCG PÓ INAL (FR DE 60 DOSES) GRUPO 2"
+      },
+      {
+        "code" : "BR0292767",
+        "display" : "PROPRANOLOL, CLORIDRATO + HIDROCLOROTIAZIDA 80 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0493705",
+        "display" : "SILIMARINA 180 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292765",
+        "display" : "PROPRANOLOL, CLORIDRATO + HIDROCLOROTIAZIDA 40 + 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0489024",
+        "display" : "BACILLUS CEREUS 1.000.000 SOLUÇÃO ORAL 5 ML"
+      },
+      {
+        "code" : "BR0292764",
+        "display" : "PROPRANOLOL, CLORIDRATO + HIDROCLOROTIAZIDA 40 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0466430",
+        "display" : "PIRAZINAMIDA 150 MG COMPRIMIDO DISPERSÍVEL"
+      },
+      {
+        "code" : "BR0292732",
+        "display" : "FUROSEMIDA + CLORETO DE POTÁSSIO 40 + 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0464309",
+        "display" : "ÓXIDO DE ZINCO, ASSOCIADO À CÂNFORA E CLORETO DE BENZALCÔNIO 200 MG/G + 50MG/G + 5 MG/G POMADA 30 G"
+      },
+      {
+        "code" : "BR0292468",
+        "display" : "SUCCINATO DE SUMATRIPTANO 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0464306",
+        "display" : "CARBONATO DE CÁLCIO + COLECALCIFEROL 400 MG + 100 UI TABLETE"
+      },
+      {
+        "code" : "BR0292427U0018",
+        "display" : "DEXAMETASONA, FOSFATO DISSÓDICO 4 MG/ML SOLUÇÃO INJETÁVEL FRASCO-AMPOLA 2,5 ML"
+      },
+      {
+        "code" : "BR0462392U0042",
+        "display" : "EMPAGLIFLOZINA + LINAGLIPTINA 10 + 5 COMP REV"
+      },
+      {
+        "code" : "BR0461415",
+        "display" : "DEXLANSOPRAZOL 30 MG CAP LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0292427U0006",
+        "display" : "DEXAMETASONA, FOSFATO DISSÓDICO 4 MG/ML SOLUÇÃO INJETÁVEL AMPOLA 2,5 ML"
+      },
+      {
+        "code" : "BR0461236",
+        "display" : "ISONIAZIDA + RIFAMPICINA 50 + 75 MG COMPRIMIDO DISPERSÍVEL"
+      },
+      {
+        "code" : "BR0292419U0011",
+        "display" : "CLINDAMICINA, FOSFATO 150 MG/ML SOLUÇÃO INJETÁVEL 4 ML"
+      },
+      {
+        "code" : "BR0461235",
+        "display" : "RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA 75 + 50 + 150 MG COMPRIMIDO DISPERSÍVEL"
+      },
+      {
+        "code" : "BR0292419U0009",
+        "display" : "CLINDAMICINA, FOSFATO 150 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0459805",
+        "display" : "EDOXABANA 60 MG COMP REV"
+      },
+      {
+        "code" : "BR0292418-2",
+        "display" : "CIPROFLOXACINO, CLORIDRATO 2 MG/ML SOLUÇÃO INJETÁVEL 200 ML"
+      },
+      {
+        "code" : "BR0459790",
+        "display" : "BENRALIZUMABE 30 MG/ML SOL INJ (SER PREENC) 1 ML"
+      },
+      {
+        "code" : "BR0292418-1",
+        "display" : "CIPROFLOXACINO, CLORIDRATO 2 MG/ML SOLUÇÃO INJETÁVEL 100 ML"
+      },
+      {
+        "code" : "BR0458965",
+        "display" : "DOXEPINA 20 MG CÁPSULA MANIPULADO"
+      },
+      {
+        "code" : "BR0292416U0005",
+        "display" : "CALCITRIOL 1 MCG SOL INJ (AMP) GRUPO 2"
+      },
+      {
+        "code" : "BR0458725",
+        "display" : "SUPLEMENTO NUTRICIONAL, VITAMINA E, ÔMEGA 3, 6 E 9 CÁPSULA"
+      },
+      {
+        "code" : "BR0292416-1",
+        "display" : "CALCITRIOL 1 MCG SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0458670",
+        "display" : "INSULINA, GLARGINA ASSOCIADA À LIXISENATIDA 100 UI/ML + 33 MCG/ML SOLUÇÃO INJETÁVEL 3 ML"
+      },
+      {
+        "code" : "BR0292416",
+        "display" : "CALCITRIOL 1 MCG CÁPSULA"
+      },
+      {
+        "code" : "BR0458500",
+        "display" : "ALECTINIBE 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292409",
+        "display" : "BASILIXIMABE 20 MG PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0458280",
+        "display" : "OLAPARIBE 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292408U0005",
+        "display" : "SAL SÓDICO DE AZUL PATENTE V 25MG/ML AMP 1ML"
+      },
+      {
+        "code" : "BR0457885",
+        "display" : "MEPOLIZUMABE 100 MG/ML SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0292402",
+        "display" : "AMINOFILINA 24 MG/ML SOLUÇÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0457213U0577",
+        "display" : "ESTRADIOL 1 MG/G GEL 0,5 G"
+      },
+      {
+        "code" : "BR0292401U0041",
+        "display" : "ALFACALCIDOL 1 MCG CAP GRUPO 2"
+      },
+      {
+        "code" : "BR0457206",
+        "display" : "APALUTAMIDA 60 MG COMP REV"
+      },
+      {
+        "code" : "BR0292401",
+        "display" : "ALFACALCIDOL 1 MCG CÁPSULA"
+      },
+      {
+        "code" : "BR0456529",
+        "display" : "TETRABENAZINA 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292400U0041",
+        "display" : "ALFACALCIDOL 0,25 MCG CAP GRUPO 2"
+      },
+      {
+        "code" : "BR0455395",
+        "display" : "USTEQUINUMABE 5 MG/ML SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0292399U0297",
+        "display" : "FITOMENADIONA 10 MG/ML SOLUÇÃO INJETÁVEL 0,2 ML IM"
+      },
+      {
+        "code" : "BR0455337",
+        "display" : "DUPILUMABE 150 MG/ML SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0292399-2",
+        "display" : "FITOMENADIONA 10 MG/ML SOLUÇÃO INJETÁVEL 1 ML IV"
+      },
+      {
+        "code" : "BR0454936U0067",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 50 MG/ML SOLUÇÃO ORAL ISENTO DE THC 120 ML"
+      },
+      {
+        "code" : "BR0292399-1",
+        "display" : "FITOMENADIONA 10 MG/ML SOLUÇÃO INJETÁVEL 1 ML IM"
+      },
+      {
+        "code" : "BR0454935U0067",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 8,33 MG/ML SOLUÇÃO ORAL ISENTO DE THC 120 ML"
+      },
+      {
+        "code" : "BR0292399",
+        "display" : "FITOMENADIONA 10 MG/ML SOLUÇÃO INJETÁVEL 0,2 ML IV"
+      },
+      {
+        "code" : "BR0454934U0041",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292382-1",
+        "display" : "TRAMADOL, CLORIDRATO 50 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0454933U0288",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO 300 MG/ML SOLUÇÃO EM DOSADOR ORAL 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0454932U0288",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO 180 MG/ML SOLUÇÃO EM DOSADOR ORAL 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292382",
+        "display" : "TRAMADOL, CLORIDRATO 50 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0454126U0124",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 500 MG CREME 60 G ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292380U0075",
+        "display" : "TRAMADOL, CLORIDRATO 100 MG/ML SOLUÇÃO ORAL 15 ML"
+      },
+      {
+        "code" : "BR0454125U0124",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 1000 MG CREME 60 G ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292380U0063",
+        "display" : "TRAMADOL, CLORIDRATO 100 MG/ML SOLUÇÃO ORAL 10 ML"
+      },
+      {
+        "code" : "BR0453967U0110",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 100 MG/ML SOLUÇÃO ORAL 60 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292380-1",
+        "display" : "TRAMADOL, CLORIDRATO 100MG/2ML SOL INJ (AMP) 2ML"
+      },
+      {
+        "code" : "BR0453967U0097",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 100 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0292373U0596",
+        "display" : "TOXINA BOTULINICA TIPO A 200 UI PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0453817U0062",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 60 MG/ML SOLUÇÃO ORAL 100 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292373U0118",
+        "display" : "TOXINA BOTULINICA TIPO A 500 U PÓ LIOF INJ (FR-AMP) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0453816U0097",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 33,33 MG/ML SOLUÇÃO ORAL 30 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292373",
+        "display" : "TOXINA BOTULINICA TIPO A 500 UI PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0453501U0009",
+        "display" : "NITROPRUSSETO DE SÓDIO 25 MG/ML SOLUÇÃO 2 ML"
+      },
+      {
+        "code" : "BR0292372U0118",
+        "display" : "TOXINA BOTULINICA TIPO A 100 U PÓ LIOF INJ (FR-AMP) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0453062",
+        "display" : "CITALOPRAM 10 MG CÁPSULA FÓRMULA ESPECIALMENTE MANIPULADA"
+      },
+      {
+        "code" : "BR0292372",
+        "display" : "TOXINA BOTULINICA TIPO A 100 UI SOLUÇÃO INJETÁVEL ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0452935U0110",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 200 MG/ML SOLUÇÃO ORAL 60 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292345U0110",
+        "display" : "SULFATO FERROSO (25MG/ML DE FERRO ELEMENTAR) 125 MG/ML SOLUÇÃO ORAL 60 ML"
+      },
+      {
+        "code" : "BR0452627",
+        "display" : "PALBOCICLIBE 75 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0292345U0097",
+        "display" : "SULFATO FERROSO (25MG/ML DE FERRO ELEMENTAR) 125 MG/ML SOLUÇÃO ORAL 30 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0452623",
+        "display" : "METFORMINA, CLORIDRATO + ALOGLIPTINA 1000 + 12,5 MG COMP REV"
+      },
+      {
+        "code" : "BR0292345U0062",
+        "display" : "SULFATO FERROSO (25MG/ML DE FERRO ELEMENTAR) 125 MG/ML SOLUÇÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0452616",
+        "display" : "INSULINA, DEGLUDECA ASSOCIADA À LIRAGLUTIDA 100 UI/ML + 3,5 MG/ML SOLUÇÃO INJETÁVEL 3 ML"
+      },
+      {
+        "code" : "BR0452607U0118",
+        "display" : "GLATIRAMER 40 MG PÓ LIOF INJ (FR-AMP OU SER PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0292344U0042",
+        "display" : "SULFATO FERROSO (40MG DE FERRO ELEMENTAR) COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0452496",
+        "display" : "DABRAFENIBE 75 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0452484",
+        "display" : "ÁCIDOS GRAXOS ESSENCIAIS, COMPOSTO DOS ÁCIDOS CAPRÍLICO, CÁPRICO, LÁURICO, ÓLEO DE GIRASSOL E ÓLEO DE CANOLA , PETROLATO E VITAMINA \"E\" LOÇÃO CREMOSA"
+      },
+      {
+        "code" : "BR0452476",
+        "display" : "GEL A BASE DE SULFATO DE COBRE, DERIVADOS DE COCO E GLICERINA GEL 500 ML"
+      },
+      {
+        "code" : "BR0452409",
+        "display" : "MALEATO DE DEXCLORFENIRAMINA + SULFATO DE PSEUDOEFEDRINA + GUAIFENESINA 0,4 + 4 + 20 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0452302U0023",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 50 MG/ML SOLUÇÃO ORAL 120 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0452266U0023",
+        "display" : "SALICILATO DE METILA, ASSOCIADO À CÂNFORA, MENTOL E ARNICA 2% + 5% + 2% + 10% ESPECIALMENTE MANIPULADO GEL 30 G"
+      },
+      {
+        "code" : "BR0452264U0251",
+        "display" : "ÓXIDO DE ZINCO, ASSOCIADO À GELATINA E GLICEROL 25% + 25% + 25% ESPECIALMENTE MANIPULADO PASTA 1000 G"
+      },
+      {
+        "code" : "BR0452264U0171",
+        "display" : "ÓXIDO DE ZINCO, ASSOCIADO À GELATINA E GLICEROL 25% + 25% + 25% ESPECIALMENTE MANIPULADO PASTA 500 G"
+      },
+      {
+        "code" : "BR0452264",
+        "display" : "ÓXIDO DE ZINCO, ASSOCIADO À GELATINA E GLICEROL 25 + 25 + 25 % SOLUÇÃO 100 G"
+      },
+      {
+        "code" : "BR0451722",
+        "display" : "AMINOÁCIDOS, ARG, GLN, SER, THR, TRP,VIT: B12A 10MG+6MG+4MG+1MG+4MG+48,7 MCG PÓ PARA SOLUÇÃO"
+      },
+      {
+        "code" : "BR0451696",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, ÓLEO DE CÂNFORA E AMÊNDOAS E EXTRATO HERBAL POMADA 37 G ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0451695U0288",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO 380 MG/ML SOLUÇÃO 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0451691U0582",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO E FILTRADO, ISENTO DE THC 8,47 MG/ML SOLUÇÃO 118 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0451687U0582",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO E FILTRADO 8,47 MG/ML SOLUÇÃO 118 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0451686U0582",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO 8,47 MG/ML SOLUÇÃO 118 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0451611",
+        "display" : "GLYCINE MAX (ISOFLAVONA DE SOJA) 40 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451610",
+        "display" : "HYPERICUM PERFORATUM L. 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451608",
+        "display" : "HAMAMELIS + CASTANHA DA ÍNDIA + RUTINA 150MG + 150MG + 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451600U0023",
+        "display" : "PAPAÍNA 5 % GEL 30 G"
+      },
+      {
+        "code" : "BR0451599U0023",
+        "display" : "PAPAÍNA 4 % GEL 30 G"
+      },
+      {
+        "code" : "BR0451598U0023",
+        "display" : "PAPAÍNA 3 % GEL 30 G"
+      },
+      {
+        "code" : "BR0451597U0023",
+        "display" : "ALOE VERA (BABOSA) 10 % GEL 30 G"
+      },
+      {
+        "code" : "BR0451597",
+        "display" : "ALOE VERA (BABOSA) 25 % GEL 10 G"
+      },
+      {
+        "code" : "BR0451596U0042",
+        "display" : "ARNICA MONTANA D2 + ASSOCIAÇÃO 301,5 MG COMPRIMIDO SUBLINGUAL"
+      },
+      {
+        "code" : "BR0451596U0023",
+        "display" : "ARNICA 10 % GEL 30 G"
+      },
+      {
+        "code" : "BR0451589",
+        "display" : "FERRO QUELATO GLICINATO 60 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451583",
+        "display" : "DEFLAZACORTE 20 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451582",
+        "display" : "DEFLAZACORTE 12 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0451580",
+        "display" : "URÉIA + LACTATO DE AMÔNIA + CAMOMILA 10% + 6% + 10 % CREME 50 G"
+      },
+      {
+        "code" : "BR0451578",
+        "display" : "RHAMNUS PURSHIANA (CÁSCARA SAGRADA) 400 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292343",
+        "display" : "SULFADIAZINA DE PRATA 30 G BISNAGA"
+      },
+      {
+        "code" : "BR0451575",
+        "display" : "ÁCIDO ASCÓRBICO + PARACETAMOL + CAFEÍNA 240MG + 250 MG + 15 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292331-2",
+        "display" : "SALBUTAMOL, SULFATO 0,4 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0451170U0288",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 170 MG/ML SOLUÇÃO ORAL 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292331-1",
+        "display" : "SALBUTAMOL, SULFATO 0,4 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0451170U0284",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 170 MG/ML SOLUÇÃO ORAL 3 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292279",
+        "display" : "PERGOLIDA, MESILATO 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0451163U0041",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL , CÂNHAMO DESCARBOXILADO E FILTRADO, CÚRCUMA E SALGUEIRO, 25 MG CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292278",
+        "display" : "PERGOLIDA, MESILATO 0,25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0451162U0041",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL, CÂNHAMO DESCARBOXILADO, CÚRCUMA E SALGUEIRO, 25 MG CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292264U0041",
+        "display" : "MORFINA 60 MG CAP LIBERAÇÃO CONTROLADA GRUPO 2"
+      },
+      {
+        "code" : "BR0451161U0041",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL , CÂNHAMO, CÚRCUMA E SALGUEIRO, 25 MG MG CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292264",
+        "display" : "MORFINA, SULFATO 60 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0450929U1687",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 100 MG/ML SOLUÇÃO ORAL 15 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292263U0041",
+        "display" : "MORFINA 30 MG CAP LIBERAÇÃO CONTROLADA GRUPO 2"
+      },
+      {
+        "code" : "BR0450929U0284",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 100 MG/ML SOLUÇÃO ORAL 3 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292263",
+        "display" : "MORFINA, SULFATO 30 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0450888",
+        "display" : "OCRELIZUMABE 300/10 MG/ML SOLUÇÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0292262U0041",
+        "display" : "MORFINA 100 MG CAP LIBERAÇÃO CONTROLADA GRUPO 2"
+      },
+      {
+        "code" : "BR0450872",
+        "display" : "MULTIVITAMINAS, VITS: A, B1, B2, B3, B5, B6, B12, C, D, E, H, K, MINERAIS: NA, SE, ZN, ÁCIDO FÓLICO, COENZIMA Q10 CÁPSULA"
+      },
+      {
+        "code" : "BR0292262-2",
+        "display" : "MORFINA, SULFATO 100 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0450561",
+        "display" : "ÁCIDO ASCÓRBICO, ASPARTATO DE ARGININA 1G + 1 G COMPRIMIDO"
+      },
+      {
+        "code" : "BR0450511",
+        "display" : "CARBONATO DE CÁLCIO + VIT D, A, B6, E 625 MG + 200 UI COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292262-1",
+        "display" : "MORFINA, SULFATO 100 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0450166",
+        "display" : "LURASIDONA 40 MG COMP REV"
+      },
+      {
+        "code" : "BR0292256E",
+        "display" : "MOLGRAMOSTIM 300 MCG PÓ LIOF INJ (FR) GRUPO 1.B"
+      },
+      {
+        "code" : "BR0450164",
+        "display" : "MELATONINA ESPECIALMENTE MANIPULADO 800 MCG/ML XAROPE 150 ML"
+      },
+      {
+        "code" : "BR0292249U0391",
+        "display" : "METOTREXATO 25 MG/ML SOL INJ (AMP) 2 ML GRUPO 1.A"
+      },
+      {
+        "code" : "BR0450073",
+        "display" : "DEXLANSOPRAZOL 60 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0292249-2",
+        "display" : "METOTREXATO 25 MG/ML SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0449866",
+        "display" : "ATEZOLIZUMABE 60 MG/ML SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0292249-1E",
+        "display" : "METOTREXATO 25 MG/ML SOL INJ (AMP) 20 ML GRUPO 2"
+      },
+      {
+        "code" : "BR0449803",
+        "display" : "RITONAVIR 100 MG PÓ PARA SUSPENSÃO 30 ENVELOPES"
+      },
+      {
+        "code" : "BR0292249-1",
+        "display" : "METOTREXATO 25 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0449719",
+        "display" : "ÁCIDO FÓLICO + VIT, B1,B2,B3,B5,B6,B12,C,D,E,H,K MIN: CA,CO,CR,CU,FE,I,MG,MN,MO,SE,ZN CÁPSULA"
+      },
+      {
+        "code" : "BR0292242U0052",
+        "display" : "MESALAZINA 3 G ENEMA 100 ML GRUPO 2"
+      },
+      {
+        "code" : "BR0449681U0042",
+        "display" : "COLECALCIFEROL 10.000 UI COMP REV"
+      },
+      {
+        "code" : "BR0292242",
+        "display" : "MESALAZINA 3 G ENEMA 100 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0449650U0110",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 50 MG/ML SOLUÇÃO ORAL 60 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292241",
+        "display" : "MESALAZINA 2 G PÓ"
+      },
+      {
+        "code" : "BR0449650U0062",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 50 MG/ML SOLUÇÃO ORAL 100 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292240U0136",
+        "display" : "MESALAZINA 1000 MG SUPOS GRUPO 2"
+      },
+      {
+        "code" : "BR0449569U0042",
+        "display" : "SOFOSBUVIR + VELPATASVIR 400 + 100 MG COMPRIMIDO GRUPO 1.A"
+      },
+      {
+        "code" : "BR0292240",
+        "display" : "MESALAZINA 1000 MG SUPOSITÓRIO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0449569",
+        "display" : "VELPATASVIR + SOFOSBUVIR 100 + 400 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0449559U0042",
+        "display" : "ELBASVIR + GRAZOPREVIR 50 + 100 MG COMPRIMIDO GRUPO 1.A"
+      },
+      {
+        "code" : "BR0449559",
+        "display" : "ELBASVIR + GRAZOPREVIR 50 + 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292239U0136",
+        "display" : "MESALAZINA 250 MG SUPOS GRUPO 2"
+      },
+      {
+        "code" : "BR0449556U0042",
+        "display" : "GLECAPREVIR + PIBRENTASVIR 100 + 40 MG COMPRIMIDO GRUPO 1.A"
+      },
+      {
+        "code" : "BR0292239",
+        "display" : "MESALAZINA 250 MG SUPOSITÓRIO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0449556",
+        "display" : "GLECAPREVIR + PIBRENTASVIR 100 + 40 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292238U0042",
+        "display" : "MESALAZINA 800 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0449425",
+        "display" : "BENZOATO DE SÓDIO, CMC, SORBITOL, GLICEROL E XAROPE SIMPLES 2% + 2,5% + 10% + 10% + 10 % SPRAY ORAL FORMULA ESPECIALMENTE MANIPULADA 100 ML"
+      },
+      {
+        "code" : "BR0292238",
+        "display" : "MESALAZINA 800 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0449401",
+        "display" : "SUFENTANILA, CITRATO 5 MCG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0292237U0042",
+        "display" : "MESALAZINA 400 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0449186",
+        "display" : "CETOCONAZOL + BETAMETASONA + NEOMICINA 20 + 0,5 + 1,5 MG POMADA"
+      },
+      {
+        "code" : "BR0292237",
+        "display" : "MESALAZINA 400 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292236U0042",
+        "display" : "MESALAZINA 500 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0292236",
+        "display" : "MESALAZINA 500 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0449181",
+        "display" : "MULTIVITAMINAS, VITS: A, B1, B2, B3, B5, B6, B12, C, D, MINERAIS: FE, MN, ZN, ÁCIDO FÓLICO COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292228U0005",
+        "display" : "MEDROXIPROGESTERONA, ACETATO 150 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0449017",
+        "display" : "ALCAFTADINA 2,5 MG/ML SOLUÇÃO OFTÁLMICA 3 ML"
+      },
+      {
+        "code" : "BR0292227U0005",
+        "display" : "MEDROXIPROGESTERONA, ACETATO 50 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0448838U0067",
+        "display" : "ACEBROFILINA 5 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0292208U0105",
+        "display" : "RIFAMPICINA 20 MG/ML SUSPENSÃO ORAL 50 ML"
+      },
+      {
+        "code" : "BR0448838U0062",
+        "display" : "ACEBROFILINA 5 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0292208-3",
+        "display" : "RIFAMPICINA 20 MG/ML SUSPENSÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0448828",
+        "display" : "CICLOPIROX OLAMINA, ASSOCIADO AO ZINCO 1,5% + 1 % XAMPU"
+      },
+      {
+        "code" : "BR0292208-2",
+        "display" : "RIFAMPICINA 20 MG/ML SUSPENSÃO ORAL 60 ML"
+      },
+      {
+        "code" : "BR0448689",
+        "display" : "NEMOGESTROL, ACETATO + ESTRADIOL 2,5 + 1,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292205U0062",
+        "display" : "ISONIAZIDA 20 MG/ML SUSPENSÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0448649U0041",
+        "display" : "NILOTINIBE 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292205U0042",
+        "display" : "ISONIAZIDA 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0448601",
+        "display" : "ÁCIDO FÓLICO + FERRO QUELATO GLICINATO (30 MG FERRO ELEMENTAR) 5 + 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0292196U0005",
+        "display" : "HALOPERIDOL 5 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0448319U0042",
+        "display" : "NIFURTIMOX 120 MG COMP ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0292195U0097",
+        "display" : "HALOPERIDOL 2 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0448254",
+        "display" : "MULTIVITAMINAS, VITS: A, B1, B12, C, D, E, MINERAIS: CA, CU, FE, SE, ZN, ÁCIDO FÓLICO COMPRIMIDO MASTIGÁVEL"
+      },
+      {
+        "code" : "BR0292195U0086",
+        "display" : "HALOPERIDOL 2 MG/ML SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0448171U0042",
+        "display" : "LACTOBACILLUS REUTERI 100 MILHÕES UFC COMPRIMIDO MASTIGÁVEL"
+      },
+      {
+        "code" : "BR0292195U0063",
+        "display" : "HALOPERIDOL 2 MG/ML SOLUÇÃO ORAL 10 ML"
+      },
+      {
+        "code" : "BR0448159U0042",
+        "display" : "ALPRAZOLAM LIBERAÇÃO LENTA 1 MG COMP"
+      },
+      {
+        "code" : "BR0292195-4",
+        "display" : "HALOPERIDOL 2 MG/ML SOLUÇÃO ORAL 15 ML"
+      },
+      {
+        "code" : "BR0448121",
+        "display" : "ANAMIRTA COCCULUS D4 + ASSOCIAÇÃO 210 + 30 + 30 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292194U0005",
+        "display" : "HALOPERIDOL, SAL DECANOATO ,50MG/ML SOLUÇÃO INJETÁVEL 1 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0448031",
+        "display" : "MIRTAZAPINA 30 MG COMPRIMIDO ORODISPERSÍVEL"
+      },
+      {
+        "code" : "BR0292155",
+        "display" : "TRIANCINOLONA, ACETONIDA 55 MCG/DOSE AEROSSOL 15 ML"
+      },
+      {
+        "code" : "BR0447888",
+        "display" : "MULTIVITAMINAS E MINERAIS: VITAMINAS: B2, C, E, MINERAIS: COBRE, SELÊNIO, ZINCO COM BETACAROTENO 300 MG+100 UI+10.000 UI+25 MG+2 MG+50 MG+0,1 MG COMP"
+      },
+      {
+        "code" : "BR0292044",
+        "display" : "SACCHAROMYCES CEREVISIAE 100 MILHÕES/ ML SUSPENSÃO ORAL 5 ML"
+      },
+      {
+        "code" : "BR0447820U0041",
+        "display" : "GLYCINE MAX (ISOFLAVONA DE SOJA) 500 MG CAP"
+      },
+      {
+        "code" : "BR0292043",
+        "display" : "SACCHAROMYCES CEREVISIAE 50 MILHÕES/ ML SUSPENSÃO ORAL 5 ML"
+      },
+      {
+        "code" : "BR0447820",
+        "display" : "GLYCINE MAX (ISOFLAVONA DE SOJA) 450 MG COMP REV"
+      },
+      {
+        "code" : "BR0292030",
+        "display" : "TIBOLONA 2,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0447078",
+        "display" : "EMPAGLIFLOZINA + LINAGLIPTINA 25 + 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0292029",
+        "display" : "TIBOLONA 1,25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0446772",
+        "display" : "PALBOCICLIBE 125 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0291951",
+        "display" : "NITRATO DE PRATA 10 MG/ML SOLUÇÃO OFTÁLMICA 3 ML"
+      },
+      {
+        "code" : "BR0446631",
+        "display" : "ISONIAZIDA + RIFAMPICINA 150 + 300 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0291802",
+        "display" : "DIACEREÍNA 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0446467U0229",
+        "display" : "PALIVIZUMABE 100 MG/ML SOL INJ (FR-AMP) 0,5 ML"
+      },
+      {
+        "code" : "BR0446467U0005",
+        "display" : "PALIVIZUMABE 100 MG/ML SOL INJ (FR-AMP) 1 ML"
+      },
+      {
+        "code" : "BR0291772",
+        "display" : "ESCITALOPRAM, OXALATO 15 mg COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445954",
+        "display" : "ALOGLIPTINA + PIOGLITAZONA 25 + 30 MG COMP REV"
+      },
+      {
+        "code" : "BR0291771",
+        "display" : "ESCITALOPRAM, OXALATO 20 mg COMPRIMIDO"
+      },
+      {
+        "code" : "BR0291770",
+        "display" : "ESCITALOPRAM, OXALATO 10 mg COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445952",
+        "display" : "ALOGLIPTINA + PIOGLITAZONA 25 + 15 MG COMP REV"
+      },
+      {
+        "code" : "BR0291702",
+        "display" : "GABAPENTINA 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445704",
+        "display" : "MAGNÉSIO, CLORETO 500 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0445513U0097",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 500 MG SOLUÇÃO ORAL 30 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0291700",
+        "display" : "GABAPENTINA 600 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445432",
+        "display" : "VALSARTANA, ASSOCIADO AO SACUBITRIL 103 MG + 97 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0291692",
+        "display" : "REPAGLINIDA 2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445431U0042",
+        "display" : "VALSARTANA, ASSOCIADO AO SACUBITRIL 26 MG + 24 MG COMP"
+      },
+      {
+        "code" : "BR0291691",
+        "display" : "REPAGLINIDA 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445431U0041",
+        "display" : "VALSARTANA, ASSOCIADO AO SACUBITRIL 26 MG + 24 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0291690",
+        "display" : "REPAGLINIDA 0,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445430",
+        "display" : "VALSARTANA, ASSOCIADO AO SACUBITRIL 51 MG + 49 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0291559",
+        "display" : "PIRACETAM + DIIDROERGOCRISTINA MESILATO 1 + 400 mg COMPRIMIDO"
+      },
+      {
+        "code" : "BR0445035",
+        "display" : "MAGNÉSIO, SULFATO 20 % SOLUÇÃO ORAL 500 ML"
+      },
+      {
+        "code" : "BR0291549U0042",
+        "display" : "ATORVASTATINA 80 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0444963U0582",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 8,47 MG/ML SOLUÇÃO 118 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0291549",
+        "display" : "ATORVASTATINA CÁLCICA 80 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0444962",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 21,19 MG/ML SOLUÇÃO ORAL 236 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0291231U0118",
+        "display" : "ESTREPTOMICINA, SULFATO 1000 MG PÓ PARA SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0444809",
+        "display" : "TRAMETINIBE 0,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0291231",
+        "display" : "ESTREPTOMICINA, SULFATO 1 G SUSPENSÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0444570U0041",
+        "display" : "FUMARATO DE FORMOTEROL DI-HIDRATADO + PROPIONATO DE FLUTICASONA 12 MCG + 250 MCG CÁPSULA"
+      },
+      {
+        "code" : "BR0291174",
+        "display" : "GENTAMICINA, SULFATO 5 MG/G POMADA 3,5 G"
+      },
+      {
+        "code" : "BR0444167U0120",
+        "display" : "FLURBIPROFENO 8,75 MG PASTILHA"
+      },
+      {
+        "code" : "BR0291019-1",
+        "display" : "HIALURONIDASE + LIDOCAÍNA + NEOMICINA SULFATO 100 UTR + 50 + 5 MG/ML SOLUÇÃO OTOLÓGICA 8 ML"
+      },
+      {
+        "code" : "BR0443478U0490",
+        "display" : "AMORFO, ALANTOÍNA, GLICERINA E CARBOXIMETILCELULOSE BISNAGA 85G"
+      },
+      {
+        "code" : "BR0290992",
+        "display" : "HIALURONIDASE 2000 UTR PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0443476U0041",
+        "display" : "HIDROSMINA 200MG CÁPSULA"
+      },
+      {
+        "code" : "BR0290947U0042",
+        "display" : "AMINOÁCIDOS (LISINA 75MG, TREONINA 53MG, TRIPTOFANO 23MG, HISTIDINA 38MG, TIROSINA 30MG) + ANÁLOGOS (ISOLEUCINA 67MG, LEUCINA 101MG, VALINA 85MG, ALFA-HIDROXI-ANÁLOGO DA METIONINA 59MG) COMP REV"
+      },
+      {
+        "code" : "BR0443375U0041",
+        "display" : "PASSIFLORA INCARNATA 500MG CÁPSULA"
+      },
+      {
+        "code" : "BR0290947",
+        "display" : "AMINOÁCIDOS (LISINA 75MG, TREONINA 53MG, TRIPTOFANO 23MG, HISTIDINA 38MG, TIROSINA 30MG) + ANÁLOGOS (ISOLEUCINA 67MG, LEUCINA 101MG, VALINA 85MG, ALFA-HIDROXI-ANÁLOGO DA METIONINA 59MG) TABLETE"
+      },
+      {
+        "code" : "BR0443374U0041",
+        "display" : "AESCULUS HIPPOCASTANUM L. (CASTANHA DA ÍNDIA) 500MG CÁPSULA"
+      },
+      {
+        "code" : "BR0290891U0350",
+        "display" : "OXAMNIQUINA 50 MG/ML SUSPENSÃO ORAL 12 ML"
+      },
+      {
+        "code" : "BR0443373U0409",
+        "display" : "CALENDULA OFFICINALIS L 10% GEL 120G"
+      },
+      {
+        "code" : "BR0290675",
+        "display" : "EBASTINA + PSEUDOEFEDRINA 10 + 120 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0443373U0124",
+        "display" : "CALENDULA OFFICINALIS L 10% GEL 60G"
+      },
+      {
+        "code" : "BR0290674",
+        "display" : "EBASTINA 1 MG/ML SOLUÇÃO ORAL 60 ML"
+      },
+      {
+        "code" : "BR0443373U0023",
+        "display" : "CALENDULA OFFICINALIS L 10 % GEL 30 G"
+      },
+      {
+        "code" : "BR0290673",
+        "display" : "EBASTINA 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0443280U0042",
+        "display" : "MAYTENUS ILICIFOLIA (ESPINHEIRA SANTA) 350MG COMP"
+      },
+      {
+        "code" : "BR0290168",
+        "display" : "SUXAMETÔNIO, CLORETO 500 MG PÓ PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0443278",
+        "display" : "KARITÉ, ILIPÉ E MANGA SABONETE 150G"
+      },
+      {
+        "code" : "BR0290058U0135",
+        "display" : "ADALIMUMABE 40 MG/ML SOL INJ (SER PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0443209",
+        "display" : "SOMATROPINA 5,83 MG/ML SOLUÇÃO INJETÁVEL 1,03 ML"
+      },
+      {
+        "code" : "BR0290058U0118",
+        "display" : "ADALIMUMABE 40 MG/ML SOL INJ (FR-AMP) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0443167U0042",
+        "display" : "MAYTENUS ILICIFOLIA (ESPINHEIRA SANTA) 450MG COMP"
+      },
+      {
+        "code" : "BR0290058",
+        "display" : "ADALIMUMABE 40 MG/ML SOLUÇÃO INJETÁVEL ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0443166U0042",
+        "display" : "MAYTENUS ILICIFOLIA (ESPINHEIRA SANTA) 400MG COMP"
+      },
+      {
+        "code" : "BR0288785",
+        "display" : "LEVOBUPIVACAINA, CLORIDRATO 0,75 % SOLUÇÃO INJETÁVEL 20"
+      },
+      {
+        "code" : "BR0443165U0042",
+        "display" : "HARPAGOPHYTUM PROCUBENS (GARRA DO DIABO) 450MG COMP"
+      },
+      {
+        "code" : "BR0288641U0042",
+        "display" : "MICOFENOLATO DE SÓDIO 360 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0443164U0042",
+        "display" : "GLYCINE MAX (ISOFLAVONA DE SOJA) 60MG COMP"
+      },
+      {
+        "code" : "BR0288641",
+        "display" : "MICOFENOLATO DE SÓDIO 360 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0442925U0042",
+        "display" : "levonorgestrel + etinilestradiol + cloridrato de piridoxina 0,05+0,03+10/0,075+0,04+10/0,125+0,03,+10/10MG COMP"
+      },
+      {
+        "code" : "BR0288640U0042",
+        "display" : "MICOFENOLATO DE SÓDIO 180 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0442877",
+        "display" : "OLAPARIBE 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0288640",
+        "display" : "MICOFENOLATO DE SÓDIO 180 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0442819",
+        "display" : "RHODIOLA ROSEA 400 MG COMP REV"
+      },
+      {
+        "code" : "BR0288300-3",
+        "display" : "MOXIFLOXACINO, CLORIDRATO 5 MG/ML SOLUÇÃO OFTÁLMICA 10 ML"
+      },
+      {
+        "code" : "BR0442724",
+        "display" : "MESILATO DE OSIMERTINIBE 40 MG COMP REV"
+      },
+      {
+        "code" : "BR0288300-2",
+        "display" : "MOXIFLOXACINO, CLORIDRATO 5 MG/ML SOLUÇÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0442723U0042",
+        "display" : "MESILATO DE OSIMERTINIBE 80 MG COMP REV"
+      },
+      {
+        "code" : "BR0288300-1",
+        "display" : "MOXIFLOXACINO, CLORIDRATO 5 MG/ML SOLUÇÃO OFTÁLMICA 3 ML"
+      },
+      {
+        "code" : "BR0442717",
+        "display" : "LIDOCAÍNA, FLUOCORTOLONA 1MG/G + 2MG/G CREME"
+      },
+      {
+        "code" : "BR0288275-2",
+        "display" : "TINIDAZOL + MICONAZOL, NITRATO 30 MG/G 20MG/G BISNAGA 40G"
+      },
+      {
+        "code" : "BR0442701U0118",
+        "display" : "CEFTRIAXONA SÓDICA 1 G PÓ PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0288275-1",
+        "display" : "TINIDAZOL + MICONAZOL, NITRATO 30 + 20 MG/G CREME VAGINAL 80 G"
+      },
+      {
+        "code" : "BR0442585U0324",
+        "display" : "RANITIDINA, CLORIDRATO 40 MG/ML SOLUÇÃO ORAL 45 ML"
+      },
+      {
+        "code" : "BR0288275",
+        "display" : "TINIDAZOL + MICONAZOL, NITRATO 30 + 20 MG/G CREME VAGINAL 45 G"
+      },
+      {
+        "code" : "BR0442521",
+        "display" : "DULAGLUTIDA 1,5MG/ML INJ (FR) 0,5ML"
+      },
+      {
+        "code" : "BR0288002",
+        "display" : "CICLOPIROX OLAMINA 10 MG/G CREME 20 G"
+      },
+      {
+        "code" : "BR0442230",
+        "display" : "VORTIOXETINA, BROMIDATO 5 MG COMP REV"
+      },
+      {
+        "code" : "BR0288001",
+        "display" : "CICLOPIROX 80 MG/ML ESMALTE 6 G"
+      },
+      {
+        "code" : "BR0442113",
+        "display" : "SERENOA REPENS 160G160MG CÁPSULA"
+      },
+      {
+        "code" : "BR0287824",
+        "display" : "TIAMAZOL 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0441769",
+        "display" : "SITAGLIPTINA, FOSFATO + METFORMINA, CLORIDRATO 100 + 1000 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0287687",
+        "display" : "EFEDRINA, SULFATO 50 mg/ml SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0441621U0042",
+        "display" : "METFORMINA CLORIDRATO ASSOCIADA A DAPAGLIFLOZINA 1000 MG + 5 MG COMP"
+      },
+      {
+        "code" : "BR0287559U0321",
+        "display" : "ESTAVUDINA 1 MG/ML PÓ PARA SOLUÇÃO 210 ML"
+      },
+      {
+        "code" : "BR0441461U0106",
+        "display" : "DARATUMUMABE 20 MG/ML SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0287559-1",
+        "display" : "ESTAVUDINA 1 MG/ML PÓ PARA SOLUÇÃO 200 ML"
+      },
+      {
+        "code" : "BR0441461U0086",
+        "display" : "DARATUMUMABE 20 MG/ML SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0287533",
+        "display" : "DESONIDA 0,05 % CREME 60 G"
+      },
+      {
+        "code" : "BR0440994",
+        "display" : "DONEPEZILA, CLORIDRATO + MEMANTINA, CLORIDRATO 10 + 15 MG COMP REV"
+      },
+      {
+        "code" : "BR0287531",
+        "display" : "DESONIDA 0,05 % CREME 30 G"
+      },
+      {
+        "code" : "BR0440878U0118",
+        "display" : "COMPLEXO PROTROMBÍNICO PARCIALMENTE ATIVADO 2500UI INJ (FR)"
+      },
+      {
+        "code" : "BR0440867U0067",
+        "display" : "CARBAMAZEPINA 20 MG/ML SUSPENSÃO ORAL 120 ML"
+      },
+      {
+        "code" : "BR0287529",
+        "display" : "DESLORATADINA 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0440866U0062",
+        "display" : "CLARITROMICINA 50 MG/ML PÓ PARA SUSPENSÃO 100 ML"
+      },
+      {
+        "code" : "BR0287481U0140",
+        "display" : "NICOTINA 2 MG GOMA DE MASCAR"
+      },
+      {
+        "code" : "BR0440865U0112",
+        "display" : "LIDOCAÍNA, CLORIDRATO 100 MG/ML SOLUÇÃO TÓPICA 70 ML"
+      },
+      {
+        "code" : "BR0287473",
+        "display" : "LOSARTANA POTÁSSICA 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0440864U0041",
+        "display" : "CLARITROMICINA 500 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0287471",
+        "display" : "LOSARTANA POTÁSSICA + HIDROCLOROTIAZIDA 100 MG + 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0440863U0074",
+        "display" : "DEXCLORFENIRAMINA, MALEATO 0,4 MG/ML SOLUÇÃO ORAL 150 ML"
+      },
+      {
+        "code" : "BR0287469-1",
+        "display" : "OXICONAZOL, NITRATO 10 MG/ML SOLUÇÃO TÓPICA 20 ML"
+      },
+      {
+        "code" : "BR0440862U0086",
+        "display" : "ALBENDAZOL 40 MG/ML SUSPENSÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0287469",
+        "display" : "OXICONAZOL, NITRATO 10 MG/G CREME 20 G"
+      },
+      {
+        "code" : "BR0440665U0106",
+        "display" : "TRASTUZUMABE 120 MG/ML SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0287253",
+        "display" : "NICOTINA 4 MG PASTILHA"
+      },
+      {
+        "code" : "BR0440604",
+        "display" : "MULTIVITAMINAS (A, B1, B2, B6, B12, C, D, E)ASSOCIADAS COM SAIS MINERAIS (ZINCO, COBRE E ACIDO FOLICO) COMPRIMIDO"
+      },
+      {
+        "code" : "BR0287252U0120",
+        "display" : "NICOTINA 2 MG PASTILHA"
+      },
+      {
+        "code" : "BR0440313",
+        "display" : "CIPROEPTADINA, CLORIDRATO + COBAMAMIDA 4MG+1MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0287061",
+        "display" : "LIDOCAÍNA, CLORIDRATO + NOREPINEFRINA 3 % SOLUÇÃO INJETÁVEL 1,8 ML"
+      },
+      {
+        "code" : "BR0440269U0118",
+        "display" : "PEMBROLIZUMABE 25 MG/ML SOLUÇÃO INJETÁVEL 4 ML"
+      },
+      {
+        "code" : "BR0286864",
+        "display" : "ACETILCISTEÍNA 100 MG GRANULADO 5 G"
+      },
+      {
+        "code" : "BR0440255U0137",
+        "display" : "INSULINA ANÁLOGA DE AÇÃO RÁPIDA (ASPARTE) 100 UI/ML TUBETE 3 ML GRUPO 1.A"
+      },
+      {
+        "code" : "BR0286846-2",
+        "display" : "MULTIVITAMINAS (A, C, D, COMPLEXO B) SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0440199",
+        "display" : "ESCINA ,SALICILATO DE DIETILAMÔNIO 10MG/G + 50MG/G BISNAGA 30G"
+      },
+      {
+        "code" : "BR0286846-1",
+        "display" : "MULTIVITAMINAS (A, C, D, COMPLEXO B) SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0440195",
+        "display" : "COLECALCIFEROL 10.000UI/ML SOLUÇÃO ORAL 10ML"
+      },
+      {
+        "code" : "BR0286765E",
+        "display" : "BROMOCRIPTINA 5 MG CAP DE LIB RETARD GRUPO 1.B"
+      },
+      {
+        "code" : "BR0440071",
+        "display" : "ALIROCUMABE 75MG/ML SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0286740U0067",
+        "display" : "FENDIZOATO DE CLOPERASTINA 3,54MG/ML XAROPE"
+      },
+      {
+        "code" : "BR0440056",
+        "display" : "AFATINIBE DIMALEATO 40 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0286632",
+        "display" : "SULPIRIDA 200 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0439938",
+        "display" : "AMOXICILINA + CLARITROMICINA + ESOMEPRAZOL 500MG + 500 MG + 20 MG COMP REV"
+      },
+      {
+        "code" : "BR0286631",
+        "display" : "CLOXAZOLAM 4 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0439610U0041",
+        "display" : "NINTEDANIBE, SAL ESILATO CÁPSULA GELATINOSA MOLE 100 MG"
+      },
+      {
+        "code" : "BR0286359-1",
+        "display" : "ÁCIDO TRICLOROACÉTICO 60 % SOLUÇÃO 20 ML"
+      },
+      {
+        "code" : "BR0439609",
+        "display" : "GLICOPIRRÔNIO 50MCG CÁPSULA COM INALADOR ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0286278",
+        "display" : "ARIPIPRAZOL 30 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0439450U0041",
+        "display" : "BIOTINA 2,5 MG CÁPSULA GRUPO 1.A"
+      },
+      {
+        "code" : "BR0286247",
+        "display" : "PIMOZIDA 4 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0439252U0106",
+        "display" : "NUSINERSENA 2,4 MG/ML SOLUÇÃO INJETÁVEL 5 ML GRUPO 1.A"
+      },
+      {
+        "code" : "BR0286246",
+        "display" : "PIMOZIDA 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0439252",
+        "display" : "NUSINERSENA 2,4 MG/ML SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0285966",
+        "display" : "LEVETIRACETAM 500 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0439143U0042",
+        "display" : "MIRABEGRONA 50MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0285965",
+        "display" : "LEVETIRACETAM 250 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0439142U0042",
+        "display" : "TENOFOVIR, ENTRICITABINA, 300 MG + 200 MG COMP"
+      },
+      {
+        "code" : "BR0285953",
+        "display" : "TEOFILINA 300 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0439128",
+        "display" : "PASSIFLORA INCARNATA 260 MG COMP REV"
+      },
+      {
+        "code" : "BR0285818U0046",
+        "display" : "SIROLIMO 2 MG DRÁGEA GRUPO 1.A"
+      },
+      {
+        "code" : "BR0439098",
+        "display" : "DONEPEZILA, CLORIDRATO + MEMANTINA, CLORIDRATO 10 + 20 MG COMP REV"
+      },
+      {
+        "code" : "BR0285818",
+        "display" : "SIROLIMO 2 MG DRÁGEA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0438993U0472",
+        "display" : "UMECLIDÍNIO, BROMETO 62,5 MCG PÓ PARA INALAÇÃO ORAL 7 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0285817U0046",
+        "display" : "SIROLIMO 1 MG DRÁGEA GRUPO 1.A"
+      },
+      {
+        "code" : "BR0438993U0269",
+        "display" : "UMECLIDÍNIO, BROMETO 62,5 MCG PÓ PARA INALAÇÃO ORAL 30 DOSES ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0285817",
+        "display" : "SIROLIMO 1 MG DRÁGEA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0438993",
+        "display" : "UMECLIDÍNIO, BROMETO 62,5 MCG PÓ PARA INALAÇÃO ORAL"
+      },
+      {
+        "code" : "BR0285689",
+        "display" : "EZETIMIBA + SINVASTATINA 10 + 40 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR04389570036",
+        "display" : "METFORMINA, CLORIDRATO + ALOGLIPTINA 850 + 12,5 MG COMP"
+      },
+      {
+        "code" : "BR0285688",
+        "display" : "EZETIMIBA + SINVASTATINA 10 + 20 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438956U0041",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 25 MG CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0285687",
+        "display" : "EZETIMIBA + SINVASTATINA 10+10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438956",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 25 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0285686",
+        "display" : "EZETIMIBA 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438851",
+        "display" : "FENTANILA, CITRATO + DROPERIDOL CITRATO DE FENTANILA + DROPERIDOL 0,0785 MG/ML + 2 INJ (FR)"
+      },
+      {
+        "code" : "BR0438819",
+        "display" : "UBIDECARENONA (COENZIMA Q10) 2000MG INJ (FR) 30ML"
+      },
+      {
+        "code" : "BR0285081U0041",
+        "display" : "TANSULOSINA, CLORIDRATO 0,4 MG CAP DE LIB PROL"
+      },
+      {
+        "code" : "BR0438741",
+        "display" : "RUXOLITINIBE 15 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0285081",
+        "display" : "TANSULOSINA, CLORIDRATO 0,4 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438655",
+        "display" : "ZOLPIDEM, HEMITARTARATO 12,5 MG COMP"
+      },
+      {
+        "code" : "BR0285064",
+        "display" : "FELODIPINO 2,5 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0438433U0098",
+        "display" : "INSULINA GLARGINA 300 UI/ML SOLUÇÃO INJETÁVEL 1,5 ML"
+      },
+      {
+        "code" : "BR0285063",
+        "display" : "FELODIPINO 5 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0438355U0587",
+        "display" : "RITUXIMABE 1400MG/11,7ML SOL INJ (FR) 11,7ML"
+      },
+      {
+        "code" : "BR0285055",
+        "display" : "ÁCIDO ACETILSALICÍLICO 81 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438280",
+        "display" : "LEVOTIROXINA SÓDICA 62,5 MCG COMP"
+      },
+      {
+        "code" : "BR0285015",
+        "display" : "TRAMADOL, CLORIDRATO + PARACETAMOL 37,5 + 325 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0438223",
+        "display" : "PRAZIQUANTEL/PAMOATO DE PIRANTEL/PAMOATO DE OXANTEL INJ (FR) 20 ML"
+      },
+      {
+        "code" : "BR0285007",
+        "display" : "ISOSSORBIDA, MONONITRATO + ÁCIDO ACETILSALICÍLICO 40 + 100 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0438093U0097",
+        "display" : "COLECALCIFEROL 200 UI SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0284842",
+        "display" : "FOLITROPINA, ALFA RECOMBINANTE 1050 UI PÓ + DILUENTE 2 ML"
+      },
+      {
+        "code" : "BR0438093U0086",
+        "display" : "COLECALCIFEROL 200 UI SOL ORAL (FR) 20 ML"
+      },
+      {
+        "code" : "BR0284841",
+        "display" : "FOLITROPINA, ALFA RECOMBINANTE 450 UI PÓ LIOF INJ (FR-AMP OU SER PREENC) 1 ML"
+      },
+      {
+        "code" : "BR0438042",
+        "display" : "UNGUENTO 200 G CREME"
+      },
+      {
+        "code" : "BR0284840",
+        "display" : "FOLITROPINA, ALFA RECOMBINANTE 150 UI PÓ LIOF INJ (FR-AMP OU SER PREENC)"
+      },
+      {
+        "code" : "BR0438041",
+        "display" : "BENZOATO DE ALOGLIPTINA 6,25 MG COMP"
+      },
+      {
+        "code" : "BR0284839",
+        "display" : "FOLITROPINA, ALFA RECOMBINANTE 75 UI PÓ LIOF INJ (FR-AMP)"
+      },
+      {
+        "code" : "BR0438040",
+        "display" : "ENROFLOXACINO 2,5% MG INJ (FR) 20 ML"
+      },
+      {
+        "code" : "BR0284838",
+        "display" : "FOLITROPINA, ALFA RECOMBINANTE 37,5 UI PÓ LIOF INJ (FR-AMP)"
+      },
+      {
+        "code" : "BR0438039",
+        "display" : "BENZOATO DE ALOGLIPTINA 12,5 MG COMP"
+      },
+      {
+        "code" : "BR0284465-1",
+        "display" : "ALPRAZOLAM 2 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0437994",
+        "display" : "LACOSAMIDA 150 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0284465",
+        "display" : "ALPRAZOLAM 2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437993",
+        "display" : "UMECLIDÍNIO BROMETO + VILANTEROL, TRIFENATATO 62,5 MCG/DOSE + 25 MCG/DOSE MCG/DOSE PÓ PARA INALAÇÃO ORAL"
+      },
+      {
+        "code" : "BR0284460U0104",
+        "display" : "CLOBETASOL 0,5 MG/G SOL CAPI (FR) 50 G GRUPO 2"
+      },
+      {
+        "code" : "BR0437991",
+        "display" : "MELÃO DE SÃO CAETANO 16% 16 % SUPOSITÓRIO"
+      },
+      {
+        "code" : "BR0437990",
+        "display" : "PASSIFLORA INCARNATA 182,93 MG CÁPSULA"
+      },
+      {
+        "code" : "BR02844600003",
+        "display" : "CLOBETASOL, PROPIONATO 0,05 % SOLUÇÃO TÓPICA 59 ML"
+      },
+      {
+        "code" : "BR0437989",
+        "display" : "MALEATO DE INDACATEROL + BROMETO DE GLICOPIRRÔNIO 110 MCG + 50 MCG 110 +50 MCG CÁPSULA ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0284460",
+        "display" : "CLOBETASOL, PROPIONATO 0,5 mg/g SOLUÇÃO TÓPICA 50 G"
+      },
+      {
+        "code" : "BR0437970",
+        "display" : "ROTIGOTINA 9MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0284459",
+        "display" : "CLOBETASOL, PROPIONATO 0,05 MG/G POMADA 30 G"
+      },
+      {
+        "code" : "BR0437908",
+        "display" : "PASSIFLORA ALATA 400 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0284458U0023",
+        "display" : "CLOBETASOL 0,5 MG/G CREM (BIS) 30 G GRUPO 2"
+      },
+      {
+        "code" : "BR0437905",
+        "display" : "ZINCO QUELATO 10 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0284458-1",
+        "display" : "CLOBETASOL, PROPIONATO 0,5 MG/G CREME 30 G"
+      },
+      {
+        "code" : "BR0437903",
+        "display" : "LISINOPRIL + HIDROCLOROTIZIDA + ANLODIPINO 20 MG + 12,5 MG + 7,5 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0284435-3",
+        "display" : "BETAXOLOL, CLORIDRATO 5 % SOLUÇÃO OFTÁLMICA 15 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0437891",
+        "display" : "FERRO QUELATO + COBRE QUELATO + ÁCIDO FÓLICO + MULTIVITAMINAS 300MCG + 20MG + 100MG + 20MG + 2MG + 0,5MG + 25 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0284435-2",
+        "display" : "BETAXOLOL, CLORIDRATO 5 % SOLUÇÃO OFTÁLMICA 5 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0437870U0042",
+        "display" : "FUMARATO DE DIMETILA 240 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0284435-1",
+        "display" : "BETAXOLOL, CLORIDRATO 5 % SOLUÇÃO OFTÁLMICA 0,3 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0437870",
+        "display" : "FUMARATO DE DIMETILA 240 MG CAP DE LIB RETARD"
+      },
+      {
+        "code" : "BR0284429",
+        "display" : "BECLOMETASONA, DIPROPIONATO + SALBUTAMOL 50 + 100 MCG/DOSE SUSPENSÃO PARA NEBULIZAÇÃO COM ESPAÇADOR ORAL 200 DOSES"
+      },
+      {
+        "code" : "BR0437869U0042",
+        "display" : "FUMARATO DE DIMETILA 120 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0284428",
+        "display" : "COLCHICINA 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437839",
+        "display" : "DULAGLUTIDA 3MG/ML INJ (FR) 0,5ML"
+      },
+      {
+        "code" : "BR0284427",
+        "display" : "TELMISARTANA + HIDROCLOROTIAZIDA 80 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR043783",
+        "display" : "METFORMINA CLORIDRATO ASSOCIADA A DAPAGLIFLOZINA 1000 MG + 10 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0284426",
+        "display" : "TELMISARTANA + HIDROCLOROTIAZIDA 40 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437668U0067",
+        "display" : "MIKANIA GLOMERATA (GUACO) 60 MG/ML SOLUÇÃO ORAL 120 ML"
+      },
+      {
+        "code" : "BR0284114",
+        "display" : "CETOCONAZOL + BETAMETASONA 0,5 + 20 MCG/G CREME 30 G"
+      },
+      {
+        "code" : "BR0437668U0062",
+        "display" : "MIKANIA GLOMERATA (GUACO) 60 MG/ML XPE (FR) 100 ML"
+      },
+      {
+        "code" : "BR0284109",
+        "display" : "BENZBROMARONA 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437604",
+        "display" : "SILDENAFILA 20 MG/ML SOL ORAL (FR) 100 ML"
+      },
+      {
+        "code" : "BR0284106U0097",
+        "display" : "RISPERIDONA 1 MG/ML SOL ORAL (FR) 30 ML GRUPO 1.B"
+      },
+      {
+        "code" : "BR0437585U0042",
+        "display" : "ZOLPIDEM 6,25MG COMP DE LIB PROL"
+      },
+      {
+        "code" : "BR0284106",
+        "display" : "RISPERIDONA 1 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0437483",
+        "display" : "EUCALYPTUS TERETICORNIS + MENTHA ARVENSIS 8 G + 4 G PÓ PARA INALAÇÃO ORAL"
+      },
+      {
+        "code" : "BR0284105U0042",
+        "display" : "RISPERIDONA 3 MG COMP GRUPO 1.B"
+      },
+      {
+        "code" : "BR0284105",
+        "display" : "RISPERIDONA 3 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0437411U0324",
+        "display" : "ARGININA 0,25 MG/ML XAROPE 45 ML"
+      },
+      {
+        "code" : "BR0284102",
+        "display" : "CIPROFLOXACINO + DEXAMETASONA 3,5 + 1 MG/ML SOLUÇÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0437411",
+        "display" : "ARGININA 0,25 MG/ML XAROPE 150 ML"
+      },
+      {
+        "code" : "BR0284101",
+        "display" : "ARIPIPRAZOL 15 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0437403",
+        "display" : "LIPPIA SIDOIDES CHAM. (ALECRIM PIMENTA) 20 % TINTURA 30 ML"
+      },
+      {
+        "code" : "BR0437402U0046",
+        "display" : "CALCIO, CITRATO + COLECALCIFEROL + MENAQUINONA (K2) 250 + 0,005 + 0,045 MG COMP REV"
+      },
+      {
+        "code" : "BR0283156",
+        "display" : "DIPIRONA + CAFEÍNA + ORFENADRINA 300 + 50 + 35 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437402U0042",
+        "display" : "CALCIO, CITRATO + COLECALCIFEROL + MENAQUINONA (K2) 600 + 0,005 + 0,055 MG COMP"
+      },
+      {
+        "code" : "BR0282889-1",
+        "display" : "SENNA ALEXANDRINA MILL. + CASSIA FISTULA + TAMARINDUS INDICA L. + GLYCYRRHIZA GLABRA L. + CORIANDRUM SATIVUM GELÉIA 260 G"
+      },
+      {
+        "code" : "BR0437402",
+        "display" : "CALCIO, CITRATO + COLECALCIFEROL 400 + 100 MG TABLETE"
+      },
+      {
+        "code" : "BR0282889",
+        "display" : "SENNA ALEXANDRINA MILL. + CASSIA FISTULA + TAMARINDUS INDICA L. + GLYCYRRHIZA GLABRA L. + CORIANDRUM SATIVUM CÁPSULA"
+      },
+      {
+        "code" : "BR0437387",
+        "display" : "AMBURANA CEARENSIS (CUMARU) 5 % XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0282882",
+        "display" : "ROSUVASTATINA CÁLCICA 20 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437385",
+        "display" : "MYRACRODRUON URUNDEUVA (AROEIRA DO SERTÃO) 7 % ELIXIR 150 ML"
+      },
+      {
+        "code" : "BR0282881",
+        "display" : "ROSUVASTATINA CÁLCICA 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437384",
+        "display" : "MYRACRODRUON URUNDEUVA (AROEIRA DO SERTÃO) 15 % CREME VAGINAL 50 G"
+      },
+      {
+        "code" : "BR0282757",
+        "display" : "TESTOSTERONA (DECANOATO + FEMPROPIONATO + ISOCAPROATO + PROPIONATO) 100+60+60+30 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0437383",
+        "display" : "PASSIFLORA EDULIS (MARACUJÁ) 200 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0282714",
+        "display" : "HIDRÓXIDO DE MAGNÉSIO 80 MG/ML SUSPENSÃO ORAL 120 ML"
+      },
+      {
+        "code" : "BR0437379",
+        "display" : "GARCINIA CAMBOGIA ROXB. 500 MG CAP"
+      },
+      {
+        "code" : "BR0282580",
+        "display" : "MONOETANOLAMINA, OLEATO 5 % SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0437374",
+        "display" : "LEVOTIROXINA SÓDICA 37,5 MG COMP"
+      },
+      {
+        "code" : "BR0282313",
+        "display" : "CICLOBENZAPRINA, CLORIDRATO 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437357",
+        "display" : "ROTIGOTINA 13,5 MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0282299U0041",
+        "display" : "SULPIRIDA 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0437284",
+        "display" : "LEVETIRACETAM 750 MG COMP ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0282299",
+        "display" : "SULPIRIDA 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437283",
+        "display" : "LEVOFLOXACINO 750 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0282298",
+        "display" : "SULPIRIDA 20 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0437160U0110",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 60 ML"
+      },
+      {
+        "code" : "BR0282237",
+        "display" : "CARNITINA 200 MG/ML XAROPE 300 ML"
+      },
+      {
+        "code" : "BR0437160U0106",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 5 ML"
+      },
+      {
+        "code" : "BR0282224-2",
+        "display" : "CARBOCISTEÍNA 50 MG/ML XAROPE 80 ML"
+      },
+      {
+        "code" : "BR0437160U0105",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 50 ML"
+      },
+      {
+        "code" : "BR0282224-1",
+        "display" : "CARBOCISTEÍNA 50 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0437160U0097",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 30 ML"
+      },
+      {
+        "code" : "BR0282223",
+        "display" : "CARBOCISTEÍNA 50 MG/ML SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0437160U0091",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 25 ML"
+      },
+      {
+        "code" : "BR0282222-2",
+        "display" : "CARBOCISTEÍNA 20 MG/ML XAROPE 80 ML"
+      },
+      {
+        "code" : "BR0437160U0075",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 15 ML"
+      },
+      {
+        "code" : "BR0282222-1",
+        "display" : "CARBOCISTEÍNA 20 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0437160U0068",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 125 ML"
+      },
+      {
+        "code" : "BR0282220",
+        "display" : "CARBACOL, CLORETO 0,1 MG/ML SOLUÇÃO OFTÁLMICA 2 ML"
+      },
+      {
+        "code" : "BR0437160U0063",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 10 ML"
+      },
+      {
+        "code" : "BR0282151",
+        "display" : "EXEMESTANO 25 MG DRÁGEA"
+      },
+      {
+        "code" : "BR0437160U0062",
+        "display" : "CLORETO DE SÓDIO 0,9 % SOLUÇÃO NASAL 100 ML"
+      },
+      {
+        "code" : "BR0282149",
+        "display" : "BETAMETASONA 4 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0437156U0110",
+        "display" : "HIPOCLORITO DE SÓDIO 2,0 A 2,5 % SOLUÇÃO 60 ML"
+      },
+      {
+        "code" : "BR0282040",
+        "display" : "GEFITINIBE 250 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437156U0105",
+        "display" : "HIPOCLORITO DE SÓDIO 2,0 A 2,5 % SOLUÇÃO 50 ML"
+      },
+      {
+        "code" : "BR0281470",
+        "display" : "CANDESARTANA CILEXETILA + HIDROCLOROTIAZIDA 8 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437156U0097",
+        "display" : "HIPOCLORITO DE SÓDIO 2,0 A 2,5 % SOLUÇÃO 30 ML"
+      },
+      {
+        "code" : "BR0437109",
+        "display" : "VITAMINAS DO COMPLEXO B, B1, B2, B3, B5, B6, B12 COMPRIMIDO"
+      },
+      {
+        "code" : "BR0281453U0062",
+        "display" : "RHAMNUS PURSHIANA (CÁSCARA SAGRADA) 10 MG/ML TINTURA 100 ML"
+      },
+      {
+        "code" : "BR0437087",
+        "display" : "TESTOSTERONA 10 MG/G GEL 5 G"
+      },
+      {
+        "code" : "BR0281135U0113",
+        "display" : "AMOXICILINA + CLAVULANATO DE POTÁSSIO 50 MG+ 12,5 MG/ML SUSPENSÃO ORAL 75 ML"
+      },
+      {
+        "code" : "BR0437083U0234",
+        "display" : "SECUQUINUMABE 150 MG/ML SOL INJ (SER PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0281135U0062",
+        "display" : "AMOXICILINA + CLAVULANATO DE POTÁSSIO 50 MG+ 12,5 MG/ML SUSPENSÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0437083",
+        "display" : "SECUQUINUMABE 150 MG/ML SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0281135-3",
+        "display" : "AMOXICILINA + CLAVULANATO DE POTÁSSIO 40+5,7 MG/ML SUSPENSÃO ORAL 70 ML"
+      },
+      {
+        "code" : "BR0437082U0042",
+        "display" : "RIOCIGUATE 2,0 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0280947",
+        "display" : "OFLOXACINO 200 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437081U0042",
+        "display" : "RIOCIGUATE 1,0 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0280883",
+        "display" : "GLICOSAMINA, SULFATO + CONDROITINA, SULFATO 1,5 + 1,2 G PÓ PARA SOLUÇÃO ORAL"
+      },
+      {
+        "code" : "BR0437080U0042",
+        "display" : "RIOCIGUATE 2,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0280881",
+        "display" : "SALMETEROL, XINAFOATO + FLUTICASONA 25 + 250 MCG/DOSE AEROSSOL 120 DOSES"
+      },
+      {
+        "code" : "BR0437079U0042",
+        "display" : "RIOCIGUATE 1,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0280877",
+        "display" : "FUROSEMIDA + ESPIRONOLACTONA 20 + 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437078",
+        "display" : "EMPAGLIFLOZINA MPAGLIFLOZINA 10MG COMP"
+      },
+      {
+        "code" : "BR0280876",
+        "display" : "ESPIRONOLACTONA + HIDROCLOROTIAZIDA 50 + 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437051",
+        "display" : "LACOSAMIDA 10 MG/ML SOLUÇÃO ORAL 200 ML"
+      },
+      {
+        "code" : "BR0280873",
+        "display" : "CANDESARTANA CILEXETILA + HIDROCLOROTIAZIDA 16 + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0437006U0370",
+        "display" : "EXTRATO MEDICINAL, DELTA-9-TETRAHIDRO CANABINOL (THC) + CANABIDIOL 27MG/ML + 25 MG/ML SPRAY ORAL 5,5 ML ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0280632",
+        "display" : "LEVOBUPIVACAINA, CLORIDRATO + EPINEFRINA 0,25% + 1/200.000 SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0437006U0063",
+        "display" : "EXTRATO MEDICINAL, DELTA-9-TETRAHIDRO CANABINOL (THC) + CANABIDIOL 27 MG/ML + 25 MG/ML SPRAY ORAL 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0280627",
+        "display" : "LEVOBUPIVACAINA, CLORIDRATO 0,25 % SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0436889",
+        "display" : "MESALAZINA 1 G PÓ"
+      },
+      {
+        "code" : "BR0280505",
+        "display" : "ADEFOVIR 10 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0436839",
+        "display" : "COMPLEXO B (B1,B2,B6,B3) TIAMINA + RIBOFLAVINA + PIRIDOXINA + NICOTINAMIDA 7,5 + 0,825 + 2,5 + 12,5 MG COMP REV"
+      },
+      {
+        "code" : "BR0280205E",
+        "display" : "ADEFOVIR 10 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0436788",
+        "display" : "CÁLCIO TRIBÁSICO + COLECALCIFEROL + CIANOCOBALAMINA 10 + 0,00025 + 0,0012 MG SOLUÇÃO 250 ML"
+      },
+      {
+        "code" : "BR0280201",
+        "display" : "BORTEZOMIBE 3,5 MG PÓ LIOFILIZADO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0436778U0162",
+        "display" : "NIVOLUMABE 10 MG/ML SOLUÇÃO INJETÁVEL 4 ML"
+      },
+      {
+        "code" : "BR0280116U0042",
+        "display" : "BOSENTANA 62,5 MG COMP REV GRUPO 1.B"
+      },
+      {
+        "code" : "BR0436778U0063",
+        "display" : "NIVOLUMABE 10 MG/ML SOLUÇÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0280116",
+        "display" : "BOSENTANA 62,5 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0436769",
+        "display" : "VORTIOXETINA, BROMIDATO 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436722",
+        "display" : "HARPAGOPHYTUM PROCUBENS (GARRA DO DIABO) 300MG COMP"
+      },
+      {
+        "code" : "BR0280115U0042",
+        "display" : "BOSENTANA 125 MG COMP REV GRUPO 1.B"
+      },
+      {
+        "code" : "BR0436718U0063",
+        "display" : "COLECALCIFEROL 14.000 UI/ML SOLUÇÃO ORAL 10 ML"
+      },
+      {
+        "code" : "BR0280115",
+        "display" : "BOSENTANA 125 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0436718U0041",
+        "display" : "COLECALCIFEROL (VITAMINA D3) 15.000 UI CÁPSULA"
+      },
+      {
+        "code" : "BR0279493-6",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150MG + 5000UI + 900 ui/g POMADA 30 G"
+      },
+      {
+        "code" : "BR0436711U0042",
+        "display" : "ETRAVIRINA 200 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0279493-5",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150 + 5000+ 900 (MG + UI + UI/G) POMADA 135 G"
+      },
+      {
+        "code" : "BR0436705-3",
+        "display" : "BUPRENORFINA 20 MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0279493-4",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150 + 5000+ 900 (MG + UI + UI/G) POMADA 100 G"
+      },
+      {
+        "code" : "BR0436705-2",
+        "display" : "BUPRENORFINA 10 MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0279493-3",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150 + 5000 + 900 MG + UI + UI/G POMADA 90 G"
+      },
+      {
+        "code" : "BR0436705-1",
+        "display" : "BUPRENORFINA 5 MG ADESIVO TRANSDÉRMICO"
+      },
+      {
+        "code" : "BR0279493-2",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150 + 5000 + 900 MG + UI + UI/G POMADA 45 G"
+      },
+      {
+        "code" : "BR0436703",
+        "display" : "GATIFLOXACINO+PREDNISOLONA 3MG/ML + 10MG/ML MG/ML SOLUÇÃO OFTÁLMICA"
+      },
+      {
+        "code" : "BR0279493-1",
+        "display" : "ÓXIDO DE ZINCO + COLECALCIFEROL + RETINOL 150 + 5000 + 900 MG + UI + UI/G POMADA 20 G"
+      },
+      {
+        "code" : "BR0436601",
+        "display" : "FELODIPINO, METOPROLOL 200 + 50 MG MG COMPRIMIDO LIBERAÇÃO PROLONGADA COMP"
+      },
+      {
+        "code" : "BR0279432",
+        "display" : "LOTEPREDNOL, SAL ETABONATO 5 MG/ML SUSPENSÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0436600",
+        "display" : "PERINDOPRIL 10MG COMP"
+      },
+      {
+        "code" : "BR0279338-2",
+        "display" : "ÁCIDO POLIACRÍLICO 2 MG/G OFTALMICO GEL 10 G"
+      },
+      {
+        "code" : "BR0436550",
+        "display" : "SIMETICONA 125MG CÁPSULA"
+      },
+      {
+        "code" : "BR0279338-1",
+        "display" : "ÁCIDO POLIACRÍLICO 2 MG/G OFTALMICO GEL 5 G"
+      },
+      {
+        "code" : "BR0436508",
+        "display" : "ALFAESTRADIOL 0,25 MG SOLUÇÃO 100 ML"
+      },
+      {
+        "code" : "BR0279298",
+        "display" : "FENOTEROL, BROMIDRATO + IPRATRÓPIO, BROMETO 0,1 + 0,04 MG/DOSE AEROSSOL ORAL ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0436501",
+        "display" : "ÓLEO DE CALÊNDULA+ÓLEO DE LAVANDA+ÓLEO DE ALECRIM+ÓLEO DE CAMOMILA+VITAMINAS A E E SOLUÇÃO 125 ML"
+      },
+      {
+        "code" : "BR0279297-2",
+        "display" : "NISTATINA + ÓXIDO DE ZINCO 100.000 + 200 UI + MG/G CREME 60 G"
+      },
+      {
+        "code" : "BR0436500",
+        "display" : "RAMIPRIL + ANLODIPINO, BESILATO 10 MG + 10 MG CAP"
+      },
+      {
+        "code" : "BR0279297-1",
+        "display" : "NISTATINA + ÓXIDO DE ZINCO 100.000 + 200 UI + MG/G CREME 40 G"
+      },
+      {
+        "code" : "BR0436480",
+        "display" : "FLUTICASONA, FUROATO + VILANTEROL, TRIFENATATO 200/25 MCG PÓ PARA INALAÇÃO ORAL 30 DOSES"
+      },
+      {
+        "code" : "BR0279285-2",
+        "display" : "IODO 2 % TINTURA 1 L"
+      },
+      {
+        "code" : "BR0436461U0118",
+        "display" : "VEDOLIZUMABE 300MG PÓ LIOF INJ (FR-AMP)"
+      },
+      {
+        "code" : "BR0279285-1",
+        "display" : "IODO 2 % TINTURA 100 ML"
+      },
+      {
+        "code" : "BR0436433",
+        "display" : "FENTICONAZOL, NITRATO 20 MG/ML SPRAY TÓPICO 30 ML"
+      },
+      {
+        "code" : "BR0279271U0042",
+        "display" : "VARFARINA SÓDICA 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436416",
+        "display" : "ALTEPLASE 10 MG PÓ LIOF INJ (FR-AMP) 10 ML"
+      },
+      {
+        "code" : "BR0279270",
+        "display" : "VARFARINA SÓDICA 2,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436345",
+        "display" : "NINTEDANIBE, SAL ESILATO 150 MG CAP"
+      },
+      {
+        "code" : "BR0279269U0042",
+        "display" : "VARFARINA SÓDICA 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436303",
+        "display" : "CODEINA + MELOXICAN + PARACETAMOL + RANITIDINA 40 + 7,5 + 500 + 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0279223",
+        "display" : "AMINOÁCIDOS, A 8% P/ HEPATOPATAS, SEM CARBOHIDRATO, SEM ELETRÓLITOS SOLUÇÃO 500 ML"
+      },
+      {
+        "code" : "BR0436302",
+        "display" : "BACILLUS CLAUSII SOLUÇÃO 5ML"
+      },
+      {
+        "code" : "BR0279118",
+        "display" : "TICARCILINA + CLAVULANATO DE POTÁSSIO 3 + 100 G + MG PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0436256",
+        "display" : "BISOPROLOL, FUMARATO + HIDROCLOROTIAZIDA 5 MG + 12,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0278655",
+        "display" : "SULFACETAMIDA+TRIETANOLAMINA 74 MG + 21 MG/G POMADA 50 MG"
+      },
+      {
+        "code" : "BR0436237",
+        "display" : "CARISOPRODOL + PARACETAMOL 300+100 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278650U0042",
+        "display" : "CARISOPRODOL, DIPIRONA + PIRIDOXINA + TIAMINA + CIANOCOBALAMINA 250MG + 250MG + 100MG + 50MG + 1MG COMP"
+      },
+      {
+        "code" : "BR0436234-1",
+        "display" : "ESCITALOPRAM, OXALATO 20 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0278649",
+        "display" : "METFORMINA, CLORIDRATO + GLIBENCLAMIDA 500 MG + 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436234",
+        "display" : "ESCITALOPRAM, OXALATO 20 MG/ML SOLUÇÃO ORAL 15 ML"
+      },
+      {
+        "code" : "BR0278648",
+        "display" : "METFORMINA, CLORIDRATO + GLIBENCLAMIDA 500 MG + 2,5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436202",
+        "display" : "PAROXETINA, CLORIDRATO 60 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278647",
+        "display" : "METFORMINA, CLORIDRATO + GLIBENCLAMIDA 250 MG + 1,25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0436201",
+        "display" : "SERTRALINA, CLORIDRATO 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278646",
+        "display" : "ACIDO AMINOCAPRÓICO 50 MG/ML SUSPENSÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0436169",
+        "display" : "BENZOATO DE ALOGLIPTINA 25 MG COMP"
+      },
+      {
+        "code" : "BR0278589-2",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 3 MG/G GEL 40 G"
+      },
+      {
+        "code" : "BR0435950",
+        "display" : "TELMISARTANA + ANLODIPINO 40 + 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0278589-1",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 3 MG/G GEL 20 G"
+      },
+      {
+        "code" : "BR0435745U0041",
+        "display" : "MORUS NIGRA L. - AMORA 50 G DROGA VEGETAL"
+      },
+      {
+        "code" : "BR0278588-1",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 5 MG/G POMADA 20 G"
+      },
+      {
+        "code" : "BR0435745",
+        "display" : "MORUS NIGRA L. - AMORA 500 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278588",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 5 MG/G POMADA 40 G"
+      },
+      {
+        "code" : "BR0435720U0041",
+        "display" : "ÁCIDO FÓLICO + DEXTROALFATOCOFEROL 0,4 + 10 MG CÁPSULA GELATINOSA MOLE"
+      },
+      {
+        "code" : "BR0278587-2",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 5 MG/G GEL 40 G"
+      },
+      {
+        "code" : "BR0435720",
+        "display" : "ÁCIDO FÓLICO 400 MCG CÁPSULA GELATINOSA MOLE"
+      },
+      {
+        "code" : "BR0278587-1",
+        "display" : "ÁCIDO MUCOPOLISSACARÍDEO POLISSULFÚRICO 5 MG/G GEL 20 G"
+      },
+      {
+        "code" : "BR0435700U0032",
+        "display" : "OMBITASVIR/VERUPREVIR/RITONAVIR + DASABUVIR 12,5/75/50 MG + 250 MG CARTELA (04 COMP REV) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0278490",
+        "display" : "ÁCIDO FÓLICO 0,4 MG/ML SOLUÇÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0435625",
+        "display" : "LACOSAMIDA 200 MG COMP REV"
+      },
+      {
+        "code" : "BR0278489U0097",
+        "display" : "ÁCIDO FÓLICO 0,2 MG/ML SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0435539",
+        "display" : "LACOSAMIDA 50 MG COMP ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0278483",
+        "display" : "VITAMINAS DO COMPLEXO B, VITAMINAS: B1, B2,B6,B12 E PP SOLUÇÃO ORAL 120 ML"
+      },
+      {
+        "code" : "BR0435442",
+        "display" : "IDEBENONA 150 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278482U0042",
+        "display" : "PRIMIDONA 250 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0435393",
+        "display" : "TESTOSTERONA 20MG/ML INJ (FR) 110ML"
+      },
+      {
+        "code" : "BR0278482",
+        "display" : "PRIMIDONA 250 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0435334U0042",
+        "display" : "DACLATASVIR 30 MG COMP REV GRUPO 1.A"
+      },
+      {
+        "code" : "BR0278430",
+        "display" : "ELIXIR PAREGORICO SOLUÇÃO ORAL 30 ML"
+      },
+      {
+        "code" : "BR0435285",
+        "display" : "HIALURONATO DE SÓDIO 1,6% SOLUÇÃO OFTÁLMICA 0,8 ML"
+      },
+      {
+        "code" : "BR0278429-1",
+        "display" : "BUPIVACAÍNA + EPINEFRINA 0,25 % + 1/200.000 UI SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0435190",
+        "display" : "VIOLETA DE GENCIANA 2% FORMULAÇÃO ESPECIALMENTE MANIPULADA SOLUÇÃO TÓPICA 20 ML"
+      },
+      {
+        "code" : "BR0278393",
+        "display" : "TRETINOÍNA 10 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0435189",
+        "display" : "PARACETAMOL + MELOXICAM + CICLOBENZAPRINA, FORMULAÇÃO ESPECIALMENTE MANIPULADA 500 + 15 + 5 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278379",
+        "display" : "TRETINOÍNA 0,1 % CREME"
+      },
+      {
+        "code" : "BR0435187",
+        "display" : "METOXISALENO 0,2% FORMULAÇÃO ESPECIALMENTE MANIPULADA CREME 50 G"
+      },
+      {
+        "code" : "BR0278378",
+        "display" : "TRETINOÍNA 0,025 % GEL 25 G"
+      },
+      {
+        "code" : "BR0435186",
+        "display" : "METOXISALENO 0,1% FORMULAÇÃO ESPECIALMENTE MANIPULADA CREME 50 G"
+      },
+      {
+        "code" : "BR0278372",
+        "display" : "TRETINOÍNA 0,05 % CREME 30 G"
+      },
+      {
+        "code" : "BR0435176",
+        "display" : "ALGINATO DE SODIO + BICARBONATO DE POTASSIO 100 + 20 MG/ML SOL ORAL (FR) 150 ML"
+      },
+      {
+        "code" : "BR0278357",
+        "display" : "AZELASTINA, CLORIDRATO 1 MG/ML AEROSSOL NASAL 10 ML"
+      },
+      {
+        "code" : "BR0435105",
+        "display" : "EXTRATO MEDICINAL, POLYPODIUM LEUCOTOMOS 250 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0278356",
+        "display" : "AZELASTINA, CLORIDRATO 1 MG/ML SOLUÇÃO NASAL 10 ML"
+      },
+      {
+        "code" : "BR0435102",
+        "display" : "PARACETAMOL + AMITRIPTILINA + CICLOBENZAPRINA + MELOXICAM , FORMULAÇÃO ESPECIALMENTE MANIPULADA 500 MG + 25 MG + 5 MG + 7,5 MG CAP"
+      },
+      {
+        "code" : "BR0278348",
+        "display" : "ANASTROZOL 1 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0435101",
+        "display" : "PARACETAMOL + AMITRIPTILINA + MELOXICAM, FORMULAÇÃO ESPECIALMENTE MANIPULADA 500 + 25 + 7,5 MG CAP"
+      },
+      {
+        "code" : "BR0278341",
+        "display" : "ÓLEO DE BORRAGEM (ÁCIDO LINOLÊNICO + ÁCIDO LINOLÊICO + ÁCIDO OLÊICO) + VITAMINA E 1000 + 3 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0434946",
+        "display" : "RETINOL, COLECALCIFEROL, RACEALFATOCOFEROL 20.000 UI + 1.600 UI + 30 MG/ML SOLUÇÃO ORAL 3 ML"
+      },
+      {
+        "code" : "BR0278338U0042",
+        "display" : "ÁCIDO TRANEXÂMICO 250 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434945",
+        "display" : "EXTRATO MEDICINAL, TRIFOLIUM PRATENSE L. 100 MG COMP"
+      },
+      {
+        "code" : "BR0278316",
+        "display" : "ZOLPIDEM, HEMITARTARATO 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR04349380002",
+        "display" : "OLODATEROL, CLORIDRATO 2,5 MCG/DOSE SOLUÇÃO PARA INALAÇÃO 4 ML"
+      },
+      {
+        "code" : "BR0278310U0118",
+        "display" : "VACINA BCG SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0434935",
+        "display" : "MULTIVITAMINAS COMPLEXO B, A, C, D3, E, K1; ASSOCIADAS COM SAIS MINERAIS ZN, SE, NA + COENZIMA Q10 COMPRIMIDO MASTIGÁVEL"
+      },
+      {
+        "code" : "BR0434874",
+        "display" : "EMPAGLIFLOZINA 25 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0278304U0135",
+        "display" : "VACINA HUMANA, HAEMOPHILUS INFLUENZA TIPO B (HIB) SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0434872U0042",
+        "display" : "CITRATO DE TOFACITINIBE 5 MG COMP GRUPO 1.A"
+      },
+      {
+        "code" : "BR0278283U0042",
+        "display" : "ACETAZOLAMIDA 250 MG COMP GRUPO 2"
+      },
+      {
+        "code" : "BR0434872",
+        "display" : "TOFACITINIBE, CITRATO 5 MG COMP"
+      },
+      {
+        "code" : "BR0434827",
+        "display" : "CETRIMIDA + ÓLEOS VEGETAIS SABONETE 150ML"
+      },
+      {
+        "code" : "BR0434797",
+        "display" : "BISOPROLOL, FUMARATO + HIDROCLOROTIAZIDA 10 + 25 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0278281",
+        "display" : "ADENOSINA, FOSFATO 3 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0434796-1",
+        "display" : "LEVOCETIRIZINA, DIPROPIONATO 5 MG/ML SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0278268-1",
+        "display" : "TRIFLUOPERAZINA, DICLORIDRATO 2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434765U0234",
+        "display" : "ABATACEPTE 125 MG/ML SOL INJ (SER PREENC) 1 ML GRUPO 1.A"
+      },
+      {
+        "code" : "BR0278268",
+        "display" : "TRIFLUOPERAZINA, DICLORIDRATO 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434714",
+        "display" : "DOBESILATO DE CÁLCIO 500 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278265",
+        "display" : "HIDROXIQUINOLINA, BORATO + TROLAMINA 0,04 + 140 MG/ML SOLUÇÃO OTOLÓGICA 8 ML"
+      },
+      {
+        "code" : "BR0434568",
+        "display" : "RETINOL+COLECALCIFEROL+ACETATO DE TOCOFEROL+ACIDO ASCORBICO+TIAMINA+RIBOFLAVINA+NICOTINAMIDA+CLORIDRATO DE PIRIDOXINA+ACIDO FOLICO+CIANOCOBALAMINA+FERRO+ZINCO+CALCIO 2664+400+10UI+70+3+3,4+17+4+0,6MG+2,2MCG+30+15+125 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0278261",
+        "display" : "TIOPENTAL SÓDICO 1 G PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0434505",
+        "display" : "CARVÃO VEGETAL ATIVADO 250 MG COMP"
+      },
+      {
+        "code" : "BR0278260",
+        "display" : "TIOPENTAL SÓDICO 500 MG PÓ LIOFILIZADO"
+      },
+      {
+        "code" : "BR0434478U0288",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 24 % SOLUÇÃO ORAL 10 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0278259",
+        "display" : "TIOCOLCHICOSÍDEO 4 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434478U0284",
+        "display" : "EXTRATO MEDICINAL, ÓLEO DE CANABIDIOL 24 % SOLUÇÃO ORAL 3 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0278257",
+        "display" : "TINIDAZOL 500 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434445U0106",
+        "display" : "TRIANCINOLONA, SAL HEXACETONIDA 20MG/ML SUSPENSÃO INJETÁVEL 5ML"
+      },
+      {
+        "code" : "BR0277973",
+        "display" : "ERGOMETRINA 0,2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434445U0058",
+        "display" : "TRIANCINOLONA, SAL HEXACETONIDA 20MG/ML SUSPENSÃO INJETÁVEL 1ML"
+      },
+      {
+        "code" : "BR0277934-1",
+        "display" : "ATROPINA, SULFATO 0,5 MG/ML SOLUÇÃO INJETÁVEL 1 ML"
+      },
+      {
+        "code" : "BR0434406",
+        "display" : "LACOSAMIDA 100 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0277743U0118",
+        "display" : "BETAINTERFERONA 1A 6.000.000 UI (30MCG) PÓ LIOF INJ (FR-AMP OU SER PREENC OU CAN PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0434357",
+        "display" : "PASSIFLORA INCARNATA 90 MG/ML SOL ORAL (FR)"
+      },
+      {
+        "code" : "BR0277649",
+        "display" : "ANAGRELIDA, CLORIDRATO 0,5 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0434254",
+        "display" : "CANAGLIFOZINA 300 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0277529",
+        "display" : "AZUL DE METILENO 1 % SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0434252U0041",
+        "display" : "PIRFENIDONA 267MG CÁPSULA"
+      },
+      {
+        "code" : "BR0277526-2",
+        "display" : "DIDANOSINA 400 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0434251U0042",
+        "display" : "LEDIPASVIR + SOFOSBUVIR 90 + 400 MG COMPRIMIDO GRUPO 1.A"
+      },
+      {
+        "code" : "BR0277526-1",
+        "display" : "DIDANOSINA 400 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434251",
+        "display" : "LEDIPASVIR + SOFOSBUVIR 90 + 400 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0277525-2",
+        "display" : "DIDANOSINA 250 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0434130",
+        "display" : "PIRENOXINA SÓDICA 0,085% COMP"
+      },
+      {
+        "code" : "BR0277525-1",
+        "display" : "DIDANOSINA 250 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434128",
+        "display" : "ÁCIDO FÓLICO + ACETATO DE RACEALFATOCOFEROL 800MCG + 20MG CÁPSULA"
+      },
+      {
+        "code" : "BR0277519U0042",
+        "display" : "ÁCIDO URSODESOXICÓLICO 50 MG COMP GRUPO 1.B"
+      },
+      {
+        "code" : "BR0434127",
+        "display" : "CURCUMA LONGA 250MG (EQUIVALENTE A 50MG DE CURCUMINOIDES) CÁPSULA"
+      },
+      {
+        "code" : "BR0277519",
+        "display" : "ÁCIDO URSODESOXICÓLICO 50 MG COMPRIMIDO ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0434125-1",
+        "display" : "COLECALCIFEROL 500 UI SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0277513",
+        "display" : "FLUOXETINA, CLORIDRATO 20 MG/ML SOLUÇÃO ORAL 20 ML"
+      },
+      {
+        "code" : "BR0434125",
+        "display" : "COLECALCIFEROL 1.000UI COMP REV"
+      },
+      {
+        "code" : "BR0277438U0118",
+        "display" : "BETAINTERFERONA 1B 9.600.000UI (300MG) PÓ LIOF INJ (FR-AMP) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0434115",
+        "display" : "MORORO 20% TINTURA 30 ML"
+      },
+      {
+        "code" : "BR0277435U0135",
+        "display" : "BETAINTERFERONA 1A 6.000.000 UI (22MCG) SOL INJ (SER PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0434111",
+        "display" : "AMITRIPTILINA, CLORIDRATO 10 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0277434U0135",
+        "display" : "BETAINTERFERONA 1A 12.000.000UI (44MCG) SOL INJ (SER PREENC) GRUPO 1.A"
+      },
+      {
+        "code" : "BR0434091",
+        "display" : "ÁCIDO FOLÍNICO (FOLINATO DE CÁLCIO) 7,5 MG/ML SOLUÇÃO ORAL 60 ML"
+      },
+      {
+        "code" : "BR0277319-1",
+        "display" : "PERÓXIDO DE HIDROGÊNIO (ÁGUA OXIGENADA 10 VOL) 3 % SOLUÇÃO 100 ML"
+      },
+      {
+        "code" : "BR0434051U0030",
+        "display" : "SCHINUS TEREBENTHIFOLIUS (AROEIRA) 7% CREME VAGINAL 60 G"
+      },
+      {
+        "code" : "BR0277319",
+        "display" : "PERÓXIDO DE HIDROGÊNIO (ÁGUA OXIGENADA 10VOL) 3 % SOLUÇÃO 1000 ML"
+      },
+      {
+        "code" : "BR0277311U0042",
+        "display" : "ACIDO AMINOCAPRÓICO 500MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434050",
+        "display" : "MALVA SANTA 20% TINTURA 30 ML"
+      },
+      {
+        "code" : "BR0434049",
+        "display" : "CIDREIRA 8 % ELIXIR 150 ML"
+      },
+      {
+        "code" : "BR0277184",
+        "display" : "VALGANCICLOVIR, CLORIDRATO 450 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434045-2",
+        "display" : "SYMPHITUM SP L. (CONFREI) 5 % POMADA 40 G"
+      },
+      {
+        "code" : "BR0276966",
+        "display" : "TELMISARTANA 80 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434045-1",
+        "display" : "SYMPHITUM SP L. (CONFREI) 5 % POMADA 50 G"
+      },
+      {
+        "code" : "BR0276965",
+        "display" : "TELMISARTANA 40 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0434045",
+        "display" : "SYMPHITUM SP L. (CONFREI) 5% POMADA 30 G"
+      },
+      {
+        "code" : "BR0276961",
+        "display" : "TIZANIDINA, CLORIDRATO 2 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0433975",
+        "display" : "XAROPE DE CHAMBÁ ESPECIALMENTE MANIPULADO 5 % XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0276959",
+        "display" : "ALFATIROTROPINA (TIROTROFINA) 1,1 MG PÓ LIOF INJ (FR-AMP) 1,2 ML"
+      },
+      {
+        "code" : "BR0433940U0074",
+        "display" : "MIKANIA GLOMERATA (GUACO) 35 MG/ML XAROPE 150 ML"
+      },
+      {
+        "code" : "BR0276948",
+        "display" : "TRAZODONA, CLORIDRATO 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0433940U0067",
+        "display" : "MIKANIA GLOMERATA (GUACO) 35 MG/ML XAROPE 120 ML"
+      },
+      {
+        "code" : "BR0276871-4",
+        "display" : "FLUORURACILA 50 MG/G CREME 30 G"
+      },
+      {
+        "code" : "BR0433940U0062",
+        "display" : "MIKANIA GLOMERATA (GUACO) 35 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0276871-3",
+        "display" : "FLUORURACILA 50 MG/G CREME 20 G"
+      },
+      {
+        "code" : "BR0433853",
+        "display" : "COLISTIMETATO DE SODIO (POLIMIXINA E) 2.000.000 UI PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0276871-2",
+        "display" : "FLUORURACILA 50 MG/G CREME 15 G"
+      },
+      {
+        "code" : "BR0433847",
+        "display" : "CICLOBENZAPRINA, CLORIDRATO + CAFEINA 10 + 60 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276871-1",
+        "display" : "FLUORURACILA 50 MG/G CREME 10 G"
+      },
+      {
+        "code" : "BR0433812",
+        "display" : "TRANILCIPROMINA, SULFATO 10 MG COMP"
+      },
+      {
+        "code" : "BR0276867-1",
+        "display" : "TIOCONAZOL + TINIDAZOL + SECNIDAZOL 20 + 30 + 1000 MG CREME VAGINAL + COMPRIMIDO 35 G"
+      },
+      {
+        "code" : "BR0433690",
+        "display" : "ENZALUTAMIDA 40 MG CAP"
+      },
+      {
+        "code" : "BR0276867",
+        "display" : "TIOCONAZOL + TINIDAZOL 20 + 30 MG/G CREME VAGINAL 35 G"
+      },
+      {
+        "code" : "BR0433687U0042",
+        "display" : "DOLUTEGRAVIR 50 MG COMP"
+      },
+      {
+        "code" : "BR0276866",
+        "display" : "TIOCONAZOL 10 MG/ML LOÇÃO 30 G"
+      },
+      {
+        "code" : "BR0433685",
+        "display" : "RUXOLITINIBE 20MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276862",
+        "display" : "TIOCONAZOL 65 MG/G CREME VAGINAL 4,62 G"
+      },
+      {
+        "code" : "BR0433657",
+        "display" : "PASSIFLORA INCARNATA 600 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276856",
+        "display" : "NORETISTERONA 10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0433553",
+        "display" : "NISTATINA + NEOMICINA + TIROTRICINA + DEXAMETASONA 100.000 UI + 10 + 2 + 0,32 MG CREME VAGINAL 60 G"
+      },
+      {
+        "code" : "BR0276839U0103",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 500 ML"
+      },
+      {
+        "code" : "BR0433548",
+        "display" : "VALSARTANA + HIDROCLOROTIAZIDA + ANLODIPINO 320 + 25 +10 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276839U0090",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 250 ML"
+      },
+      {
+        "code" : "BR0433517",
+        "display" : "VALERATO DE ESTRADIOL+DIENOGESTE 8MG+5MG 28 COMPRIMIDOS COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0433516",
+        "display" : "FÓSFORO QUELADO MEDICAMENTOS MANIPULADO CÁPSULA"
+      },
+      {
+        "code" : "BR0276839U0079",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 1 L"
+      },
+      {
+        "code" : "BR0433514",
+        "display" : "UBGALATO DE BISMUTO + ÓXIDO DE ZINCO 1,5 MG/G + 45 MG/G GEL 100 G"
+      },
+      {
+        "code" : "BR0276839U0063",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0433494",
+        "display" : "CARBAMIDA 100MG/ML SOLUÇÃO OTOLÓGICA 10 ML"
+      },
+      {
+        "code" : "BR0276839U0062",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 100 ML"
+      },
+      {
+        "code" : "BR0433428",
+        "display" : "RETINOL + PIRIDOXINA + RACEALFATOCOFEROL 5.000 UI + 100 MG + 300 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0276839U0013",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 5 ML"
+      },
+      {
+        "code" : "BR0433279",
+        "display" : "DIVALPROATO DE SÓDIO 250 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0276839U0011",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 4 ML"
+      },
+      {
+        "code" : "BR0433257U0087",
+        "display" : "HIDRÓXIDO DE ALUMÍNIO 60 MG/ML SUSPENSÃO ORAL 240 ML"
+      },
+      {
+        "code" : "BR0276839U0009",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0433257-1",
+        "display" : "HIDRÓXIDO DE ALUMÍNIO 60 MG/ML SOLUÇÃO ORAL 100 ML"
+      },
+      {
+        "code" : "BR0276839U0007",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 20 ML"
+      },
+      {
+        "code" : "BR0433257",
+        "display" : "HIDRÓXIDO DE ALUMÍNIO 60 MG/ML SUSPENSÃO ORAL 150 ML"
+      },
+      {
+        "code" : "BR0276839-7",
+        "display" : "ÁGUA DESTILADA SOLUÇÃO INJETÁVEL 2 L"
+      },
+      {
+        "code" : "BR0433249U0062",
+        "display" : "ZINCO, SULFATO 4 MG/ML XAROPE 100 ML"
+      },
+      {
+        "code" : "BR0276823",
+        "display" : "ANFOTERICINA B 100 MG SOLUÇÃO INJETÁVEL LIPOSSOMAL 20 ML"
+      },
+      {
+        "code" : "BR0433218U0005",
+        "display" : "INSULINA DEGLUDECA 100 UI/ML COM APLICADOR SOL INJ (AMP)"
+      },
+      {
+        "code" : "BR0433171",
+        "display" : "PITAVASTATINA CÁLCICA 2 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0276774U0004",
+        "display" : "ACETATO DE SODIO 2 MEQ/ML SOLUÇÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0433148",
+        "display" : "LISADO BACTERIANO 3,5 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0276670",
+        "display" : "MEGLUMINA, IOXITALAMATO E SÓDIO 350 MG/ML SOLUÇÃO INJETÁVEL 50 ML"
+      },
+      {
+        "code" : "BR0433100",
+        "display" : "FLUTICASONA, FUROATO + VILANTEROL, TRIFENATATO 100 MCG/DOSE + 25 MCG/DOSE PÓ PARA INALAÇÃO ORAL 30 DOSES"
+      },
+      {
+        "code" : "BR0276665-3",
+        "display" : "CONTRASTE RADIOLÓGICO, À BASE DE IOBITRIDOL, 76,78% 350MG DE IODO/ ML SOL INJ (FR-AMP) 500 ML"
+      },
+      {
+        "code" : "BR0433077",
+        "display" : "FENOFIBRATO 160 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276665-2",
+        "display" : "CONTRASTE RADIOLÓGICO, À BASE DE IOBITRIDOL, 76,78% 350MG DE IODO/ ML SOL INJ (FR-AMP) 100 ML"
+      },
+      {
+        "code" : "BR0433023U0042",
+        "display" : "CALCIO, CITRATO + COLECALCIFEROL 500 MG + 200 UI COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276665-1",
+        "display" : "CONTRASTE RADIOLÓGICO, À BASE DE IOBITRIDOL, 76,78% 350MG DE IODO/ ML SOL INJ (FR-AMP) 50 ML"
+      },
+      {
+        "code" : "BR0433023",
+        "display" : "CALCIO, CITRATO + COLECALCIFEROL 250 MG + 2,5 MCG COMP"
+      },
+      {
+        "code" : "BR0276664",
+        "display" : "IOBITRIDOL (65,81 %) 300 MG/ML SOLUÇÃO INJETÁVEL 50 ML"
+      },
+      {
+        "code" : "BR0433022",
+        "display" : "SULFADIAZINA 150 MG/ML SOL ORAL (FR) 60 ML"
+      },
+      {
+        "code" : "BR0276662-2",
+        "display" : "CONTRASTE RADIOLÓGICO, A BASE DE SULFATO DE BÁRIO 100 % SUSP ORAL (FR) 200 ML"
+      },
+      {
+        "code" : "BR0433021",
+        "display" : "CÁLCIO, CARBONATO, FORMULAÇÃO ESPECIAMENTE MANIPULADA 100 MG/ML SOL ORAL (FR) 150 ML"
+      },
+      {
+        "code" : "BR0276662",
+        "display" : "CONTRASTE RADIOLÓGICO, A BASE DE SULFATO DE BÁRIO 100 % SUSPENSÃO ORAL 150 ML"
+      },
+      {
+        "code" : "BR0276658U0042",
+        "display" : "METOPROLOL, SUCCINATO 100 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0433019",
+        "display" : "ROMIPLOSTIM 250 MCG PÓ LIOF INJ (FR-AMP)"
+      },
+      {
+        "code" : "BR0432995",
+        "display" : "MOMETASONA, FUROATO + FORMOTEROL, FUMARATO 200 MCG/DOSE + 5 MCG/DOSE AEROSSOL ORAL 120 DOSES"
+      },
+      {
+        "code" : "BR0276657U0042",
+        "display" : "METOPROLOL, SUCCINATO 50 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0432926",
+        "display" : "MOMETASONA, FUROATO + FORMOTEROL, FUMARATO 100 MCG + 50 MCG PÓ PARA INALAÇÃO ORAL 120 DOSES"
+      },
+      {
+        "code" : "BR0276656U0042",
+        "display" : "METOPROLOL, SUCCINATO 25 MG COMPRIMIDO DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0432911",
+        "display" : "DAPAGLIFLOZINA 5 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276456",
+        "display" : "SILIMARINA + METIONINA 70 + 100 MG DRÁGEA"
+      },
+      {
+        "code" : "BR0432908",
+        "display" : "DAPAGLIFLOZINA 10 MG COMPRIMIDO DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0276452",
+        "display" : "SILIMARINA 70 MG DRÁGEA"
+      },
+      {
+        "code" : "BR0432846",
+        "display" : "BRYOPHYLLUM ARGENTO CULTUM SOL ORAL (FR) 50 ML"
+      },
+      {
+        "code" : "BR0276393",
+        "display" : "TROMETAMOL, CETOROLACO 5 % SOLUÇÃO OFTÁLMICA 5 ML"
+      },
+      {
+        "code" : "BR0432784",
+        "display" : "TRASTUZUMABE, PERTUZUMABE 440, 420 MG EM FRASCOS SEPARADOS PÓ LIOFILIZADO PARA SOLUÇÃO INJETÁVEL"
+      },
+      {
+        "code" : "BR0276388U0041",
+        "display" : "GALANTAMINA 8 MG CAP DE LIB PROL GRUPO 1.A"
+      },
+      {
+        "code" : "BR0432783",
+        "display" : "PANTOPRAZOL MAGNÉSIO 40 MG CAP"
+      },
+      {
+        "code" : "BR0276388",
+        "display" : "GALANTAMINA, BROMIDRATO 8 MG CÁPSULA DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0432782",
+        "display" : "INSULINA DEGLUDECA 100 UI/ML INJ (FR) 3 ML ELENCO ESTADUAL"
+      },
+      {
+        "code" : "BR0276384",
+        "display" : "BUDESONIDA 3 MG CÁPSULA DE LIBERAÇÃO CONTROLADA"
+      },
+      {
+        "code" : "BR0432781",
+        "display" : "VALERIANA OFFICINALIS, EXTRATO SECO 225,75 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0276378",
+        "display" : "CILOSTAZOL 100 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0432742",
+        "display" : "MALGADRATO + DIMETICONA MALGADRATO + DIMETICONA 80 MG/ML + 10 MG/ML SOL ORAL (FR) 240 ML"
+      },
+      {
+        "code" : "BR0276377",
+        "display" : "CILOSTAZOL 50 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0432741",
+        "display" : "HIALURONATO DE SÓDIO 0,15% SOL OFT (FR) 10 ML"
+      },
+      {
+        "code" : "BR0276375",
+        "display" : "DILTIAZEM, CLORIDRATO 300 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0432638",
+        "display" : "METOPROLOL, TARTARATO 10 MG/ML SOL ORAL (FR) 60 ML"
+      },
+      {
+        "code" : "BR0276374",
+        "display" : "DILTIAZEM, CLORIDRATO 240 MG CÁPSULA DURA DE LIBERAÇÃO PROLONGADA"
+      },
+      {
+        "code" : "BR0432637",
+        "display" : "CRIZOTINIBE 250 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0276336",
+        "display" : "AMITRIPTILINA, CLORIDRATO + CLORDIAZEPÓXIDO 12,5 MG + 5 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0432635",
+        "display" : "CARBOXIMALTOSE, FÉRRICA 50 MG/ML SUSPENSÃO INJETÁVEL 10 ML"
+      },
+      {
+        "code" : "BR0276333U0042",
+        "display" : "AMITRIPTILINA, CLORIDRATO 75 MG COMPRIMIDO"
+      },
+      {
+        "code" : "BR0432577",
+        "display" : "ÓLEO DE LINHAÇA 1000 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0276332",
+        "display" : "PICOSSULFATO SÓDICO + ÓLEO MINERAL LEVE + AGAR-AGAR 0,334 + 282,25 + 2,72 MG/ML EMULSÃO ORAL 240 ML"
+      },
+      {
+        "code" : "BR0432573",
+        "display" : "SENNA ALEXANDRINA MILL. 50 MG CÁPSULA"
+      },
+      {
+        "code" : "BR0276283",
+        "display" : "DESLANOSÍDEO 0,2 MG/ML SOLUÇÃO INJETÁVEL 2 ML"
+      },
+      {
+        "code" : "BR0432450U0042",
+        "display" : "METFORMINA CLORIDRATO , LINAGLIPTINA 850 MG + 2,5 MG COMP"
+      },
+      {
+        "code" : "BR0432449U0042",
+        "display" : "METFORMINA CLORIDRATO , LINAGLIPTINA 1000MG + 2,5MG COMP"
+      },
+      {
+        "code" : "BR0276271",
+        "display" : "MONTELUCASTE DE SÓDIO 10 MG COMPRIMIDO"
+      }]
+    },
+    {
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA",
+      "concept" : [{
+        "code" : "veneno-vespa",
+        "display" : "Veneno de vespa"
+      }]
+    }]
+  }
+}
+
+```

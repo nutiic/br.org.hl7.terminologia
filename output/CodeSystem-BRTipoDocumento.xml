@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoDocumento"/>
+  <meta>
+    <lastUpdated value="2025-07-17T17:36:37.815+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRTipoDocumento</b></p><a name="BRTipoDocumento"> </a><a name="hcBRTipoDocumento"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2025-07-17 17:36:37+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">ATM<a name="BRTipoDocumento-ATM"> </a></td><td>Atestado Médico/Odontológico</td></tr><tr><td style="white-space:nowrap">RA<a name="BRTipoDocumento-RA"> </a></td><td>Regulação Assistencial</td></tr><tr><td style="white-space:nowrap">REL<a name="BRTipoDocumento-REL"> </a></td><td>Resultado de Exame(s) Laboratoriais(s)</td></tr><tr><td style="white-space:nowrap">RDM<a name="BRTipoDocumento-RDM"> </a></td><td>Registro de Dispensação de Medicamento</td></tr><tr><td style="white-space:nowrap">RPM<a name="BRTipoDocumento-RPM"> </a></td><td>Registro de Prescrição de Medicamento</td></tr><tr><td style="white-space:nowrap">RIA<a name="BRTipoDocumento-RIA"> </a></td><td>Registro de Imunobiológico Administrado</td></tr><tr><td style="white-space:nowrap">RAC<a name="BRTipoDocumento-RAC"> </a></td><td>Registro de Atendimento Clínico</td></tr><tr><td style="white-space:nowrap">SA<a name="BRTipoDocumento-SA"> </a></td><td>Sumário de Alta</td></tr><tr><td style="white-space:nowrap">CMD<a name="BRTipoDocumento-CMD"> </a></td><td>Conjunto Mínimo de Dados</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoDocumento"/>
+  <title value="BRTipoDocumento"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-09T15:10:29-03:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="ATM"/>
+    <display value="Atestado Médico/Odontológico"/>
+  </concept>
+  <concept>
+    <code value="RA"/>
+    <display value="Regulação Assistencial"/>
+  </concept>
+  <concept>
+    <code value="REL"/>
+    <display value="Resultado de Exame(s) Laboratoriais(s)"/>
+  </concept>
+  <concept>
+    <code value="RDM"/>
+    <display value="Registro de Dispensação de Medicamento"/>
+  </concept>
+  <concept>
+    <code value="RPM"/>
+    <display value="Registro de Prescrição de Medicamento"/>
+  </concept>
+  <concept>
+    <code value="RIA"/>
+    <display value="Registro de Imunobiológico Administrado"/>
+  </concept>
+  <concept>
+    <code value="RAC"/>
+    <display value="Registro de Atendimento Clínico"/>
+  </concept>
+  <concept>
+    <code value="SA"/>
+    <display value="Sumário de Alta"/>
+  </concept>
+  <concept>
+    <code value="CMD"/>
+    <display value="Conjunto Mínimo de Dados"/>
+  </concept>
+</CodeSystem>

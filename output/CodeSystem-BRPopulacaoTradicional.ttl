@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRPopulacaoTradicional"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2024-08-30T12:26:42.606+00:00"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRPopulacaoTradicional</b></p><a name=\"BRPopulacaoTradicional\"> </a><a name=\"hcBRPopulacaoTradicional\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2024-08-30 12:26:42+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">XIV<a name=\"BRPopulacaoTradicional-XIV\"> </a></td><td>Isqueiros</td></tr><tr><td style=\"white-space:nowrap\">XXVIII<a name=\"BRPopulacaoTradicional-XXVIII\"> </a></td><td>Varjeiros</td></tr><tr><td style=\"white-space:nowrap\">XIII<a name=\"BRPopulacaoTradicional-XIII\"> </a></td><td>Jangadeiros</td></tr><tr><td style=\"white-space:nowrap\">XXVII<a name=\"BRPopulacaoTradicional-XXVII\"> </a></td><td>Vazanteiros</td></tr><tr><td style=\"white-space:nowrap\">XII<a name=\"BRPopulacaoTradicional-XII\"> </a></td><td>Geraizeiros</td></tr><tr><td style=\"white-space:nowrap\">XXVI<a name=\"BRPopulacaoTradicional-XXVI\"> </a></td><td>Seringueiros</td></tr><tr><td style=\"white-space:nowrap\">XI<a name=\"BRPopulacaoTradicional-XI\"> </a></td><td>Faxinalenses</td></tr><tr><td style=\"white-space:nowrap\">XXV<a name=\"BRPopulacaoTradicional-XXV\"> </a></td><td>Ribeirinhos</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"BRPopulacaoTradicional-X\"> </a></td><td>Extrativistas</td></tr><tr><td style=\"white-space:nowrap\">XXIV<a name=\"BRPopulacaoTradicional-XXIV\"> </a></td><td>Retireiros</td></tr><tr><td style=\"white-space:nowrap\">VIII<a name=\"BRPopulacaoTradicional-VIII\"> </a></td><td>Ciganos</td></tr><tr><td style=\"white-space:nowrap\">XXIII<a name=\"BRPopulacaoTradicional-XXIII\"> </a></td><td>Quebradeiras de coco babaçu</td></tr><tr><td style=\"white-space:nowrap\">VII<a name=\"BRPopulacaoTradicional-VII\"> </a></td><td>Cerrado</td></tr><tr><td style=\"white-space:nowrap\">XXII<a name=\"BRPopulacaoTradicional-XXII\"> </a></td><td>Povos de terreiro/matriz africana</td></tr><tr><td style=\"white-space:nowrap\">XXI<a name=\"BRPopulacaoTradicional-XXI\"> </a></td><td>Povos quilombolas</td></tr><tr><td style=\"white-space:nowrap\">VI<a name=\"BRPopulacaoTradicional-VI\"> </a></td><td>Catadores de mangaba</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"BRPopulacaoTradicional-XX\"> </a></td><td>Povos indígenas</td></tr><tr><td style=\"white-space:nowrap\">V<a name=\"BRPopulacaoTradicional-V\"> </a></td><td>Castanheiras</td></tr><tr><td style=\"white-space:nowrap\">XVIII<a name=\"BRPopulacaoTradicional-XVIII\"> </a></td><td>Pescadores artesanais</td></tr><tr><td style=\"white-space:nowrap\">IX<a name=\"BRPopulacaoTradicional-IX\"> </a></td><td>Comunidades de fundo e fecho de pasto</td></tr><tr><td style=\"white-space:nowrap\">XVII<a name=\"BRPopulacaoTradicional-XVII\"> </a></td><td>Pantaneiros</td></tr><tr><td style=\"white-space:nowrap\">IV<a name=\"BRPopulacaoTradicional-IV\"> </a></td><td>Caiçaras</td></tr><tr><td style=\"white-space:nowrap\">XVI<a name=\"BRPopulacaoTradicional-XVI\"> </a></td><td>Marisqueiros</td></tr><tr><td style=\"white-space:nowrap\">III<a name=\"BRPopulacaoTradicional-III\"> </a></td><td>Caatingueiros</td></tr><tr><td style=\"white-space:nowrap\">XV<a name=\"BRPopulacaoTradicional-XV\"> </a></td><td>Morroquianos</td></tr><tr><td style=\"white-space:nowrap\">II<a name=\"BRPopulacaoTradicional-II\"> </a></td><td>Agroextrativistas</td></tr><tr><td style=\"white-space:nowrap\">XIX<a name=\"BRPopulacaoTradicional-XIX\"> </a></td><td>Pomeranos</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"BRPopulacaoTradicional-I\"> </a></td><td>Andirobeiras</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRPopulacaoTradicional"] ;
+  fhir:CodeSystem.title [ fhir:value "BRPopulacaoTradicional"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-03-09T15:10:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "28"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XIV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Isqueiros" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXVIII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Varjeiros" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XIII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Jangadeiros" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXVII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vazanteiros" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Geraizeiros" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXVI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Seringueiros" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faxinalenses" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ribeirinhos" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "X" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Extrativistas" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXIV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Retireiros" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VIII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ciganos" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXIII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Quebradeiras de coco babaçu" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cerrado" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos de terreiro/matriz africana" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XXI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos quilombolas" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "VI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Catadores de mangaba" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XX" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos indígenas" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "V" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Castanheiras" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XVIII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pescadores artesanais" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IX" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Comunidades de fundo e fecho de pasto" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XVII" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pantaneiros" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Caiçaras" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XVI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Marisqueiros" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "III" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Caatingueiros" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Morroquianos" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "II" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agroextrativistas" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "XIX" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pomeranos" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Andirobeiras" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,68 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRTipoAleitamentoMaterno",
+  "meta" : {
+    "lastUpdated" : "2025-07-17T17:29:46.277+00:00"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRTipoAleitamentoMaterno</b></p><a name=\"BRTipoAleitamentoMaterno\"> </a><a name=\"hcBRTipoAleitamentoMaterno\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-07-17 17:29:46+0000</p></div><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"BRTipoAleitamentoMaterno-05\"> </a></td><td>Aleitamento materno misto ou parcial</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"BRTipoAleitamentoMaterno-04\"> </a></td><td>Aleitamento materno complementado</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"BRTipoAleitamentoMaterno-03\"> </a></td><td>Aleitamento materno</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"BRTipoAleitamentoMaterno-02\"> </a></td><td>Aleitamento materno predominante</td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"BRTipoAleitamentoMaterno-01\"> </a></td><td>Aleitamento materno  exclusivo</td></tr></table></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
+  "version" : "1.1.0",
+  "name" : "BRTipoAleitamentoMaterno",
+  "title" : "BRTipoAleitamentoMaterno",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-09T15:10:29-03:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "05",
+    "display" : "Aleitamento materno misto ou parcial"
+  },
+  {
+    "code" : "04",
+    "display" : "Aleitamento materno complementado"
+  },
+  {
+    "code" : "03",
+    "display" : "Aleitamento materno"
+  },
+  {
+    "code" : "02",
+    "display" : "Aleitamento materno predominante"
+  },
+  {
+    "code" : "01",
+    "display" : "Aleitamento materno  exclusivo"
+  }]
+}
