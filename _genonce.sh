@@ -36,7 +36,7 @@ if [ -d "output" ]; then
   echo "Moving generated site from output/ to $OUTPUT_DIR/"
   rm -rf "$OUTPUT_DIR"
   mkdir -p "$OUTPUT_DIR"
-  mv output "$OUTPUT_DIR"
+  mv output/* "$OUTPUT_DIR"
   echo "Site copied to $OUTPUT_DIR/"
 else
   echo "No output/ folder generated; nothing to copy."
