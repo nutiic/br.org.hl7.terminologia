@@ -1,0 +1,94 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "OCIOnco",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet OCIOnco</b></p><a name=\"OCIOnco\"> </a><a name=\"hcOCIOnco\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRTabelaSUS.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0901010090</td><td>OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA - I</td></tr><tr><td>0901010120</td><td>OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-II</td></tr><tr><td>0901010111</td><td>OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-I</td></tr><tr><td>0901010065</td><td>OCI AVALIAÇÃO DIAGNOSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO</td></tr><tr><td>0901010081</td><td>OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER COLORRETAL</td></tr><tr><td>0901010073</td><td>OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER GÁSTRICO</td></tr><tr><td>0901010030</td><td>OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE PRÓSTATA</td></tr><tr><td>0901010014</td><td>OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE MAMA</td></tr><tr><td>0901010103</td><td>OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA-II</td></tr><tr><td>0901010057</td><td>OCI INVESTIGAÇÃO DIAGNÓSTICA DE CÂNCER DE COLO DO ÚTERO</td></tr><tr><td>0901010049</td><td>OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE PRÓSTATA</td></tr><tr><td>0901010022</td><td>OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOnco",
+  "version" : "1.1.0",
+  "name" : "OCIOnco",
+  "title" : "OCIOnco",
+  "status" : "active",
+  "date" : "2026-09-01T09:42:43-04:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+      "concept" : [{
+        "code" : "0901010090",
+        "display" : "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA - I"
+      },
+      {
+        "code" : "0901010120",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-II"
+      },
+      {
+        "code" : "0901010111",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-I"
+      },
+      {
+        "code" : "0901010065",
+        "display" : "OCI AVALIAÇÃO DIAGNOSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO"
+      },
+      {
+        "code" : "0901010081",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER COLORRETAL"
+      },
+      {
+        "code" : "0901010073",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER GÁSTRICO"
+      },
+      {
+        "code" : "0901010030",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE PRÓSTATA"
+      },
+      {
+        "code" : "0901010014",
+        "display" : "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE MAMA"
+      },
+      {
+        "code" : "0901010103",
+        "display" : "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA-II"
+      },
+      {
+        "code" : "0901010057",
+        "display" : "OCI INVESTIGAÇÃO DIAGNÓSTICA DE CÂNCER DE COLO DO ÚTERO"
+      },
+      {
+        "code" : "0901010049",
+        "display" : "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE PRÓSTATA"
+      },
+      {
+        "code" : "0901010022",
+        "display" : "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA"
+      }]
+    }]
+  }
+}

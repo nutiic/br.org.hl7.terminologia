@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="OCIOftalmo"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet OCIOftalmo</b></p><a name="OCIOftalmo"> </a><a name="hcOCIOftalmo"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTabelaSUS.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0905010078</td><td>OCI EXAMES OFTALMOLÓGICOS SOB SEDAÇÃO</td></tr><tr><td>0905010027</td><td>OCI AVALIAÇÃO DE ESTRABISMO</td></tr><tr><td>0905010043</td><td>OCI AVALIAÇÃO DE RETINOPATIA DIABÉTICA</td></tr><tr><td>0905010060</td><td>OCI AVALIAÇÃO DIAGNÓSTICA EM NEURO OFTALMOLOGIA</td></tr><tr><td>0905010051</td><td>OCI AVALIAÇÃO INICIAL PARA ONCOLOGIA OFTALMOLÓGICA</td></tr><tr><td>0905010019</td><td>OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS</td></tr><tr><td>0905010035</td><td>OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - A PARTIR DE 9 ANOS</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/OCIOftalmo"/>
+  <version value="1.1.0"/>
+  <name value="OCIOftalmo"/>
+  <title value="OCIOftalmo"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS"/>
+      <concept>
+        <code value="0905010078"/>
+        <display value="OCI EXAMES OFTALMOLÓGICOS SOB SEDAÇÃO"/>
+      </concept>
+      <concept>
+        <code value="0905010027"/>
+        <display value="OCI AVALIAÇÃO DE ESTRABISMO"/>
+      </concept>
+      <concept>
+        <code value="0905010043"/>
+        <display value="OCI AVALIAÇÃO DE RETINOPATIA DIABÉTICA"/>
+      </concept>
+      <concept>
+        <code value="0905010060"/>
+        <display value="OCI AVALIAÇÃO DIAGNÓSTICA EM NEURO OFTALMOLOGIA"/>
+      </concept>
+      <concept>
+        <code value="0905010051"/>
+        <display value="OCI AVALIAÇÃO INICIAL PARA ONCOLOGIA OFTALMOLÓGICA"/>
+      </concept>
+      <concept>
+        <code value="0905010019"/>
+        <display value="OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS"/>
+      </concept>
+      <concept>
+        <code value="0905010035"/>
+        <display value="OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - A PARTIR DE 9 ANOS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

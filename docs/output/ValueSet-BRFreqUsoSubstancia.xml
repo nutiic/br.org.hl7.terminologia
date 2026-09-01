@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRFreqUsoSubstancia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRFreqUsoSubstancia</b></p><a name="BRFreqUsoSubstancia"> </a><a name="hcBRFreqUsoSubstancia"> </a><ul><li>Include estes códigos, tal como definidos em <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a href="https://loinc.org/LA18934-2/">LA18934-2</a></td><td>Daily or almost daily</td></tr><tr><td><a href="https://loinc.org/LA26460-8/">LA26460-8</a></td><td>Once or twice</td></tr><tr><td><a href="https://loinc.org/LA18891-4/">LA18891-4</a></td><td>Weekly</td></tr><tr><td><a href="https://loinc.org/LA18876-5/">LA18876-5</a></td><td>Monthly</td></tr><tr><td><a href="https://loinc.org/LA6270-8/">LA6270-8</a></td><td>Never</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRFreqUsoSubstancia"/>
+  <version value="1.1.0"/>
+  <name value="BRFreqUsoSubstancia"/>
+  <title value="BRFreqUsoSubstancia"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="LA18934-2"/>
+        <display value="Daily or almost daily"/>
+      </concept>
+      <concept>
+        <code value="LA26460-8"/>
+        <display value="Once or twice"/>
+      </concept>
+      <concept>
+        <code value="LA18891-4"/>
+        <display value="Weekly"/>
+      </concept>
+      <concept>
+        <code value="LA18876-5"/>
+        <display value="Monthly"/>
+      </concept>
+      <concept>
+        <code value="LA6270-8"/>
+        <display value="Never"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

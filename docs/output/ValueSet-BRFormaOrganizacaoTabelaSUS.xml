@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRFormaOrganizacaoTabelaSUS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRFormaOrganizacaoTabelaSUS</b></p><a name="BRFormaOrganizacaoTabelaSUS"> </a><a name="hcBRFormaOrganizacaoTabelaSUS"> </a><ul><li>Include todos os códigos definidos em <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS</code><span title="Version is explicitly stated to be HEAD"> versão &#x1F4CD;HEAD</span></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRFormaOrganizacaoTabelaSUS"/>
+  <version value="1.1.0"/>
+  <name value="BRFormaOrganizacaoTabelaSUS"/>
+  <title value="BRFormaOrganizacaoTabelaSUS"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS"/>
+      <version value="HEAD"/>
+    </include>
+  </compose>
+</ValueSet>

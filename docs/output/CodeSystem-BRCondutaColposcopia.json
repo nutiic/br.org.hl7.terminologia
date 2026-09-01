@@ -1,0 +1,129 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRCondutaColposcopia",
+  "meta" : {
+    "lastUpdated" : "2026-01-07T18:05:25.095Z"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRCondutaColposcopia</b></p><a name=\"BRCondutaColposcopia\"> </a><a name=\"hcBRCondutaColposcopia\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2026-01-07 18:05:25+0000</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>code</td><td>code</td><td>http://hl7.org/fhir/concept-properties#code</td><td>code</td><td>Concept code</td></tr><tr><td>display</td><td>display</td><td/><td>string</td><td>Concept display text</td></tr><tr><td>definition</td><td>definition</td><td/><td>string</td><td>Concept definition text</td></tr><tr><td>inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#status</td><td>boolean</td><td>Whether concept is inactive (retired)</td></tr></table><p><b>Filtros</b></p><table class=\"grid\"><tr><td><b>Código</b></td><td><b>Descrição</b></td><td><b>Op</b></td><td><b>Valor</b></td></tr><tr><td>code</td><td>Match concept code</td><td>= in regex </td><td>code</td></tr><tr><td>display</td><td>Match concept display text</td><td>= in regex </td><td>string</td></tr><tr><td>definition</td><td>Match concept definition text</td><td>= in regex </td><td>string</td></tr><tr><td>inactive</td><td>Match inactive (retired) status</td><td>= in </td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/BRCondutaColposcopia</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">AESP<a name=\"BRCondutaColposcopia-AESP\"> </a></td><td>Prosseguir investigação na Atenção Especializada</td></tr><tr><td style=\"white-space:nowrap\">AESPABL<a name=\"BRCondutaColposcopia-AESPABL\"> </a></td><td>Prosseguir investigação na Atenção Especializada/Tratamento Ablativo</td></tr><tr><td style=\"white-space:nowrap\">ENCABL<a name=\"BRCondutaColposcopia-ENCABL\"> </a></td><td>Encaminhamento para tratamento excisional/Tratamento ablativo</td></tr><tr><td style=\"white-space:nowrap\">ENCONC<a name=\"BRCondutaColposcopia-ENCONC\"> </a></td><td>Encaminhamento para Centro de Referência em Oncologia</td></tr><tr><td style=\"white-space:nowrap\">REAV1<a name=\"BRCondutaColposcopia-REAV1\"> </a></td><td>Reavaliação em 1 (hum) ano</td></tr><tr><td style=\"white-space:nowrap\">ROT5<a name=\"BRCondutaColposcopia-ROT5\"> </a></td><td>Rotina em cinco anos</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem",
+    "valueBoolean" : true
+  }],
+  "url" : "https://terminologia.saude.gov.br/fhir/BRCondutaColposcopia",
+  "version" : "1.1.0",
+  "name" : "BRCondutaColposcopia",
+  "title" : "BRCondutaColposcopia",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-01T09:42:43-04:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "filter" : [{
+    "code" : "code",
+    "description" : "Match concept code",
+    "operator" : ["=",
+    "in",
+    "regex"],
+    "value" : "code"
+  },
+  {
+    "code" : "display",
+    "description" : "Match concept display text",
+    "operator" : ["=",
+    "in",
+    "regex"],
+    "value" : "string"
+  },
+  {
+    "code" : "definition",
+    "description" : "Match concept definition text",
+    "operator" : ["=",
+    "in",
+    "regex"],
+    "value" : "string"
+  },
+  {
+    "code" : "inactive",
+    "description" : "Match inactive (retired) status",
+    "operator" : ["=",
+    "in"],
+    "value" : "boolean"
+  }],
+  "property" : [{
+    "code" : "code",
+    "uri" : "http://hl7.org/fhir/concept-properties#code",
+    "description" : "Concept code",
+    "type" : "code"
+  },
+  {
+    "code" : "display",
+    "description" : "Concept display text",
+    "type" : "string"
+  },
+  {
+    "code" : "definition",
+    "description" : "Concept definition text",
+    "type" : "string"
+  },
+  {
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Whether concept is inactive (retired)",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "AESP",
+    "display" : "Prosseguir investigação na Atenção Especializada"
+  },
+  {
+    "code" : "AESPABL",
+    "display" : "Prosseguir investigação na Atenção Especializada/Tratamento Ablativo"
+  },
+  {
+    "code" : "ENCABL",
+    "display" : "Encaminhamento para tratamento excisional/Tratamento ablativo"
+  },
+  {
+    "code" : "ENCONC",
+    "display" : "Encaminhamento para Centro de Referência em Oncologia"
+  },
+  {
+    "code" : "REAV1",
+    "display" : "Reavaliação em 1 (hum) ano"
+  },
+  {
+    "code" : "ROT5",
+    "display" : "Rotina em cinco anos"
+  }]
+}

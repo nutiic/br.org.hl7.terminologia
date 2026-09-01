@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRObservationRestricaoIntervaloReferencia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRObservationRestricaoIntervaloReferencia</b></p><a name="BRObservationRestricaoIntervaloReferencia"> </a><a name="hcBRObservationRestricaoIntervaloReferencia"> </a><p>Esta expansão do conjunto de valores contém 8 conceitos.</p><table class="codes"><tr><td><b>Sistema</b></td><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor-05"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></td><td style="white-space:nowrap">  <a href="CodeSystem-BRRacaCor.html#BRRacaCor-05">05</a></td><td>Indígena</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor-04"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></td><td style="white-space:nowrap">  <a href="CodeSystem-BRRacaCor.html#BRRacaCor-04">04</a></td><td>Amarela</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor-03"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></td><td style="white-space:nowrap">  <a href="CodeSystem-BRRacaCor.html#BRRacaCor-03">03</a></td><td>Parda</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor-02"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></td><td style="white-space:nowrap">  <a href="CodeSystem-BRRacaCor.html#BRRacaCor-02">02</a></td><td>Preta</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor-01"> </a><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor</code></td><td style="white-space:nowrap">  <a href="CodeSystem-BRRacaCor.html#BRRacaCor-01">01</a></td><td>Branca</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-http://snomed.info/sct-77386006"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">  <a href="http://snomed.info/id/77386006">77386006</a></td><td>Pregnancy (finding)</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-http://snomed.info/sct-248153007"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">  <a href="http://snomed.info/id/248153007">248153007</a></td><td>Male (finding)</td></tr><tr><td><a name="BRObservationRestricaoIntervaloReferencia-http://snomed.info/sct-248152002"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">  <a href="http://snomed.info/id/248152002">248152002</a></td><td>Female (finding)</td></tr></table></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia"/>
+  <version value="1.1.0"/>
+  <name value="BRObservationRestricaoIntervaloReferencia"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <concept>
+        <code value="05"/>
+        <display value="Indígena"/>
+      </concept>
+      <concept>
+        <code value="04"/>
+        <display value="Amarela"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Parda"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Preta"/>
+      </concept>
+      <concept>
+        <code value="01"/>
+        <display value="Branca"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="77386006"/>
+        <display value="Pregnancy (finding)"/>
+      </concept>
+      <concept>
+        <code value="248153007"/>
+        <display value="Male (finding)"/>
+      </concept>
+      <concept>
+        <code value="248152002"/>
+        <display value="Female (finding)"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2025-07-21T15:21:10+00:00"/>
+    <contains>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <code value="05"/>
+      <display value="Indígena"/>
+    </contains>
+    <contains>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <code value="04"/>
+      <display value="Amarela"/>
+    </contains>
+    <contains>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <code value="03"/>
+      <display value="Parda"/>
+    </contains>
+    <contains>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <code value="02"/>
+      <display value="Preta"/>
+    </contains>
+    <contains>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor"/>
+      <code value="01"/>
+      <display value="Branca"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="77386006"/>
+      <display value="Pregnancy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="248153007"/>
+      <display value="Male (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="248152002"/>
+      <display value="Female (finding)"/>
+    </contains>
+  </expansion>
+</ValueSet>

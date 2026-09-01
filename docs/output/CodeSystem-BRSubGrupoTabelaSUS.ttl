@@ -1,0 +1,422 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRSubGrupoTabelaSUS"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2025-10-23T19:06:37.270Z"^^xsd:dateTime ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRSubGrupoTabelaSUS</b></p><a name=\"BRSubGrupoTabelaSUS\"> </a><a name=\"hcBRSubGrupoTabelaSUS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2025-10-23 19:06:37+0000</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>code</td><td>code</td><td>http://hl7.org/fhir/concept-properties#code</td><td>code</td><td>Concept code</td></tr><tr><td>display</td><td>display</td><td/><td>string</td><td>Concept display text</td></tr><tr><td>definition</td><td>definition</td><td/><td>string</td><td>Concept definition text</td></tr><tr><td>inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#status</td><td>boolean</td><td>Whether concept is inactive (retired)</td></tr></table><p><b>Filtros</b></p><table class=\"grid\"><tr><td><b>Código</b></td><td><b>Descrição</b></td><td><b>Op</b></td><td><b>Valor</b></td></tr><tr><td>code</td><td>Match concept code</td><td>= in regex </td><td>code</td></tr><tr><td>display</td><td>Match concept display text</td><td>= in regex </td><td>string</td></tr><tr><td>definition</td><td>Match concept definition text</td><td>= in regex </td><td>string</td></tr><tr><td>inactive</td><td>Match inactive (retired) status</td><td>= in </td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style=\"white-space:nowrap\">0101<a name=\"BRSubGrupoTabelaSUS-0101\"> </a></td><td>Ações coletivas/individuais em saúde</td></tr><tr><td style=\"white-space:nowrap\">0102<a name=\"BRSubGrupoTabelaSUS-0102\"> </a></td><td>Vigilância em saúde</td></tr><tr><td style=\"white-space:nowrap\">0201<a name=\"BRSubGrupoTabelaSUS-0201\"> </a></td><td>Coleta de material</td></tr><tr><td style=\"white-space:nowrap\">0202<a name=\"BRSubGrupoTabelaSUS-0202\"> </a></td><td>Diagnóstico em laboratório clínico</td></tr><tr><td style=\"white-space:nowrap\">0203<a name=\"BRSubGrupoTabelaSUS-0203\"> </a></td><td>Diagnóstico por anatomia patológica e citopatologia</td></tr><tr><td style=\"white-space:nowrap\">0204<a name=\"BRSubGrupoTabelaSUS-0204\"> </a></td><td>Diagnóstico por radiologia</td></tr><tr><td style=\"white-space:nowrap\">0205<a name=\"BRSubGrupoTabelaSUS-0205\"> </a></td><td>Diagnóstico por ultrasonografia</td></tr><tr><td style=\"white-space:nowrap\">0206<a name=\"BRSubGrupoTabelaSUS-0206\"> </a></td><td>Diagnóstico por tomografia</td></tr><tr><td style=\"white-space:nowrap\">0207<a name=\"BRSubGrupoTabelaSUS-0207\"> </a></td><td>Diagnóstico por ressonância magnética</td></tr><tr><td style=\"white-space:nowrap\">0208<a name=\"BRSubGrupoTabelaSUS-0208\"> </a></td><td>Diagnóstico por medicina nuclear in vivo</td></tr><tr><td style=\"white-space:nowrap\">0209<a name=\"BRSubGrupoTabelaSUS-0209\"> </a></td><td>Diagnóstico por endoscopia</td></tr><tr><td style=\"white-space:nowrap\">0210<a name=\"BRSubGrupoTabelaSUS-0210\"> </a></td><td>Diagnóstico por radiologia intervencionista</td></tr><tr><td style=\"white-space:nowrap\">0211<a name=\"BRSubGrupoTabelaSUS-0211\"> </a></td><td>Métodos diagnósticos em especialidades</td></tr><tr><td style=\"white-space:nowrap\">0212<a name=\"BRSubGrupoTabelaSUS-0212\"> </a></td><td>Diagnóstico e procedimentos especiais em hemoterapia</td></tr><tr><td style=\"white-space:nowrap\">0213<a name=\"BRSubGrupoTabelaSUS-0213\"> </a></td><td>Diagnóstico em vigilância epidemiológica e ambiental</td></tr><tr><td style=\"white-space:nowrap\">0214<a name=\"BRSubGrupoTabelaSUS-0214\"> </a></td><td>Diagnóstico por teste rápido</td></tr><tr><td style=\"white-space:nowrap\">0301<a name=\"BRSubGrupoTabelaSUS-0301\"> </a></td><td>Consultas / Atendimentos / Acompanhamentos</td></tr><tr><td style=\"white-space:nowrap\">0302<a name=\"BRSubGrupoTabelaSUS-0302\"> </a></td><td>Fisioterapia</td></tr><tr><td style=\"white-space:nowrap\">0303<a name=\"BRSubGrupoTabelaSUS-0303\"> </a></td><td>Tratamentos clínicos (outras especialidades)</td></tr><tr><td style=\"white-space:nowrap\">0304<a name=\"BRSubGrupoTabelaSUS-0304\"> </a></td><td>Tratamento em oncologia</td></tr><tr><td style=\"white-space:nowrap\">0305<a name=\"BRSubGrupoTabelaSUS-0305\"> </a></td><td>Tratamento em nefrologia</td></tr><tr><td style=\"white-space:nowrap\">0306<a name=\"BRSubGrupoTabelaSUS-0306\"> </a></td><td>Hemoterapia</td></tr><tr><td style=\"white-space:nowrap\">0307<a name=\"BRSubGrupoTabelaSUS-0307\"> </a></td><td>Tratamentos odontológicos</td></tr><tr><td style=\"white-space:nowrap\">0308<a name=\"BRSubGrupoTabelaSUS-0308\"> </a></td><td>Tratamento de lesões, envenenamentos e outros, decorrentes de causas externas</td></tr><tr><td style=\"white-space:nowrap\">0309<a name=\"BRSubGrupoTabelaSUS-0309\"> </a></td><td>Terapias especializadas</td></tr><tr><td style=\"white-space:nowrap\">0310<a name=\"BRSubGrupoTabelaSUS-0310\"> </a></td><td>Parto e nascimento</td></tr><tr><td style=\"white-space:nowrap\">0311<a name=\"BRSubGrupoTabelaSUS-0311\"> </a></td><td>Cuidados Paliativos</td></tr><tr><td style=\"white-space:nowrap\">0401<a name=\"BRSubGrupoTabelaSUS-0401\"> </a></td><td>Pequenas cirurgias e cirurgias de pele, tecido subcutâneo e mucosa</td></tr><tr><td style=\"white-space:nowrap\">0402<a name=\"BRSubGrupoTabelaSUS-0402\"> </a></td><td>Cirurgia de glândulas endócrinas</td></tr><tr><td style=\"white-space:nowrap\">0403<a name=\"BRSubGrupoTabelaSUS-0403\"> </a></td><td>Cirurgia do sistema nervoso central e periférico</td></tr><tr><td style=\"white-space:nowrap\">0404<a name=\"BRSubGrupoTabelaSUS-0404\"> </a></td><td>Cirurgia das vias aéreas superiores, da face, da cabeça e do pescoço</td></tr><tr><td style=\"white-space:nowrap\">0405<a name=\"BRSubGrupoTabelaSUS-0405\"> </a></td><td>Cirurgia do aparelho da visão</td></tr><tr><td style=\"white-space:nowrap\">0406<a name=\"BRSubGrupoTabelaSUS-0406\"> </a></td><td>Cirurgia do aparelho circulatório</td></tr><tr><td style=\"white-space:nowrap\">0407<a name=\"BRSubGrupoTabelaSUS-0407\"> </a></td><td>Cirurgia do aparelho digestivo, orgãos anexos e parede abdominal</td></tr><tr><td style=\"white-space:nowrap\">0408<a name=\"BRSubGrupoTabelaSUS-0408\"> </a></td><td>Cirurgia do sistema osteomuscular</td></tr><tr><td style=\"white-space:nowrap\">0409<a name=\"BRSubGrupoTabelaSUS-0409\"> </a></td><td>Cirurgia do aparelho geniturinário</td></tr><tr><td style=\"white-space:nowrap\">0410<a name=\"BRSubGrupoTabelaSUS-0410\"> </a></td><td>Cirurgia de mama</td></tr><tr><td style=\"white-space:nowrap\">0411<a name=\"BRSubGrupoTabelaSUS-0411\"> </a></td><td>Cirurgia obstétrica</td></tr><tr><td style=\"white-space:nowrap\">0412<a name=\"BRSubGrupoTabelaSUS-0412\"> </a></td><td>Cirurgia torácica</td></tr><tr><td style=\"white-space:nowrap\">0413<a name=\"BRSubGrupoTabelaSUS-0413\"> </a></td><td>Cirurgia reparadora</td></tr><tr><td style=\"white-space:nowrap\">0414<a name=\"BRSubGrupoTabelaSUS-0414\"> </a></td><td>Bucomaxilofacial</td></tr><tr><td style=\"white-space:nowrap\">0415<a name=\"BRSubGrupoTabelaSUS-0415\"> </a></td><td>Outras cirurgias</td></tr><tr><td style=\"white-space:nowrap\">0416<a name=\"BRSubGrupoTabelaSUS-0416\"> </a></td><td>Cirurgia em oncologia</td></tr><tr><td style=\"white-space:nowrap\">0417<a name=\"BRSubGrupoTabelaSUS-0417\"> </a></td><td>Anestesiologia</td></tr><tr><td style=\"white-space:nowrap\">0418<a name=\"BRSubGrupoTabelaSUS-0418\"> </a></td><td>Cirurgia em nefrologia</td></tr><tr><td style=\"white-space:nowrap\">0501<a name=\"BRSubGrupoTabelaSUS-0501\"> </a></td><td>Coleta e exames para fins de doação de orgãos, tecidos e células e de transplante</td></tr><tr><td style=\"white-space:nowrap\">0502<a name=\"BRSubGrupoTabelaSUS-0502\"> </a></td><td>Avaliação de morte encefálica</td></tr><tr><td style=\"white-space:nowrap\">0503<a name=\"BRSubGrupoTabelaSUS-0503\"> </a></td><td>Ações relacionadas à doação de orgãos e tecidos para transplante</td></tr><tr><td style=\"white-space:nowrap\">0504<a name=\"BRSubGrupoTabelaSUS-0504\"> </a></td><td>Processamento de tecidos para transplante</td></tr><tr><td style=\"white-space:nowrap\">0505<a name=\"BRSubGrupoTabelaSUS-0505\"> </a></td><td>Transplante de orgãos, tecidos e células</td></tr><tr><td style=\"white-space:nowrap\">0506<a name=\"BRSubGrupoTabelaSUS-0506\"> </a></td><td>Acompanhamento e intercorrências no pré e pós-transplante</td></tr><tr><td style=\"white-space:nowrap\">0601<a name=\"BRSubGrupoTabelaSUS-0601\"> </a></td><td>Medicamentos de dispensação excepcional</td></tr><tr><td style=\"white-space:nowrap\">0602<a name=\"BRSubGrupoTabelaSUS-0602\"> </a></td><td>Medicamentos estratégicos</td></tr><tr><td style=\"white-space:nowrap\">0603<a name=\"BRSubGrupoTabelaSUS-0603\"> </a></td><td>Medicamentos de âmbito hospitalar e urgência</td></tr><tr><td style=\"white-space:nowrap\">0604<a name=\"BRSubGrupoTabelaSUS-0604\"> </a></td><td>Componente Especializado da Assitencia Farmaceutica</td></tr><tr><td style=\"white-space:nowrap\">0701<a name=\"BRSubGrupoTabelaSUS-0701\"> </a></td><td>Órteses, próteses e materiais especiais não relacionados ao ato cirúrgico</td></tr><tr><td style=\"white-space:nowrap\">0702<a name=\"BRSubGrupoTabelaSUS-0702\"> </a></td><td>Órteses, próteses e materiais especiais relacionados ao ato cirúrgico</td></tr><tr><td style=\"white-space:nowrap\">0801<a name=\"BRSubGrupoTabelaSUS-0801\"> </a></td><td>Ações relacionadas ao estabelecimento</td></tr><tr><td style=\"white-space:nowrap\">0802<a name=\"BRSubGrupoTabelaSUS-0802\"> </a></td><td>Ações relacionadas ao atendimento</td></tr><tr><td style=\"white-space:nowrap\">0803<a name=\"BRSubGrupoTabelaSUS-0803\"> </a></td><td>Autorização / Regulação</td></tr><tr><td style=\"white-space:nowrap\">0804<a name=\"BRSubGrupoTabelaSUS-0804\"> </a></td><td>Telessaúde</td></tr><tr><td style=\"white-space:nowrap\">0901<a name=\"BRSubGrupoTabelaSUS-0901\"> </a></td><td>Atenção em Oncologia e a Forma de Organização</td></tr><tr><td style=\"white-space:nowrap\">0902<a name=\"BRSubGrupoTabelaSUS-0902\"> </a></td><td>Atenção em Cardiologia</td></tr><tr><td style=\"white-space:nowrap\">0903<a name=\"BRSubGrupoTabelaSUS-0903\"> </a></td><td>Atenção em Ortopedia</td></tr><tr><td style=\"white-space:nowrap\">0904<a name=\"BRSubGrupoTabelaSUS-0904\"> </a></td><td>Atenção em Otorrinolaringologia</td></tr><tr><td style=\"white-space:nowrap\">0905<a name=\"BRSubGrupoTabelaSUS-0905\"> </a></td><td>Atenção em Oftalmologia</td></tr><tr><td style=\"white-space:nowrap\">0906<a name=\"BRSubGrupoTabelaSUS-0906\"> </a></td><td>Atenção em Saúde Mulher</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS"] ;
+  fhir:CodeSystem.version [ fhir:value "1.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BRSubGrupoTabelaSUS"] ;
+  fhir:CodeSystem.title [ fhir:value "BRSubGrupoTabelaSUS"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-01T09:42:43-04:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "67"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.filter [
+     fhir:index 0 ;
+     fhir:CodeSystem.filter.code [ fhir:value "code" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept code" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.filter.code [ fhir:value "display" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept display text" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.filter.code [ fhir:value "definition" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match concept definition text" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ], [
+       fhir:value "regex" ;
+       fhir:index 2
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.filter.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.filter.description [ fhir:value "Match inactive (retired) status" ] ;
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=" ;
+       fhir:index 0
+     ], [
+       fhir:value "in" ;
+       fhir:index 1
+     ] ;
+     fhir:CodeSystem.filter.value [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.property [
+     fhir:index 0 ;
+     fhir:CodeSystem.property.code [ fhir:value "code" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#code" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept code" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.property.code [ fhir:value "display" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept display text" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.property.code [ fhir:value "definition" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Concept definition text" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Whether concept is inactive (retired)" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ações coletivas/individuais em saúde" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vigilância em saúde" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coleta de material" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico em laboratório clínico" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0203" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por anatomia patológica e citopatologia" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por radiologia" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por ultrasonografia" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0206" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por tomografia" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0207" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por ressonância magnética" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por medicina nuclear in vivo" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por endoscopia" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0210" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por radiologia intervencionista" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0211" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Métodos diagnósticos em especialidades" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0212" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico e procedimentos especiais em hemoterapia" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0213" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico em vigilância epidemiológica e ambiental" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0214" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnóstico por teste rápido" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Consultas / Atendimentos / Acompanhamentos" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0302" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fisioterapia" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0303" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamentos clínicos (outras especialidades)" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0304" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento em oncologia" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0305" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento em nefrologia" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0306" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hemoterapia" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0307" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamentos odontológicos" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0308" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tratamento de lesões, envenenamentos e outros, decorrentes de causas externas" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0309" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Terapias especializadas" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0310" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Parto e nascimento" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0311" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cuidados Paliativos" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0401" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pequenas cirurgias e cirurgias de pele, tecido subcutâneo e mucosa" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0402" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia de glândulas endócrinas" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0403" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do sistema nervoso central e periférico" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0404" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia das vias aéreas superiores, da face, da cabeça e do pescoço" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0405" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do aparelho da visão" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0406" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do aparelho circulatório" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0407" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do aparelho digestivo, orgãos anexos e parede abdominal" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0408" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do sistema osteomuscular" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0409" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia do aparelho geniturinário" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0410" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia de mama" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0411" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia obstétrica" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0412" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia torácica" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0413" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia reparadora" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0414" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bucomaxilofacial" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0415" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Outras cirurgias" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0416" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia em oncologia" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0417" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anestesiologia" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0418" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirurgia em nefrologia" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coleta e exames para fins de doação de orgãos, tecidos e células e de transplante" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0502" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Avaliação de morte encefálica" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0503" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ações relacionadas à doação de orgãos e tecidos para transplante" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0504" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Processamento de tecidos para transplante" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0505" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transplante de orgãos, tecidos e células" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0506" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Acompanhamento e intercorrências no pré e pós-transplante" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0601" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicamentos de dispensação excepcional" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0602" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicamentos estratégicos" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0603" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medicamentos de âmbito hospitalar e urgência" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0604" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Componente Especializado da Assitencia Farmaceutica" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0701" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Órteses, próteses e materiais especiais não relacionados ao ato cirúrgico" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0702" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Órteses, próteses e materiais especiais relacionados ao ato cirúrgico" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0801" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ações relacionadas ao estabelecimento" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0802" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ações relacionadas ao atendimento" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0803" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Autorização / Regulação" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0804" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Telessaúde" ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0901" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Oncologia e a Forma de Organização" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0902" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Cardiologia" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0903" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Ortopedia" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0904" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Otorrinolaringologia" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0905" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Oftalmologia" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0906" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Atenção em Saúde Mulher" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

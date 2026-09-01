@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRHPVInterpretacao"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BRHPVInterpretacao</b></p><a name=\"BRHPVInterpretacao\"> </a><a name=\"hcBRHPVInterpretacao\"> </a><ul><li>Include estes códigos, tal como definidos em <a href=\"CodeSystem-BRHPVInterpretacao.html\"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> versão Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>NAODET</td><td>NÃO DETECTADO</td></tr><tr><td>HPV16_18/45_OUT</td><td>DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr><tr><td>HPV18/45_OUT</td><td>DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr><tr><td>HPV16_OUT</td><td>DETECTADOS DNA de HPV 16 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr><tr><td>HPV16_18/45</td><td>DETECTADOS DNA de HPV 16 e DNA de HPV 18/45</td></tr><tr><td>OUTHPV</td><td>DETECTADO DNA de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr><tr><td>HPV18_45</td><td>DETECTADO DNA de HPV tipo 18/45</td></tr><tr><td>HPV16</td><td>DETECTADO DNA de HPV 16</td></tr><tr><td>HPV16_18_45_OUT</td><td>DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr><tr><td>HPV16_18_45</td><td>DETECTADOS DNA de HPV 16 e DNA de HPV 18/45</td></tr><tr><td>HPV18_45_OUT</td><td>DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao"] ;
+  fhir:ValueSet.version [ fhir:value "1.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "BRHPVInterpretacao"] ;
+  fhir:ValueSet.title [ fhir:value "BRHPVInterpretacao"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-01T09:42:43-04:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Ministério do Saúde do Brasil"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério do Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://gov.br/saude" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "contato@gointerop.com" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Italo Macedo" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "italo@gointerop.com" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ] ;
+       fhir:Coding.display [ fhir:value "Brazil" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NAODET" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "NÃO DETECTADO" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16_18/45_OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV18/45_OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16_OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV 16 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16_18/45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV 16 e DNA de HPV 18/45" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OUTHPV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADO DNA de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV18_45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADO DNA de HPV tipo 18/45" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADO DNA de HPV 16" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16_18_45_OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV16_18_45" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV 16 e DNA de HPV 18/45" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HPV18_45_OUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

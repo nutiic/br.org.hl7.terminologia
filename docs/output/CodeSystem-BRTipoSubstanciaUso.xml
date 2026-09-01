@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoSubstanciaUso"/>
+  <meta>
+    <lastUpdated value="2026-07-24T16:03:04.870Z"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRTipoSubstanciaUso</b></p><a name="BRTipoSubstanciaUso"> </a><a name="hcBRTipoSubstanciaUso"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2026-07-24 16:03:04+0000</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class="grid"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>code</td><td>code</td><td>http://hl7.org/fhir/concept-properties#code</td><td>code</td><td>Concept code</td></tr><tr><td>display</td><td>display</td><td/><td>string</td><td>Concept display text</td></tr><tr><td>definition</td><td>definition</td><td/><td>string</td><td>Concept definition text</td></tr><tr><td>inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#status</td><td>boolean</td><td>Whether concept is inactive (retired)</td></tr></table><p><b>Filtros</b></p><table class="grid"><tr><td><b>Código</b></td><td><b>Descrição</b></td><td><b>Op</b></td><td><b>Valor</b></td></tr><tr><td>code</td><td>Match concept code</td><td>= in regex </td><td>code</td></tr><tr><td>display</td><td>Match concept display text</td><td>= in regex </td><td>string</td></tr><tr><td>definition</td><td>Match concept definition text</td><td>= in regex </td><td>string</td></tr><tr><td>inactive</td><td>Match inactive (retired) status</td><td>= in </td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">alcool<a name="BRTipoSubstanciaUso-alcool"> </a></td><td>Bebidas Alcóolicas</td></tr><tr><td style="white-space:nowrap">alucinogeno<a name="BRTipoSubstanciaUso-alucinogeno"> </a></td><td>Alucinógenos</td></tr><tr><td style="white-space:nowrap">anfetamina<a name="BRTipoSubstanciaUso-anfetamina"> </a></td><td>Anfetaminas ou Êxtase</td></tr><tr><td style="white-space:nowrap">cocaina<a name="BRTipoSubstanciaUso-cocaina"> </a></td><td>Cocaína</td></tr><tr><td style="white-space:nowrap">crack<a name="BRTipoSubstanciaUso-crack"> </a></td><td>Crack</td></tr><tr><td style="white-space:nowrap">deriv-tabaco<a name="BRTipoSubstanciaUso-deriv-tabaco"> </a></td><td>Derivados do Tabaco</td></tr><tr><td style="white-space:nowrap">hipno-seda<a name="BRTipoSubstanciaUso-hipno-seda"> </a></td><td>Hipnóticos ou Sedativos</td></tr><tr><td style="white-space:nowrap">inalante<a name="BRTipoSubstanciaUso-inalante"> </a></td><td>Inalantes</td></tr><tr><td style="white-space:nowrap">maconha<a name="BRTipoSubstanciaUso-maconha"> </a></td><td>Maconha</td></tr><tr><td style="white-space:nowrap">opio<a name="BRTipoSubstanciaUso-opio"> </a></td><td>Opióides ou Opiáceos</td></tr></table></div>
+  </text>
+  <extension url="http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem">
+    <valueBoolean value="true"/>
+  </extension>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoSubstanciaUso"/>
+  <title value="BRTipoSubstanciaUso"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <filter>
+    <code value="code"/>
+    <description value="Match concept code"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="code"/>
+  </filter>
+  <filter>
+    <code value="display"/>
+    <description value="Match concept display text"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="string"/>
+  </filter>
+  <filter>
+    <code value="definition"/>
+    <description value="Match concept definition text"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="string"/>
+  </filter>
+  <filter>
+    <code value="inactive"/>
+    <description value="Match inactive (retired) status"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <value value="boolean"/>
+  </filter>
+  <property>
+    <code value="code"/>
+    <uri value="http://hl7.org/fhir/concept-properties#code"/>
+    <description value="Concept code"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="display"/>
+    <description value="Concept display text"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="definition"/>
+    <description value="Concept definition text"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="inactive"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Whether concept is inactive (retired)"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="alcool"/>
+    <display value="Bebidas Alcóolicas"/>
+  </concept>
+  <concept>
+    <code value="alucinogeno"/>
+    <display value="Alucinógenos"/>
+  </concept>
+  <concept>
+    <code value="anfetamina"/>
+    <display value="Anfetaminas ou Êxtase"/>
+  </concept>
+  <concept>
+    <code value="cocaina"/>
+    <display value="Cocaína"/>
+  </concept>
+  <concept>
+    <code value="crack"/>
+    <display value="Crack"/>
+  </concept>
+  <concept>
+    <code value="deriv-tabaco"/>
+    <display value="Derivados do Tabaco"/>
+  </concept>
+  <concept>
+    <code value="hipno-seda"/>
+    <display value="Hipnóticos ou Sedativos"/>
+  </concept>
+  <concept>
+    <code value="inalante"/>
+    <display value="Inalantes"/>
+  </concept>
+  <concept>
+    <code value="maconha"/>
+    <display value="Maconha"/>
+  </concept>
+  <concept>
+    <code value="opio"/>
+    <display value="Opióides ou Opiáceos"/>
+  </concept>
+</CodeSystem>

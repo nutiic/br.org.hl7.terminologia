@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRCondutaTeleconsultoria"/>
+  <meta>
+    <lastUpdated value="2026-06-10T14:04:00.224Z"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: CodeSystem BRCondutaTeleconsultoria</b></p><a name="BRCondutaTeleconsultoria"> </a><a name="hcBRCondutaTeleconsultoria"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Última atualização: 2026-06-10 14:04:00+0000</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class="grid"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>code</td><td>code</td><td>http://hl7.org/fhir/concept-properties#code</td><td>code</td><td>Concept code</td></tr><tr><td>display</td><td>display</td><td/><td>string</td><td>Concept display text</td></tr><tr><td>definition</td><td>definition</td><td/><td>string</td><td>Concept definition text</td></tr><tr><td>inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#status</td><td>boolean</td><td>Whether concept is inactive (retired)</td></tr></table><p><b>Filtros</b></p><table class="grid"><tr><td><b>Código</b></td><td><b>Descrição</b></td><td><b>Op</b></td><td><b>Valor</b></td></tr><tr><td>code</td><td>Match concept code</td><td>= in regex </td><td>code</td></tr><tr><td>display</td><td>Match concept display text</td><td>= in regex </td><td>string</td></tr><tr><td>definition</td><td>Match concept definition text</td><td>= in regex </td><td>string</td></tr><tr><td>inactive</td><td>Match inactive (retired) status</td><td>= in </td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria</code> define o seguinte códigos:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td style="white-space:nowrap">alta<a name="BRCondutaTeleconsultoria-alta"> </a></td><td>Alta do caso ou episódio</td></tr><tr><td style="white-space:nowrap">atencao-domiciliar<a name="BRCondutaTeleconsultoria-atencao-domiciliar"> </a></td><td>Encaminhamento para a Atenção Domiciliar</td></tr><tr><td style="white-space:nowrap">caps<a name="BRCondutaTeleconsultoria-caps"> </a></td><td>Encaminhamento para CAPS</td></tr><tr><td style="white-space:nowrap">encaminhamento-especialista<a name="BRCondutaTeleconsultoria-encaminhamento-especialista"> </a></td><td>Encaminhamento para consulta presencial com especialista</td></tr><tr><td style="white-space:nowrap">encaminhamento-teleconsultoria<a name="BRCondutaTeleconsultoria-encaminhamento-teleconsultoria"> </a></td><td>Encaminhamento para teleconsultoria em outra especialidade&quot;</td></tr><tr><td style="white-space:nowrap">exames-complementares<a name="BRCondutaTeleconsultoria-exames-complementares"> </a></td><td>Encaminhamento para realização de exames complementares</td></tr><tr><td style="white-space:nowrap">internacao<a name="BRCondutaTeleconsultoria-internacao"> </a></td><td>Encaminhamento para internação hospitalar</td></tr><tr><td style="white-space:nowrap">retorno-servico<a name="BRCondutaTeleconsultoria-retorno-servico"> </a></td><td>Retorno no próprio serviço</td></tr><tr><td style="white-space:nowrap">saude-trabalhador<a name="BRCondutaTeleconsultoria-saude-trabalhador"> </a></td><td>Encaminhamento para serviço de referência em Saúde do Trabalhador</td></tr><tr><td style="white-space:nowrap">urgencia<a name="BRCondutaTeleconsultoria-urgencia"> </a></td><td>Encaminhamento para serviço de urgência</td></tr></table></div>
+  </text>
+  <extension url="http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem">
+    <valueBoolean value="true"/>
+  </extension>
+  <url value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria"/>
+  <version value="1.1.0"/>
+  <name value="BRCondutaTeleconsultoria"/>
+  <title value="BRCondutaTeleconsultoria"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <filter>
+    <code value="code"/>
+    <description value="Match concept code"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="code"/>
+  </filter>
+  <filter>
+    <code value="display"/>
+    <description value="Match concept display text"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="string"/>
+  </filter>
+  <filter>
+    <code value="definition"/>
+    <description value="Match concept definition text"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <operator value="regex"/>
+    <value value="string"/>
+  </filter>
+  <filter>
+    <code value="inactive"/>
+    <description value="Match inactive (retired) status"/>
+    <operator value="="/>
+    <operator value="in"/>
+    <value value="boolean"/>
+  </filter>
+  <property>
+    <code value="code"/>
+    <uri value="http://hl7.org/fhir/concept-properties#code"/>
+    <description value="Concept code"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="display"/>
+    <description value="Concept display text"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="definition"/>
+    <description value="Concept definition text"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="inactive"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Whether concept is inactive (retired)"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="alta"/>
+    <display value="Alta do caso ou episódio"/>
+  </concept>
+  <concept>
+    <code value="atencao-domiciliar"/>
+    <display value="Encaminhamento para a Atenção Domiciliar"/>
+  </concept>
+  <concept>
+    <code value="caps"/>
+    <display value="Encaminhamento para CAPS"/>
+  </concept>
+  <concept>
+    <code value="encaminhamento-especialista"/>
+    <display value="Encaminhamento para consulta presencial com especialista"/>
+  </concept>
+  <concept>
+    <code value="encaminhamento-teleconsultoria"/>
+    <display value="Encaminhamento para teleconsultoria em outra especialidade&quot;"/>
+  </concept>
+  <concept>
+    <code value="exames-complementares"/>
+    <display value="Encaminhamento para realização de exames complementares"/>
+  </concept>
+  <concept>
+    <code value="internacao"/>
+    <display value="Encaminhamento para internação hospitalar"/>
+  </concept>
+  <concept>
+    <code value="retorno-servico"/>
+    <display value="Retorno no próprio serviço"/>
+  </concept>
+  <concept>
+    <code value="saude-trabalhador"/>
+    <display value="Encaminhamento para serviço de referência em Saúde do Trabalhador"/>
+  </concept>
+  <concept>
+    <code value="urgencia"/>
+    <display value="Encaminhamento para serviço de urgência"/>
+  </concept>
+</CodeSystem>

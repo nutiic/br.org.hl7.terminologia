@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BROrtesesProtesesImplantaveis"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BROrtesesProtesesImplantaveis</b></p><a name="BROrtesesProtesesImplantaveis"> </a><a name="hcBROrtesesProtesesImplantaveis"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BROrtesesProtesesImplantaveis.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>0000000143</td><td>Órtese brônquica reta expansível sintética</td></tr><tr><td>0000000142</td><td>Órtese brônquica reta não
+expansível sintética</td></tr><tr><td>0000000285</td><td>Válvula brônquica para
+tratamento de fuga aérea e  sintética</td></tr><tr><td>0000000141</td><td>Órtese auto-expansível de vias
+bilio-pancreáticas auto-expansível metálica</td></tr><tr><td>0000000284</td><td>Tubo de ventilação para
+ouvido médio permanente sintético</td></tr><tr><td>0000000140</td><td>Órtese auto-expansível de vias
+bilio-pancreáticas auto-expansível
+vários tamanhos sintética</td></tr><tr><td>0000000283</td><td>Tubo de ventilação para
+ouvido médio temporário sintético</td></tr><tr><td>0000000139</td><td>Órtese auto-expansível de  sintética</td></tr><tr><td>0000000282</td><td>Tela para correção de incontinência
+urinária masculina sintética</td></tr><tr><td>0000000138</td><td>Órtese auto-expansível de reto auto-expansível metálica</td></tr><tr><td>0000000281</td><td>Tela para correção de incontinência
+urinária feminina sintética</td></tr><tr><td>0000000137</td><td>Órtese auto-expansível de intestino delgado auto-expansível metálica</td></tr><tr><td>0000000280</td><td>Tela  absorvível</td></tr><tr><td>0000000136</td><td>Órtese auto-expansível de estômago auto-expansível metálica</td></tr><tr><td>0000000279</td><td>Tela  sintética / biológica</td></tr><tr><td>0000000135</td><td>Órtese auto-expansível de auto-expansível plástica</td></tr><tr><td>0000000278</td><td>Tela  inorgânica e sintética</td></tr><tr><td>0000000134</td><td>Órtese auto-expansível de esôfago auto-expansível metálica</td></tr><tr><td>0000000277</td><td>Suspensor palpebral vários tamanhos biológica/sintética</td></tr><tr><td>0000000133</td><td>Órtese auto-expansível de duodeno auto-expansível metálica</td></tr><tr><td>0000000276</td><td>Stent vascular vários tamanhos metálico/sintético</td></tr><tr><td>0000000132</td><td>Órtese auto-expansível de cólon auto-expansível metálica</td></tr><tr><td>0000000275</td><td>Stent vascular artérias ilíacas metálico/sintético</td></tr><tr><td>0000000131</td><td>Molde laríngeo  sintética</td></tr><tr><td>0000000274</td><td>Stent vascular artérias viscerais metálico/sintético</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis"/>
+  <version value="1.1.0"/>
+  <name value="BROrtesesProtesesImplantaveis"/>
+  <title value="BROrtesesProtesesImplantaveis"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis"/>
+      <concept>
+        <code value="0000000143"/>
+        <display value="Órtese brônquica reta expansível sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000142"/>
+        <display value="Órtese brônquica reta não&#xA;expansível sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000285"/>
+        <display value="Válvula brônquica para&#xA;tratamento de fuga aérea e  sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000141"/>
+        <display value="Órtese auto-expansível de vias&#xA;bilio-pancreáticas auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000284"/>
+        <display value="Tubo de ventilação para&#xA;ouvido médio permanente sintético"/>
+      </concept>
+      <concept>
+        <code value="0000000140"/>
+        <display value="Órtese auto-expansível de vias&#xA;bilio-pancreáticas auto-expansível&#xA;vários tamanhos sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000283"/>
+        <display value="Tubo de ventilação para&#xA;ouvido médio temporário sintético"/>
+      </concept>
+      <concept>
+        <code value="0000000139"/>
+        <display value="Órtese auto-expansível de  sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000282"/>
+        <display value="Tela para correção de incontinência&#xA;urinária masculina sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000138"/>
+        <display value="Órtese auto-expansível de reto auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000281"/>
+        <display value="Tela para correção de incontinência&#xA;urinária feminina sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000137"/>
+        <display value="Órtese auto-expansível de intestino delgado auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000280"/>
+        <display value="Tela  absorvível"/>
+      </concept>
+      <concept>
+        <code value="0000000136"/>
+        <display value="Órtese auto-expansível de estômago auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000279"/>
+        <display value="Tela  sintética / biológica"/>
+      </concept>
+      <concept>
+        <code value="0000000135"/>
+        <display value="Órtese auto-expansível de auto-expansível plástica"/>
+      </concept>
+      <concept>
+        <code value="0000000278"/>
+        <display value="Tela  inorgânica e sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000134"/>
+        <display value="Órtese auto-expansível de esôfago auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000277"/>
+        <display value="Suspensor palpebral vários tamanhos biológica/sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000133"/>
+        <display value="Órtese auto-expansível de duodeno auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000276"/>
+        <display value="Stent vascular vários tamanhos metálico/sintético"/>
+      </concept>
+      <concept>
+        <code value="0000000132"/>
+        <display value="Órtese auto-expansível de cólon auto-expansível metálica"/>
+      </concept>
+      <concept>
+        <code value="0000000275"/>
+        <display value="Stent vascular artérias ilíacas metálico/sintético"/>
+      </concept>
+      <concept>
+        <code value="0000000131"/>
+        <display value="Molde laríngeo  sintética"/>
+      </concept>
+      <concept>
+        <code value="0000000274"/>
+        <display value="Stent vascular artérias viscerais metálico/sintético"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,158 @@
+# BR.GOV.SAUDE.TERMINOLOGIA.FHIR\BRBaseLegalLGPD - FHIR v4.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Lista de artefatos**](artifacts.md)
+* **BRBaseLegalLGPD**
+
+## CodeSystem: BRBaseLegalLGPD 
+
+| | |
+| :--- | :--- |
+| *URL Canônica*:https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD | *Versão*:1.1.0 |
+| Active as of 2026-09-01 | *Nome computável*:BRBaseLegalLGPD |
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [BRBaseLegalLGPD](ValueSet-BRBaseLegalLGPD.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRBaseLegalLGPD",
+  "meta" : {
+    "lastUpdated" : "2026-03-19T20:06:46.831Z"
+  },
+  "extension" : [{
+    "url" : "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem",
+    "valueBoolean" : true
+  }],
+  "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD",
+  "version" : "1.1.0",
+  "name" : "BRBaseLegalLGPD",
+  "title" : "BRBaseLegalLGPD",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-09-01T09:42:43-04:00",
+  "publisher" : "Ministério do Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério do Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://gov.br/saude"
+    },
+    {
+      "system" : "email",
+      "value" : "contato@gointerop.com"
+    }]
+  },
+  {
+    "name" : "Italo Macedo",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "italo@gointerop.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR",
+      "display" : "Brazil"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "filter" : [{
+    "code" : "code",
+    "description" : "Match concept code",
+    "operator" : ["=", "in", "regex"],
+    "value" : "code"
+  },
+  {
+    "code" : "display",
+    "description" : "Match concept display text",
+    "operator" : ["=", "in", "regex"],
+    "value" : "string"
+  },
+  {
+    "code" : "definition",
+    "description" : "Match concept definition text",
+    "operator" : ["=", "in", "regex"],
+    "value" : "string"
+  },
+  {
+    "code" : "inactive",
+    "description" : "Match inactive (retired) status",
+    "operator" : ["=", "in"],
+    "value" : "boolean"
+  }],
+  "property" : [{
+    "code" : "code",
+    "uri" : "http://hl7.org/fhir/concept-properties#code",
+    "description" : "Concept code",
+    "type" : "code"
+  },
+  {
+    "code" : "display",
+    "description" : "Concept display text",
+    "type" : "string"
+  },
+  {
+    "code" : "definition",
+    "description" : "Concept definition text",
+    "type" : "string"
+  },
+  {
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Whether concept is inactive (retired)",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "CONSENT",
+    "display" : "Consentimento do Titular"
+  },
+  {
+    "code" : "EXECONTRATO",
+    "display" : "Execução de Contrato"
+  },
+  {
+    "code" : "EXECPOLPUB",
+    "display" : "Execução de Políticas Públicas"
+  },
+  {
+    "code" : "EXERDIREITO",
+    "display" : "Exercício Regular de Direitos"
+  },
+  {
+    "code" : "LEGINTER",
+    "display" : "Legítimo Interesse"
+  },
+  {
+    "code" : "OBRILEGAL",
+    "display" : "Obrigação Legal ou Regulatória"
+  },
+  {
+    "code" : "PESQUISA",
+    "display" : "Estudos por órgão de pesquisa"
+  },
+  {
+    "code" : "PROTCRED",
+    "display" : "Proteção do Crédito"
+  },
+  {
+    "code" : "PROTVIDA",
+    "display" : "Proteção da Vida"
+  },
+  {
+    "code" : "TUTSAUDE",
+    "display" : "Tutela da Saude"
+  }]
+}
+
+```

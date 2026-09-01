@@ -16,15 +16,28 @@ echo "$txoption"
 
 export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
 
+OUTPUT_DIR=${OUTPUT_DIR:-docs}
+
 publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
-	java -jar $publisher -ig . $txoption $*
+  java -jar $publisher -ig . $txoption $*
 
 else
-	publisher=../$publisher_jar
-	if test -f "$publisher"; then
-		java -jar $publisher -ig . $txoption $*
-	else
-		echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
-	fi
+  publisher=../$publisher_jar
+  if test -f "$publisher"; then
+    java -jar $publisher -ig . $txoption $*
+  else
+    echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
+    exit 1
+  fi
+fi
+
+if [ -d "output" ]; then
+  echo "Moving generated site from output/ to $OUTPUT_DIR/"
+  rm -rf "$OUTPUT_DIR"
+  mkdir -p "$OUTPUT_DIR"
+  mv output "$OUTPUT_DIR"
+  echo "Site copied to $OUTPUT_DIR/"
+else
+  echo "No output/ folder generated; nothing to copy."
 fi

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoDeficiencia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narrativa gerada: ValueSet BRTipoDeficiencia</b></p><a name="BRTipoDeficiencia"> </a><a name="hcBRTipoDeficiencia"> </a><ul><li>Include estes códigos, tal como definidos em <a href="CodeSystem-BRTipoDeficiencia.html"><code>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</code></a><span title="Version is not explicitly stated. No matching Code System found"> versão Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td></tr><tr><td>DEFVIS</td><td>Deficiência Visual</td></tr><tr><td>DEFINT</td><td>Deficiência Intelectual</td></tr><tr><td>DEFPSI</td><td>Deficiência Psicosocial</td></tr><tr><td>DEFAUDIT</td><td>Deficiência Auditiva</td></tr><tr><td>DEFFISICA</td><td>Deficiência Física</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDeficiencia"/>
+  <version value="1.1.0"/>
+  <name value="BRTipoDeficiencia"/>
+  <title value="BRTipoDeficiencia"/>
+  <status value="active"/>
+  <date value="2026-09-01T09:42:43-04:00"/>
+  <publisher value="Ministério do Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério do Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://gov.br/saude"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="contato@gointerop.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Italo Macedo"/>
+    <telecom>
+      <system value="email"/>
+      <value value="italo@gointerop.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+      <display value="Brazil"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia"/>
+      <concept>
+        <code value="DEFVIS"/>
+        <display value="Deficiência Visual"/>
+      </concept>
+      <concept>
+        <code value="DEFINT"/>
+        <display value="Deficiência Intelectual"/>
+      </concept>
+      <concept>
+        <code value="DEFPSI"/>
+        <display value="Deficiência Psicosocial"/>
+      </concept>
+      <concept>
+        <code value="DEFAUDIT"/>
+        <display value="Deficiência Auditiva"/>
+      </concept>
+      <concept>
+        <code value="DEFFISICA"/>
+        <display value="Deficiência Física"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

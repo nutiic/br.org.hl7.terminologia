@@ -1,0 +1,935 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>TerminologiaBrasil : Terminology Server Report</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Terminology Server Report for TerminologiaBrasil</h1>
+ <p>Generated Tue Sep 01 09:47:29 AMT 2026, FHIR version 4.0.1 for br.gov.saude.terminologia.fhir#1.1.0 (canonical = <a href="https://terminologia.saude.gov.br/fhir">https://terminologia.saude.gov.br/fhir</a> (<a href="https://terminologia.saude.gov.br/fhir/history.html">history</a>))</p>
+<p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
+<h2>Terminology Parameters</h2>
+<ul>
+  <li>
+    <b>x-system-cache-id</b>
+:     <code>dc8fd4bc-091a-424a-8a3b-6198ef146891</code>
+  </li>
+  <li>
+    <b>defaultDisplayLanguage</b>
+:     <code>pt</code>
+  </li>
+</ul>
+<h2>Tx Manager report for 'https://tx.fhir.org/tx-reg'</h2>
+<p>
+  <b>Decisions</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>Message</b>
+    </td>
+    <td>
+      <b>Server</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Systems</b>
+    </td>
+    <td>
+      <b>Choices</b>
+    </td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias|1.1.0</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias|1.1.0</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org|3.1.0</td>
+    <td>[http://loinc.org|3.1.0]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia|1.1.0</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia|1.1.0]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for urn:iso:std:iso:3166</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>[urn:iso:std:iso:3166]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.hl7.cz/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-50</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-50]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-50</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-50]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-51</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-51]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-51</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-51]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias in pt]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias in pt]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://178.104.103.200.sslip.io/tx/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-22</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-22]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-22</td>
+    <td>[https://fhir.ans.gov.br/CodeSystem/tuss-22]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>[https://mangara.hsl.org.br/fhir/CodeSystem/etnias]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>[https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS]: authoritative = , candidates=</td>
+  </tr>
+</table>
+<h2>Primary Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 33. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+  <tr>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-22</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-50</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://fhir.ans.gov.br/CodeSystem/tuss-51</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias</td>
+    <td>2</td>
+    <td>2</td>
+    <td>
+      <a href="CodeSystem-BREtniasMangara.html">BREtniasMangara</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://mangara.hsl.org.br/fhir/CodeSystem/etnias|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BREtniasMangara.html">BREtniasMangara</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRConclusaoColposcopia.html">BRConclusaoColposcopia</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRConclusaoColposcopia.html">BRConclusaoColposcopia</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRCondicaoAmostra.html">BRCondicaoAmostra</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondicaoAmostra|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRCondicaoAmostra.html">BRCondicaoAmostra</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS|HEAD</td>
+    <td>1</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRHPVInterpretacao.html">BRHPVInterpretacao</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRHPVInterpretacao.html">BRHPVInterpretacao</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeTelessaude</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRMotivoRealizacaoExame.html">BRMotivoRealizacaoExame</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRMotivoRealizacaoExame.html">BRMotivoRealizacaoExame</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoTeleconsultoria</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BROrtesesProtesesImplantaveis.html">BROrtesesProtesesImplantaveis</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BROrtesesProtesesImplantaveis.html">BROrtesesProtesesImplantaveis</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</td>
+    <td>14</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRTabelaSUS.html">BRTabelaSUS</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRTabelaSUS.html">BRTabelaSUS</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS|HEAD</td>
+    <td>1</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia</td>
+    <td>2</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRTipoDeficiencia.html">BRTipoDeficiencia</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDeficiencia|1.1.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-BRTipoDeficiencia.html">BRTipoDeficiencia</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
