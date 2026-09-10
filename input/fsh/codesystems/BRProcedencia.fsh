@@ -2,7 +2,7 @@ CodeSystem: BRProcedencia
 Id: BRProcedencia
 Title: "BRProcedencia"
 * ^meta.lastUpdated = "2025-06-02T18:46:34.954+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

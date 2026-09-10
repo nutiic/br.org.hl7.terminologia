@@ -2,8 +2,8 @@ TerminologiaBrasil : Validation Results
 =========================================
 
 err = 156, warn = 699, info = 1223
-IG Publisher Version: 2.3.3
-Generated Tue Sep 01 09:47:29 AMT 2026. FHIR version 4.0.1 for br.gov.saude.terminologia.fhir#1.1.0 (canonical = https://terminologia.saude.gov.br/fhir)
+IG Publisher Version: 2.3.3 Out of date - current version is 2.3.4
+Generated Thu Sep 10 12:06:41 AMT 2026. FHIR version 4.0.1 for br.gov.saude.terminologia.fhir#1.1.0 (canonical = https://terminologia.saude.gov.br/fhir)
  Build Errors : 0 / 24 / 0
  /home/raphael/Codigo/git/br.org.hl7.terminologia/fsh-generated/resources/CodeSystem-BRAlergenosCBARA : 0 / 2 / 2
  /home/raphael/Codigo/git/br.org.hl7.terminologia/fsh-generated/resources/CodeSystem-BRAtendimentoPrestado : 0 / 2 / 2

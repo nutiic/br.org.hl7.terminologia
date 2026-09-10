@@ -2,7 +2,7 @@ CodeSystem: BRResponsabilidadeParticipante
 Id: BRResponsabilidadeParticipante
 Title: "BRResponsabilidadeParticipante"
 * ^meta.lastUpdated = "2025-06-02T17:38:25.666+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

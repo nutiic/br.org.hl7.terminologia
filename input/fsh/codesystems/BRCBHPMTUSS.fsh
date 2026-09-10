@@ -2,7 +2,7 @@ CodeSystem: BRCBHPMTUSS
 Id: BRCBHPMTUSS
 Title: "BRCBHPMTUSS"
 * ^meta.lastUpdated = "2025-07-17T17:36:49.899+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

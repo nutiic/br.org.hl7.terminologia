@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *URL Canônica*:https://terminologia.saude.gov.br/fhir/CodeSystem/BRGrupoAtendimento | *Versão*:1.1.0 |
-| Active as of 2026-09-01 | *Nome computável*:BRGrupoAtendimento |
+| Active as of 2026-09-10 | *Nome computável*:BRGrupoAtendimento |
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -36,7 +36,7 @@
   "title" : "BRGrupoAtendimento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-01T09:42:43-04:00",
+  "date" : "2026-09-10T12:01:58-04:00",
   "publisher" : "Ministério do Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério do Saúde do Brasil",

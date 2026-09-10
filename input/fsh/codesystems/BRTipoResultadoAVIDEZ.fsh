@@ -2,7 +2,7 @@ CodeSystem: BRTipoResultadoAVIDEZ
 Id: BRTipoResultadoAVIDEZ
 Title: "BRTipoResultadoAVIDEZ"
 * ^meta.lastUpdated = "2025-07-17T17:39:13.499+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *URL Canônica*:https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia | *Versão*:1.1.0 |
-| Active as of 2026-09-01 | *Nome computável*:BRObservationRestricaoIntervaloReferencia |
+| Active as of 2026-09-10 | *Nome computável*:BRObservationRestricaoIntervaloReferencia |
 
  **References** 
 
@@ -46,7 +46,7 @@ Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local
   "version" : "1.1.0",
   "name" : "BRObservationRestricaoIntervaloReferencia",
   "status" : "active",
-  "date" : "2026-09-01T09:42:43-04:00",
+  "date" : "2026-09-10T12:01:58-04:00",
   "publisher" : "Ministério do Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério do Saúde do Brasil",

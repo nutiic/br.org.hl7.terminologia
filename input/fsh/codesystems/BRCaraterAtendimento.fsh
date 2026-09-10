@@ -2,7 +2,7 @@ CodeSystem: BRCaraterAtendimento
 Id: BRCaraterAtendimento
 Title: "BRCaraterAtendimento"
 * ^meta.lastUpdated = "2025-06-02T14:55:21.222+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

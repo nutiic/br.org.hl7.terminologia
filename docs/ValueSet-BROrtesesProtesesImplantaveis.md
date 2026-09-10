@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *URL Canônica*:https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis | *Versão*:1.1.0 |
-| Active as of 2026-09-01 | *Nome computável*:BROrtesesProtesesImplantaveis |
+| Active as of 2026-09-10 | *Nome computável*:BROrtesesProtesesImplantaveis |
 
  **References** 
 
@@ -49,7 +49,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "BROrtesesProtesesImplantaveis",
   "title" : "BROrtesesProtesesImplantaveis",
   "status" : "active",
-  "date" : "2026-09-01T09:42:43-04:00",
+  "date" : "2026-09-10T12:01:58-04:00",
   "publisher" : "Ministério do Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério do Saúde do Brasil",

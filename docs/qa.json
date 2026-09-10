@@ -7,8 +7,8 @@
   "status" : "active",
   "package-id" : "br.gov.saude.terminologia.fhir",
   "ig-ver" : "1.1.0",
-  "date" : "Tue, 01 Sep, 2026 09:42:43 -0400",
-  "dateISO8601" : "2026-09-01T09:42:43-04:00",
+  "date" : "Thu, 10 Sep, 2026 12:01:58 -0400",
+  "dateISO8601" : "2026-09-10T12:01:58-04:00",
   "errs" : 156,
   "warnings" : 699,
   "hints" : 1223,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2704236280
+  "maxMemory" : 2184547528
 }

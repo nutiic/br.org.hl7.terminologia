@@ -1,7 +1,7 @@
 ValueSet: BRTipoDocumentoIndividuo
 Id: BRTipoDocumentoIndividuo
 Title: "BR Tipo Documento Individuo"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^date = "2026-03-09T15:10:29-03:00"
 * ^publisher = "Ministério do Saúde do Brasil"

@@ -2,7 +2,7 @@ CodeSystem: FormaOrganizacao
 Id: FormaOrganizacao
 Title: "FormaOrganizacao"
 * ^meta.lastUpdated = "2025-07-08T17:53:57.078+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

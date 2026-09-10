@@ -2,7 +2,7 @@ CodeSystem: BRLocalAplicacao
 Id: BRLocalAplicacao
 Title: "BRLocalAplicacao"
 * ^meta.lastUpdated = "2025-07-16T16:49:36.124+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

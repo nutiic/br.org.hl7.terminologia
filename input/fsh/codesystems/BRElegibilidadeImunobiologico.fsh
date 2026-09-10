@@ -2,7 +2,7 @@ CodeSystem: BRElegibilidadeImunobiologico
 Id: BRElegibilidadeImunobiologico
 Title: "BRElegibilidadeImunobiologico"
 * ^meta.lastUpdated = "2024-09-26T21:11:45.222+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

@@ -2,7 +2,7 @@ CodeSystem: BRIBGE
 Id: BRIBGE
 Title: "BRIBGE"
 * ^meta.lastUpdated = "2024-09-06T13:44:55.239+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

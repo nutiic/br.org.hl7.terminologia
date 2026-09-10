@@ -2,7 +2,7 @@ CodeSystem: BRProgramaSaude
 Id: BRProgramaSaude
 Title: "BRProgramaSaude"
 * ^meta.lastUpdated = "2024-12-18T20:40:39.501+00:00"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-03-09T15:10:29-03:00"

@@ -121,8 +121,8 @@
     "ValueSet-BRFreqUsoSubstancia.html" : "BRFreqUsoSubstancia",
     "ValueSet-BRNomeExame.html" : "BR Nome Exame",
     "ValueSet-BRExameHPV.html" : "BRExameHPV",
-    "ValueSet-BRTipoObservacao.html" : "BR Tipo Observacao",
-    "ValueSet-BRSinaisVitais.html" : "BR Sinais Vitais"
+    "ValueSet-BRSinaisVitais.html" : "BR Sinais Vitais",
+    "ValueSet-BRTipoObservacao.html" : "BR Tipo Observacao"
   },
   {
     "url" : "http://snomed.info/sct",
@@ -134,9 +134,9 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
+    "ValueSet-BRIdentidadeGenero.html" : "BR Identidade Genero",
     "ValueSet-BRDeficiencias.html" : "BRDeficiencias",
     "ValueSet-BRObservationRestricaoIntervaloReferencia.html" : "BRObservationRestricaoIntervaloReferencia",
-    "ValueSet-BRIdentidadeGenero.html" : "BR Identidade Genero",
     "ValueSet-BRObservationReferencia.html" : "BR Observation Referencia"
   },
   {
@@ -185,8 +185,8 @@
     "oids" : ["2.16.840.1.113883.18.108"],
     "uses" : {
     },
-    "ValueSet-BRTipoIdentificador.html" : "BR Tipo Identificador",
-    "ValueSet-BRTipoDocumentoIndividuo.html" : "BR Tipo Documento Individuo"
+    "ValueSet-BRTipoDocumentoIndividuo.html" : "BR Tipo Documento Individuo",
+    "ValueSet-BRTipoIdentificador.html" : "BR Tipo Identificador"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0487",
@@ -234,10 +234,10 @@
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
-    "ValueSet-BREstadoCivil.html" : "BR Estado Civil",
-    "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas.html" : "BR Categoria Agente Alergias Reacoes Adversas",
     "ValueSet-BRSexoNascimento.html" : "BR Sexo Nascimento",
-    "ValueSet-BRIdentidadeGenero.html" : "BR Identidade Genero"
+    "ValueSet-BRIdentidadeGenero.html" : "BR Identidade Genero",
+    "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas.html" : "BR Categoria Agente Alergias Reacoes Adversas",
+    "ValueSet-BREstadoCivil.html" : "BR Estado Civil"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -327,11 +327,11 @@
     "uses" : {
     },
     "ValueSet-BRCID10.html" : "BRCID 10",
-    "ValueSet-BRDeficiencias.html" : "BRDeficiencias",
     "ValueSet-BRReasonEncounter.html" : "BR Reason Encounter",
-    "ValueSet-BRTerminologiaSuspeitaDiagnostica.html" : "BR Terminologia Suspeita Diagnostica",
     "ValueSet-BRProblemaDiagnostico.html" : "BR Problema Diagnostico",
-    "ValueSet-BRExameHPV.html" : "BRExameHPV"
+    "ValueSet-BRTerminologiaSuspeitaDiagnostica.html" : "BR Terminologia Suspeita Diagnostica",
+    "ValueSet-BRExameHPV.html" : "BRExameHPV",
+    "ValueSet-BRDeficiencias.html" : "BRDeficiencias"
   },
   {
     "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento",
@@ -408,11 +408,11 @@
     "description" : "Esse CodeSystem inclui os conselhos profissionais de saúde do Brasil, conforme a Resolução CNS 251/1997.",
     "uses" : {
     },
+    "ValueSet-BRCRM.html" : "Conselhos regionais de Medicina do Brasil",
     "ValueSet-BRCRO.html" : "Conselhos regionais de Odontologia do Brasil",
     "ValueSet-BROutrosProfissionais.html" : "Conselhos regionais de outros profissionais da saúde do Brasil",
-    "ValueSet-BRCRM.html" : "Conselhos regionais de Medicina do Brasil",
-    "ValueSet-BRCOREN.html" : "Conselhos regionais de Enfermagem do Brasil",
-    "ValueSet-BRCRF.html" : "Conselhos regionais de Farmácia do Brasil"
+    "ValueSet-BRCRF.html" : "Conselhos regionais de Farmácia do Brasil",
+    "ValueSet-BRCOREN.html" : "Conselhos regionais de Enfermagem do Brasil"
   },
   {
     "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
@@ -858,9 +858,9 @@
     "description" : "",
     "uses" : {
     },
+    "ValueSet-BRSubGrupoTabelaSUS.html" : "BR Subgrupo Tabela SUS",
     "ValueSet-BRCategoriaProcedimento.html" : "BR Categoria Procedimento",
-    "ValueSet-BRCategoriaExame.html" : "BR Categoria Exame",
-    "ValueSet-BRSubGrupoTabelaSUS.html" : "BR Subgrupo Tabela SUS"
+    "ValueSet-BRCategoriaExame.html" : "BR Categoria Exame"
   },
   {
     "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
@@ -871,14 +871,14 @@
     "description" : "",
     "uses" : {
     },
+    "ValueSet-OCIOftalmo.html" : "OCIOftalmo",
+    "ValueSet-OCIOtorrino.html" : "OCIOtorrino",
     "ValueSet-BRDispositivo-Medico.html" : "BRDispositivo_Medico",
+    "ValueSet-OCIOnco.html" : "OCIOnco",
+    "ValueSet-BROCI-IC.html" : "BROCI-IC",
     "ValueSet-BRTabelaSUS.html" : "BRTabelaSUS",
     "ValueSet-BRTabelaSUSOCI-IC.html" : "BRTabelaSUSOCI_IC",
-    "ValueSet-OCIOtorrino.html" : "OCIOtorrino",
-    "ValueSet-OCIOftalmo.html" : "OCIOftalmo",
-    "ValueSet-OCIOrtopedia.html" : "OCIOrtopedia",
-    "ValueSet-OCIOnco.html" : "OCIOnco",
-    "ValueSet-BROCI-IC.html" : "BROCI-IC"
+    "ValueSet-OCIOrtopedia.html" : "OCIOrtopedia"
   },
   {
     "url" : "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTerminologiaPatogeno",
@@ -955,8 +955,8 @@
     "description" : "",
     "uses" : {
     },
-    "ValueSet-BRTipoIdentificador.html" : "BR Tipo Identificador",
     "ValueSet-BRTipoDocumentoIndividuo.html" : "BR Tipo Documento Individuo",
+    "ValueSet-BRTipoIdentificador.html" : "BR Tipo Identificador",
     "ValueSet-BRTipoIdentificadorProcedimento.html" : "BR Tipo Identificador Procedimento"
   },
   {

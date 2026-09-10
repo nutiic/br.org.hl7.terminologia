@@ -5,7 +5,7 @@ Description: "Esse CodeSystem inclui os conselhos profissionais de saúde do Bra
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^identifier.system = "https://saude.gov.br/fhir/sid/codesystem"
 * ^identifier.value = "BRConselhoProfissional"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #draft
 * ^experimental = true
 * ^date = "2023-07-18T10:05:57-03:00"

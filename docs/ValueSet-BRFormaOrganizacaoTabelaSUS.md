@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *URL Canônica*:https://terminologia.saude.gov.br/fhir/ValueSet/BRFormaOrganizacaoTabelaSUS | *Versão*:1.1.0 |
-| Active as of 2026-09-01 | *Nome computável*:BRFormaOrganizacaoTabelaSUS |
+| Active as of 2026-09-10 | *Nome computável*:BRFormaOrganizacaoTabelaSUS |
 
  **References** 
 
@@ -49,7 +49,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "name" : "BRFormaOrganizacaoTabelaSUS",
   "title" : "BRFormaOrganizacaoTabelaSUS",
   "status" : "active",
-  "date" : "2026-09-01T09:42:43-04:00",
+  "date" : "2026-09-10T12:01:58-04:00",
   "publisher" : "Ministério do Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério do Saúde do Brasil",

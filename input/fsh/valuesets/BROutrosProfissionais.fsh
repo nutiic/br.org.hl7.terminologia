@@ -5,7 +5,7 @@ Description: "Conjunto de todos os conselhos regionais de outros profissionais d
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^identifier.system = "https://saude.gov.br/fhir/sid/valueset"
 * ^identifier.value = "BROutrosProfissionais"
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 * ^status = #draft
 * ^experimental = true
 * ^date = "2023-07-18T10:52:24-03:00"
