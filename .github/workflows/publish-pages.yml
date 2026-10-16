@@ -33,6 +33,16 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Install Jekyll
+        run: |
+          gem install jekyll --no-document
+          jekyll --version
+
       - name: Run SUSHI
         run: npx --yes fsh-sushi@3.20.1 .
 

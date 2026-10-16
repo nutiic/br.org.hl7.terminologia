@@ -21,15 +21,21 @@ OUTPUT_DIR=${OUTPUT_DIR:-docs}
 publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
   java -jar $publisher -ig . $txoption $*
-
+  status=$?
 else
   publisher=../$publisher_jar
   if test -f "$publisher"; then
     java -jar $publisher -ig . $txoption $*
+    status=$?
   else
     echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
     exit 1
   fi
+fi
+
+if [ $status -ne 0 ]; then
+  echo "IG Publisher failed with exit code $status. $OUTPUT_DIR/ was not updated."
+  exit $status
 fi
 
 if [ -d "output" ]; then
