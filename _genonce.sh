@@ -16,8 +16,6 @@ echo "$txoption"
 
 export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
 
-OUTPUT_DIR=${OUTPUT_DIR:-docs}
-
 publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
   java -jar $publisher -ig . $txoption $*
@@ -34,16 +32,6 @@ else
 fi
 
 if [ $status -ne 0 ]; then
-  echo "IG Publisher failed with exit code $status. $OUTPUT_DIR/ was not updated."
+  echo "IG Publisher failed with exit code $status. output was not updated."
   exit $status
-fi
-
-if [ -d "output" ]; then
-  echo "Moving generated site from output/ to $OUTPUT_DIR/"
-  rm -rf "$OUTPUT_DIR"
-  mkdir -p "$OUTPUT_DIR"
-  mv output/* "$OUTPUT_DIR"
-  echo "Site copied to $OUTPUT_DIR/"
-else
-  echo "No output/ folder generated; nothing to copy."
 fi

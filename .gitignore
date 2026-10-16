@@ -6,6 +6,8 @@ fsh-generated
 node_modules
 log
 packages
+output
+docs
 
 # Don't commit this because it's so large #
 ###########################################
