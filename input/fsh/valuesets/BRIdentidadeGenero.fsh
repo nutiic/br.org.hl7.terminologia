@@ -22,3 +22,7 @@ Title: "BR Identidade Genero"
 * SNOMED_CT#407377005 "Female-to-male transsexual (finding)"
 * SNOMED_CT#407376001 "Male-to-female transsexual (finding)"
 * DataAbsentReason#asked-declined "Asked But Declined"
+* SNOMED_CT#1384187000 "Identifies as transgender (finding)"
+* SNOMED_CT#472948001 "Cross-dressing (finding)"
+* SNOMED_CT#285116001 "Gender identity finding (finding)"
+
