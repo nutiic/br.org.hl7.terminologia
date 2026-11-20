@@ -19,8 +19,8 @@ Title: "BRPosicaoIndividuo"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #5 "Deitado com inclinação para esquerda"
-* #3 "Reclinado"
-* #2 "Sentado"
 * #1 "Em pé"
+* #2 "Sentado"
+* #3 "Reclinado"
 * #4 "Deitado"
+* #5 "Deitado com inclinação para esquerda"

@@ -15,5 +15,4 @@ Title: "BR Tipo Logradouro"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRTipoLogradouro#081 "Rua"
-* BRTipoLogradouro#008 "Avenida"
+* include codes from system BRTipoLogradouro

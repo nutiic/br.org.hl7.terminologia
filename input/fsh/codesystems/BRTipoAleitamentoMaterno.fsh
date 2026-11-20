@@ -19,8 +19,8 @@ Title: "BRTipoAleitamentoMaterno"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #05 "Aleitamento materno misto ou parcial"
-* #04 "Aleitamento materno complementado"
-* #03 "Aleitamento materno"
-* #02 "Aleitamento materno predominante"
 * #01 "Aleitamento materno  exclusivo"
+* #02 "Aleitamento materno predominante"
+* #03 "Aleitamento materno"
+* #04 "Aleitamento materno complementado"
+* #05 "Aleitamento materno misto ou parcial"

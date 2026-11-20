@@ -15,5 +15,4 @@ Title: "BR Registro Origem"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRRegistroOrigem#1 "Registro anterior/Transcrição de caderneta"
-* BRRegistroOrigem#2 "Vacina no Exterior"
+* include codes from system BRRegistroOrigem

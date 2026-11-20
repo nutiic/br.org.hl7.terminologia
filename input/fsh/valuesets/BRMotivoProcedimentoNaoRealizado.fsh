@@ -15,10 +15,4 @@ Title: "BR Motivo Procedimento Nao Realizado"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRMotivoProcedimentoNaoRealizado#08 "Procedimento não concluído"
-* BRMotivoProcedimentoNaoRealizado#06 "Procedimento não desejado"
-* BRMotivoProcedimentoNaoRealizado#05 "Procedimento não oferecido"
-* BRMotivoProcedimentoNaoRealizado#04 "Procedimento não indicado"
-* BRMotivoProcedimentoNaoRealizado#03 "Procedimento não realizado"
-* BRMotivoProcedimentoNaoRealizado#02 "Procedimento descontinuado"
-* BRMotivoProcedimentoNaoRealizado#01 "Procedimento contraindicado"
+* include codes from system BRMotivoProcedimentoNaoRealizado

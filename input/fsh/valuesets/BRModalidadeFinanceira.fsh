@@ -15,5 +15,4 @@ Title: "BR Modalidade Financeira"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRModalidadeFinanceira#02 "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
-* BRModalidadeFinanceira#01 "Unidade de saúde pública ou privada, com pagamento pelo SUS"
+* include codes from system BRModalidadeFinanceira

@@ -15,8 +15,4 @@ Title: "BR Tipo Aleitamento Materno"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRTipoAleitamentoMaterno#05 "Aleitamento materno misto ou parcial"
-* BRTipoAleitamentoMaterno#04 "Aleitamento materno complementado"
-* BRTipoAleitamentoMaterno#03 "Aleitamento materno"
-* BRTipoAleitamentoMaterno#02 "Aleitamento materno predominante"
-* BRTipoAleitamentoMaterno#01 "Aleitamento materno  exclusivo"
+* include codes from system BRTipoAleitamentoMaterno

@@ -15,6 +15,4 @@ Title: "BR Condicao Maternal"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* $BRCondicaoMaternal#3 "Puérpera"
-* $BRCondicaoMaternal#1 "Nenhuma"
-* $BRCondicaoMaternal#2 "Gestante"
+* include codes from system BRCondicaoMaternal

@@ -19,9 +19,9 @@ Title: "BRRacaCor"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #05 "Indígena"
-* #04 "Amarela"
-* #03 "Parda"
-* #02 "Preta"
 * #01 "Branca"
+* #02 "Preta"
+* #03 "Parda"
+* #04 "Amarela"
+* #05 "Indígena"
 * #99 "Sem informação"

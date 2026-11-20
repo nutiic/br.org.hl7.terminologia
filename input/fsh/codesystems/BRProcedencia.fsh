@@ -19,8 +19,8 @@ Title: "BRProcedencia"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #99 "Informação ausente no modelo de origem"
-* #12 "Demanda referenciada"
-* #11 "Retorno"
-* #10 "Ordem Judicial"
 * #09 "Demanda espontânea"
+* #10 "Ordem Judicial"
+* #11 "Retorno"
+* #12 "Demanda referenciada"
+* #99 "Informação ausente no modelo de origem"

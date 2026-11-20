@@ -45,5 +45,13 @@ Title: "BRHPVInterpretacao"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2026-01-25T18:31:13.816Z"
+* #HPV16 "DETECTADO DNA de HPV 16"
+* #HPV16_18_45 "DETECTADOS DNA de HPV 16 e DNA de HPV 18/45"
+* #HPV16_18_45_OUT "DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
+* #HPV16_OUT "DETECTADOS DNA de HPV 16 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
+* #HPV18_45 "DETECTADO DNA de HPV tipo 18/45"
+* #HPV18_45_OUT "DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
+* #NAODET "NÃO DETECTADO"
+* #OUTHPV "DETECTADO DNA de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."

@@ -19,5 +19,5 @@ Title: "BRModalidadeFinanceira"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #02 "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
 * #01 "Unidade de saúde pública ou privada, com pagamento pelo SUS"
+* #02 "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"

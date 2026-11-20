@@ -19,8 +19,8 @@ Title: "TipoConvenio"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #05 "PLANO DE SAUDE PUBLICO"
-* #07 "GRATUIDADE"
-* #02 "PARTICULAR"
-* #06 "PLANO DE SAUDE PRIVADO"
 * #01 "SUS"
+* #02 "PARTICULAR"
+* #05 "PLANO DE SAUDE PUBLICO"
+* #06 "PLANO DE SAUDE PRIVADO"
+* #07 "GRATUIDADE"

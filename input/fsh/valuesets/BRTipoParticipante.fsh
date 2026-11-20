@@ -15,7 +15,4 @@ Title: "BR Tipo Participante"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRTipoParticipante#ESR "Estabelecimento de saúde regulador"
-* BRTipoParticipante#ESE "Estabelecimento de saúde executante"
-* BRTipoParticipante#ESS "Estabelecimento de saúde solicitante"
-* BRTipoParticipante#PCT "Paciente"
+* include codes from system BRTipoParticipante

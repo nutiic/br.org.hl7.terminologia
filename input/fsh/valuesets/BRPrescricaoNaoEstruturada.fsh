@@ -21,5 +21,4 @@ Id: BRPrescricaoNaoEstruturada
 * ^expansion.contains[+].system = "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido"
 * ^expansion.contains[=].code = #no-medication-info
 * ^expansion.contains[=].display = "Sem informação sobre medicamentos."
-* BRDadoAusenteOuDesconhecido#no-known-medications "Sem medicamentos conhecidos."
-* BRDadoAusenteOuDesconhecido#no-medication-info "Sem informação sobre medicamentos."
+* include codes from system BRDadoAusenteOuDesconhecido

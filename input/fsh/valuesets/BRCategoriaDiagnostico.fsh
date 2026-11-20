@@ -15,5 +15,4 @@ Title: "BR Categoria Diagnostico"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRCategoriaDiagnostico#02 "Secundário"
-* BRCategoriaDiagnostico#01 "Principal"
+* include codes from system BRCategoriaDiagnostico

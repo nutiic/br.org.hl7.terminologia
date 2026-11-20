@@ -45,5 +45,12 @@ Title: "BRIdentidadeGenero"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2026-03-24T12:46:13.558Z"
+* #homem-cisgenero "Homem cisgênero"
+* #homem-transgenero "Homem transgênero"
+* #mulher-cisgenero "Mulher cisgênero"
+* #mulher-transgenero "Mulher transgênero"
+* #nao-binario "Pessoa não binária"
+* #nao_declarar "Prefiro não declarar"
+* #travesti "Travesti"

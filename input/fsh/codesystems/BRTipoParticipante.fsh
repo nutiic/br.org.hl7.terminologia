@@ -19,7 +19,7 @@ Title: "BRTipoParticipante"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #ESR "Estabelecimento de saúde regulador"
 * #ESE "Estabelecimento de saúde executante"
+* #ESR "Estabelecimento de saúde regulador"
 * #ESS "Estabelecimento de saúde solicitante"
 * #PCT "Paciente"

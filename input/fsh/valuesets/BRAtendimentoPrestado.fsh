@@ -15,10 +15,4 @@ Title: "BR Atendimento Prestado"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRAtendimentoPrestado#04 "URGENCIA"
-* BRAtendimentoPrestado#03 "SADT"
-* BRAtendimentoPrestado#07 "REGULACAO"
-* BRAtendimentoPrestado#02 "AMBULATORIAL"
-* BRAtendimentoPrestado#06 "VIGILANCIA EM SAUDE"
-* BRAtendimentoPrestado#05 "OUTROS"
-* BRAtendimentoPrestado#01 "INTERNACAO"
+* include codes from system BRAtendimentoPrestado

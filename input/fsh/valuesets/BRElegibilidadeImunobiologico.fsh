@@ -15,5 +15,4 @@ Title: "BR Elegibilidade Imunobiologico"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRElegibilidadeImunobiologico#CNI-N "Não pertence ao CNI"
-* BRElegibilidadeImunobiologico#CNI-S "Pertence ao CNI"
+* include codes from system BRElegibilidadeImunobiologico

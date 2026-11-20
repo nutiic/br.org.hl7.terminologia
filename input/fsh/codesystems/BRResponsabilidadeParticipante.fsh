@@ -19,8 +19,8 @@ Title: "BRResponsabilidadeParticipante"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #atendimento "Profissional responsável pelo atendimento clínico Contato Assistencial"
-* #alta "Profissional que realizou a alta do indivíduo no Contato Assistencial"
 * #admissao "Profissional que admitiu do indivíduo no Contato Assistencial"
+* #alta "Profissional que realizou a alta do indivíduo no Contato Assistencial"
+* #atendimento "Profissional responsável pelo atendimento clínico Contato Assistencial"
 * #autorizador "Profissional que autorizou a realização do Contato Assistencial"
 * #solicitante "Profissional que solicitou o Contato Assistencial"

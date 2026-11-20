@@ -15,5 +15,4 @@ Title: "BR Parentesco"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRParentesco#father "Pai"
-* BRParentesco#mother "Mãe"
+* include codes from system BRParentesco

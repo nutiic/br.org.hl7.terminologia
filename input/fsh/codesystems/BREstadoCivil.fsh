@@ -46,5 +46,11 @@ Title: "BREstadoCivil"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2026-03-13T13:07:41.513Z"
+* #1 "Solteiro"
+* #2 "Casado"
+* #3 "Viúvo"
+* #4 "Separado/divorciado"
+* #5 "União estável (consensual)"
+* #9 "Ignorado"

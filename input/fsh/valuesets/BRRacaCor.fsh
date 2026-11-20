@@ -15,9 +15,4 @@ Title: "BR Raca Cor"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRRacaCor#99 "Sem informação"
-* BRRacaCor#05 "Indígena"
-* BRRacaCor#04 "Amarela"
-* BRRacaCor#03 "Parda"
-* BRRacaCor#02 "Preta"
-* BRRacaCor#01 "Branca"
+* include codes from system BRRacaCor

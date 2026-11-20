@@ -15,8 +15,4 @@ Title: "BR Responsabilidade Participante"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRResponsabilidadeParticipante#atendimento "Profissional responsável pelo atendimento clínico Contato Assistencial"
-* BRResponsabilidadeParticipante#alta "Profissional que realizou a alta do indivíduo no Contato Assistencial"
-* BRResponsabilidadeParticipante#admissao "Profissional que admitiu do indivíduo no Contato Assistencial"
-* BRResponsabilidadeParticipante#autorizador "Profissional que autorizou a realização do Contato Assistencial"
-* BRResponsabilidadeParticipante#solicitante "Profissional que solicitou o Contato Assistencial"
+* include codes from system BRResponsabilidadeParticipante

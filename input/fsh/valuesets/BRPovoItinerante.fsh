@@ -15,10 +15,4 @@ Title: "BR Povo Itinerante"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRPovoItinerante#4 "Andarilhos"
-* BRPovoItinerante#7 "Trabalhadores de área adstrita"
-* BRPovoItinerante#3 "Circenses"
-* BRPovoItinerante#6 "Assentados"
-* BRPovoItinerante#2 "Ciganos"
-* BRPovoItinerante#5 "Acampados"
-* BRPovoItinerante#1 "Situação de rua"
+* include codes from system BRPovoItinerante

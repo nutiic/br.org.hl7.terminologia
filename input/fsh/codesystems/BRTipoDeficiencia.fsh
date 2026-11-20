@@ -45,5 +45,10 @@ Title: "BRTipoDeficiencia"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2026-03-16T13:19:34.719Z"
+* #DEFAUDIT "Deficiência Auditiva"
+* #DEFFISICA "Deficiência Física"
+* #DEFINT "Deficiência Intelectual"
+* #DEFPSI "Deficiência Psicosocial"
+* #DEFVIS "Deficiência Visual"

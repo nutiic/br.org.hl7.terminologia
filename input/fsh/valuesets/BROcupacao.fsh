@@ -15,4 +15,4 @@ Title: "BR Ocupacao"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* include codes from system https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBO
+* include codes from system BRCBO

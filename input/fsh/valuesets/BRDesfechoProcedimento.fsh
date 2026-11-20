@@ -15,7 +15,4 @@ Title: "BR Desfecho Procedimento"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRDesfechoProcedimento#04 "Óbito"
-* BRDesfechoProcedimento#03 "Estabilidade Clínica"
-* BRDesfechoProcedimento#02 "Piora Clínica"
-* BRDesfechoProcedimento#01 "Melhora Clínica"
+* include codes from system BRDesfechoProcedimento

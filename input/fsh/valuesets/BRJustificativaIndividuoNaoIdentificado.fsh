@@ -15,9 +15,4 @@ Title: "BR Justificativa Individuo Nao Identificado"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRJustificativaIndividuoNaoIdentificado#99 "Sem registro no modelo de informação de origem"
-* BRJustificativaIndividuoNaoIdentificado#3 "Indivíduo com problema neurológico grave ou comatoso"
-* BRJustificativaIndividuoNaoIdentificado#2 "Indivíduo em sofrimento mental encontrado em via pública"
-* BRJustificativaIndividuoNaoIdentificado#5 "Indivíduo doador de órgãos falecido"
-* BRJustificativaIndividuoNaoIdentificado#4 "Indivíduo incapacitado por motivos sociais e/ou culturais"
-* BRJustificativaIndividuoNaoIdentificado#1 "Indivíduo acidentado grave"
+* include codes from system BRJustificativaIndividuoNaoIdentificado

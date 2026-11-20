@@ -15,8 +15,4 @@ Title: "BR Procedencia"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRProcedencia#99 "Informação ausente no modelo de origem"
-* BRProcedencia#12 "Demanda referenciada"
-* BRProcedencia#11 "Retorno"
-* BRProcedencia#10 "Ordem Judicial"
-* BRProcedencia#09 "Demanda espontânea"
+* include codes from system BRProcedencia

@@ -15,12 +15,4 @@ Title: "BR Modalidade Assistencial"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRModalidadeAssistencial#05 "Atenção Psicossocial"
-* BRModalidadeAssistencial#01 "Atenção Básica"
-* BRModalidadeAssistencial#06 "Atenção à Urgência/Emergência"
-* BRModalidadeAssistencial#07 "Ambulatorial Especializada"
-* BRModalidadeAssistencial#02 "Atenção Domiciliar"
-* BRModalidadeAssistencial#03 "Atenção Intermediária"
-* BRModalidadeAssistencial#08 "Assistência Farmacêutica"
-* BRModalidadeAssistencial#04 "Atenção Hospitalar"
-* BRModalidadeAssistencial#09 "Assistência Ambulatorial"
+* include codes from system BRModalidadeAssistencial

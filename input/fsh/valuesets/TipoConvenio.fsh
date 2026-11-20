@@ -15,8 +15,4 @@ Title: "Tipo Convenio"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* TipoConvenio#05 "PLANO DE SAUDE PUBLICO"
-* TipoConvenio#07 "GRATUIDADE"
-* TipoConvenio#02 "PARTICULAR"
-* TipoConvenio#06 "PLANO DE SAUDE PRIVADO"
-* TipoConvenio#01 "SUS"
+* include codes from system TipoConvenio

@@ -19,5 +19,5 @@ Title: "BRTipoLogradouro"
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
 * ^caseSensitive = true
 * ^content = #complete
-* #081 "Rua"
 * #008 "Avenida"
+* #081 "Rua"

@@ -15,10 +15,4 @@ Title: "BR Terminologia Patogeno"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRTerminologiaPatogeno#04 "Parapoxvirus (nome do gênero do vírus)"
-* BRTerminologiaPatogeno#07 "SARS-CoV-2"
-* BRTerminologiaPatogeno#03 "Vírus Monkeypox"
-* BRTerminologiaPatogeno#06 "Vírus Pseudovaríola"
-* BRTerminologiaPatogeno#02 "Orthopoxvirus não-varíola"
-* BRTerminologiaPatogeno#01 "Orthopoxvirus (nome do gênero do vírus)"
-* BRTerminologiaPatogeno#05 "Vírus Orf"
+* include codes from system BRTerminologiaPatogeno

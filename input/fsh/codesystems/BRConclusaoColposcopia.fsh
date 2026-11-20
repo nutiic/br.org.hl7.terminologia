@@ -45,5 +45,10 @@ Title: "BRConclusaoColposcopia"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2026-01-05T12:50:22.550Z"
+* #2663881 "Achados Colposcópicos Normais/Benignos"
+* #2663879 "Achados colposcópicos não específicos"
+* #2663877 "Achados Colposcópicos Anormais Grau 1"
+* #2663875 "Achados Colposcópicos Anormais Grau 2"
+* #2663873 "Achados Colposcópicos de Suspeita de Invasão"

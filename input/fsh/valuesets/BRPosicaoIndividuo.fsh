@@ -15,8 +15,4 @@ Title: "BR Posicao Individuo"
 * ^contact[=].telecom.value = "italo@gointerop.com"
 * ^contact[=].telecom.use = #work
 * ^jurisdiction = urn:iso:std:iso:3166#BR "Brazil"
-* BRPosicaoIndividuo#5 "Deitado com inclinação para esquerda"
-* BRPosicaoIndividuo#3 "Reclinado"
-* BRPosicaoIndividuo#2 "Sentado"
-* BRPosicaoIndividuo#1 "Em pé"
-* BRPosicaoIndividuo#4 "Deitado"
+* include codes from system BRPosicaoIndividuo

@@ -46,5 +46,13 @@ Title: "BRModalidadeTelessaude"
 * ^property[=].type = #boolean
 * ^extension.url = "http://fhir.org/FHIRsmith/StructureDefinition/ocl-codesystem"
 * ^extension.valueBoolean = true
-* ^content = #not-present
+* ^content = #complete
 * ^meta.lastUpdated = "2025-10-29T12:58:55.261Z"
+* #Teleconsulta "Teleconsulta"
+* #Teleconsultoria-assincrona "Teleconsultoria assíncrona"
+* #Teleconsultoria-sincrona "Teleconsultoria síncrona"
+* #Telediagnóstico "Telediagnóstico"
+* #Teleinterconsulta "Teleinterconsulta"
+* #Telemonitoramento "Telemonitoramento"
+* #Teleorientação "Teleorientação"
+* #Teletriagem "Teletriagem"

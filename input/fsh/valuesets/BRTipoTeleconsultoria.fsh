@@ -4,5 +4,4 @@ Title: "BRTipoTeleconsultoria"
 * ^version = "HEAD"
 * ^status = #active
 * ^publisher = "MS"
-* $BRTipoTeleconsultoria#assincrona "assíncrona"
-* $BRTipoTeleconsultoria#sincrona "síncrona"
+* include codes from system BRTipoTeleconsultoria
