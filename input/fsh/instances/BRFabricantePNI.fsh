@@ -7,13 +7,13 @@ Usage: #definition
 * extension[0].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"
 * extension[=].valueUri = "https://terminologia.saude.gov.br/fhir/NamingSystem/BRFabricantePNI"
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"
-* extension[=].valueString = "1.0.0"
+* extension[=].valueString = "1.0.1"
 * name = "BRFabricantePNI"
 * status = #active
 * kind = #codesystem
-* date = "2026-03-09T15:10:29-03:00"
-* publisher = "Ministério do Saúde do Brasil"
-* contact[0].name = "Ministério do Saúde do Brasil"
+* date = "2026-11-19T19:00:00-04:00"
+* publisher = "Ministério da Saúde do Brasil"
+* contact[0].name = "Ministério da Saúde do Brasil"
 * contact[=].telecom[0].system = #url
 * contact[=].telecom[=].value = "https://gov.br/saude"
 * contact[=].telecom[+].system = #email
